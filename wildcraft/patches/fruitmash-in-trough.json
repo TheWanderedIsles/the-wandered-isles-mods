@@ -1,0 +1,17 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "wildcraft:fruitmash",
+            "content": { "type": "item", "code": "wildcraft:pressedmash-*" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+            "foodFor": ["pig-*", "sheep-*"],
+            "foodForDesc": "trough-acceptable-pigs-sheep",
+            "textureCode": "contents-fruitmash"
+        },
+        "file": "game:blocktypes/wood/trough-large.json"
+    }
+]

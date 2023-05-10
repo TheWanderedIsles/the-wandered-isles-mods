@@ -1,0 +1,33 @@
+{
+	code: "jam",
+	perishableProps: {
+		freshHours: { avg: 1080 },
+		transitionHours: { avg: 180 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "game:block/food/meal/jam" },
+	ingredients: [
+		{ 
+			code: "honey", 
+			validStacks: [  { type: "item", code: "game:honeyportion",  shapeElement: "game:bowl/honey", cookedStack: { type: "item", code: "game:jamhoneyportion" } } ],
+			minQuantity: 2,
+			maxQuantity: 2,
+			portionSizeLitres: 0.2,
+		},
+		{
+			code: "fruit", 
+			validStacks: [
+				{ type: "item", code: "wildcrafttrees:treefruit-apricot",  shapeElement: "game:bowl/fruit" },
+				{ type: "item", code: "wildcrafttrees:treefruit-citron",  shapeElement: "game:bowl/fruit" },
+				{ type: "item", code: "wildcrafttrees:treefruit-fig",  shapeElement: "game:bowl/fruit" },
+				{ type: "item", code: "wildcrafttrees:treefruit-hawthorn",  shapeElement: "game:bowl/fruit" },
+				{ type: "item", code: "wildcrafttrees:treefruit-purpleplum",  shapeElement: "game:bowl/fruit" },
+				{ type: "item", code: "wildcrafttrees:treefruit-quince",  shapeElement: "game:bowl/fruit" },
+				{ type: "item", code: "wildcrafttrees:treefruit-pomelo",  shapeElement: "game:bowl/fruit" }
+			],
+			minQuantity: 2,
+			maxQuantity: 2
+		}
+	]
+}
