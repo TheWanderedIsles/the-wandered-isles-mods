@@ -1,0 +1,347 @@
+{
+	components: [
+		{
+			code: "testhasmet",
+			owner: "trader",
+			type: "condition",
+			variable: "entity.hasmet",
+			isNotValue: "true",
+			thenJumpTo: "firstmeet",
+			elseJumpTo: "welcomeback"
+		},
+		{
+			code: "firstmeet",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.hasmet": "true" },
+			text: [
+				{ value: "Haven't seen you around before. You just wake up?" },
+			],
+		},
+		{
+			code: "firstmeetresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "I don't know what you mean.", jumpTo: "daisies" },
+				{ value: "I think so.", jumpTo: "morning" },
+				{ value: "I might still be dreaming.", jumpTo: "dream" },
+				{ value: "Damn it's good to see a friendly face.", jumpTo: "bold" },
+			],
+		},
+
+		{
+			code: "daisies",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Your kind have been popping up like daisies across the land. Dununo where you're from. Dunno what you're doing here. None of you seem keen to talk about it." }
+			],
+		},
+		{
+			code: "daisiesresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "I'm sorry, it's better left unsaid.", jumpTo: "alright" },
+				{ value: "I'm not entirely sure myself.", jumpTo: "hm" },
+				{ value: "I'm just trying to survive. As always.", jumpTo: "always" },
+				{ value: "There are more out there... like this?", jumpTo: "strangers" }
+			],
+		},
+		{
+			code: "alright",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "That's alright, stranger. I didn't expect anything else." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "hm",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Hm, wish I could be more help to ya." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "always",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "<i>He nods soberly</i>As always." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "strangers",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "That's right. Strange-colored strangers walk the land." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "morning",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Hmph, well good morning to ya. Name's {npcname}. I roam around these parts, finding and trading what I can." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "dream",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Hah, this ain't a dream, stranger. 'Least not one you'd like to be in." }
+			]
+		},
+		{
+			code: "dreamresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "I've seen worse.", jumpTo: "notbad" },
+				{ value: "Can you not see how beautiful it is? The air, the sun, the fields... how can it be real?", jumpTo: "tired" },
+				{ value: "Perhaps you're right. There's still work to do.", jumpTo: "alwaysmore" },
+			],
+		},
+		{
+			code: "notbad",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "<i>He inhales deeply, exhales, and gives a broad smile</i>Yeah, it's not bad out here at all. Mind the beasts, though. And the damned <i>kurstzats</i>." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "tired",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "<i>They give you a tired smile</i>I can see it, friend. It's real, but it's treacherous. Demons stalk the land. And the world itself shifts." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "alwaysmore",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Aye, there's always more work to do." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "bold",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Hah, bold of you to assume I'm friendly! They call me {npcname}. Welcome to my home." }
+			],
+		},
+		{
+			code: "wellmet",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Well met." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "welcomeback",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Welcome back {playername}! What can I do for you?" }
+			]
+		},
+		{
+			code: "main",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Got anything to trade, {npcname}?", jumpTo: "opentrade" },
+				{ value: "Why gears?", jumpTo: "gears" },
+				{ value: "Why live out here like this?", jumpTo: "profit" },
+				{ value: "So there are more of you?", jumpTo: "gears" },
+				{ value: "Know of any interesting places around here?", jumpTo: "bronze" },
+				{ value: "I got the tin bronze pickaxe you asked for. Now tell me what you know.", jumpTo: "takebronze", conditions: [{ variable: "entity.requestbronze", isValue: "true" }, { variable: "entity.bronzereceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{type: 'item', code: 'pickaxe-tinbronze'}" } ] },
+				{ value: "Could you remind me where that special ruin was?", jumpTo: "maprepeat", conditions: [{ variable: "entity.bronzereceived", isValue: "true" }] },
+			]
+		},
+		{
+			code: "opentrade",
+			owner: "trader",
+			trigger: "opentrade"
+		},
+		{
+			code: "gears",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Well, they're limited, they're durable, and they're frankly useless to us. Perfect for currency. Wish they weren't so damn heavy, though." }
+			]
+		},
+		{
+			code: "gearsresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Surely you could find something better to use?", jumpTo: "specialgears" },
+				{ value: "What, you can't reproduce them?", jumpTo: "rustygears" },
+				{ value: "I see.", jumpTo: "main" }
+			]
+		},
+		{
+			code: "specialgears",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Truth is, these gears mean something special to most folks. We have no idea why they`re out here, but you can find them in the old places of the world. Or deep under the surface, if you dare. They`re the seeds of the past, they`re a promise of the future. And like as not, many of us can feel God`s grace upon them. They`re a part of something greater, as are we all" }
+			]
+		},
+		{
+			code: "holysymbols",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "These are holy symbols to us, and what could make for better trade than that which is sacred?" }
+			],
+			jumpTo: "gearsresponse"
+		},
+		{
+			code: "rustygears",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "`Fraid not. You could always pour some ore in a mold and then leave it in the rain for a while. You`d have yourself a rusty gear sure, but there`s a precision and uniformity to these that`s remarkable. They`re tough as hell, too. We`re not sure what sort of alloy was used to make them. Some folks believe they weren`t made by human hands at all, but rather by something greater." }
+			],
+			jumpTo: "gearsresponse"
+		},
+		{
+			code: "profit",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Most people live in the villages, holed up and cautious of any threats. And there certainly are threats, as you`ve likely seen. Not me, though. I like it out here. And besides, there`s a profit to be made." }
+			]
+		},
+		{
+			code: "profitresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "What are those horrible creatures?", jumpTo: "drifters" },
+				{ value: "The beasts are ravenous. Is wealth really worth all the risk?", jumpTo: "wealth" },
+				{ value: "I'd live in a nice, safe village if I could.'", jumpTo: "main" }
+			]
+		},
+		{
+			code: "drifters",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Ah, those miserable <i>kurstzats</i>. Cursed ones. Drifters. They come and go, lost in grief and rage. Punished by God, they were. They could seek atonement, but nae all they wish to do is spread more misery" }
+			]
+		},
+		{
+			code: "driftersresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Punished by God! What crime could lead to such a dreadful fate?", jumpTo: "challenged" },
+				{ value: "I saw them crawling out of a hole in the very air itself. I thought I had gone mad.", jumpTo: "bonds" },
+				{ value: "I had hoped the world could not house such horrors.", jumpTo: "afraidso" }
+			]
+		},
+		{
+			code: "challenged",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "They challenged God himself. And God cast them down into the earth to wriggle like worms. They remain there still, in the deep. It`s not safe down below. Not safe at all." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "bonds",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Aye, sometimes they slip their bonds and flee to the surface. But they are truly lost creatures. They can only wander blindly, causing what pain they may before they are inexorably drawn into their prison again." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "afraidso",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "I`m afraid so, friend. But God shares wonders in kind. He created this world and those who inhabit it. And when he shows His face to us the earth itself trembles and we tremble with it. In awe of His glory" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "wealth",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Of course. Wealth is a virtue unto itself. There may yet come a time when the Great Arks appear before us and if that happens I would show them the fruits of my labor. I would lay out before them my gears, my gold and silver, and everything else I have gathered. And if I am deemed worthy, I will join them on their endless journey" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "bronze",
+			owner: "trader",
+			type: "talk",
+			text: [ { value: "Got something big for ya. Too dangerous for me, but you might be able to handle it. I can't give away a haul like this for free, though. Bring me 500 rusty gears and show me you have a tin-bronze pickaxe and I'll tell you where to find it. Trust me, it's worth your while." } ],
+			jumpTo: "main",
+			setVariables: { "entity.requestbronze": "true" },
+		},
+		{
+			code: "takebronze",
+			owner: "trader",
+			type: "talk",
+			text: [ { value: "I appreciate that. Now listen up." } ],
+			jumpTo: "map",
+			trigger: "takefrominventory",
+			triggerdata: {type: "Item", code: "game:gear-rusty", quantity: 500 }
+		},
+		{
+			code: "map",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "I found it a couple weeks back. A massive cavern with a huge figure looming within it. Scared me senseless, so I got out of there real quick. But I could tell, it's gotta full of treasure. Full of trouble too, no doubt. I'll mark it on your map. If you're going, make sure you're prepared. It's no easy trek through the tunnels." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "locatormap-resonancearchive", stacksize: 1 },
+			setVariables: { "entity.bronzereceived": "true" },
+			jumpTo: "main"
+		},
+		{
+			code: "maprepeat",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Lost it already? Sure, I'll mark it on your map again. Good luck to you." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "locatormap-resonancearchive", stacksize: 1 },
+			jumpTo: "main"
+		},
+	]
+}
