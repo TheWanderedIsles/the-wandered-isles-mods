@@ -1,0 +1,38 @@
+[
+{
+	ingredientPattern: "FF	FF",
+	ingredients: {
+		"F": { type: "item", code: "flaxfibers", quantity:4 }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "flaxtwine", quantity:2  }
+},
+{
+	ingredientPattern: "FF	FF",
+	ingredients: {
+		"F": {type: "Item", code: "hideandfabric:fibers-wool", quantity:4 }
+	},
+	width: 2,
+	height: 2,
+	output: {type: "Item", code: "hideandfabric:twine-wool", quantity:2  }
+},
+{
+	ingredientPattern: "FF	FF",
+	ingredients: {
+		"F": {type: "Item", code: "hideandfabric:fibers-jute", quantity:4 }
+	},
+	width: 2,
+	height: 2,
+	output: {type: "Item", code: "hideandfabric:twine-jute", quantity:2  }
+},
+{
+	ingredientPattern: "FF	FF",
+	ingredients: {
+		"F": {type: "Item", code: "hideandfabric:fibers-cotton", quantity:4 }
+	},
+	width: 2,
+	height: 2,
+	output: {type: "Item", code: "hideandfabric:twine-cotton", quantity:2  }
+}
+]

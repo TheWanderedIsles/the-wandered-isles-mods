@@ -1,0 +1,278 @@
+[
+{
+		ingredientPattern: "CCA,CCB",
+		requiresTrait: "Artisan",
+		ingredients: {
+			"C": {type: "Item", code: "game:clay-blue", quantity: 16 },
+			"A": {type: "Block", code: "claywheel:claywheel", isTool: true },
+			"B": {type: "Item", code: "game:knife-*", isTool: true }
+					},
+		width: 3,
+		height: 2,
+		output: {type: "Block", code: "game:hardenedclay-blue", quantity: 8 }
+	},
+{
+		ingredientPattern: "CCA,CCB",
+		requiresTrait: "Artisan",
+		ingredients: {
+			"C": {type: "Item", code: "game:clay-fire", quantity: 16 },
+			"A": {type: "Block", code: "claywheel:claywheel", isTool: true },
+			"B": {type: "Item", code: "game:knife-*", isTool: true }
+					},
+		width: 3,
+		height: 2,
+		output: {type: "Block", code: "game:hardenedclay-fire", quantity: 8 },
+	},
+	{
+	ingredientPattern: "BBB	BCB		BBB",
+	requiresTrait: "Artisan",
+	ingredients: {
+		"C": { type: "item", code: "mortar", quantity: 4 },
+		"B": { type: "item", code: "burnedbrick-*", name: "type", quantity: 4 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "claybricks-{type}", quantity: 16  }
+},
+{
+	ingredientPattern: "SS,SS",
+	requiresTrait: "Artisan",
+	ingredients: {
+		"S": { type: "item", name: "type", code: "shingle-burned-*", quantity: 4 }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "clayshingleblock-{type}", quantity: 12  }
+},
+{
+		ingredientPattern: "FF,QB",
+		requiresTrait: "Artisan",
+		ingredients: {
+			"F": { type: "item", code: "clay-fire", quantity:4 },
+			"Q": { type: "item", code: "crushed-quartz", quantity:4 },
+			"B": { type: "item", code: "crushed-bauxite", quantity:4 },
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "refractorybrick-raw-tier1", quantity: 3  }
+	},
+	{
+		ingredientPattern: "FF,QB,P_",
+		requiresTrait: "Artisan",
+		ingredients: {
+			"F": { type: "item", code: "clay-fire", quantity:4 },
+			"Q": { type: "item", code: "crushed-quartz", quantity:4 },
+			"B": { type: "item", code: "crushed-bauxite", quantity:4 },
+			"P": { type: "item", code: "crushed-olivine", quantity:4 },
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "refractorybrick-raw-tier2", quantity: 3  }
+	},
+	{
+		ingredientPattern: "FF,QB,PI",
+		requiresTrait: "Artisan",
+		ingredients: {
+			"F": { type: "item", code: "clay-fire", quantity:4 },
+			"Q": { type: "item", code: "crushed-quartz", quantity:4 },
+			"B": { type: "item", code: "crushed-bauxite", quantity:4 },
+			"P": { type: "item", code: "crushed-olivine", quantity:4 },
+			"I": { type: "item", code: "crushed-ilmenite", quantity:4 },
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "refractorybrick-raw-tier3", quantity: 3 }
+	},
+	{
+  "ingredientPattern": "_S_,STS,_S_",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "S": { "type": "item", "code": "medieval:colorpowder-blue", "quantity": 2 }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-ashforest" }
+},
+{
+  "ingredientPattern": "_Y_,YTY,_Y_",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+	"Y": { "type": "item", "code": "medieval:colorpowder-yellow", "quantity": 2 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-beehive" }
+},
+{
+  "ingredientPattern": "PGP,PTG,GGG",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "P": { "type": "item", "code": "medieval:colorpowder-pink", "quantity": 1 },
+	"G": { "type": "item", "code": "medieval:colorpowder-gray", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-chthonic" }
+},
+{
+  "ingredientPattern": "RRR,RTR,RRR",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "R": { "type": "item", "code": "medieval:colorpowder-orange", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-copper" }
+},
+{
+  "ingredientPattern": "_S_,RTR,_S_",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "S": { "type": "item", "code": "medieval:colorpowder-white", "quantity": 1 },
+    "R": { "type": "item", "code": "medieval:colorpowder-pink", "quantity": 1}
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-cowrie" }
+},
+{
+  "ingredientPattern": "S_S,_T_,S_S",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "S": { "type": "item", "code": "medieval:colorpowder-pink", "quantity": 2 }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-earthen" }
+},
+{
+  "ingredientPattern": "WWW,WTW,GWG",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "G": { "type": "item", "code": "medieval:colorpowder-green", "quantity": 1 },
+	"W": { "type": "item", "code": "medieval:colorpowder-white", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-rain" }
+},
+{
+  "ingredientPattern": "WWW,BTB,BBB",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "W": { "type": "item", "code": "medieval:colorpowder-white", "quantity": 1 },
+	"B": { "type": "item", "code": "medieval:colorpowder-gray", "quantity": 1 },	
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-rime" }
+},
+{
+  "ingredientPattern": "GGG,WTW,RRR",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "G": { "type": "item", "code": "medieval:colorpowder-pink", "quantity": 1 },
+	"W": { "type": "item", "code": "medieval:colorpowder-white", "quantity": 1 },
+	"R": { "type": "item", "code": "medieval:colorpowder-red", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-oxblood" }
+},
+{
+  "ingredientPattern": "GYG,YTY,GYG",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "G": { "type": "item", "code": "medieval:colorpowder-gray", "quantity": 1 },
+	"Y": { "type": "item", "code": "medieval:colorpowder-white", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-loam" }
+},
+{
+  "ingredientPattern": "GGG,PTP,GPG",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "G": { "type": "item", "code": "medieval:colorpowder-green", "quantity": 1 },
+	"P": { "type": "item", "code": "medieval:colorpowder-white", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-undergrowth" }
+},
+{
+  "ingredientPattern": "SSS,YTY,OBO",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "S": { "type": "item", "code": "medieval:colorpowder-green", "quantity": 1 },
+	"Y": { "type": "item", "code": "medieval:colorpowder-brown", "quantity": 1 },
+	"O": { "type": "item", "code": "medieval:colorpowder-orange", "quantity": 1 },
+	"B": { "type": "item", "code": "medieval:colorpowder-black", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-harvest" }
+},
+{
+  "ingredientPattern": "WWW,WTW,BBB",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "W": { "type": "item", "code": "medieval:colorpowder-white", "quantity": 1 },
+	"B": { "type": "item", "code": "medieval:colorpowder-blue", "quantity": 1 },	
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-rutile" }
+},
+{
+  "ingredientPattern": "WWW,WTW,BGB",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "W": { "type": "item", "code": "medieval:colorpowder-white", "quantity": 1 },
+	"G": { "type": "item", "code": "medieval:colorpowder-green", "quantity": 1 },
+	"B": { "type": "item", "code": "medieval:colorpowder-blue", "quantity": 1 },	
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-seasalt" }
+},
+{
+  "ingredientPattern": "GPG,PTP,GGG",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "G": { "type": "item", "code": "medieval:colorpowder-green", "quantity": 1 },
+	"P": { "type": "item", "code": "medieval:colorpowder-pink", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-springflowers" }
+},
+{
+  "ingredientPattern": "GRG,PTP,RGR",
+  requiresTrait: "Artisan",
+  "ingredients": {
+    "T": { "type": "block", "code": "game:storagevessel-burned" },
+    "G": { "type": "item", "code": "medieval:colorpowder-gray", "quantity": 1 },
+	"P": { "type": "item", "code": "medieval:colorpowder-pink", "quantity": 1 },
+	"R": { "type": "item", "code": "medieval:colorpowder-red", "quantity": 1 },
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:storagevessel-volcanic" }
+}
+]
