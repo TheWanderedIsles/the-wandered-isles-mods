@@ -1,0 +1,320 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/tradeProps/buying/maxItems",
+    "value": 0,
+    "file": "game:entities/humanoid/trader-commodities.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/tradeProps/selling/list",
+    "value": [
+      {
+        "code": "feather",
+        "type": "item",
+        "stacksize": 8,
+        "stock": {
+          "avg": 80,
+          "var": 20
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "beeswax",
+        "type": "item",
+        "stacksize": 2,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 30,
+          "var": 7.5
+        }
+      },
+      {
+        "code": "charcoal",
+        "type": "item",
+        "stacksize": 8,
+        "stock": {
+          "avg": 80,
+          "var": 20
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "flaxtwine",
+        "type": "item",
+        "stacksize": 8,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "nugget-nativecopper",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "nugget-bismuthinite",
+        "type": "item",
+        "stacksize": 5,
+        "stock": {
+          "avg": 60,
+          "var": 15
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "nugget-sphalerite",
+        "type": "item",
+        "stacksize": 5,
+        "stock": {
+          "avg": 60,
+          "var": 15
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "ore-sulfur",
+        "type": "item",
+        "stacksize": 8,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 40,
+          "var": 10
+        }
+      },
+      {
+        "code": "blastingpowder",
+        "type": "item",
+        "stacksize": 2,
+        "stock": {
+          "avg": 80,
+          "var": 20
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "saltpeter",
+        "type": "item",
+        "stacksize": 8,
+        "stock": {
+          "avg": 80,
+          "var": 20
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "lime",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 120,
+          "var": 30
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "peatbrick",
+        "type": "block",
+        "stacksize": 16,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "linen-diamond-down",
+        "type": "block",
+        "stacksize": 2,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "linen-normal-down",
+        "type": "block",
+        "stacksize": 2,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "linen-offset-down",
+        "type": "block",
+        "stacksize": 2,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "linen-square-down",
+        "type": "block",
+        "stacksize": 2,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "metal-parts",
+        "type": "block",
+        "stacksize": 4,
+        "stock": {
+          "avg": 60,
+          "var": 15
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "stone-halite",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 120,
+          "var": 30
+        },
+        "price": {
+          "avg": 30,
+          "var": 7.5
+        }
+      },
+      {
+        "code": "potash",
+        "type": "item",
+        "stacksize": 10,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 30,
+          "var": 7.5
+        }
+      },
+      {
+        "code": "ore-alum",
+        "type": "item",
+        "stacksize": 8,
+        "stock": {
+          "avg": 40,
+          "var": 10
+        },
+        "price": {
+          "avg": 60,
+          "var": 15
+        }
+      },
+      {
+        "code": "paper-parchment",
+        "type": "item",
+        "stacksize": 5,
+        "stock": {
+          "avg": 30,
+          "var": 7.5
+        },
+        "price": {
+          "avg": 100,
+          "var": 25
+        }
+      },
+      {
+        "code": "resin",
+        "type": "item",
+        "stacksize": 2,
+        "stock": {
+          "avg": 50,
+          "var": 12.5
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "sewingkit",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 20,
+          "var": 5
+        },
+        "price": {
+          "avg": 30,
+          "var": 7.5
+        }
+      }
+    ],
+    "file": "game:entities/humanoid/trader-commodities.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/tradeProps/selling/maxItems",
+    "value": 0,
+    "file": "game:entities/humanoid/trader-commodities.json"
+  }
+]

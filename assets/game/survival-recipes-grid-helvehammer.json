@@ -1,0 +1,34 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "HR,BQ,BR",
+    "file": "game:recipes/grid/helvehammer.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/Q",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:metalband-*",
+      "quantity": 2
+    },
+    "file": "game:recipes/grid/helvehammer.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:rivet-*",
+      "quantity": 4
+    },
+    "file": "game:recipes/grid/helvehammer.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 2,
+    "file": "game:recipes/grid/helvehammer.json"
+  }
+]
