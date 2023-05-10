@@ -1,0 +1,44 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 15,
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/radius/var",
+    "value": 16,
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 4,
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/thickness/var",
+    "value": 15,
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/climate/maxY",
+    "value": 0.53,
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/climate/maxYRoughness",
+    "value": 1,
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/triesPerChunk",
+    "value": 0.002,
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/radius/var",
+    "value": 64,
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/thickness/var",
+    "value": 5,
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/childDeposits/0/attributes/radius/avg",
+    "value": 4,
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/childDeposits/1/attributes/radius/avg",
+    "value": 4,
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  }
+]
