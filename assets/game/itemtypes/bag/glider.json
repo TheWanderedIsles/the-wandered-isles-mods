@@ -1,0 +1,43 @@
+{
+	code: "glider",
+	class: "ItemGlider",
+	maxstacksize: 1,
+	heldTpIdleAnimation: "holdunderarm",
+	attributes: {
+		wearableAttachment: true,
+		unfoldShapeStep1: { base: "item/bag/glider-transition1"},
+		unfoldShapeStep2: { base: "item/bag/glider-transition2"},
+		attachShape: { base: "item/bag/glider-backpack" },
+		unfoldedShape: { base: "item/bag/glider-unfolded" },
+		backpack: {
+			quantitySlots: 2,
+		},
+	},
+	shape: { base: "item/bag/glider-backpack" },
+	storageFlags: 2,
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -22, y: -27, z: -27 },
+		origin: { x: 0.5, y: -0.31, z: 0.25 },
+		scale: 1.63
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.1, z: 0.2 },
+		rotation: { x: -6, y: 4, z: 158 },
+		origin: { x: 0.5, y: 0, z: 0.25 },
+		scale: 2.88
+	},
+	tpHandTransform: {
+		translation: { x: -0.3, y: 0.2, z: -0.1 },
+		rotation: { x: -101, y: -37, z: 83 },
+		origin: { x: 0.5, y: 0, z: 0.25 },
+		scale: 1.07
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 180, y: 33, z: 91 },
+		origin: { x: 0.3, y: 0, z: 0.5 },
+		scale: 4.5
+	}
+}
