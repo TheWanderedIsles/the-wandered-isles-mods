@@ -1,0 +1,43 @@
+[
+{
+		code: "leather-plain",
+		requiresTrait: "Hunter",
+		sealHours: 108,
+		ingredients: [
+			{ type: "item", code: "strongtanninportion", litres: 50, consumeLitres: 50 },
+			{ type: "item", code: "hide-prepared-small", quantity: 20 }
+		],
+		output: { type: "item", code: "leather-plain", stackSize: 25 }
+	},
+	{
+		code: "leather-plain",
+		requiresTrait: "Hunter",
+		sealHours: 108,
+		ingredients: [
+			{ type: "item", code: "strongtanninportion", litres: 50, consumeLitres: 50 },
+			{ type: "item", code: "hide-prepared-medium", quantity: 10 }
+		],
+		output: { type: "item", code: "leather-plain", stackSize: 25 }
+	},
+	{
+		code: "leather-plain",
+		requiresTrait: "Hunter",
+		sealHours: 108,
+		ingredients: [
+			{ type: "item", code: "strongtanninportion", litres: 50, consumeLitres: 50 },
+			{ type: "item", code: "hide-prepared-large", quantity: 7 }
+		],
+		output: { type: "item", code: "leather-plain", stackSize: 26 }
+	},
+	{
+		code: "leather-plain",
+		requiresTrait: "Hunter",
+		sealHours: 108,
+		ingredients: [
+			{ type: "item", code: "strongtanninportion", litres: 50, consumeLitres: 50 },
+			{ type: "item", code: "hide-prepared-huge", quantity: 4 }
+		],
+		output: { type: "item", code: "leather-plain", stackSize: 25 }
+	},
+
+]

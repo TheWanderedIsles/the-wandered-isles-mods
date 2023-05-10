@@ -1,0 +1,30 @@
+[
+{
+	code: "dilutedchromite",
+	requiresTrait: "Clothier",
+	ingredients: [
+		{ type: "item", code: "waterportion",  litres: 10 },
+		{ type: "item", code: "crushed-chromite", quantity: 1 }
+	],
+	output: { type: "item", code: "dilutedchromiteportion", litres: 10 }
+},
+{
+	code: "dilutedalum",
+	requiresTrait: "Clothier",
+	ingredients: [
+		{ type: "item", code: "waterportion",  litres: 10 },
+		{ type: "item", code: "crushed-alum", quantity: 1 }
+	],
+	output: { type: "item", code: "dilutedalumportion", litres: 10 }
+},
+{
+	code: "dilutedcassiterite",
+	requiresTrait: "Clothier",
+	ingredients: [
+		{ type: "item", code: "waterportion",  litres: 10 },
+		{ type: "item", code: "crushed-cassiterite", quantity: 1 }
+	],
+	output: { type: "item", code: "dilutedcassiteriteportion", litres: 10 }
+}
+
+]
