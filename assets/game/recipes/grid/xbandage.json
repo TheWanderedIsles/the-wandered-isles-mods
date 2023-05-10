@@ -1,0 +1,81 @@
+[
+	{
+		ingredientPattern: "WB",
+		ingredients: {
+			"W": { 	type: "block", 	code: "woodbucket"	},
+			"B": { 	type: "item", code: "bandage-clean" , quantity: 4}
+		},
+		width: 2,
+		height: 1,
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "alcoholportion" }, 
+				requiresLitres: 1
+				}
+		},
+		shapeless: true,
+		output: { type: "item", code: "bandage-alcoholed", quantity: 4  }
+	},
+	{
+		ingredientPattern: "WB",
+		ingredients: {
+			"W": {type: "block", code: "bowl-fired"},
+			"B": { type: "item", code: "bandage-clean",quantity:4}
+		},
+		width: 2,
+		height: 1,
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "alcoholportion" },
+				requiresLitres: 1
+			}
+		},
+		shapeless: true,
+		output: { type: "item", code: "bandage-alcoholed", quantity:4 }
+	},
+	{
+		ingredientPattern: "K,H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"K": { type: "item", code: "knife-*", isTool: true },
+			"H": { type: "block", code: "linen-*", quantity: 5 },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "bandage-clean", quantity: 10 }
+	},
+	{
+		ingredientPattern: "X,X",
+		enabled: true,
+		shapeless: false,
+		ingredients: {
+			"X": { type: "item", code: "flaxtwine", quantity: 10 },
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "bandage-clean", quantity: 5 }
+	},
+	{
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "block", "code": "hideandfabric:fabric-*-normal-down", quantity: 5 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:bandage-clean", "quantity": 10 }
+  },
+  {
+    "ingredientPattern": "X,X",
+    "ingredients": {
+      "X": { "type": "item", "code": "hideandfabric:twine-*", quantity: 10 }
+    },
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 2,
+    "output": { "type": "item", "code": "game:bandage-clean", "quantity": 5 }
+  }
+]

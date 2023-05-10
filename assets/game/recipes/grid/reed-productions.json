@@ -1,0 +1,25 @@
+[
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:cattailroot", quantity:8 },
+			"L": { type: "item", code: "game:compost", quantity: 16}
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:cattailroot", quantity: 12 }
+	},
+	{
+		ingredientPattern: "HL",
+		requiresTrait: "Homesteader",
+		ingredients: {
+			"H": { type: "item", code: "game:cattailroot", quantity:8 },
+			"L": { type: "item", code: "game:compost", quantity: 16}
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:cattailroot", quantity: 16}
+	},
+	
+	
+]

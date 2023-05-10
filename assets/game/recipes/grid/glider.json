@@ -1,0 +1,15 @@
+{
+	ingredientPattern: "SDS,CPC,GLG",
+	ingredients: {
+		"S": {type: "Item", code: "hammersringingfall:toolhaft-long-finished" },
+		"C": {type: "Item", code: "game:sail", quantity: 2 },
+		"G": { type: "item", code: "gear-rusty", quantity: 6 },
+		"L": { type: "item", code: "leather-plain", quantity: 4 },
+		"P": { type: "item", code: "schematic-glider" },
+		"D": {type: "Block", code: "game:linen-*" }
+	},
+	width: 3,
+	height: 3,
+	name: "glider",
+	output: { type: "item", code: "glider"  }
+}

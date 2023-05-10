@@ -1,0 +1,599 @@
+[
+{
+"ingredientPattern": "RHR,CHC,RRR",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"R": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-large",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 3,
+"name": "metal lamelar body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "R_R,CHC,RRR",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"R": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-huge",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 3,
+"name": "metal lamelar body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "RHR,CHC,RRR",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"R": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-small",
+"quantity": 4,
+},
+},
+"width": 3,
+"height": 3,
+"name": "metal lamelar body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "ROR,COC,RRR",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"R": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"O": {
+"type": "item",
+"code": "game:hide-pelt-medium",
+"quantity": 2,
+},
+},
+"width": 3,
+"height": 3,
+"name": "metal lamelar body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "RHR,R_R",
+"ingredients": {
+"R": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-small",
+"quantity": 2,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar head",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-head-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "RHR,R_R",
+"ingredients": {
+"R": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-medium",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar head",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-head-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "RHR,R_R",
+"ingredients": {
+"R": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-large",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar head",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-head-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CCC,T_T",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"T": {
+"type": "item",
+"code": "game:hide-pelt-small",
+"quantity": 2,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar legs",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-legs-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CCC,T_T",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"T": {
+"type": "item",
+"code": "game:hide-pelt-medium",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar legs",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-legs-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CCC,_T_",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metallamellae-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]
+},
+"T": {
+"type": "item",
+"code": "game:hide-pelt-large",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar legs",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-legs-lamelarar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CHC,CHC,RCR",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"R": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-small",
+"quantity": 4,
+},
+},
+"width": 3,
+"height": 3,
+"name": "metal lamelar body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CHC,CHC,RCR",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"R": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-medium",
+"quantity": 2,
+},
+},
+"width": 3,
+"height": 3,
+"name": "metal lamelar body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CHC,CHC,RCR",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"R": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-large",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 3,
+"name": "metal lamelar body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "C_C,CHC,RCR",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"R": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-huge",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 3,
+"name": "metal lamelar body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CHC,R_R",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"R": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-small",
+"quantity": 2,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar head",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-head-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CHC,R_R",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"R": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-medium",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar head",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-head-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CHC,R_R",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"R": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"H": {
+"type": "item",
+"code": "game:hide-pelt-large",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar head",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-head-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CCC,T_T",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"T": {
+"type": "item",
+"code": "game:hide-pelt-small",
+"quantity": 2,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar legs",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-legs-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CCC,T_T",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"T": {
+"type": "item",
+"code": "game:hide-pelt-medium",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar legs",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-legs-lamelar-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "CCC,_T_",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalscale-*", 
+"quantity": 2, 
+"name": "metal", 
+"allowedVariants": [ "iron" , "meteoriciron" , "steel" ]
+},
+"T": {
+"type": "item",
+"code": "game:hide-pelt-large",
+"quantity": 1,
+},
+},
+"width": 3,
+"height": 2,
+"name": "metal lamelar legs",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-legs-lamelar-{metal}",
+"quantity": 1
+}
+},
+]

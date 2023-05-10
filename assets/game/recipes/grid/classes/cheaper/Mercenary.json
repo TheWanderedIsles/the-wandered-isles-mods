@@ -1,0 +1,22 @@
+[
+{
+		ingredientPattern: "C",
+		requiresTrait: "Mercenary",
+		ingredients: {
+			"C": {type: "item", code: "medieval:coin-gold", quantity: 9}
+					},
+		width: 1,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-gold" }
+	},
+	{
+		ingredientPattern: "C",
+		requiresTrait: "Mercenary",
+		ingredients: {
+			"C": { type: "item", code: "medieval:coin-silver", quantity: 8}
+					},
+		width: 1,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-silver" }
+	},
+]

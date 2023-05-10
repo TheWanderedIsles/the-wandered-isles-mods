@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "HLH,SSS,LLL",
+	ingredients: {
+		"S": { type: "item", code: "game:stick", quantity: 4 },
+		"H": { "type": "item", "code": "hammersringingfall:hinge-*", quantity:2},
+		"L": { type: "item", code: "game:plank-*", name: "material", quantity: 8 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cage-wooden-north", quantity:2  }
+}

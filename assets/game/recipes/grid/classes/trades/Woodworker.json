@@ -1,0 +1,174 @@
+[
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Block", code: "game:log-placed-*", quantity: 16 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 4}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "game:firewood", quantity:32 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 4}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "hammersringingfall:toolhaft-short-finished", quantity: 4 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 8}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "hammersringingfall:toolhaft-medium-finished", quantity: 2 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 8}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "hammersringingfall:toolhaft-long-finished", quantity: 1 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 8}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "game:bowstave-long-dry" }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 8}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "game:bowstave-recurve-dry" }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 12}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "game:charcoal", quantity: 32 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 28}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "game:plank-*", quantity: 64 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 4}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Item", code: "game:plank-aged", quantity: 64 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 6}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Block", code: "medieval:smallplanksroofingblock-*", quantity: 32 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 64}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Block", code: "game:planks-*", quantity: 32 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 64}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Block", code: "medieval:plankscolor-*", quantity: 16 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-silver", quantity: 8}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Block", code: "medieval:largebench-*" }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 24}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Block", code: "medieval:chairw-*" }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 16}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Block", code: "medieval:tablew-*" }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 20}
+	},
+	{
+		ingredientPattern: "_C_",
+		requiresTrait: "Woodworker",
+		ingredients: {
+			"C": {type: "Block", code: "game:door-2x4gate-*" }
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 16}
+	},
+	
+	
+]

@@ -1,0 +1,25 @@
+[
+	{
+		ingredientPattern: "H,S",
+		shapeless: true,
+		ingredients: {
+			"S": { type: "item", code: "shears-*", isTool: true, toolDurabilityCost: 1 },
+			"H": { type: "item", code: "hide-scraped-small", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "paper-parchment", quantity:4 }
+	},
+	{
+		ingredientPattern: "P,S",
+		recipeGroup: 1,
+		shapeless: true,
+		ingredients: {
+			"P": { type: "item", code: "pulp-linen", quantity: 16 },
+			"S": { type: "block", code: "sieve-*", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "paper-parchment", quantity:4 },
+	}
+]

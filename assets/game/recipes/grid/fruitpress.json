@@ -1,0 +1,15 @@
+{
+	ingredientPattern: "HIF,CBR,PPP",
+	ingredients: {
+		"R": { type: "item", code: "game:resin", quantity: 4 },
+		"F": { type: "item", code: "game:fat", quantity: 2 },
+		"B": { type: "Item", code: "hammersringingfall:metalband-*", quantity:2 },
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 40 },
+		"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 6 },
+		"I": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "fruitpress-ns", quantity: 1  }
+}
