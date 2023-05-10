@@ -1,0 +1,68 @@
+[
+{
+	"code": "laccolory",
+	"sealHours": 12,
+	"ingredients": [
+	{ 
+		"type": "item", 
+		"code": "tonwexp:lacportion",  
+		"litres": 1 
+		},
+		{ 
+		"type": "item",
+		"code": "game:vegetable-onion", 		
+		"quantity": 5 
+		},
+	],
+	"output": 
+	{ 
+	"type": "item", 
+	"code": "tonwexp:laccolor-yellow", 
+	"litres": 1
+	}
+},
+{
+	"code": "laccoloro",
+	"sealHours": 12,
+	"ingredients": [
+	{ 
+		"type": "item", 
+		"code": "tonwexp:laccolor-yellow",  
+		"litres": 1 
+		},
+		{ 
+		"type": "item",
+		"code": "game:vegetable-onion", 		
+		"quantity": 5 
+		},
+	],
+	"output": 
+	{ 
+	"type": "item", 
+	"code": "tonwexp:laccolor-orange", 
+	"litres": 1
+	}
+},
+{
+	"code": "laccolorg",
+	"sealHours": 12,
+	"ingredients": [
+		{ 
+		"type": "item", 
+		"code": "tonwexp:lacportion",  
+		"litres": 1 
+		},
+		{ 
+		"type": "item",
+		"code": "game:drygrass", 		
+		"quantity": 5 
+		},
+	],
+	"output": 
+	{ 
+	"type": "item", 
+	"code": "tonwexp:laccolor-green", 
+	"litres": 1
+	}
+},
+]
