@@ -1,0 +1,482 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["lowerbody"] },
+		{ code: "lowerbody", combine: "SelectiveMultiply", onVariant: "category", states: ["medieval-pants", "medieval-pants-blue", "medieval-pants-brown", "medieval-pants-gray", "medieval-pants-green", "medieval-pants-red", "medieval-pants-white", "medieval-leather-pants", "medieval-leather-pants-black", "medieval-leather-pants-blue", "medieval-leather-pants-gray", "medieval-leather-pants-green", "medieval-leather-pants-red", "medieval-leather-pants-white", "dress-plain-large", "dress-plain-medium", "dress-plain-short", "dress-plain-extrashort", "dress-red-large", "dress-red-medium", "dress-red-short", "dress-red-extrashort", "dress-red-es-medium", "dress-red-es-extrashort", "dress-red-es-short", "dress-red-es-large", "medieval-skirt-black", "medieval-skirt-blue", "medieval-skirt-brown", "medieval-skirt-gray", "medieval-skirt-green", "medieval-skirt-red", "medieval-skirt-white", "medieval-skirt-yellow", "medieval-skirt-orange", "medieval-dress-bottom", "medieval-dress-blue-bottom", "medieval-dress-brown-bottom", "medieval-woman-coat-bottom", "fur-pants", "black", "ambar", "blackred", "whites", "ironpants", "iron", "iron1", "iron2", "reds", "dress-leather", "dress-leather1", "armor-leather-chain-pants", "manga", "hunter", "lad" ] }
+	],
+	shapeByType: {
+		"@*-(medieval-pants|medieval-pants-brown|medieval-pants-blue|medieval-pants-gray|medieval-pants-green|medieval-pants-red|medieval-pants-white|medieval-leather-pants-black|medieval-leather-pants-blue|medieval-leather-pants-gray|medieval-leather-pants-green|medieval-leather-pants-red|medieval-leather-pants-white|medieval-leather-pants|fur-pants|whites|ironpants|iron|iron1|iron2|reds|armor-leather-chain-pants|hunter|lad)": {
+			base: "game:entity/humanoid/seraph" 
+		},
+		"*-medieval-woman-coat-bottom": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-woman-coat-bottom" 
+		},
+		"*-medieval-dress-blue-bottom": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-dress-blue-bottom" 
+		},
+		"*-medieval-dress-brown-bottom": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-dress-brown-bottom" 
+		},
+		"*-medieval-dress-bottom": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-dress-bottom" 
+		},
+		"*-medieval-skirt-black": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-black" 
+		},
+		"*-medieval-skirt-blue": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-blue" 
+		},
+		"*-medieval-skirt-brown": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-brown" 
+		},
+		"*-medieval-skirt-gray": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-gray" 
+		},
+		"*-medieval-skirt-green": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-green" 
+		},
+		"*-medieval-skirt-red": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-red" 
+		},
+		"*-medieval-skirt-white": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-white" 
+		},
+		"*-medieval-skirt-yellow": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-yellow" 
+		},
+		"*-medieval-skirt-orange": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/medieval-skirt-orange" 
+		},
+		"*-dress-plain-large": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-plain-large" 
+		},
+		"*-dress-plain-medium": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-plain-medium" 
+		},
+		"*-dress-plain-short": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-plain-short" 
+		},
+		"*-dress-plain-extrashort": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-plain-extrashort" 
+		},
+		"*-dress-red-large": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-red-large" 
+		},
+		"*-dress-red-medium": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-red-medium" 
+		},
+		"*-dress-red-short": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-red-short" 
+		},
+		"*-dress-red-extrashort": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-red-extrashort" 
+		},
+		"*-dress-red-es-medium": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-red-es-medium" 
+		},
+		"*-dress-red-es-extrashort": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-red-es-extrashort" 
+		},
+		"*-dress-red-es-short": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-red-es-short" 
+		},
+		"*-dress-red-es-large": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-red-es-large" 
+		},
+		"*-ambar": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/ambar" 
+		},
+		"*-black": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/black" 
+		},
+		"*-blackred": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/blackred" 
+		},
+		"*-manga": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/manga" 
+		},
+		"*-dress-leather": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-leather" 
+		},
+		"*-dress-leather1": {
+			base: "entity/humanoid/seraph/clothing/lowerbody/dress-leather1" 
+		}
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"*-whites": { 
+			clothescategory: "lowerbody", 
+			warmth: 3 
+		},
+		"*-fur-pants": { 
+			clothescategory: "lowerbody", 
+			warmth: 3 
+		},
+		"*-hunter": { 
+			clothescategory: "lowerbody", 
+			warmth: 3 
+		},
+		"*-lad": { 
+			clothescategory: "lowerbody", 
+			warmth: 2.5 
+		},
+		"*-armor-leather-chain-pants": { 
+			clothescategory: "lowerbody",
+			warmth: 3 
+		},
+		"*-medieval-leather-pants": { 
+			clothescategory: "lowerbody", 
+			warmth: 3 
+		},
+		"*-medieval-leather-pants-*": { 
+			clothescategory: "lowerbody", 
+			warmth: 3 
+		},
+		"*-reds": { 
+			clothescategory: "lowerbody", 
+			warmth: 3 
+		},
+		"*-medieval-pants-*": {
+			clothescategory: "lowerbody",
+			warmth: 2
+		},
+		"*-medieval-pants": {
+			clothescategory: "lowerbody",
+			warmth: 2
+		},
+		"*-ironpants": {
+			clothescategory: "lowerbody",
+			warmth: 2
+		},
+		"*-iron": {
+			clothescategory: "lowerbody",
+			warmth: 2
+		},
+		"*-iron1": {
+			clothescategory: "lowerbody",
+			warmth: 2
+		},
+		"*-iron2": {
+			clothescategory: "lowerbody",
+			warmth: 2
+		},
+		"*-medieval-woman-coat-bottom": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 4
+		},
+		"*-medieval-skirt-black": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-blue": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-brown": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-gray": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-green": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-red": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-white": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-yellow": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-orange": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-skirt-black": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-dress-brown-bottom": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-dress-blue-bottom": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-ambar": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-black": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-blackred": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-manga": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-medieval-dress-bottom": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-plain-large": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-plain-medium": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-plain-short": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-plain-extrashort": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-red-large": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-red-medium": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-red-short": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-red-extrashort": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-red-es-medium": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-red-es-extrashort": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-red-es-short": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-red-es-large": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-leather": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		},
+		"*-dress-leather1": {
+			wearableAttachment: true,
+			clothescategory: "lowerbody",
+			disableElements: ["FrontShirtTile", "BackShirtTile" ],
+			warmth: 2
+		}
+	},
+	texturesByType: {
+		"@*-(medieval-pants|medieval-pants-brown|medieval-pants-blue|medieval-pants-gray|medieval-pants-green|medieval-pants-red|medieval-pants-white|medieval-leather-pants-black|medieval-leather-pants-blue|medieval-leather-pants-gray|medieval-leather-pants-green|medieval-leather-pants-red|medieval-leather-pants-white|medieval-leather-pants|fur-pants|whites|ironpants|iron|iron1|iron2|reds|armor-leather-chain-pants|hunter|lad)": {
+			"seraph": { base: "entity/humanoid/seraphclothes/{category}/{lowerbody}" }
+		},
+		"*-ambar": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-black": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-blackred": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-manga": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-dress-blue-bottom": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-dress-brown-bottom": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-woman-coat-bottom": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-dress-bottom": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-black": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-blue": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-brown": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-gray": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-green": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-red": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-white": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-yellow": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-skirt-orange": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-plain-large": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-plain-medium": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-plain-short": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-plain-extrashort": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-red-large": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-red-medium": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-red-short": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-red-extrashort": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-red-es-medium": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-red-es-extrashort": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-red-es-short": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-red-es-large": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-leather": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-dress-leather1": {
+			"seraph": { base: "game:block/transparent" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransform: {
+		translation: { x: -0.25, y: -0.1, z: 0.5 },
+		rotation: { x: 180, y: 159, z: 150 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -0.6, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+	},
+	guiTransformByType: {
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -173, y: -79, z: 38 },
+			origin: { x: 0.5, y: 0.63, z: 0.6 },
+			scale: 1.4
+		}
+	},
+	groundTransform: {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	}
+}
