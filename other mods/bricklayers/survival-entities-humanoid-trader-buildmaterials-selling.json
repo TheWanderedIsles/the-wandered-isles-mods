@@ -1,0 +1,97 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+	"code": "em:powdered-ore-boneash",
+	"type": "item",
+	    "stacksize": 22,
+	    "stock": {
+		"avg": 5,
+		"var": 3
+	    },
+	    "price": {
+		"avg": 20,
+		"var": 05
+	    }
+    },
+    "file": "game:entities/humanoid/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+	"code": "game:hardenedclay-black",
+	"type": "block",
+	    "stacksize": 8,
+	    "stock": {
+		"avg": 3,
+		"var": 1
+	    },
+	    "price": {
+		"avg": 60,
+		"var": 10
+	    }
+    },
+    "file": "game:entities/humanoid/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+	"code": "game:hardenedclay-yellow",
+	"type": "block",
+	    "stacksize": 8,
+	    "stock": {
+		"avg": 3,
+		"var": 1
+	    },
+	    "price": {
+		"avg": 40,
+		"var": 10
+	    }
+    },
+    "file": "game:entities/humanoid/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+	"code": "game:hardenedclay-red",
+	"type": "block",
+	    "stacksize": 8,
+	    "stock": {
+		"avg": 3,
+		"var": 1
+	    },
+	    "price": {
+		"avg": 40,
+		"var": 10
+	    }
+    },
+    "file": "game:entities/humanoid/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+	"code": "game:hardenedclay-orange",
+	"type": "block",
+	    "stacksize": 8,
+	    "stock": {
+		"avg": 3,
+		"var": 1
+	    },
+	    "price": {
+		"avg": 50,
+		"var": 10
+	    }
+    },
+    "file": "game:entities/humanoid/trader-buildmaterials.json",
+    "side": "Server"
+  }
+]
