@@ -16,7 +16,7 @@
 		ingredientPattern: "T	B",
 		ingredients: {
 			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ] },
-			"B": { type: "item", code: "stick" }
+			"B": { type: "item", code: "stick" }xxxz
 		},
 		Width: 1,		height: 2,
 		output: { type: "item", code: "axe-{material}", quantity: 1  }
