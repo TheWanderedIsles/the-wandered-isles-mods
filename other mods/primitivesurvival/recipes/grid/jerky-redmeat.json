@@ -1,0 +1,18 @@
+{
+  "ingredientPattern": "K,H,S",
+  "enabled": true,
+  "shapeless": true,
+  "ingredients": {
+    "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+	"S": { "type": "item", "code": "game:salt", "quantity": 8},
+    "H": { "type": "item", "code": "game:redmeat-raw", "quantity": 32 }
+  },
+  "name": "jerky-redmeat",
+  "width": 1,
+  "height": 3,
+  "output": {
+    "type": "item",
+    "code": "primitivesurvival:jerky-redmeat-raw",
+    "quantity": 48
+  }
+}
