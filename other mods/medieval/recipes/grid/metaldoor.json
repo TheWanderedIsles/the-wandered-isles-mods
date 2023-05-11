@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "HWW,_WW,HWW",
+	ingredients: {
+		"W": { type: "item", code: "game:metalplate-iron" },
+		"H": {type: "Item", code: "hammersringingfall:hinge"}
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "medieval:metaldoor-north-down-closed-left"  }
+}

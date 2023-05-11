@@ -1,0 +1,24 @@
+[
+    {
+		ingredientPattern: "WWN,WHW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 2 },
+			"N": {type: "Item", code: "hammersringingfall:nail-*", quantity: 8 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:littlebench-{wood}-north" }
+	},
+	{
+		ingredientPattern: "WWW,WHW,__N",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+    		"N": {type: "Item", code: "hammersringingfall:nail-*", quantity: 20 },
+			"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 4 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:largebench-{wood}-north" }
+	}
+]

@@ -1,0 +1,12 @@
+[
+    {
+		ingredientPattern: "CS",
+		ingredients: {
+			"C": { type: "item", code: "game:charcoal",quantity: 16},
+			"S": { type: "item", code: "game:resin", quantity:8 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "medieval:charcoalresin", quantity: 8 }
+	}
+]

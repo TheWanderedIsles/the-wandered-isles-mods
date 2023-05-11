@@ -1,0 +1,102 @@
+[
+	{
+		ingredientPattern: "XWW,HWW,XWW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", quantity:16 },
+			"X": {type: "Item", code: "hammersringingfall:hinge-*",quantity:1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:doormedieval-doorrough-north-down-closed-left"  }
+	},
+	{
+		ingredientPattern: "HW,WD",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "medieval:doormedieval-doorrough-north-down-closed-left"  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:doormedieval-doorwood-north-down-closed-left"  }
+	},
+	{
+		ingredientPattern: "HW,WD,WW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "medieval:doormedieval-doorrough-north-down-closed-left"  }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "medieval:doormedieval-doorheavy-north-down-closed-left"  }
+	},
+	{
+		ingredientPattern: "H_,WD",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "block", code: "medieval:doormedieval-doorheavy-north-down-closed-left" },
+			"D": { type: "block", code: "medieval:doormedieval-doorrough-north-down-closed-left"  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:doormedieval-doorheavytall-north-down-closed-left"  }
+	},
+	{
+		ingredientPattern: "HWW,WDB,WWB",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "medieval:doormedieval-doorrough-north-down-closed-left"  },
+      		"B": { "type": "item", "code": "hammersringingfall:metalband-*", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:doormedieval-doordoor-north-down-closed-left"  }
+	},
+	{
+		ingredientPattern: "H_,WD",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "block", code: "medieval:doormedieval-doordoor-north-down-closed-left"  },
+			"D": { type: "block", code: "medieval:doormedieval-doorrough-north-down-closed-left"  },
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:doormedieval-doordoortall-north-down-closed-left"  }
+	},
+	{
+	ingredientPattern: "HW,SW",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true  },
+		"W": { type: "item", code: "game:plank-*" },
+		"S": { type: "block", code: "game:trapdoor-closed-up-north", quantity: 1 },
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "medieval:woodentrapdoor-closed-up-north", quantity: 2  }
+	},
+	{
+	ingredientPattern: "HWB,SWB",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true  },
+		"W": { type: "item", code: "game:plank-*" },
+		"S": { type: "block", code: "game:trapdoor-closed-up-north", quantity: 1 },
+      	"B": { "type": "item", "code": "hammersringingfall:metalband-*", quantity: 4 }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "medieval:heavytrapdoor-closed-up-north", quantity: 2  }
+	},
+	{
+	ingredientPattern: "S,H,H",
+	ingredients: {
+		"S": { type: "item", code: "game:stick" },
+		"H": { type: "item", code: "game:hide-pelt-huge" }
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "medieval:doormedievalleather-doorleather-north-down-closed-left", quantity: 1  }
+	}
+]

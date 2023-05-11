@@ -1,0 +1,14 @@
+[
+
+	{
+	ingredientPattern: "P,S",
+	ingredients: {
+		"S": { type: "item", code: "game:stonebricks-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"], quantity: 8 },
+		"P": {type: "Block", code: "game:wildvine-section-north", quantity: 8 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "block", code: "medieval:mossystonebricks-{rock}", quantity: 8 }
+	}
+
+]
