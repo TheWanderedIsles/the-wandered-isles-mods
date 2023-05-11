@@ -1,0 +1,14 @@
+
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern:	[["########",
+							"########",
+							"#####___",
+							"##______"],
+						 ["########",
+							"____####",
+							"________",
+							"________"]],
+	name: "ForestAxeHead",
+	output: { type: "item", code: "forestaxehead-{metal}", stacksize: 1 }
+}

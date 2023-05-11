@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"___#####",
+		"_###_###",
+		"###__###",
+		"#_______",
+		"#_______"
+	]],
+	name: "Adze",
+	output: { type: "item", code: "indappledgroves:adzehead-{metal}"  }
+}

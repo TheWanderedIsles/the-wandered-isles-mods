@@ -1,0 +1,19 @@
+{
+	ingredientPattern: "BBB,B_B,BBB",
+	width: 3,
+	height: 3,
+	ingredients: {
+		"B": { 
+			type: "item", 
+			name: "bark",
+			code: "indappledgroves:bark-*-soaked",
+			quantity: 1
+		}
+	},
+	output: { 
+		type: "block", 
+		code: "indappledgroves:barkbasket-{bark}-east",
+		quantity: 1
+	}
+}
+

@@ -1,0 +1,26 @@
+[	
+	{
+			ingredientPattern: "T,H",
+			width: 1,
+			height: 2,
+			ingredients: {
+				"T": { 
+					type: "item", 
+					name: "toolhead",
+					code: "grubaxehead-*",
+					quantity: 1
+				},
+				"H": { 
+					type: "item", 
+					name: "stick",
+					code: "game:stick",
+					quantity: 1
+				}
+			},
+			output: { 
+				type: "item", 
+				code: "grubaxe-{toolhead}",
+				quantity: 1
+			}
+	}
+]
