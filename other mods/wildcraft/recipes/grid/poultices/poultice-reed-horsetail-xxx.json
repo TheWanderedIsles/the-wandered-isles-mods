@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Poultice reed horsetail herb",
+    "ingredientPattern": "H,C,T",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:*", "quantity": 8, "allowedVariants": ["papyrustops", "cattailtops"] },
+      "H": { "type": "block", "code": "game:flower-horsetail-free", "quantity": 16 },
+      "T": {
+        "type": "item",
+        "code": "wildcraft:herbs-*",
+        "quantity": 8,
+        "name": "herb",
+        "allowedVariants": ["thyme", "lavender", "marshmallow", "holly", "marigold", "yarrow", "sage"]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "wildcraft:poultice-reed-horsetail-{herb}", "quantity": 4 }
+  },
+  {
+    "name": "Poultice reed horsetail herb",
+    "ingredientPattern": "H,C,T",
+    "ingredients": {
+      "C": { "type": "item", "code": "wildcraft:plantfibers-*", "quantity": 8},
+      "H": { "type": "block", "code": "game:flower-horsetail-free", "quantity": 16 },
+      "T": {
+        "type": "item",
+        "code": "wildcraft:herbs-*",
+        "quantity": 8,
+        "name": "herb",
+        "allowedVariants": ["thyme", "lavender", "marshmallow", "holly", "marigold", "yarrow", "sage"]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "wildcraft:poultice-reed-horsetail-{herb}", "quantity": 4 }
+  }
+]
