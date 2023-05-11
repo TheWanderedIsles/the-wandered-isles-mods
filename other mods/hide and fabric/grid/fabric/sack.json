@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "T,L",
+  "ingredients": {
+    "T": { "type": "item", "code": "twine-*", "name": "fabric" },
+    "L": { "type": "block", "code": "fabric-*-normal-down", "name": "fabric" }
+  },
+  "width": 1,
+  "height": 2,
+  "output": { "type": "item", "code": "sack-{fabric}" }
+}

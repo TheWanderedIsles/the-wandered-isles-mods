@@ -1,0 +1,56 @@
+[
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "dilutedalumportion", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "cloth-plain", quantity: 2 }
+		],
+		output: { type: "item", code: "cloth-mordant", stackSize: 2 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "dilutedcassiteriteportion", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "cloth-plain", quantity: 2 }
+		],
+		output: { type: "item", code: "cloth-mordant", stackSize: 2 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "dilutedchromiteportion", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "cloth-plain", quantity: 2 }
+		],
+		output: { type: "item", code: "cloth-mordant", stackSize: 2 }
+	},
+	{
+		code: "mordantcloth",
+		sealHours: 8,
+		ingredients: [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 5, "consumelitres": 5 },
+			{ "type": "item", "code": "hideandfabric:cloth-*-plain", "name": "fabric", "allowedVariants": [ "cotton", "wool" ], quantity: 2 }
+		],
+		output: { type: "item", code: "hideandfabric:cloth-{fabric}-mordant", stackSize: 2 }
+	},
+	{
+		code: "mordantcloth",
+		sealHours: 8,
+		ingredients: [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 5, "consumelitres": 5 },
+			{ "type": "item", "code": "hideandfabric:cloth-*-plain", "name": "fabric", "allowedVariants": [ "cotton", "wool" ], quantity: 2 }
+		],
+		output: { type: "item", code: "hideandfabric:cloth-{fabric}-mordant", stackSize: 2 }
+	},
+	{
+		code: "mordantcloth",
+		sealHours: 8,
+		ingredients: [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 5, "consumelitres": 5 },
+			{ "type": "item", "code": "hideandfabric:cloth-*-plain", "name": "fabric", "allowedVariants": [ "cotton", "wool" ], quantity: 2 }
+		],
+		output: { type: "item", code: "hideandfabric:cloth-{fabric}-mordant", stackSize: 2 }
+	}
+]

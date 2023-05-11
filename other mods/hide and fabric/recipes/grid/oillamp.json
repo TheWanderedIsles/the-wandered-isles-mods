@@ -1,0 +1,14 @@
+[
+{
+	ingredientPattern: "T,F,B",
+	ingredients: {
+		"B": { type: "block", code: "bowl-fired" },
+		"F": { type: "item", code: "fat" },
+		"T": {type: "Item", code: "hideandfabric:fibers-*" },
+	},
+	width: 1,
+	height: 3,
+	shapeless: true,
+	output: { type: "block", code: "oillamp-up"  }
+},
+]

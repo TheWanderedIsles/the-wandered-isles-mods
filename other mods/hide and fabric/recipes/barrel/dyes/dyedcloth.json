@@ -1,0 +1,83 @@
+[
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "dye-*", name: "color", litres: 5, consumelitres: 5, allowedVariants: ["orange", "black", "red", "blue", "green", "yellow", "white", "gray", "purple", "pink"] },
+			{ type: "item", code: "cloth-mordant", quantity: 1 }
+		],
+		output: { type: "item", code: "cloth-{color}", stackSize: 1 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "strongtanninportion", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "cloth-plain", quantity: 1 }
+		],
+		output: { type: "item", code: "cloth-brown", stackSize: 1 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "strongtanninportion", litres: 5, consumelitres: 5},
+			{ type: "item", code: "cloth-mordant", quantity: 1 }
+		],
+		output: { type: "item", code: "cloth-brown", stackSize: 1 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "dye-woad", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "cloth-plain", quantity: 1 }
+		],
+		output: { type: "item", code: "cloth-blue", stackSize: 1 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "dye-woad", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "cloth-mordant", quantity: 1 }
+		],
+		output: { type: "item", code: "cloth-blue", stackSize: 1 }
+	},
+	{
+    "code": "dyecloth",
+    "sealHours": 8,
+    "ingredients": [
+      { "type": "item", "code": "game:dye-*", "name": "color", "litres": 5, "consumelitres": 5, "allowedVariants": ["orange", "black", "red", "blue", "green", "yellow", "white", "gray", "purple", "pink"] },
+      { "type": "item", "code": "hideandfabric:cloth-cotton-mordant" }
+    ],
+    "output": { "type": "item", "code": "hideandfabric:cloth-cotton-{color}" }
+  },
+  {
+    "code": "dyecloth",
+    "sealHours": 8,
+    "ingredients": [
+      { "type": "item", "code": "game:dye-*", "name": "color", "litres": 5, "consumelitres": 5, "allowedVariants": ["orange", "black", "red", "blue", "green", "yellow", "white", "gray", "purple", "pink"] },
+      { "type": "item", "code": "hideandfabric:cloth-wool-mordant" }
+    ],
+    "output": { "type": "item", "code": "hideandfabric:cloth-wool-{color}" }
+  },
+  {
+    "code": "dyecloth",
+    "sealHours": 8,
+    "ingredients": [
+      { "type": "item", "code": "game:dye-woad", "name": "color", "litres": 5, "consumelitres": 5 },
+      { "type": "item", "code": "hideandfabric:cloth-*-plain", "name": "fabric", "allowedVariants": [ "cotton", "wool" ] }
+    ],
+    "output": { "type": "item", "code": "hideandfabric:cloth-{fabric}-blue" }
+  },
+  {
+    "code": "dyecloth",
+    "sealHours": 8,
+    "ingredients": [
+      { "type": "item", "code": "game:dye-woad", "name": "color", "litres": 5, "consumelitres": 5 },
+      { "type": "item", "code": "hideandfabric:cloth-*-mordant", "name": "fabric", "allowedVariants": [ "cotton", "wool" ] }
+    ],
+    "output": { "type": "item", "code": "hideandfabric:cloth-{fabric}-blue" }
+  }
+]

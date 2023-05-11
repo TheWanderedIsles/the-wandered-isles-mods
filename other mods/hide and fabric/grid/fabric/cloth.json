@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "LS",
+  "ingredients": {
+    "L": { "type": "block", "code": "fabric-*-normal-down", "name": "fabric" },
+    "S": { "type": "item", "code": "game:stick" }
+  },
+  "width": 2,
+  "height": 1,
+  "output": { "type": "item", "code": "cloth-{fabric}-plain" }
+}

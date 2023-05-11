@@ -1,0 +1,519 @@
+[
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-small", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-medium", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-large", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-huge", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-small", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-medium", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-large", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-huge", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-small" },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-medium" },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-*", allowedVariants: ["large", "huge"] },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-small" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-medium" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-raw-*", allowedVariants: ["large", "huge"] },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-large", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-huge", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-large", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-huge", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-*", allowedVariants: ["large", "huge"], quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-*", allowedVariants: ["large", "huge"], quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 4 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-large", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-huge", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 4 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-large", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-huge", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 4 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-large", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-huge", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-*", allowedVariants: ["large", "huge"], quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "HKH,HHH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-small", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-medium", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-large", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "hide-pelt-huge", quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-upperbodyover-fur-coat"  }
+	},
+]

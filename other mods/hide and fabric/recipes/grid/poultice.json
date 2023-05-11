@@ -1,0 +1,30 @@
+[
+	
+	{
+    "ingredientPattern": "SBS,_L_",
+    "ingredients": {
+        "L": { "type": "block", "code": "hideandfabric:fabric-*-normal-down", "name": "fabric" },
+        "S": { "type": "item", "code": "game:powderedsulfur", quantity: 4 },
+        "B": { "type": "block", "code": "game:bowl-fired" }
+    },
+    "attributes": {
+        "liquidContainerProps": {
+            "requiresContent": { "type": "item", "code": "game:honeyportion" },
+           requiresLitres:1        }
+    },		
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:poultice-{fabric}-honey-sulfur", "quantity": 4  }
+},
+
+{
+    "ingredientPattern": "H,L",
+    "ingredients": {
+        "L": { "type": "block", "code": "hideandfabric:fabric-*-normal-down", "name": "fabric" },
+        "H": { "type": "block", "code": "game:flower-horsetail-free", "quantity": 16 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:poultice-{fabric}-horsetail", "quantity": 4  }
+}
+]

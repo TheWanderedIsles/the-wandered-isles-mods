@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "WLW,W_W",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*" },
+      "L": { "type": "item", "code": "cloth-cotton-*", "name": "color", allowedVariants: ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"] }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "game:chair-{color}" }
+  },
+  {
+    "ingredientPattern": "WLW,W_W",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*" },
+      "L": { "type": "item", "code": "cloth-wool-*", "name": "color", allowedVariants: ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"] }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "game:chair-{color}" }
+  }
+]
