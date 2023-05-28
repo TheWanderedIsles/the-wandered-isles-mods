@@ -1,7 +1,6 @@
 [
 	{
 		ingredientPattern: "TB,SR",
-		enabled: false,
 		ingredients: {
 			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ]  },
 		"S": {type: "Item", code: "hammersringingfall:toolhaft-medium-finished" },
