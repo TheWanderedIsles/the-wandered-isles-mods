@@ -23,6 +23,16 @@
 		ingredientPattern: "CC,CC",
 		requiresTrait: "Homesteader",
 		ingredients: {
+			"C": {type: "Item", code: "game:legume-*", quantity: 32}
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 4}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Homesteader",
+		ingredients: {
 			"C": {type: "Item", code: "game:compost", quantity: 16}
 					},
 		width: 2,

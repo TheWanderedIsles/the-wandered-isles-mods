@@ -1,7 +1,6 @@
 [
 	{
 		ingredientPattern: "TB,SR",
-		enabled: false,
 		ingredients: {
 			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ]  },
 		"S": {type: "Item", code: "hammersringingfall:toolhaft-medium-finished" },
@@ -16,7 +15,7 @@
 		ingredientPattern: "T	B",
 		ingredients: {
 			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ] },
-			"B": { type: "item", code: "stick" }xxxz
+			"B": { type: "item", code: "stick" }
 		},
 		Width: 1,		height: 2,
 		output: { type: "item", code: "axe-{material}", quantity: 1  }
