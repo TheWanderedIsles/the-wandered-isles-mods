@@ -1,2 +1,2 @@
-# Wandering-Isles-VS
+# The-Wandered-Isles
 Vintage Story Modpack mod
