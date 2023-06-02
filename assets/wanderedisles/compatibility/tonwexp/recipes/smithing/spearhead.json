@@ -1,0 +1,30 @@
+{
+    "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+            "copper",
+            "tinbronze",
+            "bismuthbronze",
+            "blackbronze",
+            "iron",
+            "meteoriciron",
+            "steel"
+        ]
+    },
+    "name": "Spear",
+    "output": {
+        "type": "item",
+        "code": "tonwexp:spearhead-{metal}"
+    },
+    "pattern": [
+        [
+            "______##______",
+            "___#######___#",
+            "##############",
+            "___#######___#",
+            "______##______"
+        ]
+    ]
+}
