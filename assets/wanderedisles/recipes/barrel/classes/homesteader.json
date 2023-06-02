@@ -1,0 +1,375 @@
+[
+	{
+		"code": "curdledmilkportion",
+		"requiresTrait": "Homesteader",
+		"sealHours": 48,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "milkportion",
+				"litres": 25
+			},
+			{
+				"type": "item",
+				"code": "pickledvegetable-*",
+				"name": "pickledvegetable",
+				"quantity": 1,
+				"allowedVariants": [
+					"carrot",
+					"onion",
+					"parsnip",
+					"pumpkin",
+					"turnip",
+					"cabbage",
+					"bellpepper"
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "curdledmilkportion",
+			"litres": 25
+		}
+	},
+	{
+		"code": "cottagecheese",
+		"requiresTrait": "Homesteader",
+		"sealHours": 24,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "curdledmilkportion",
+				"litres": 25
+			},
+			{
+				"type": "item",
+				"code": "salt"
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "cottagecheeseportion",
+			"litres": 25
+		}
+	},
+	{
+		"code": "spelt",
+		"requiresTrait": "Homesteader",
+		"sealHours": 336,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "waterportion",
+				"litres": 10
+			},
+			{
+				"type": "item",
+				"code": "flour-spelt",
+				"quantity": 8
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "ciderportion-spelt",
+			"litres": 1
+		}
+	},
+	{
+		"code": "rice",
+		"requiresTrait": "Homesteader",
+		"sealHours": 336,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "waterportion",
+				"litres": 10
+			},
+			{
+				"type": "item",
+				"code": "flour-rice",
+				"quantity": 8
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "ciderportion-rice",
+			"litres": 1
+		}
+	},
+	{
+		"code": "rye",
+		"requiresTrait": "Homesteader",
+		"sealHours": 336,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "waterportion",
+				"litres": 10
+			},
+			{
+				"type": "item",
+				"code": "flour-rye",
+				"quantity": 8
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "ciderportion-rye",
+			"litres": 1
+		}
+	},
+	{
+		"code": "amaranth",
+		"requiresTrait": "Homesteader",
+		"sealHours": 240,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "waterportion",
+				"litres": 10
+			},
+			{
+				"type": "item",
+				"code": "flour-amaranth",
+				"quantity": 8
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "ciderportion-amaranth",
+			"litres": 1
+		}
+	},
+	{
+		"code": "cassava",
+		"requiresTrait": "Homesteader",
+		"sealHours": 240,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "waterportion",
+				"litres": 10
+			},
+			{
+				"type": "item",
+				"code": "flour-cassava",
+				"quantity": 8
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "ciderportion-cassava",
+			"litres": 1
+		}
+	},
+	{
+		"code": "cider",
+		"requiresTrait": "Homesteader",
+		"sealHours": 144,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "juiceportion-*",
+				"name": "fruit",
+				"litres": 10
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "ciderportion-{fruit}",
+			"litres": 10
+		}
+	},
+	{
+		"code": "mead",
+		"requiresTrait": "Homesteader",
+		"sealHours": 240,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "honeyportion",
+				"litres": 10
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "ciderportion-mead",
+			"litres": 1
+		}
+	},
+	{
+		"code": "pickledvegetable",
+		"requiresTrait": "Homesteader",
+		"sealHours": 240,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "brineportion",
+				"litres": 50,
+				"consumeLitres": 50
+			},
+			{
+				"type": "item",
+				"code": "vegetable-*",
+				"name": "vegetable",
+				"quantity": 50,
+				"allowedVariants": [
+					"carrot",
+					"onion",
+					"parsnip",
+					"pumpkin",
+					"turnip",
+					"cabbage",
+					"bellpepper"
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "pickledvegetable-{vegetable}",
+			"stackSize": 50
+		}
+	},
+	{
+		"code": "legume",
+		"requiresTrait": "Homesteader",
+		"sealHours": 240,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "brineportion",
+				"litres": 50,
+				"consumeLitres": 50
+			},
+			{
+				"type": "item",
+				"code": "legume-*",
+				"name": "legume",
+				"quantity": 50,
+				"allowedVariants": [
+					"soybean"
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "pickledlegume-{legume}",
+			"stackSize": 50
+		}
+	},
+	{
+		"code": "compost",
+		"requiresTrait": "Homesteader",
+		"sealHours": 504,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "rot",
+				"litres": 64
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "compost",
+			"stackSize": 64
+		}
+	},
+	{
+		"code": "water1",
+		"requiresTrait": "Homesteader",
+		"sealHours": 672,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "waterportion",
+				"litres": 50
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "salt",
+			"stackSize": 10
+		}
+	},
+	{
+		"code": "water2",
+		"requiresTrait": "Homesteader",
+		"sealHours": 120,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "brineportion",
+				"litres": 10
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "salt",
+			"stackSize": 1
+		}
+	},
+	{
+		"code": "ferncompost",
+		"requiresTrait": "Homesteader",
+		"sealHours": 320,
+		"ingredients": [
+			{
+				"type": "block",
+				"code": "game:fern-*",
+				"quantity": 64,
+				"name": "fern",
+				"allowedVariants": [
+					"hartstongue",
+					"eaglefern",
+					"deerfern",
+					"cinnamonfern"
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "game:compost",
+			"stackSize": 32
+		}
+	},
+	{
+		"code": "grasscompost",
+		"requiresTrait": "Homesteader",
+		"sealHours": 320,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 64
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "game:compost",
+			"stackSize": 16
+		}
+	},
+	{
+		"code": "legume",
+		"requiresTrait": "Homesteader",
+		"sealHours": 168,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "waterportion",
+				"litres": 50,
+				"consumeLitres": 50
+			},
+			{
+				"type": "item",
+				"code": "cattailroot",
+				"quantity": 10
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "cattailroot",
+			"stackSize": 15
+		}
+	}
+]

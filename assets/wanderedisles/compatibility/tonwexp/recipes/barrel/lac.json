@@ -1,0 +1,46 @@
+[
+{
+	"code": "lacportion",
+	"sealHours": 12,
+	"ingredients": [
+		{ 
+		"type": "item",
+		"code": "game:resin",  
+		"quantity": 4 
+		},
+		{ 
+		"type": "item", 
+		"code": "game:dilutedchromiteportion",  
+		"litres": 5 
+		},
+	],
+	"output": 
+	{ 
+	"type": "item", 
+	"code": "tonwexp:lacportion", 
+	"litres": 5
+	}
+},
+{
+	"code": "lacportion",
+	"sealHours": 12,
+	"ingredients": [
+		{ 
+		"type": "item",
+		"code": "game:beeswax",  
+		"quantity": 4 
+		},
+		{ 
+		"type": "item", 
+		"code": "game:dilutedchromiteportion",  
+		"litres": 5 
+		},
+	],
+	"output": 
+	{ 
+	"type": "item", 
+	"code": "tonwexp:lacportion", 
+	"litres": 5
+	}
+}
+]

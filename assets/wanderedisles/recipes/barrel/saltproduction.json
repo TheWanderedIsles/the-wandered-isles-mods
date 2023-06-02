@@ -1,0 +1,34 @@
+[
+    {
+        "code": "water1",
+        "sealHours": 672,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:waterportion",
+                "litres": 50
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:salt",
+            "stackSize": 5
+        }
+    },
+    {
+        "code": "water2",
+        "sealHours": 120,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:brineportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:salt",
+            "stackSize": 1
+        }
+    }
+]
