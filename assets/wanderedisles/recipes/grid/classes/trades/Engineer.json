@@ -1,0 +1,169 @@
+[
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:resin*", quantity: 4}
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 2}
+	},
+	{
+		ingredientPattern: "_C_",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:club-scrap-scrap" }
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 5}
+	},
+	{
+		ingredientPattern: "_C_",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:club-scrapmace-scrap" }
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 5}
+	},
+	{
+		ingredientPattern: "_C_",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:axe-scrap-scrap" }
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 5}
+	},
+	{
+		ingredientPattern: "_C_",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:blade-scrap-scrap" }
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 5}
+	},
+	{
+		ingredientPattern: "_C_",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:spear-scrap-scrap" }
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 5}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:quicklime", quantity:32 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 16}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:paper-parchment", quantity: 10 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-silver", quantity: 4}
+	},
+		{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:book-normal-*" }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-gold", quantity: 1}
+	},
+		{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Item", code: "game:blastingpowder", quantity: 32}
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-silver", quantity: 40}
+	},
+	{
+		ingredientPattern: "_C_",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Block", code: "game:windmillrotor-north"}
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity:5}
+	},
+	{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Block", code: "game:woodenaxle-ud", quantity:4 }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 16}
+	},
+		{
+		ingredientPattern: "CC,CC",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Block", code: "game:angledgears-s" }
+					},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity: 24}
+	},
+	{
+		ingredientPattern: "_C_",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"C": {type: "Block", code: "game:largegear3" }
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-copper", quantity:40}
+	},
+	
+	{
+		ingredientPattern: "ABC,DE_",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"A": {type: "Item", code: "game:armor-head-antique-blackguard-pristine" },
+			"B": {type: "Item", code: "game:armor-body-antique-blackguard-pristine" },
+			"C": {type: "Item", code: "game:armor-legs-antique-blackguard-pristine" },
+			"D": {type: "Item", code: "game:shield-blackguard" },
+			"E": {type: "Item", code: "game:blade-blackguard-iron" },
+					},
+		width: 3,
+		height: 2,
+		output: {type: "Item", code: "canmarket:cangearpayment-gold", quantity:10}
+	},
+	{
+		ingredientPattern: "ABC",
+		requiresTrait: "Engineer",
+		ingredients: {
+			"A": {type: "Item", code: "game:armor-head-antique-forlorn-pristine" },
+			"B": {type: "Item", code: "game:armor-body-antique-forlorn-pristine" },
+			"C": {type: "Item", code: "game:armor-legs-antique-forlorn-pristine" },
+					},
+		width: 3,
+		height: 1,
+		output: {type: "Item", code: "canmarket:cangearpayment-gold", quantity:8}
+	},
+]

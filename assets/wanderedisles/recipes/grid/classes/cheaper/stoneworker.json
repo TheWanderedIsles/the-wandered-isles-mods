@@ -1,0 +1,888 @@
+[
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stone-*",
+                "allowedVariants": [
+                    "chalk",
+                    "marble",
+                    "limestone"
+                ],
+                "quantity": 32
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:lime",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-nativecopper-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-nativecopper",
+            "quantity": 7
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-gold-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-nativegold",
+            "quantity": 5
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-chromite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-chromite",
+            "quantity": 7
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-cassiterite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-cassiterite",
+            "quantity": 3
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-ilmenite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-ilmenite",
+            "quantity": 7
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-silver-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-nativesilver",
+            "quantity": 5
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-bismuthinite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-bismuthinite",
+            "quantity": 7
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-sphalerite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-sphalerite",
+            "quantity": 7
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-galena-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-galena",
+            "quantity": 7
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-poor-malachite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-malachite",
+            "quantity": 7
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-nativecopper-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-nativecopper",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-gold-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-nativegold",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-chromite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-chromite",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-cassiterite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-cassiterite",
+            "quantity": 6
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-ilmenite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-ilmenite",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-silver-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-nativesilver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-bismuthinite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-bismuthinite",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-sphalerite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-sphalerite",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-galena-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-galena",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "\"H\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:ore-medium-malachite-*",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "game:nugget-malachite",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "\"L\tS\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "quantity": 16
+            },
+            "S": {
+                "type": "block",
+                "code": "game:soil-*",
+                "quantity": 4
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:stonepath-free",
+            "quantity": 16
+        }
+    },
+    {
+        "name": "bloomerybase",
+        "requiresTrait": "Stoneworker",
+        "ingredientPattern": "\"BBB\tBBB\tB_B\"",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:burnedbrick-fire",
+                "name": "type",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:bloomerybase-north"
+        }
+    },
+    {
+        "ingredientPattern": "\"_B_\tBBB\"",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:burnedbrick-fire",
+                "name": "type",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:bloomerychimney"
+        }
+    },
+    {
+        "ingredientPattern": "A,F",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true
+            },
+            "F": {
+                "type": "block",
+                "code": "game:cobblestonebricks-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "basalt",
+                    "bauxite",
+                    "chalk",
+                    "chert",
+                    "claystone",
+                    "conglomerate",
+                    "granite",
+                    "limestone",
+                    "peridotite",
+                    "phyllite",
+                    "sandstone",
+                    "shale",
+                    "slate"
+                ],
+                "quantity": 8
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:stonebricks-{rock}",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "LLL,LCL,LLL",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "chert",
+                    "conglomerate",
+                    "limestone",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt",
+                    "peridotite",
+                    "phyllite",
+                    "slate",
+                    "bauxite",
+                    "greenmarble",
+                    "redmarble",
+                    "whitemarble"
+                ],
+                "quantity": 2
+            },
+            "C": {
+                "type": "item",
+                "code": "game:stonebrick-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "chert",
+                    "conglomerate",
+                    "limestone",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt",
+                    "peridotite",
+                    "phyllite",
+                    "slate",
+                    "bauxite",
+                    "greenmarble",
+                    "redmarble",
+                    "whitemarble"
+                ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:drystone-{rock}",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "P,S",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stonebricks-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "chert",
+                    "conglomerate",
+                    "limestone",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt",
+                    "peridotite",
+                    "phyllite",
+                    "slate",
+                    "bauxite"
+                ],
+                "quantity": 16
+            },
+            "P": {
+                "type": "Block",
+                "code": "game:wildvine-section-north",
+                "quantity": 8
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:mossystonebricks-{rock}",
+            "quantity": 16
+        }
+    },
+    {
+        "ingredientPattern": "__H,CH_,H__",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:clay-blue",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:stone-slate",
+                "quantity": 12
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofing-slate-east-free",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "CH_,H_H",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:clay-blue",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:stone-slate",
+                "quantity": 12
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofingridge-slate-ns-free",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "CH_,HHH",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:clay-blue",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:stone-slate",
+                "quantity": 12
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofingtip-slate-free",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "_H,HC,_H",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:clay-blue",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:stone-slate",
+                "quantity": 12
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofingcornerinner-slate-east-free",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "CH,HH",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:clay-blue",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:stone-slate",
+                "quantity": 12
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofingcornerouter-slate-east-free",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "BCF",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:blastingpowder",
+                "quantity": 32
+            },
+            "C": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 6
+            },
+            "F": {
+                "type": "block",
+                "code": "game:linen-*",
+                "quantity": 6
+            }
+        },
+        "name": "oreblastingbomb",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:oreblastingbomb",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "H,C,S",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "block",
+                "code": "game:rock-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "chert",
+                    "conglomerate",
+                    "limestone",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt",
+                    "peridotite",
+                    "phyllite",
+                    "slate",
+                    "redmarble",
+                    "whitemarble",
+                    "greenmarble",
+                    "bauxite",
+                    "suevite",
+                    "kimberlite"
+                ],
+                "quantity": 8
+            }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:rockpolished-{rock}",
+            "quantity": 8
+        }
+    }
+]

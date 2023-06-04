@@ -1,0 +1,2740 @@
+[
+    {
+        "enabled": false,
+		"ingredientPattern": "BCB,BPB,HN_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-copper"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:candle",
+                "quantity": 2
+            },
+            "B": {
+                "type": "item",
+                "code": "game:plank-*",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "birch",
+                    "kapok",
+                    "maple",
+                    "oak",
+                    "pine",
+                    "baldcypress",
+                    "larch",
+                    "redwood",
+                    "ebony",
+                    "walnut",
+                    "purpleheart"
+                ],
+                "name": "wood",
+                "quantity": 3
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:rivet-copper",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "primitivesurvival:woodlantern-{wood}-up",
+            "attributes": {
+                "material": "wood",
+                "lining": "plain",
+                "glass": ""
+            },
+            "quantity": 2
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "__P,_PN,PH_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofing-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "HP_,PNP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofingridge-{material}-ns-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "HPN,PPP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofingtip-{material}-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "HP,P_,NP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofingcornerinner-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "HNP,_PP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofingcornerouter-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "WNW,_W_,W_H",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "H": {
+                "tyWe": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofing-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "WW_,WNW,__H",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofingridge-{material}-ns-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "WWN,WWW,__H",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofingtip-{material}-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "WW_,W__,NWA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofingcornerinner-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "_WW,WWN,__A",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofingcornerouter-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "__P,_PN,P_H",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofing-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "_PH,PNP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofingridge-{material}-ns-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "HPN,PPP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofingtip-{material}-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "HP,P_,NP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofingcornerinner-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "NP,PP,H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksroofingcornerouter-{material}-east-free",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "WNW,_W_,WA_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-iron",
+                "quantity": 2
+            },
+            "A": {
+                "tyWe": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofing-{material}-east-free",
+            "quantity": 10
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "WW_,WNW,A__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-iron",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofingridge-{material}-ns-free",
+            "quantity": 10
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "WWN,WWW,A__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-iron",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofingtip-{material}-free",
+            "quantity": 10
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "WW_,W__,NWA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-iron",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofingcornerinner-{material}-east-free",
+            "quantity": 10
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "_WW,WWN,A__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-iron",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": {
+            "type": "block",
+            "code": "medieval:smallplanksroofingcornerouter-{material}-east-free",
+            "quantity": 10
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "HWW,NSS,A__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 4
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick",
+                "quantity": 4
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:sup-{wood}-south",
+            "quantity": 3
+        }
+    },
+    {
+        "enabled": false,
+		"ingredientPattern": "HWW,NSS,_A_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-iron",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 8
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick",
+                "quantity": 4
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:sup-{wood}-south",
+            "quantity": 6
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-black",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-black-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-blue",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-blue-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-brown",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-brown-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-gray",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-gray-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-green",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-green-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-orange",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-orange-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-pink",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-pink-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-purple",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-purple-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-red",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-red-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-white",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-white-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LFF,PNP,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-yellow",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:feather",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbed-yellow-head-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "WWN,WHW,_A_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 1
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-iron",
+                "quantity": 4
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:littlebench-{wood}-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "WWW,WHW,A_N",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-iron",
+                "quantity": 10
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:largebench-{wood}-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "WWN,WHW,A__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 1
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 8
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:littlebench-{wood}-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "WWW,WHW,_AN",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 20
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:largebench-{wood}-north"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "SPS,BPH,SPS",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 3
+            },
+            "B": {
+                "type": "Item",
+                "code": "hammersringingfall:metalband-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:medievalbarrel-{wood}",
+            "quantity": 2
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PSN,SPH",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick",
+                "quantity": 12
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:cajitafloor-none-north",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "HNA,WWS",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "material",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 2
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:littledoor-{material}-closed-up-south",
+            "quantity": 1
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "HAN,WWS",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "block",
+                "code": "game:planks-*-hor",
+                "name": "material",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 2
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 4
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:littledoorplanks-{material}-closed-up-south",
+            "quantity": 1
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "HNA,WS_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "block",
+                "code": "game:planks-*-hor",
+                "name": "material",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 2
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 4
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:littledoorplanksone-{material}-closed-up-south",
+            "quantity": 1
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-acacia",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-acacia-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WH",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-aged-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WH",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-baldcypress",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-baldcypress-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-birch",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-birch-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-ebony",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-ebony-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-kapok",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-kapok-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-larch",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-larch-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-maple",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-maple-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-pine",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-pine-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-purpleheart",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-purpleheart-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-redwood",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-redwood-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-walnut",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-walnut-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "_WH,WNW,_WA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-oak",
+                "quantity": 2
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:shelf-oak-normal-east"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-acacia",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-acacia-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-aged-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-baldcypress",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-baldcypress-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-birch",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-birch-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-ebony",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-ebony-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-kapok",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-kapok-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-larch",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-larch-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-maple",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-maple-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-pine",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-pine-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-purpleheart",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-purpleheart-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,H__",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-redwood",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-redwood-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-walnut",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-walnut-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "PPF,PPX,_H_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-oak",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "X": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:planksmedievalfencevertical-oak-ew-free",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "WW_,WW_,HNA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 8
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [
+                    "acacia",
+                    "aged",
+                    "baldcypress",
+                    "birch",
+                    "ebony",
+                    "kapok",
+                    "larch",
+                    "maple",
+                    "pine",
+                    "purpleheart",
+                    "redwood",
+                    "walnut"
+                ],
+                "quantity": 4
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick",
+                "quantity": 8
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:stairs-{wood}-south",
+            "quantity": 6
+        }
+    },
+	{
+        "ingredientPattern": "LA_,HHH,WNW",
+        "requiresTrait": "Woodworker",
+        "enabled": false,
+        "ingredients": {
+            "L": {
+                "type": "block",
+                "code": "hideandfabric:fabric-*-normal-down",
+                "quantity": 3
+            },
+            "H": {
+                "type": "block",
+                "code": "game:hay-normal-*",
+                "quantity": 4
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 10
+            },
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:bed-wood-head-north"
+        }
+    },
+	{
+        "enabled": false,
+        "ingredientPattern": "PHP,SPS,PNP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "quantity": 1
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:nail-*",
+                "quantity": 2
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick",
+                "quantity": 4
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "lichen:cresentchair-{wood}-east",
+            "quantity": 1
+        }
+    },
+	{
+        "ingredientPattern": "HLA",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            },
+            "L": {
+                "type": "block",
+                "code": "game:debarkedlog-*-ud",
+                "name": "wood"
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-{wood}",
+            "quantity": 3
+        }
+    }
+	,{
+        "ingredientPattern": "SLH",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "L": {
+                "type": "block",
+                "code": "game:log-placed-*-ud",
+                "name": "wood"
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "recipeGroup": 1,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:plank-{wood}",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "SLH",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "L": {
+                "type": "block",
+                "code": "game:logsection-placed-*-ne-ud",
+                "name": "wood"
+            },
+            "H": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "recipeGroup": 1,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:plank-{wood}",
+            "quantity": 12
+        }
+    },
+	{
+        "ingredientPattern": "SPP",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 8
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:woodenpath-ns",
+            "quantity": 16
+        }
+    }
+]

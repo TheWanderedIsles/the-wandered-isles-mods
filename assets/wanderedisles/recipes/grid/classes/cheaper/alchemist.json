@@ -1,0 +1,48 @@
+[
+    {
+        "ingredientPattern": "\"LLL\tLLL\tLCL\"",
+        "requiresTrait": "Alchemist",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:papyrustops",
+                "quantity": 3
+            },
+            "C": {
+                "type": "item",
+                "code": "game:clay-*",
+                "quantity": 2
+            }
+        },
+        "name": "skep",
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:skep-empty-east"
+        }
+    },
+    {
+        "ingredientPattern": "F,B,B",
+        "requiresTrait": "Alchemist",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:beeswax",
+                "quantity": 4
+            },
+            "F": {
+                "type": "Item",
+                "code": "game:flaxfibers",
+                "quantity": 6
+            }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:candle",
+            "quantity": 6
+        }
+    }
+]
