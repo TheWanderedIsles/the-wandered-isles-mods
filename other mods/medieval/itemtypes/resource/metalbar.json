@@ -1,8 +1,10 @@
 {
 	code: "metalbar",
+	variantgroups: [ { code:"metal", states: ["molybdochalkos", "silver" , "gold", "copper", "brass"] } ],
 
 
-	shape: { "base": "item/resource/metalbar" },
+	shape: { "base": "medieval:item/resource/metalbar" },
+	textures: { "metal": { base: "medieval:block/metal/ingot/{metal}" } },
 
 	creativeinventory: { "general": ["*"], "items": ["*"], "medieval": ["*"] },
 	maxstacksize: 128,
