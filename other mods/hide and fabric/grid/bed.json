@@ -1,13 +1,17 @@
 [
-  {
-    "ingredientPattern": "L__,HHH,WWW",
+		
+	{
+    "ingredientPattern": "L__,HHH,WNW",
     "ingredients": {
-      "L": { "type": "block", "code": "fabric-*-normal-down" },
-      "H": { "type": "block", "code": "game:hay-normal-*" },
-      "W": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+      "L": { "type": "block", "code": "hideandfabric:fabric-*-normal-down", quantity: 3 },
+      "H": { "type": "block", "code": "game:hay-normal-*", quantity: 4 },
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 8 },
+		"N": {type: "Item", code: "hammersringingfall:nail-*", quantity:10 }
     },
     "width": 3,
     "height": 3,
     "output": { "type": "block", "code": "game:bed-wood-head-north" }
-  }
+	},
+	
+	
 ]

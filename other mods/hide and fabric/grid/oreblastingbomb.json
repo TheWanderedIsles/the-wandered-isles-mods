@@ -1,13 +1,16 @@
+[
+
 {
-  "ingredientPattern": "BCF",
-  "ingredients": {
-    "B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
-    "C": { "type": "item", "code": "twine-*" },
-    "F": { "type": "block", "code": "fabric-*-normal-down" }
-  },
-  "name": "oreblastingbomb",
-  "width": 3,
-  "height": 1,
-  "shapeless": true,
-  "output": { "type": "block", "code": "game:oreblastingbomb", "quantity": 8 }
+	ingredientPattern: "BCF",
+	ingredients: {
+		"B": { type: "item", code: "blastingpowder", quantity: 16 },
+    "C": { "type": "item", "code": "hideandfabric:twine-*", quantity: 4 } ,
+    "F": { "type": "block", "code": "hideandfabric:fabric-*", quantity: 4 } 
+	},
+	name: "oreblastingbomb",
+	width: 3,
+	height: 1,
+	shapeless: true,
+	output: { type: "block", code: "oreblastingbomb", quantity: 16  }
 }
+]

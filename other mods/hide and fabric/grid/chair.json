@@ -1,22 +1,29 @@
 [
-  {
-    "ingredientPattern": "WLW,W_W",
+	{
+    "ingredientPattern": "WLW,WNW",
     "ingredients": {
       "W": { "type": "item", "code": "game:plank-*" },
-      "L": { "type": "item", "code": "cloth-cotton-*", "name": "color", allowedVariants: ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"] }
+      "L": { "type": "item", "code": "hideandgabric:cloth-cotton-*", "name": "color", allowedVariants: ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"] },
+		"N": {type: "Item", code: "hammersringingfall:nail-*", quantity:4 }
     },
     "width": 3,
     "height": 2,
     "output": { "type": "block", "code": "game:chair-{color}" }
   },
   {
-    "ingredientPattern": "WLW,W_W",
+    "ingredientPattern": "WLW,WNW",
     "ingredients": {
       "W": { "type": "item", "code": "game:plank-*" },
-      "L": { "type": "item", "code": "cloth-wool-*", "name": "color", allowedVariants: ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"] }
+      "L": { "type": "item", "code": "hideandfabric:cloth-wool-*", "name": "color", allowedVariants: ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"] },
+		"N": {type: "Item", code: "hammersringingfall:nail-*", quantity:4 }
     },
     "width": 3,
     "height": 2,
     "output": { "type": "block", "code": "game:chair-{color}" }
-  }
+  },
+  
+  
+  
+  
+  
 ]

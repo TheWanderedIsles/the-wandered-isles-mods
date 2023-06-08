@@ -1,0 +1,235 @@
+[
+
+	{
+		ingredientPattern: "LLL,TST,LLL",
+		ingredients: {
+			"L": { type: "item", code: "*", allowedVariants: ["papyrustops", "cattailtops" ], quantity: 8 },
+			"T": { type: "item", code: "hideandfabric:twine-*" , quantity: 1 },
+			"S": { type: "item", code: "basket"  }
+		},
+		name: "wickerpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:wickerpack"  }
+	},
+	{
+		ingredientPattern: "LML,TST,LLL",
+		ingredients: {
+			"L": { type: "item", code: "*", allowedVariants: ["papyrustops", "cattailtops" ], quantity: 12 },
+			"T": { type: "item", code: "hideandfabric:twine-*" , quantity: 1 },
+			"S": { type: "item", code: "morebags:wickerpack"  },
+			"M": {type: "Item", code: "game:metalbit-copper", quantity: 10 }
+		},
+		name: "wickerminingpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:wickerminingpack"  }
+	},
+	
+	
+	{
+	  "ingredientPattern": "T,L",
+	  "ingredients": {
+		"T": { "type": "item", "code": "hideandfabric:twine-*", "name": "fabric" },
+		"L": { "type": "block", "code": "hideandfabric:fabric-jute-*"}
+	  },
+	  "width": 1,
+	  "height": 2,
+	  "output": { "type": "item", "code": "hideandfabric:sack-jute" }
+	},
+		{
+	  "ingredientPattern": "T,L",
+	  "ingredients": {
+		"T": { "type": "item", "code": "hideandfabric:twine-*", "name": "fabric" },
+		"L": { "type": "block", "code": "hideandfabric:fabric-cotton-*"}
+	  },
+	  "width": 1,
+	  "height": 2,
+	  "output": { "type": "item", "code": "hideandfabric:sack-cotton" }
+	},
+	{
+		ingredientPattern: "CCC,LPL,TFT",
+		ingredients: {
+			"C": { type: "item", code: "hideandfabric:cloth-cotton-*", quantity: 3 },
+			"L": { type: "item", code: "game:leather-*", quantity: 4 },
+			"P": { type: "item", code: "morebags:packframe"},
+			"T": { type: "item", code: "hideandfabric:twine-*" , quantity: 3 },
+			"F": { type: "item", code: "miningbag", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:miningpack"  }
+	},
+	{
+	ingredientPattern: "TST,LLL",
+	ingredients: {
+		"T": { type: "Item", code: "game:sewingkit", quantity:2 },
+		"L": { type: "block", code: "hideandfabric:fabric-cotton-*" , quantity: 2 },
+		"S": { type: "item", code: "hideandfabric:sack-cotton"  }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "medieval:big-sack"  }
+	},
+	{
+	ingredientPattern: "TST,LLL,_G_",
+	ingredients: {
+		"G": { type: "Item", code: "game:metalplate-gold" },
+		"T": { type: "Item", code: "game:sewingkit", quantity:3 },
+		"L": { type: "block", code: "hideandfabric:fabric-cotton-*" , quantity: 3 },
+		"S": { type: "item", code: "medieval:big-sack"  }
+	},
+		width: 3,
+		height: 2,
+		output: {type: "Item", code: "medieval:huge-sack" }
+	},
+		{
+		ingredientPattern: "LLL,TST,CFC",
+		ingredients: {
+			"C": { type: "block", code: "hideandfabric:fabric-cotton-*" , quantity: 3 },
+			"L": { type: "item", code: "hideandfabric:cloth-cotton-*", quantity: 1 },
+			"T": { type: "Item", code: "game:sewingkit", quantity:4 },
+			"S": { type: "item", code: "medieval:huge-sack"  },
+			"F": { type: "item", code: "morebags:packframe", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:framepack"  }
+	},
+	
+	{
+	  "ingredientPattern": "T,L",
+	  "ingredients": {
+		"T": { "type": "item", "code": "hideandfabric:twine-*", "name": "fabric" },
+		"L": { "type": "block", "code": "hideandfabric:fabric-wool-*"}
+	  },
+	  "width": 1,
+	  "height": 2,
+	  "output": { "type": "item", "code": "hideandfabric:sack-wool" }
+	},
+	{
+	ingredientPattern: "TLT,PBP",
+	ingredients: {
+		"T": { type: "item", code: "flaxtwine" },
+		"L": { type: "block", code: "hideandfabric:fabric-*"  },
+		"B": { type: "item", code: "hideandfabric:sack-*" },
+		"P": { type: "item", code: "metalbit-*", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze"], quantity:10 }
+	},
+	width: 3,
+	height: 2,
+	name: "miningbag",
+	output: { type: "item", code: "miningbag"  }
+	},
+	{
+		ingredientPattern: "CCC,LPL,TFT",
+		ingredients: {
+			"C": { type: "item", code: "hideandfabric:cloth-wool-*", quantity: 3 },
+			"L": { type: "item", code: "game:leather-*", quantity: 4 },
+			"P": { type: "item", code: "morebags:packframe"},
+			"T": { type: "item", code: "hideandfabric:twine-*" , quantity: 3 },
+			"F": { type: "item", code: "miningbag", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:miningpack"  }
+	},
+	{
+	ingredientPattern: "TST,LLL",
+	ingredients: {
+		"T": { type: "Item", code: "game:sewingkit", quantity:2 },
+		"L": { type: "block", code: "hideandfabric:fabric-wool-*" , quantity: 2 },
+		"S": { type: "item", code: "hideandfabric:sack-wool"  }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "medieval:big-sack"  }
+	},
+	{
+	ingredientPattern: "TST,LLL,_G_",
+	ingredients: {
+		"G": { type: "Item", code: "game:metalplate-gold" },
+		"T": { type: "Item", code: "game:sewingkit", quantity:3 },
+		"L": { type: "block", code: "hideandfabric:fabric-wool-*" , quantity: 3 },
+		"S": { type: "item", code: "medieval:big-sack"  }
+	},
+		width: 3,
+		height: 2,
+		output: {type: "Item", code: "medieval:huge-sack" }
+	},
+		{
+		ingredientPattern: "LLL,TST,CFC",
+		ingredients: {
+			"C": { type: "block", code: "hideandfabric:fabric-wool-*" , quantity: 3 },
+			"L": { type: "item", code: "hideandfabric:cloth-wool-*", quantity: 1 },
+			"T": { type: "Item", code: "game:sewingkit", quantity:4 },
+			"S": { type: "item", code: "medieval:huge-sack"  },
+			"F": { type: "item", code: "morebags:packframe", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:framepack"  }
+	},
+	
+	
+	
+	
+	
+	
+	{
+	ingredientPattern: "LLL,TMT,LLL",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 4 },
+		"T": { type: "item", code: "game:sewingkit", quantity: 2 },
+		"M": {type: "Item", code: "game:metalbit-copper", quantity: 10 }
+	},
+	width: 3,
+	height: 3,
+	name: "backpack",
+	output: { type: "item", code: "medieval:medieval-belt-bag"  }
+	},
+	{
+	ingredientPattern: "LML,TBT,LML",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 8 },
+		"T": { type: "item", code: "game:sewingkit", quantity: 2 },
+		"M": { type: "Item", code: "game:metalbit-*", quantity: 10, allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze"] },
+		"B": { type: "item", code: "medieval:medieval-belt-bag"  }
+	},
+	width: 3,
+	height: 3,
+	name: "backpack",
+	output: { type: "item", code: "game:backpack"  }
+	},
+	{
+	ingredientPattern: "LBL,TPT,LML",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 12 },
+		"T": { type: "item", code: "game:sewingkit", quantity: 2 },
+		"M": { type: "item", code: "morebags:packframe", quantity: 1 },
+		"B": { type: "item", code: "game:backpack"  },
+		"P": { type: "item", code: "game:metalplate-*", quantity: 1, allowedVariants: ["meteoriciron", "iron"] },
+	},
+		width: 3,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "medieval:medievalbackpack"  }
+	},
+	{
+		ingredientPattern: "LBL,TPT,LML",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 16 },
+		"T": { type: "item", code: "game:sewingkit", quantity: 2 },
+		"M": { type: "item", code: "morebags:packframe", quantity: 1 },
+		"B": { type: "item", code: "medieval:medievalbackpack"  },
+		"P": { type: "item", code: "game:metalplate-steel"}
+	},
+		width: 3,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "medieval:big-backpack"  }
+	},
+	
+	
+	
+	
+]
