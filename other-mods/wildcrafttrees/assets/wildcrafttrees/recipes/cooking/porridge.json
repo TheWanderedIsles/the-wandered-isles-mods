@@ -1,0 +1,86 @@
+{
+	code: "porridge",
+	perishableProps: {
+		freshHours: { avg: 96 },
+		transitionHours: { avg: 24 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "game:block/food/meal/porridge" },
+	ingredients: [
+		{ 
+			code: "grainbase", 
+			validStacks: [  { type: "item", code: "game:grain-*",  shapeElement: "game:bowl/grain/*" } ],
+			minQuantity: 2,
+			maxQuantity: 4
+		},
+		{
+			code: "fruit-extra", 
+			validStacks: [
+			{ type: "item", code: "wildcrafttrees:treefruit-apricot",  shapeElement: "game:bowl/fruit 1/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-citron",  shapeElement: "game:bowl/fruit 1/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-fig",  shapeElement: "game:bowl/fruit 1/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-hawthorn",  shapeElement: "game:bowl/fruit 1/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-purpleplum",  shapeElement: "game:bowl/fruit 1/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-quince",  shapeElement: "game:bowl/fruit 1/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-pomelo",  shapeElement: "game:bowl/fruit 1/*" }
+			],
+			minQuantity: 0,
+			maxQuantity: 1
+		},
+		{
+			code: "fruit-extra-2", 
+			validStacks: [ 
+			{ type: "item", code: "wildcrafttrees:treefruit-apricot",  shapeElement: "game:bowl/fruit 2/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-citron",  shapeElement: "game:bowl/fruit 2/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-fig",  shapeElement: "game:bowl/fruit 2/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-hawthorn",  shapeElement: "game:bowl/fruit 2/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-purpleplum",  shapeElement: "game:bowl/fruit 2/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-quince",  shapeElement: "game:bowl/fruit 2/*" },
+			{ type: "item", code: "wildcrafttrees:treefruit-pomelo",  shapeElement: "game:bowl/fruit 2/*" }
+			],
+			minQuantity: 0,
+			maxQuantity: 1
+		},
+		{
+			code: "vegetable-extra", 
+			validStacks: [ 
+				{ type: "item", code: "game:vegetable-cabbage",  shapeElement: "game:bowl/vegetable 1/*" },
+				{ type: "item", code: "game:vegetable-carrot",  shapeElement: "game:bowl/vegetable 1/*" },
+				{ type: "item", code: "game:vegetable-onion",  shapeElement: "game:bowl/vegetable 1/*" },
+				{ type: "item", code: "game:vegetable-parsnip",  shapeElement: "game:bowl/vegetable 1/*" },
+				{ type: "item", code: "game:vegetable-turnip",  shapeElement: "game:bowl/vegetable 1/*" },
+				{ type: "item", code: "game:vegetable-pumpkin",  shapeElement: "game:bowl/vegetable 1/*" },
+				{ type: "item", code: "game:vegetable-cassava",  shapeElement: "game:bowl/vegetable 1/*" },
+				{ type: "item", code: "game:vegetable-bellpepper",  shapeElement: "game:bowl/vegetable 1/*" },
+				{ type: "item",  code: "game:mushroom-*",  shapeElement: "game:bowl/vegetable 1/*" }
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+		},
+		{
+			code: "vegetable-extra-2", 
+			validStacks: [ 
+				{ type: "item", code: "game:vegetable-cabbage",  shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:vegetable-carrot",  shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:vegetable-onion",  shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:vegetable-parsnip",  shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:vegetable-turnip",  shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:vegetable-pumpkin",  shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:vegetable-cassava",  shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:vegetable-bellpepper",  shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:mushroom-*", shapeElement: "game:bowl/vegetable 2/*" },
+				{ type: "item", code: "game:pickledvegetable-*",  shapeElement: "game:bowl/vegetable 2/*" },
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+		},
+		{
+			code: "topping", 
+			validStacks: [ { type: "item", code: "game:honeyportion",  shapeElement: "game:bowl/topping/*", cookedStack: { type: "item", code: "game:jamhoneyportion" } } ],
+			minQuantity: 0,
+			maxQuantity: 1,
+			portionSizeLitres: 0.2,
+		}
+	]
+}

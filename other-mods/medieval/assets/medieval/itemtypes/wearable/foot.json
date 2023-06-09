@@ -1,0 +1,614 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["foot"] },		
+		{ code: "foot", combine: "SelectiveMultiply", onVariant: "category", states: [ "medieval-great-steppe-womans-boots", "medieval-great-steppe-woman-boots", "medieval-great-steppe-boots", "medieval-warm-high-boots", "medieval-high-boots", "medieval-high-boots-black", "medieval-high-boots-blue", "medieval-high-boots-gray", "medieval-high-boots-green", "medieval-high-boots-red", "medieval-high-boots-white", "medieval-high-boots-knife", "medieval-high-boots-knife-black", "medieval-high-boots-knife-blue", "medieval-high-boots-knife-gray", "medieval-high-boots-knife-green", "medieval-high-boots-knife-red", "medieval-high-boots-knife-white", "medieval-boots", "medieval-boots-black", "medieval-boots-blue", "medieval-boots-gray", "medieval-boots-green", "medieval-boots-red", "medieval-boots-white", "medieval-woman-shoes", "medieval-woman-shoes-black", "medieval-woman-shoes-blue", "medieval-woman-shoes-gray", "medieval-woman-shoes-green", "medieval-woman-shoes-red", "medieval-woman-shoes-white", "medieval-iron-boots", "hunter", "medieval-boots-short", "sandalias", "chainmail-boots" ]
+		}
+	],
+	behaviors: [{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.25, z2: 1 } } }],
+	shapeByType: {
+
+		"*-medieval-high-boots-knife": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-knife" 
+		},
+		"*-medieval-high-boots-knife-blue": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-knife-blue" 
+		},
+		"*-medieval-high-boots-knife-black": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-knife-black" 
+		},
+		"*-medieval-high-boots-knife-gray": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-knife-gray" 
+		},
+		"*-medieval-high-boots-knife-green": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-knife-green" 
+		},
+		"*-medieval-high-boots-knife-red": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-knife-red" 
+		},
+		"*-medieval-high-boots-knife-white": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-knife-white" 
+		},
+		"*-medieval-high-boots": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots" 
+		},
+		"*-medieval-high-boots-black": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-black" 
+		},
+		"*-medieval-high-boots-blue": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-blue" 
+		},
+		"*-medieval-high-boots-gray": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-gray" 
+		},
+		"*-medieval-high-boots-green": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-green" 
+		},
+		"*-medieval-high-boots-red": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-red" 
+		},
+		"*-medieval-high-boots-white": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-high-boots-white" 
+		},
+		"*-medieval-warm-high-boots": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-warm-high-boots" 
+		},
+		"*-medieval-boots": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-boots" 
+		},
+		"*-medieval-boots-short": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-boots-short" 
+		},
+		"*-medieval-boots-black": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-boots-black" 
+		},
+		"*-medieval-boots-blue": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-boots-blue" 
+		},
+		"*-medieval-boots-gray": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-boots-gray" 
+		},
+		"*-medieval-boots-green": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-boots-green" 
+		},
+		"*-medieval-boots-red": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-boots-red" 
+		},
+		"*-medieval-boots-white": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-boots-white" 
+		},
+		"*-medieval-great-steppe-womans-boots": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-great-steppe-womans-boots" 
+		},
+		"*-medieval-great-steppe-woman-boots": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-great-steppe-woman-boots" 
+		},
+		"*-medieval-great-steppe-boots": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-great-steppe-boots" 
+		},
+		"*-medieval-woman-shoes": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-woman-shoes" 
+		},
+		"*-medieval-woman-shoes-black": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-woman-shoes-black" 
+		},
+		"*-medieval-woman-shoes-blue": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-woman-shoes-blue" 
+		},
+		"*-medieval-woman-shoes-gray": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-woman-shoes-gray" 
+		},
+		"*-medieval-woman-shoes-green": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-woman-shoes-green" 
+		},
+		"*-medieval-woman-shoes-red": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-woman-shoes-red" 
+		},
+		"*-medieval-woman-shoes-white": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-woman-shoes-white" 
+		},
+		"*-medieval-iron-boots": {
+			base: "entity/humanoid/seraph/clothing/foot/medieval-iron-boots" 
+		},
+		"*-hunter": {
+			base: "entity/humanoid/seraph/clothing/foot/hunter" 
+		},
+		"*-sandalias": {
+			base: "game:entity/humanoid/seraph" 
+		},
+		"*-chainmail-boots": {
+			base: "entity/humanoid/seraph/clothing/foot/chainmail-boots" 
+		}
+	},
+	storageFlags: 128,
+	attributes: {
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.011, z: 0 }
+		},
+		onDisplayTransform: {
+			translation: { x: 0, y: 0.011, z: 0 },
+			rotation: { x: 0, y: -90, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.9
+		},
+		clothescategory: "foot",
+		displaycaseable: true,
+		shelvable: true,
+		warmthByType: {
+			"*-medieval-warm-high-boots": 3,
+			"*-medieval-high-boots-knife": 2,
+			"*-medieval-high-boots-knife-black": 2,
+			"*-medieval-high-boots-knife-blue": 2,
+			"*-medieval-high-boots-knife-gray": 2,
+			"*-medieval-high-boots-knife-green": 2,
+			"*-medieval-high-boots-knife-red": 2,
+			"*-medieval-high-boots-knife-white": 2,
+			"*-medieval-high-boots": 2,
+			"*-medieval-high-boots-black": 2,
+			"*-medieval-high-boots-blue": 2,
+			"*-medieval-high-boots-gray": 2,
+			"*-medieval-high-boots-green": 2,
+			"*-medieval-high-boots-red": 2,
+			"*-medieval-high-boots-white": 2,
+			"*-medieval-boots-short": 1,
+			"*-medieval-boots": 1,
+			"*-medieval-boots-black": 1,
+			"*-medieval-boots-blue": 1,
+			"*-medieval-boots-gray": 1,
+			"*-medieval-boots-green": 1,
+			"*-medieval-boots-red": 1,
+			"*-medieval-boots-white": 1,
+			"*-medieval-great-steppe-boots": 2,
+			"*-medieval-great-steppe-woman-boots": 2,
+			"*-medieval-great-steppe-womans-boots": 2,
+			"*-medieval-woman-shoes": 2,
+			"*-medieval-woman-shoes-black": 2,
+			"*-medieval-woman-shoes-blue": 2,
+			"*-medieval-woman-shoes-gray": 2,
+			"*-medieval-woman-shoes-green": 2,
+			"*-medieval-woman-shoes-red": 2,
+			"*-medieval-woman-shoes-white": 2,
+			"*-medieval-iron-boots": 2,
+			"*-hunter": 2,
+			"*-chaimail-boots": 2,
+			"*": 1
+		},
+		wearableAttachmentByType: {
+			"*-medieval-warm-high-boots": true,
+			"*-medieval-high-boots-knife": true,
+			"*-medieval-high-boots-knife-black": true,
+			"*-medieval-high-boots-knife-blue": true,
+			"*-medieval-high-boots-knife-gray": true,
+			"*-medieval-high-boots-knife-green": true,
+			"*-medieval-high-boots-knife-red": true,
+			"*-medieval-high-boots-knife-white": true,
+			"*-medieval-high-boots": true,
+			"*-medieval-high-boots-black": true,
+			"*-medieval-high-boots-blue": true,
+			"*-medieval-high-boots-gray": true,
+			"*-medieval-high-boots-green": true,
+			"*-medieval-high-boots-red": true,
+			"*-medieval-high-boots-white": true,
+			"*-medieval-boots": true,
+			"*-medieval-boots-short": true,
+			"*-medieval-boots-black": true,
+			"*-medieval-boots-blue": true,
+			"*-medieval-boots-gray": true,
+			"*-medieval-boots-green": true,
+			"*-medieval-boots-red": true,
+			"*-medieval-boots-white": true,
+			"*-medieval-great-steppe-womans-boots": true,
+			"*-medieval-great-steppe-woman-boots": true,
+			"*-medieval-great-steppe-boots": true,
+			"*-medieval-woman-shoes": true,
+			"*-medieval-woman-shoes-black": true,
+			"*-medieval-woman-shoes-blue": true,
+			"*-medieval-woman-shoes-gray": true,
+			"*-medieval-woman-shoes-green": true,
+			"*-medieval-woman-shoes-red": true,
+			"*-medieval-woman-shoes-white": true,
+			"*-medieval-iron-boots": true,
+			"*-hunter": true,
+			"*-chainmail-boots": true
+		}
+	},
+	texturesByType: {
+		"*-medieval-warm-high-boots": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-knife": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-knife-black": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-knife-blue": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-knife-gray": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-knife-green": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-knife-red": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-knife-white": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-black": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-blue": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-gray": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-green": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-red": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-high-boots-white": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-boots": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-boots-short": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-boots-black": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-boots-blue": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-boots-gray": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-boots-green": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-boots-red": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-boots-white": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-great-steppe-womans-boots": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-great-steppe-woman-boots": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-great-steppe-boots": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-woman-shoes": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-woman-shoes-black": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-woman-shoes-blue": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-woman-shoes-gray": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-woman-shoes-green": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-woman-shoes-red": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-woman-shoes-white": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medieval-iron-boots": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-hunter": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-chainmail-boots": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-sandalias": {
+			"seraph": { base: "entity/humanoid/seraphclothes/foot/{foot}" }
+		},
+		"*": {
+			"seraph": { base: "entity/humanoid/seraphclothes/foot/{foot}" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransform: {
+		translation: { x: 0.7, y: 0.1, z: -0.4 },
+		rotation: { x: -33, y: 10, z: -24 },
+		scale: 2.5
+	},
+	tpHandTransformByType: {
+		"*-medieval-warm-high-boots": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-high-boots-knife": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-high-boots-knife-*": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-high-boots": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-high-boots-*": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-boots": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-boots-short": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-iron-boots": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-hunter": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-boots-*": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-great-steppe-boots": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-great-steppe-woman-boots": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-great-steppe-womans-boots": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-woman-shoes": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-woman-shoes-black": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-woman-shoes-blue": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-woman-shoes-gray": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-woman-shoes-green": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-woman-shoes-red": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-medieval-woman-shoes-white": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*-chainmail-boots": {
+			translation: { x: -0.75, y: -0.6, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		},
+		"*": {
+			translation: { x: -0.75, y: -0.8, z: -0.9 },
+			rotation: { x: 48, y: 88, z: 54 },
+			scale: 0.6
+		}
+	},
+	guiTransformByType: {
+		"*-medieval-warm-high-boots": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-high-boots-knife": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-high-boots-knife-*": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-high-boots": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-high-boots-*": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-boots": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-boots-short": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-iron-boots": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-hunter": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-boots-*": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-great-steppe-boots": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-great-steppe-woman-boots": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-great-steppe-womans-boots": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-woman-shoes": {
+			rotate: false,
+			translation: { x: 2, y: 0.5, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-woman-shoes-black": {
+			rotate: false,
+			translation: { x: 2, y: 0.5, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-woman-shoes-blue": {
+			rotate: false,
+			translation: { x: 2, y: 0.5, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-woman-shoes-gray": {
+			rotate: false,
+			translation: { x: 2, y: 0.5, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-woman-shoes-green": {
+			rotate: false,
+			translation: { x: 2, y: 0.5, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-woman-shoes-red": {
+			rotate: false,
+			translation: { x: 2, y: 0.5, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-medieval-woman-shoes-white": {
+			rotate: false,
+			translation: { x: 2, y: 0.5, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*-chainmail-boots": {
+			rotate: false,
+			translation: { x: 2, y: 0.5, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		},
+		"*": {
+			rotate: false,
+			translation: { x: 2, y: 0, z: 18 },
+			rotation: { x: 152, y: -118, z: -3 },
+			origin: { x: 0.5, y: 0.29, z: 0.55 },
+			scale: 2.2
+		}
+
+	},
+	groundTransform: {
+		translation: { x: 0.05, y: 0.02, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.11
+	}
+}

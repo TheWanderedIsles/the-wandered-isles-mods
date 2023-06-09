@@ -1,0 +1,38 @@
+[
+	{
+    "ingredientPattern": "HN_,WWS",
+    "ingredients": {
+		"S": { type: "item", code: "game:saw-*", isTool: true  },
+		"H": { type: "item", code: "game:hammer-*", isTool: true  },
+		"W": { "type": "item", "code": "game:plank-*", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ],quantity:2 },
+		"N": {type: "Item", code: "hammersringingfall:nail-copper", quantity: 8 }
+	},
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "medieval:littledoor-{material}-closed-up-south", quantity: 1 }
+  },
+  {
+    "ingredientPattern": "H_N,WWS",
+    "ingredients": {
+		"S": { type: "item", code: "game:saw-*", isTool: true  },
+		"H": { type: "item", code: "game:hammer-*", isTool: true  },
+		"W": { "type": "block", "code": "game:planks-*-hor", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ],quantity:2 },
+		"N": {type: "Item", code: "hammersringingfall:nail-copper", quantity: 8 }   
+   },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "medieval:littledoorplanks-{material}-closed-up-south", quantity: 1 }
+  },
+  {
+    "ingredientPattern": "HN,WS",
+    "ingredients": {
+		"S": { type: "item", code: "game:saw-*", isTool: true  },
+		"H": { type: "item", code: "game:hammer-*", isTool: true  },
+		"W": { "type": "block", "code": "game:planks-*-hor", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ],quantity:2 },
+		"N": {type: "Item", code: "hammersringingfall:nail-copper", quantity: 8 }  
+  },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "block", "code": "medieval:littledoorplanksone-{material}-closed-up-south", quantity: 1 }
+  }
+]

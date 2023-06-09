@@ -1,0 +1,372 @@
+[
+	    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-acacia", quantity:2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-acacia", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-aged", quantity:2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-aged", quantity:2 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-baldcypress", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-baldcypress", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-birch", quantity:2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-birch", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-ebony", quantity:2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-ebony", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-kapok", quantity:2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-kapok", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-larch", quantity:2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-larch", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-maple", quantity:2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-maple", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-oak", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-oak", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-pine", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-pine", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-purpleheart", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-purpleheart", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-redwood", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-redwood", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,HWC,WNW",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-walnut", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:fancytable-walnut", quantity: 1 }
+	},
+	
+	
+	
+	
+	{
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-acacia", quantity: 2}
+				},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-acacia-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-aged", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-aged-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-baldcypress", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-baldcypress-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-birch", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-birch-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-ebony", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-ebony-empty-free", quantity: 1 }
+	},
+     {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-kapok", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-kapok-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-larch", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-larch-empty-free", quantity: 1 }
+	},
+	{
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-maple", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-maple-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-oak", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-oak-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-pine", quantity: 2},
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-pine-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-purpleheart", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-purpleheart-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-redwood", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-redwood-empty-free", quantity: 1 }
+	},
+    {
+		ingredientPattern: "WWW,WSW,NHN",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick" },
+    		"W": { type: "item", code: "game:plank-walnut", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:tablew-walnut-empty-free", quantity: 1 }
+	},
+	
+	
+	
+	
+	
+	
+	
+	{
+		ingredientPattern: "WWW,WHW,W_W",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 3 },
+			"N": {type: "Item", code: "hammersringingfall:nail-copper", quantity: 10 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:largetables-{wood}-north" }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "medieval:largetables-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ]},
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:largetablel-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "medieval:largetablel-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:largetabler-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "medieval:largetabler-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:largetablec-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "medieval:largetablec-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:largetables-{material}-north", quantity: 1 }
+	}
+]
