@@ -1,0 +1,116 @@
+[
+
+
+	{
+		ingredientPattern: "__P,_PN,P__",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:planksroofing-{material}-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_P_,PNP",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:planksroofingridge-{material}-ns-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_PN,PPP",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:planksroofingtip-{material}-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_P,P_,NP",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "medieval:planksroofingcornerinner-{material}-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "NP,PP",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:planksroofingcornerouter-{material}-east-free", quantity: 4  }
+	},
+
+
+	{
+		ingredientPattern: "WNW,_W_,W__",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"A": { tyWe: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "medieval:smallplanksroofing-{material}-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "WW_,WNW,___",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "medieval:smallplanksroofingridge-{material}-ns-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "WWN,WWW,___",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "medieval:smallplanksroofingtip-{material}-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "WW_,W__,NW_",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "medieval:smallplanksroofingcornerinner-{material}-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_WW,WWN,___",
+		ingredients: {
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "medieval:smallplanksroofingcornerouter-{material}-east-free", quantity: 4  }
+	}
+]

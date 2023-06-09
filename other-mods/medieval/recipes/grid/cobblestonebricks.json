@@ -1,0 +1,42 @@
+[
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:chisel-*", isTool: true  },
+			"F": { type: "block", code: "game:stonebricks-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate"], quantity:8 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:cobblestonebricks-{rock}", quantity: 8 }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:chisel-*", isTool: true  },
+			"F": { type: "block", code: "medieval:cobblestonebricks-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate"], quantity:8 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:stonebricks-{rock}", quantity: 8 }
+	},
+	{
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:chisel-*", isTool: true  },
+			"F": { type: "block", code: "cobblestonebricks-*", name: "rock", allowedVariants: [ "granite"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "smallstonebricks", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "block", code: "medieval:smallstonebricks" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:stonebricks-granite", quantity: 1 }
+	}
+]

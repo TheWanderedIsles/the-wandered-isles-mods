@@ -1,0 +1,14 @@
+[
+  {
+    "toolmode": "planing",
+    "ingredients":
+    [ 
+      {"inputs": 
+       [
+         {"type": "item", "code": "game:plank-*", "name": "wood", "states": ["aged"], "loadFromProperties": "block/wood"}
+       ]
+      }
+    ],
+    "output": {"type": "item", "code": "game:plank-{wood}", "quantity": 1}
+  }
+]

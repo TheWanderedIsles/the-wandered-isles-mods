@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "HWS,_L_,_WS",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "medieval:bellow-closed-up-south", "quantity": 1 }
+  }
+]
