@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "WWW,PNP,WWW",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["bearnut", "beech", "blackpoplar", "cedar", "douglasfir", "elm", "eucalyptus", "honeylocust", "mahogany", "pyramidalpoplar", "sal", "saxaul", "spruce", "sycamore", "willow"], quantity: 1 },
+		"P": { type: "block", code: "game:planks-*-hor", name: "wood", allowedVariants: ["bearnut", "beech", "blackpoplar", "cedar", "douglasfir", "elm", "eucalyptus", "honeylocust", "mahogany", "pyramidalpoplar", "sal", "saxaul", "spruce", "sycamore", "willow"], quantity: 1 },
+		"N": {type: "Item", code: "hammersringingfall:nail-*", quantity:8 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:crate", attributes: { lidState: "closed", type: "wood-{wood}" }  }
+}
