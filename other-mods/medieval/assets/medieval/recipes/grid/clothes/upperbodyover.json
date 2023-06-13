@@ -3,21 +3,21 @@
 		ingredientPattern: "___	___	LT_",
 		recipeGroup: 1,
 		ingredients: {
-			"L": { type: "item", "code": "game:leather-plain", quantity: 6 },
-			"T": { type: "item", "code": "medieval:stripsofleather" }
+			"L": { type: "item", code: "game:leather-plain", quantity: 6 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-upperbodyover-large-hunter-coat"  }
+		output: { type: "item", code: "medieval:clothes-upperbodyover-large-hunter-coat"  }
 	},
 	{
 	ingredientPattern: "R_R,BRB",
 	ingredients: {
-		"R": { type: "item", "code": "game:cloth-red", quantity: 1 },
-		"B": { type: "item", "code": "game:cloth-brown", quantity: 1 }
+		"R": { type: "item", code: "game:cloth-red", quantity: 1 },
+		"B": { type: "item", code: "game:cloth-brown", quantity: 1 }
 	},
 	width: 3,
 	height: 2,
-	output: { type: "item", "code": "medieval:clothes-upperbodyover-medieval-travelers-earthrobe"  }
+	output: { type: "item", code: "medieval:clothes-upperbodyover-medieval-travelers-earthrobe"  }
 	}
 ]

@@ -1,0 +1,43 @@
+[
+  {
+    "ingredientPattern": "__W,WLW,WNW",
+    "ingredients": {
+    "W": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+    "L": { "type": "item", "code": "game:cloth-*", "name": "color", "allowedVariants": [ "blue", "red", "yellow", "purple", "brown", "green", "orange", "black", "gray", "pink", "white" ] },
+    "N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "medieval:chairf-{wood}-{color}-north" }
+  },
+  {
+    "ingredientPattern": "__W,WLW,WNW",
+    "ingredients": {
+    "W": {
+      "type": "item",
+      "code": "game:plank-*",
+      "name": "wood",
+      "allowedVariants": [
+      "acacia",
+      "aged",
+      "baldcypress",
+      "birch",
+      "ebony",
+      "kapok",
+      "larch",
+      "maple",
+      "pine",
+      "purpleheart",
+      "redwood",
+      "walnut"
+      ]
+    },
+    "L": { "type": "item", "code": "game:cloth-plain" },
+    "N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4 }
+
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "medieval:chairf-{wood}-plain-north" }
+  }
+]

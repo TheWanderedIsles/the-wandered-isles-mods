@@ -1,0 +1,36 @@
+[
+	{
+	  "ingredientPattern": "FFS	FF_",
+	  "requiresTrait": "clothier",
+	  "ingredients": {
+		"F": { "type": "Item", "code": "hideandfabric:twine-jute" },
+		"S": { "type": "item", "code": "game:stick" }
+	  },
+	  "width": 3,
+	  "height": 2,
+	  "output": { "type": "item", "code": "game:sewingkit"  }
+	},
+	{
+	  "ingredientPattern": "FFS	FF_",
+	  "requiresTrait": "clothier",
+	  "ingredients": {
+		"F": { "type": "Item", "code": "hideandfabric:twine-cotton" },
+		"S": { "type": "item", "code": "game:stick" }
+	  },
+	  "width": 3,
+	  "height": 2,
+	  "output": { "type": "item", "code": "game:sewingkit"  }
+	},
+	{
+	  "ingredientPattern": "FFS,FF_",
+	  "requiresTrait": "clothier",
+	  "ingredients": {
+		"F": { "type": "item", "code": "hideandfabric:twine-wool" },
+		"S": { "type": "item", "code": "game:stick" }
+	  },
+	  "width": 3,
+	  "height": 2,
+	  "output": { "type": "item", "code": "game:sewingkit" }
+	}
+  ]
+  

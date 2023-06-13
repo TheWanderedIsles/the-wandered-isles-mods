@@ -1,0 +1,68 @@
+[
+  {
+    "ingredientPattern": "W__,WWW,WNW",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]
+    },
+      "N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4}
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "medieval:chairw-{wood}-north" }
+  },
+  {
+    "ingredientPattern": "WN,C",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]
+      },
+      "C": { "type": "block", "code": "chairw-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]
+      },
+      "N": { "type": "Item", "code": "hammersringingfall:nail-*", "quantity": 2 }
+
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "chairl-{wood}-north" }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": { "type": "block", "code": "chairw-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "chairp-{wood}-north" }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": { "type": "block", "code": "chairp-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "chairw-{wood}-north" }
+  },
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": { "type": "block", "code": "chairw-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "largechairw-{wood}-north" }
+  },
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": { type: "item", code: "game:saw-*", isTool: true  },
+      "C": { "type": "block", "code": "largechairw-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "chairw-{wood}-north", quantity: 2 }
+  }
+]

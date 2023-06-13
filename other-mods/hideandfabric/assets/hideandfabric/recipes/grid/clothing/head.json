@@ -1,0 +1,339 @@
+[
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "H": { "type": "item", "code": "hideandfabric:hide-medium-boar-normal" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-boar-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-fox-*", "quantity": 2, "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-fox-{coat}" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-hare-*", "quantity": 2, "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-hare-{coat}" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-raccoon-normal", "quantity": 2 }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-raccoon-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "H": { "type": "item", "code": "hideandfabric:hide-large-sheep-normal" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-sheep-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-sheep-normal", "quantity": 2 }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-sheep-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-*", "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-wolf-wolf5" }
+  },
+
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton" },
+      "H": { "type": "item", "code": "hideandfabric:hide-medium-boar-normal" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-boar-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-fox-*", "quantity": 2, "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-fox-{coat}" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-hare-*", "quantity": 2, "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-hare-{coat}" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-raccoon-normal", "quantity": 2 }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-raccoon-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton" },
+      "H": { "type": "item", "code": "hideandfabric:hide-large-sheep-normal" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-sheep-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-sheep-normal", "quantity": 2 }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-sheep-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton" },
+      "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-*", "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-wolf-wolf5" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool" },
+      "H": { "type": "item", "code": "hideandfabric:hide-medium-boar-normal" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-boar-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-fox-*", "quantity": 2, "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-fox-{coat}" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-hare-*", "quantity": 2, "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-hare-{coat}" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-raccoon-normal", "quantity": 2 }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-raccoon-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool" },
+      "H": { "type": "item", "code": "hideandfabric:hide-large-sheep-normal" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-sheep-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-sheep-normal", "quantity": 2 }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-sheep-normal" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool" },
+      "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-wolf-wolf5" }
+  },
+
+
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-bear-{coat}" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton" },
+      "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-bear-{coat}" }
+  },
+  {
+    "ingredientPattern": "KH,_T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool" },
+      "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "name": "coat" }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hidecap-bear-{coat}" }
+  },
+  {
+    "ingredientPattern": "_K_,_G_,GGG",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 2 }
+    },
+    "enabled": false,
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-head-brimmedhat-straw-wide" }
+  },
+
+  {
+    "ingredientPattern": "K,L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-head-brimmedhat-leather-plain" }
+  },
+  {
+    "ingredientPattern": "K,L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "L": { "type": "item", "code": "game:leather-orange", "quantity": 2 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-head-brimmedhat-leather-orange" }
+  },
+  {
+    "ingredientPattern": "K,L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "L": { "type": "item", "code": "game:leather-black", "quantity": 2 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-head-brimmedhat-leather-black" }
+  }
+]
