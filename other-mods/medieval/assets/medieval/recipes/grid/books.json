@@ -1,0 +1,86 @@
+[
+	{
+		ingredientPattern: "FL_,FPG,FM_",
+		ingredients: {
+			"G": { type: "item", code: "game:nugget-nativegold", quantity: 1 },
+			"L": { type: "item", code: "game:leather-black", quantity: 1 },
+			"M": { type: "item", code: "game:leather-black", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 16 },
+			"F": { type: "item", code: "medieval:stripsofleather" },
+		},
+		width: 3,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "reli-normal-holy"  }
+	},
+	{
+		ingredientPattern: "FL_,FPG,FM_",
+		ingredients: {
+			"G": { type: "item", code: "game:ore-cinnabar", quantity: 1 },
+			"L": { type: "item", code: "game:leather-black", quantity: 1 },
+			"M": { type: "item", code: "game:leather-black", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 16 },
+			"F": { type: "item", code: "medieval:stripsofleather" },
+		},
+		width: 2,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "reli-normal-s"  }
+	},
+	{
+		ingredientPattern: "FL_,FPG,FM_",
+		ingredients: {
+			"G": { type: "block", code: "game:soil-*", allowedVariants: ["verylow-none", "low-none", "medium-none"], quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 16 },
+			"F": { type: "item", code: "medieval:stripsofleather" },
+		},
+		width: 3,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "reli-normal-earth"  }
+	},
+	{
+		ingredientPattern: "FL_,FPG,FM_",
+		ingredients: {
+			"G": { type: "block", code: "game:torch-basic-lit-up", quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 16 },
+			"F": { type: "item", code: "medieval:stripsofleather" },
+		},
+		width: 3,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "reli-normal-fire"  }
+	},
+	{
+		ingredientPattern: "FL_,FPG,FM_",
+		ingredients: {
+			"G": { type: "block", code: "game:glacierice", quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 16 },
+			"F": { type: "item", code: "medieval:stripsofleather" },
+		},
+		width: 3,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "reli-normal-water"  }
+	},
+	{
+		ingredientPattern: "FL_,FPG,FM_",
+		ingredients: {
+			"G": { type: "block", code: "game:snowblock", quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 16 },
+			"F": { type: "item", code: "medieval:stripsofleather" },
+		},
+		width: 3,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "reli-normal-air"  }
+	}
+]

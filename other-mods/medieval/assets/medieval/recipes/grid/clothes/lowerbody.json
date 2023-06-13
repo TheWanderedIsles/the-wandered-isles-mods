@@ -1,1328 +1,1327 @@
-	
-[	
-    {
-		ingredientPattern: "B_B,BSB",
-		ingredients: {
-			"B": { type: "item", "code": "game:cloth-gray", quantity: 1 },
-			"S": { type: "item", "code": "game:sewingkit", quantity: 2 }
-		},
-		width: 3,
-		height: 2,
-		output: { type: "item", "code": "game:clothes-lowerbody-malefactor-trousers"  }
-	},
+[
 	{
 		ingredientPattern: "B_B,BSB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-blue", quantity: 1 },
-			"S": { type: "item", "code": "game:sewingkit", quantity: 2 }
+			"B": { type: "item", code: "game:cloth-gray", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 2 }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "game:clothes-lowerbody-forlorn-pants"  }
+		output: { type: "item", code: "game:clothes-lowerbody-malefactor-trousers"  }
+	},
+	{
+		ingredientPattern: "B_B,BSB",
+		ingredients: {
+			"B": { type: "item", code: "game:cloth-blue", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-lowerbody-forlorn-pants"  }
 	},
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"S": { type: "item", "code": "game:flaxtwine" }
+			"B": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine" }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-pants"  }
 	},
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-blue", quantity: 1 },
-			"S": { type: "item", "code": "game:flaxtwine" }
+			"B": { type: "item", code: "game:cloth-blue", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine" }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-pants-blue"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-pants-blue"  }
 	},
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-brown", quantity: 1 },
-			"S": { type: "item", "code": "game:flaxtwine" }
+			"B": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine" }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-pants-brown"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-pants-brown"  }
 	},
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-gray", quantity: 1 },
-			"S": { type: "item", "code": "game:flaxtwine" }
+			"B": { type: "item", code: "game:cloth-gray", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine" }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-pants-gray"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-pants-gray"  }
 	},
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-green", quantity: 1 },
-			"S": { type: "item", "code": "game:flaxtwine" }
+			"B": { type: "item", code: "game:cloth-green", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine" }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-pants-green"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-pants-green"  }
 	},
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"S": { type: "item", "code": "game:flaxtwine" }
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine" }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-pants-red"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-pants-red"  }
 	},
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 1 },
-			"S": { type: "item", "code": "game:flaxtwine" }
+			"B": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine" }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-pants-white"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-pants-white"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-plain", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-black", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-black", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-black"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-black"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-blue", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-blue", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-blue"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-blue"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-gray", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-gray", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-gray"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-gray"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-green", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-green", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-green"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-green"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-red", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-red", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-red"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-red"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-white", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-white", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-white"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-white"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-plain", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-black", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-black", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-black"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-black"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-blue", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-blue", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-blue"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-blue"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-gray", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-gray", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-gray"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-gray"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-green", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-green", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-green"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-green"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-red", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-red", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-red"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-red"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-white", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-white", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-white"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-white"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-plain", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-black", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-black", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-black"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-black"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-blue", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-blue", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-blue"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-blue"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-gray", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-gray", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-gray"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-gray"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-green", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-green", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-green"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-green"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-red", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-red", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-red"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-red"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-white", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-white", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-white"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-white"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-plain", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-black", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-black", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-black"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-black"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-blue", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-blue", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-blue"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-blue"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-gray", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-gray", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-gray"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-gray"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-green", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-green", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-green"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-green"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-red", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-red", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-red"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-red"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:leather-white", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:leather-white", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants-white"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants-white"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-medium", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-medium", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-medium", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-medium", quantity: 2 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 2 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-small", quantity: 4 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 4 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-small", quantity: 4 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 4 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-small", quantity: 4 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 4 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-small", quantity: 4 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 4 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-large", quantity: 1 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-large", quantity: 1 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-large", quantity: 1 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-large", quantity: 1 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-large", quantity: 1 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-large", quantity: 1 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HCH",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-large", quantity: 1 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-large", quantity: 1 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HC_",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-huge", quantity: 1 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HC_",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-huge", quantity: 1 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:knife-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:knife-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HC_",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-huge", quantity: 1 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "_K_,HC_",
 		recipeGroup: 2,
 		ingredients: {
-			"H": { type: "item", "code": "game:hide-pelt-huge", quantity: 1 },
-			"C": { type: "item", "code": "game:cloth-plain", quantity: 2 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"C": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-fur-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-fur-pants"  }
 	},
 	{
 		ingredientPattern: "FFF,BBB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:leather-white", quantity: 1 },
-			"F": { type: "item", "code": "game:leather-gray" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:leather-white", quantity: 1 },
+			"F": { type: "item", code: "game:leather-gray" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-woman-coat-bottom"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-woman-coat-bottom"  }
 	},
 	{
 		ingredientPattern: "FFF,BBB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:leather-white", quantity: 1 },
-			"F": { type: "item", "code": "game:leather-gray" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:leather-white", quantity: 1 },
+			"F": { type: "item", code: "game:leather-gray" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-woman-coat-bottom"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-woman-coat-bottom"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 1 },
-			"F": { type: "item", "code": "game:cloth-white" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"F": { type: "item", code: "game:cloth-white" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-plain-extrashort"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-plain-extrashort"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 1 },
-			"F": { type: "item", "code": "game:cloth-white" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"F": { type: "item", code: "game:cloth-white" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-plain-extrashort"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-plain-extrashort"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 2 },
-			"F": { type: "item", "code": "game:cloth-white" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 2 },
+			"F": { type: "item", code: "game:cloth-white" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-plain-short"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-plain-short"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 2 },
-			"F": { type: "item", "code": "game:cloth-white" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 2 },
+			"F": { type: "item", code: "game:cloth-white" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-plain-short"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-plain-short"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 3 },
-			"F": { type: "item", "code": "game:cloth-white" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 3 },
+			"F": { type: "item", code: "game:cloth-white" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-plain-medium"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-plain-medium"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 3 },
-			"F": { type: "item", "code": "game:cloth-white" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 3 },
+			"F": { type: "item", code: "game:cloth-white" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-plain-medium"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-plain-medium"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 4 },
-			"F": { type: "item", "code": "game:cloth-white" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 4 },
+			"F": { type: "item", code: "game:cloth-white" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-plain-large"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-plain-large"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 4 },
-			"F": { type: "item", "code": "game:cloth-white" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 4 },
+			"F": { type: "item", code: "game:cloth-white" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-plain-large"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-plain-large"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"F": { type: "item", "code": "game:cloth-red" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"F": { type: "item", code: "game:cloth-red" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-extrashort"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-extrashort"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"F": { type: "item", "code": "game:cloth-red" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"F": { type: "item", code: "game:cloth-red" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-extrashort"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-extrashort"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 2 },
-			"F": { type: "item", "code": "game:cloth-red" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 2 },
+			"F": { type: "item", code: "game:cloth-red" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-short"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-short"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 2 },
-			"F": { type: "item", "code": "game:cloth-red" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 2 },
+			"F": { type: "item", code: "game:cloth-red" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-short"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-short"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 3 },
-			"F": { type: "item", "code": "game:cloth-red" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 3 },
+			"F": { type: "item", code: "game:cloth-red" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-medium"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-medium"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 3 },
-			"F": { type: "item", "code": "game:cloth-red" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 3 },
+			"F": { type: "item", code: "game:cloth-red" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-medium"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-medium"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 4 },
-			"F": { type: "item", "code": "game:cloth-red" },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 4 },
+			"F": { type: "item", code: "game:cloth-red" },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-large"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-large"  }
 	},
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 4 },
-			"F": { type: "item", "code": "game:cloth-red" },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 4 },
+			"F": { type: "item", code: "game:cloth-red" },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-large"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-large"  }
 	},
 	{
 		ingredientPattern: "BFB,FKF,_C_",
 		ingredients: {
-			"C": { type: "item", "code": "game:cloth-red", quantity: 3 },
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"F": { type: "item", "code": "game:cloth-black" },
-			"K": { type: "item", "code": "game:sewingkit"  }
+			"C": { type: "item", code: "game:cloth-red", quantity: 3 },
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"F": { type: "item", code: "game:cloth-black" },
+			"K": { type: "item", code: "game:sewingkit"  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-es-medium"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-es-medium"  }
 	},
 	{
 		ingredientPattern: "BFB,FKF,_C_",
 		ingredients: {
-			"C": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"F": { type: "item", "code": "game:cloth-black" },
-			"K": { type: "item", "code": "game:sewingkit"  }
+			"C": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"F": { type: "item", code: "game:cloth-black" },
+			"K": { type: "item", code: "game:sewingkit"  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-es-extrashort"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-es-extrashort"  }
 	},
 	{
 		ingredientPattern: "BFB,FKF,_C_",
 		ingredients: {
-			"C": { type: "item", "code": "game:cloth-red", quantity: 2 },
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"F": { type: "item", "code": "game:cloth-black" },
-			"K": { type: "item", "code": "game:sewingkit"  }
+			"C": { type: "item", code: "game:cloth-red", quantity: 2 },
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"F": { type: "item", code: "game:cloth-black" },
+			"K": { type: "item", code: "game:sewingkit"  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-es-short"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-es-short"  }
 	},
 	{
 		ingredientPattern: "BFB,FKF,_C_",
 		ingredients: {
-			"C": { type: "item", "code": "game:cloth-red", quantity: 4 },
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"F": { type: "item", "code": "game:cloth-black" },
-			"K": { type: "item", "code": "game:sewingkit"  }
+			"C": { type: "item", code: "game:cloth-red", quantity: 4 },
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"F": { type: "item", code: "game:cloth-black" },
+			"K": { type: "item", code: "game:sewingkit"  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-red-es-large"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-red-es-large"  }
 	},
 	{
 		ingredientPattern: "__K,BBB,B_B",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-orange", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-orange", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-dress-bottom"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-dress-bottom"  }
 	},
 	{
 		ingredientPattern: "__K,BBB,B_B",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-orange", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-orange", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-dress-bottom"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-dress-bottom"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-black"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-black"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-black"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-black"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-blue", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-blue", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-blue"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-blue"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-blue", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-blue", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-blue"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-blue"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-brown", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-brown"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-brown"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-brown", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-brown"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-brown"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-gray", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-gray", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-gray"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-gray"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-gray", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-gray", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-gray"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-gray"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-green", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-green", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-green"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-green"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-green", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-green", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-green"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-green"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-red"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-red"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-red"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-red"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-white"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-white"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-white", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-white"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-white"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-yellow", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-yellow", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-yellow"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-yellow"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-yellow", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-yellow", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-yellow"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-yellow"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-orange", quantity: 1 },
-			"K": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-orange", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-orange"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-orange"  }
 	},
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-orange", quantity: 1 },
-			"K": { type: "item", "code": "shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-orange", quantity: 1 },
+			"K": { type: "item", code: "shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-skirt-orange"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-skirt-orange"  }
 	},
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-white", quantity: 1 },
-			"S": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"S": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-black"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-black"  }
 	},
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-white", quantity: 1 },
-			"S": { type: "item", "code": "medieval:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"S": { type: "item", code: "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-black"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-black"  }
 	},
 	{
 		ingredientPattern: "BBB,WWW,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-yellow", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-brown", quantity: 1 },
-			"S": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-yellow", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"S": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-dress-brown-bottom"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-dress-brown-bottom"  }
 	},
 	{
 		ingredientPattern: "BBB,WWW,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-yellow", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-brown", quantity: 1 },
-			"S": { type: "item", "code": "medieval:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-yellow", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"S": { type: "item", code: "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-dress-brown-bottom"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-dress-brown-bottom"  }
 	},
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-blue", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-plain", quantity: 1 },
-			"S": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-blue", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"S": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-dress-blue-bottom"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-dress-blue-bottom"  }
 	},
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-blue", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-plain", quantity: 1 },
-			"S": { type: "item", "code": "medieval:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-blue", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"S": { type: "item", code: "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-medieval-dress-blue-bottom"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-medieval-dress-blue-bottom"  }
 	},
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"S": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"S": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-blackred"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-blackred"  }
 	},
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-red", quantity: 1 },
-			"S": { type: "item", "code": "medieval:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"S": { type: "item", code: "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-blackred"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-blackred"  }
 	},
 	{
 		ingredientPattern: "BWB,BBB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-orange", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"S": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-orange", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"S": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-ambar"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-ambar"  }
 	},
 	{
 		ingredientPattern: "BWB,BBB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-orange", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-black", quantity: 1 },
-			"S": { type: "item", "code": "medieval:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-orange", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"S": { type: "item", code: "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-ambar"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-ambar"  }
 	},
 	{
 		ingredientPattern: "BWB,BBB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-brown", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-pink", quantity: 1 },
-			"S": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-pink", quantity: 1 },
+			"S": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-manga"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-manga"  }
 	},
 	{
 		ingredientPattern: "BWB,BBB,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:cloth-brown", quantity: 1 },
-			"W": { type: "item", "code": "game:cloth-pink", quantity: 1 },
-			"S": { type: "item", "code": "medieval:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"W": { type: "item", code: "game:cloth-pink", quantity: 1 },
+			"S": { type: "item", code: "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-manga"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-manga"  }
 	},
 	{
 		ingredientPattern: "BB_,BB_,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:leather-plain", quantity: 1 },
-			"S": { type: "item", "code": "game:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"S": { type: "item", code: "game:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-leather"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-leather"  }
 	},
 	{
 		ingredientPattern: "BB_,BB_,__S",
 		ingredients: {
-			"B": { type: "item", "code": "game:leather-plain", quantity: 1 },
-			"S": { type: "item", "code": "medieval:shears-*", isTool: true  }
+			"B": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"S": { type: "item", code: "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
 		height: 3,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-leather"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-leather"  }
 	},
 	{
 		ingredientPattern: "BS",
 		ingredients: {
-			"B": { type: "item", "code": "medieval:clothes-lowerbody-dress-leather", quantity: 1 },
-			"S": { type: "item", "code": "game:metalchain-iron" }
+			"B": { type: "item", code: "medieval:clothes-lowerbody-dress-leather", quantity: 1 },
+			"S": { type: "item", code: "game:metalchain-iron" }
 		},
 		width: 2,
 		height: 1,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-dress-leather1"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-dress-leather1"  }
 	},
 	{
 		ingredientPattern: "BB_,BBS",
 		ingredients: {
-			"B": { type: "item", "code": "game:metalchain-iron", quantity: 1 },
-			"S": { type: "item", "code": "game:hammer-*", isTool: true  }
+			"B": { type: "item", code: "game:metalchain-iron", quantity: 1 },
+			"S": { type: "item", code: "game:hammer-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-ironpants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-ironpants"  }
 	},
 	{
 		ingredientPattern: "BC_,__S",
 		ingredients: {
-			"B": { type: "item", "code": "medieval:clothes-lowerbody-ironpants", quantity: 1 },
-			"C": { type: "item", "code": "game:boss-iron", quantity: 1 },
-			"S": { type: "item", "code": "game:hammer-*", isTool: true  }
+			"B": { type: "item", code: "medieval:clothes-lowerbody-ironpants", quantity: 1 },
+			"C": { type: "item", code: "game:boss-iron", quantity: 1 },
+			"S": { type: "item", code: "game:hammer-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-iron1"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-iron1"  }
 	},
 	{
 		ingredientPattern: "B__,_CS",
 		ingredients: {
-			"B": { type: "item", "code": "medieval:clothes-lowerbody-ironpants", quantity: 1 },
-			"C": { type: "item", "code": "game:boss-iron", quantity: 1 },
-			"S": { type: "item", "code": "game:hammer-*", isTool: true  }
+			"B": { type: "item", code: "medieval:clothes-lowerbody-ironpants", quantity: 1 },
+			"C": { type: "item", code: "game:boss-iron", quantity: 1 },
+			"S": { type: "item", code: "game:hammer-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-iron2"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-iron2"  }
 	},
 	{
 		ingredientPattern: "BC_,_CS",
 		ingredients: {
-			"B": { type: "item", "code": "medieval:clothes-lowerbody-ironpants", quantity: 1 },
-			"C": { type: "item", "code": "game:boss-iron", quantity: 1 },
-			"S": { type: "item", "code": "game:hammer-*", isTool: true  }
+			"B": { type: "item", code: "medieval:clothes-lowerbody-ironpants", quantity: 1 },
+			"C": { type: "item", code: "game:boss-iron", quantity: 1 },
+			"S": { type: "item", code: "game:hammer-*", isTool: true  }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-iron"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-iron"  }
 	},
 	{
 		ingredientPattern: "BGP,RNP",
 		ingredients: {
-			"B": { type: "item", "code": "game:leather-plain", quantity: 1 },
-			"G": { type: "item", "code": "game:leather-gray", quantity: 1 },
-			"R": { type: "item", "code": "game:leather-red", quantity: 1 },
-			"N": { type: "item", "code": "game:leather-black", quantity: 1 },
-			"P": { type: "item", "code": "medieval:stripsofleather", quantity: 1 }
+			"B": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"G": { type: "item", code: "game:leather-gray", quantity: 1 },
+			"R": { type: "item", code: "game:leather-red", quantity: 1 },
+			"N": { type: "item", code: "game:leather-black", quantity: 1 },
+			"P": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-reds"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-reds"  }
 	},
 	{
 		ingredientPattern: "BGP,GBP",
 		ingredients: {
-			"B": { type: "item", "code": "game:leather-white", quantity: 1 },
-			"G": { type: "item", "code": "game:leather-gray", quantity: 1 },
-			"P": { type: "item", "code": "medieval:stripsofleather", quantity: 1 }
+			"B": { type: "item", code: "game:leather-white", quantity: 1 },
+			"G": { type: "item", code: "game:leather-gray", quantity: 1 },
+			"P": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-whites"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-whites"  }
 	},
 	{
 		ingredientPattern: "BGP",
 		ingredients: {
-			"B": { type: "item", "code": "medieval:clothes-lowerbody-medieval-leather-pants", quantity: 1 },
-			"G": { type: "item", "code": "game:metalchain-iron", quantity: 1 },
-			"P": { type: "item", "code": "medieval:stripsofleather", quantity: 1 }
+			"B": { type: "item", code: "medieval:clothes-lowerbody-medieval-leather-pants", quantity: 1 },
+			"G": { type: "item", code: "game:metalchain-iron", quantity: 1 },
+			"P": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
 		},
 		width: 3,
 		height: 1,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-armor-leather-chain-pants"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-armor-leather-chain-pants"  }
 	},
 	{
 		ingredientPattern: "BPB,BGB",
 		ingredients: {
-			"B": { type: "item", "code": "game:hide-pelt-medium", quantity: 1 },
-			"G": { type: "item", "code": "game:leather-gray", quantity: 1 },
-			"P": { type: "item", "code": "medieval:stripsofleather", quantity: 1 }
+			"B": { type: "item", code: "game:hide-pelt-medium", quantity: 1 },
+			"G": { type: "item", code: "game:leather-gray", quantity: 1 },
+			"P": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-hunter"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-hunter"  }
 	},
 	{
 		ingredientPattern: "GP,G_",
 		ingredients: {
-			"G": { type: "item", "code": "game:cloth-plain", quantity: 1 },
-			"P": { type: "item", "code": "medieval:stripsofleather", quantity: 1 }
+			"G": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"P": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
 		},
 		width: 2,
 		height: 2,
-		output: { type: "item", "code": "medieval:clothes-lowerbody-lad"  }
+		output: { type: "item", code: "medieval:clothes-lowerbody-lad"  }
 	}
 ]

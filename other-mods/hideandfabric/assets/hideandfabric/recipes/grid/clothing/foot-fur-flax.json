@@ -1,0 +1,80 @@
+[
+  {
+    "ingredientPattern": "TKT,LHL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "L": { "type": "item", "code": "game:leather-plain" },
+      "H": { "type": "item", "code": "hideandfabric:hide-medium-boar-normal" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hideboots-boar-normal" }
+  },
+  {
+    "ingredientPattern": "TKT,LHL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "L": { "type": "item", "code": "game:leather-plain" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-fox-*", "quantity": 2, "name": "coat" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hideboots-fox-{coat}" }
+  },
+  {
+    "ingredientPattern": "TKT,LHL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "L": { "type": "item", "code": "game:leather-plain" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-hare-*", "quantity": 2, "name": "coat" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hideboots-hare-{coat}" }
+  },
+  {
+    "ingredientPattern": "TKT,LHL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "L": { "type": "item", "code": "game:leather-plain" },
+      "H": { "type": "item", "code": "hideandfabric:hide-small-raccoon-normal", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hideboots-raccoon-normal" }
+  },
+  {
+    "ingredientPattern": "TKT,LHL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "L": { "type": "item", "code": "game:leather-plain" },
+     "H": { "type": "item", "code": "hideandfabric:hide-*-sheep-normal" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hideboots-sheep-normal" }
+  },
+  {
+    "ingredientPattern": "TKT,LHL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "L": { "type": "item", "code": "game:leather-plain" },
+      "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:hideboots-wolf-wolf5" }
+  }
+]

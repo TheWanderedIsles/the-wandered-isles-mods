@@ -1,0 +1,12 @@
+[
+	{
+	"code": "dilutedchromite_powdered",
+	requiresTrait: "Artisan",
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 50 },
+		{ "type": "item", "code": "em:powdered-ore-chromite", "quantity": 20 }
+	],
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "game:dilutedchromiteportion", "litres": 50 }
+	}
+]

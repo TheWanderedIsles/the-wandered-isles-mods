@@ -1,0 +1,48 @@
+[
+  {
+    "ingredientPattern": "C_C,C_C",
+    "ingredients": {
+      "C": { "type": "item", "code": "hideandfabric:cloth-cotton-plain" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-lowerbody-homespun-cottonpants" }
+  },
+  {
+    "ingredientPattern": "C_C,C_C",
+    "ingredients": {
+      "C": { "type": "item", "code": "hideandfabric:cloth-wool-plain" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-lowerbody-homespun-woolenleggings" }
+  },
+  {
+    "ingredientPattern": "C_C,C_C",
+    "ingredients": {
+      "C": { "type": "item", "code": "hideandfabric:cloth-*-blue" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-lowerbody-denim-pants" }
+  },
+  {
+    "ingredientPattern": "C_C,C_C",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cloth-blue" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-lowerbody-denim-pants" }
+  },
+  {
+    "ingredientPattern": "KP",
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "P": { "type": "item", "code": "hideandfabric:clothes-lowerbody-denim-pants" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "hideandfabric:clothes-lowerbody-denim-shorts" }
+  }
+]

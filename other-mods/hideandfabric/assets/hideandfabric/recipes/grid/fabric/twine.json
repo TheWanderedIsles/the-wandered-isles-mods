@@ -1,0 +1,9 @@
+{
+  "ingredientPattern": "FF,FF",
+  "ingredients": {
+    "F": { "type": "item", "code": "fibers-*", "name": "fabric", quantity: 2 }
+  },
+  "width": 2,
+  "height": 2,
+  "output": { "type": "item", "code": "twine-{fabric}" }
+}

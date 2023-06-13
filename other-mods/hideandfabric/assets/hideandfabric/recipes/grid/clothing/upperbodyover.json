@@ -1,0 +1,185 @@
+[
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:feather", "quantity": 4 },
+      "C": { "type": "item", "code": "game:cloth-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-linen" }
+  },
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:feather", "quantity": 4 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-cotton-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-cotton" }
+  },
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:feather", "quantity": 4 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-wool-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-wool" }
+  },
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "hideandfabric:fibers-*", "quantity": 8, "allowedVariants": [ "cotton", "wool" ] },
+      "C": { "type": "item", "code": "game:cloth-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-linen" }
+  },
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "hideandfabric:fibers-*", "quantity": 8, "allowedVariants": [ "cotton", "wool" ] },
+      "C": { "type": "item", "code": "hideandfabric:cloth-cotton-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-cotton" }
+  },
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "hideandfabric:fibers-*", "quantity": 8, "allowedVariants": [ "cotton", "wool" ] },
+      "C": { "type": "item", "code": "hideandfabric:cloth-wool-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-wool" }
+  },
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:flaxfibers", "quantity": 8 },
+      "C": { "type": "item", "code": "game:cloth-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-linen" }
+  },
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:flaxfibers", "quantity": 8 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-cotton-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-cotton" }
+  },
+  {
+    "ingredientPattern": "CTC,CTC,CTC",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:flaxfibers", "quantity": 8 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-wool-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-quiltedovercoat-wool" }
+  },
+
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-large-*", "quantity": 2 },
+      "C": { "type": "item", "code": "game:cloth-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-linen" }
+  },
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-large-*", "quantity": 2 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-cotton-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-cotton" }
+  },
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-large-*", "quantity": 2 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-wool-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-wool" }
+  },
+
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-medium-*", "quantity": 3 },
+      "C": { "type": "item", "code": "game:cloth-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-linen" }
+  },
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-medium-*", "quantity": 3 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-cotton-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-cotton" }
+  },
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-medium-*", "quantity": 3 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-wool-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-wool" }
+  },
+
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-small-*", "quantity": 4 },
+      "C": { "type": "item", "code": "game:cloth-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-linen" }
+  },
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-small-*", "quantity": 4 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-cotton-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-cotton" }
+  },
+  {
+    "ingredientPattern": "FCF,FCF,CCC",
+    "ingredients": {
+      "F": { "type": "item", "code": "hideandfabric:hide-small-*", "quantity": 4 },
+      "C": { "type": "item", "code": "hideandfabric:cloth-wool-plain" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-upperbodyover-furlinedparka-wool" }
+  }
+]

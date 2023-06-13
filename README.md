@@ -1,2 +1,2 @@
-# Wandering-Isles-VS
-The Wandered Isles Modpack
+# clean-other-mods
+repo for purpose of cleaning other mods (those not included in wandered isles)

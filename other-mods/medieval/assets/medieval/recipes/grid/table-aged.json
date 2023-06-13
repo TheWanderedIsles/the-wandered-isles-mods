@@ -1,0 +1,13 @@
+[
+    {
+		ingredientPattern: "WTW,WXW,W_W",
+		ingredients: {
+			"W": { type: "item", code: "game:plank-aged" },
+			"X": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+			"T": { type: "block", code: "game:linen-*", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "tablea-normal" }
+	}
+]

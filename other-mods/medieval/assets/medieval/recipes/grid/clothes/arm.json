@@ -1,55 +1,55 @@
 [
-    {
-        ingredientPattern: "LLT",
-        recipeGroup: 1,
-        ingredients: {
-            "L": { type: "item", "code": "game:leather-plain", quantity: 1 },
-            "T": { type: "item", "code": "medieval:stripsofleather" }
-        },
-        width: 3,
-        height: 1,
-        output: { type: "item", "code": "medieval:clothes-arm-medieval-leather-bracers"  }
-    },
-    {
-        ingredientPattern: "GGG",
-        recipeGroup: 1,
-        ingredients: {
-            "G": { type: "item", "code": "game:nugget-nativegold", quantity: 2 }
-        },
-        width: 3,
-        height: 1,
-        output: { type: "item", "code": "medieval:clothes-arm-esclava"  }
-    },
-    {
-        ingredientPattern: "GGG",
-        recipeGroup: 1,
-        ingredients: {
-            "G": { type: "item", "code": "game:metalbit-gold", quantity: 2 }
-        },
-        width: 3,
-        height: 1,
-        output: { type: "item", "code": "medieval:clothes-arm-esclava"  }
-    },
-    {
-        ingredientPattern: "LLT",
-        recipeGroup: 1,
-        ingredients: {
-            "L": { type: "item", "code": "game:leather-plain", quantity: 1 },
-            "T": { type: "item", "code": "medieval:clothes-arm-medieval-leather-bracers" }
-        },
-        width: 3,
-        height: 1,
-        output: { type: "item", "code": "medieval:clothes-arm-medieval-bracers"  }
-    },
-    {
-        ingredientPattern: "LLT",
-        recipeGroup: 1,
-        ingredients: {
-            "L": { type: "item", "code": "game:boss-iron", quantity: 1 },
-            "T": { type: "item", "code": "medieval:clothes-arm-medieval-leather-bracers" }
-        },
-        width: 3,
-        height: 1,
-        output: { type: "item", "code": "medieval:medieval:clothes-arm-medieval-metal-bracers"  }
-    }
+	{
+		ingredientPattern: "LLT",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "medieval:clothes-arm-medieval-leather-bracers"  }
+	},
+	{
+		ingredientPattern: "GGG",
+		recipeGroup: 1,
+		ingredients: {
+			"G": { type: "item", code: "game:nugget-nativegold", quantity: 2 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "medieval:clothes-arm-esclava"  }
+	},
+	{
+		ingredientPattern: "GGG",
+		recipeGroup: 1,
+		ingredients: {
+			"G": { type: "item", code: "game:metalbit-gold", quantity: 2 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "medieval:clothes-arm-esclava"  }
+	},
+	{
+		ingredientPattern: "LLT",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:clothes-arm-medieval-leather-bracers" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "medieval:clothes-arm-medieval-bracers"  }
+	},
+	{
+		ingredientPattern: "LLT",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:boss-iron", quantity: 1 },
+			"T": { type: "item", code: "medieval:clothes-arm-medieval-leather-bracers" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "medieval:medieval:clothes-arm-medieval-metal-bracers"  }
+	}
 ]
