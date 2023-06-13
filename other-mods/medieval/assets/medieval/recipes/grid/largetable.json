@@ -4,7 +4,7 @@
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true  },
 			"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 3 },
-			"N": {type: "Item", code: "hammersringingfall:nail-copper", quantity: 10 }
+			"N": {type: "Item", code: "hammersringingfall:nail-*", quantity: 10 }
 		},
 		width: 3,
 		height: 3,
