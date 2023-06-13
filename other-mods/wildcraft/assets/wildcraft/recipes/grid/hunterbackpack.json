@@ -1,7 +1,7 @@
 [
 	{
 		ingredientPattern: "CPC,CCC",
-		requiredtraits:"Hunter",
+		requiresTrait:"Hunter",
 		ingredients: {
 			"P": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["medium", "large", "huge" ], quantity: 1 },
 			"C": { type: "item", code: "wildcraft:plantfibers-*", quantity: 3 }
@@ -13,7 +13,7 @@
 	},
 	{
 		ingredientPattern: "CSC,CCC",
-		requiredtraits:"Hunter",
+		requiresTrait:"Hunter",
 		ingredients: {
 			"S": { type: "item", code: "game:hide-pelt-small", quantity: 3 },
 			"C": { type: "item", code: "wildcraft:plantfibers-*", quantity: 3 }
