@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "FPF	PFP	FPF",
+		ingredients: {
+			"P": { type: "item", code: "plank-*", name: "wood", quantity: 1 },
+			"F": { type: "item", code: "flaxtwine" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "sieve-linen", quantity: 1  }
+	},
+	{
+		ingredientPattern: "FPF	PFP	FPF",
+		ingredients: {
+			"P": { type: "item", code: "plank-*", name: "wood", quantity: 1 },
+			"F": {type: "Item", code: "hideandfabric:twine-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "sieve-linen", quantity: 1  }
+	}
+]

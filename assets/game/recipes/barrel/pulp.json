@@ -1,0 +1,29 @@
+[
+	{
+		code: "pulp-linen",
+		sealHours: 72,
+		ingredients: [
+			{ type: "item", code: "waterportion", litres: 4, consumeLitres: 4 },
+			{ type: "item", code: "bandage-*", name: "bandage", quantity: 1, allowedVariants: ["clean", "alcoholed" ] }
+		],
+		output: { type: "item", code: "pulp-linen", stackSize: 2 }
+	},
+	{
+		code: "pulp-linen",
+		sealHours: 72,
+		ingredients: [
+			{ type: "item", code: "waterportion", litres: 2, consumeLitres: 2 },
+			{ type: "item", code: "flaxtwine", quantity: 1 }
+		],
+		output: { type: "item", code: "pulp-linen", stackSize: 2 }
+	},
+	{
+		code: "pulp-linen",
+		sealHours: 72,
+		ingredients: [
+			{ type: "item", code: "waterportion", litres: 2, consumeLitres: 2 },
+			{ type: "item", code: "flaxfibers", quantity: 4 }
+		],
+		output: { type: "item", code: "pulp-linen", stackSize: 1 }
+	}
+]

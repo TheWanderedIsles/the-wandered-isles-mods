@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "F,B,B",
+    "file": "game:recipes/grid/candle.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/F",
+    "value": {
+      "type": "Item",
+      "code": "game:flaxfibers",
+      "quantity": 4
+    },
+    "file": "game:recipes/grid/candle.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B/quantity",
+    "value": 4,
+    "file": "game:recipes/grid/candle.json"
+  },
+  {
+    "op": "add",
+    "path": "/output/quantity",
+    "value": 4,
+    "file": "game:recipes/grid/candle.json"
+  }
+]

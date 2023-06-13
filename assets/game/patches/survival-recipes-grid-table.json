@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "WWW\tWNW\tW_W",
+    "file": "game:recipes/grid/table.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 4
+    },
+    "file": "game:recipes/grid/table.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/W/quantity",
+    "value": 2,
+    "file": "game:recipes/grid/table.json"
+  }
+]

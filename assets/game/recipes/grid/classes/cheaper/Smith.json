@@ -1,0 +1,127 @@
+[
+{
+		ingredientPattern: "C__	BBB	___",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-blackbronze" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-arm-silver-chain" }
+	},
+	{
+		ingredientPattern: "C__	___	BBB",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-blackbronze" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-arm-silver-bracelet" }
+	},
+	{
+		ingredientPattern: "C__	B_B	_B_",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-blackbronze" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-emblem-silver-star" }
+	},
+	{
+		ingredientPattern: "C_B	__B	__B",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-blackbronze" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-emblem-silver-pin" }
+	},
+	{
+		ingredientPattern: "BBB	C__	___",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-blackbronze" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-head-gold-coronet" }
+	},
+	{
+		ingredientPattern: "C__	BBB	___",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-copper" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-neck-copper-torc" }
+	},
+	{
+		ingredientPattern: "C__	___	BBB",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-copper" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-arm-copper-bracelet" }
+	},
+	{
+		ingredientPattern: "C__	BBB	___",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-tinbronze" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-arm-bronze-bracelet" }
+	},
+	{
+		ingredientPattern: "C__	___	BBB",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-tinbronze" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-arm-bronze-armlet" }
+	},
+	{
+		ingredientPattern: "C__	BAB	___",
+		requiresTrait: "Smith",
+		ingredients: {
+			"B": {type: "Item", code: "hammersringingfall:metalband-blackbronze" },
+			"A": {type: "Item", code: "game:nugget-rhodochrosite" },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+		},
+
+		width: 3,
+		height: 3,
+		output: {type: "Item", code: "game:clothes-arm-rosary" }
+	},
+
+
+
+
+
+
+
+
+
+]

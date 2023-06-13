@@ -1,0 +1,45 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "TB,SR",
+    "file": "game:recipes/grid/tool/scythe.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:metalband-*"
+    },
+    "file": "game:recipes/grid/tool/scythe.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:rivet-*",
+      "quantity": 2
+    },
+    "file": "game:recipes/grid/tool/scythe.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "hammersringingfall:toolhaft-long-finished",
+    "file": "game:recipes/grid/tool/scythe.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/type",
+    "value": "Item",
+    "file": "game:recipes/grid/tool/scythe.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 2,
+    "file": "game:recipes/grid/tool/scythe.json"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "PNP,PPP",
+    "file": "game:recipes/grid/trough-large.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 4
+    },
+    "file": "game:recipes/grid/trough-large.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/P/quantity",
+    "value": 4,
+    "file": "game:recipes/grid/trough-large.json"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "PPN,PP_",
+    "file": "game:recipes/grid/planks.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 4
+    },
+    "file": "game:recipes/grid/planks.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/P/quantity",
+    "value": 4,
+    "file": "game:recipes/grid/planks.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/output/quantity",
+    "value": 2,
+    "file": "game:recipes/grid/planks.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": 3,
+    "file": "game:recipes/grid/planks.json"
+  }
+]

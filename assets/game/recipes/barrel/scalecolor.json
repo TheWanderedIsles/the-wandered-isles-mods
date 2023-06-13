@@ -1,0 +1,23 @@
+{
+	"code": "scalecolor",
+	"ingredients": [
+	{
+	"type": "item", 
+	"code": "game:metalscale-iron",  
+	"quantity": 1
+		},
+		{ 
+	"type": "item",
+	"code": "tonwexp:laccolor-*", 
+"name": "color",
+"allowedVariants": ["green", "yellow", "orange"],		
+	"liters": 1 
+		},
+	],
+	"output": 
+	{ 
+	"type": "item", 
+	"code": "tonwexp:scalecolor-{color}", 
+	"stackSize": 1
+	}
+}

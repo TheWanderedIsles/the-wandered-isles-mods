@@ -1,0 +1,19 @@
+[
+  {
+    "op": "remove",
+    "path": "/recipeGroup",
+    "file": "game:recipes/grid/slabs/mudbrickslab.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/C/quantity",
+    "value": 8,
+    "file": "game:recipes/grid/slabs/mudbrickslab.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/G/quantity",
+    "value": 8,
+    "file": "game:recipes/grid/slabs/mudbrickslab.json"
+  }
+]

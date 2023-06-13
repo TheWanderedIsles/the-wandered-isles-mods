@@ -1,0 +1,15 @@
+{
+"code": "ferncompost",
+"sealHours": 480,
+"ingredients": [{
+"type": "block",
+	"code": "game:fern-*",
+	"quantity": 64 ,
+	"name": "fern",
+	"allowedVariants": [ "hartstongue", "eaglefern", "deerfern", "cinnamonfern" ]}
+	],
+"output": { 
+	"type": "item",
+	"code": "game:compost",
+	"stackSize": 16 }
+}

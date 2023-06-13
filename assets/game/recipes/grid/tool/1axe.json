@@ -1,0 +1,32 @@
+[
+	{
+		ingredientPattern: "TB,SR",
+		ingredients: {
+			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ]  },
+		"S": {type: "Item", code: "hammersringingfall:toolhaft-medium-finished" },
+      "B": { "type": "item", "code": "hammersringingfall:metalband-*"},
+      "R": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2}
+		},
+		width: 2,		
+		height: 2,
+		output: { type: "item", code: "axe-felling-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T	B",
+		ingredients: {
+			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ] },
+			"B": { type: "item", code: "stick" }
+		},
+		Width: 1,		height: 2,
+		output: { type: "item", code: "axe-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T	B",
+		ingredients: {
+			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ] },
+			"B": { type: "item", code: "bone" }
+		},
+		Width: 1,		height: 2,
+		output: { type: "item", code: "axe-bone-{material}", quantity: 1  }
+	}
+]

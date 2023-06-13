@@ -1,0 +1,50 @@
+[
+    {
+		ingredientPattern: "_LN,AAA,AAA",
+		ingredients: {
+			"A": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 2 },
+			"L": {type: "Item", code: "game:leather-plain", quantity:4 },
+			"N": {type: "Item", code: "hammersringingfall:nail-*", quantity:6 }
+			
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Block", code: "game:bookshelf", attributes: { "type": "2row1col", "material": "{wood}" }, "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity:2 }
+	},
+	{
+		ingredientPattern: "LAA,NAA,_AA",
+		ingredients: {
+			"A": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 2 },
+			"L": {type: "Item", code: "game:leather-plain", quantity:4 },
+			"N": {type: "Item", code: "hammersringingfall:nail-*", quantity:6 }
+			
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Block", code: "game:bookshelf", attributes: { "type": "1row2col", "material": "{wood}" }, "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity:2 }
+	},
+	{
+		ingredientPattern: "LAA,NAA,___",
+		ingredients: {
+			"A": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 2 },
+			"L": {type: "Item", code: "game:leather-plain", quantity:4 },
+			"N": {type: "Item", code: "hammersringingfall:nail-*", quantity:4 }
+			
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Block", code: "game:bookshelf", attributes: { "type": "1row1col", "material": "{wood}" }, "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity:2 }
+	},
+	{
+		ingredientPattern: "LAN,AAA,_A_",
+		ingredients: {
+			"A": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 3 },
+			"L": {type: "Item", code: "game:leather-plain", quantity:4 },
+			"N": {type: "Item", code: "hammersringingfall:nail-*", quantity:8 }
+			
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Block", code: "game:bookshelf", attributes: { "type": "2row2col", "material": "{wood}" }, "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity:2 }
+	},
+]

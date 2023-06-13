@@ -1,0 +1,37 @@
+[
+{
+"ingredient": {
+"type": "item",
+"code": "game:ingot-*",
+"name": "axem",
+"allowedVariants": [ "iron", "meteoriciron" ]
+},
+"name": "Axe",
+"output": { "type": "item", "code": "tonwexp:axehead-{axem}"},
+"pattern": [[
+"__#########___",
+"__#########___",
+"__###____#____",
+"___##_________"
+]]
+},
+{
+"ingredient": {
+"type": "item",
+"code": "game:ingot-*",
+"name": "axem",
+"allowedVariants": [ "steel" ]
+},
+"name": "Axe",
+"output": { "type": "item", "code": "tonwexp:axehead-{axem}"},
+"pattern": [[
+"___##_________",
+"__###____#____",
+"__###########_",
+"__#########___",
+"__###___###___",
+"___##_________"
+]]
+}
+]
+

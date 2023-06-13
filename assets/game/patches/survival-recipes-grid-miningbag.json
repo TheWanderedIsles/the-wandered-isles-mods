@@ -1,0 +1,29 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "TLT,PBP",
+    "file": "game:recipes/grid/miningbag.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": {
+      "type": "item",
+      "code": "linensack"
+    },
+    "file": "game:recipes/grid/miningbag.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/P/quantity",
+    "value": 10,
+    "file": "game:recipes/grid/miningbag.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/P/code",
+    "value": "metalbit-*",
+    "file": "game:recipes/grid/miningbag.json"
+  }
+]

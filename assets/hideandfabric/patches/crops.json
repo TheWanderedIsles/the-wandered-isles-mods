@@ -1,0 +1,28 @@
+[
+  {
+  "op":"add",
+  "path": "/cropProps/totalGrowthMonths",
+  "value": "3.33",
+  "file": "hideandfabric:blocktypes/plant/cotton.json",
+  "dependsOn": [{"modid": "hideandfabric"}]
+  },
+  {
+  "op":"remove",
+  "path": "/cropProps/totalGrowthDays",
+  "file": "hideandfabric:blocktypes/plant/cotton.json",
+  "dependsOn": [{"modid": "hideandfabric"}]
+  },
+  {
+  "op":"add",
+  "path": "/cropProps/totalGrowthMonths",
+  "value": "3.33",
+  "file": "hideandfabric:blocktypes/plant/jute.json",
+  "dependsOn": [{"modid": "hideandfabric"}]
+  },
+  {
+  "op":"remove",
+  "path": "/cropProps/totalGrowthDays",
+  "file": "hideandfabric:blocktypes/plant/jute.json",
+  "dependsOn": [{"modid": "hideandfabric"}]
+  }
+]

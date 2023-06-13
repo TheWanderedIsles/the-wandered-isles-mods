@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "PN,PP",
+    "file": "game:recipes/grid/stairs/plankstairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:band-*",
+      "quantity": 2
+    },
+    "file": "game:recipes/grid/stairs/plankstairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/P/quantity",
+    "value": 2,
+    "file": "game:recipes/grid/stairs/plankstairs.json"
+  },
+  {
+    "op": "replace",
+    "path": "/output/quantity",
+    "value": 2,
+    "file": "game:recipes/grid/stairs/plankstairs.json"
+  }
+]
