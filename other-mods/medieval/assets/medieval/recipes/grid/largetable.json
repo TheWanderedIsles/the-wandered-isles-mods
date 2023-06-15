@@ -3,8 +3,8 @@
 		ingredientPattern: "WWW,WHW,W_W",
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true  },
-			"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 3 },
-			"N": {type: "Item", code: "hammersringingfall:nail-copper", quantity: 10 }
+			"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ], quantity: 3 },
+			"N": {type: "Item", code: "hammersringingfall:nail-*", quantity: 10 }
 		},
 		width: 3,
 		height: 3,
@@ -13,7 +13,7 @@
 	{
 		ingredientPattern: "W",
 		ingredients: {
-			"W": { type: "block", code: "medieval:largetables-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ]},
+			"W": { type: "block", code: "medieval:largetables-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]},
 		},
 		width: 1,
 		height: 1,
@@ -22,7 +22,7 @@
 	{
 		ingredientPattern: "W",
 		ingredients: {
-			"W": { type: "block", code: "medieval:largetablel-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+			"W": { type: "block", code: "medieval:largetablel-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
 		},
 		width: 1,
 		height: 1,
@@ -31,7 +31,7 @@
 	{
 		ingredientPattern: "W",
 		ingredients: {
-			"W": { type: "block", code: "medieval:largetabler-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+			"W": { type: "block", code: "medieval:largetabler-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
 		},
 		width: 1,
 		height: 1,
@@ -40,7 +40,7 @@
 	{
 		ingredientPattern: "W",
 		ingredients: {
-			"W": { type: "block", code: "medieval:largetablec-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+			"W": { type: "block", code: "medieval:largetablec-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
 		},
 		width: 1,
 		height: 1,

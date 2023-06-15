@@ -14,7 +14,7 @@
     "ingredients": {
       "S": { type: "item", code: "game:saw-*", isTool: true  },
       "H": { type: "item", code: "game:hammer-*", isTool: true  },
-      "W": { "type": "item", "code": "game:plank-*", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+      "W": { "type": "item", "code": "game:plank-*", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
 		"N": {type: "Item", code: "hammersringingfall:nail-*", quantity: 4 }
    },
     "width": 3,
@@ -24,7 +24,7 @@
   {
     "ingredientPattern": "W",
     "ingredients": {
-      "W": { "type": "block", "code": "medieval:medievalfencefancy-*-ew-free", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ] },
+      "W": { "type": "block", "code": "medieval:medievalfencefancy-*-ew-free", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
     },
     "width": 1,
     "height": 1,
