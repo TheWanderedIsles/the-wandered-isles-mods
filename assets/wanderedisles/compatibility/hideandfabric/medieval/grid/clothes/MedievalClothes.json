@@ -2,7 +2,7 @@
 	{
 		ingredientPattern: "R__,F__",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 2 }
 		},
 		width: 3,
@@ -12,7 +12,7 @@
 	{
 		ingredientPattern: "RF_",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 2 }
 		},
 		width: 3,
@@ -27,7 +27,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -37,7 +37,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -47,7 +47,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -57,7 +57,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -67,7 +67,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -77,7 +77,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -87,7 +87,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -97,7 +97,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -107,7 +107,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -117,7 +117,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -127,7 +127,7 @@
 	{
 		ingredientPattern: "RFR,FRF,RFR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -147,7 +147,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-orange"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -158,7 +158,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-purple"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -169,7 +169,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-pink"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -180,7 +180,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-red"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -191,7 +191,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-yellow"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -202,7 +202,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-green"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -213,7 +213,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-gray"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -224,7 +224,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-brown"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -235,7 +235,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-blue"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -246,7 +246,7 @@
 	{
 		ingredientPattern: "KRF",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-linen-tunic-white"  },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
@@ -262,7 +262,7 @@
 	{
 		ingredientPattern: "_S_,RSR,RRR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit" }
 		},
 		width: 3,
@@ -272,8 +272,8 @@
 	{
 		ingredientPattern: "RSR,RRR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -282,8 +282,8 @@
 	{
 		ingredientPattern: "RSR,RRR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -292,8 +292,8 @@
 	{
 		ingredientPattern: "RSR,RRR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -302,8 +302,8 @@
 	{
 		ingredientPattern: "RSR,RRR",
 		ingredients: {
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -314,7 +314,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -327,7 +327,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-black", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -340,7 +340,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-blue", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -353,7 +353,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-gray", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -366,7 +366,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-green", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -379,7 +379,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-red", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -392,7 +392,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-white", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -405,7 +405,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -418,7 +418,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-black", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -431,7 +431,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-blue", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -444,7 +444,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-gray", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -457,7 +457,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-green", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -470,7 +470,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-red", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -483,7 +483,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-white", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
@@ -494,7 +494,7 @@
 	{
 		ingredientPattern: "FCF,FCF",
 		ingredients: {
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" }
 		},
 		width: 3,
@@ -504,9 +504,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -517,9 +517,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -530,9 +530,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -543,9 +543,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -556,9 +556,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -569,9 +569,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -582,9 +582,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -595,9 +595,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -608,9 +608,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -621,9 +621,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -634,9 +634,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -647,9 +647,9 @@
 	{
 		ingredientPattern: "BKB,GFG,CFC",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -665,7 +665,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -676,7 +676,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -687,7 +687,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -698,7 +698,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -709,7 +709,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -720,7 +720,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -731,7 +731,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -742,7 +742,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -753,7 +753,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -764,7 +764,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -775,7 +775,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -786,7 +786,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -797,7 +797,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -808,7 +808,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -819,7 +819,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
@@ -830,7 +830,7 @@
 	{
 		ingredientPattern: "BFB,BKB,BFB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
@@ -851,7 +851,7 @@
 	{
 		ingredientPattern: "KBF",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-blue-robe"  }
 		},
@@ -862,7 +862,7 @@
 	{
 		ingredientPattern: "KBF",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-brown-robe"  }
 		},
@@ -873,7 +873,7 @@
 	{
 		ingredientPattern: "KBF",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-gray-robe"  }
 		},
@@ -884,7 +884,7 @@
 	{
 		ingredientPattern: "KBF",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-green-robe"  }
 		},
@@ -895,7 +895,7 @@
 	{
 		ingredientPattern: "KBF",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-orange-robe"  }
 		},
@@ -906,7 +906,7 @@
 	{
 		ingredientPattern: "KBF",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-red-robe"  }
 		},
@@ -917,7 +917,7 @@
 	{
 		ingredientPattern: "KBF",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-yellow-robe"  }
 		},
@@ -928,7 +928,7 @@
 	{
 		ingredientPattern: "KBF",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather" },
 			"K": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-black-robe"  }
 		},
@@ -966,8 +966,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-plain" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-plain" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -977,8 +977,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-plain" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-plain" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -988,8 +988,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -999,8 +999,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1010,8 +1010,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-blue" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-blue" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1021,8 +1021,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-blue" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-blue" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1032,8 +1032,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-brown" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-brown" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1043,8 +1043,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-brown" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-brown" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1054,8 +1054,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-gray" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-gray" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1065,8 +1065,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-gray" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-gray" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1076,8 +1076,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-green" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-green" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1087,8 +1087,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-green" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-green" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1098,8 +1098,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-orange" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-orange" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1109,8 +1109,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-orange" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-orange" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1120,8 +1120,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-pink" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-pink" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1131,8 +1131,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-pink" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-pink" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1142,8 +1142,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-purple" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-purple" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1153,8 +1153,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-purple" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-purple" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1164,8 +1164,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1175,8 +1175,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1186,8 +1186,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1197,8 +1197,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1208,8 +1208,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-yellow" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-yellow" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1219,8 +1219,8 @@
 	{
 		ingredientPattern: "FBF,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-yellow" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-yellow" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1230,7 +1230,7 @@
 	{
 		ingredientPattern: "B_B,BBB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1240,7 +1240,7 @@
 	{
 		ingredientPattern: "B_B,BBB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1250,9 +1250,9 @@
 	{
 		ingredientPattern: "BKB,BLB,_L_",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"L": { "type": "item", "code": "game:leather-plain", "quantity": 1 },
-			"K": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"K": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -1261,9 +1261,9 @@
 	{
 		ingredientPattern: "BKB,BLB,_L_",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"L": { "type": "item", "code": "game:leather-red", "quantity": 1 },
-			"K": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"K": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -1272,9 +1272,9 @@
 	{
 		ingredientPattern: "BKB,BLB,_L_",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"L": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
-			"K": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"K": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -1283,8 +1283,8 @@
 	{
 		ingredientPattern: "B_B,BLB,_L_",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -1293,8 +1293,8 @@
 	{
 		ingredientPattern: "BWB,BWB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1304,8 +1304,8 @@
 	{
 		ingredientPattern: "BWB,BWB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1315,8 +1315,8 @@
 	{
 		ingredientPattern: "BBB,WWW,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1326,8 +1326,8 @@
 	{
 		ingredientPattern: "BBB,WWW,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1337,8 +1337,8 @@
 	{
 		ingredientPattern: "BWB,BWB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1348,8 +1348,8 @@
 	{
 		ingredientPattern: "BWB,BWB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1359,8 +1359,8 @@
 	{
 		ingredientPattern: "BWB,BBB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1370,8 +1370,8 @@
 	{
 		ingredientPattern: "BWB,BBB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1381,8 +1381,8 @@
 	{
 		ingredientPattern: "BWB,BWB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1392,8 +1392,8 @@
 	{
 		ingredientPattern: "BWB,BWB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1403,8 +1403,8 @@
 	{
 		ingredientPattern: "BWB,BBB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1414,8 +1414,8 @@
 	{
 		ingredientPattern: "BWB,BBB,S__",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1430,7 +1430,7 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"B": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-yellow-robe", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -1440,7 +1440,7 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"B": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-red-robe", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -1450,7 +1450,7 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"B": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-orange-robe", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -1460,7 +1460,7 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"B": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-green-robe", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -1470,7 +1470,7 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"B": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-gray-robe", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -1480,7 +1480,7 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"B": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-brown-robe", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -1490,7 +1490,7 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"B": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-blue-robe", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -1500,7 +1500,7 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"B": { "type": "item", "code": "medieval:clothes-upperbody-medieval-large-black-robe", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -1511,7 +1511,7 @@
 		ingredients: {
 			"B": { "type": "item", "code": "game:leather-orange", "quantity": 1 },
 			"Y": { "type": "item", "code": "game:leather-yellow", "quantity": 1 },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -1521,8 +1521,8 @@
 		ingredientPattern: "BFB,BYB,BYB",
 		ingredients: {
 			"B": { "type": "item", "code": "game:leather-black", "quantity": 1 },
-			"Y": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"Y": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -1531,9 +1531,9 @@
 	{
 		ingredientPattern: "BFB,BBB,BYB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"Y": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"Y": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -1558,8 +1558,8 @@
 	{
 	ingredientPattern: "R_R,BRB",
 	ingredients: {
-		"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-		"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+		"R": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+		"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] }
 	},
 	width: 3,
 	height: 2,
@@ -1572,7 +1572,7 @@
 	{
 		ingredientPattern: "B_B,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 }
 		},
 		width: 3,
@@ -1582,7 +1582,7 @@
 	{
 		ingredientPattern: "B_B,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 }
 		},
 		width: 3,
@@ -1592,8 +1592,8 @@
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -1602,8 +1602,8 @@
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -1612,8 +1612,8 @@
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -1622,8 +1622,8 @@
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -1632,8 +1632,8 @@
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -1642,8 +1642,8 @@
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -1652,8 +1652,8 @@
 	{
 		ingredientPattern: "BBB,BSB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -1664,7 +1664,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1676,7 +1676,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-black", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1688,7 +1688,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-blue", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1700,7 +1700,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-gray", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1712,7 +1712,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-green", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1724,7 +1724,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-red", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1736,7 +1736,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-white", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1748,7 +1748,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1760,7 +1760,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-black", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1772,7 +1772,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-blue", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1784,7 +1784,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-gray", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1796,7 +1796,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-green", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1808,7 +1808,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-red", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1820,7 +1820,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-white", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -1832,7 +1832,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1844,7 +1844,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-black", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1856,7 +1856,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-blue", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1868,7 +1868,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-gray", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1880,7 +1880,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-green", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1892,7 +1892,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-red", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1904,7 +1904,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-white", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1916,7 +1916,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1928,7 +1928,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-black", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1940,7 +1940,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-blue", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1952,7 +1952,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-gray", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1964,7 +1964,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-green", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1976,7 +1976,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-red", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -1988,7 +1988,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:leather-white", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2000,7 +2000,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -2012,7 +2012,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -2024,7 +2024,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2036,7 +2036,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 2 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2048,7 +2048,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 4 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -2060,7 +2060,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 4 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -2072,7 +2072,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 4 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2084,7 +2084,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 4 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2096,7 +2096,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -2108,7 +2108,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -2120,7 +2120,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2132,7 +2132,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2144,7 +2144,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -2156,7 +2156,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -2168,7 +2168,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2180,7 +2180,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2212,8 +2212,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2223,8 +2223,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2234,8 +2234,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2245,8 +2245,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2256,8 +2256,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 3 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 3 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2267,8 +2267,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 3 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 3 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2278,8 +2278,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 4 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 4 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2289,8 +2289,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 4 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 4 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-white" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2300,8 +2300,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2311,8 +2311,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2322,8 +2322,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2333,8 +2333,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2344,8 +2344,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 3 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 3 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2355,8 +2355,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 3 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 3 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2366,8 +2366,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 4 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 4 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2377,8 +2377,8 @@
 	{
 		ingredientPattern: "FFB,__K",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 4 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 4 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-red" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2388,9 +2388,9 @@
 	{
 		ingredientPattern: "BFB,FKF,_C_",
 		ingredients: {
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 3 , "allowedVariants": [ "cotton", "wool"] },
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 3 , "skipVariants": ["*burlap*"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:sewingkit"  }
 		},
 		width: 3,
@@ -2400,9 +2400,9 @@
 	{
 		ingredientPattern: "BFB,FKF,_C_",
 		ingredients: {
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:sewingkit"  }
 		},
 		width: 3,
@@ -2412,9 +2412,9 @@
 	{
 		ingredientPattern: "BFB,FKF,_C_",
 		ingredients: {
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:sewingkit"  }
 		},
 		width: 3,
@@ -2424,9 +2424,9 @@
 	{
 		ingredientPattern: "BFB,FKF,_C_",
 		ingredients: {
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 4 , "allowedVariants": [ "cotton", "wool"] },
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 4 , "skipVariants": ["*burlap*"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"F": { "type": "item", "code": "hideandfabric:cloth-*-black" , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:sewingkit"  }
 		},
 		width: 3,
@@ -2436,7 +2436,7 @@
 	{
 		ingredientPattern: "__K,BBB,B_B",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2446,7 +2446,7 @@
 	{
 		ingredientPattern: "__K,BBB,B_B",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2456,7 +2456,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2466,7 +2466,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2476,7 +2476,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2486,7 +2486,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2496,7 +2496,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2506,7 +2506,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2516,7 +2516,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2526,7 +2526,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2536,7 +2536,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2546,7 +2546,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2556,7 +2556,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2566,7 +2566,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2576,7 +2576,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2586,7 +2586,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2596,7 +2596,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2606,7 +2606,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2616,7 +2616,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2626,7 +2626,7 @@
 	{
 		ingredientPattern: "__K,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2636,8 +2636,8 @@
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2647,8 +2647,8 @@
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2658,8 +2658,8 @@
 	{
 		ingredientPattern: "BBB,WWW,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2669,8 +2669,8 @@
 	{
 		ingredientPattern: "BBB,WWW,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2680,8 +2680,8 @@
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2691,8 +2691,8 @@
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2702,8 +2702,8 @@
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2713,8 +2713,8 @@
 	{
 		ingredientPattern: "BWB,BWB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2724,8 +2724,8 @@
 	{
 		ingredientPattern: "BWB,BBB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2735,8 +2735,8 @@
 	{
 		ingredientPattern: "BWB,BBB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2746,8 +2746,8 @@
 	{
 		ingredientPattern: "BWB,BBB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2757,8 +2757,8 @@
 	{
 		ingredientPattern: "BWB,BBB,__S",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "medieval:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -2887,7 +2887,7 @@
 	{
 		ingredientPattern: "GP,G_",
 		ingredients: {
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 2,
@@ -3154,7 +3154,7 @@
 		ingredients: {
 			"L": { "type": "item", "code": "game:leather-plain", "quantity": 3 },
 			"T": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
-			"M": { "type": "block", "code": "hideandfabric:fabric-*-*", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+			"M": { "type": "block", "code": "hideandfabric:fabric-*-*", "quantity": 1 , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -3166,7 +3166,7 @@
 		ingredients: {
 			"L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
 			"T": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
-			"M": { "type": "block", "code": "hideandfabric:fabric-*-*", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+			"M": { "type": "block", "code": "hideandfabric:fabric-*-*", "quantity": 1 , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -3178,7 +3178,7 @@
 		ingredients: {
 			"L": { "type": "item", "code": "game:leather-plain", "quantity": 1 },
 			"T": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 },
-			"M": { "type": "block", "code": "hideandfabric:fabric-*-*", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+			"M": { "type": "block", "code": "hideandfabric:fabric-*-*", "quantity": 1 , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -3189,7 +3189,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3201,7 +3201,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3463,7 +3463,7 @@
 		recipeGroup: 1,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3475,7 +3475,7 @@
 		recipeGroup: 1,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3487,7 +3487,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3499,7 +3499,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3511,7 +3511,7 @@
 		recipeGroup: 3,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3523,7 +3523,7 @@
 		recipeGroup: 3,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3535,7 +3535,7 @@
 		recipeGroup: 4,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3547,7 +3547,7 @@
 		recipeGroup: 4,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
 		},
 		width: 3,
@@ -3559,7 +3559,7 @@
 		recipeGroup: 1,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -3571,7 +3571,7 @@
 		recipeGroup: 1,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -3583,7 +3583,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -3595,7 +3595,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -3607,7 +3607,7 @@
 		recipeGroup: 3,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -3619,7 +3619,7 @@
 		recipeGroup: 3,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -3631,7 +3631,7 @@
 		recipeGroup: 4,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
 		},
 		width: 3,
@@ -3643,7 +3643,7 @@
 		recipeGroup: 4,
 		ingredients: {
 			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"C": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*", isTool: true  }
 		},
 		width: 3,
@@ -3674,8 +3674,8 @@
 		ingredients: {
 			"R": { "type": "item", "code": "game:leather-red", "quantity": 1 },
 			"G": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
-			"Y": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"P": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+			"Y": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"P": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -3789,7 +3789,7 @@
 	{
 		ingredientPattern: "BBP",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -3802,7 +3802,7 @@
 			"B": { "type": "item", "code": "game:leather-red", "quantity": 1 },
 			"G": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
 			"C": { "type": "item", "code": "game:leather-plain", "quantity": 1 },
-			"P": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+			"P": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 1 , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -3815,7 +3815,7 @@
 		ingredientPattern: "_L_,LKL",
 		ingredients: {
 			"L": { "type": "item", "code": "game:leather-black", "quantity": 1 },
-			"K": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+			"K": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 1 , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -3836,7 +3836,7 @@
 		ingredients: {
 			"W": { "type": "item", "code": "game:leather-white", "quantity": 1 },
 			"G": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
-			"S": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
 		width: 3,
@@ -3848,7 +3848,7 @@
 		ingredients: {
 			"W": { "type": "item", "code": "game:leather-white", "quantity": 1 },
 			"G": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
-			"S": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:shears-*",  isTool: true }
 		},
 		width: 3,
@@ -3858,7 +3858,7 @@
 	{
 		ingredientPattern: "K_,LS",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
@@ -3869,7 +3869,7 @@
 	{
 		ingredientPattern: "K_,LS",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
@@ -3880,7 +3880,7 @@
 	{
 		ingredientPattern: "K_,LS",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
@@ -3891,7 +3891,7 @@
 	{
 		ingredientPattern: "K_,LS",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
@@ -3914,7 +3914,7 @@
 		ingredients: {
 			"W": { "type": "item", "code": "game:leather-white", "quantity": 1 },
 			"G": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
-			"S": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
 		width: 3,
@@ -3924,7 +3924,7 @@
 	{
 		ingredientPattern: "K_,LS",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
@@ -3935,7 +3935,7 @@
 	{
 		ingredientPattern: "K_,LS",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
@@ -3946,7 +3946,7 @@
 	{
 		ingredientPattern: "K_,LS",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
@@ -3957,7 +3957,7 @@
 	{
 		ingredientPattern: "K_,LS",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
@@ -3978,8 +3978,8 @@
 	{
 		ingredientPattern: "TL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"T": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] }
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"T": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 2 , "skipVariants": ["*burlap*"] }
 		},
 		width: 2,
 		height: 1,
@@ -4159,8 +4159,8 @@
 	{
 		ingredientPattern: "BPB,_G_",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"P": { "type": "item", "code": "game:nugget-nativegold", "quantity": 1 }
 		},
 		width: 3,
@@ -4170,8 +4170,8 @@
 	{
 		ingredientPattern: "BPB,_G_",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-black", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"P": { "type": "item", "code": "game:metalbit-gold", "quantity": 1 }
 		},
 		width: 3,
@@ -4181,7 +4181,7 @@
 	{
 		ingredientPattern: "BP",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 2,
@@ -4231,7 +4231,7 @@
 		ingredientPattern: "CGC,SC_",
 		ingredients: {
 			"C": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
-			"S": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] },
+			"S": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] },
 			"G": { "type": "item", "code": "game:nugget-nativegold", "quantity": 1 }
 		},
 		width: 3,
@@ -4252,7 +4252,7 @@
 		ingredientPattern: "LTL,_L_",
 		ingredients: {
 			"L": { "type": "item", "code": "game:leather-black", "quantity": 1 },
-			"T": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"T": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
@@ -4261,7 +4261,7 @@
 	{
 		ingredientPattern: "BFB,BBB",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -4271,7 +4271,7 @@
 	{
 		ingredientPattern: "BFB	BBB	_B_",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"F": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
 		},
 		width: 3,
@@ -4281,7 +4281,7 @@
 	{
 		ingredientPattern: "BGB,_B_,_B_",
 		ingredients: {
-			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"B": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"G": { "type": "item", "code": "game:nugget-nativegold", "quantity": 1 }
 		},
 		width: 3,
@@ -4291,7 +4291,7 @@
 	{
 		ingredientPattern: "K__,LSL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
@@ -4302,7 +4302,7 @@
 	{
 		ingredientPattern: "K__,LSL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
@@ -4313,7 +4313,7 @@
 	{
 		ingredientPattern: "K__,LSL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
@@ -4324,7 +4324,7 @@
 	{
 		ingredientPattern: "K__,LSL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-pink", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
@@ -4335,7 +4335,7 @@
 	{
 		ingredientPattern: "K__,LSL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
@@ -4346,7 +4346,7 @@
 	{
 		ingredientPattern: "K__,LSL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-purple", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
@@ -4357,7 +4357,7 @@
 	{
 		ingredientPattern: "K__,LSL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "game:shears-*",  isTool: true }
 		},
@@ -4368,7 +4368,7 @@
 	{
 		ingredientPattern: "K__,LSL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:sewingkit", "quantity": 2 },
 			"K": { "type": "item", "code": "shears-*",  isTool: true }
 		},
@@ -4379,7 +4379,7 @@
 	{
 		ingredientPattern: "LKL,SSS,LLL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 1 }
 		},
@@ -4390,7 +4390,7 @@
 	{
 		ingredientPattern: "LKL,SSS,LLL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:leather-plain", "quantity": 1 },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 1 }
 		},
@@ -4401,7 +4401,7 @@
 	{
 		ingredientPattern: "LKL,SSS,LLL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-green", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:leather-green", "quantity": 1 },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 1 }
 		},
@@ -4412,7 +4412,7 @@
 	{
 		ingredientPattern: "LKL,SSS,LLL",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:leather-red", "quantity": 1 },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 1 }
 		},
@@ -4423,10 +4423,10 @@
 	{
 		ingredientPattern: "LS,RG,_K",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"R": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 2 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:cloth-*-gray", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"R": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 2 , "skipVariants": ["*burlap*"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-yellow", "quantity": 2 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 2 }
 		},
 		width: 2,
@@ -4447,7 +4447,7 @@
 	{
 		ingredientPattern: "KLK,_L_,_L_",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-orange", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 1 }
 		},
 		width: 3,
@@ -4457,7 +4457,7 @@
 	{
 		ingredientPattern: "KLK,_L_",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-blue", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 1 }
 		},
 		width: 3,
@@ -4467,7 +4467,7 @@
 	{
 		ingredientPattern: "LSL,LSL,KSK",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"S": { "type": "item", "code": "game:leather-plain", "quantity": 1 },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 1 }
 		},
@@ -4478,8 +4478,8 @@
 	{
 		ingredientPattern: "LRL,SGS,KRK",
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"S": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-brown", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"S": { "type": "item", "code": "hideandfabric:cloth-*-red", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"R": { "type": "item", "code": "game:leather-plain", "quantity": 1 },
 			"G": { "type": "item", "code": "game:leather-red", "quantity": 1 },
 			"K": { "type": "item", "code": "medieval:stripsofleather",  "quantity": 1 }
@@ -4502,7 +4502,7 @@
 	{
 		ingredientPattern: "GKG,GGG,GGG",
 		ingredients: {
-			"G": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
+			"G": { "type": "item", "code": "hideandfabric:cloth-*-plain", "quantity": 1 , "skipVariants": ["*burlap*"] },
 			"K": { "type": "item", "code": "game:drygrass",  "quantity": 1 }
 		},
 		width: 3,
@@ -4514,7 +4514,7 @@
 		ingredients: {
 			"B": { "type": "item", "code": "game:leather-black", "quantity": 1 },
 			"G": { "type": "item", "code": "game:leather-gray", "quantity": 1 },
-			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] }
+			"W": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 3,
@@ -4912,8 +4912,8 @@
 		ingredientPattern: "T_T,L_L",
 		recipeGroup: 1,
 		ingredients: {
-			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "allowedVariants": [ "cotton", "wool"] },
-			"T": { "type": "item", "code": "hideandfabric:twine-*" , "allowedVariants": [ "cotton", "wool"] }
+			"L": { "type": "item", "code": "hideandfabric:cloth-*-white", "quantity": 1 , "skipVariants": ["*burlap*"] },
+			"T": { "type": "item", "code": "hideandfabric:twine-*" , "skipVariants": ["*burlap*"] }
 		},
 		width: 3,
 		height: 2,
