@@ -1,0 +1,106 @@
+{
+	"code": "vatlidcolored",
+	"class": "Block",
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+                { "name": "Unplaceable" },
+		{ "name": "RightClickPickup" }
+	],
+	"variantgroups": [
+		{ "code": "state", "states": [ "raw", "burnt" ] },
+		{ "code": "type", "states": [ "spouted" ] },
+		{ "code": "color", "states": [
+			"black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"shapeByType": {
+		"*-spouted-*": { "base": "bricklayers:block/clay/vat/vat_lid_spout" },
+		"*-normal-*": { "base": "bricklayers:block/clay/vat/vat_lid" }
+	},
+	"attributes": {
+			"handbook": { "groupBy": [ "vatlidcolored-raw-*", "vatlidcolored-burnt-*" ] },
+			"shelvable": true,
+			"displaycaseable": true
+	},
+	"texturesByType": {
+		"@.*-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/{state}/overlay" ] },
+			"neck": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/{state}/overlay_vessel_lid" ] },
+			"lid": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/{state}/overlay_vessel_lid" ] },
+			"dark": { "base": "bricklayers:block/ceramic/glazed/ceramic" }
+		},
+		"@.*-(fire|light|yellow)": {
+			"ceramic": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/{state}/overlay" ] },
+			"neck": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"lid": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"dark": { "base": "bricklayers:block/ceramic/glazed/ceramic" }
+		},
+		"*": {
+			"ceramic": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/{state}/overlay" ] },
+			"neck": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"lid": { "base": "bricklayers:block/clay/{state}/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"dark": { "base": "bricklayers:block/ceramic/glazed/ceramic" }
+		}
+	},
+	"combustiblePropsByType": {
+		"@vatlidcolored-raw-.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"meltingPoint": 1350,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vatlidcolored-burnt-{type}-{color}" },
+			"requiresContainer": false
+		},
+		"vatlidcolored-raw-*": {
+			"meltingPoint": 950,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vatlidcolored-burnt-{type}-{color}" },
+			"requiresContainer": false
+		}
+	},
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"lightAbsorption": 0,
+	"maxStackSize": 8,
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionselectionboxByType": {
+		"*-normal-*" : { "x1": 0.3115, "y1": 0, "z1": 0.3115,
+				 "x2": 0.6875, "y2": 0.15625, "z2": 0.6875 },
+		"*-spouted-*" :  { "x1": 0.34375, "y1": 0, "z1": 0.34375,
+				 "x2": 0.65625, "y2": 0.1875, "z2": 0.65625 }
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 180 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 1.9
+	},
+	"groundTransform": { "scale": 3.5 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.1, "z": 0.2 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"rotation": { "x": 0, "y": -14, "z": 180 },
+		"scale": 1.7
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.7, "y": -0.15, "z": -0.6 },
+		"rotation": { "x": 90, "y": -11, "z": 180 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.91
+	}
+}

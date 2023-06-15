@@ -1,0 +1,136 @@
+{
+	code: "bigvessel",
+	classByType: { "*": "BlockContainers" },
+	entityclassByType: { "*": "BlockEntityContainers" },
+	behaviorsByType: {
+		"*": [{name: "Lockable" }, {name: "Container"}, {name: "UnstableFalling"}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}]
+	},
+	entityBehaviorsByType: {
+		"*": [{ name: "Animatable" }]
+	},
+	attributes: {
+		partialAttachable: true,
+		inventoryClassName: "chest",
+		defaultType: "bigvessel",
+		types: ["bigvessel"],
+		drop: {
+			"bigvessel": true
+		},
+		quantitySlots: {
+			"bigvessel": 25
+		},
+		quantityColumns: {
+			"bigvessel": 5
+		},
+		dialogTitleLangCode: {
+			"bigvessel": "Gran Vasija"
+		},
+		storageType: {
+			"bigvessel": 32
+		},
+		retrieveOnly: {
+			"bigvessel": false
+		},
+		spoilSpeedMulByFoodCat: {
+			"bigvessel": {
+				"vegetable": 0.5,
+				"grain": 0.3,
+				"fruit": 0.25,
+				"protein": 0.3,
+				"dairy": 0.25
+			}
+		},
+		shape: {
+			"bigvessel": "block/clay/jarronon"
+		},
+		variantByGroup: "variant",
+		variantByGroupInventory: "variant",
+		openSound: "sounds/block/container/vesselopen",
+		closeSound: "sounds/block/container/vesselclose",
+	},
+	variantgroups: [
+		{ code: "variant", states: ["ashforest", "chthonic", "copper", "earthen", "rain", "burned", "cowrie", "rime", "oxblood", "loam", "undergrowth", "beehive", "harvest", "honeydew", "rutile", "seasalt", "springflowers", "volcanic", "sea", "sky", "skull", "celtic"] },
+	],
+	shape: { base: "block/clay/jarronon" },
+	texturesByType: {
+		"*": {
+			"bigvessel-top": { base: "block/clay/vessel/top/{variant}" },
+			"bigvessel-2": { base: "block/clay/vessel/sides/{variant}" },
+			"bigvessel-3": { base: "block/clay/vessel/sidestop/{variant}" },
+			"bigvessel-1": { base: "block/clay/vessel/sidestop/{variant}1" },
+			"bigvessel-4": { base: "block/clay/vessel/sidestop/{variant}2" }
+		},
+	},
+	blockmaterial: "Ceramic",
+	creativeinventory: {  },
+	creativeinventoryStacksByType: {
+		"*": [
+			{
+				tabs: [ "general", "decorative", "medieval" ],
+				stacks: [
+					{ type: "block", code: "bigvessel-{variant}", attributes: { type: "bigvessel" } },
+				]
+			}
+		]
+	},
+	replaceable: 1000,
+	resistance: 0.8,
+	maxStackSize: 8,
+	sideAo: { all: false },
+	lightAbsorption: 0,
+	sounds: {
+		walk: "game:walk/stone",
+		break: "game:block/ceramicplace",
+		hit: "game:block/ceramichit",
+		place: "game:block/ceramicplace"
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 0.9375
+		},
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 1
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 0.9375
+		},
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 1
+		}
+	],
+	heldTpIdleAnimation: "holdunderarm",
+	tpHandTransform: {
+		translation: { x: -1, y: -0.5, z: -0.5 },
+		rotation: { x: 25, y: -20, z: -99 },
+		scale: 0.56
+	}
+}

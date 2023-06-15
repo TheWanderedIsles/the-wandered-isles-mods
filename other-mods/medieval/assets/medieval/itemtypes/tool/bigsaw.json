@@ -1,0 +1,129 @@
+{
+	code: "saw",
+	tool: "saw",
+	attributes: {
+		toolrackTransform: {
+			translation: { x: -0.15, y: 0.05, z: 0 },
+			rotation: { x: 0, y: 1, z: -1 },
+			scale: 1.35
+		},
+		groundStorageTransform: {
+			translation: { x: 0.03, y: 0.02, z: 0.24 },
+			rotation: { x: 26, y: 90, z: -90 },
+			scale: 0.88
+		}
+	
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [
+		{ code: "style", states: ["big"] },
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", 
+															"iron", "meteoriciron", "steel"
+		  ] }
+	],
+	damagedby: ["blockbreaking", "attacking"],
+	shape: { base: "medieval:item/tool/bigsaw" },
+	texturesByType: {
+		"*": {
+			"metal": { base: "medieval:item/tool/sword/axe/{metal}" }
+		}
+	},
+	heldTpHitAnimation: "spearhit",
+	tooltierbytype: {
+		"saw-big-copper": 3,
+		"saw-big-gold": 3,
+		"saw-big-silver": 3,
+		"saw-big-bismuthbronze": 4,
+		"saw-big-tinbronze": 4,
+		"saw-big-blackbronze": 4,
+		"saw-big-iron": 5,
+		"saw-big-meteoriciron": 5,
+		"saw-big-steel": 6
+	},
+	miningspeedbytype: {
+		"*-stone": {
+			"wood": 3,
+			"leaves": 1.6
+		},
+		"*-copper": {
+			"wood": 6,
+			"leaves": 2.4
+		},
+		"*-bismuthbronze": {
+			"wood": 6.4,
+			"leaves": 2.6
+		},
+		"*-tinbronze": {
+			"wood": 6.6,
+			"leaves": 3
+		},
+		"*-silver": {
+			"wood": 6.6,
+			"leaves": 3
+		},
+		"*-gold": {
+			"wood": 6.6,
+			"leaves": 3
+		},
+		"*-blackbronze": {
+			"wood": 6.7,
+			"leaves": 3.1
+		},
+		"*-iron": {
+			"wood": 7,
+			"leaves": 3.2
+		},
+		"*-meteoriciron": {
+			"wood": 7.5,
+			"leaves": 3.6
+		},
+		"*-steel": {
+			"wood": 8,
+			"leaves": 4
+		}
+	},
+	durabilitybytype: {
+		"saw-big-gold": 100,
+		"saw-big-silver": 200,
+		"saw-big-copper": 450,
+		"saw-big-tinbronze": 650,
+		"saw-big-bismuthbronze": 800,
+		"saw-big-blackbronze": 900,
+		"saw-big-iron": 1500,
+		"saw-big-meteoriciron": 2200,
+		"saw-big-steel": 4500
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+		fpHandTransform: {
+		translation: { x: 0.0468, y: 0, z: 0.12 },
+		rotation: { x: 150, y: 20, z: 90 },
+		scale: 2.5
+	},
+	guiTransform: {
+		rotate: false,
+		translation: { x: 1, y: 0, z: 0 },
+		rotation: { x: -77, y: 47, z: -151 },
+		origin: { x: 0.5, y: 0.5, z: 0.38 },
+		scale: 1.9
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 3.6
+	},
+		tpHandTransform: {
+		translation: { x: -1.09, y: -0.72, z: -0.5 },
+		rotation: { x: 90, y: -165, z: 0 },
+		scale: 1
+	}
+}

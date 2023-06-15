@@ -1,0 +1,63 @@
+{
+	code: "inkbook",
+	behaviors: [ {name: "HorizontalOrientable"}, { name: "UnstableFalling", properties: { attachableFaces: [ "down"] }} ],
+	attributes: {
+		canChisel: false
+	},
+	variantgroups: [
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: { "general": ["*-east"], "decorative": ["*-east"], "medieval": ["*-east"] },
+	shapeByType: {
+			"*-north": { base: "block/medieval/inkbook", rotateY: 0 },
+			"*-west": { base: "block/medieval/inkbook", rotateY: 90 },
+			"*-south": { base: "block/medieval/inkbook", rotateY: 180 },
+			"*-east": { base: "block/medieval/inkbook", rotateY: 270 }
+
+	},
+
+	blockmaterial: "Wood",
+	"textures": {
+		"0": {  base: "item/resource/feather" },
+		"1": {  base: "block/ink" },
+		"2": {  base: "block/escrito" },
+		"3": {  base: "block/written_book" }
+	},
+	"replaceable": 300,
+	drawtype: "json",
+	resistance: 2,
+	faceCullMode: "NeverCull",
+	lightAbsorption: 0,
+	emitSideAo: {all: false },
+	sideAo: { all: false },
+	sideopaque: {
+		all: false
+	},
+	collisionbox: null,
+	selectionBox: {
+		x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1,
+		rotateYByType: {
+			"*-east": 270,
+			"*-west": 90,
+			"*-south": 180
+		}
+	},
+	soundsByType: {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks",
+			"walk": "game:walk/wood"
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+		guiTransform: {
+		translation: { x: 0, y: -9, z: 0 },
+		scale: 1.53
+	}
+}

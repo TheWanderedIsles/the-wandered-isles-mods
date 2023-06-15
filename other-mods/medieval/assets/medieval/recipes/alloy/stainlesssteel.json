@@ -1,0 +1,11 @@
+{
+	ingredients: [
+		{ type: "item", code: "game:ingot-steel", minratio: 0.60, maxratio: 0.70  },
+		{ type: "item", code: "game:ingot-chromium", minratio: 0.20, maxratio: 0.30 },
+		{ type: "item", code: "game:ingot-nickel", minratio: 0.10, maxratio: 0.20  }
+	],
+	output: {
+		type: "item",
+		code: "game:ingot-stainlesssteel"
+	}
+}

@@ -1,0 +1,17 @@
+[
+	{
+	"ingredientPattern": "CLP,BWF,CLP",
+	"ingredients": {
+                "C": { "type": "item", "code": "em:crushed-ore-corundum" },
+                "P": { "type": "item", "code": "em:powdered-ore-corundum" },
+                "B": { "type": "item", "code": "game:beeswax" },
+                "F": { "type": "item", "code": "game:fat" },
+                "L": { "type": "item", "code": "game:leather-plain" },
+                "W": { "type": "item", "code": "game:plank-*", "name": "wood",
+			"allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "item", "code": "bricklayers:polishingset-{wood}" }
+	}
+]

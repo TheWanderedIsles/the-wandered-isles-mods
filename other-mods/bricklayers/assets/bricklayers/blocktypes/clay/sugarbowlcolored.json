@@ -1,0 +1,99 @@
+{
+	"code": "coloredsugarbowl",
+	"class": "Block",
+	"behaviors": [
+                { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+                { "name": "Unplaceable" },
+                { "name": "RightClickPickup"}
+        ],
+	"variantgroups": [
+		{ "code": "type", "states": [ "raw", "burnt" ] },
+		{ "code": "color", "states": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+		{ "code": "pattern1", "states": [ "plain" ] },
+		{ "code": "pattern2", "states": [ "plain" ] }
+	],
+	"attributesByType": {
+		"*-burnt-*": {
+			"handbook": { "groupBy": [ "coloredsugarbowl-burnt-*" ] },
+			"shelvable": true,
+			"mealContainer": false,
+			"displaycaseable": true,
+			"onDisplayTransform": {
+				"rotation": { "x": 0, "y": -35, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1.05
+			}
+		},
+		"*": {
+			"handbook": { "groupBy": [ "coloredsugarbowl-raw-*" ] },
+			"shelvable": true,
+			"displaycaseable": true,
+			"onDisplayTransform": {
+				"rotation": { "x": 0, "y": -35, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1.05
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"*-raw-*": {
+			"meltingPoint": 1350,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:coloredsugarbowl-burnt-{color}-{pattern1}-{pattern2}" },
+			"requiresContainer": false
+		}
+	},
+	"shape": { "base": "bricklayers:block/clay/teaset/sugarbowl" },
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"replaceable": 300,
+	"resistance": 0.75,
+	"maxStackSize": 8,
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"*-raw-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic" },
+			"rim": { "base": "bricklayers:block/clay/raw/{color}" },
+			"top": { "base": "bricklayers:block/clay/raw/{color}" }
+		},
+		"*-burnt-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic-dark" },
+			"rim": { "base": "bricklayers:block/clay/burnt/{color}" },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				 "overlays": [ "bricklayers:block/ceramic/overlay_dots" ] }
+		}
+	},
+	"sounds": {
+		"break": "game:block/ceramicplace",
+		"hit": "game:block/ceramichit",
+		"place": "game:block/ceramicplace",
+		"walk": "game:walk/stone"
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 2.5
+	},
+	"groundTransform": { "scale": 4.5 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.4, "z": 0.2 },
+		"rotation": { "x": 0, "y": -14, "z": 0 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": -0.15, "z": -0.75 },
+		"rotation": { "x": 0, "y": -78, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.66
+	}
+}

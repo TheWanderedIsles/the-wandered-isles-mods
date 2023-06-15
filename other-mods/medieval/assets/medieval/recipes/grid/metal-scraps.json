@@ -1,0 +1,12 @@
+[
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"I": { type: "block", code: "game:metal-scraps", quantity: 1}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
+	}
+]

@@ -1,0 +1,56 @@
+{
+	"code": "coloredbowl-meal",
+	"class": "BlockMeal",
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+		{ "name": "Unplaceable" },
+		{ "name": "RightClickPickup"}
+	],
+	"comment": "The 'inside' variant group only stores the original inside color, so we can return the proper empty block after eating. It won't be visible in game since the food covers the inside completely.",
+	"variantgroups": [
+		{ "code": "color", "states": [ "black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow" ] },
+		{ "code": "pattern", "states": [ "none" ] }
+	],
+	"attributes": {
+		"shelvable": true,
+		"eatenBlock": "bricklayers:coloredbowl-burnt-{color}-{pattern}",
+		"handleCookingContainerInteract": true
+	},
+        "entityClass": "Meal",
+	"shape": { "base": "game:shapes/block/clay/bowl-empty-ground" },
+	"heldTpIdleAnimation": "holdbothhands",
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": [""], "decorative": [""] },
+	"replaceable": 300,
+	"resistance": 0.75,
+	"maxStackSize": 1,
+	"lightAbsorption": 0,
+	"textures": {
+		"transparent": { "base": "game:block/transparent" },
+		"mat": { "base": "bricklayers:block/clay/burnt/{color}" },
+		"floor": { "base": "bricklayers:block/clay/burnt/{color}" }
+	},
+	"sounds": { "walk": "game:walk/stone" },
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 3
+	},
+	"groundTransform": { "scale": 3.5 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.4, "z": 0 },
+		"rotation": { "x": 0, "y": -14, "z": 0 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.85, "y": -0.21, "z": -0.57 },
+		"rotation": { "x": 90, "y": 0, "z": -60 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.66
+	}
+}

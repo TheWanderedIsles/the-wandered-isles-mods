@@ -1,0 +1,157 @@
+{
+	code: "forestaxe",
+	class: "idgtool",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"]},
+	attributes: {
+		handbook: {
+			groupBy: ["forestaxe-*"],
+			"extraSections": [
+					{
+						"title": "indappledgroves:item-handbooktitle-forestaxe",
+						"text": "indappledgroves:item-handbooktext-forestaxe"
+					}
+			]
+		},
+		toolrackTransform: {
+			translation: { x: -0.4, y: 0.7, z: 0 },
+			scale: 1.5
+		},
+		groundStorageTransform: {
+			translation: { x: -0.475, y: 0.12, z: 0.15 },
+			rotation: { x: 30, y: -180, z: -91 }
+		},
+		"choppingProps": { "fellingMultiplier": 0.5, "splittingMod": 0.26 }
+	},
+		behaviors: [{
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.35, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}},
+		{
+		"name": "woodsplitter"
+		}
+	],
+	tool: "axe",
+	heldTpHitAnimation: "axechop",
+	damagedby: ["blockbreaking", "attacking"],
+	miningspeedbytype: {
+		"forestaxe-copper": {
+			"wood": 5.2,
+			"plant": 2.8,
+			"leaves": 2.4
+		},
+		"forestaxe-bismuthbronze": {
+			"wood": 5.8,
+			"plant": 3.5,
+			"leaves": 2.6
+		},
+		"forestaxe-tinbronze": {
+			"wood": 6.3,
+			"plant": 3.8,
+			"leaves": 3
+		},
+		"forestaxe-blackbronze": {
+			"wood": 6.6,
+			"plant": 4,
+			"leaves": 3.1
+		},
+		"forestaxe-iron": {
+			"wood": 8.4,
+			"plant": 5,
+			"leaves": 3.2
+		},
+		"forestaxe-meteoriciron": {
+			"wood": 9.6,
+			"plant": 5.5,
+			"leaves": 3.6
+		},
+		"forestaxe-steel": {
+			"wood": 11,
+			"plant": 6,
+			"leaves": 4
+		},
+		"*": {
+			"wood": 2.6,
+			"plant": 2.2,
+			"leaves": 1.7
+		}
+	},
+		groundStorageTransform: {
+			translation: { x: 0.05, y: 0.05, z: 0 },
+			rotation: { x: 13, y: 88, z: -87 },
+			scale: 0.88
+		},
+		rackable: true,
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.3, y: 0.6 },
+			scale: 1.25,
+		},
+	variantgroups: [
+    { code: "material", states: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]},
+   ],
+	drawtype: "json",
+    shapeByType: {
+		"@forestaxe-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)": { base: "item/tools/forestaxe" }
+	},
+	texturesByType: {
+		"@forestaxe-(tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)": {
+			"material": { base: "game:block/metal/ingot/{material}" },
+			"handle": { base: "game:item/tool/material/handle" },
+			"leather": { base: "game:item/resource/leather" }
+		}
+	},
+	maxstacksize: 1,
+	attackRange: 2,
+	tooltierbytype: {
+		"@forestaxe-(copper|silver|gold)": 2,
+		"@forestaxe-(tinbronze|bismuthbronze|blackbronze)": 3,
+		"@forestaxe-(iron|meteoriciron)": 4,
+		"@forestaxe-(steel)": 5
+	},
+	durabilitybytype: {
+		"*-bone-obsidian": 100,
+		"*-copper": 250,
+		"*-tinbronze": 400,
+		"*-bismuthbronze": 500,
+		"*-blackbronze": 600,
+		"*-iron": 900,
+		"*-meteoriciron": 1200,
+		"*-steel": 1800
+	},
+	attackpowerbytype: {
+		"*-copper": 2,
+		"@forestaxe-(bismuthbronze)": 2.5,
+		"*-tinbronze": 2.75,
+		"@forestaxe-(blackbronze|iron)": 3,
+		"*-medeoriciron": 3.5,
+		"*-steel": 4
+	},
+	guiTransform: {
+		translation: { x: 3, y: 11.6, z: -0.8 },
+		rotation: { x: -106, y: -135, z: -180 },
+		origin: { x: 0.48, y: 0.8, z: 0.38 },
+		scale: 1.5
+	},
+	fpHandTransform: {
+		translation: { x: -0.7, y: -0.1, z: 0.3 },
+		rotation: { x: -29, y: 4, z: 88 },
+		scale: 2.9
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.53
+	},
+	tpHandTransform: {
+		translation: { x: -0.8, y: 0.01, z: -0.54 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1
+	}
+}

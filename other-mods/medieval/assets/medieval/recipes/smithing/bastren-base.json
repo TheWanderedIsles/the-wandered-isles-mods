@@ -1,0 +1,16 @@
+{
+	"ingredient": { 
+		"type": "item", 
+		"code": "game:ingot-*",
+		"name": "metal", 
+		"allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]
+	},
+	"pattern": [[
+		"_#######_",
+		"#########",		
+		"#_______#",
+		"#_______#",
+		"#_______#",
+	]],
+	"output": { "type": "item", "code": "medieval:bastren-base-{metal}"  }
+}

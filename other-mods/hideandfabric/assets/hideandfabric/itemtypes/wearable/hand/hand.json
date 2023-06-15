@@ -1,0 +1,115 @@
+{
+	"code": "clothes",
+	"class": "ItemWearable",
+	"variantgroups": [
+		{ "code": "category",  "states": ["hand"] },
+		{ "code": "hand", "combine": "SelectiveMultiply", "onVariant": "category", "states": [
+			"linen-gloves", "cotton-gloves", "wool-gloves",
+			"linen-mittens", "cotton-mittens", "wool-mittens",
+			"leather-gloves-plain", "leather-gloves-orange", "leather-gloves-black",
+			"leather-mittens-plain", "leather-mittens-orange", "leather-mittens-black",
+			"leather-bracers","heavyleather-bracers"
+		] }
+	],
+	"shapeByType": {
+		"*-mittens*": {
+			"base": "entity/humanoid/seraph/clothing/hand/cloth-mittens"
+		},
+		"*": {						
+			"base": "game:entity/humanoid/seraph"
+		}
+	},
+	"storageFlags": 128,
+	"attributes":{
+		"clothescategory": "hand"
+	},
+	"attributesByType": {
+		"*-linen-gloves":
+		{
+			"warmth": 0.75
+		},
+		"*-cotton-gloves":
+		{
+			"warmth": 0.75
+		},
+		"*-wool-gloves":
+		{
+			"warmth": 1.0
+		},
+		"*-leather-gloves-*":
+		{
+			"warmth": 1.0
+		},
+		"*-linen-mittens":
+		{
+			"wearableAttachment": true,
+			"warmth": 1.25
+		},
+		"*-cotton-mittens":
+		{
+			"wearableAttachment": true,
+			"warmth": 1.25
+		},
+		"*-leather-mittens-*":
+		{
+			"wearableAttachment": true,
+			"warmth": 1.25
+		},
+		"*-wool-mittens":
+		{
+			"wearableAttachment": true,
+			"warmth": 1.5
+		},
+		"*": {
+			"warmth": 0.5
+		}
+	},
+	"statModifiersByType": {
+		"clothes-leather-bracers":
+		{
+			"rangedWeaponsAcc": 0.08,
+			"rangedWeaponsSpeed": 0.06
+		},
+		"clothes-heavyleather-bracers":
+		{
+			"rangedWeaponsAcc": 0.14,
+			"rangedWeaponsSpeed": 0.1
+		}
+	},
+	
+	"texturesByType": {
+		"*-mittens*": {
+            "seraph": { "base": "game:block/transparent" },
+            "gloves1": { "base": "entity/humanoid/seraphclothes/hand/{hand}"}
+		},
+		"*": {
+			"seraph": { "base": "entity/humanoid/seraphclothes/{category}/{hand}" }
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "hideandfabric": ["*"] },
+	"renderAlphaTest": 0.25,
+	"fpHandTransform": {
+		"translation": { "x": 0.6, "y": 0, "z": -0.5 },
+		"rotation": { "x": 180, "y": 42, "z": -29 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -1, "z": -1 },
+		"rotation": { "x": -13, "y": -64, "z": 49 },
+		"scale": 0.55
+	},
+	"guiTransformByType": {
+		"*": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 19 },
+			"rotation": { "x": 174, "y": -30, "z": 23 },
+			"origin": { "x": 0.52, "y": 0.78, "z": 0.5 },
+			"scale": 2.5
+		}
+	},
+	"groundTransform": {
+		"rotation": { "x": 0, "y": 0, "z": 90 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 3.04
+	}
+}

@@ -1,0 +1,13 @@
+[
+
+	{
+		ingredientPattern: "S,G",
+		ingredients: {
+    		"S": { type: "item", code: "game:saw-*", isTool: true },
+			"G": { type: "item", code: "game:ore-olivine", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:bottleb-medieval", quantity: 1  }
+	}
+]

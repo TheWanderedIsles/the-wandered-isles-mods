@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/creativeinventory/ceramics",
+    "value":  ["*"],
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/skipVariants",
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "addeach",
+    "path": "/variantgroups/1/states/-",
+    "value": [ "black", "blurple", "darkgrey", "green", "light", "malachite", "orange", "pink", "purple", "yellow" ],
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-burned-*",
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-burned-red",
+    "value": { "material": { "base": "block/clay/shingles/{type}" } },
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-burned-blue",
+    "value": { "material": { "base": "block/clay/shingles/{type}" } },
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-burned-brown",
+    "value": { "material": { "base": "block/clay/shingles/{type}" } },
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-burned-fire",
+    "value": { "material": { "base": "block/clay/shingles/{type}" } },
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-burned-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/{type}" } },
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-raw-*",
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-raw-blue",
+    "value": { "material": { "base": "block/clay/{type}clay" } },
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-raw-fire",
+    "value": { "material": { "base": "block/clay/{type}clay" } },
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-raw-*",
+    "value": { "material": { "base": "bricklayers:block/clay/raw/{type}" } },
+    "file": "game:itemtypes/resource/shingle.json",
+    "side": "Server"
+  }
+]

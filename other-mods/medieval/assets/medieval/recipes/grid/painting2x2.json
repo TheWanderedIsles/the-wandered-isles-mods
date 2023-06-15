@@ -1,0 +1,1222 @@
+[
+    {
+		ingredientPattern: "SSS,SCS,SSS",
+		ingredients: {
+			"S": { type: "item", code: "game:stick", quantity: 4 },
+			"C": { type: "block", code: "game:linen-normal-down", quantity: 16 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:painting2x2-plain-north", quantity: 4 }
+	},
+    {
+		ingredientPattern: "_R_,BPY,_C_",
+		ingredients: {
+			"R": { type: "item", code: "medieval:plasterglow-red", quantity: 4 },
+			"B": { type: "item", code: "medieval:plasterglow-blue", quantity: 4 },
+			"Y": { type: "item", code: "medieval:plasterglow-yellow", quantity: 4 },
+			"C": { type: "item", code: "game:charcoal", quantity: 4 },
+			"P": { type: "block", code: "medieval:painting2x2-plain-north", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:painting2x2-vs-north", quantity: 4 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-vs-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight1-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight1-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight2-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight2-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight3-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight3-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight4-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight4-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight5-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight5-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight6-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight6-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight7-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight7-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight8-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight8-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight9-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight9-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight10-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight10-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight11-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight11-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight12-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight12-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight13-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight13-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight14-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight14-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight15-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight15-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight16-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight16-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight17-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight17-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight18-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight18-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight19-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight19-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight20-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight20-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight21-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight21-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight22-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight22-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight23-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight23-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight24-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight24-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight25-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight25-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight26-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight26-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight27-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight27-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight28-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight28-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight29-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight29-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight30-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight30-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight31-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight31-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight32-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight32-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight33-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight33-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight34-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight34-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight35-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight35-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight36-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight36-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight37-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight37-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-knight38-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-knight38-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-lamia2x2-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-lamia2x2-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-1-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-1-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-2-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-2-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-3-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-3-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-4-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-4-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-5-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-5-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-6-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-6-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-7-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-7-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-8-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-8-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-9-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-9-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-10-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-10-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-11-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-11-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-12-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-12-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-13-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-13-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-14-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-14-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-15-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-15-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-16-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-16-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-17-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-17-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-18-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-18-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-19-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-19-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-20-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-20-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-21-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-21-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-22-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-22-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-23-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-23-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-24-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-24-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-25-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-25-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-26-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-26-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-27-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-27-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-28-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-28-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-29-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-29-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-30-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-30-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-31-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-31-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-32-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-32-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-33-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-33-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-34-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-34-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-35-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-35-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-36-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-36-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-37-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-37-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-38-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-38-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-39-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-39-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-40-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-40-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-41-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-41-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-42-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-42-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-43-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-43-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-44-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-44-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-45-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-45-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-46-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-46-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-47-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-47-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-48-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-48-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-49-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-49-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-50-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-50-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-51-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-51-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-52-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-52-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-53-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-53-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-54-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-54-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-55-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-55-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-56-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-56-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-57-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-57-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-58-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-58-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-59-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-59-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-60-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-60-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-61-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-61-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-62-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-62-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-63-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-63-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-64-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-64-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-65-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-65-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-66-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-66-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-67-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-67-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-68-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-68-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-69-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-69-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-70-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-70-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-71-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-71-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-72-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-72-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-73-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-73-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-74-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-74-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-75-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-75-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-76-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-76-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-77-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-77-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-78-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-78-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-79-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-79-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-80-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-80-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-81-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-81-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-82-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-82-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-83-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-83-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-84-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-84-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-85-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-85-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-86-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-86-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-87-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-87-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-88-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-88-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-89-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-89-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-90-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-90-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-91-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-91-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-92-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-92-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-demon-93-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "medieval:painting2x2-demon-93-north", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:painting2x2-vs-north", quantity: 1 }
+	}
+]

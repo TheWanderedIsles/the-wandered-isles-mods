@@ -1,0 +1,12 @@
+[
+    {
+		ingredientPattern: "_W_,WHW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ], quantity: 1 },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "littlebench-{wood}-north" }
+	}
+]

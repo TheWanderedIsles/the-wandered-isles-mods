@@ -1,0 +1,13 @@
+[	
+	{
+		ingredientPattern: "H,C,R",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "block", code: "game:glacierice" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:snowblock", quantity: 4  }
+	}
+]

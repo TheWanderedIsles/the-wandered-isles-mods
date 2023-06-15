@@ -1,0 +1,162 @@
+{
+  "code": "hidecap",
+  "attributes": {
+    "handbook": {
+      "groupBy": ["hidecap-{animal}-*"]
+    },
+    "clothescategory": "head",
+    "disableElements": ["Ponytail1", "hideme"],
+    "warmth": 1.5,
+    "wearableAttachment": true
+  },
+  "attributesByType":
+  {
+    "*-fox-arctic":
+		{
+			"warmth": 2.25
+		},
+    "*-fox-forest":
+		{
+			"warmth": 2.25
+		},
+    "*-hare-arctic":
+    {
+      "warmth": 2.25
+    },
+    "*-hare-*":
+    {
+      "warmth": 2.0
+    },
+    "*-sheep-*":
+    {
+      "warmth": 2.0
+    },
+    "*-raccoon-*":
+    {
+      "warmth": 2.0
+    },
+    "*-wolf-*":
+    {
+      "warmth": 2.0
+    },
+	"*-bear-polar": {
+	  "warmth": 3.0
+	},
+	"*-bear-black": {
+	  "warmth": 2.75
+	},
+	"*-bear-brown": {
+	  "warmth": 2.75
+	},
+	"*-bear-*":
+	{
+	  "warmth": 2.5
+	},
+    "*":
+    {
+      "warmth": 1.5
+    }
+  },
+  "class": "ItemWearable",
+  "variantGroups": [
+    { "code": "animal", "states": ["boar", "fox", "hare", "raccoon", "sheep", "wolf", "bear"] },
+    {
+      "code": "coat",
+      "states": [
+        "arctic",
+        "forest",
+        "ashgrey",
+        "darkbrown",
+        "darkgrey",
+        "desert",
+        "gold",
+        "lightbrown",
+        "lightgrey",
+        "silver",
+        "smokegrey",
+        "wolf1",
+        "wolf2",
+        "wolf3",
+        "wolf4",
+        "wolf5",
+        "wolf6",
+        "wolf7",
+        "wolf8",
+        "wolf9",
+        "normal",
+		"brown",
+		"black",
+		"sun",
+		"panda",
+		"polar"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "*-boar-normal",
+    "@.*-fox-(arctic|forest)",
+    "@.*-hare-(arctic|ashgrey|darkbrown|darkgrey|desert|gold|lightbrown|lightgrey|silver|smokegrey)",
+    "*-raccoon-normal",
+    "*-sheep-normal",
+    "@.*-wolf-wolf(1|2|3|4|5|6|7|8|9)",
+	"@.*-bear-(brown|black|sun|panda|polar)"
+  ],
+  "shapeByType": {
+    "*-boar-*": { "base": "entity/humanoid/seraph/clothing/head/boarskincap" },
+    "*-fox-*": { "base": "entity/humanoid/seraph/clothing/head/foxcap" },
+    "*-hare-*": { "base": "entity/humanoid/seraph/clothing/head/harebrowncap" },
+    "*-raccoon-*": { "base": "entity/humanoid/seraph/clothing/head/raccooncap" },
+    "*-sheep-*": { "base": "entity/humanoid/seraph/clothing/head/sheepskincap" },
+    "*-wolf-wolf4": { "base": "entity/humanoid/seraph/clothing/head/wolfcap4" },
+    "*-wolf-wolf5": { "base": "entity/humanoid/seraph/clothing/head/wolfcap5" },
+    "*-wolf-wolf6": { "base": "entity/humanoid/seraph/clothing/head/wolfcap6" },
+    "*-wolf-wolf7": { "base": "entity/humanoid/seraph/clothing/head/wolfcap7" },
+    "*-wolf-wolf8": { "base": "entity/humanoid/seraph/clothing/head/wolfcap8" },
+    "*-wolf-wolf9": { "base": "entity/humanoid/seraph/clothing/head/wolfcap9" },
+    "@.*-wolf-wolf(1|2|3)": { "base": "entity/humanoid/seraph/clothing/head/wolfcap" },
+	  "*-bear-brown": { "base": "entity/humanoid/seraph/clothing/head/bearcapbrown" },
+	  "*-bear-black": { "base": "entity/humanoid/seraph/clothing/head/bearcapblack" },
+	  "*-bear-sun": { "base": "entity/humanoid/seraph/clothing/head/bearcapsun" },
+	  "*-bear-panda": { "base": "entity/humanoid/seraph/clothing/head/bearcappanda" },
+	  "*-bear-polar": { "base": "entity/humanoid/seraph/clothing/head/bearcappolar" }
+  },
+  "storageFlags": 128,
+  "textures": {
+    "seraph": { "base": "game:block/transparent" },
+    "materialByType": {
+      "*-boar-*": { "base": "game:entity/pig/pig-wild-male1" },
+      "*-fox-*": { "base": "game:entity/fox/{coat}-female" },
+      "*-hare-*": { "base": "game:entity/hare/female-{coat}" },
+      "*-raccoon-*": { "base": "game:entity/raccoon/raccoon-female1" },
+      "*-sheep-*": { "base": "game:entity/sheep/sheep-bighorn-female" },
+      "*-wolf-*": { "base": "game:entity/wolf/{coat}" },
+	  "*-bear-*": { "base": "game:entity/bear/{coat}1" }
+    }
+  },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "hideandfabric": ["*"] },
+  "renderAlphaTest": 0.25,
+  "fpHandTransform": {
+    "translation": { "x": 0.6, "y": -1.6, "z": -0.5 },
+    "rotation": { "x": 180, "y": -108, "z": -180 },
+    "origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+    "scale": 2.15
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1, "y": -3, "z": -1 },
+    "rotation": { "x": -13, "y": -80, "z": 29 },
+    "origin": { "x": 0.5, "y": 1.5, "z": 0.5 },
+    "scale": 0.55
+  },
+  "guiTransform": {
+    "rotate": false,
+    "translation": { "x": 3, "y": 6, "z": 0 },
+    "rotation": { "x": 176, "y": -68, "z": 10 },
+    "origin": { "x": 0.52, "y": 1.6, "z": 0.5 },
+    "scale": 2.5
+  },
+  "groundTransform": {
+    "translation": { "x": 0.05, "y": -0.3, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "scale": 2
+  }
+}

@@ -1,0 +1,76 @@
+{
+	code: "jarrita",
+	class: "BlockBucket",
+	behaviors: [
+		{name: "UnstableFalling"}, 
+		{ name: "RightClickPickup"}, 
+		{ name: "MilkingContainer" } 
+	],
+	entityClass: "Bucket",
+	attributes: {
+		liquidContainerProps: {
+			capacityLitres: 5,
+			transferSizeLitres: 1,
+			emptyShapeLoc: "shapes/block/wood/jarrita/empty",
+			opaqueContentShapeLoc: "shapes/block/wood/jarrita/contents",
+			liquidContentShapeLoc: "shapes/block/wood/jarrita/liquidcontents",
+			liquidMaxYTranslate: 0.4375
+		}
+	},
+	creativeinventoryStacks: [
+		{
+			tabs: ["general", "decorative", "medieval"],
+			stacks: [
+				{ type: "block", code: "jarrita" },
+			]
+		}
+	],
+	"heldTpIdleAnimation":  "holdinglanternrighthand",
+	shape: { base: "block/wood/jarrita/empty" },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	blockmaterial: "Wood",
+	textures: {
+		wood: { base: "block/medieval/jarrita" }
+	},
+	replaceable: 500,
+	resistance: 1.5,
+	maxStackSize: 5,
+	liquidSelectable: 1,
+	lightAbsorption: 0,
+	sounds: {
+		"place": "block/planks",
+		"hit": "block/planks",
+		"break": "block/planks",
+		"walk": "walk/wood"
+	},
+	collisionbox: {
+		x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.75, z2: 0.75
+	},
+	selectionbox: {
+		x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.75, z2: 0.75
+	},
+	materialDensity: 400,
+	
+			tpHandTransform: {
+		translation: { x: -0.78, y: -0.97, z: -0.6 },
+		rotation: { x: 119, y: 0, z: -84 },
+		scale: 0.69
+	},
+		guiTransform: {
+		rotation: { x: -22.6, y: 45, z: 0 },
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 2
+	},
+	fpHandTransform: {
+		scale: 1.5
+	},
+	groundTransform: {
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2
+	}
+}

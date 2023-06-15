@@ -1,0 +1,24 @@
+[
+    {
+		ingredientPattern: "I,H",
+		ingredients: {
+			"H": { type: "item", code: "game:bone", quantity: 63 },
+			"I": { type: "item", code: "game:bone", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:bonee-north", quantity: 1 }
+	},
+
+
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"I": { type: "block", code: "medieval:bonee-north", quantity: 1}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:bone", quantity: 64 }
+	}
+]

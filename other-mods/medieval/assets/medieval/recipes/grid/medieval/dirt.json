@@ -1,0 +1,48 @@
+[
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "block", code: "game:soil-*-none", name: "fertility", allowedVariants: [ "verylow", "low", "medium" ]  },
+			"F": { type: "block", code: "game:gravel-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:dirt-light", quantity: 2 }
+	},
+    {
+		ingredientPattern: "A",
+		ingredients: {
+			"A": { type: "block", code: "medieval:dirt-light" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:dirt-medium", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A",
+		ingredients: {
+			"A": { type: "block", code: "medieval:dirt-medium" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:dirt-dark", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A",
+		ingredients: {
+			"A": { type: "block", code: "medieval:dirt-dark" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:dirt-superdark", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A",
+		ingredients: {
+			"A": { type: "block", code: "medieval:dirt-superdark" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:dirt-light", quantity: 1 }
+	}
+]

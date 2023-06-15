@@ -1,0 +1,87 @@
+{
+	code: "bark",
+	"class": "idgbark",
+	"attributes": {
+		"handbookByType": {
+		"*-dry":{ 
+			"groupBy": ["bark-*-dry"],
+					"extraSections": [
+						{
+							"title": "indappledgroves:item-handbooktitle-drybark",
+							"text": "indappledgroves:item-handbooktext-drybark"
+						}
+					]
+				},
+		"*-soaked": {
+			"groupBy":["bark-*-soaked"],
+				"extraSections": [
+					{
+						"title": "indappledgroves:item-handbooktitle-soakedbark",
+						"text": "indappledgroves:item-handbooktext-soakedbark"
+					}
+				]	
+			}
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"]},
+	behaviorsByType: {
+		"*": [
+			{ "name": "GroundStorable", "properties": { "layout": "Quadrants" } }
+		]
+	},
+	transitionablePropsByType: {
+		"*-soaked": [
+			{
+				type: "Cure",
+				freshHours: { avg: 0 },
+				transitionHours: { avg: 24 },
+				transitionedStack: { type: "item", code: "bark-{bark}-dry" },
+				transitionRatio: 1
+			}
+		]
+	},
+	variantgroups: [
+        { code: "bark", "loadFromProperties": "game:block/wood", states:["aged"] },
+				{ "code": "state", "states": ["dry","soaked"]}
+    ],
+	drawtype: "json",
+    shape: { base: "item/resource/bark" },
+    textures: {
+        bark: { base: "game:block/wood/bark/{bark}" }
+    },
+	maxstacksize: 64,
+	combustiblePropsByType: {
+		"@bark-(birch|aged)-dry": {
+			burnTemperature: 800,
+			burnDuration: 4,
+		},
+		"*-dry": {
+			burnTemperature: 800,
+			burnDuration: 8,
+		}
+	},
+	guiTransform: {
+		translation: { x: 3, y: 4, z: 0 },
+		rotation: { x: -25, y: -44, z: -168 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.47
+	},
+	fpHandTransform: {
+		translation: { x: -0.05, y: 0.3, z: 0.1 },
+		rotation: { x: 17, y: -8, z: 14 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.21
+	},
+	tpHandTransform: {
+		translation: { x: -1, y: 0, z: -0.8 },
+		rotation: { x: 0, y: -86, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.57
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5299 },
+		scale: 3.5
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "code": "sawbuck",
+  "class": "idgsawbuck",
+  "entityClass": "idgbesawbuck",
+  "maxstacksize": 1,
+  "behaviors": [
+    {"name": "Unstable" }, {"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" }}
+  ],
+  "attributes": {
+		"handbook": {
+			"groupBy": ["sawbuck-birch-*-east"],
+			"extraSections": [
+				{ "title": "indappledgroves:block-handbooktitle-sawbuck", "text": "indappledgroves:block-handbooktext-sawbuck" }
+			]
+		}
+	},	
+  "variantgroups": [
+    { "code": "support", "states": ["aged"], "loadFromProperties": "block/wood" },
+    { "code": "crossbrace", "states": ["aged"], "loadFromProperties": "block/wood"},
+    { "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+  ],
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "helpTpUseAnimation": "twohandplaceblock",
+  "creativeinventory": { "general": ["*-east"]},
+  "textures": {		
+      "support": { "base": "game:block/wood/planks/{support}1" },
+			"crossbrace": { "base": "game:block/wood/planks/{crossbrace}1" }
+	},
+  "shapeByType": {
+		"*-north": { "base": "block/sawbuck", "rotateY":0 },
+		"*-east": { "base": "block/sawbuck", "rotateY":270 },
+		"*-south": { "base": "block/sawbuck", "rotateY":180 },
+		"*-west": { "base": "block/sawbuck", "rotateY":90 }
+	}, 
+  "lightabsorption": 0,
+  "sideopaque": { "all": false },
+  "sidesolid": { "all": false },
+  "blockmaterial": "wood",
+  "sounds": {"place": "game:block/planks"},
+  "collisionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1},
+  "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1}
+}

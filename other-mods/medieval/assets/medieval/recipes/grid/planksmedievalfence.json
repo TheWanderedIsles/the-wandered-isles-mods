@@ -1,0 +1,254 @@
+[
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-acacia", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-acacia-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-aged-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-baldcypress", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-baldcypress-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-birch", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-birch-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-ebony", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-ebony-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-kapok", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-kapok-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-larch", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-larch-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-maple", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-maple-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-pine", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-pine-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-purpleheart", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-purpleheart-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-redwood", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-redwood-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-walnut", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-walnut-ew-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FPF",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-oak", quantity: 2 },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfence-oak-ew-free", quantity: 4  }
+	},
+
+
+
+
+
+
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-acacia-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-acacia-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-aged-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-aged-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-baldcypress-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-baldcypress-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-birch-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-birch-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-ebony-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-ebony-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-kapok-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-kapok-n-closed-left-free", quantity: 1 }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-larch-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-larch-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-maple-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-maple-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-pine-ew-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-pine-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-purpleheart-ew-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-purpleheart-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-redwood-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-redwood-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-walnut-ew-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-walnut-n-closed-left-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "planksmedievalfence-oak-ew-free", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "planksmedievalfencegate-oak-n-closed-left-free", quantity: 1  }
+	}
+]

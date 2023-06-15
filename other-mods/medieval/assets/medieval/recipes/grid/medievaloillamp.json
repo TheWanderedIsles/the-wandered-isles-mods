@@ -1,0 +1,35 @@
+[
+	{
+	ingredientPattern: "B",
+	ingredients: {
+		"B": { type: "block", code: "game:oillamp-up" }
+	},
+	width: 1,
+	height: 1,
+	shapeless: true,
+	output: { type: "block", code: "medieval:medievaloillamp-up"  }
+},
+
+	{
+	ingredientPattern: "B",
+	ingredients: {
+		"B": { type: "block", code: "medieval:medievaloillamp-up" }
+	},
+	width: 1,
+	height: 1,
+	shapeless: true,
+	output: { type: "block", code: "medieval:medievalcandle-up"  }
+},
+
+	{
+	ingredientPattern: "B",
+	ingredients: {
+		"B": { type: "block", code: "medieval:medievalcandle-up" }
+	},
+	width: 1,
+	height: 1,
+	shapeless: true,
+	output: { type: "block", code: "game:oillamp-up"  }
+}
+
+]

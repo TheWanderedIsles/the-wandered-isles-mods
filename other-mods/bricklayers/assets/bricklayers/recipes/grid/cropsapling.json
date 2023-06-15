@@ -1,0 +1,32 @@
+[
+	{
+	"ingredientPattern": "S,B",
+	"ingredients": {
+                "S": { "type": "item", "code": "game:seeds-*", "name": "seed", "allowedVariants": [ "cassava", "amaranth", "pineapple", "sunflower" ] },
+                "B": { "type": "block", "code": "game:soil-medium-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "block", "code": "bricklayers:cropsapling-{seed}-free" }
+	},
+	{
+	"ingredientPattern": "S,B",
+	"ingredients": {
+                "S": { "type": "item", "code": "game:seeds-*", "name": "seed", "allowedVariants": [ "cassava", "amaranth", "pineapple", "sunflower" ] },
+                "B": { "type": "block", "code": "game:soil-high-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "block", "code": "bricklayers:cropsapling-{seed}-free" }
+	},
+	{
+	"ingredientPattern": "S,B",
+	"ingredients": {
+                "S": { "type": "item", "code": "game:seeds-*", "name": "seed", "allowedVariants": [ "cassava", "amaranth", "pineapple", "sunflower" ] },
+                "B": { "type": "block", "code": "game:soil-compost-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "block", "code": "bricklayers:cropsapling-{seed}-free" }
+	}
+]

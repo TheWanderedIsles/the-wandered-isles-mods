@@ -1,0 +1,60 @@
+[
+
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "alder",
+        "file": "game:blocktypes/wood/woodtyped/log-narrow.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "brideinwhite",
+        "file": "game:blocktypes/wood/woodtyped/log-narrow.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "willow",
+        "file": "game:blocktypes/wood/woodtyped/log-narrow.json"
+    },
+	{
+        "op": "add",
+        "path": "/drops/1",
+        "value": {
+          "type": "item",
+          "code": "wildcrafttrees:willowcane-alder",
+          "quantityByType": {
+            "*-alder-*": {
+              "avg": 2.5,
+              "var": 0
+            },
+            "*": {
+              "avg": 0.0,
+              "var": 0
+            }
+          }
+        },
+        "file": "game:blocktypes/wood/woodtyped/log-narrow.json"
+    },
+	{
+        "op": "add",
+        "path": "/drops/2",
+        "value": {
+          "type": "item",
+          "code": "wildcrafttrees:willowcane-willow",
+          "quantityByType": {
+            "*-willow-*": {
+              "avg": 2.5,
+              "var": 0
+            },
+            "*": {
+              "avg": 0.0,
+              "var": 0
+            }
+          }
+        },
+        "file": "game:blocktypes/wood/woodtyped/log-narrow.json"
+    }
+
+]

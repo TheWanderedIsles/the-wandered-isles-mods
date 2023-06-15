@@ -1,0 +1,61 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"sycamore": "item/resource/seeds/sycamore"
+	},
+	"elements": [
+		{
+			"name": "Cube3",
+			"from": [ 6.0, 2.0, 8.8 ], 
+			"to": [ 9.5, 5.5, 9.8 ], 
+			"rotationOrigin": [ 6.0, 2.0, 8.8 ],
+			"rotationX": 20.0,
+			"faces": {
+				"north": { "texture": "#sycamore", "uv": [ 8.0, 0.0, 15.0, 7.0 ], "autoUv": false },
+				"east": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false, "autoUv": false },
+				"west": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false, "autoUv": false },
+				"up": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 2.0, -1.65, -0.0677 ], 
+					"to": [ 4.0, 0.35, 1.9323 ], 
+					"rotationOrigin": [ 2.0, -1.653, -0.0677 ],
+					"rotationX": -20.0,
+					"faces": {
+						"north": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#sycamore", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#sycamore", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+						"west": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+						"up": { "texture": "#sycamore", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "autoUv": false },
+						"down": { "texture": "#sycamore", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Cube1",
+					"from": [ -1.0, -2.25, -0.2 ], 
+					"to": [ 1.0, -0.25, 1.8 ], 
+					"rotationOrigin": [ -1.0, -2.253, -0.2 ],
+					"rotationX": -20.0,
+					"faces": {
+						"north": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#sycamore", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#sycamore", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+						"west": { "texture": "#sycamore", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+						"up": { "texture": "#sycamore", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "autoUv": false },
+						"down": { "texture": "#sycamore", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

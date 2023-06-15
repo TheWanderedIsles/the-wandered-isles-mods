@@ -1,0 +1,28 @@
+{
+	code: "plastercolor",
+	class: "Block",
+	variantgroups: [
+		{ code: "color", states: ["black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "yellow" ] },
+	],
+	attributes: {
+		canChisel: true,
+	},
+	shape: { base: "game:block/stone/plaster" },
+	blockmaterial: "Stone",
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+	replaceable: 200,
+	resistance: 2.5,
+	lightAbsorption: 99,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	textures: {
+		all: { base: "block/stone/plastercolor/{color}" },
+	},
+	sounds: {
+		walk: "walk/stone",
+	},
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

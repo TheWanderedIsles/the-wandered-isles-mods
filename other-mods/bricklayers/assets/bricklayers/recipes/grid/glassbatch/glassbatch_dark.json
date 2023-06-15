@@ -1,0 +1,136 @@
+[
+	{
+	"code": "glassbatch-dark-magnetite",
+	"ingredientPattern": "MI,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite", "quantity": 2 },
+		"I": { "type": "item", "code": "em:powdered-ore-ilmenite", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-dark-nickel",
+	"ingredientPattern": "NI,BB",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:powdered-metal-nickel", "quantity": 2 },
+		"I": { "type": "item", "code": "em:powdered-ore-ilmenite", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "blue", "pink", "violet" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-dark-chromite",
+	"ingredientPattern": "IC,BB",
+	"ingredients": {
+		"I": { "type": "item", "code": "em:powdered-ore-ilmenite", "quantity": 2 },
+		"C": { "type": "item", "code": "em:powdered-ore-chromite", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "green" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-dark-rustymetal",
+	"ingredientPattern": "MI,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-metal-rusty", "quantity": 2 },
+		"I": { "type": "item", "code": "em:powdered-ore-ilmenite", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+
+	{
+	"code": "glassbatch-dark-magnetite",
+	"ingredientPattern": "MC,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite", "quantity": 2 },
+		"C": { "type": "item", "code": "em:powdered-ore-chromite", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "green" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-dark-rustymetal",
+	"ingredientPattern": "MC,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-metal-rusty", "quantity": 2 },
+		"C": { "type": "item", "code": "em:powdered-ore-chromite", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "green" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+
+
+	{
+	"code": "glassbatch-dark-rhodochrosite",
+	"ingredientPattern": "MR,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite", "quantity": 2 },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "green" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-dark-rhodochrosite",
+	"ingredientPattern": "MR,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-metal-rusty", "quantity": 2 },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "green" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+
+	{
+	"code": "glassbatch-dark-rhodochrosite",
+	"ingredientPattern": "IR,BB",
+	"ingredients": {
+		"I": { "type": "item", "code": "em:powdered-ore-ilmenite", "quantity": 2 },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "pink", "purple" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-dark-rhodochrosite",
+	"ingredientPattern": "RR,BB",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-dark-pink", "quantity": 1, "name": "color" }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 5,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-violet", "quantity": 4 }
+	}
+]

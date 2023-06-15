@@ -1,0 +1,47 @@
+{
+	code: "charcoalresin",
+	shape: { base: "item/resource/charcoalresin" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "medieval": ["*"] },
+	class: "ItemCoal",
+	maxstacksize: 128,
+	attributes: {
+		placeSound: "game:block/charcoal",
+		displaycaseable: true,
+		shelvable: true
+	},
+	behaviors: [{
+		name: "ArtPigment",
+		properties: {
+			decorBlockCodes: ["game:caveart-redochre-1-*"],
+			paintableOnBlockMaterials: ["Stone", "Wood", "Brick", "Ceramic", "Metal", "Meta" ]
+		}
+	}],
+	materialDensity: 300,
+	combustibleProps: {
+		burnTemperature: 300,
+		burnDuration: 600,
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 9, y: 13, z: 0 },
+		scale: 1.67
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 146, y: 50, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 3.28
+	},
+	tpHandTransform: {
+		translation: { x: -0.93, y: -0.19, z: -0.77 },
+		rotation: { x: -48, y: -180, z: 23 },
+		origin: { x: 0.5, y: 0.12, z: 0.5 },
+		scale: 0.6
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.5
+	}
+}

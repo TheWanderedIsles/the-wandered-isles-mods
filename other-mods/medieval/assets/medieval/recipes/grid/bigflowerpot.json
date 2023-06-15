@@ -1,0 +1,14 @@
+[
+    {
+		ingredientPattern: "HSC,_R_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"R": { type: "block", code: "game:rock-*", name: "rock", allowedVariants: [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ], quantity: 1 },
+			"S": { type: "block", code: "game:soil-*", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:bigflowerpot-{rock}", quantity: 2 }
+	}
+]

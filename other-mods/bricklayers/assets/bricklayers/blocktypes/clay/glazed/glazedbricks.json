@@ -1,0 +1,44 @@
+{
+	"code": "glazedbricks",
+	"class": "Block",
+	"attributes": {
+		"canChisel": true,
+		"handbook": {
+			"groupBy": ["glazedbricks-*"]
+		}
+	},
+	"variantgroups": [
+		{ "code": "type", "states": [ "clear", "milky" ] },
+		{ "code": "color", "states": [
+		       "black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+		       "malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] }
+	],
+	"vertexFlagsByType": {
+		"*-gold": { "reflectiveMode": 3 },
+		"*": { "reflectiveMode": 2 }
+	},
+	"shapeByType": {
+		"*-gold": { "base": "bricklayers:block/basic/cube_sparkly" },
+		"*": { "base": "bricklayers:block/basic/cube_shiny" }
+	},
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "construction": ["*"] },
+	"replaceable": 700,
+	"resistance": 2,
+	"lightAbsorption": 99,
+	"textures": {
+		"all": {
+			"base": "bricklayers:block/clay/brick/glazed/{type}/{color}_*"
+		}
+	},
+	"sounds": {
+		"walk": "game:walk/stone",
+		"place": "game:block/ceramicplace"
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.2, "y": -1.1, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.37
+	}
+}

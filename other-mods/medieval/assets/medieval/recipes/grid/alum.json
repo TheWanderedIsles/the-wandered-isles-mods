@@ -1,0 +1,12 @@
+[
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"I": { type: "item", code: "game:ore-alum", quantity: 1}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:crushed-alum", quantity: 4 }
+	}
+]

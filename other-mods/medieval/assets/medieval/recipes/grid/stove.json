@@ -1,0 +1,13 @@
+[
+    {
+		ingredientPattern: "H__,RCR",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "block", code: "game:clayoven-north", quantity: 1},
+			"R": { type: "item", code: "redondo-iron", quantity: 1}
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "stove-north", quantity: 1 }
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"code": "waterherbseeds",
+	"class": "ItemHerbSeed",
+	"attributes": {
+		"waterplant": "true"
+	},
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "herbs", "states": ["skunkcabbage", "tule", "brownsedge", "hardsedge"] }
+	],
+	"textureByType": {
+		"*-tule": { "base": "wildcraft:items/seeds/softsedge" },
+		"*-hardsedge": { "base": "wildcraft:items/seeds/softsedge" },
+		"*-brownsedge": { "base": "wildcraft:items/seeds/softsedge" },
+		"*": { "base": "wildcraft:items/seeds/{herbs}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 90, "z": 13 }
+	},
+	"materialDensity": 450
+}

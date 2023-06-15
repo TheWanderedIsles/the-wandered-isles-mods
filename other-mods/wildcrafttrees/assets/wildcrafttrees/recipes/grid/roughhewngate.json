@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "APS	PSP	SPS",
+	ingredients: {
+		"A": { type: "item", code: "game:axe-*", isTool: true  },
+		"P": { type: "block", code: "game:log-placed-*-ud", name: "wood", allowedVariants: ["bearnut", "beech", "blackpoplar", "cedar", "douglasfir", "elm", "eucalyptus", "honeylocust", "mahogany", "pyramidalpoplar", "sal", "saxaul", "spruce", "sycamore", "willow"] },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:roughhewnfencegate-{wood}-n-closed-free", quantity: 2  }
+}

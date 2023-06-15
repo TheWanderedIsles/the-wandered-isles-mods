@@ -1,0 +1,35 @@
+{
+	code: "candil1",
+	behaviors: [
+	 { name: "UnstableFalling", properties: { 
+		attachableFaces: ["up", "down"],
+		impactDamageMul: 10,
+		attachmentAreas: {
+			"down": { x1: 7, y1: 15, z1: 7, x2: 8, y2: 15, z2: 8 },
+			"up": { x1: 7, y1: 0, z1: 7, x2: 8, y2: 0, z2: 8 }
+		}
+	 }}
+	],
+	creativeinventory: { "general": ["candil1"], "decorative": ["candil1"], "medieval": ["candil1"] },
+	shape: { base: "block/metal/lanterns/candil1" },
+	drawtype: "json",
+	blockmaterial: "Metal",
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	resistance: 3,
+	lightHsvByType: {
+		"candil1": [9, 3, 24]
+	},
+	drops: [
+		{
+			type: "block",
+			code: "candil1"
+		}
+	],
+	lightAbsorption: 0,
+	collisionSelectionBox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 1, z2: 0.9375 },
+	sounds: {
+		hit: "game:block/chandelier-hit",
+		break: "game:block/chandelier-break",
+	}
+}

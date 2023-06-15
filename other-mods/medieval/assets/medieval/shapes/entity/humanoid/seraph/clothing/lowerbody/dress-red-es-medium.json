@@ -1,0 +1,63 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"dress-red-es": "entity/humanoid/seraphclothes/lowerbody/dress-red-es"
+	},
+	"elements": [
+		{
+			"name": "GamLowerTorso",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.1, -1.1, -0.1 ], 
+			"to": [ 5.05, 2.5, 6.1 ], 
+			"autoUnwrap": false,
+			"uv": [ 42.0, 35.0 ],
+			"rotationOrigin": [ -0.1, -1.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#dress-red-es", "uv": [ 42.0, 26.0, 47.0, 29.5 ] },
+				"east": { "texture": "#dress-red-es", "uv": [ 47.0, 26.0, 53.0, 29.5 ] },
+				"south": { "texture": "#dress-red-es", "uv": [ 53.0, 26.0, 58.0, 29.5 ] },
+				"west": { "texture": "#dress-red-es", "uv": [ 58.0, 26.0, 64.0, 29.5 ] },
+				"up": { "texture": "#dress-red-es", "uv": [ 54.0, 38.5, 59.0, 44.5 ] },
+				"down": { "texture": "#dress-red-es", "uv": [ 59.0, 38.5, 64.0, 44.5 ] }
+			}
+		},
+		{
+			"name": "GamCoatR",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.51, -1.8, -0.05 ], 
+			"to": [ 4.59, 9.1, 4.65 ], 
+			"uv": [ 26.0, 49.0 ],
+			"rotationOrigin": [ -0.5, -1.8, -0.2 ],
+			"faces": {
+				"north": { "texture": "#dress-red-es", "uv": [ 26.0, 53.5, 31.0, 64.0 ] },
+				"east": { "texture": "#dress-red-es", "uv": [ 31.0, 53.5, 35.5, 64.0 ] },
+				"south": { "texture": "#dress-red-es", "uv": [ 35.5, 53.5, 40.5, 64.0 ] },
+				"west": { "texture": "#dress-red-es", "uv": [ 40.5, 53.5, 45.0, 64.0 ] },
+				"up": { "texture": "#dress-red-es", "uv": [ 26.0, 49.0, 31.0, 53.5 ], "rotation": 180 },
+				"down": { "texture": "#dress-red-es", "uv": [ 18.0, 49.0, 23.0, 53.5 ], "rotation": 180, "enabled": false, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "GamCoatL",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.5, -1.8, -1.45 ], 
+			"to": [ 4.6, 9.1, 3.25 ], 
+			"uv": [ 45.0, 49.0 ],
+			"rotationOrigin": [ -0.5, -1.8, -1.4 ],
+			"faces": {
+				"north": { "texture": "#dress-red-es", "uv": [ 45.0, 53.5, 50.0, 64.0 ] },
+				"east": { "texture": "#dress-red-es", "uv": [ 50.0, 53.5, 54.5, 64.0 ] },
+				"south": { "texture": "#dress-red-es", "uv": [ 54.5, 53.5, 59.5, 64.0 ] },
+				"west": { "texture": "#dress-red-es", "uv": [ 59.5, 53.5, 64.0, 64.0 ] },
+				"up": { "texture": "#dress-red-es", "uv": [ 45.0, 49.0, 50.0, 53.5 ] },
+				"down": { "texture": "#dress-red-es", "uv": [ 39.0, 49.0, 44.0, 53.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

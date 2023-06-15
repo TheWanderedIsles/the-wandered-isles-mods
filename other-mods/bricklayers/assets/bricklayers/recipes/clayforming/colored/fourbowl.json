@@ -1,0 +1,31 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "black", "blurple", "brown", "darkgrey", "fire", "green", "light", "malachite", "orange", "pink", "purple", "red", "yellow" ] },
+	"pattern": [[
+		"#####_#####",
+		"#####_#####",
+		"#####_#####",
+		"#####_#####",
+		"#####_#####",
+		"___________",
+		"#####_#####",
+		"#####_#####",
+		"#####_#####",
+		"#####_#####",
+		"#####_#####"
+	],
+	[
+		"#####_#####",
+		"#___#_#___#",
+		"#___#_#___#",
+		"#___#_#___#",
+		"#####_#####",
+		"___________",
+		"#####_#####",
+		"#___#_#___#",
+		"#___#_#___#",
+		"#___#_#___#",
+		"#####_#####"
+	]],
+	"name": "recipe-clayforming-colored-fourbowl",
+	"output": { "type": "block", "code": "bricklayers:coloredbowl-raw-{color}-none", "stacksize": 4 }
+}

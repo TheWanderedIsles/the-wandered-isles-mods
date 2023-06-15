@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"willow": "block/wood/bark/willow",
+		"willow2": "block/wood/treetrunk/willow"
+	},
+	"elements": [
+		{
+			"name": "Center",
+			"from": [ 7.2, 0.0, 7.2 ], 
+			"to": [ 8.8, 16.0, 8.8 ], 
+			"rotationOrigin": [ 0.7, 0.0, 0.7 ],
+			"faces": {
+				"north": { "texture": "#willow", "uv": [ 4.5, 0.0, 6.0, 16.0 ] },
+				"east": { "texture": "#willow", "uv": [ 6.0, 0.0, 7.5, 16.0 ] },
+				"south": { "texture": "#willow", "uv": [ 7.5, 0.0, 9.0, 16.0 ] },
+				"west": { "texture": "#willow", "uv": [ 9.0, 0.0, 10.5, 16.0 ] },
+				"up": { "texture": "#willow2", "uv": [ 7.0, 7.0, 8.5, 8.5 ] },
+				"down": { "texture": "#willow2", "uv": [ 7.0, 7.0, 8.5, 8.5 ] }
+			}
+		}
+	]}

@@ -1,0 +1,55 @@
+[
+
+	{
+		ingredientPattern: "HP_,PTP,_P_",
+		ingredients: {
+				"T": { type: "block", code: "game:trunk-east", "attributes": { type: "normal-generic" } },
+				"P": { type: "item", code: "game:plank-aged" },
+				"H": { type: "item", code: "game:hammer-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "medieval:ancientbox-east", "attributes": { type: "ancientboxaged2" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "PHP,PTP,P_P",
+		ingredients: {
+				"T": { type: "block", code: "game:trunk-east", "attributes": { type: "normal-generic" } },
+				"P": { type: "item", code: "game:plank-aged" },
+				"H": { type: "item", code: "game:hammer-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "medieval:ancientbox-east", "attributes": { type: "ancientboxaged1" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "PHP,PTP,P_P",
+		ingredients: {
+				"T": { type: "block", code: "game:trunk-east", "attributes": { type: "normal-generic" } },
+				"P": { type: "item", code: "game:plank-oak" },
+				"H": { type: "item", code: "game:hammer-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "medieval:ancientbox-east", "attributes": { type: "ancientboxoak" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "PHP,PTP,P_P",
+		ingredients: {
+				"T": { type: "block", code: "game:trunk-east", "attributes": { type: "normal-generic" } },
+				"P": { type: "item", code: "game:plank-pine" },
+				"H": { type: "item", code: "game:hammer-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "medieval:ancientbox-east", "attributes": { type: "ancientboxpine" }, quantity: 1  }
+	}
+
+]

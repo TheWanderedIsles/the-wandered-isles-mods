@@ -1,0 +1,189 @@
+{
+	code: "bigaxe",
+	class: "ItemAxe",
+	tool: "axe",
+	damagedby: ["blockbreaking", "attacking"],
+	attributes: {
+		handbook: {
+			groupBy: ["bigaxe-*"]
+		},
+		toolrackTransformByType: {
+			"*":
+			{
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.23, y: 0.6 },
+				scale: 1.25,
+			}
+		},
+		groundStorageTransform: {
+			translation: { x: 0.1, y: 0.18, z: -0.1 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+		},
+		onmoldrackTransformByType: {
+
+			"*":{
+					translation: { x: 0.45, y: 0.82, z: 0 },
+					rotation: { x: 180, y: 150, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			}
+		},
+
+    "moldrackable": true
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [
+		{ code: "metal", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium" ] 
+		}
+	],
+
+
+	shape: { "base": "item/tool/blade/bigaxeblade" },
+
+	textures: {	"metal": { base: "item/tool/sword/axe/{metal}" }},
+
+	heldTpHitAnimation: "axechop",
+
+	attackRange: 3,
+
+	tooltierbytype: {
+		"*-copper": 4,
+		"*-gold": 4,
+		"*-silver": 4,
+		"*-bismuthbronze": 5,
+		"*-tinbronze": 5,
+		"*-blackbronze": 5,
+		"*-iron": 6,
+		"*-meteoriciron": 6,
+		"*-steel": 7,
+		"*-stainlesssteel": 8,
+		"*-titanium": 9
+	},
+	miningspeedbytype: {
+		"bigaxe-copper": {
+			"wood": 6.75,
+			"plant": 2.8,
+			"leaves": 2.4
+		},
+		"bigaxe-silver": {
+			"wood": 5.85,
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"bigaxe-gold": {
+			"wood": 5.85,
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"bigaxe-bismuthbronze": {
+			"wood": 7.55,
+			"plant": 3.5,
+			"leaves": 2.6
+		},
+		"bigaxe-tinbronze": {
+			"wood": 8.2,
+			"plant": 3.8,
+			"leaves": 3
+		},
+		"bigaxe-blackbronze": {
+			"wood": 5.6,
+			"plant": 4,
+			"leaves": 3.1
+		},
+		"bigaxe-iron": {
+			"wood": 10.9,
+			"plant": 5,
+			"leaves": 3.2
+		},
+		"bigaxe-meteoriciron": {
+			"wood": 12.5,
+			"plant": 5.5,
+			"leaves": 3.6
+		},
+		"bigaxe-steel": {
+			"wood": 14.3,
+			"plant": 6,
+			"leaves": 4
+		},
+		"bigaxe-stainlesssteel": {
+			"wood": 16,
+			"plant": 8,
+			"leaves": 7
+		},
+		"bigaxe-titanium": {
+			"wood": 17.5,
+			"plant": 9,
+			"leaves": 8
+		}
+	},
+	durabilitybytype: {
+		"bigaxe-gold": 250,
+		"bigaxe-silver": 250,
+		"bigaxe-copper": 375,
+		"bigaxe-blackbronze": 900,
+		"bigaxe-bismuthbronze": 750,
+		"bigaxe-tinbronze": 600,
+		"bigaxe-iron": 1350,
+		"bigaxe-meteoriciron": 1800,
+		"bigaxe-steel": 2700,
+		"bigaxe-stainlesssteel": 4200,
+		"bigaxe-titanium": 5750
+	},
+	attackpowerbytype: {
+		"bigaxe-copper": 4,
+		"bigaxe-bismuthbronze": 4.5,
+		"bigaxe-gold": 6.75,
+		"bigaxe-silver": 6.75,
+		"bigaxe-tinbronze": 4.75,
+		"bigaxe-blackbronze": 5.25,
+		"bigaxe-iron": 5.5,
+		"bigaxe-meteoriciron": 5.75,
+		"bigaxe-steel": 6,
+		"bigaxe-stainlesssteel": 7.5,
+		"bigaxe-titanium": 9
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+
+	fpHandTransform: {
+		translation: { x: -0.3, y: -0.5, z: 0.3 },
+		rotation: { x: -29, y: 1, z: 88 },
+		origin: { x: 0.2, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		"*":
+		{
+			translation: { x: 0, y: 4, z: 0 },
+			rotation: { x: -63, y: -123, z: -180 },
+			origin: { x: 0.61, y: 0, z: 0.47 },
+			scale: 1.58
+		}
+	},
+	groundTransformByType: {
+		"*":
+		{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.6
+		}
+	},
+	tpHandTransformByType: {
+		"*":
+		{
+			translation: { x: -0.89, y: -0.5, z: -0.1 },
+			rotation: { x: 90, y: 0, z: -10 },
+			scale: 0.95
+		}
+	}
+}

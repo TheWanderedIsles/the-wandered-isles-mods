@@ -1,0 +1,13 @@
+[
+	{
+	"ingredientPattern": "BF",
+	"ingredients": {
+                "B": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-*-white", "name": "color" },
+                "F": { "type": "item", "code": "game:fat", "quantity": 2 }
+        },
+        "width": 2,
+        "height": 1,
+	"shapeless": true,
+        "output": { "type": "block", "code": "bricklayers:porcelainoillamp-{color}-white-up"  }
+	}
+]

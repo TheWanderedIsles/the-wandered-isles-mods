@@ -1,0 +1,224 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"travelling-boots-leather": [16,16],
+		"walking-boots-leather": [16,16],
+		"leather": [64,64]
+	},
+	"textures": {
+		"walking-boots-leather": "entity/humanoid/seraphclothes/foot/walking-boots-leather",
+		"leather": "entity/humanoid/serapharmor/jerkin/leather"
+	},
+	"elements": [
+		{
+			"name": "ArmorUpperLegR",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.21, -0.5, -0.1 ], 
+			"to": [ 4.39, 10.0, 3.7 ], 
+			"rotationOrigin": [ -0.2, -0.5, -0.1 ],
+			"faces": {
+				"north": { "texture": "#leather", "uv": [ 16.0, 38.5, 20.5, 49.0 ] },
+				"east": { "texture": "#leather", "uv": [ 20.5, 38.5, 24.0, 49.0 ] },
+				"south": { "texture": "#leather", "uv": [ 24.0, 38.5, 28.5, 49.0 ] },
+				"west": { "texture": "#leather", "uv": [ 28.5, 38.5, 32.0, 49.0 ] },
+				"up": { "texture": "#leather", "uv": [ 16.0, 35.0, 20.5, 38.5 ] },
+				"down": { "texture": "#leather", "uv": [ 20.5, 35.0, 25.0, 38.5 ] }
+			}
+		},
+		{
+			"name": "ArmorUpperLegL",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.21, -0.5, -0.5 ], 
+			"to": [ 4.39, 10.0, 3.3 ], 
+			"rotationOrigin": [ -0.2, -0.5, -0.5 ],
+			"faces": {
+				"north": { "texture": "#leather", "uv": [ 0.0, 38.5, 4.5, 49.0 ] },
+				"east": { "texture": "#leather", "uv": [ 4.5, 38.5, 8.0, 49.0 ] },
+				"south": { "texture": "#leather", "uv": [ 8.0, 38.5, 12.5, 49.0 ] },
+				"west": { "texture": "#leather", "uv": [ 12.5, 38.5, 16.0, 49.0 ] },
+				"up": { "texture": "#leather", "uv": [ 0.0, 35.0, 4.5, 38.5 ] },
+				"down": { "texture": "#leather", "uv": [ 4.5, 35.0, 9.0, 38.5 ] }
+			}
+		},
+		{
+			"name": "ArmorLowerLegR",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.3, 1.8, -0.25 ], 
+			"to": [ 4.2, 10.1, 3.25 ], 
+			"rotationOrigin": [ -0.3, 1.8, -0.4 ],
+			"faces": {
+				"north": { "texture": "#leather", "uv": [ 16.0, 52.5, 20.5, 60.5 ] },
+				"east": { "texture": "#leather", "uv": [ 20.5, 52.5, 24.0, 60.5 ] },
+				"south": { "texture": "#leather", "uv": [ 24.0, 52.5, 28.5, 60.5 ] },
+				"west": { "texture": "#leather", "uv": [ 28.5, 52.5, 32.0, 60.5 ] },
+				"up": { "texture": "#leather", "uv": [ 16.0, 49.0, 20.5, 52.5 ] },
+				"down": { "texture": "#leather", "uv": [ 20.5, 49.0, 25.0, 52.5 ] }
+			}
+		},
+		{
+			"name": "ArmorLowerLegL",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.3, 1.8, -0.25 ], 
+			"to": [ 4.2, 10.1, 3.25 ], 
+			"rotationOrigin": [ -0.3, 1.8, -0.4 ],
+			"faces": {
+				"north": { "texture": "#leather", "uv": [ 0.0, 52.5, 4.5, 60.5 ] },
+				"east": { "texture": "#leather", "uv": [ 4.5, 52.5, 8.0, 60.5 ] },
+				"south": { "texture": "#leather", "uv": [ 8.0, 52.5, 12.5, 60.5 ] },
+				"west": { "texture": "#leather", "uv": [ 12.5, 52.5, 16.0, 60.5 ] },
+				"up": { "texture": "#leather", "uv": [ 0.0, 49.0, 4.5, 52.5 ] },
+				"down": { "texture": "#leather", "uv": [ 4.5, 49.0, 9.0, 52.5 ] }
+			}
+		},
+		{
+			"name": "shoe R",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.35, -0.1, -0.4 ], 
+			"to": [ 4.35, 5.9, 3.3 ], 
+			"rotationOrigin": [ 3.9, -0.1, 2.8 ],
+			"faces": {
+				"south": { "texture": "#walking-boots-leather", "uv": [ 7.0, 10.5, 11.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#walking-boots-leather", "uv": [ 4.0, 10.5, 7.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"north": { "texture": "#walking-boots-leather", "uv": [ 2.5, 10.0, 6.5, 15.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#walking-boots-leather", "uv": [ 11.0, 10.5, 14.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#walking-boots-leather", "uv": [ 4.0, 0.0, 7.5, 4.5 ], "rotation": 90 },
+				"down": { "texture": "#walking-boots-leather", "uv": [ 0.0, 0.0, 3.5, 4.5 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "back fold 7",
+					"from": [ -0.02, 6.0, 0.0 ], 
+					"to": [ 0.18, 7.0, 3.7 ], 
+					"rotationOrigin": [ 0.2, 6.0, 3.2 ],
+					"faces": {
+						"south": { "texture": "#walking-boots-leather", "uv": [ 0.0, 9.5, 0.5, 10.5 ] },
+						"west": { "texture": "#walking-boots-leather", "uv": [ 6.5, 4.0, 10.0, 5.0 ] },
+						"north": { "texture": "#walking-boots-leather", "uv": [ 4.0, 9.5, 4.5, 10.5 ] },
+						"east": { "texture": "#walking-boots-leather", "uv": [ 6.5, 4.0, 10.0, 5.0 ] },
+						"up": { "texture": "#walking-boots-leather", "uv": [ 12.5, 9.5, 16.0, 10.0 ], "rotation": 270 },
+						"down": { "texture": "#courier-boots", "uv": [ 0.0, 0.0, 0.5, 3.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "front fold 8",
+					"from": [ 4.52, 6.0, 0.0 ], 
+					"to": [ 4.72, 7.0, 3.7 ], 
+					"rotationOrigin": [ 4.6, 6.0, 3.2 ],
+					"faces": {
+						"south": { "texture": "#walking-boots-leather", "uv": [ 4.5, 9.5, 5.0, 9.0 ], "autoUv": false },
+						"west": { "texture": "#walking-boots-leather", "uv": [ 6.0, 4.0, 9.5, 5.0 ] },
+						"north": { "texture": "#walking-boots-leather", "uv": [ 13.5, 9.5, 14.0, 10.5 ] },
+						"east": { "texture": "#walking-boots-leather", "uv": [ 6.0, 4.0, 9.5, 5.0 ] },
+						"up": { "texture": "#walking-boots-leather", "uv": [ 3.0, 9.5, 6.5, 10.0 ], "rotation": 90 },
+						"down": { "texture": "#courier-boots", "uv": [ 3.0, 9.5, 6.5, 10.0 ], "rotation": 90, "enabled": false }
+					}
+				},
+				{
+					"name": "S fold 9",
+					"from": [ 0.0, 6.0, -0.02 ], 
+					"to": [ 4.7, 7.5, 0.18 ], 
+					"rotationOrigin": [ 4.2, 6.0, 0.2 ],
+					"faces": {
+						"south": { "texture": "#walking-boots-leather", "uv": [ 7.0, 8.0, 11.5, 9.5 ] },
+						"west": { "texture": "#walking-boots-leather", "uv": [ 4.0, 8.5, 4.5, 10.0 ] },
+						"north": { "texture": "#walking-boots-leather", "uv": [ 7.0, 8.0, 11.5, 9.5 ] },
+						"east": { "texture": "#walking-boots-leather", "uv": [ 13.0, 8.5, 13.5, 10.0 ] },
+						"up": { "texture": "#walking-boots-leather", "uv": [ 7.0, 8.0, 11.5, 8.5 ] },
+						"down": { "texture": "#courier-boots", "uv": [ 7.0, 15.0, 11.5, 15.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "N fold 10",
+					"from": [ 0.0, 6.0, 3.52 ], 
+					"to": [ 4.7, 7.0, 3.72 ], 
+					"rotationOrigin": [ 4.2, 6.0, 3.5 ],
+					"faces": {
+						"south": { "texture": "#walking-boots-leather", "uv": [ 5.5, 4.0, 10.0, 5.0 ] },
+						"west": { "texture": "#walking-boots-leather", "uv": [ 0.0, 9.5, 0.5, 10.5 ] },
+						"north": { "texture": "#walking-boots-leather", "uv": [ 5.0, 4.0, 9.5, 5.0 ] },
+						"east": { "texture": "#walking-boots-leather", "uv": [ 4.0, 9.5, 4.5, 10.5 ] },
+						"up": { "texture": "#walking-boots-leather", "uv": [ 4.0, 4.0, 8.5, 4.5 ], "rotation": 180 },
+						"down": { "texture": "#courier-boots", "uv": [ 5.0, 4.5, 9.5, 5.0 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "shoe L",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.4, -0.1, -0.3 ], 
+			"to": [ 4.3, 5.9, 3.4 ], 
+			"rotationOrigin": [ -0.4, -0.1, -0.3 ],
+			"faces": {
+				"north": { "texture": "#walking-boots-leather", "uv": [ 12.0, 10.5, 16.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#walking-boots-leather", "uv": [ 11.0, 10.5, 14.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#walking-boots-leather", "uv": [ 7.0, 10.5, 11.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#walking-boots-leather", "uv": [ 3.5, 10.5, 6.5, 16.0 ], "autoUv": false },
+				"up": { "texture": "#walking-boots-leather", "uv": [ 4.0, 0.0, 7.5, 4.5 ], "rotation": 90 },
+				"down": { "texture": "#walking-boots-leather", "uv": [ 0.0, 0.0, 3.5, 4.5 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "back fold 13",
+					"from": [ 4.52, 6.0, 0.0 ], 
+					"to": [ 4.72, 7.0, 3.7 ], 
+					"rotationOrigin": [ 4.5, 6.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#walking-boots-leather", "uv": [ 4.5, 9.5, 5.0, 10.5 ] },
+						"east": { "texture": "#walking-boots-leather", "uv": [ 12.5, 9.5, 16.0, 10.5 ] },
+						"south": { "texture": "#walking-boots-leather", "uv": [ 0.0, 9.5, 0.5, 10.5 ] },
+						"west": { "texture": "#walking-boots-leather", "uv": [ 12.5, 9.5, 16.0, 10.5 ] },
+						"up": { "texture": "#walking-boots-leather", "uv": [ 12.5, 9.5, 16.0, 10.0 ], "rotation": 270 },
+						"down": { "texture": "#courier-boots", "uv": [ 0.0, 0.0, 0.5, 3.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "front fold 14",
+					"from": [ -0.02, 6.0, 0.0 ], 
+					"to": [ 0.18, 7.0, 3.7 ], 
+					"rotationOrigin": [ 0.1, 6.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#walking-boots-leather", "uv": [ 13.5, 9.5, 14.0, 10.5 ] },
+						"east": { "texture": "#walking-boots-leather", "uv": [ 6.0, 4.0, 9.5, 5.0 ] },
+						"south": { "texture": "#walking-boots-leather", "uv": [ 4.5, 9.5, 5.0, 9.0 ], "autoUv": false },
+						"west": { "texture": "#walking-boots-leather", "uv": [ 6.0, 4.0, 9.5, 5.0 ] },
+						"up": { "texture": "#walking-boots-leather", "uv": [ 3.0, 9.5, 6.5, 10.0 ], "rotation": 90 },
+						"down": { "texture": "#courier-boots", "uv": [ 3.0, 9.5, 6.5, 10.0 ], "rotation": 90, "enabled": false }
+					}
+				},
+				{
+					"name": "S fold 15",
+					"from": [ 0.0, 6.0, 3.52 ], 
+					"to": [ 4.7, 7.5, 3.72 ], 
+					"rotationOrigin": [ 0.0, 6.0, 3.5 ],
+					"faces": {
+						"north": { "texture": "#walking-boots-leather", "uv": [ 7.0, 8.0, 11.5, 9.5 ] },
+						"east": { "texture": "#walking-boots-leather", "uv": [ 13.0, 9.0, 13.5, 10.5 ] },
+						"south": { "texture": "#walking-boots-leather", "uv": [ 7.0, 8.0, 11.5, 9.5 ] },
+						"west": { "texture": "#walking-boots-leather", "uv": [ 4.0, 9.0, 4.5, 10.5 ] },
+						"up": { "texture": "#walking-boots-leather", "uv": [ 7.0, 8.0, 11.5, 8.5 ] },
+						"down": { "texture": "#courier-boots", "uv": [ 7.0, 15.0, 11.5, 15.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "N fold 16",
+					"from": [ 0.0, 6.0, -0.02 ], 
+					"to": [ 4.7, 7.0, 0.18 ], 
+					"rotationOrigin": [ 0.0, 6.0, 0.2 ],
+					"faces": {
+						"north": { "texture": "#walking-boots-leather", "uv": [ 5.0, 4.0, 9.5, 5.0 ] },
+						"east": { "texture": "#walking-boots-leather", "uv": [ 4.0, 9.5, 4.5, 10.5 ] },
+						"south": { "texture": "#walking-boots-leather", "uv": [ 5.5, 4.0, 10.0, 5.0 ] },
+						"west": { "texture": "#walking-boots-leather", "uv": [ 0.0, 9.0, 0.5, 10.0 ] },
+						"up": { "texture": "#walking-boots-leather", "uv": [ 4.0, 4.0, 8.5, 4.5 ], "rotation": 180 },
+						"down": { "texture": "#courier-boots", "uv": [ 5.0, 4.5, 9.5, 5.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

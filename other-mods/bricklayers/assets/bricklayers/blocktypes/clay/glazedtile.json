@@ -1,0 +1,120 @@
+{
+	"code": "glazedtile",
+	"class": "BlockSimpleCoating",
+	"behaviors": [
+		{
+		"name": "Decor",
+			"properties": {
+			"sides": [ "north", "east", "south", "west", "up", "down" ],
+			"sidedVariants": true,
+			"thickness": 0.0312,
+			"removable": true }
+		}
+	],
+	"attributes": {
+		"handbook": { "groupBy": [ "glazedtile-clear-dull-*", "glazedtile-clear-polished-*" ] },
+		"*-clear-dull-*": { "handbook": { "extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-glazedtile-burnt-dull" } ] } },
+		"*-clear-polished-*": { "handbook": { "extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-glazedtile-burnt-polished" } ] } },
+		"canChisel": true
+	},
+	"variantgroups": [
+		{ "code": "type", "states": [ "clear" ] },
+		{ "code": "edge", "states": [ "dull", "polished" ] },
+		{ "code": "color", "states": [ "black", "blue", "brown", "green", "greenblue", "lapislazuli", "malachite", "orange", "purple", "red", "redbrown", "yellow", "white" ] },
+		{ "code": "side", "states": [ "north", "east", "south", "west", "up", "down" ] }
+	],
+	"shapeByType": {
+		"*-down": { "base": "bricklayers:block/basic/layers/05voxel" },
+		"*-up": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 180 },
+		"*-north": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90 },
+		"*-east": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
+		"*-west": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*-south": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 270 }
+	},
+	"sidesolidByType": {
+		"*-down": { "all": false, "down": true },
+		"*-up": { "all": false, "up": true },
+		"*-north": { "all": false, "north": true },
+		"*-east": { "all": false, "east": true },
+		"*-west": { "all": false, "west": true },
+		"*-south": { "all": false, "south": true }
+	},
+	"sideopaqueByType": {
+		"*-down": { "all": false, "down": true },
+		"*-up": { "all": false, "up": true },
+		"*-north": { "all": false, "north": true },
+		"*-east": { "all": false, "east": true },
+		"*-west": { "all": false, "west": true },
+		"*-south": { "all": false, "south": true }
+	},
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*-down"], "decorative": ["*-down"], "ceramics": ["*-down"] },
+	"replaceable": 900,
+	"resistance": 1,
+	"lightAbsorption": 1,
+	"emitSideAo": { "all": false },
+	"texturesByType": {
+		"glazedtile-clear-dull-*": {
+			"all": { "base": "bricklayers:block/ceramic/glazed/burnt/tile/{color}" }
+		},
+		"*": {
+			"all": { "base": "bricklayers:block/ceramic/glazed/burnt/tile/{color}", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] }
+		}
+	},
+	"vertexFlags": { "zOffset": 1 },
+	"selectionbox": {
+		"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0312, "z2": 1,
+		"rotateXByType": {
+			"*-up": 180,
+			"*-north": 90,
+			"*-east": 90,
+			"*-west": 90,
+			"*-south": 270
+		},
+		"rotateYByType": {
+			"*-east": 180,
+			"*-west": 0
+		},
+		"rotateZByType": {
+			"*-east": 270,
+			"*-west": 270
+		}
+	},
+	"collisionbox": {
+		"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0312, "z2": 1,
+		"rotateXByType": {
+			"*-up": 180,
+			"*-north": 90,
+			"*-east": 90,
+			"*-west": 90,
+			"*-south": 270
+		},
+		"rotateYByType": {
+			"*-east": 180,
+			"*-west": 0
+		},
+		"rotateZByType": {
+			"*-east": 270,
+			"*-west": 270
+		}
+	},
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"break": "game:block/rock-break-pickaxe",
+		"hit": "game:block/rock-hit-pickaxe",
+		"walk": "game:walk/stone"
+	},
+	"materialDensity": 6000,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0312, "z": 0.5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -2, "y": -0.9, "z": -1.5 },
+		"rotation": { "x": 60, "y": 66, "z": -37 },
+		"scale": 0.37
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.3, "y": 0, "z": 0.3 }
+	}
+}

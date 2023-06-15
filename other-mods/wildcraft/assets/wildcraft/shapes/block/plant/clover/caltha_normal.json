@@ -1,0 +1,90 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"caltha_leaves": "block/plant/clover/caltha_leaves",
+		"caltha_stems": "block/plant/clover/caltha_stems"
+	},
+	"elements": [
+		{
+			"name": "Stems",
+			"from": [ 8.0, 0.0, 0.0 ], 
+			"to": [ 8.0, 16.0, 16.0 ], 
+			"shade": false,
+			"climateColorMap": "climateLighterPlantTint",
+			"seasonColorMap": "seasonalNeedles",
+			"renderPass": 2,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+				"south": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Stems2",
+					"from": [ -7.0E-4, 0.0, -0.0024 ], 
+					"to": [ -7.0E-4, 16.0, 15.9976 ], 
+					"shade": false,
+					"climateColorMap": "climateLighterPlantTint",
+					"seasonColorMap": "seasonalNeedles",
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"rotationY": 112.5,
+					"faces": {
+						"north": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"east": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Leaves",
+					"from": [ -8.0, 1.8, 0.0 ], 
+					"to": [ 8.0, 1.8, 16.0 ], 
+					"shade": false,
+					"climateColorMap": "climateLighterPlantTint",
+					"seasonColorMap": "seasonalNeedles",
+					"rotationOrigin": [ -8.0, 1.8, 0.0 ],
+					"faces": {
+						"north": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"east": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [7,7,7,7] },
+						"down": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "windMode": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "Stems6",
+					"from": [ -7.0E-4, 0.0, -0.0024 ], 
+					"to": [ -7.0E-4, 16.0, 15.9976 ], 
+					"shade": false,
+					"climateColorMap": "climateLighterPlantTint",
+					"seasonColorMap": "seasonalNeedles",
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.3333, 16.0 ], "enabled": false },
+						"east": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.3333, 16.0 ], "enabled": false },
+						"west": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.3333, 16.0 ], "enabled": false },
+						"down": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.3333, 16.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

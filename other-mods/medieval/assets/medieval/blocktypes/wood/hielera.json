@@ -1,0 +1,495 @@
+{
+	"code": "hielera",
+	"class": "BlockContainers",
+	"entityclass": "BlockEntityContainers",
+	"attributes": {
+		"partialAttachable": true,
+		"canPlaceGroundStorgeOnTop": false,
+		"inventoryClassName": "container",
+		"defaultType": "hielera-oak",
+		"types": [ "hielera-acacia", "hielera-aged", "hielera-baldcypress", "hielera-birch", "hielera-ebony", "hielera-kapok", "hielera-larch", "hielera-maple", "hielera-oak", "hielera-pine", "hielera-purpleheart", "hielera-redwood", "hielera-walnut" ],
+
+		"rotatatableInterval": {
+			"hielera-acacia": "22.5deg",
+			"hielera-aged": "22.5deg",
+			"hielera-baldcypress": "22.5deg",
+			"hielera-birch": "22.5deg",
+			"hielera-ebony": "22.5deg",
+			"hielera-kapok": "22.5deg",
+			"hielera-larch": "22.5deg",
+			"hielera-maple": "22.5deg",
+			"hielera-oak": "22.5deg",
+			"hielera-pine": "22.5deg",
+			"hielera-purpleheart": "22.5deg",
+			"hielera-redwood": "22.5deg",
+			"hielera-walnut": "22.5deg"
+		},
+		"spoilSpeedMulByFoodCat": {
+
+			"hielera-acacia": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-aged": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-balscyprees": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-birch": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-ebony": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-kapok": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-larch": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-maple": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-oak": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-pine": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-purpleheart": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-redwood": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			},
+			"hielera-walnut": {
+				"vegetable": 0.3,
+				"grain": 0.15,
+				"fruit": 0.15,
+				"protein": 0.22,
+				"dairy": 0.15
+			}
+		},
+		"drop": {
+			"hielera-acacia": true,
+			"hielera-aged": true,
+			"hielera-baldcypress": true,
+			"hielera-birch": true,
+			"hielera-ebony": true,
+			"hielera-kapok": true,
+			"hielera-larch": true,
+			"hielera-maple": true,
+			"hielera-oak": true,
+			"hielera-pine": true,
+			"hielera-purpleheart": true,
+			"hielera-redwood": true,
+			"hielera-walnut": true
+		},
+		"quantitySlots": {
+			"hielera-acacia": 25,
+			"hielera-aged": 25,
+			"hielera-baldcypress": 25,
+			"hielera-birch": 25,
+			"hielera-ebony": 25,
+			"hielera-kapok": 25,
+			"hielera-larch": 25,
+			"hielera-maple": 25,
+			"hielera-oak": 25,
+			"hielera-pine": 25,
+			"hielera-purpleheart": 25,
+			"hielera-redwood": 25,
+			"hielera-walnut": 25
+		},
+		"quantityColumns": {
+			"hielera-acacia": 5,
+			"hielera-aged": 5,
+			"hielera-baldcypress": 5,
+			"hielera-birch": 5,
+			"hielera-ebony": 5,
+			"hielera-kapok": 5,
+			"hielera-larch": 5,
+			"hielera-maple": 5,
+			"hielera-oak": 5,
+			"hielera-pine": 5,
+			"hielera-purpleheart": 5,
+			"hielera-redwood": 5,
+			"hielera-walnut": 5
+		},
+		"dialogTitleLangCode": {
+			"hielera-acacia": "Nevera",
+			"hielera-aged": "Nevera",
+			"hielera-baldcypress": "Nevera",
+			"hielera-birch": "Nevera",
+			"hielera-ebony": "Nevera",
+			"hielera-kapok": "Nevera",
+			"hielera-larch": "Nevera",
+			"hielera-maple": "Nevera",
+			"hielera-oak": "Nevera",
+			"hielera-pine": "Nevera",
+			"hielera-purpleheart": "Nevera",
+			"hielera-redwood": "Nevera",
+			"hielera-walnut": "Nevera"
+		},
+		"storageType": {
+			"hielera-acacia": 189,
+			"hielera-aged": 189,
+			"hielera-baldcypress": 189,
+			"hielera-birch": 189,
+			"hielera-ebony": 189,
+			"hielera-kapok": 189,
+			"hielera-larch": 189,
+			"hielera-maple": 189,
+			"hielera-oak": 189,
+			"hielera-pine": 189,
+			"hielera-purpleheart": 189,
+			"hielera-redwood": 189,
+			"hielera-walnut": 189
+		},
+		"retrieveOnly": {
+			"hielera-acacia": false,
+			"hielera-aged": false,
+			"hielera-baldcypress": false,
+			"hielera-birch": false,
+			"hielera-ebony": false,
+			"hielera-kapok": false,
+			"hielera-larch": false,
+			"hielera-maple": false,
+			"hielera-oak": false,
+			"hielera-pine": false,
+			"hielera-purpleheart": false,
+			"hielera-redwood": false,
+			"hielera-walnut": false
+		},
+		"shape": {
+			"hielera-acacia": "block/clay/hielera-acacia",
+			"hielera-aged": "block/clay/hielera-aged",
+			"hielera-baldcypress": "block/clay/hielera-baldcypress",
+			"hielera-birch": "block/clay/hielera-birch",
+			"hielera-ebony": "block/clay/hielera-ebony",
+			"hielera-kapok": "block/clay/hielera-kapok",
+			"hielera-larch": "block/clay/hielera-larch",
+			"hielera-maple": "block/clay/hielera-maple",
+			"hielera-oak": "block/clay/hielera-oak",
+			"hielera-purpleheart": "block/clay/hielera-purpleheart",
+			"hielera-redwood": "block/clay/hielera-redwood",
+			"hielera-pine": "block/clay/hielera-pine",
+			"hielera-walnut": "block/clay/hielera-walnut",
+		},
+		"typedOpenSound": {
+			"hielera-*": "game:sounds/block/largechestopen"
+		},
+		"typedCloseSound": {
+			"hielera-*": "game:sounds/block/largechestclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [{"name": "Lockable" }, {"name": "Container"}, {name: "UnstableFalling"},	{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" }
+		}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "medieval" ],
+				"stacks": [
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-acacia" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-aged" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-baldcypress" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-birch" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-ebony" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-kapok" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-larch" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-maple" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-oak" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-pine" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-purpleheart" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-redwood" } },
+					{ "type": "block", code: "hielera-east", attributes: { "type": "hielera-walnut" } }
+				]
+			}
+		]
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "block/wood/chest/normal", rotateY: 0 },
+	shapeByType: {
+		"*-north": { base: "block/wood/chest/normal", rotateY: 90 },
+		"*-east": { base: "block/wood/chest/normal", rotateY: 0 },
+		"*-west": { base: "block/wood/chest/normal", rotateY: 180 },
+		"*-south": { base: "block/wood/chest/normal", rotateY: 270 },
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	textures: {
+
+
+		"hielera-acacia-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-aged-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-baldcypress-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-birch-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-ebony-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-kapok-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-larch-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-maple-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-oak-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-pine-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-purpleheart-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-redwood-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+		"hielera-walnut-knob": { 
+			base: "block/wood/debarked/dark/knob"
+		},
+
+
+
+		"hielera-acacia-wood": { 
+			base: "block/wood/planks/acacia*"
+		},
+		"hielera-aged-wood": { 
+			base: "block/wood/planks/aged*"
+		},
+		"hielera-baldcypress-wood": { 
+			base: "block/wood/planks/baldcypress*"
+		},
+		"hielera-birch-wood": { 
+			base: "block/wood/planks/birch*"
+		},
+		"hielera-ebony-wood": { 
+			base: "block/wood/planks/ebony*"
+		},
+		"hielera-kapok-wood": { 
+			base: "block/wood/planks/kapok*"
+		},
+		"hielera-larch-wood": { 
+			base: "block/wood/planks/larch*"
+		},
+		"hielera-maple-wood": { 
+			base: "block/wood/planks/maple*"
+		},
+		"hielera-oak-wood": { 
+			base: "block/wood/planks/oak*"
+		},
+		"hielera-pine-wood": { 
+			base: "block/wood/planks/pine*"
+		},
+		"hielera-purpleheart-wood": { 
+			base: "block/wood/planks/purpleheart*"
+		},
+		"hielera-redwood-wood": { 
+			base: "block/wood/planks/redwood*"
+		},
+		"hielera-walnut-wood": { 
+			base: "block/wood/planks/walnut*"
+		},
+
+
+
+		"hielera-acacia-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-aged-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-baldcypress-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-birch-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-ebony-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-kapok-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-larch-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-maple-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-oak-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-pine-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-purpleheart-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-redwood-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+		"hielera-walnut-copper": { 
+			base: "block/metal/ingot/copper"
+		},
+
+
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 3,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	"sidesolid": {
+		"all": false
+	},
+	sideopaque: {
+		all: false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0.125,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.875,
+			"y2": 0.75,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 90,
+				"*-east": 0,
+				"*-south": 270,
+				"*-west": 180
+			} 
+		},
+		{
+			"x1": 0.125,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.875,
+			"y2": 0.75,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 90,
+				"*-east": 0,
+				"*-south": 270,
+				"*-west": 180
+			} 
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0.1875,
+			"y1": 0.0625,
+			"z1": 0.125,
+			"x2": 0.8125,
+			"y2": 0.6875,
+			"z2": 0.875,
+			"rotateYByType": {
+				"*-north": 90,
+				"*-east": 0,
+				"*-south": 270,
+				"*-west": 180
+			} 
+		},
+		{
+			"x1": 0.125,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.875,
+			"y2": 0.75,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 90,
+				"*-east": 0,
+				"*-south": 270,
+				"*-west": 180
+			} 
+		}
+	],
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+		guiTransform: {
+		rotation: { x: -22.6, y: 135, z: 0 },
+		origin: { x: 0.5, y: 0.4, z: 0.5 },
+		scale: 1.16
+	}
+}

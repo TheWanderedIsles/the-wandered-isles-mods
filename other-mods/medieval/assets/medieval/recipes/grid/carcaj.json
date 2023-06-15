@@ -1,0 +1,24 @@
+[
+	{
+	ingredientPattern: "L",
+	ingredients: {
+		"L": { type: "item", code: "huge-medieval-belt-bag", quantity: 1 }
+	},
+	width: 1,
+	height: 1,
+	name: "backpack",
+	output: { type: "item", code: "medievalquiver"  }
+	},
+
+
+	{
+	ingredientPattern: "L",
+	ingredients: {
+		"L": { type: "item", code: "medievalquiver", quantity: 1 }
+	},
+	width: 1,
+	height: 1,
+	name: "backpack",
+	output: { type: "item", code: "huge-medieval-belt-bag"  }
+	}
+]

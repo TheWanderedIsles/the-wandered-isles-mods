@@ -1,0 +1,12 @@
+[
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:bone"  },
+			"F": { type: "block", code: "game:cobblestone-*", name: "rock", allowedVariants: ["andesite", "chalk", "claystone", "granite", "sandstone", "shale", "basalt"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:cobbleskull-{rock}", quantity: 1 }
+	}
+]

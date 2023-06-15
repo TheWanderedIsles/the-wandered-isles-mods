@@ -1,0 +1,51 @@
+{
+	code: "plankscolor",
+	behaviors: [
+		{name: "Pillar"}, 
+		{ name: "WrenchOrientable", properties: { baseCode: "plankscolor-{color}"  } }
+	],
+	attributes: {
+		canChisel: true
+	},
+	variantgroups: [
+		{ code: "color", states: ["black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow", ] },
+		{ code: "orientation", states: ["ns", "we", "ud"] }
+	],
+	creativeinventory: { "general": ["*-ns"], "construction": ["*-ns"] , "medieval": ["*-ns"] },
+	shape: { base: "block/basic/cube" },
+	blockmaterial: "Wood",
+	drawtype: "cube",
+	texturesByType: {
+		
+		"*-ud": {
+			all: { base: "block/wood/planks/color/{color}*", rotation: 90  }
+		},
+		"*-we": {
+			all: { base: "block/wood/planks/color/{color}*", rotation: 0  }
+		},
+		"*-ns": {
+			all: { base: "block/wood/planks/color/{color}*" },
+			verticals: { base: "block/wood/planks/color/{color}*", rotation: 90 }
+		}
+	},
+	resistance: 3.5,
+	sounds: {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 20,
+	},
+	maxStackSize: 64,
+	materialDensity: 600,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+	drops: [{ type: "block", code: "plankscolor-{color}-ns"}]
+}

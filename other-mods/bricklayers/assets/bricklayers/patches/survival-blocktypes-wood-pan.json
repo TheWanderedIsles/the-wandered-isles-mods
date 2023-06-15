@@ -1,0 +1,33 @@
+[
+
+  {
+    "op": "addeach",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/-",
+    "comment": "Only one item can drop, so items earlier in the list drop more often...",
+    "value": [
+	    { "type": "item", "code": "game:ore-phosphorite",	"chance": { "avg": 0.04, "var": 0 } },
+	    { "type": "item", "code": "game:nugget-uranium",	"chance": { "avg": 0.03, "var": 0 } },
+	    { "type": "item", "code": "game:ore-fluorite",	"chance": { "avg": 0.05, "var": 0 } },
+	    { "type": "item", "code": "game:ore-corundum",	"chance": { "avg": 0.05, "var": 0 } },
+	    { "type": "item", "code": "game:ore-kernite",	"chance": { "avg": 0.012, "var": 0 } }
+    ],
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/-",
+    "comment": "Only one item can drop, so items earlier in the list drop more often...",
+    "value": [
+	    { "type": "item", "code": "game:ore-phosphorite",	"chance": { "avg": 0.02, "var": 0 } },
+	    { "type": "item", "code": "game:nugget-uranium",	"chance": { "avg": 0.018, "var": 0 } },
+	    { "type": "item", "code": "game:ore-fluorite",	"chance": { "avg": 0.025,  "var": 0 } },
+	    { "type": "item", "code": "game:ore-corundum",	"chance": { "avg": 0.025,  "var": 0 } },
+	    { "type": "item", "code": "game:ore-kernite",	"chance": { "avg": 0.006, "var": 0 } }
+    ],
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  }
+
+]

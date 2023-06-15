@@ -1,0 +1,157 @@
+{
+	"code": "glazedmug",
+	"classByType": {
+		"*-burnt-*": "BlockLiquidContainerTopOpened"
+	},
+	"behaviors": [
+                { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.225, "z2": 1 } } },
+                { "name": "Unplaceable" },
+                { "name": "RightClickPickup"}
+        ],
+	"variantgroups": [
+		{ "code": "type", "states": [ "wet", "raw", "burnt" ] },
+		{ "code": "glazing", "states": [ "clear", "milky" ] },
+		{ "code": "color", "states": [
+		       "black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+		       "malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "code": "pattern", "states": [ "plain", "checker" ] }
+	],
+	"attributesByType": {
+		"glazedmug-burnt-*-gold-*": {
+			"handbook": { "groupBy": [ "glazedmug-burnt-clear-*", "glazedmug-burnt-milky-*" ] },
+			"shelvable": true,
+                        "liquidContainerProps": {
+                                "capacityLitres": 0.4,
+                                "transferSizeLitres": 0.2,
+                                "emptyShapeLoc": "bricklayers:block/clay/mug/mug_glazed_sparkly_empty",
+                                "opaqueContentShapeLoc": "bricklayers:block/clay/mug/mug-contents",
+                                "liquidContentShapeLoc": "bricklayers:block/clay/mug/mug-liquidcontents",
+                                "liquidMaxYTranslate": 0.05
+                        },
+			"mealContainer": false,
+			"displaycaseable": true
+		},
+		"glazedmug-burnt-*": {
+			"handbook": { "groupBy": [ "glazedmug-burnt-clear-*", "glazedmug-burnt-milky-*" ] },
+			"shelvable": true,
+                        "liquidContainerProps": {
+                                "capacityLitres": 0.4,
+                                "transferSizeLitres": 0.2,
+                                "emptyShapeLoc": "bricklayers:block/clay/mug/mug_glazed_shiny_empty",
+                                "opaqueContentShapeLoc": "bricklayers:block/clay/mug/mug-contents",
+                                "liquidContentShapeLoc": "bricklayers:block/clay/mug/mug-liquidcontents",
+                                "liquidMaxYTranslate": 0.05
+                        },
+			"mealContainer": false,
+			"displaycaseable": true
+		},
+		"*-wet-*": {
+			"handbook": { "groupBy": [ "glazedmug-wet-clear-*", "glazedmug-wet-milky-*" ] },
+			"shelvable": true,
+			"displaycaseable":false
+		},
+		"*": {
+			"handbook": { "groupBy": [ "glazedmug-raw-clear-*", "glazedmug-raw-milky-*" ] },
+			"shelvable": true,
+			"displaycaseable": true
+		}
+	},
+	"combustiblePropsByType": {
+		"*-raw-*": {
+			"meltingPoint": 950,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:glazedmug-burnt-{glazing}-{color}-{pattern}" },
+			"requiresContainer": false
+		}
+	},
+	"transitionablePropsByType": {
+		"*-wet-*-plain": [{
+			"type": "Dry",
+			"freshHours": { "avg": 0 },
+			"transitionHours": { "avg": 52, "var": 4 },
+			"transitionedStack": { "type": "block", "code": "bricklayers:glazedmug-raw-{glazing}-{color}-{pattern}" },
+			"transitionRatio": 1
+		}],
+		"*-wet-*": [{
+			"type": "Dry",
+			"freshHours": { "avg": 0 },
+			"transitionHours": { "avg": 12, "var": 1 },
+			"transitionedStack": { "type": "block", "code": "bricklayers:glazedmug-raw-{glazing}-{color}-{pattern}" },
+			"transitionRatio": 1
+		}]
+	},
+	"shapeByType": {
+		"*-burnt-*-gold-*": { "base": "bricklayers:block/clay/mug/mug_glazed_sparkly_empty" },
+		"*-burnt-*": { "base": "bricklayers:block/clay/mug/mug_glazed_shiny_empty" },
+		"*": { "base": "bricklayers:block/clay/mug/mug_glazed_empty" }
+	},
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"replaceable": 300,
+	"liquidSelectable": 1,
+	"resistance": 0.75,
+	"maxStackSize": 16,
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"glazedmug-wet-*-checker": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic", "overlays": [ "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/{glazing}/{color}",
+				"overlays": [  "bricklayers:block/ceramic/glazed/raw/overlay_mug", "bricklayers:block/ceramic/glazed/wet_overlay" ] }
+		},
+		"glazedmug-wet-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic", "overlays": [ "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/{glazing}/{color}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/wet_overlay" ] }
+		},
+		"glazedmug-raw-*-checker": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/{glazing}/{color}",
+				"overlays": [  "bricklayers:block/ceramic/glazed/raw/overlay_mug" ] }
+		},
+		"glazedmug-raw-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/{glazing}/{color}" }
+		},
+		"glazedmug-burnt-*-checker": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic-dark" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/{glazing}/{color}",
+				"overlays": [  "bricklayers:block/ceramic/glazed/burnt/{glazing}/overlay_mug" ] }
+		},
+		"glazedmug-burnt-*-plain": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic-dark" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/{glazing}/{color}" }
+		}
+	},
+	"sounds": { "walk": "game:walk/stone" },
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": -0.5, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 2.5
+	},
+	"groundTransform": { "scale": 4.5 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.4, "z": 0.2 },
+		"rotation": { "x": 0, "y": -14, "z": 0 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.1, "z": -0.8 },
+		"rotation": { "x": 0, "y": -56, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.66
+	}
+}

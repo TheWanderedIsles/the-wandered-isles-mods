@@ -1,0 +1,109 @@
+{
+	code: "smallplanksroofingcornerinnerdown",
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "east" }}],
+	variantgroups: [
+		{ code: "material", states: [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		{ loadFromProperties: "abstract/horizontalorientation" },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	shapeByType: { 
+		
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-north-.*": { base: "block/roofing/cornerinner/smallplanksroofdown-{cover}", rotateY: 90 },
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-west-.*": { base: "block/roofing/cornerinner/smallplanksroofdown-{cover}", rotateY: 180 },
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-south-.*": { base: "block/roofing/cornerinner/smallplanksroofdown-{cover}", rotateY: 270 },
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-east-.*": { base: "block/roofing/cornerinner/smallplanksroofdown-{cover}", rotateY: 0 }
+	},
+	texturesByType: {
+		"*-acacia-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/acacia*" }
+		},
+		"*-aged-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/aged*" }
+		},
+		"*-baldcypress-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/baldcypress*" }
+		},
+		"*-birch-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/birch*" }
+		},
+		"*-ebony-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/ebony*" }
+		},
+		"*-kapok-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/kapok*" }
+		},
+		"*-larch-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/larch*" }
+		},
+		"*-maple-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/maple*" }
+		},
+		"*-oak-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/oak*" }
+		},
+		"*-pine-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/pine*" }
+		},
+		"*-purpleheart-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/purpleheart*" }
+		},
+		"*-redwood-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/redwood*" }
+		},
+		"*-walnut-*": {
+			"material": { base: "block/wood/roof/shingles/small-shingles/walnut*" }
+		}
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, down: true },
+	sideopaque: { all: false },
+	blockmaterialByType: {
+		"*-acacia-*": "wood",
+		"*-aged-*": "wood",
+		"*-baldcypress-*": "wood",
+		"*-birch-*": "wood",
+		"*-ebony-*": "wood",
+		"*-kapok-*": "wood",
+		"*-larch-*": "wood",
+		"*-maple-*": "wood",
+		"*-oak-*": "wood",
+		"*-pine-*": "wood",
+		"*-purpleheart-*": "wood",
+		"*-redwood-*": "wood",
+		"*-walnut-*": "wood"
+	},
+	creativeinventory: { "general": ["*-east-free"], "decorative": ["*-east-free"], "medieval": ["*-east-free"] },
+	replaceable: 300,
+	resistance: 2,
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 20,
+	},
+	lightAbsorption: 99,
+	emitSideAo: {
+		all: true
+	},
+	collisionSelectionBoxesByType: {
+		"@.*-north-.*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.25, z2: 1, rotateY: 90 }, { x1: 0.625, y1: 0.25, z1: 0, x2: 1, y2: 0.5, z2: 1, rotateY: 90 }, { x1: 0, y1: 0.25, z1: 0.625, x2: 1, y2: 0.5, z2: 1, rotateY: 90 } ],
+		"@.*-west-.*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.25, z2: 1, rotateY: 180 }, { x1: 0.625, y1: 0.25, z1: 0, x2: 1, y2: 0.5, z2: 1, rotateY: 180 }, { x1: 0, y1: 0.25, z1: 0.625, x2: 1, y2: 0.5, z2: 1, rotateY: 180 } ],
+		"@.*-south-.*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.25, z2: 1, rotateY: 270 }, { x1: 0.625, y1: 0.25, z1: 0, x2: 1, y2: 0.5, z2: 1, rotateY: 270 }, { x1: 0, y1: 0.25, z1: 0.625, x2: 1, y2: 0.5, z2: 1, rotateY: 270 } ],
+		"@.*-east-.*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.25, z2: 1 }, { x1: 0.625, y1: 0.25, z1: 0, x2: 1, y2: 0.5, z2: 1 }, { x1: 0, y1: 0.25, z1: 0.625, x2: 1, y2: 0.5, z2: 1 } ]
+	},
+	soundsByType: {
+		"*": {
+			place: "game:block/planks",
+			break: "game:block/planks",
+			hit: "game:block/planks"
+		}
+		
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.53, y: 0.4, z: 0.46 },
+			scale: 0.85
+		}
+	}
+}

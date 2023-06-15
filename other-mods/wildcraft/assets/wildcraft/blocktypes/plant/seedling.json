@@ -1,0 +1,215 @@
+{
+    "code": "seedling",
+    "class": "BlockPlant",
+    "entityclassbytype": {
+      "*-planted": "Transient",
+      "*-sprouting": "BESeedling"
+    },
+    "attributes": {
+      "matureDays": {
+        "avg": 7,
+        "var": 2
+      },
+      "dieBelowTemp": -2,
+      "plantCodebyType": {
+        "*-basil-*": "wildcraft:annualplant-basil-normal",
+        "*-blackpepper-*": "wildcraft:annualplant-blackpepper-normal",
+        "*-celery-*": "wildcraft:annualplant-celery-normal",
+        "*-cilantro-*": "wildcraft:annualplant-cilantro-normal",
+        "*-dill-*": "wildcraft:annualplant-dill-normal",
+        "*-mustard-*": "wildcraft:annualplant-mustard-normal",
+        "*-burdock-*": "wildcraft:annualplant-burdock-normal",
+        "*-chicory-*": "wildcraft:annualplant-chicory-normal",
+        "*-marigold-*": "wildcraft:annualplant-marigold-normal",
+        "*-liquorice-*": "wildcraft:annualplant-liquorice-normal",
+        "*-chamomile-*": "wildcraft:annualplant-chamomile-normal",
+        "*-dock-*": "wildcraft:annualplant-dock-normal",
+        "*-stingingnettle-*": "wildcraft:annualplant-stingingnettle-normal",
+        "*-saltwort-*": "wildcraft:annualplant-saltwort-normal",
+  
+        "*-lavender-*": "wildcraft:evergreenplant-lavender-normal",
+        "*-rosemary-*": "wildcraft:evergreenplant-rosemary-normal",
+        "*-thyme-*": "wildcraft:evergreenplant-thyme-normal",
+        "*-holly-*": "wildcraft:evergreenplant-holly-normal",
+        "*-poisonoak-*": "wildcraft:evergreenplant-poisonoak-normal",
+
+        "*-bearleek-*": "wildcraft:perennialplant-bearleek-normal",
+        "*-marjoram-*": "wildcraft:perennialplant-marjoram-normal",
+        "*-marshmallow-*": "wildcraft:perennialplant-marshmallow-normal",
+        "*-mint-*": "wildcraft:perennialplant-mint-normal",
+        "*-saffron-*": "wildcraft:perennialplant-saffron-normal",
+        "*-stjohnswort-*": "wildcraft:perennialplant-stjohnswort-normal",
+        "*-mugwort-*": "wildcraft:perennialplant-mugwort-normal",
+        "*-inula-*": "wildcraft:perennialplant-inula-normal",
+        "*-celandine-*": "wildcraft:perennialplant-celandine-normal",
+        "*-leek-*": "wildcraft:perennialplant-leek-normal",
+        "*-plantain-*": "wildcraft:perennialplant-plantain-normal",
+        "*-yarrow-*": "wildcraft:perennialplant-yarrow-normal",
+        "*-sedge-*": "wildcraft:perennialplant-sedge-normal",
+        "*-sage-*": "wildcraft:perennialplant-sage-normal",
+
+        "*-minerslettuce-*": "wildcraft:smallannualplant-minerslettuce-normal",
+
+        "*-waterchestnut-*": "wildcraft:sedge-waterchestnut-normal",
+        "*-skunkcabbage-*": "wildcraft:amphibiousplant-skunkcabbage-small-free",
+
+        "*-foxglove-*": "wildcraft:perennialplant-foxglove-normal",
+        "*-angelica-*": "wildcraft:perennialplant-angelica-normal",
+        "*-burnet-*": "wildcraft:perennialplant-burnet-normal",
+        "*-ginger-*": "wildcraft:perennialplant-ginger-normal",
+        "*-horehound-*": "wildcraft:perennialplant-horehound-normal",
+        "*-rockrose-*": "wildcraft:perennialplant-rockrose-normal",
+        "*-cicuta-*": "wildcraft:perennialplant-cicuta-normal",
+        "*-tansy-*": "wildcraft:perennialplant-tansy-normal",
+        "*-ginseng-*": "wildcraft:perennialplant-ginseng-normal",
+        "*-katuk-*": "wildcraft:perennialplant-katuk-normal",
+
+        "*-softsedge-*": "wildcraft:sedge-softsedge-normal",
+        "*-hardsedge-*": "wildcraft:sedge-hardsedge-normal",
+        "*-brownsedge-*": "wildcraft:sedge-brownsedge-normal",
+        "*-tule-*": "wildcraft:sedge-tule-normal",
+        "*-swamptule-*": "wildcraft:sedge-swamptule-normal",
+
+        "*-arrowhead-*": "wildcraft:arrowhead-arrowhead-normal",
+
+        "*-jewelweed-*": "wildcraft:annualplant-jewelweed-normal",
+
+        "*-rhubarb-*": "wildcraft:leafyperennialplant-rhubarb-normal",
+        "*-butterbur-*": "wildcraft:leafyperennialplant-butterbur-normal",
+
+        "*-woodspurge-*": "wildcraft:smallannualplant-woodspurge-normal",
+
+      },
+      "transientPropsByType": {
+        "*-planted": {
+          "convertFrom": "*-planted", 
+          "convertTo": "*-sprouting", 
+          "inGameHours": "48",
+          "resetBelowTemperature": -4,
+          "stopBelowTemperature": 2
+        }
+      }
+    },
+    "variantgroups": [
+        { "loadFromProperties": "wildcraft:wildcraft/wildflora" },
+      {
+        "code": "state",
+        "states": [ "planted", "sprouting" ]
+      }
+    ],
+    "renderpass": "OpaqueNoCull",
+    "drawtype": "JSON",
+    "randomDrawOffset": true,
+    "randomizeRotations": true,
+    "shapeByType": {
+      "*-minerslettuce-sprouting": { "base": "wildcraft:block/plant/clover/minerslettuce_sprouting"},
+      "*-woodspurge-sprouting": { "base": "wildcraft:block/plant/clover/woodspurge_small"},
+      "*-planted": { "base": "wildcraft:block/plant/seedling/dirt" },
+      "*-sprouting": { "base": "wildcraft:block/plant/seedling/seedling" }
+    },
+    "blockmaterial": "Plant",
+    "sideopaqueByType": {
+      "*": { "all": false }
+    },
+    "sidesolid": {
+      "all": false
+    },
+    "texturesByType": {
+      "*-minerslettuce-sprouting": {
+        "leaves": { "base": "wildcraft:block/plant/clover/minerslettuce_shoots_leaves" }
+      },
+      "*-skunkcabbage-sprouting": {
+        "leaves": { "base": "wildcraft:block/plant/seedling/skunkcabbage_stem_shoot" }
+      },
+      "*-hardsedge-sprouting": {
+        "leaves": { "base": "wildcraft:block/plant/seedling/sedge" }
+      },
+      "*-tule-sprouting": {
+        "leaves": { "base": "wildcraft:block/plant/seedling/sedge" }
+      },
+      "*": {
+        "leaves": { "base": "wildcraft:block/plant/seedling/{wildflora}*" }
+      }
+    },
+    "dropsByType": {
+      "*-dead-*": [
+        {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": { "avg": 1.0 }
+        }
+      ],
+      "*-alive-*": [
+        {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": { "avg": 1.0 }
+        }
+      ]
+    },
+    "replaceable": 5200,
+    "lightAbsorption": 0,
+    "resistance": 1,
+    "collisionbox": null,
+    "selectionbox": {
+      "x1": 0.3,
+      "y1": 0,
+      "z1": 0.2,
+      "x2": 0.7,
+      "y2": 0.5,
+      "z2": 0.7
+    },
+    "sounds": {
+      "place": "game:block/plant",
+      "break": "game:block/plant",
+      "hit": "game:block/plant"
+    },
+    "rainPermeable": true,
+    "materialDensity": 200,
+    "combustibleProps": {
+      "burnTemperature": 600,
+      "burnDuration": 10
+    },
+    "guiTransformByType": {
+      "*": {
+          "rotation": { "x": 94, "y": 0, "z": 0 },
+          "origin": { "x": 0.6, "y": 0.2, "z": 0.6 },
+          "scale": 1.47
+      }
+    },
+    "fpHandTransform": {
+          "rotation": { "x": 87, "y": 152, "z": -58 },
+          "origin": { "x": 0.5, "y": 0.5, "z": 0.3 }
+      },
+    "tpHandTransform": {
+        "rotation": { "x": 0, "y": 55, "z": 14 },
+        "origin": { "x": 0.5, "y": 0.75, "z": 0.4 },
+        "scale": 0.34
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3
+    },
+    "frostable": true,
+    "__comment": "Wind wave looks not good on ground and horrible in planters and flower post",
+    "vertexFlags": {
+      "weakWave": true,
+      "grassWindWave": false,
+      "leavesWindWave": false
+    }
+  }
+  

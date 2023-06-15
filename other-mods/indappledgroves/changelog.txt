@@ -1,0 +1,155 @@
+﻿1.18-0.4.9-rc.8
+	- Corrected issue where axes would break any block they touch instantly. 
+	- Made it so that treehollows refill every 6 hours of real time (configurable)
+
+1.18-0.4.9-rc.7
+	- Corrected treefelling times
+	- Altered how treeResistance is determined
+	- Adding "treeFellingDivisor" configurable option to impact how final treeResistance is determined.
+		- Set to 2 by default, which halves the resistance of the tree. Higher numbers reduces the resistance, lower increases.
+	- Fix firewood block lang entry
+
+1.18-0.4.9-rc.6
+	- Hotpatch to fix crashing when axe breaks.  Became apparent further tweaking of tree resistance is going to be necessary, trees fall too fast.
+
+1.18-0.4.9-rc.5
+	- Hotpatch to Fix Firewood Issue
+
+1.18-0.4.9-rc.4
+	- Corrected missing ruined axes.
+	- Cleaned up a few console errors.
+
+
+1.18-v0.4.9-rc.3
+	- Corrected logs from large trees (nw/ne/se/sw) not being able to be chopped in the world.
+	- Removed vanilla recipes for debarked logs and support beams
+	- Integrated debarked logs and support beam recipes as appropriate.
+	- Made updates to the handbook
+	- Continued working on Wildcraft Trees Integration, but some Lang file entries still aren't taking.
+
+1.18-v0.4.9-rc.2
+	- Updated a variety of blocks to make use of some clever options to reduce name bloat in the lang file.
+	- Corrected missing textures on Adze's and Bark Baskets
+	- Updated Handbook Entries for greater clarity
+	- Removed recipes for firewood and planks (again?)
+	- Removed Copper and Tin Bronze vanilla axes.
+	- Made firewood able to be used in Clay Ovens again.
+
+
+1.18-v0.4.9-rc.1
+	- Made drops from treehollows configurable
+	- Removed stripped log blocktype, added compat with vanilla debarked logs
+	- Updated recipes and patches to accommodate the latest recipes
+	
+
+1.17-v0.4.8
+	- Corrected axes not working with Fern Trees, Fruit Trees, and Bamboo.
+	- Updated Adze to have tooltype Hoe in it's itemtype to make ToolDurabilityModifier apply to it directly. May have unintended consequences.
+	- Updated Adze ground recipes for logs to drop 4 bark per log rather than 2.
+	- Updated IDGTool to accommodate four block trees.
+	- Added feature to generate stumps and hollows in Wildcraft Trees (when present)
+	- Implemented stripped logs to boards recipes for ground and sawbuck
+	- Made saws damage appropriately
+	- Corrected tree trunks spawning incorrectly.
+	- Corrected bark duplication issue (Noelle?)
+	- Corrected bark converting to last piece used (Noelle?)
+	- Made it possible to pick up a placed piece of firewood by right-clicking it.
+		- Further, this involved implementing a new behavior that may, in reality, just be a rewrite of the existing PickUpOnRightClick.
+	- Wildcraft Trees compatibilty complete(?)
+	- Released for testing to Patrons.
+
+
+1.17-v0.4.7
+	- Fixed saw error, and *actually* fixed stumps not spawning.
+
+1.17-0-v0.4.6
+	- Fixed error with stumps not spawning after last update
+	- Made adjustments to make patching for mod compatibility more accessible.
+
+1.17.0-v0.4.5
+	- Corrected infinite loop caused when using an axe to chop a placed log. Oops.
+
+1.17.0-v0.4.4
+	- Stick recipe altered to drop only 2 sticks per firewood instead of 4.
+
+1.17.0-v0.4.3-rc.2
+	- Saw code update to fall into compliance with paradigm.
+	- Saw mining speeds altered to match those of axes to ensure consistent progression.
+	- Balanced log slab resistances to be half that of a full block.
+
+1.17-v0.4.3-rc.1
+	- Documentation improvements
+	- Addressed bugs involving crashes when chopping treehollows as base block in a tree
+	- Corrected tree hollows not causing rest of tree to break when targeted when chopping tree.
+
+1.17-v0.4.2-dev.1
+	- Added WorldInteraction feedback that tells person holding tool what ground recipe results will be.
+	- Addressed crash when tools break while in use.
+
+1.17-v0.4.1-rc.2
+	- Actually made sure that the adzehead itemtype got included in the final file.
+
+1.17-v0.4.1-rc.1
+	- Added Adze grid, knapping and smithing recipes, as well as lang updates.
+
+1.17-v0.4.0-dev.2
+	- Updated lang file to work properly for stripped logs, added wood type to chopping blocks.
+	- Updated lang file to accommodate splitting maul and adze
+	- Corrected transforms on the Sawbuck and Chopping Block
+	- Removed hewing from stone axes
+	- Removed planing from metal axes
+	- Disable Unfinished Boards
+	- Updated IDGTool to be able to change transform of a tool when its toolmode changes.
+	- Removed the following processes in favor of updated method.
+			- groundChopTime - How long a tool takes to chop wood on the ground
+			- groundChopDamage - The amount of durability the tool takes when chopping on the ground
+			- choppingBlockChopTime - How long a tool takes to chop wood on the chopping block
+			- choppingBlockChopDamage - How much damage the tool takes when chopping on the ground
+	- Altered config file to provide options for changing the processing speed of wood on workstations.
+			- workstationMiningSpdMult -> Modifies impact of mining speed of tools. Higher numbers = faster processing
+			- workstationResistanceMult -> Modifies effective resistance of blocks on workstations. Higher numbers => slower processing.
+			- groundRecipeMiningSpdMult -> Modifies impact of mining speed of tools. Higher numbers = faster processing
+			- groundRecipeResistanceMult -> Modifies effective resistance of blocks on groundRecipes. Higher numbers => slower processing.
+			- treefellingResistanceMult -> Higher numbers make chopping trees take longer, lower numbers increase speed of trees being choppped.
+	- Added smithing recipes for grubaxehead, forestaxehead, maulhead, as well as shapes and itemtypes.
+	- Added grid recipes for grub axe, forest axe, maul.
+	- Implemented Spear and Fang's Tree Hollows
+
+1.17-v0.4.0-dev
+	- Corrected error with leaf breaking
+	- Added submergible behavior
+	- Included barkbasket recipes, updated lang file
+
+1.17-v0.3.0
+	- Integrated various components from AncientTools, including barkbaskets, bark shapes, adze models, adze toolhead shapes, etc. Thank you Taska!
+	- Added recipes for in-world stripping of bark and splitting of logs into log slabs with and without bark. 
+	- Added dependency for ALCMY1
+
+1.16-v0.2.0
+	- Added Saw Buck Block
+		- Added CollisionBox and SelectionBox
+		- Added Wood Variants
+	- Added Saw Buck Block Entity
+		- Refactored Code to check for saw related properties instead of chopBlock related properties
+	- Added Log Slabs
+	- Refactored Chopping Block process to drop log slabs instead of firewood
+	- Added chopping block interaction for log slabs that produces firewood
+	- Updated spawnOutput code to accept block or item output.
+	- Updated spawn
+
+1.16-v0.1.0-dev.1
+	- Added Chopping Block Functionality
+	- Added BehaviorWoodSplitter
+	- Added handling for woodSplitterProps attribute ()
+		- groundChopTime - How long a tool takes to chop wood on the ground
+		- groundChopDamage - The amount of durability the tool takes when chopping on the ground
+		- choppingBlockChopTime - How long a tool takes to chop wood on the chopping block
+		- choppingBlockChopDamage - How much damage the tool takes when chopping on the ground
+	- Ensured interactions with a chopping block containing a block doesn't result in block placement
+
+1.15.10-v0.1.0-dev.1
+	- Added in-world sawing and chopping mechanics with sound
+	- Added bark related content, including reduced basket size
+	- Removed Oak leaf transition state for later consideration
+	- Corrected context help for saw and axe to read "sprint" (Ctrl) rather than "sneak" (shift).
+

@@ -1,0 +1,154 @@
+{
+	"code": "vatplantersmall",
+	"classByType": {
+		"*-raw-*": "Block",
+		"*-empty": "Block",
+		"*": "BlockPlantContainer"
+	},
+	"entityClassByType": {
+		"*-raw-*": null,
+		"*": "PlantContainer"
+	},
+	"variantgroups": [
+		{ "code": "state", "states": [ "raw", "fired" ] },
+		{ "code": "color", "states": [
+			"black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"shape": { "base": "bricklayers:block/clay/vat/vat_empty_glazed_small" },
+	"behaviorsByType": {
+		"*-raw-*": [
+			{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.8125, "z2": 1 } } },
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup" }
+		],
+		"*": [ { "name": "UnstableFalling", "properties": { "attachmentArea": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 } }} ]
+	},
+	"attributes": {
+		"sitHeight": 1.1,
+		"beeFeedByType": {
+			"*-raw-*": false,
+			"*-empty": false,
+			"*": true
+		},
+		"butterflyFeedByType": {
+			"*-raw-*": false,
+			"*-empty": false,
+			"*": true
+		},
+		"plantContainerSize": "small",
+		"filledShape": { "base": "bricklayers:block/clay/vat/vat_filled_glazed_small" },
+		"fillHeight": 0.751,
+		"groundStorageTransform": {
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1
+		}
+	},
+	"texturesByType": {
+		"@.*-raw-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_vessel" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_vessel" ] }
+		},
+		"*-raw-blue": {
+			"ceramic": { "base": "game:block/clay/blueclay" },
+			"top": { "base": "game:block/clay/blueclay" },
+			"bottom": { "base": "game:block/clay/blueclay" }
+		},
+		"*-raw-*": {
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] }
+		},
+		"@.*-fired-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		},
+		"@.*-fired-(fire|light|yellow)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay_light" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay_light" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		},
+		"*-fired-blue": {
+			"ceramic": { "base": "game:block/clay/ceramic" },
+			"top": { "base": "game:block/clay/vessel/sides/burned" },
+			"bottom": { "base": "game:block/clay/vessel/sides/burned" },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		},
+		"*": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		}
+	},
+	"combustiblePropsByType": {
+		"@vatplantersmall-raw-.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"meltingPoint": 1350,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vatplantersmall-fired-{color}" },
+			"requiresContainer": false
+		},
+		"vatplantersmall-raw-*": {
+			"meltingPoint": 950,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vatplantersmall-fired-{color}" },
+			"requiresContainer": false
+		}
+	},
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"liquidSelectable": 1,
+	"lightAbsorption": 1,
+	"maxStackSize": 4,
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"heldTpIdleAnimation": "holdunderarm",
+	"collisionselectionbox": {
+		"x1": 0.2815, "y1": 0, "z1": 0.2815,
+		"x2": 0.71875, "y2": 0.8125, "z2": 0.71875
+	},
+	"fpHandTransform": {
+		"translation": { "x": -0.1, "y": 0.1, "z": 0.75 }
+	},
+        "tpHandTransform": {
+                "translation": { "x": -0.9, "y": -0.3, "z": -0.55 },
+                "rotation": { "x": 25, "y": -20, "z": -99 },
+                "scale": 0.65
+        },
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"scale": 3.2
+	},
+	"guiTransform": {
+                "translation": { "x": 0, "y": 6, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+		"scale": 1.2
+	}
+}

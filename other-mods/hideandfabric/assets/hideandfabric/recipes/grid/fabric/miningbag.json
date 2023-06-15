@@ -1,0 +1,12 @@
+{
+  "ingredientPattern": "_T_,PLP",
+  "ingredients": {
+    "T": { "type": "item", "code": "twine-*" },
+    "L": { "type": "block", "code": "fabric-*-normal-down" },
+    "P": { "type": "item", "code": "game:metalplate-*", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze"] }
+  },
+  "width": 3,
+  "height": 2,
+  "name": "miningbag",
+  "output": { "type": "item", "code": "game:miningbag" }
+}

@@ -1,0 +1,24 @@
+[
+	{
+	"ingredientPattern": "P,B",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true, "toolDurabilityCost": 3 },
+		"B": { "type": "block", "code": "game:clayshingleblock-*", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "H,B",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 3 },
+		"B": { "type": "block", "code": "game:clayshingleblock-*", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 2 }
+	}
+]

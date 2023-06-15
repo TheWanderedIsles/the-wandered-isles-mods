@@ -1,0 +1,22 @@
+[
+    {
+		ingredientPattern: "C,I",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true  },
+			"I": { type: "block", code: "game:tallgrass-*-free", name: "tallgrass", allowedVariants: [ "eaten", "veryshort", "short", "mediumshort", "medium", "tall", "verytall"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:mossy-green", quantity: 4 }
+	},
+    {
+		ingredientPattern: "C,I",
+		ingredients: {
+			"C": { type: "item", code: "shears-*", isTool: true  },
+			"I": { type: "block", code: "game:tallgrass-*-free", name: "tallgrass", allowedVariants: [ "eaten", "veryshort", "short", "mediumshort", "medium", "tall", "verytall"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:mossy-green", quantity: 4 }
+	}
+]

@@ -1,0 +1,144 @@
+[
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-opaque-*-down-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "H,G",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-opaque-*-down-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 2 }
+	},
+
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-dull-*-down-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "H,G",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-dull-*-down-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 2 }
+	},
+
+
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-dark-*-down-free", "name": "color", "quantity": 1, "allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "H,G",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-dark-*-down-free", "name": "color", "quantity": 1, "allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 2 }
+	},
+
+
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-milky-*-down-free", "name": "color", "quantity": 1, "allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-milky-{color}", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "H,G",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-milky-*-down-free", "name": "color", "quantity": 1, "allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-milky-{color}", "quantity": 2 }
+	},
+
+
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-quartz-*-down-free", "name": "color", "quantity": 1, "allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-quartz-{color}", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "H,G",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-quartz-*-down-free", "name": "color", "quantity": 1, "allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-quartz-{color}", "quantity": 2 }
+	},
+
+
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-smoky-*-down-free", "name": "color", "quantity": 1, "allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-smoky-{color}", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "H,G",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-smoky-*-down-free", "name": "color", "quantity": 1, "allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-smoky-{color}", "quantity": 2 }
+	}
+
+]

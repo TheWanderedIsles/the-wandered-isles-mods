@@ -1,0 +1,13 @@
+[
+	{
+	"comment": "Like vanilla, but using mortar for consistency.",
+	"ingredientPattern": "_B_,MBM,BBB",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar", "name": "mortar", "quantity": 1 },
+		"B": { "type": "item", "code": "game:burnedbrick-*", "name": "brick", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:claybrickchimney-{brick}-unlit-ns", "quantity": 1 }
+	}
+]

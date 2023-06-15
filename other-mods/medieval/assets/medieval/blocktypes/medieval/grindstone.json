@@ -1,0 +1,85 @@
+{
+	code: "grindstone",
+	behaviors: [{name: "UnstableFalling"}, {name: "HorizontalOrientable"} ],
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: { "general": ["*-north"], "decorative": ["*-north"], "medieval": ["*-north"] },
+	variantgroups: [
+		{ code:"rock", states: ["granite", "andesite", "basalt", "peridotite"] },	
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapeByType: {
+		"*-north": { base: "block/grindstone/grindstone", rotateY: 90 },
+		"*-east": { base: "block/grindstone/grindstone", rotateY: 0 },
+		"*-west": { base: "block/grindstone/grindstone", rotateY: 180 },
+		"*-south": { base: "block/grindstone/grindstone", rotateY: 270 },
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 0.1,
+	collisionbox: {
+		x1: 0, y1: 0, z1: 0.25, x2: 1, y2: 0.625, z2: 0.75,
+			rotateYByType: {
+				"*-east": 0,
+				"*-west": 180,
+				"*-south": 270,
+				"*-north": 90
+
+			}},
+	selectionbox: {
+		x1: 0, y1: 0, z1: 0.25, x2: 1, y2: 0.625, z2: 0.75,
+			rotateYByType: {
+				"*-east": 0,
+				"*-west": 180,
+				"*-south": 270,
+				"*-north": 90
+
+			}},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:creature/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	texturesByType: {
+		"*-granite-*": {
+			"type": { base: "block/grindstone/granite" },
+			"oak": { base: "block/grindstone/oak" },
+			"knob": { base: "block/grindstone/knob" }
+		},
+		"*-andesite-*": {
+			"type": { base: "block/grindstone/andesite" },
+			"oak": { base: "block/grindstone/oak" },
+			"knob": { base: "block/grindstone/knob" }
+		},
+		"*-basalt-*": {
+			"type": { base: "block/grindstone/basalt" },
+			"oak": { base: "block/grindstone/oak" },
+			"knob": { base: "block/grindstone/knob" }
+		},
+		"*-peridotite-*": {
+			"type": { base: "block/grindstone/peridotite" },
+			"oak": { base: "block/grindstone/oak" },
+			"knob": { base: "block/grindstone/knob" }
+		}
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	guiTransform: {
+		scale: 1.55
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: 0.2, z: 0.6 },
+		rotation: { x: 10, y: 44, z: -14 }
+	}
+}

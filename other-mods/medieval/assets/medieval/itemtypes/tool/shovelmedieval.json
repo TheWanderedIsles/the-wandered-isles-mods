@@ -1,0 +1,153 @@
+{
+	code: "shovelmedieval",
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 2,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	attributes: {
+		groundStorageTransformByType: {
+			"@shovelmedieval-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|stainlesssteel)": {
+				translation: { x: 0, y: 0.28, z: 0 },
+				rotation: { x: 13, y: 88, z: -87 },
+				scale: 0.68
+			}
+		},
+		handbook: {
+			groupBy: ["shovelmedieval-*"]
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.47, y: 0.6 },
+			scale: 1.25,
+		}
+	},
+	variantgroups: [
+		{ code: "metal", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "stainlesssteel" ] },
+	],
+	tool: "shovel",
+	damagedby: ["blockbreaking", "attacking"],
+	shapeByType: {
+		"shovelmedieval-*": { base: "item/tool/shovelmedieval/shovelmedieval" }
+	},
+	heldTpHitAnimation: "shoveldig",
+	texturesByType: {
+		"*": {	"metal": { base: "item/tool/sword/axe/{metal}" }
+		}
+	},
+	miningspeedbytype: {
+		"shovelmedieval-copper": {
+			"soil": 4,
+			"sand": 4,
+			"gravel": 2.9,
+			"snow": 2.9
+		},
+		"shovelmedieval-bismuthbronze": {
+			"soil": 5,
+			"sand": 5,
+			"gravel": 3.5,
+			"snow": 3.5
+		},
+		"shovelmedieval-tinbronze": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.9,
+			"snow": 3.9
+		},
+		"shovelmedieval-gold": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.9,
+			"snow": 3.9
+		},
+		"shovelmedieval-silver": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.9,
+			"snow": 3.9
+		},
+		"shovelmedieval-blackbronze": {
+			"soil": 5.5,
+			"sand": 5.5,
+			"gravel": 4,
+			"snow": 4
+		},
+		"shovelmedieval-iron": {
+			"soil": 6,
+			"sand": 6,
+			"gravel": 4.3,
+			"snow": 4.3
+		},
+		"shovelmedieval-meteoriciron": {
+			"soil": 6.5,
+			"sand": 6.5,
+			"gravel": 4.5,
+			"snow": 4.5
+		},
+		"shovelmedieval-steel": {
+			"soil": 7,
+			"sand": 7,
+			"gravel": 5,
+			"snow": 5
+		},
+		"shovelmedieval-stainlesssteel": {
+			"soil": 8,
+			"sand": 8,
+			"gravel": 6,
+			"snow": 6
+		}
+	},
+	attackpowerbytype: {
+		"shovelmedieval-copper": 1.25,
+		"shovelmedieval-gold": 1.5,
+		"shovelmedieval-silver": 1.5,
+		"shovelmedieval-bismuthbronze": 1.5,
+		"shovelmedieval-tinbronze": 1.75,
+		"shovelmedieval-blackbronze": 2,
+		"shovelmedieval-iron": 2.25,
+		"shovelmedieval-meteoriciron": 2.35,
+		"shovelmedieval-steel": 2.5,
+		"shovelmedieval-stainlesssteel": 4
+	},
+	durabilitybytype: {
+		"shovelmedieval-gold": 300,
+		"shovelmedieval-silver": 300,
+		"shovelmedieval-copper": 600,
+		"shovelmedieval-tinbronze": 900,
+		"shovelmedieval-bismuthbronze": 975,
+		"shovelmedieval-blackbronze": 1050,
+		"shovelmedieval-iron": 1800,
+		"shovelmedieval-meteoriciron": 2100,
+		"shovelmedieval-steel": 4500,
+		"shovelmedieval-stainlesssteel": 6750
+	},
+	creativeinventory: { "general": ["shovelmedieval-*"], "items": ["shovelmedieval-*"], "tools": ["shovelmedieval-*"], "medieval": ["shovelmedieval-*"] },
+	fpHandTransform: {
+		translation: { x: 0.046875, y: -0.2, z: 0 },
+		rotation: { x: -15, y: 15, z: 100 },
+		scale: 2
+	},
+	guiTransformByType: {
+		"@shovelmedieval-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|stainlesssteel)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -113, y: -147, z: 139 },
+			origin: { x: 0.2, y: 0.7, z: 0.8 }
+		}
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -1.04, y: -0.24, z: -0.61 },
+		rotation: { x: 0, y: 0, z: -10 },
+		scale: 0.8
+	}
+}

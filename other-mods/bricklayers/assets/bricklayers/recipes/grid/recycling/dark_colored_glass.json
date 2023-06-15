@@ -1,0 +1,24 @@
+[
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glasscolored-dark-*", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "H,G",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"G": { "type": "block", "code": "bricklayers:glasscolored-dark-*", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-dark-{color}", "quantity": 4 }
+	}
+]

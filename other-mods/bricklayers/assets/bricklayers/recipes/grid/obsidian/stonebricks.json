@@ -1,0 +1,32 @@
+[
+    {
+	"ingredientPattern": "LLL,LML,LLL",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"L": { "type": "item", "code": "game:stonebrick-obsidian", "name": "rock" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:stonebricks-obsidian", "quantity": 2 }
+    },
+    {
+	"ingredientPattern": "_LL,LML,LLL",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"L": { "type": "item", "code": "game:stonebrick-obsidian", "name": "rock" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:stonebrickstairs-obsidian-up-north-free", "quantity": 2 }
+    },
+    {
+	"ingredientPattern": "LML,LLL",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"L": { "type": "item", "code": "game:stonebrick-obsidian", "name": "rock" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:stonebrickslab-obsidian-down-free", "quantity": 2 }
+    }
+]

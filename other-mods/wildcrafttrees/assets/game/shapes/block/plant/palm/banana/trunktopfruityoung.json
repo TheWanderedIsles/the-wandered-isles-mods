@@ -1,0 +1,1133 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bark": [16,16],
+		"bananaflower": [16,16],
+		"bananaflowerdark": [16,16],
+		"treetrunk": [16,16],
+		"barkgreen": [16,16],
+		"greenbanana": [8,8]
+	},
+	"textures": {
+		"bananaflower": "block/plant/palm/banana/bananaflower",
+		"bananaflowerdark": "block/plant/palm/banana/bananaflowerdark",
+		"bark": "block/plant/palm/banana/barkdark",
+		"barkgreen": "block/plant/palm/banana/barkgreen",
+		"treetrunk": "block/plant/palm/banana/treetrunkdark",
+		"greenbanana": "block/plant/palm/greenbanana"
+	},
+	"elements": [
+		{
+			"name": "Trunk",
+			"from": [ 5.0, 0.0, 5.0 ],
+			"to": [ 11.0, 16.0, 11.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#bark", "uv": [ 0.0, 0.0, 6.0, 16.0 ] },
+				"east": { "texture": "#bark", "uv": [ 10.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#bark", "uv": [ 7.0, 0.0, 13.0, 16.0 ] },
+				"west": { "texture": "#bark", "uv": [ 3.0, 0.0, 9.0, 16.0 ] },
+				"up": { "texture": "#treetrunk", "uv": [ 2.0, 2.0, 8.0, 8.0 ] },
+				"down": { "texture": "#treetrunk", "uv": [ 2.0, 2.0, 8.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Peduncle1",
+					"from": [ 2.0, 10.0, 3.5 ],
+					"to": [ 4.0, 14.0, 5.5 ],
+					"rotationOrigin": [ 3.0, 10.0, 5.0 ],
+					"rotationX": 60.0,
+					"faces": {
+						"north": { "texture": "#barkgreen", "uv": [ 12.5, 10.0, 15.5, 15.0 ], "rotation": 180, "autoUv": false },
+						"east": { "texture": "#barkgreen", "uv": [ 12.0, 11.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false },
+						"south": { "texture": "#barkgreen", "uv": [ 12.5, 8.0, 15.5, 13.0 ], "rotation": 180, "autoUv": false },
+						"west": { "texture": "#barkgreen", "uv": [ 12.0, 11.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Peduncle2",
+							"from": [ 0.02, 3.5, -0.1 ],
+							"to": [ 2.02, 7.5, 1.9 ],
+							"rotationOrigin": [ 1.0, 3.5, 1.4 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#barkgreen", "uv": [ 12.5, 8.0, 15.5, 13.0 ], "rotation": 180, "autoUv": false },
+								"east": { "texture": "#barkgreen", "uv": [ 12.0, 11.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false },
+								"south": { "texture": "#barkgreen", "uv": [ 12.5, 8.0, 15.5, 13.0 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#barkgreen", "uv": [ 12.0, 11.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Peduncle3",
+									"from": [ -0.02, 3.2, -0.3 ],
+									"to": [ 1.98, 7.2, 1.7 ],
+									"rotationOrigin": [ 0.98, 3.2, 1.2 ],
+									"rotationX": 30.0,
+									"faces": {
+										"north": { "texture": "#barkgreen", "uv": [ 12.5, 9.0, 15.5, 14.0 ], "rotation": 180, "autoUv": false },
+										"east": { "texture": "#barkgreen", "uv": [ 12.0, 11.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false },
+										"south": { "texture": "#barkgreen", "uv": [ 12.5, 9.5, 15.5, 14.5 ], "rotation": 180, "autoUv": false },
+										"west": { "texture": "#barkgreen", "uv": [ 12.0, 11.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Peduncle4",
+											"from": [ 0.02, 3.3, -0.25 ],
+											"to": [ 2.02, 7.3, 1.75 ],
+											"rotationOrigin": [ 1.08, 3.3, 0.8 ],
+											"rotationX": 33.0,
+											"faces": {
+												"north": { "texture": "#barkgreen", "uv": [ 12.5, 0.0, 15.5, 5.0 ], "rotation": 180, "autoUv": false },
+												"east": { "texture": "#barkgreen", "uv": [ 12.5, 0.0, 15.5, 5.0 ], "rotation": 180, "autoUv": false },
+												"south": { "texture": "#barkgreen", "uv": [ 12.5, 0.0, 15.5, 5.0 ], "rotation": 180, "autoUv": false },
+												"west": { "texture": "#barkgreen", "uv": [ 12.5, 0.0, 15.5, 5.0 ], "rotation": 180, "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "Peduncle5",
+													"from": [ -0.02, 3.5, -0.1 ],
+													"to": [ 1.98, 9.5, 1.9 ],
+													"rotationOrigin": [ 1.1, 3.5, 0.95 ],
+													"rotationX": 32.0,
+													"faces": {
+														"north": { "texture": "#barkgreen", "uv": [ 12.5, 6.0, 15.5, 16.0 ], "rotation": 180, "autoUv": false },
+														"east": { "texture": "#barkgreen", "uv": [ 12.0, 0.0, 16.0, 10.0 ], "rotation": 180, "autoUv": false },
+														"south": { "texture": "#barkgreen", "uv": [ 12.5, 6.0, 15.5, 16.0 ], "rotation": 180, "autoUv": false },
+														"west": { "texture": "#barkgreen", "uv": [ 12.0, 6.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false },
+														"up": { "texture": "#barkgreen", "uv": [ 10.0, 10.0, 12.0, 12.0 ] }
+													},
+													"children": [
+														{
+															"name": "flowerroot",
+															"from": [ 1.0, 6.0, 1.0 ],
+															"to": [ 1.0, 6.0, 1.0 ],
+															"rotationOrigin": [ 1.0, 6.0, 1.0 ],
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "BigFlower1",
+																	"from": [ -0.501, 0.0, -0.9995 ],
+																	"to": [ 0.499, 0.5, 2.0005 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.5001 ],
+																	"rotationY": -0.02,
+																	"faces": {
+																		"north": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+																		"east": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 7.5, 2.0 ] },
+																		"south": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+																		"west": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 7.5, 2.0 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Flower2",
+																			"from": [ -0.5, 0.5, -0.5 ],
+																			"to": [ 1.5, 3.0, 3.5 ],
+																			"rotationOrigin": [ 1.5, 0.5, 1.5 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 0.0, 2.0, 2.0, 4.5 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 4.0, 2.0, 8.0, 4.5 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 0.0, 2.0, 2.0, 4.5 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 4.0, 2.0, 8.0, 4.5 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.0, 11.5, 14.0, 15.5 ] },
+																				"down": { "texture": "#bananaflowerdark", "uv": [ 12.0, 7.5, 14.0, 11.5 ], "windMode": [-1,-1,-1,-1] }
+																			}
+																		},
+																		{
+																			"name": "Flower3",
+																			"from": [ 0.0, 3.0, 0.0 ],
+																			"to": [ 1.0, 7.0, 3.0 ],
+																			"rotationOrigin": [ 1.5, 3.0, 1.5 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 0.5, 2.0, 1.5, 6.0 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 4.5, 2.0, 7.5, 6.0 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 0.5, 2.0, 1.5, 6.0 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 4.5, 2.0, 7.5, 6.0 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.5, 12.0, 13.5, 15.0 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower4",
+																			"from": [ 0.25, 7.0, 0.5 ],
+																			"to": [ 0.75, 8.0, 2.5 ],
+																			"rotationOrigin": [ 1.2, 7.0, 1.5 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 1.0, 6.0, 1.5, 7.0 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 5.0, 6.0, 7.0, 7.0 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 1.0, 6.0, 1.5, 7.0 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 5.0, 6.0, 7.0, 7.0 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.0, 11.5, 12.5, 13.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "BigFlower2",
+																	"from": [ -0.5, 0.0, -1.0001 ],
+																	"to": [ 0.5, 0.5, 1.9999 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.5001 ],
+																	"rotationY": 89.98,
+																	"faces": {
+																		"north": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+																		"east": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 7.5, 2.0 ] },
+																		"south": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+																		"west": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 7.5, 2.0 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Flower13",
+																			"from": [ -0.5, 0.5, -0.5 ],
+																			"to": [ 1.5, 3.0, 3.5 ],
+																			"rotationOrigin": [ 1.5, 0.5, 1.5 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 0.0, 2.0, 2.0, 4.5 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 4.0, 2.0, 8.0, 4.5 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 0.0, 2.0, 2.0, 4.5 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 4.0, 2.0, 8.0, 4.5 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.0, 11.5, 14.0, 15.5 ] },
+																				"down": { "texture": "#bananaflowerdark", "uv": [ 12.0, 7.5, 14.0, 11.5 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower14",
+																			"from": [ 0.0, 3.0, 0.0 ],
+																			"to": [ 1.0, 7.0, 3.0 ],
+																			"rotationOrigin": [ 1.5, 3.0, 1.5 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 0.5, 2.0, 1.5, 6.0 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 4.5, 2.0, 7.5, 6.0 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 0.5, 2.0, 1.5, 6.0 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 4.5, 2.0, 7.5, 6.0 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.5, 12.0, 13.5, 15.0 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower15",
+																			"from": [ 0.25, 7.0, 0.5 ],
+																			"to": [ 0.75, 8.0, 2.5 ],
+																			"rotationOrigin": [ 1.2, 7.0, 1.5 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 1.0, 6.0, 1.5, 7.0 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 5.0, 6.0, 7.0, 7.0 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 1.0, 6.0, 1.5, 7.0 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 5.0, 6.0, 7.0, 7.0 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.0, 11.5, 12.5, 13.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "BigFlower3",
+																	"from": [ -0.5, 0.0, -0.9999 ],
+																	"to": [ -0.5, 0.0, -0.9999 ],
+																	"rotationOrigin": [ 0.0, 0.0, 0.5001 ],
+																	"rotationY": 45.0,
+																	"faces": {
+																		"north": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.0, 2.0 ] },
+																		"east": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 5.0, 2.0 ] },
+																		"south": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.0, 2.0 ] },
+																		"west": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 5.0, 2.0 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Flower18",
+																			"from": [ -0.2, 0.5, -0.6 ],
+																			"to": [ 1.3, 3.0, 3.6 ],
+																			"rotationOrigin": [ 1.8, 0.5, 1.4 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 0.0, 2.0, 1.5, 4.5 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 4.0, 2.0, 8.0, 4.5 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 0.0, 2.0, 1.5, 4.5 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 4.0, 2.0, 8.0, 4.5 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.0, 11.5, 13.5, 15.5 ] },
+																				"down": { "texture": "#bananaflowerdark", "uv": [ 12.0, 7.5, 13.5, 11.5 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower19",
+																			"from": [ -0.2, 3.0, 0.1 ],
+																			"to": [ 1.2, 7.0, 2.9 ],
+																			"rotationOrigin": [ 0.5, 3.0, 1.6 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 0.5, 2.0, 1.5, 6.0 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 4.5, 2.0, 7.0, 6.0 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 0.5, 2.0, 1.5, 6.0 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 4.5, 2.0, 7.0, 6.0 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.5, 12.0, 13.5, 14.5 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower20",
+																			"from": [ -0.05, 7.0, 0.6 ],
+																			"to": [ 1.05, 8.0, 2.4 ],
+																			"rotationOrigin": [ 0.5, 7.0, 1.5 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 5.0, 6.0, 6.5, 7.0 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 5.0, 6.0, 6.5, 7.0 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.0, 11.5, 13.0, 13.0 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower23",
+																			"from": [ -0.05, 7.0, 0.6 ],
+																			"to": [ 1.05, 8.0, 2.4 ],
+																			"rotationOrigin": [ 0.5, 7.0, 1.5 ],
+																			"rotationY": 90.0,
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 5.0, 6.0, 6.5, 7.0 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 5.0, 6.0, 6.5, 7.0 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.0, 11.5, 13.0, 13.0 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower24",
+																			"from": [ -0.35, 0.5, -0.5 ],
+																			"to": [ 1.15, 3.0, 3.7 ],
+																			"rotationOrigin": [ 0.39, 0.5, 1.5 ],
+																			"rotationY": 90.0,
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 0.0, 2.0, 1.5, 4.5 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 4.0, 2.0, 8.0, 4.5 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 0.0, 2.0, 1.5, 4.5 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 4.0, 2.0, 8.0, 4.5 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.0, 11.5, 13.5, 15.5 ] },
+																				"down": { "texture": "#bananaflowerdark", "uv": [ 12.0, 7.5, 13.5, 11.5 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower25",
+																			"from": [ -0.2, 0.0, 0.1 ],
+																			"to": [ 1.2, 0.5, 2.9 ],
+																			"rotationOrigin": [ 0.5, 0.0, 1.6 ],
+																			"faces": {
+																				"north": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+																				"east": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 7.0, 2.0 ] },
+																				"south": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+																				"west": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 7.0, 2.0 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower26",
+																			"from": [ -0.1, 3.02, 0.0 ],
+																			"to": [ 1.3, 7.02, 2.8 ],
+																			"rotationOrigin": [ 0.6, 3.0, 1.5 ],
+																			"rotationY": 90.0,
+																			"faces": {
+																				"north": { "texture": "#bananaflowerdark", "uv": [ 0.5, 2.0, 1.5, 6.0 ] },
+																				"east": { "texture": "#bananaflowerdark", "uv": [ 4.5, 2.0, 7.0, 6.0 ] },
+																				"south": { "texture": "#bananaflowerdark", "uv": [ 0.5, 2.0, 1.5, 6.0 ] },
+																				"west": { "texture": "#bananaflowerdark", "uv": [ 4.5, 2.0, 7.0, 6.0 ] },
+																				"up": { "texture": "#bananaflowerdark", "uv": [ 12.5, 12.0, 13.5, 14.5 ] }
+																			}
+																		},
+																		{
+																			"name": "Flower27",
+																			"from": [ -0.1, 0.0, 0.0 ],
+																			"to": [ 1.3, 0.5, 2.8 ],
+																			"rotationOrigin": [ 0.6, 0.0, 1.5 ],
+																			"rotationY": 90.0,
+																			"faces": {
+																				"north": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+																				"east": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 7.0, 2.0 ] },
+																				"south": { "texture": "#bananaflower", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+																				"west": { "texture": "#bananaflower", "uv": [ 4.5, 1.5, 7.0, 2.0 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "BigFlowerPetalRoot",
+																	"from": [ 0.0, 1.0, 0.5 ],
+																	"to": [ 0.0, 1.0, 0.5 ],
+																	"rotationOrigin": [ 0.0, 1.0, 0.5 ],
+																	"rotationY": 45.0,
+																	"faces": {
+																	},
+																	"children": [
+																		{
+																			"name": "Flowerpetal1part112",
+																			"from": [ -3.8, 0.2, 0.2 ],
+																			"to": [ -3.8, 0.2, 0.2 ],
+																			"rotationOrigin": [ -2.8, 0.2, 0.2 ],
+																			"rotationX": -90.0,
+																			"rotationY": 60.0,
+																			"rotationZ": -90.0,
+																			"faces": {
+																			},
+																			"children": [
+																				{
+																					"name": "Flowerpetal1part118",
+																					"from": [ 1.0, 0.0, 0.0 ],
+																					"to": [ 3.0, 2.0, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+																					"rotationY": -20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 0.0, 7.5, 2.0, 9.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part118",
+																					"from": [ -1.0, 0.0, 0.0 ],
+																					"to": [ 1.0, 2.0, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+																					"rotationY": 20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 2.0, 7.5, 4.0, 9.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part118",
+																					"from": [ 1.0, -5.47, 0.0 ],
+																					"to": [ 3.0, 0.03, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.03, 0.0 ],
+																					"rotationX": -30.0,
+																					"rotationY": -20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 0.0, 2.0, 2.0, 7.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part118",
+																					"from": [ -1.0, -5.47, 0.0 ],
+																					"to": [ 1.0, 0.03, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.03, 0.0 ],
+																					"rotationX": -30.0,
+																					"rotationY": 20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 2.0, 2.0, 4.0, 7.5 ] }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Flowerpetal1part106",
+																			"from": [ -1.8867, 0.2, 2.6634 ],
+																			"to": [ -1.8867, 0.2, 2.6634 ],
+																			"rotationOrigin": [ -0.8867, 0.2, 2.6634 ],
+																			"rotationX": -147.998,
+																			"rotationY": 19.355,
+																			"rotationZ": -11.701,
+																			"faces": {
+																			},
+																			"children": [
+																				{
+																					"name": "Flowerpetal1part107",
+																					"from": [ 1.0, 0.0, 0.0 ],
+																					"to": [ 3.0, 2.0, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+																					"rotationY": -20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 0.0, 7.5, 2.0, 9.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part108",
+																					"from": [ -1.0, 0.0, 0.0 ],
+																					"to": [ 1.0, 2.0, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+																					"rotationY": 20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 2.0, 7.5, 4.0, 9.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part109",
+																					"from": [ 1.0, -5.47, 0.0 ],
+																					"to": [ 3.0, 0.03, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.03, 0.0 ],
+																					"rotationX": -30.0,
+																					"rotationY": -20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 0.0, 2.0, 2.0, 7.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part110",
+																					"from": [ -1.0, -5.47, 0.0 ],
+																					"to": [ 1.0, 0.03, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.03, 0.0 ],
+																					"rotationX": -30.0,
+																					"rotationY": 20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 2.0, 2.0, 4.0, 7.5 ] }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Flowerpetal1part101",
+																			"from": [ -1.2, 0.2, -2.8 ],
+																			"to": [ -1.2, 0.2, -2.8 ],
+																			"rotationOrigin": [ -0.2, 0.2, -2.8 ],
+																			"rotationX": -30.0,
+																			"rotationY": 0.0,
+																			"rotationZ": 180.0,
+																			"faces": {
+																			},
+																			"children": [
+																				{
+																					"name": "Flowerpetal1part102",
+																					"from": [ 1.0, 0.0, 0.0 ],
+																					"to": [ 3.0, 2.0, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+																					"rotationY": -20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 0.0, 7.5, 2.0, 9.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part103",
+																					"from": [ -1.0, 0.0, 0.0 ],
+																					"to": [ 1.0, 2.0, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+																					"rotationY": 20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 2.0, 7.5, 4.0, 9.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part104",
+																					"from": [ 1.0, -5.47, 0.0 ],
+																					"to": [ 3.0, 0.03, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.03, 0.0 ],
+																					"rotationX": -30.0,
+																					"rotationY": -20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 0.0, 2.0, 2.0, 7.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part105",
+																					"from": [ -1.0, -5.47, 0.0 ],
+																					"to": [ 1.0, 0.03, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.03, 0.0 ],
+																					"rotationX": -30.0,
+																					"rotationY": 20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 2.0, 2.0, 4.0, 7.5 ] }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Flowerpetal1part113",
+																			"from": [ 1.8021, 0.2, 0.1671 ],
+																			"to": [ 1.8021, 0.2, 0.1671 ],
+																			"rotationOrigin": [ 2.8021, 0.2, 0.1671 ],
+																			"rotationX": -97.456,
+																			"rotationY": -59.936,
+																			"rotationZ": 81.578,
+																			"faces": {
+																			},
+																			"children": [
+																				{
+																					"name": "Flowerpetal1part114",
+																					"from": [ 1.0, 0.0, 0.0 ],
+																					"to": [ 3.0, 2.0, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+																					"rotationY": -20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 0.0, 7.5, 2.0, 9.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part115",
+																					"from": [ -1.0, 0.0, 0.0 ],
+																					"to": [ 1.0, 2.0, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+																					"rotationY": 20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 2.0, 7.5, 4.0, 9.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part116",
+																					"from": [ 1.0, -5.47, 0.0 ],
+																					"to": [ 3.0, 0.03, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.03, 0.0 ],
+																					"rotationX": -30.0,
+																					"rotationY": -20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 0.0, 2.0, 2.0, 7.5 ] }
+																					}
+																				},
+																				{
+																					"name": "Flowerpetal1part117",
+																					"from": [ -1.0, -5.47, 0.0 ],
+																					"to": [ 1.0, 0.03, 0.0 ],
+																					"rotationOrigin": [ 1.0, 0.03, 0.0 ],
+																					"rotationX": -30.0,
+																					"rotationY": 20.0,
+																					"faces": {
+																						"north": { "texture": "#bananaflower", "uv": [ 2.0, 2.0, 4.0, 7.5 ] }
+																					}
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Flowerpetalroot4",
+															"from": [ 1.0, 5.0, 1.5 ],
+															"to": [ 1.0, 5.0, 1.5 ],
+															"rotationOrigin": [ 1.0, 5.0, 1.5 ],
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Flowerpetal1part4",
+																	"from": [ -1.0, -1.4, -2.9 ],
+																	"to": [ -1.0, -1.4, -2.9 ],
+																	"rotationOrigin": [ 0.0, -1.4, -2.9 ],
+																	"rotationX": -80.0,
+																	"rotationZ": -180.0,
+																	"faces": {
+																	},
+																	"children": [
+																		{
+																			"name": "Subflower3",
+																			"from": [ 0.6, 1.69, 0.25 ],
+																			"to": [ 1.4, 6.49, 1.05 ],
+																			"rotationOrigin": [ 1.0, 1.6892, 0.5526 ],
+																			"rotationX": -28.0,
+																			"rotationZ": 180.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal5",
+																					"from": [ 0.4, 4.8, 0.2 ],
+																					"to": [ 0.4, 5.6, 0.6 ],
+																					"rotationOrigin": [ 0.4, 4.8, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 9.5, 0.0, 10.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal6",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 8.5, 0.0, 9.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube3",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 4.0, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Subflower5",
+																			"from": [ 0.0, 1.69, 0.45 ],
+																			"to": [ 0.8, 6.49, 1.25 ],
+																			"rotationOrigin": [ 0.3, 1.6892, 0.7526 ],
+																			"rotationX": -33.0,
+																			"rotationY": 25.0,
+																			"rotationZ": 160.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal7",
+																					"from": [ 0.4, 4.8, 0.2 ],
+																					"to": [ 0.4, 5.6, 0.6 ],
+																					"rotationOrigin": [ 0.4, 4.8, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 11.5, 0.0, 12.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal8",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 13.5, 0.0, 14.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube4",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 4.0, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Subflower6",
+																			"from": [ 1.5, 1.69, 0.45 ],
+																			"to": [ 2.3, 6.49, 1.25 ],
+																			"rotationOrigin": [ 1.8, 1.6892, 0.7526 ],
+																			"rotationX": -35.0,
+																			"rotationY": -25.0,
+																			"rotationZ": -160.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal9",
+																					"from": [ 0.4, 4.8, 0.2 ],
+																					"to": [ 0.4, 5.6, 0.6 ],
+																					"rotationOrigin": [ 0.4, 4.8, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 10.5, 0.0, 11.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal10",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 8.5, 0.0, 9.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube5",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 4.0, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Flowerpetalroot5",
+															"from": [ 1.5, 3.5, 0.5 ],
+															"to": [ 1.5, 3.5, 0.5 ],
+															"rotationOrigin": [ 1.5, 3.5, 0.5 ],
+															"rotationY": 135.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Flowerpetal1part5",
+																	"from": [ -1.0, -1.4, -2.9 ],
+																	"to": [ -1.0, -1.4, -2.9 ],
+																	"rotationOrigin": [ 0.0, -1.4, -2.9 ],
+																	"rotationX": -80.0,
+																	"rotationZ": -180.0,
+																	"faces": {
+																	},
+																	"children": [
+																		{
+																			"name": "Subflower4",
+																			"from": [ 0.6, 1.69, 0.25 ],
+																			"to": [ 1.4, 6.99, 1.05 ],
+																			"rotationOrigin": [ 1.0, 1.6892, 0.5526 ],
+																			"rotationX": -20.0,
+																			"rotationZ": 180.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal11",
+																					"from": [ 0.4, 5.3, 0.2 ],
+																					"to": [ 0.4, 6.1, 0.6 ],
+																					"rotationOrigin": [ 0.4, 5.3, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 9.5, 0.0, 10.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal12",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 8.5, 0.0, 9.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube6",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 4.4, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Subflower7",
+																			"from": [ 0.0, 1.69, 0.45 ],
+																			"to": [ 0.8, 5.89, 1.25 ],
+																			"rotationOrigin": [ 0.3, 1.6892, 0.7526 ],
+																			"rotationX": -35.0,
+																			"rotationY": 25.0,
+																			"rotationZ": 160.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal13",
+																					"from": [ 0.4, 4.2, 0.2 ],
+																					"to": [ 0.4, 5.0, 0.6 ],
+																					"rotationOrigin": [ 0.4, 4.2, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 11.5, 0.0, 12.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal14",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 13.5, 0.0, 14.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube7",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 3.4, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Subflower8",
+																			"from": [ 1.5, 1.69, 0.45 ],
+																			"to": [ 2.3, 6.49, 1.25 ],
+																			"rotationOrigin": [ 1.8, 1.6892, 0.7526 ],
+																			"rotationX": -26.0,
+																			"rotationY": -20.0,
+																			"rotationZ": -160.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal15",
+																					"from": [ 0.4, 4.8, 0.2 ],
+																					"to": [ 0.4, 5.6, 0.6 ],
+																					"rotationOrigin": [ 0.4, 4.8, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 10.5, 0.0, 11.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal16",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 10.5, 0.0, 11.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube8",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 4.0, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Flowerpetalroot6",
+															"from": [ 0.5, 2.0, 0.6 ],
+															"to": [ 0.5, 2.0, 0.6 ],
+															"rotationOrigin": [ 0.5, 2.0, 0.6 ],
+															"rotationY": -105.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Flowerpetal1part6",
+																	"from": [ -1.0, -1.4, -2.9 ],
+																	"to": [ -1.0, -1.4, -2.9 ],
+																	"rotationOrigin": [ 0.0, -1.4, -2.9 ],
+																	"rotationX": -80.0,
+																	"rotationZ": -180.0,
+																	"faces": {
+																	},
+																	"children": [
+																		{
+																			"name": "Subflower9",
+																			"from": [ 0.6, 1.69, 0.25 ],
+																			"to": [ 1.4, 6.49, 1.05 ],
+																			"rotationOrigin": [ 1.0, 1.6892, 0.5526 ],
+																			"rotationX": -14.0,
+																			"rotationZ": 180.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal17",
+																					"from": [ 0.4, 4.8, 0.2 ],
+																					"to": [ 0.4, 5.6, 0.6 ],
+																					"rotationOrigin": [ 0.4, 4.8, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 12.5, 0.0, 13.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal18",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 9.5, 0.0, 10.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube9",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 4.0, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Subflower10",
+																			"from": [ 0.0, 1.69, 0.45 ],
+																			"to": [ 0.8, 6.49, 1.25 ],
+																			"rotationOrigin": [ 0.3, 1.6892, 0.7526 ],
+																			"rotationX": -22.0,
+																			"rotationY": 20.0,
+																			"rotationZ": 160.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal19",
+																					"from": [ 0.4, 4.8, 0.2 ],
+																					"to": [ 0.4, 5.6, 0.6 ],
+																					"rotationOrigin": [ 0.4, 4.8, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 14.5, 0.0, 15.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal20",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 13.5, 0.0, 14.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube10",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 4.0, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		},
+																		{
+																			"name": "Subflower11",
+																			"from": [ 1.5, 1.69, 0.45 ],
+																			"to": [ 2.3, 6.49, 1.25 ],
+																			"rotationOrigin": [ 1.8, 1.6892, 0.7526 ],
+																			"rotationX": -20.0,
+																			"rotationY": -15.0,
+																			"rotationZ": -160.0,
+																			"faces": {
+																				"north": { "texture": "#greenbanana", "uv": [ 1.5, 2.0, 2.0, 5.5 ], "autoUv": false },
+																				"east": { "texture": "#greenbanana", "uv": [ 1.0, 2.5, 1.5, 6.0 ], "autoUv": false },
+																				"south": { "texture": "#greenbanana", "uv": [ 1.5, 2.5, 2.0, 6.0 ], "autoUv": false },
+																				"west": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 5.0 ], "autoUv": false },
+																				"up": { "texture": "#greenbanana", "uv": [ 1.5, 1.5, 2.0, 2.0 ] },
+																				"down": { "texture": "#greenbanana", "uv": [ 2.0, 2.0, 2.5, 2.5 ] }
+																			},
+																			"children": [
+																				{
+																					"name": "Subflowerpetal21",
+																					"from": [ 0.4, 4.8, 0.2 ],
+																					"to": [ 0.4, 5.6, 0.6 ],
+																					"rotationOrigin": [ 0.4, 4.8, 0.4 ],
+																					"faces": {
+																						"east": { "texture": "#bananaflowerdark", "uv": [ 8.5, 0.0, 9.0, 0.8 ], "autoUv": false }
+																					},
+																					"children": [
+																						{
+																							"name": "Subflowerpetal22",
+																							"from": [ 0.0, 0.0, 0.0 ],
+																							"to": [ 0.0, 0.8, 0.4 ],
+																							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+																							"rotationY": 89.98,
+																							"faces": {
+																								"east": { "texture": "#bananaflowerdark", "uv": [ 9.5, 0.0, 10.0, 0.8 ], "autoUv": false }
+																							}
+																						}
+																					]
+																				},
+																				{
+																					"name": "Cube11",
+																					"from": [ -0.2, 1.0, -0.2 ],
+																					"to": [ 1.0, 4.0, 1.0 ],
+																					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+																					"faces": {
+																						"north": { "texture": "#greenbanana", "uv": [ 1.0, 2.0, 2.0, 4.5 ], "autoUv": false },
+																						"east": { "texture": "#greenbanana", "uv": [ 1.5, 1.0, 2.5, 3.5 ], "autoUv": false },
+																						"south": { "texture": "#greenbanana", "uv": [ 5.0, 4.5, 6.0, 7.0 ], "autoUv": false },
+																						"west": { "texture": "#greenbanana", "uv": [ 2.0, 1.5, 3.0, 4.0 ], "autoUv": false },
+																						"up": { "texture": "#greenbanana", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false }
+																					}
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

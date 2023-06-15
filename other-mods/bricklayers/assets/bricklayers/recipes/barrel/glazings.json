@@ -1,0 +1,26 @@
+[
+	{
+	"code": "glazing-colored",
+	"sealHours": 48,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-clear", "litres": 1 },
+		{ "type": "item", "code": "bricklayers:frit-ground-*", "quantity": 1, "name": "color",
+			"allowedVariants": [
+				"black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+				"malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazing-clear-{color}", "litres": 1 }
+	},
+	{
+	"code": "glazing-colored",
+	"sealHours": 48,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-milky", "litres": 1 },
+		{ "type": "item", "code": "bricklayers:frit-ground-*", "quantity": 1, "name": "color",
+			"allowedVariants": [
+				"black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+			       "malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazing-milky-{color}", "litres": 1 }
+	}
+]

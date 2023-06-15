@@ -1,0 +1,35 @@
+[
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/bushmeat-raw",
+    "value": {
+      "satiety": 40,
+      "foodcategory": "Protein"
+    },
+    "file": "game:itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cooked/0/freshHours/avg",
+    "value": 240,
+    "file": "game:itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cooked/0/transitionHours/avg",
+    "value": 72,
+    "file": "game:itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/0/freshHours/avg",
+    "value": 72,
+    "file": "game:itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/0/transitionHours/avg",
+    "value": 48,
+    "file": "game:itemtypes/food/bushmeat.json"
+  }
+]

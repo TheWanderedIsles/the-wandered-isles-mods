@@ -1,0 +1,28 @@
+[
+	{
+	"ingredientPattern": "CTP",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 4 },
+		"P": { "type": "item", "code": "bricklayers:polishingset-*", "isTool": true, "toolDurabilityCost": 4 },
+		"T": { "type": "item", "code": "bricklayers:stonerawtile-*", "name": "rock" }
+	},
+	"width": 3,
+	"height": 1,
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "bricklayers:stonerawtileshiny-{rock}", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "CTP",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 4 },
+		"P": { "type": "item", "code": "bricklayers:polishingset-*", "isTool": true, "toolDurabilityCost": 4 },
+		"T": { "type": "block", "code": "bricklayers:stonetile-normal-*-down", "name": "rock" }
+	},
+	"width": 3,
+	"height": 1,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:stonetile-shiny-{rock}-down", "quantity": 1 }
+	}
+
+]

@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "T_,XF",
+		ingredients: {
+			"X": { type: "item", code: "game:stick" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"T": { type: "item", code: "machetehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium"]}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "machete-{metal}", quantity: 1  }
+	}
+]

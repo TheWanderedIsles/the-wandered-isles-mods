@@ -1,0 +1,93 @@
+{
+	code: "locustlamp",
+	storageFlags: 257,
+	behaviors: [
+		{ name: "OmniAttachable", properties: { 
+			facingCode: "position",
+			attachmentAreas: {
+				"down": { x1: 7, y1: 15, z1: 7, x2: 8, y2: 15, z2: 8 },
+				"up": { x1: 4, y1: 0, z1: 4, x2: 11, y2: 0, z2: 11 },
+				"north": { x1: 7, y1: 11, z1: 0, x2: 8, y2: 13, z2: 1 },
+				"east": { x1: 7, y1: 11, z1: 0, x2: 8, y2: 13, z2: 1, rotateY: 90 },
+				"south": { x1: 7, y1: 11, z1: 0, x2: 8, y2: 13, z2: 1, rotateY: 180 },
+				"west": { x1: 7, y1: 11, z1: 0, x2: 8, y2: 13, z2: 1, rotateY: 270 },
+			},
+		}},
+		{ name: "RightClickPickup" } 
+	],
+	heldRightTpIdleAnimation: "holdinglanternrighthand",
+	heldLeftTpIdleAnimation: "holdinglanternlefthand",
+	
+	attributesByType: {
+	},	
+	variantgroups: [
+		{ code:"wood", states: ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] },
+		{ code:"position", states: ["up", "down"], loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapeByType: {
+		"locustlamp-*-up": { base: "medieval:block/wood/locustlamp/floor" },
+		"locustlamp-*-down": { base: "medieval:block/wood/locustlamp/hanging" },
+		"locustlamp-*-north": { base: "medieval:block/wood/locustlamp/wall", rotateY: 180 },
+		"locustlamp-*-east": { base: "medieval:block/wood/locustlamp/wall", rotateY: 90 },
+		"locustlamp-*-south": { base: "medieval:block/wood/locustlamp/wall", rotateY: 0 },
+		"locustlamp-*-west": { base: "medieval:block/wood/locustlamp/wall", rotateY: 270 }
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	textures: {
+		"1": { base: "block/wood/debarked/{wood}" }
+	},
+	creativeinventory: { "general": ["*-up"], "items": ["*-up"], "medieval": ["*-up"] },
+
+	blockmaterial: "Wood",
+	lightAbsorption: 0,
+	lightHsv: [0, 0, 22],
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	replaceable: 500,
+	resistance: 1,
+		fpHandTransform: {
+		translation: { x: 0.3, y: 0, z: 0 },
+		rotation: { x: 0, y: -45, z: 0 },
+		scale: 2
+	},
+		guiTransform: {
+		origin: { x: 0.5, y: 0.15, z: 0.5 },
+		scale: 3
+	},
+		tpHandTransform: {
+		translation: { x: -0.82, y: -0.69, z: -0.67 },
+		rotation: { x: -60, y: 10, z: -95 },
+		scale: 0.7
+	},
+		tpOffHandTransform: {
+		translation: { x: -0.77, y: -0.71, z: -0.73 },
+		rotation: { x: 60, y: -10, z: -95 },
+		scale: 0.7
+	},
+		groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 5
+	},
+	selectionboxbytype: {
+		"*-up": { x1: 0.3125, y1: 0, z1: 0.3125, x2: 0.6875, y2: 0.3125, z2: 0.6875 },
+		"*-down": { x1: 0.3125, y1: 0.5, z1: 0.3125, x2: 0.6875, y2: 1, z2: 0.6875 },
+		"*-east": { x1: 0.3125, y1: 0.3125, z1: 0.3125, x2: 0.6875, y2: 0.625, z2: 1, rotateY: 270 },
+		"*-south": { x1: 0.3125, y1: 0.3125, z1: 0.3125, x2: 0.6875, y2: 0.625, z2: 1, rotateY: 180 },
+		"*-west": { x1: 0.3125, y1: 0.3125, z1: 0.3125, x2: 0.6875, y2: 0.625, z2: 1, rotateY: 90 },
+		"*-north": { x1: 0.3125, y1: 0.3125, z1: 0.3125, x2: 0.6875, y2: 0.625, z2: 1, rotateY: 0 }
+	},
+	collisionboxbytype: {
+		"*-up": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.6875, y2: 0.75, z2: 0.75 },
+		"*-down": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 1, z2: 0.75 },
+		"*-east": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.875, z2: 1, rotateY: 270 },
+		"*-south": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.875, z2: 1, rotateY: 180 },
+		"*-west": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.875, z2: 1, rotateY: 90 },
+		"*-north": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.875, z2: 1, rotateY: 0 }
+	}
+}

@@ -1,0 +1,10 @@
+[
+	{
+		code: "cider",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "wildcrafttrees:juiceportion-*",  name: "fruit", litres: 0.1, "allowedVariants": [ "apricot", "citron", "fig", "hawthorn", "purpleplum", "quince", "pomelo" ] }
+		],
+		output: { type: "item", code: "wildcrafttrees:ciderportion-{fruit}", litres: 0.1 }
+	}
+]

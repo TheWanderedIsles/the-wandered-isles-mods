@@ -1,0 +1,72 @@
+[
+  {
+    "op": "replace",
+    "path": "/behaviorsByType/*-topripe/0/properties/harvestedStack/quantity/avg",
+    "value": 2.5,
+    "file": "game:blocktypes/plant/saguarocactus.json"
+  },
+  {
+    "op": "replace",
+    "path": "/behaviorsByType/*-topripe/0/properties/harvestedStack/quantity/var",
+    "value": 1.5,
+    "file": "game:blocktypes/plant/saguarocactus.json"
+  },
+  {
+    "op": "remove",
+    "path": "/dropsByType/*",
+    "file": "game:blocktypes/plant/saguarocactus.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-branchysegment",
+    "value": [
+      {
+        "type": "block",
+        "code": "saguarocactus-branchysegment",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/saguarocactus.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-segment",
+    "value": [
+      {
+        "type": "block",
+        "code": "saguarocactus-segment",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/saguarocactus.json"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-topripe",
+    "value": [
+      {
+        "type": "item",
+        "code": "fruit-saguaro",
+        "quantity": {
+          "avg": 2.5,
+          "var": 1.5
+        }
+      },
+      {
+        "type": "block",
+        "code": "saguarocactus-topempty",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/saguarocactus.json"
+  }
+]

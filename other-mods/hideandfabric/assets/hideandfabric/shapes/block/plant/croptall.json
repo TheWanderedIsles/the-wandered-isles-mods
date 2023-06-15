@@ -1,0 +1,91 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 32,
+	"textureSizes": {
+		"e": [16,32],
+		"w": [16,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.25 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.25 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.25 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.25 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.25 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.25 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "N",
+					"from": [ -8.0, 0.0, -4.0 ], 
+					"to": [ 8.0, 32.0, -4.0 ], 
+					"shade": false,
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#w", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,2,2,0] },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false, "windData": [0,2,2,0] },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "enabled": false, "windData": [0,0,2,2] },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false, "windData": [0,0,2,2] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false, "windData": [2,2,2,2] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "E",
+					"from": [ 4.0, 0.0, -8.0 ], 
+					"to": [ 4.0, 32.0, 8.0 ], 
+					"shade": false,
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false, "windData": [0,2,2,0] },
+						"east": { "texture": "#e", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,2,2,0] },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false, "windData": [0,0,2,2] },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "enabled": false, "windData": [0,0,2,2] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windData": [2,2,2,2] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "S",
+					"from": [ -8.0, 0.0, 4.0 ], 
+					"to": [ 8.0, 32.0, 4.0 ], 
+					"shade": false,
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "enabled": false, "windData": [0,2,2,0] },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false, "windData": [0,2,2,0] },
+						"south": { "texture": "#w", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "windMode": [0,0,2,2], "windData": [0,0,2,2] },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false, "windData": [0,0,2,2] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false, "windData": [2,2,2,2] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "W",
+					"from": [ -4.0, 0.0, -8.0 ], 
+					"to": [ -4.0, 32.0, 8.0 ], 
+					"shade": false,
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false, "windData": [0,2,2,0] },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "enabled": false, "windData": [0,2,2,0] },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false, "windData": [0,0,2,2] },
+						"west": { "texture": "#e", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "windMode": [0,0,2,2], "windData": [0,0,2,2] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windData": [2,2,2,2] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

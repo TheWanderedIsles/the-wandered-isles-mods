@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "H,C,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+		"S": { "type": "item", "code": "game:stonebrick-*", "name": "rock",
+			"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "kimberlite", "limestone", "obsidian", "peridotite", "phyllite", "sandstone", "shale", "slate", "suevite" ] }
+	},
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "bricklayers:smallstonebrick-{rock}", "quantity": 2 }
+	}
+]

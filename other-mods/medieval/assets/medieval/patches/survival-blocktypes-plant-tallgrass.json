@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/dropsByType/*/-",
+    "value": {
+      "type": "block",
+      "code": "tallgrass-{tallgrass}-free",
+      "quantity": {
+        "avg": 1
+      },
+      "tool": "hoe"
+    },
+    "file": "game:blocktypes/plant/tallgrass.json"
+  },  
+  {
+    "op": "replace",
+    "path": "/groundtransform/scale",
+    "value": 2,
+    "file": "game:blocktypes/plant/tallgrass.json"
+  }
+]

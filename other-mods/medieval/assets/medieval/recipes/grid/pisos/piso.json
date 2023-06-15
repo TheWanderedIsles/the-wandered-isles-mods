@@ -1,0 +1,40 @@
+[
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "block", code: "game:plaster-plain" },
+			"F": { type: "block", code: "medieval:plastercolor-orange" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "piso1", quantity: 2 }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "block", code: "game:rockpolished-bauxite" },
+			"F": { type: "block", code: "game:rockpolished-basalt" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "piso3", quantity: 2 }
+	},
+    {
+		ingredientPattern: "A",
+		ingredients: {
+			"A": { type: "block", code: "piso3" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "piso2", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A",
+		ingredients: {
+			"A": { type: "block", code: "piso2" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "piso3", quantity: 1 }
+	}
+]

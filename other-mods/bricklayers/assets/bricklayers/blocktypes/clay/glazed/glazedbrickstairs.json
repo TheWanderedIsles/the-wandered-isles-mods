@@ -1,0 +1,127 @@
+{
+	"code": "glazedbrickstairs",
+	"class": "BlockStairs",
+	"variantgroups": [
+		{ "code": "type", "states": [ "clear", "milky" ] },
+		{ "code": "color", "states": [
+		       "black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+		       "malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "loadFromProperties": "abstract/verticalorientation" },
+		{ "loadFromProperties": "abstract/horizontalorientation" },
+		{ "code": "cover", "states": [ "free", "snow" ] }
+	],
+	"skipVariants": [ "*-down-north-snow", "*-down-east-snow", "*-down-south-snow", "*-down-west-snow" ],
+	"attributes": {
+		"canChisel": true,
+		"chiselShapeFromCollisionBox": true,
+		"partialAttachable": true,
+		"handbook": {
+			"groupBy": [ "glazedbrickstairs-*" ]
+		},
+		"liquidBarrierOnSidesByType": {
+			"*-up-north-*": [ 1.0, 0.5, 0.5, 0.5 ],
+			"*-up-south-*": [ 0.5, 0.5, 1.0, 0.5 ],
+			"*-up-west-*": [ 0.5, 0.5, 0.5, 1.0 ],
+			"*-up-east-*": [ 0.5, 1.0, 0.5, 0.5 ]
+		}
+	},
+	"behaviors": [
+		{ "name": "WrenchOrientable", "properties": { "baseCode": "glazedbrickstairs-{type}-{color}-*-{cover}" } }
+	],
+	"creativeinventory": { "general": [ "*-up-north-free" ], "construction": [ "*-up-north-free" ] },
+	"sidesolidByType": {
+		"*-up-north-*": { "all": false, "down": true, "north": true },
+		"*-up-west-*": { "all": false, "down": true, "west": true },
+		"*-up-south-*": { "all": false, "down": true, "south": true },
+		"*-up-east-*": { "all": false, "down": true, "east": true },
+		"*-down-north-*": { "all": false, "up": true, "north": true },
+		"*-down-south-*": { "all": false, "up": true, "south": true },
+		"*-down-west-*": { "all": false, "up": true, "west": true },
+		"*-down-east-*": { "all": false, "up": true, "east": true }
+	},
+	"sideopaqueByType": {
+		"*-up-north-*": { "all": false, "down": true, "north": true },
+		"*-up-west-*": { "all": false, "down": true, "west": true },
+		"*-up-south-*": { "all": false, "down": true, "south": true },
+		"*-up-east-*": { "all": false, "down": true, "east": true },
+		"*-down-north-*": { "all": false, "up": true, "north":  true },
+		"*-down-south-*": { "all": false, "up": true, "south": true },
+		"*-down-west-*": { "all": false, "up": true, "west": true },
+		"*-down-east-*": { "all": false, "up": true, "east": true }
+	},
+	"shapeByType": {
+		"*-gold-up-north-free": { "base": "bricklayers:block/basic/stairs/normal-sparkly", "rotateY": 0 },
+		"*-gold-up-west-free": { "base": "bricklayers:block/basic/stairs/normal-sparkly", "rotateY": 90 },
+		"*-gold-up-south-free": { "base": "bricklayers:block/basic/stairs/normal-sparkly", "rotateY": 180 },
+		"*-gold-up-east-free": { "base": "bricklayers:block/basic/stairs/normal-sparkly", "rotateY": 270 },
+		"*-up-north-free": { "base": "bricklayers:block/basic/stairs/normal-shiny", "rotateY": 0 },
+		"*-up-west-free": { "base": "bricklayers:block/basic/stairs/normal-shiny", "rotateY": 90 },
+		"*-up-south-free": { "base": "bricklayers:block/basic/stairs/normal-shiny", "rotateY": 180 },
+		"*-up-east-free": { "base": "bricklayers:block/basic/stairs/normal-shiny", "rotateY": 270 },
+
+		"*-gold-up-north-snow": { "base": "bricklayers:block/basic/stairs/snow-normal-sparkly", "rotateY": 0 },
+		"*-gold-up-west-snow": { "base": "bricklayers:block/basic/stairs/snow-normal-sparkly", "rotateY": 90 },
+		"*-gold-up-south-snow": { "base": "bricklayers:block/basic/stairs/snow-normal-sparkly", "rotateY": 180 },
+		"*-gold-up-east-snow": { "base": "bricklayers:block/basic/stairs/snow-normal-sparkly", "rotateY": 270 },
+		"*-up-north-snow": { "base": "bricklayers:block/basic/stairs/snow-normal-shiny", "rotateY": 0 },
+		"*-up-west-snow": { "base": "bricklayers:block/basic/stairs/snow-normal-shiny", "rotateY": 90 },
+		"*-up-south-snow": { "base": "bricklayers:block/basic/stairs/snow-normal-shiny", "rotateY": 180 },
+		"*-up-east-snow": { "base": "bricklayers:block/basic/stairs/snow-normal-shiny", "rotateY": 270 },
+
+		"*-gold-down-north-free": { "base": "bricklayers:block/basic/stairs/flipped-sparkly", "rotateY": 0 },
+		"*-gold-down-west-free": { "base": "bricklayers:block/basic/stairs/flipped-sparkly", "rotateY": 90 },
+		"*-gold-down-south-free": { "base": "bricklayers:block/basic/stairs/flipped-sparkly", "rotateY": 180 },
+		"*-gold-down-east-free": { "base": "bricklayers:block/basic/stairs/flipped-sparkly", "rotateY": 270 },
+		"*-down-north-free": { "base": "bricklayers:block/basic/stairs/flipped-shiny", "rotateY": 0 },
+		"*-down-west-free": { "base": "bricklayers:block/basic/stairs/flipped-shiny", "rotateY": 90 },
+		"*-down-south-free": { "base": "bricklayers:block/basic/stairs/flipped-shiny", "rotateY": 180 },
+		"*-down-east-free": { "base": "bricklayers:block/basic/stairs/flipped-shiny", "rotateY": 270 }
+	},
+	"faceCullModeByType": {
+		"*-snow": "NeverCull",
+		"*-free": "Stairs"
+	},
+	"blockmaterial": "Ceramic",
+	"textures": {
+		"sides": { "base": "bricklayers:block/clay/brick/glazed/{type}/{color}_*" }
+	},
+	"replaceable": 160,
+	"resistance": 4,
+	"emitSideAo": { "all":  true },
+	"sounds": {
+		"walk": "game:walk/stone",
+		"byTool": {
+			"Pickaxe": { "hit": "game:block/rock-hit-pickaxe", "break": "game:block/rock-break-pickaxe" }
+		}
+	},
+		"collisionSelectionBoxesByType": {
+		"*-down-*": [
+			{ "x1": 0, "y1": 0.5, "z1": 0, "x2": 1, "y2": 1, "z2": 1 },
+			{ "x1": 0, "y1": 0, "z1": 0.5, "x2": 1, "y2": 0.5, "z2": 1,
+				"rotateYByType": {
+					"*-north-*": 180,
+					"*-east-*": 90,
+					"*-south-*": 0,
+					"*-west-*": 270
+				}
+			}
+		],
+		"*-up-*": [
+			{ "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5, "z2": 1 },
+			{ "x1": 0, "y1": 0.5, "z1": 0.5, "x2": 1, "y2": 1, "z2": 1,
+				"rotateYByType": {
+					"*-north-*": 180,
+					"*-east-*": 90,
+					"*-south-*": 0,
+					"*-west-*": 270
+				}
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.2, "y": -1.1, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.37
+	}
+}

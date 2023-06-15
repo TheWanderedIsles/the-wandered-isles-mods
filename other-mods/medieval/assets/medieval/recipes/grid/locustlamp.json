@@ -1,0 +1,13 @@
+[
+  {
+    "ingredientPattern": "_W_,SLS,_W_",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ], "quantity": 1 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2},
+      "L": { "type": "block", "code": "medieval:locustsackwhite", "quantity": 1 },
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "locustlamp-{wood}-up", "quantity": 1 }
+  }
+]

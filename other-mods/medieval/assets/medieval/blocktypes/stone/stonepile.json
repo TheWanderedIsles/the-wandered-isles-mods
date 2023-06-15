@@ -1,0 +1,52 @@
+{
+	code: "stonepile",
+	behaviors: [{name: "BreakIfFloating"}],
+	storageFlags: 5,
+	attributes: {
+		canChisel: false
+	},	
+	variantgroups: [
+		{ code: "rock", states: [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "obsidian", "kimberlite", "scoria", "tuff", "bauxite", "halite", "suevite", "whitemarble", "redmarble", "greenmarble" ] },
+	],
+	creativeinventory: { "general": ["*"], "terrain": ["*"], "construction": ["*"], "medieval": ["*"] },
+	shape: { base: "block/stone/stonepile",
+		alternates: [
+			{ base: "block/stone/stonepile", rotateY: 90 },
+			{ base: "block/stone/stonepile", rotateY: 180 },
+			{ base: "block/stone/stonepile", rotateY: 270 }
+		] },
+	drawtype: "JSON",
+	replaceable: 90,
+	requiredMiningTier: 2,
+	fertility: 0,
+	textures: {
+		all: { base: "game:block/stone/rock/{rock}*" },
+	},
+	sounds: {
+		walk: "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+	faceCullMode: "NeverCull",
+	sidesolid: {
+		all: true
+	},
+	sideopaque: { all: false },
+	lightAbsorption: 50,
+	dropsByType: {
+		"*": [
+			{
+				type: "item", 
+				code: "game:stone-{rock}", 
+				quantity: { avg: 64, var: 0 } 
+			}
+		]
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock", 
+	tpHandTransform: {
+		translation: { x: -1.2, y: -1.1, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.37
+	}
+}

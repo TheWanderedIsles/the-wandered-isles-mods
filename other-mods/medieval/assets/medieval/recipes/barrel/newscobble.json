@@ -1,0 +1,11 @@
+[
+	{
+		code: "agedstonebricks-*",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:cobblestone-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"], quantity: 4 }
+		],
+		output: { type: "block", code: "game:agedstonebricks-{rock}", stackSize: 4 }
+	}
+]

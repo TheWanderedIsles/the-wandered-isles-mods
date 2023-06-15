@@ -1,0 +1,46 @@
+
+
+
+{
+	code: "bookshelf-all",
+	maxStackSize: 64,
+	attributes: {
+		canChisel: true
+	},
+	variantgroups: [
+		{ code: "type", states: ["shelf1", "shelf2", "shelf3", "shelf4", "shelf5", "shelf6", "shelf7", "shelf8", "shelf9", "shelf10", "shelf11", "shelf12", "shelf13" ] }
+	],
+	shape: { base: "game:block/basic/cube" },
+	drawtype: "Cube",
+	blockmaterial: "Wood",
+	creativeinventory: { "general": ["*"], "construction": ["*"], "decorative": ["*"], "medieval": ["*"] },
+	replaceable: 700,
+	resistance: 1.2,
+	lightAbsorption: 99,
+	textures: {
+		all: { 
+			base: "game:block/wood/bookshelves/{type}"
+		},
+	},
+	drops: [ {
+		type: "block",
+		code: "bookshelf-all-{type}",
+		quantity: { avg: 1, var: 0 }
+	} ],
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 20
+	},
+	sounds: {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

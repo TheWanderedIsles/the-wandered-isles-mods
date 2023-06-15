@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributesByType/log-resinharvested-*/transientProps/inGameHours",
+    "value": 48,
+    "file": "game:blocktypes/wood/woodtyped/log-withresin.json"
+  },
+  {
+    "op": "replace",
+    "path": "/drops/0/code",
+    "value": "log-resinharvested-{wood}-ud",
+    "file": "game:blocktypes/wood/woodtyped/log-withresin.json"
+  },
+  {
+    "op": "replace",
+    "path": "/maxStackSize",
+    "value": 64,
+    "file": "game:blocktypes/wood/woodtyped/log-withresin.json"
+  }
+]

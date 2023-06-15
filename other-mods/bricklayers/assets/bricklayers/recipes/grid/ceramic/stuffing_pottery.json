@@ -1,0 +1,44 @@
+[
+	{
+	"code": "stuffing-salt-glazed-planter",
+	"ingredientPattern": "G,P",
+	"ingredients": {
+		"G": { "type": "item", "code": "game:drygrass", "quantity": 4 },
+		"P": { "type": "block", "code": "bricklayers:saltglazedplanter-burnt-pale-*-plain", "name": "color" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:saltglazedplanter-raw-orange-{color}-plain", "quantity": 1 }
+	},
+	{
+	"code": "clearing-salt-glazed-planter",
+	"ingredientPattern": "P",
+	"ingredients": {
+		"P": { "type": "block", "code": "bricklayers:saltglazedplanter-raw-orange-*-plain", "name": "color" }
+	},
+	"width": 1,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:saltglazedplanter-burnt-pale-{color}-plain", "quantity": 1 }
+	},
+	{
+	"code": "stuffing-salt-glazed-flowerpot",
+	"ingredientPattern": "G,P",
+	"ingredients": {
+		"G": { "type": "item", "code": "game:drygrass", "quantity": 4 },
+		"P": { "type": "block", "code": "bricklayers:saltglazedflowerpot-burnt-pale-*-plain", "name": "color" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:saltglazedflowerpot-raw-orange-{color}-plain", "quantity": 1 }
+	},
+	{
+	"code": "clearing-salt-glazed-flowerpot",
+	"ingredientPattern": "P",
+	"ingredients": {
+		"P": { "type": "block", "code": "bricklayers:saltglazedflowerpot-raw-orange-*-plain", "name": "color" }
+	},
+	"width": 1,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:saltglazedflowerpot-burnt-pale-{color}-plain", "quantity": 1 }
+	}
+]

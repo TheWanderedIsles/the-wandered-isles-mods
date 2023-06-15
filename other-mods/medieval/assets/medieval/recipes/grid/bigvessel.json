@@ -1,0 +1,245 @@
+[
+
+	{
+		ingredientPattern: "SS",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-burned", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-ashforest", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-ashforest", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-chthonic", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-chthonic", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-copper", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-copper", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-earthen", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-earthen", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-rain", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-rain", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-cowrie", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-cowrie", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-rime", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-rime", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-oxblood", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-oxblood", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-loam", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-loam", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-undergrowth", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-undergrowth", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-beehive", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-beehive", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-harvest", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-harvest", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-honeydew", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-honeydew", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-rutile", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-rutile", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-seasalt", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-seasalt", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-springflowers", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-springflowers", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-volcanic", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-volcanic", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-sea", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-sea", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-sky", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-sky", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-skull", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-skull", attributes: { type: "bigvessel" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "SC",
+		ingredients: {
+				"S": { type: "block", code: "game:storagevessel-burned", attributes: { type: "normal" } },
+				"C": { type: "block", code: "game:storagevessel-celtic", attributes: { type: "normal" } }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:bigvessel-celtic", attributes: { type: "bigvessel" }, quantity: 1  }
+	}
+
+]

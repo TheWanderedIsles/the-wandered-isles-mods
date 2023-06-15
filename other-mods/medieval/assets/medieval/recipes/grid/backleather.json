@@ -1,0 +1,71 @@
+[
+
+	{
+	ingredientPattern: "A,L",
+	ingredients: {
+			"A": { type: "item", code: "game:knife-*", isTool: true  },
+		"L": { type: "item", code: "game:backpack", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:leather-plain", quantity: 6  }
+	},
+
+	{
+	ingredientPattern: "A,L",
+	ingredients: {
+			"A": { type: "item", code: "game:knife-*", isTool: true  },
+		"L": { type: "item", code: "medieval:medievalbackpack", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:leather-plain", quantity: 9  }
+	},
+
+	{
+	ingredientPattern: "A,L",
+	ingredients: {
+			"A": { type: "item", code: "game:knife-*", isTool: true  },
+		"L": { type: "item", code: "medieval:big-backpack", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:leather-plain", quantity: 15  }
+	},
+
+	
+
+	{
+	ingredientPattern: "A,L",
+	ingredients: {
+			"A": { type: "item", code: "medieval:knife-*", isTool: true  },
+		"L": { type: "item", code: "game:backpack", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:leather-plain", quantity: 6  }
+	},
+
+	{
+	ingredientPattern: "A,L",
+	ingredients: {
+			"A": { type: "item", code: "medieval:knife-*", isTool: true  },
+		"L": { type: "item", code: "medieval:medievalbackpack", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:leather-plain", quantity: 9  }
+	},
+
+	{
+	ingredientPattern: "A,L",
+	ingredients: {
+			"A": { type: "item", code: "medieval:knife-*", isTool: true  },
+		"L": { type: "item", code: "medieval:big-backpack", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:leather-plain", quantity: 15  }
+	}
+
+]

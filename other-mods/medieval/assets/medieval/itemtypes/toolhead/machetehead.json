@@ -1,0 +1,34 @@
+{
+	code: "machetehead",
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium" ] }
+	],
+	maxstacksize: 4,
+	shape: { base: "item/tool/machetehead" },
+	textures: {
+		"metal": { base: "item/tool/sword/machete/{metal}" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+	fpHandTransform: {
+			translation: { x: 0.1, y: 0.4, z: 0.4 },
+			rotation: { x: -20, y: 71, z: 61 },
+			scale: 2.77
+	},
+		guiTransform: {
+		translation: { x: 4, y: 3, z: 0 },
+		rotation: { x: -8, y: -152, z: 142 },
+		origin: { x: 0.5299, y: 0.03, z: 0.31 },
+		scale: 3
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.55 },
+		scale: 3.5
+	},
+	tpHandTransform: {
+			translation: { x: -0.64, y: -0.08, z: -0.48 },
+			rotation: { x: 0, y: 0, z: -10 },
+			scale: 1
+		
+}

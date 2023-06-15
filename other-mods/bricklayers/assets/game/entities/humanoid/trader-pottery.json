@@ -1,0 +1,720 @@
+{
+   "code": "humanoid-trader-pottery",
+   "class": "EntityTrader",
+   "canClimb": true,
+   "client": {
+      "animations": [
+	 { "code": "die", "animation": "die", "animationSpeed": 1.75, "blendMode": "AddAverage", "weight": 10 },
+	 { "code": "hurt", "animation": "hurt", "animationSpeed": 2, "blendMode": "AddAverage" },
+	 { "code": "rowdywelcome", "animation": "rowdywelcome", "blendMode": "AddAverage" },
+	 { "code": "lazywelcome" , "animation": "lazywelcome", "blendMode": "AddAverage" },
+	 { "code": "lazynod", "animation": "lazynod", "blendMode": "AddAverage" }
+      ],
+      "behaviors": [
+	 { "code": "nametag", "showtagonlywhentargeted": true },
+	 { "code": "repulseagents" },
+	 { "code": "controlledphysics", "stepHeight": 1.01 },
+	 { "code": "interpolateposition" },
+	 { "code": "conversable", "dialogue": "config/dialogue/trader" }
+      ],
+      "renderer": "Shape",
+      "shape": { "base": "game:entity/humanoid/trader" },
+      "texture": {
+	 "alternates": [
+	    { "base": "game:entity/humanoid/traderclothes/set1" },
+	    { "base": "game:entity/humanoid/traderclothes/set2" },
+	    { "base": "game:entity/humanoid/traderclothes/set3" },
+	    { "base": "game:entity/humanoid/traderclothes/set4" },
+	    { "base": "game:entity/humanoid/traderclothes/set5" }
+	 ],
+	 "base": "game:entity/humanoid/trader"
+      }
+   },
+   "deadHitboxSize": { "x": 0.75, "y": 0.5 },
+   "hitboxSize": { "x": 0.6, "y": 1.75 },
+   "attributes": {
+      "tradeProps": {
+	 "money": { "avg": 30, "var": 10 },
+	 "buying": {
+	    "maxItems": 12,
+	    "list": [
+		  {
+		     "code": "game:shovel-blackbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:shovel-bismuthbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:shovel-tinbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:clothes-waist-heavy-tool-belt",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.5 }
+		  },
+		  {
+		     "code": "game:clay-blue",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-fire",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:lime",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ore-bituminouscoal",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ore-lignite",
+		     "type": "item",
+		     "stacksize": 24,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:stick",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:drygrass",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-bauxite",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-metal-copper",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-metal-nickel",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-coal",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ingot-copper",
+		     "type": "item",
+		     "stacksize": 2,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ingot-tin",
+		     "type": "item",
+		     "stacksize": 3,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:barrel",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:peatbrick",
+		     "type": "block",
+		     "stacksize": 16,
+		     "stock": { "avg": 4, "var": 1 },
+		     "price": { "avg": 1, "var": 0.5 }
+		  },
+		  {
+		     "code": "game:stone-granite",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:flower-woad-free",
+		     "type": "block",
+		     "stacksize": 32,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:flower-cornflower-free",
+		     "type": "block",
+		     "stacksize": 16,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  }
+	       ]
+	    },
+	    "selling": {
+	       "maxItems": 10,
+	       "list": [
+		  {
+		     "code": "game:clay-black",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-blurple",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-purple",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-red",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-pink",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-light",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-orange",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-brown",
+		     "type": "item",
+		     "stacksize": 12,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-green",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+
+		  {
+		     "code": "bricklayers:flowerpotcolored-burnt-red",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 4, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:flowerpotcolored-burnt-brown",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 4, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:flowerpotcolored-burnt-purple",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 4, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:flowerpotcolored-burnt-blurple",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 8, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:flowerpotcolored-burnt-black",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 7, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:flowerpotcolored-burnt-pink",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 6, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:flowerpotcolored-burnt-light",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 7, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:flowerpotcolored-burnt-fire",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 6, "var": 2 }
+		  },
+
+		  {
+		     "code": "bricklayers:plantercolored-burnt-red",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 6, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:plantercolored-burnt-blurple",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 6, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:plantercolored-burnt-black",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 6, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:plantercolored-burnt-orange",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 6, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:plantercolored-burnt-pink",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 6, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:plantercolored-burnt-light",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 7, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:plantercolored-burnt-fire",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 6, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:plantercolored-burnt-malachite",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 7, "var": 1.25 }
+		  },
+
+		  {
+		     "code": "bricklayers:glazedflowerpot-burnt-clear-redbrown-plain",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 9, "var": 1.25 }
+		  },
+		  {
+		     "code": "bricklayers:glazedflowerpot-burnt-clear-red-plain",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 10, "var": 1.25 }
+		  },
+
+		  {
+		     "code": "bricklayers:glazedflowerpot-burnt-milky-red-plain",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 11, "var": 1.25 }
+		  },
+
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-red",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 14, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-black",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 12, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-purple",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 14, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-blurple",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 14, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-orange",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 12, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-pink",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 14, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-yellow",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 12, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-light",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 14, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:storagevesselcolored-burnt-malachite",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 14, "var": 2 }
+		  },
+
+		  {
+		     "code": "bricklayers:crockcolored-burned-brown-east",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 },
+		     "price": { "avg": 3, "var": 2 }
+		  },
+		  {
+		     "code": "bricklayers:crockcolored-burned-black-east",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 4, "var": 2 } ,
+		     "price": { "avg": 4, "var": 0.5 }
+		  },
+		  {
+		     "code": "bricklayers:crockcolored-burned-blurple-east",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 4, "var": 2 } ,
+		     "price": { "avg": 4, "var": 0.5 }
+		  },
+		  {
+		     "code": "bricklayers:crockcolored-burned-purple-east",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 4, "var": 2 } ,
+		     "price": { "avg": 4, "var": 0.5 }
+		  },
+		  {
+		     "code": "bricklayers:crockcolored-burned-red-east",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 4, "var": 2 } ,
+		     "price": { "avg": 6, "var": 0.5 }
+		  },
+		  {
+		     "code": "bricklayers:crockcolored-burned-green-east",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 4, "var": 2 } ,
+		     "price": { "avg": 4, "var": 0.5 }
+		  },
+		  {
+		     "code": "bricklayers:crockcolored-burned-malachite-east",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 4, "var": 2 } ,
+		     "price": { "avg": 4, "var": 0.5 }
+		  },
+		  {
+		     "code": "bricklayers:crockcolored-burned-palered-east",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1 } ,
+		     "price": { "avg": 8, "var": 0.5 }
+		  },
+
+		  {
+		     "code": "game:hardenedclay-black",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-blue",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-blurple",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-purple",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-red",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-orange",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-brown",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 8, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-pink",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-light",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 8, "var": 1 }
+		  },
+		  {
+		     "code": "game:hardenedclay-malachite",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 9, "var": 1 }
+		  },
+		  {
+		     "code": "em:crushed-ore-phosphorite",
+		     "type": "item",
+		     "stacksize": 6,
+		     "stock": { "avg": 1, "var": 0 },
+		     "price": { "avg": 7, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:crushed-metal-uranium",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 7, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:nugget-uranium",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 1, "var": 0.25 },
+		     "price": { "avg": 5, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:crushed-ore-granite",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 1, "var": 0.25 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  }
+	       ]
+	    }
+	 }
+   },
+   "server": {
+      "pathfinder": { "maxTurnAnglePerSec": 1440, "minTurnAnglePerSec": 720 },
+      "behaviors": [
+	 {
+	    "code": "nametag",
+	    "selectFromRandomName": [ "Anni", "Björn", "Bright", "Carl", "Friedbert", "Harry", "Jagoda", "Krasni", "Любов", "Mira", "Paul", "Rudoplh", "Swetko", "Torborg", "Weng", "Wazlaf" ],
+	    "showtagonlywhentargeted": true
+	 },
+	 { "code": "repulseagents" },
+	 { "code": "controlledphysics", "stepHeight": 1.01 },
+	 { "code": "reviveondeath", "maxHours": 72, "minHours": 24 },
+	 { "code": "health", "currenthealth": 25, "maxhealth": 25 },
+	 {
+	    "code": "emotionstates",
+	    "states": [
+	       { "accumType": "noaccum", "chance": 0.6, "code": "aggressiveondamage", "duration": 6, "priority": 2, "slot": 0 },
+	       { "accumType": "max", "chance": 0.4, "code": "fleeondamage", "duration": 10, "priority": 1, "slot": 0 }
+	    ]
+	 },
+	 {
+	    "aitasks": [
+	       {
+		  "code": "meleeattack",
+		  "animation": "Attack",
+		  "animationSpeed": 2,
+		  "attackDurationMs": 900,
+		  "damage": 5,
+		  "damagePlayerAtMs": 300,
+		  "entityCodes": [ "player" ],
+		  "maxcooldown": 3500,
+		  "mincooldown": 2500,
+		  "priority": 2,
+		  "whenInEmotionState": "aggressiveondamage"
+	       },
+	       {
+		  "code": "seekentity",
+		  "animation": "Run",
+		  "animationSpeed": 1.75,
+		  "entityCodes": [ "player" ],
+		  "maxcooldown": 1500,
+		  "mincooldown": 1000,
+		  "movespeed": 0.035,
+		  "priority": 1.5,
+		  "seekingRange": 20,
+		  "whenInEmotionState": "aggressiveondamage"
+	       },
+	       {
+		  "code": "fleeentity",
+		  "animation": "Run",
+		  "animationSpeed": 1.75,
+		  "entityCodes": [ "player" ],
+		  "movespeed": 0.035,
+		  "priority": 1.5,
+		  "seekingRange": 12,
+		  "whenInEmotionState": "fleeondamage"
+	       },
+	       {
+		  "code": "idle",
+		  "animation": "laugh",
+		  "maxcooldown": 30000,
+		  "maxduration": 2500,
+		  "mincooldown": 5000,
+		  "minduration": 2500,
+		  "priority": 1.2
+	       },
+	       {
+		  "code": "idle",
+		  "animation": "idle2",
+		  "maxcooldown": 30000,
+		  "maxduration": 2500,
+		  "mincooldown": 5000,
+		  "minduration": 2500,
+		  "priority": 1.2
+	       },
+	       {
+		  "code": "wander",
+		  "animation": "Walk",
+		  "maxDistanceToSpawn": 4,
+		  "movespeed": 0.01,
+		  "priority": 1,
+		  "teleportInGameHours": 1,
+		  "teleportWhenOutOfRange": true,
+		  "wanderChance": 0.005,
+		  "wanderRangeMax": 3,
+		  "wanderRangeMin": 1
+	       },
+	       {
+		  "code": "lookaround",
+		  "priority": 0.5
+	       }
+	    ],
+	    "code": "taskai"
+	 }
+      ]
+   },
+   "sounds": {}
+}

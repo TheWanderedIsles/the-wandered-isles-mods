@@ -1,0 +1,95 @@
+[
+	{
+	"code": "glassbatch-opaque",
+	"ingredientPattern": "MQ,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite", "quantity": 2 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "blue", "brown", "green", "orange", "pink", "violet", "red", "yellow", "black"] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-opaque",
+	"ingredientPattern": "MQ,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-metal-rusty", "quantity": 2 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "blue", "brown", "green", "orange", "pink", "violet", "red", "yellow", "black" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 4 }
+	},
+
+	{
+	"code": "glassbatch-opaque",
+	"ingredientPattern": "NQ,BB",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:powdered-metal-nickel", "quantity": 2 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "blue", "brown", "green", "orange", "pink", "violet", "red", "yellow", "black"] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-opaque-red",
+	"ingredientPattern": "CC,BB",
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-metal-copper", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "red" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-opaque-green",
+	"ingredientPattern": "NQ,BB",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:powdered-ore-chromite", "quantity": 2 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "green" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-{color}", "quantity": 4 }
+	},
+
+	{
+	"code": "glassbatch-opaque-white",
+	"ingredientPattern": "MQ,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-ore-cassiterite", "quantity": 1 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-milky-smoky", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 4,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-white", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-opaque-white",
+	"ingredientPattern": "WQ,BB",
+	"ingredients": {
+		"W": { "type": "item", "code": "em:powdered-ore-whitelead", "quantity": 1 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-milky-smoky", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 4,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-opaque-white", "quantity": 4 }
+	}
+
+]

@@ -1,0 +1,164 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"engraving": "block/wood/debarked/engraving/acacia",
+		"knob2": "block/wood/debarked/engraving/knob2"
+	},
+	"elements": [
+		{
+			"name": "Leftframe",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 2.0, 16.0, 16.0 ],
+			"rotationOrigin": [ 0.99, 0.0, 15.0 ],
+			"rotationY": -90.0,
+			"faces": {
+				"north": { "texture": "#engraving", "uv": [ 0.0, 3.5, 1.0, 11.5 ], "autoUv": false },
+				"east": { "texture": "#engraving", "uv": [ 0.0, 8.0, 8.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"south": { "texture": "#engraving", "uv": [ 0.0, 3.5, 1.0, 11.5 ], "autoUv": false },
+				"west": { "texture": "#engraving", "uv": [ 8.0, 8.0, 0.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#engraving", "uv": [ 0.0, 3.5, 1.0, 11.5 ], "autoUv": false },
+				"down": { "texture": "#engraving", "uv": [ 0.0, 3.5, 1.0, 11.5 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube8",
+					"from": [ -0.3, 12.5, 0.5 ],
+					"to": [ 2.3, 20.5, 2.5 ],
+					"rotationOrigin": [ -0.3, 12.5, 0.6 ],
+					"faces": {
+						"north": { "texture": "#knob2", "uv": [ 8.0, 0.0, 16.0, 2.5 ], "rotation": 90 },
+						"east": { "texture": "#knob2", "uv": [ 8.0, 1.0, 16.0, 3.0 ], "rotation": 90 },
+						"south": { "texture": "#knob2", "uv": [ 8.0, 0.0, 16.0, 2.5 ], "rotation": 90 },
+						"west": { "texture": "#knob2", "uv": [ 8.0, 1.0, 16.0, 3.0 ], "rotation": 90 },
+						"up": { "texture": "#knob2", "uv": [ 9.5, 0.5, 12.0, 2.5 ] },
+						"down": { "texture": "#knob2", "uv": [ 8.5, 0.5, 11.0, 2.5 ] }
+					},
+					"children": [
+						{
+							"name": "Cube9",
+							"from": [ -0.7, 1.5, 0.5 ],
+							"to": [ 3.3, 2.5, 1.5 ],
+							"rotationOrigin": [ -0.7, 1.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#knob2", "uv": [ 10.0, 3.0, 14.0, 4.0 ] },
+								"east": { "texture": "#knob2", "uv": [ 8.5, 1.5, 9.5, 2.5 ] },
+								"south": { "texture": "#knob2", "uv": [ 9.0, 1.5, 13.0, 2.5 ] },
+								"west": { "texture": "#knob2", "uv": [ 9.0, 2.0, 10.0, 3.0 ] },
+								"up": { "texture": "#knob2", "uv": [ 8.0, 1.5, 12.0, 2.5 ] },
+								"down": { "texture": "#knob2", "uv": [ 8.5, 2.5, 12.5, 3.5 ] }
+							}
+						},
+						{
+							"name": "Cube10",
+							"from": [ -0.7, 5.5, 0.5 ],
+							"to": [ 3.3, 6.5, 1.5 ],
+							"rotationOrigin": [ -0.7, 5.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#knob2", "uv": [ 10.0, 3.0, 14.0, 4.0 ] },
+								"east": { "texture": "#knob2", "uv": [ 8.5, 1.5, 9.5, 2.5 ] },
+								"south": { "texture": "#knob2", "uv": [ 9.0, 1.5, 13.0, 2.5 ] },
+								"west": { "texture": "#knob2", "uv": [ 9.0, 2.0, 10.0, 3.0 ] },
+								"up": { "texture": "#knob2", "uv": [ 8.0, 1.5, 12.0, 2.5 ] },
+								"down": { "texture": "#knob2", "uv": [ 8.5, 2.5, 12.5, 3.5 ] }
+							}
+						},
+						{
+							"name": "Cube11",
+							"from": [ -1.2, 1.5, 0.5 ],
+							"to": [ -0.7, 6.5, 1.5 ],
+							"rotationOrigin": [ -1.2, 1.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#knob2", "uv": [ 5.5, 4.5, 6.0, 9.5 ] },
+								"east": { "texture": "#knob2", "uv": [ 5.0, 5.5, 6.0, 10.5 ] },
+								"south": { "texture": "#knob2", "uv": [ 5.5, 4.5, 6.0, 9.5 ] },
+								"west": { "texture": "#knob2", "uv": [ 5.0, 5.5, 6.0, 10.5 ] },
+								"up": { "texture": "#knob2", "uv": [ 5.5, 4.5, 6.0, 5.5 ] },
+								"down": { "texture": "#knob2", "uv": [ 5.5, 5.0, 6.0, 6.0 ] }
+							}
+						},
+						{
+							"name": "Cube12",
+							"from": [ 3.3, 1.5, 0.5 ],
+							"to": [ 3.8, 6.5, 1.5 ],
+							"rotationOrigin": [ 3.3, 1.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#knob2", "uv": [ 5.5, 4.5, 6.0, 9.5 ] },
+								"east": { "texture": "#knob2", "uv": [ 5.0, 5.5, 6.0, 10.5 ] },
+								"south": { "texture": "#knob2", "uv": [ 5.5, 4.5, 6.0, 9.5 ] },
+								"west": { "texture": "#knob2", "uv": [ 5.0, 5.5, 6.0, 10.5 ] },
+								"up": { "texture": "#knob2", "uv": [ 5.5, 4.5, 6.0, 5.5 ] },
+								"down": { "texture": "#knob2", "uv": [ 5.5, 5.0, 6.0, 6.0 ] }
+							}
+						},
+						{
+							"name": "Cube13",
+							"from": [ 0.05, -8.0, 13.51 ],
+							"to": [ 2.55, -5.5, 15.51 ],
+							"rotationOrigin": [ -0.9, -8.0, 13.5 ],
+							"faces": {
+								"north": { "texture": "#knob2", "uv": [ 10.0, 3.0, 12.5, 5.5 ] },
+								"east": { "texture": "#knob2", "uv": [ 10.0, 11.0, 12.0, 13.5 ] },
+								"south": { "texture": "#knob2", "uv": [ 9.0, 1.5, 11.5, 4.0 ] },
+								"west": { "texture": "#knob2", "uv": [ 4.0, 11.0, 6.0, 13.5 ] },
+								"up": { "texture": "#knob2", "uv": [ 8.0, 1.5, 10.5, 3.5 ] },
+								"down": { "texture": "#knob2", "uv": [ 8.5, 2.5, 11.0, 4.5 ] }
+							}
+						},
+						{
+							"name": "Cube14",
+							"from": [ 0.05, 13.0, 13.51 ],
+							"to": [ 2.55, 15.5, 15.51 ],
+							"rotationOrigin": [ -0.9, 13.0, 13.5 ],
+							"faces": {
+								"north": { "texture": "#knob2", "uv": [ 10.0, 3.0, 12.5, 5.5 ] },
+								"east": { "texture": "#knob2", "uv": [ 10.0, 11.0, 12.0, 13.5 ] },
+								"south": { "texture": "#knob2", "uv": [ 9.0, 1.5, 11.5, 4.0 ] },
+								"west": { "texture": "#knob2", "uv": [ 4.0, 11.0, 6.0, 13.5 ] },
+								"up": { "texture": "#knob2", "uv": [ 8.0, 1.5, 10.5, 3.5 ] },
+								"down": { "texture": "#knob2", "uv": [ 8.5, 2.5, 11.0, 4.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Leftframe2",
+					"from": [ 0.0, 16.0, 0.0 ],
+					"to": [ 2.0, 32.0, 16.0 ],
+					"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#engraving", "uv": [ 0.0, 3.5, 1.0, 11.5 ], "autoUv": false },
+						"east": { "texture": "#engraving", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+						"south": { "texture": "#engraving", "uv": [ 0.0, 3.5, 1.0, 11.5 ], "autoUv": false },
+						"west": { "texture": "#engraving", "uv": [ 8.0, 0.0, 0.0, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+						"up": { "texture": "#engraving", "uv": [ 0.0, 3.5, 1.0, 11.5 ], "autoUv": false },
+						"down": { "texture": "#engraving", "uv": [ 0.0, 3.5, 1.0, 11.5 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "opened",
+			"code": "opened",
+			"quantityframes": 2,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Hold",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Leftframe": { "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
+}

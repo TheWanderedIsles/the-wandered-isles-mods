@@ -1,0 +1,52 @@
+[
+	{
+	"code": "glassbatch-milky-cassiterite",
+	"ingredientPattern": "TQ,BB",
+	"ingredients": {
+		"T": { "type": "item", "code": "em:powdered-ore-cassiterite", "quantity": 1 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "blue", "brown", "green", "orange", "pink", "violet", "red", "yellow", "black"] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-milky-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-milky-boneash",
+	"ingredientPattern": "AQ,BB",
+	"ingredients": {
+		"A": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 2 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "blue", "brown", "green", "pink", "violet", "red", "yellow", "black"] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-milky-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-milky-smoky-boneash",
+	"ingredientPattern": "TQ,BB",
+	"ingredients": {
+		"T": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 1 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-milky-smoky", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-milky-smoky-cassiterite",
+	"ingredientPattern": "TQ,BB",
+	"ingredients": {
+		"T": { "type": "item", "code": "em:powdered-ore-cassiterite", "quantity": 1 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-milky-smoky", "quantity": 4 }
+	}
+]

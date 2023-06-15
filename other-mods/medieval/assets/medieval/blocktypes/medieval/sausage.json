@@ -1,0 +1,50 @@
+{
+	code: "sausage",
+	variantgroups: [
+		{ code:"type", states: ["sausage" ] },
+	],
+	attributes: {
+		"pieFormingSurface": true
+	},
+	shape: { base: "block/medieval/embutidos" },
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "decorative": ["*"], "medieval": ["*"] }
+	},
+	blockmaterial: "leaves",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 0.1,
+	collisionbox: null,
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:creature/drifter-hit",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	texturesByType: {
+		"*": {
+			"embutido": { base: "block/medieval/embutido" },
+			"salchichas": { base: "block/medieval/salchichas" }
+		}
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	guiTransform: {
+		scale: 1.55
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: 0.2, z: 0.6 },
+		rotation: { x: 10, y: 44, z: -14 }
+	}
+}

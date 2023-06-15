@@ -1,0 +1,302 @@
+{
+  "enabled": false,
+  "code": "clapboard",
+  "class": "BlockPlanks",
+  "creativeinventory": { "general": ["*-east"]},
+  "behaviors": [
+    {"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" }}
+    ],
+  "variantgroups": [
+    {
+      "code": "wood",
+      "states": ["aged"], "loadFromProperties": "block/wood"
+    },
+    {
+      "code": "piece",
+      "states": ["side","corner"]
+    },
+    {
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+    ],
+    "attributes": {
+    },
+    "sideopaque": {
+      "all": true
+    },
+    "sidesolid": {
+      "all": true
+    },
+    "shapebytype": {
+      "*-side-north": {
+        "base": "block/planks/clapboard.json"
+      },
+      "*-side-east": {
+        "base": "block/planks/clapboard.json",
+        "rotateY": 270
+      },
+      "*-side-south": {
+        "base": "block/planks/clapboard.json",
+        "rotateY": 180
+      },
+      "*-side-west": {
+        "base": "block/planks/clapboard.json",
+        "rotateY": 90
+      },
+      "*-corner-north": {
+        "base": "block/planks/clapboardcorner.json"
+      },
+      "*-corner-east": {
+        "base": "block/planks/clapboardcorner.json",
+        "rotateY": 270
+      },
+      "*-corner-south": {
+        "base": "block/planks/clapboardcorner.json",
+        "rotateY": 180
+      },
+      "*-corner-west": {
+        "base": "block/planks/clapboardcorner.json",
+        "rotateY": 90
+      }
+    },
+    "sounds": {
+      "place": "game:block/planks",
+      "walk": "game:walk/wood",
+      "hit": "game:block/planks",
+      "break": "game:block/planks",
+      "byTool": {
+        "Axe": {
+          "hit": "game:block/chop",
+          "break": "game:block/planks"
+        }
+      }
+    },
+    "combustiblePropsByType": {
+      "clapboard-birch-*": {
+        "burnTemperature": 800,
+        "burnDuration": 58
+      },
+      "clapboard-oak-*": {
+        "burnTemperature": 800,
+        "burnDuration": 78
+      },
+      "clapboard-pine-*": {
+        "burnTemperature": 800,
+        "burnDuration": 40
+      },
+      "clapboard-acacia-*": {
+        "burnTemperature": 800,
+        "burnDuration": 69
+      },
+      "clapboard-kapok-*": {
+        "burnTemperature": 800,
+        "burnDuration": 27
+      },
+      "clapboard-maple-*": {
+        "burnTemperature": 800,
+        "burnDuration": 59
+      },
+      "*": {
+        "burnTemperature": 800,
+        "burnDuration": 52
+      }
+    },
+    "replaceable": 500,
+    "lightAbsorption": 0,
+    "textures": {
+      "aged": {
+        "base": "game:block/wood/debarked/{wood}"
+      }
+    },
+   
+    "maxStackSize": 16,
+    "materialDensity": 700,
+    "drawtype": "json",
+    "blockmaterial": "Wood",
+    "requiredMiningTier": 1,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+      "translation": {
+        "x": -1.2,
+        "y": -1.1,
+        "z": -0.8
+      },
+      "rotation": {
+        "x": -2,
+        "y": 25,
+        "z": -78
+      },
+      "scale": 0.37
+    },
+    "guiTransform": {
+      "rotation": {
+        "x": -22.6,
+        "y": -145,
+        "z": 0
+      }
+    },
+    "CollisionSelectionBoxesByType": {
+      "clapboard-up*": [
+        {
+          "x1": 0,
+          "y1": 0.7799,
+          "z1": 0,
+          "x2": 1,
+          "y2": 1,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0.25,
+          "y1": 0.23,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0.7799,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 1,
+          "y1": 0.23,
+          "z1": 0,
+          "x2": 0.75,
+          "y2": 0.7799,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.23,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0.25,
+          "y1": 0.23,
+          "z1": 0,
+          "x2": 0.75,
+          "y2": 0.78,
+          "z2": 0.25,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        }
+      ],
+      "clapboard-base*": [
+        {
+          "x1": 0,
+          "y1": 0.8114,
+          "z1": 0,
+          "x2": 1,
+          "y2": 1,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0.7185,
+          "y1": 0.03,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.8114,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0,
+          "y1": 0.03,
+          "z1": 0,
+          "x2": 0.2873,
+          "y2": 0.8114,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.03,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0.2873,
+          "y1": 0.03,
+          "z1": 0,
+          "x2": 0.7185,
+          "y2": 0.8114,
+          "z2": 0.25,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0.5935,
+          "y1": 0.625,
+          "z1": 0.75,
+          "x2": 0.7185,
+          "y2": 0.8125,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        },
+        {
+          "x1": 0.2873,
+          "y1": 0.5625,
+          "z1": 0.75,
+          "x2": 0.406,
+          "y2": 0.8125,
+          "z2": 1,
+          "rotateYByType": {
+            "*-west": 90,
+            "*-south": 180,
+            "*-east": 270
+          }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,11 @@
+[
+	{
+		code: "soakedhideborax",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:dilutedboraxportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "medieval:locustsackred", quantity: 1 }
+		],
+		output: { type: "block", code: "medieval:locustsackwhite", stackSize: 1 }
+	}
+]

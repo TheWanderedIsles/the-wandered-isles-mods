@@ -1,0 +1,25 @@
+[
+  {
+    "ingredientPattern": "HWS,_L_,_WS",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 1 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "bellow-closed-up-south", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "HLS",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+      "L": { "type": "block", "code": "bellow-closed-up-south", "quantity": 1 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 1,
+    "output": { "type": "block", "code": "bellowstick-closed-up-south", "quantity": 1 }
+  }
+]

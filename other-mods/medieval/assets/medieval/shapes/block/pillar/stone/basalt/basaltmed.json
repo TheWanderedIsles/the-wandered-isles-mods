@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"basalt": "block/stone/polishedrock/basalt",
+		"basaltmed": "block/stone/pillar/basalt/basaltmed"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#basaltmed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#basaltmed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#basaltmed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#basaltmed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#basalt", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#basalt", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

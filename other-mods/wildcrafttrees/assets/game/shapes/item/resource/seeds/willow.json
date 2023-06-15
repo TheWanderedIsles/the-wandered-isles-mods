@@ -1,0 +1,155 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"willow_seed": "item/resource/seeds/willow"
+	},
+	"elements": [
+		{
+			"name": "Stem",
+			"from": [ 8.0, 0.0, 11.0 ], 
+			"to": [ 9.0, 6.0, 12.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 11.0 ],
+			"rotationX": -90.0,
+			"faces": {
+				"north": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 12.0 ], "autoUv": false },
+				"east": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 12.0 ], "autoUv": false },
+				"south": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 12.0 ], "autoUv": false },
+				"west": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 12.0 ], "autoUv": false },
+				"up": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 2.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Catkinstem1",
+					"from": [ 0.2, 3.5, 0.0 ], 
+					"to": [ 1.2, 5.0, 1.0 ], 
+					"rotationOrigin": [ 0.7, 3.5, 0.5 ],
+					"rotationZ": -55.0,
+					"faces": {
+						"north": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 3.0 ], "autoUv": false },
+						"south": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 3.0 ], "autoUv": false },
+						"west": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 3.0 ], "autoUv": false },
+						"up": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 2.0 ], "autoUv": false },
+						"down": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Catkin1",
+							"from": [ -0.5, 1.5, -0.5 ], 
+							"to": [ 1.5, 5.5, 1.5 ], 
+							"rotationOrigin": [ 0.5, 1.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#willow_seed", "uv": [ 2.0, 8.0, 6.0, 16.0 ], "autoUv": false },
+								"east": { "texture": "#willow_seed", "uv": [ 2.0, 8.0, 6.0, 16.0 ], "autoUv": false },
+								"south": { "texture": "#willow_seed", "uv": [ 2.0, 8.0, 6.0, 16.0 ], "autoUv": false },
+								"west": { "texture": "#willow_seed", "uv": [ 2.0, 8.0, 6.0, 16.0 ], "autoUv": false },
+								"up": { "texture": "#willow_seed", "uv": [ 2.0, 10.0, 6.0, 14.0 ], "autoUv": false },
+								"down": { "texture": "#willow_seed", "uv": [ 2.0, 10.0, 6.0, 14.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Catkin1pollen1",
+									"from": [ 1.0, 0.0, -1.0 ], 
+									"to": [ 1.0, 4.0, 3.0 ], 
+									"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+									"faces": {
+										"north": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 2.0, 4.0 ], "enabled": false, "autoUv": false },
+										"east": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "enabled": false },
+										"south": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+										"west": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+										"up": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+										"down": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false }
+									}
+								},
+								{
+									"name": "Catkin1pollen1w",
+									"from": [ 0.999, 0.0, -1.0003 ], 
+									"to": [ 0.999, 4.0, 2.9997 ], 
+									"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+									"rotationY": 89.98,
+									"faces": {
+										"north": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 2.0, 4.0 ], "enabled": false, "autoUv": false },
+										"east": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "enabled": false },
+										"south": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+										"west": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+										"up": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+										"down": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Catkinstem2",
+					"from": [ -0.1, 1.0, 0.0 ], 
+					"to": [ 0.9, 2.5, 1.0 ], 
+					"rotationOrigin": [ 0.4, 1.0, 0.5 ],
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 3.0 ], "autoUv": false },
+						"south": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 3.0 ], "autoUv": false },
+						"west": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 3.0 ], "autoUv": false },
+						"up": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 2.0 ], "autoUv": false },
+						"down": { "texture": "#willow_seed", "uv": [ 13.0, 0.0, 15.0, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Catkin2",
+							"from": [ -0.5, 1.5, -0.5 ], 
+							"to": [ 1.5, 5.5, 1.5 ], 
+							"rotationOrigin": [ 0.5, 1.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#willow_seed", "uv": [ 2.0, 8.0, 6.0, 16.0 ], "autoUv": false },
+								"east": { "texture": "#willow_seed", "uv": [ 2.0, 8.0, 6.0, 16.0 ], "autoUv": false },
+								"south": { "texture": "#willow_seed", "uv": [ 2.0, 8.0, 6.0, 16.0 ], "autoUv": false },
+								"west": { "texture": "#willow_seed", "uv": [ 2.0, 8.0, 6.0, 16.0 ], "autoUv": false },
+								"up": { "texture": "#willow_seed", "uv": [ 2.0, 10.0, 6.0, 14.0 ], "autoUv": false },
+								"down": { "texture": "#willow_seed", "uv": [ 2.0, 10.0, 6.0, 14.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Catkin2pollen1",
+									"from": [ 0.999, 0.0, -1.0003 ], 
+									"to": [ 0.999, 4.0, 2.9997 ], 
+									"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+									"rotationY": 89.98,
+									"faces": {
+										"north": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 2.0, 4.0 ], "enabled": false, "autoUv": false },
+										"east": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "enabled": false },
+										"south": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+										"west": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+										"up": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+										"down": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false }
+									}
+								},
+								{
+									"name": "Catkin2pollen2",
+									"from": [ 1.0, 0.0, -1.0 ], 
+									"to": [ 1.0, 4.0, 3.0 ], 
+									"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+									"faces": {
+										"north": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 2.0, 4.0 ], "enabled": false, "autoUv": false },
+										"east": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "enabled": false },
+										"south": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+										"west": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+										"up": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+										"down": { "texture": "#willow_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

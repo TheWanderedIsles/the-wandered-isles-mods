@@ -1,0 +1,13 @@
+[
+	{
+	"ingredientPattern": "FS",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "block", "code": "game:woodenfence-*-ew-free", "quantity": 2, "name": "wood" }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:plank-{wood}", "quantity": 1 }
+	}
+]

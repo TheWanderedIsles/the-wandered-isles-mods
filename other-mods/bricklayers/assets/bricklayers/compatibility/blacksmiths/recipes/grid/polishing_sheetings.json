@@ -1,0 +1,13 @@
+[
+        {
+                "ingredientPattern": "P,S",
+                "ingredients": {
+                        "S": { "type": "block", "code": "blacksmiths:metalsheeting-*-dull-down", "name": "metal" },
+                        "P": { "type": "item", "code": "bricklayers:polishingset-*", "isTool": true, "toolDurabilityCost": 1 }
+                },
+                "width": 1,
+                "height": 2,
+                "recipeGroup": 2,
+                "output": { "type": "block", "code": "blacksmiths:metalsheeting-{metal}-shiny-down", "quantity": 1 }
+        }
+]

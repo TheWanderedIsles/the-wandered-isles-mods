@@ -1,0 +1,172 @@
+[
+  {
+    "ingredientPattern": "CSC,LTL,LTL",
+    "recipeGroup": 1,
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:sewingkit", "quantity": 1 },
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+      
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-foot-travelling-boots" }
+  },
+  {
+    "ingredientPattern": "CSC,LTL,LTL",
+    "recipeGroup": 1,
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:sewingkit", "quantity": 1 },
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton", "quantity": 2 }
+      
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-foot-travelling-boots" }
+  },
+  {
+    "ingredientPattern": "CSC,LTL,LTL",
+    "recipeGroup": 1,
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:sewingkit", "quantity": 1 },
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool", "quantity": 2 }
+      
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-foot-travelling-boots" }
+  },
+
+  {
+    "ingredientPattern": "CKC,LTL,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "game:cloth-*-plain", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-foot-travelling-boots" }
+  },
+  {
+    "ingredientPattern": "CKC,LTL,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "cloth-*-plain", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-foot-travelling-boots" }
+  },
+  {
+    "ingredientPattern": "CKC,LTL,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "game:cloth-*-plain", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "hideandfabric:clothes-foot-travelling-boots" }
+  },
+  
+  {
+    "ingredientPattern": "CTC,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cloth-plain", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "clothes-foot-linen-shoes" }
+  },
+  {
+    "ingredientPattern": "CTC,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "cloth-cotton-plain", "name": "fabric", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "clothes-foot-cotton-shoes" }
+  },
+  {
+    "ingredientPattern": "CTC,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "cloth-wool-plain", "name": "fabric", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "clothes-foot-woolen-shoes" }
+  },
+  {
+    "ingredientPattern": "CTC,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "name": "fabric", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "clothes-foot-silk-shoes" }
+  },
+  {
+    "ingredientPattern": "CTC,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "name": "fabric", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "clothes-foot-silk-shoes" }
+  },
+  {
+    "ingredientPattern": "CTC,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "name": "fabric", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "clothes-foot-silk-shoes" }
+  },
+  {
+    "ingredientPattern": "CTC,LTL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "name": "fabric", "quantity": 2 },
+      "L": { "type": "item", "code": "game:leather-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "clothes-foot-silk-shoes" }
+  }
+]

@@ -1,0 +1,62 @@
+[
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 2 },
+		"B": { "type": "block", "code": "game:slantedroofing-thatch-east-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:drygrass", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 3 },
+		"B": { "type": "block", "code": "game:slantedroofingridge-thatch-ns-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:drygrass", "quantity": 6 }
+	},
+
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 4 },
+		"B": { "type": "block", "code": "game:slantedroofingtip-thatch-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:drygrass", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 3 },
+		"B": { "type": "block", "code": "game:slantedroofingcornerinner-thatch-east-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:drygrass", "quantity": 6 }
+	},
+
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 3 },
+		"B": { "type": "block", "code": "game:slantedroofingcornerouter-thatch-east-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:drygrass", "quantity": 6 }
+	}
+
+]

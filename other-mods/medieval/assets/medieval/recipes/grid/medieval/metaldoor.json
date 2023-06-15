@@ -1,0 +1,31 @@
+[
+	{
+	ingredientPattern: "WW_,WWW,WW_",
+	ingredients: {
+		"W": { type: "item", code: "game:metalplate-iron" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "medieval:metaldoornowindow-animetaldoornowindow"  }
+	},
+	{
+	ingredientPattern: "WWG,WWW,WW_",
+	ingredients: {
+		"W": { type: "item", code: "game:metalplate-iron" },
+		"G": { type: "block", code: "game:glass-plain" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "medieval:metaldoorwhitwindow-animetaldoorwhitwindow"  }
+	},
+	{
+	ingredientPattern: "WWG,WWW,WW_",
+	ingredients: {
+		"W": { type: "item", code: "game:metalplate-iron" },
+		"G": { type: "block", code: "game:glass-quartz" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "medieval:metaldoorwhitwindow-animetaldoorwhitwindow"  }
+	}
+]

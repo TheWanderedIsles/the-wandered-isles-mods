@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"____#######__##",
+		"___##____######",
+		"____________###",
+	]],
+	name: "LittleScythe",
+	output: { type: "item", code: "littlescythehead-{metal}"  }
+}

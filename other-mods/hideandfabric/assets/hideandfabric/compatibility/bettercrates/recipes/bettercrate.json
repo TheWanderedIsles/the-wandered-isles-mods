@@ -1,0 +1,66 @@
+[
+
+{
+  "ingredientPattern": "BLB,BCB,BBB",
+  "ingredients": { 
+    "B": { type: "item", code: "game:plank-*" },
+    "L": { "type": "block","code": "hideandfabric:fabric-cotton-*-down", name: "pattern", allowedVariants: ["diamond", "normal", "offset", "square"] },
+    "C": { "type": "block", "code": "game:chest-east", "attributes": { "type": "normal-generic" } } },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "bettercrates:bettercrate-wood-center-east" }
+},
+{
+  "ingredientPattern": "BLB,BCB,BBB",
+  "ingredients": { 
+    "B": { type: "item", code: "game:plank-*" },
+    "L": { "type": "block","code": "hideandfabric:fabric-wool-*-down", name: "pattern", allowedVariants: ["diamond", "normal", "offset", "square"] },
+    "C": { "type": "block", "code": "game:chest-east", "attributes": { "type": "normal-generic" } } },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "bettercrates:bettercrate-wood-center-east" }
+},
+{
+  "ingredientPattern": "BLB,BCB,BBB",
+  "ingredients": { 
+    "B": { type: "item", code: "game:plank-*" },
+    "L": { "type": "block","code": "hideandfabric:fabric-jute-normal-down" },
+    "C": { "type": "block", "code": "game:chest-east", "attributes": { "type": "normal-generic" } } },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "bettercrates:bettercrate-wood-center-east" }
+},
+
+{
+  "ingredientPattern": "BLB,BCB,BBB",
+  "ingredients": { 
+    "B": { type: "item", code: "game:plank-*" },
+    "L": { "type": "block","code": "hideandfabric:fabric-cotton-*-down", name: "pattern", allowedVariants: ["diamond", "normal", "offset", "square"] },
+    "C": { "type": "block", "code": "game:labeledchest-east" } },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "bettercrates:bettercrate-wood-center-east" }
+},
+{
+  "ingredientPattern": "BLB,BCB,BBB",
+  "ingredients": { 
+    "B": { type: "item", code: "game:plank-*" },
+    "L": { "type": "block","code": "hideandfabric:fabric-wool-*-down", name: "pattern", allowedVariants: ["diamond", "normal", "offset", "square"] },
+    "C": { "type": "block", "code": "game:labeledchest-east" } },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "bettercrates:bettercrate-wood-center-east" }
+},
+{
+  "ingredientPattern": "BLB,BCB,BBB",
+  "ingredients": { 
+    "B": { type: "item", code: "game:plank-*" },
+    "L": { "type": "block","code": "hideandfabric:fabric-jute-normal-down" },
+    "C": { "type": "block", "code": "game:labeledchest-east" } },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "bettercrates:bettercrate-wood-center-east" }
+}
+
+
+]

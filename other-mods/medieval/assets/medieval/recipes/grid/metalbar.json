@@ -1,0 +1,12 @@
+[
+  {
+    "ingredientPattern": "C,I",
+    "ingredients": {
+      "C": { type: "item", code: "game:saw-*", isTool: true  },
+      "I": { "type": "item", "code": "game:ingot-*", name: "metal", allowedVariants: ["molybdochalkos", "silver" , "gold", "copper", "brass"], quantity: 1 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "metalbar-{metal}", quantity: 4 }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "ingredientPattern": "H__,WWS",
+    "ingredients": {
+      "S": { type: "item", code: "game:saw-*", isTool: true  },
+      "H": { type: "item", code: "game:hammer-*", isTool: true  },
+      "W": { "type": "item", "code": "game:plank-*", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "pine", "oak", "purpleheart", "redwood", "walnut" ] },
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "littledoor-{material}-closed-up-south", quantity: 1 }
+  },
+  {
+    "ingredientPattern": "H__,WWS",
+    "ingredients": {
+      "S": { type: "item", code: "game:saw-*", isTool: true  },
+      "H": { type: "item", code: "game:hammer-*", isTool: true  },
+      "W": { "type": "block", "code": "game:planks-*-ns", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "littledoorplanks-{material}-closed-up-south", quantity: 2 }
+  },
+  {
+    "ingredientPattern": "H_,WS",
+    "ingredients": {
+      "S": { type: "item", code: "game:saw-*", isTool: true  },
+      "H": { type: "item", code: "game:hammer-*", isTool: true  },
+      "W": { "type": "block", "code": "game:planks-*-ns", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "block", "code": "littledoorplanksone-{material}-closed-up-south", quantity: 1 }
+  }
+]

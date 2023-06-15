@@ -1,0 +1,56 @@
+{
+	code: "fancytable",
+	behaviors: [{name: "UnstableFalling"} ],
+	variantgroups: [
+		{ code: "material", states: ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] },
+	],
+	attributes: {
+		"pieFormingSurface": true
+	},
+	shape: { base: "block/medieval/round_table" },
+	texturesByType: {
+		"*": {
+			"up": { base: "block/wood/debarked/vertical/up/{material}" },
+			"table": { base: "block/wood/debarked/vertical/{material}" }
+		}
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventoryByType: {
+		"*": { "general": ["fancytable-{material}"], "decorative": ["fancytable-{material}"], "medieval": ["fancytable-{material}"] }
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	faceCullMode: "NeverCull",
+	emitSideAo: {all: false },
+	sideAo: { all: false },
+	sidesolid: {
+		up: true,
+		all: false
+	},	
+	sideopaque: {
+		up: true,
+		all: false
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	}
+}

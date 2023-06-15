@@ -1,0 +1,12 @@
+[
+	{
+	"code": "causticpotash",
+	"sealHours": 48,
+	"comment": "Technically, this should produce wet yellowcake, which needs to be dried with heat to produce the final result.",
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:causticpotashportion", "litres": 2, "consumeLitres": 1 },
+		{ "type": "item", "code": "em:powdered-metal-uranium", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "em:powdered-ore-yellowcake", "quantity": 1 }
+	}
+]

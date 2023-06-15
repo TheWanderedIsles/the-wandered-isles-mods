@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"oakdown": "block/wood/sincortezalog/debarked/pillar/simple/oakdown",
+		"oak": "block/wood/sincortezalog/debarked/oak"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#oakdown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#oakdown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#oakdown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#oakdown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#oak", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#oak", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

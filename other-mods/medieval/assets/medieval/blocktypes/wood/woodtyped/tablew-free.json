@@ -1,0 +1,1185 @@
+{
+	"code": "tablew",
+	"class": "BlockFence",
+	"behaviors": [ {"name": "CanAttach", "properties": { "sides": ["up", "down"] } } ],
+	"attributes": {
+		"pieFormingSurface": true
+	},
+	"variantgroups": [
+		{ "code": "material", "states": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] },
+		{ "code": "type", "states": ["empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw"] },
+		{ "code": "cover", "states": ["free"] }
+	],
+	"creativeinventory": { "general": ["tablew-{material}-empty-free"], "decorative": ["tablew-{material}-empty-free"], "medieval": ["tablew-{material}-empty-free"] },	
+	"shapebytype": {
+		"*-empty-free": { "base": "block/wood/tablew/empty" },
+		"*-n-free": { "base": "block/wood/tablew/w", "rotateY": 270},
+		"*-e-free": { "base": "block/wood/tablew/w", "rotateY": 180 },
+		"*-s-free": { "base": "block/wood/tablew/w", "rotateY": 90 },
+		"*-w-free": { "base": "block/wood/tablew/w", "rotateY": 0 },
+
+		"*-ns-free": { "base": "block/wood/tablew/ew", "rotateY": 90 },
+		"*-ew-free": { "base": "block/wood/tablew/ew", "rotateY": 0 },
+		
+		"*-ne-free": { "base": "block/wood/tablew/sw", "rotateY": 180 },
+		"*-nw-free": { "base": "block/wood/tablew/sw", "rotateY": 270 },
+		"*-es-free": { "base": "block/wood/tablew/sw", "rotateY": 90 },
+		"*-sw-free": { "base": "block/wood/tablew/sw", "rotateY": 0 },
+		
+		"*-nes-free": { "base": "block/wood/tablew/nsw", "rotateY": 180 },
+		"*-new-free": { "base": "block/wood/tablew/nsw", "rotateY": 270 },
+		"*-nsw-free": { "base": "block/wood/tablew/nsw", "rotateY": 0 },
+		"*-esw-free": { "base": "block/wood/tablew/nsw", "rotateY": 90 },
+		
+		"*-nesw-free": { "base": "block/wood/tablew/nesw", "rotateY": 0 }
+	},
+	"drawtypeByType": {
+		"*-free": "JSON",
+		"*-snow": "JSONAndSnowLayer"
+	},
+	"blockmaterial": "Wood",
+	"texturesByType": {
+
+		"*-acacia-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 0 }
+		},
+		"*-acacia-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 90 }
+		},
+		"*-acacia-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 180 }
+		},
+		"*-acacia-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 270 }
+		},
+		"*-acacia-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 0 }
+		},
+		"*-acacia-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 270 }
+		},
+		"*-acacia-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 0 }
+		},
+		"*-acacia-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 180 }
+		},
+		"*-acacia-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 90 }
+		},
+		"*-acacia-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 270 }
+		},
+		"*-acacia-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 0 }
+		},
+		"*-acacia-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 180 }
+		},
+		"*-acacia-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 90 }
+		},
+		"*-acacia-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 0 }
+		},
+		"*-acacia-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 270 }
+		},
+		"*-acacia-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/acacia"},
+						"top": {"base": "block/wood/door/doorplanks/acacia", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-aged-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 0 }
+		},
+		"*-aged-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 90 }
+		},
+		"*-aged-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 180 }
+		},
+		"*-aged-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 270 }
+		},
+		"*-aged-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 0 }
+		},
+		"*-aged-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 270 }
+		},
+		"*-aged-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 0 }
+		},
+		"*-aged-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 180 }
+		},
+		"*-aged-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 90 }
+		},
+		"*-aged-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 270 }
+		},
+		"*-aged-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 0 }
+		},
+		"*-aged-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 180 }
+		},
+		"*-aged-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 90 }
+		},
+		"*-aged-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 0 }
+		},
+		"*-aged-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 270 }
+		},
+		"*-aged-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/aged"},
+						"top": {"base": "block/wood/door/doorplanks/aged", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-baldcypress-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 0 }
+		},
+		"*-baldcypress-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 90 }
+		},
+		"*-baldcypress-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 180 }
+		},
+		"*-baldcypress-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 270 }
+		},
+		"*-baldcypress-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 0 }
+		},
+		"*-baldcypress-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 270 }
+		},
+		"*-baldcypress-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 0 }
+		},
+		"*-baldcypress-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 180 }
+		},
+		"*-baldcypress-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 90 }
+		},
+		"*-baldcypress-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 270 }
+		},
+		"*-baldcypress-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 0 }
+		},
+		"*-baldcypress-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 180 }
+		},
+		"*-baldcypress-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 90 }
+		},
+		"*-baldcypress-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 0 }
+		},
+		"*-baldcypress-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 270 }
+		},
+		"*-baldcypress-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/baldcypress"},
+						"top": {"base": "block/wood/door/doorplanks/baldcypress", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-birch-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 0 }
+		},
+		"*-birch-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 90 }
+		},
+		"*-birch-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 180 }
+		},
+		"*-birch-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 270 }
+		},
+		"*-birch-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 0 }
+		},
+		"*-birch-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 270 }
+		},
+		"*-birch-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 0 }
+		},
+		"*-birch-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 180 }
+		},
+		"*-birch-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 90 }
+		},
+		"*-birch-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 270 }
+		},
+		"*-birch-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 0 }
+		},
+		"*-birch-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 180 }
+		},
+		"*-birch-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 90 }
+		},
+		"*-birch-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 0 }
+		},
+		"*-birch-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 270 }
+		},
+		"*-birch-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/birch"},
+						"top": {"base": "block/wood/door/doorplanks/birch", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-ebony-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 0 }
+		},
+		"*-ebony-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 90 }
+		},
+		"*-ebony-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 180 }
+		},
+		"*-ebony-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 270 }
+		},
+		"*-ebony-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 0 }
+		},
+		"*-ebony-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 270 }
+		},
+		"*-ebony-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 0 }
+		},
+		"*-ebony-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 180 }
+		},
+		"*-ebony-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 90 }
+		},
+		"*-ebony-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 270 }
+		},
+		"*-ebony-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 0 }
+		},
+		"*-ebony-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 180 }
+		},
+		"*-ebony-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 90 }
+		},
+		"*-ebony-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 0 }
+		},
+		"*-ebony-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 270 }
+		},
+		"*-ebony-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/ebony"},
+						"top": {"base": "block/wood/door/doorplanks/ebony", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-kapok-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 0 }
+		},
+		"*-kapok-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 90 }
+		},
+		"*-kapok-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 180 }
+		},
+		"*-kapok-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 270 }
+		},
+		"*-kapok-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 0 }
+		},
+		"*-kapok-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 270 }
+		},
+		"*-kapok-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 0 }
+		},
+		"*-kapok-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 180 }
+		},
+		"*-kapok-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 90 }
+		},
+		"*-kapok-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 270 }
+		},
+		"*-kapok-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 0 }
+		},
+		"*-kapok-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 180 }
+		},
+		"*-kapok-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 90 }
+		},
+		"*-kapok-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 0 }
+		},
+		"*-kapok-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 270 }
+		},
+		"*-kapok-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/kapok"},
+						"top": {"base": "block/wood/door/doorplanks/kapok", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-larch-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 0 }
+		},
+		"*-larch-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 90 }
+		},
+		"*-larch-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 180 }
+		},
+		"*-larch-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 270 }
+		},
+		"*-larch-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 0 }
+		},
+		"*-larch-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 270 }
+		},
+		"*-larch-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 0 }
+		},
+		"*-larch-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 180 }
+		},
+		"*-larch-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 90 }
+		},
+		"*-larch-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 270 }
+		},
+		"*-larch-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 0 }
+		},
+		"*-larch-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 180 }
+		},
+		"*-larch-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 90 }
+		},
+		"*-larch-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 0 }
+		},
+		"*-larch-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 270 }
+		},
+		"*-larch-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/larch"},
+						"top": {"base": "block/wood/door/doorplanks/larch", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-maple-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 0 }
+		},
+		"*-maple-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 90 }
+		},
+		"*-maple-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 180 }
+		},
+		"*-maple-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 270 }
+		},
+		"*-maple-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 0 }
+		},
+		"*-maple-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 270 }
+		},
+		"*-maple-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 0 }
+		},
+		"*-maple-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 180 }
+		},
+		"*-maple-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 90 }
+		},
+		"*-maple-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 270 }
+		},
+		"*-maple-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 0 }
+		},
+		"*-maple-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 180 }
+		},
+		"*-maple-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 90 }
+		},
+		"*-maple-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 0 }
+		},
+		"*-maple-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 270 }
+		},
+		"*-maple-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/maple"},
+						"top": {"base": "block/wood/door/doorplanks/maple", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-oak-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 0 }
+		},
+		"*-oak-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 90 }
+		},
+		"*-oak-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 180 }
+		},
+		"*-oak-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 270 }
+		},
+		"*-oak-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 0 }
+		},
+		"*-oak-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 270 }
+		},
+		"*-oak-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 0 }
+		},
+		"*-oak-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 180 }
+		},
+		"*-oak-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 90 }
+		},
+		"*-oak-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 270 }
+		},
+		"*-oak-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 0 }
+		},
+		"*-oak-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 180 }
+		},
+		"*-oak-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 90 }
+		},
+		"*-oak-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 0 }
+		},
+		"*-oak-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 270 }
+		},
+		"*-oak-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/oak"},
+						"top": {"base": "block/wood/door/doorplanks/oak", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-pine-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 0 }
+		},
+		"*-pine-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 90 }
+		},
+		"*-pine-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 180 }
+		},
+		"*-pine-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 270 }
+		},
+		"*-pine-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 0 }
+		},
+		"*-pine-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 270 }
+		},
+		"*-pine-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 0 }
+		},
+		"*-pine-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 180 }
+		},
+		"*-pine-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 90 }
+		},
+		"*-pine-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 270 }
+		},
+		"*-pine-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 0 }
+		},
+		"*-pine-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 180 }
+		},
+		"*-pine-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 90 }
+		},
+		"*-pine-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 0 }
+		},
+		"*-pine-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 270 }
+		},
+		"*-pine-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/pine"},
+						"top": {"base": "block/wood/door/doorplanks/pine", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-purpleheart-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 0 }
+		},
+		"*-purpleheart-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 90 }
+		},
+		"*-purpleheart-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 180 }
+		},
+		"*-purpleheart-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 270 }
+		},
+		"*-purpleheart-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 0 }
+		},
+		"*-purpleheart-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 270 }
+		},
+		"*-purpleheart-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 0 }
+		},
+		"*-purpleheart-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 180 }
+		},
+		"*-purpleheart-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 90 }
+		},
+		"*-purpleheart-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 270 }
+		},
+		"*-purpleheart-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 0 }
+		},
+		"*-purpleheart-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 180 }
+		},
+		"*-purpleheart-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 90 }
+		},
+		"*-purpleheart-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 0 }
+		},
+		"*-purpleheart-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 270 }
+		},
+		"*-purpleheart-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/purpleheart"},
+						"top": {"base": "block/wood/door/doorplanks/purpleheart", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-redwood-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 0 }
+		},
+		"*-redwood-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 90 }
+		},
+		"*-redwood-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 180 }
+		},
+		"*-redwood-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 270 }
+		},
+		"*-redwood-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 0 }
+		},
+		"*-redwood-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 270 }
+		},
+		"*-redwood-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 0 }
+		},
+		"*-redwood-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 180 }
+		},
+		"*-redwood-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 90 }
+		},
+		"*-redwood-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 270 }
+		},
+		"*-redwood-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 0 }
+		},
+		"*-redwood-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 180 }
+		},
+		"*-redwood-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 90 }
+		},
+		"*-redwood-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 0 }
+		},
+		"*-redwood-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 270 }
+		},
+		"*-redwood-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/redwood"},
+						"top": {"base": "block/wood/door/doorplanks/redwood", "rotation": 0 }
+		},
+
+
+
+
+
+		"*-walnut-empty-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 0 }
+		},
+		"*-walnut-n-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 90 }
+		},
+		"*-walnut-e-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 180 }
+		},
+		"*-walnut-s-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 270 }
+		},
+		"*-walnut-w-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 0 }
+		},
+		"*-walnut-ns-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 270 }
+		},
+		"*-walnut-ew-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 0 }
+		},
+		"*-walnut-ne-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 180 }
+		},
+		"*-walnut-nw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 90 }
+		},
+		"*-walnut-es-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 270 }
+		},
+		"*-walnut-sw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 0 }
+		},
+		"*-walnut-nes-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 180 }
+		},
+		"*-walnut-new-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 90 }
+		},
+		"*-walnut-nsw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 0 }
+		},
+		"*-walnut-esw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 270 }
+		},
+		"*-walnut-nesw-free": { 
+						"normal1": {"base": "block/snow/normal1"},
+						"material": {"base": "block/wood/door/doorplanks/walnut"},
+						"top": {"base": "block/wood/door/doorplanks/walnut", "rotation": 0 }
+		}
+	},
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},
+	"sideopaque": { "all": false },
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"selectionboxbytype": {
+		"*": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 }
+	},
+	"selectionboxesbytype": {
+		"*": [ { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 } ]
+	},	
+	"collisionboxbytype": {
+		"*": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 }
+	},
+	"collisionboxesbytype": {
+		"*": [ { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 } ]
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"materialDensity": 600,
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.2 },
+		"rotation": { "x": 5, "y": -3, "z": -96 },
+		"scale": 0.37
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.05, "z": 0 },
+		"rotation": { "x": 90, "y": -45, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.07
+	}
+}

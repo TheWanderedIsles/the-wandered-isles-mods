@@ -1,0 +1,119 @@
+{
+	code: "fruittree",
+	class: "BlockDynamicTreeFoliage",
+	entityClass: "DynamicTreeFoliage",
+	attributes: {
+		handbook: {
+			groupBy: ["wildcrafttrees:fruittree-leaves-*"]
+		},
+		foliageBlock: "wildcrafttrees:fruittree-foliage",
+		branchBlock: "wildcrafttrees:fruittree-branch",
+		treeFellingGroupCode: "fruittree",
+		foliageProperties: {
+			"base": {
+				"textures": {
+					"smallleaves-flowering": { base: "leaves" },
+					"smallleaves-fruiting": { base: "leaves" },
+					"smallleaves-ripe": { base: "leaves" },
+					"smallleaves-plain": { base: "leaves" },
+					
+					"largeleaves-flowering": { base: "largeleaves" },
+					"largeleaves-fruiting": { base: "largeleaves" },
+					"largeleaves-ripe": { base: "largeleaves" },
+					"largeleaves-plain": { base: "largeleaves" },
+					
+					"fruit-fruiting": { base: "fruiting" },
+					"fruit-ripe": { base: "ripe" },
+					
+					"blossom": { base: "blossom" },
+					"largeblossom": { base: "largeblossom" },
+					
+					"bark": { base: "bark" },
+					"treetrunk": { base: "treetrunk" }
+				},
+				"leafParticlesTexture": { base: "leaves" },
+				"blossomParticlesTexture": { base: "blossom" },
+			},
+			"almond": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/almond/"
+			},
+			"apricot": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/apricot/"
+			},
+			"citron": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/citron/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"cocoa": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/cocoa/"
+			},
+			"fig": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/fig/"
+			},
+			"hawthorn": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/hawthorn/"
+			},
+			"purpleplum": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/purpleplum/"
+			},
+			"quince": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/quince/"
+			},
+			"commonhackberry": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/commonhackberry/"
+			},
+			"sugarhackberry": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/sugarhackberry/"
+			},
+			"pomelo": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/pomelo/"
+			},
+			"hazelnut": {
+				"texturesBasePath": "wildcrafttrees:block/plant/fruittree/hazelnut/"
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["foliage"] },
+	],
+	creativeinventory: { "general": [""], "flora": [""] },
+	shape: { 
+		base: "game:block/plant/fruittree/leaves-ver",
+	},
+	renderpass: "OpaqueNoCull",
+	faceCullMode: "Callback",
+	blockmaterial: "Leaves",
+	vertexFlags: {
+		zOffset: 4
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sideao: {
+		all: true
+	},
+	emitSideAo: {
+		all: false
+	},
+	snowCoverage: true,
+	replaceable: 4000,
+	lightAbsorption: 1,
+	resistance: 0.5,
+	collisionbox: null,
+	drops: [],
+	sounds: {
+		break: "game:block/plant",
+		place: "game:block/plant",
+		hit: "game:block/plant",
+		walk: "game:walk/grass"
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	materialDensity: 300,
+	frostable: true
+}

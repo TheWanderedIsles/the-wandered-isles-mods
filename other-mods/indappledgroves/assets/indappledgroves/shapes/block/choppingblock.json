@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"wood": "C:/Users/Owner/AppData/Roaming/VintageStory/VS1165/assets/survival/textures/block/wood/treetrunk/wood",
+		"bark": "C:/Users/Owner/AppData/Roaming/VintageStory/VS1165/assets/survival/textures/block/wood/bark/wood"
+	},
+	"elements": [
+		{
+			"name": "choppingblock",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 2.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"south": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#wood", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

@@ -1,0 +1,76 @@
+[
+	{
+		"ingredientPattern": "L ,RF,B ",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vesselcoloredlid-burnt-*", "name": "color",
+				"allowedVariants": [
+				"black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+				"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"R": { "type": "block", "code": "bricklayers:vesselcoloredring-burnt-*", "name": "color",
+				"allowedVariants": [
+				"black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+				"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"B": { "type": "block", "code": "bricklayers:vesselcoloredbase-burnt-*", "name": "color",
+				"allowedVariants": [
+				"black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+				"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"F": { "type": "block", "code": "morecandles:waxblock", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 3,
+		"output": { "type": "block", "code": "bricklayers:storagevesselcolored-burnt-{color}", "attributes": { "type": "normal" } }
+	},
+
+	{
+		"ingredientPattern": "L ,RF,B ",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vesselcoloredlid-burnt-blue" },
+			"R": { "type": "block", "code": "bricklayers:vesselcoloredring-burnt-blue" },
+			"B": { "type": "block", "code": "bricklayers:vesselcoloredbase-burnt-blue" },
+			"F": { "type": "block", "code": "morecandles:waxblock", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 3,
+		"output": { "type": "block", "code": "game:storagevessel-burned", "attributes": { "type": "normal" } }
+	},
+
+	{
+		"ingredientPattern": "L ,RF,B ",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vesselcoloredlid-burnt-*", "name": "color",
+				"allowedVariants": [
+				"black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+				"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"R": { "type": "block", "code": "bricklayers:vesselcoloredring-burnt-*", "name": "color",
+				"allowedVariants": [
+				"black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+				"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"B": { "type": "block", "code": "bricklayers:vesselcoloredbase-burnt-*", "name": "color",
+				"allowedVariants": [
+				"black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+				"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"F": { "type": "block", "code": "morecandles:soyblock", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 3,
+		"output": { "type": "block", "code": "bricklayers:storagevesselcolored-burnt-{color}", "attributes": { "type": "normal" } }
+	},
+
+	{
+		"ingredientPattern": "L ,RF,B ",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vesselcoloredlid-burnt-blue" },
+			"R": { "type": "block", "code": "bricklayers:vesselcoloredring-burnt-blue" },
+			"B": { "type": "block", "code": "bricklayers:vesselcoloredbase-burnt-blue" },
+			"F": { "type": "block", "code": "morecandles:soyblock", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 3,
+		"recipeGroup": 3,
+		"output": { "type": "block", "code": "game:storagevessel-burned", "attributes": { "type": "normal" } }
+	}
+
+]

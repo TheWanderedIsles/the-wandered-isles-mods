@@ -1,0 +1,40 @@
+{
+	code: "granite1up",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/stone/granite1/graniteup" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "terrain": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/stone/pillar/granite1/graniteup" },
+		"east": { base: "block/stone/pillar/granite1/graniteup" },
+		"south": { base: "block/stone/pillar/granite1/graniteup" },
+		"west": { base: "block/stone/pillar/granite1/graniteup" },
+		"up": { base: "game:block/stone/polishedrock/granite" },
+		"down": { base: "game:block/stone/polishedrock/granite" },
+		"inside-north": { base: "block/stone/pillar/granite1/graniteup" },
+		"inside-east": { base: "block/stone/pillar/granite1/graniteup" },
+		"inside-south": { base: "block/stone/pillar/granite1/graniteup" },
+		"inside-west": { base: "block/stone/pillar/granite1/graniteup" },
+		"inside-up": { base: "game:block/stone/polishedrock/granite" },
+		"inside-down": { base: "game:block/stone/polishedrock/granite" }
+
+	},
+	replaceable: 90,
+	resistance: 3,
+	sounds: {
+		"walk": "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

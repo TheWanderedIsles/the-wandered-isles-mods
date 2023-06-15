@@ -1,0 +1,45 @@
+{
+	"code": "glazedtiles",
+	"class": "Block",
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "glazedtiles-clear-dull-*", "glazedtiles-clear-polished-*" ]
+		},
+		"canChisel": true
+	},
+	"variantgroups": [
+		{ "code": "type", "states": [ "clear" ] },
+		{ "code": "edge", "states": [ "dull", "polished" ] },
+		{ "code": "color", "states": [ "black", "blue", "brown", "green", "greenblue", "lapislazuli", "malachite", "orange", "purple", "red", "redbrown", "yellow", "white" ] }
+	],
+	"shape": { "base": "game:block/basic/cube" },
+	"drawtype": "Cube",
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "construction": ["*"], "ceramics": ["*"] },
+	"replaceable": 130,
+	"resistance": 2,
+	"lightAbsorption": 99,
+	"texturesByType": {
+		"*-dull-*": {
+			"all": { "base": "bricklayers:block/ceramic/glazed/burnt/tile/{color}" }
+		},
+		"*": {
+			"all": { "base": "bricklayers:block/ceramic/glazed/burnt/tile/{color}", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] }
+		}
+	},
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"break": "game:block/rock-break-pickaxe",
+		"walk": "game:walk/ceramic",
+		"byTool": {
+			"Pickaxe": { "hit": "game:block/rock-hit-pickaxe", "break": "game:block/rock-break-pickaxe" }
+		}
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.2, "y": -1.1, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.37
+	}
+}

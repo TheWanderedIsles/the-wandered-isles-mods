@@ -1,0 +1,218 @@
+{
+	"code": "hidearmor",
+	"class": "ItemWearable",
+	"heldTpIdleAnimation": "holdunderarm",
+	"variantgroups": [
+			{ "code": "bodypart",	"states": [ "head", "headbasic", "body", "legs" ] },
+					{ "code": "construction",	"states": [ "wolfhide", "bearhide" ] }
+				],
+	"shape": { "base": "game:entity/humanoid/seraph/armor/hide/{bodypart}" },
+	"shapeByType": {
+		"hidearmor-body-bearhide": { "base": "entity/humanoid/seraph/armor/hide/bodyfurtrim"},
+		"hidearmor-body-*": { "base": "entity/humanoid/seraph/armor/hide/bodyfur" },
+		"hidearmor-legs-*": { "base": "entity/humanoid/seraph/armor/hide/legs" },
+		"hidearmor-head-wolfhide": { "base": "entity/humanoid/seraph/armor/hide/headwolf" },
+		"hidearmor-head-bearhide": { "base": "entity/humanoid/seraph/armor/hide/headbear" },
+		"hidearmor-headbasic-wolfhide": { "base": "entity/humanoid/seraph/armor/hide/headwolfbasic" },
+		"hidearmor-headbasic-bearhide": { "base": "entity/humanoid/seraph/armor/hide/headbearbasic" }
+	},
+	"texturesByType": {
+		"hidearmor-head-bearhide": {
+			"seraph": { "base": "game:block/transparent" },
+			"material": { "base": "entity/humanoid/serapharmor/hide/bearcoatbrown" },
+			"skin": { "base": "game:entity/bear/brown1" }
+		},
+		"hidearmor-headbasic-bearhide": {
+			"seraph": { "base": "game:block/transparent" },
+			"material": { "base": "entity/humanoid/serapharmor/hide/bearcoatbrown" }
+		},
+		"hidearmor-head-wolfhide": {
+			"seraph": { "base": "game:block/transparent" },
+			"material": { "base": "entity/humanoid/serapharmor/hide/wolfcoatgray" },
+			"skin": { "base": "game:entity/wolf/wolf2" }
+		},
+		"hidearmor-headbasic-wolfhide": {
+			"seraph": { "base": "game:block/transparent" },
+			"material": { "base": "entity/humanoid/serapharmor/hide/wolfcoatgray" }
+		},
+		"hidearmor-body-bearhide": {
+			"seraph": { "base": "game:block/transparent" },
+			"hide": { "base": "entity/humanoid/serapharmor/hide/bearcoatbrown" }
+		},
+		"hidearmor-body-wolfhide": {
+			"seraph": { "base": "game:block/transparent" },
+			"hide": { "base": "entity/humanoid/serapharmor/hide/wolfcoatgray" }
+		},
+		"hidearmor-legs-bearhide": {
+			"seraph": { "base": "game:block/transparent" },
+			"hide": { "base": "entity/humanoid/serapharmor/hide/bearcoatbrown" }
+		},
+		"hidearmor-legs-wolfhide": {
+			"seraph": { "base": "game:block/transparent" },
+			"hide"  : { "base": "entity/humanoid/serapharmor/hide/wolfcoatgray" }
+		}
+	},
+
+		"storageFlags": 128,
+		"attributes": {
+		"visibleDamageEffect": true,
+		"wearableAttachment": true,
+		"clothescategoryByType": {
+			"hidearmor-head-*": "armorhead",
+			"hidearmor-headbasic-*": "armorhead",
+			"hidearmor-body-*": "armorbody",
+			"hidearmor-legs-*": "armorlegs"
+		},
+		"disableElementsByType": {
+			"hidearmor-head-*": ["Hair tile upper part", "Ponytail1", "hideme"],
+			"hidearmor-headbasic-*": ["Hair tile upper part", "Ponytail1", "hideme"],
+			"hidearmor-body-*": ["Waist", "hideupperarm", "hidelowerarm"]
+		},
+		"defaultProtLoss": {
+			"perTierRelativeProtectionLoss": [0.03, 0.15],
+			"perTierFlatDamageReductionLoss": [0.1, 0.2]
+		},
+		"footStepSoundByType": {
+			"hidearmor-*": "game:wearable/leather*"
+		},
+		"protectionModifiersByType": {
+			"hidearmor-*-wolfhide": {
+				"relativeProtection": 0.7,
+				"flatDamageReduction": 0.8,
+				"protectionTier": 2,
+				"perTierRelativeProtectionLoss": [0.015, 0.075],
+				"perTierFlatDamageReductionLoss": [0.05, 0.1]
+			},
+			"hidearmor-*-bearhide": {
+				"relativeProtection": 0.75,
+				"flatDamageReduction": 0.9,
+				"protectionTier": 2,
+				"perTierRelativeProtectionLoss": [0.02, 0.075],
+				"perTierFlatDamageReductionLoss": [0.06, 0.1]
+			}
+		},
+		"statModifiersByType": {
+			"hidearmor-*-wolfhide": {
+				"walkSpeed": -0.03,
+				"healingeffectivness": -0.15,
+				"hungerrate": 0.04
+			},
+			"hidearmor-*-bearhide": {
+				"walkSpeed": -0.04,
+				"healingeffectivness": -0.15,
+				"hungerrate": 0.04
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "hideandfabric": ["*"] },
+	"renderAlphaTest": 0.25,
+	"durabilityByType": {
+		"hidearmor-*-wolfhide": 500,
+		"hidearmor-*-bearhide": 600
+	},
+
+	"fpHandTransformByType": {
+		"hidearmor-head-*": {
+			"translation": { "x": 0.4, "y": -1.9, "z": -0.5 },
+			"rotation": { "x": 163, "y": -111, "z": -180 },
+			"origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+			"scale": 2.15
+		},
+		"hidearmor-headbasic-*": {
+			"translation": { "x": 0.4, "y": -1.9, "z": -0.5 },
+			"rotation": { "x": 163, "y": -111, "z": -180 },
+			"origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+			"scale": 2.15
+		},
+		"hidearmor-body-*": {
+			"translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
+			"rotation": { "x": 163, "y": -111, "z": -180 },
+			"origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+			"scale": 2.15
+		},
+		"hidearmor-legs-*": {
+			"translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
+			"rotation": { "x": 163, "y": -111, "z": -180 },
+			"origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+			"scale": 2.15
+		}
+	},
+	"tpHandTransformByType": {
+		"hidearmor-head-*": {
+			"translation": { "x": -0.82, "y": -2.2, "z": -0.5 },
+			"rotation": { "x": 18, "y": 169, "z": 30 },
+			"origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+			"scale": 0.64
+		},
+		"hidearmor-headbasic-*": {
+			"translation": { "x": -0.82, "y": -2.2, "z": -0.5 },
+			"rotation": { "x": 18, "y": 169, "z": 30 },
+			"origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+			"scale": 0.64
+		},
+		"hidearmor-body-*": {
+			"translation": { "x": -1, "y": -1.9, "z": -0.5 },
+			"rotation": { "x": 97, "y": -168, "z": 94 },
+			"origin": { "x": 0.5, "y": 1.5, "z": 0.5 },
+			"scale": 0.67
+		},
+		"hidearmor-legs-*": {
+			"translation": { "x": -0.7, "y": -0.6, "z": -0.4 },
+			"rotation": { "x": 95, "y": -20, "z": -91 },
+			"origin": { "x": 0.5, "y": 0.7, "z": 0.5 },
+			"scale": 0.74
+		}
+	},
+	"guiTransformByType": {
+		"hidearmor-head-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -26, "y": -46, "z": -180 },
+			"origin": { "x": 0.6, "y": 1.72, "z": 0.5 },
+			"scale": 2
+		},
+		"hidearmor-headbasic-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -26, "y": -46, "z": -180 },
+			"origin": { "x": 0.6, "y": 1.72, "z": 0.5 },
+			"scale": 2
+		},
+		"hidearmor-body-*": {
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -26, "y": -46, "z": -180 },
+			"origin": { "x": 0.5, "y": 1.11, "z": 0.5 },
+			"scale": 1.37
+		},
+		"hidearmor-legs-*": {
+			"translation": { "x": 1, "y": 0, "z": 0 },
+			"rotation": { "x": -26, "y": -46, "z": -180 },
+			"origin": { "x": 0.5, "y": 0.6, "z": 0.5 },
+			"scale": 1.25
+		}
+	},
+	"groundTransformByType": {
+		"hidearmor-head-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.34, "y": 1.71, "z": 0.5 },
+			"scale": 3.1
+		},
+		"hidearmor-headbasic-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.34, "y": 1.71, "z": 0.5 },
+			"scale": 3.1
+		},
+		"hidearmor-body-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 90 },
+			"origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
+			"scale": 3.1
+		},
+		"hidearmor-legs-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 90 },
+			"origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
+			"scale": 3.1
+		}
+	}
+}

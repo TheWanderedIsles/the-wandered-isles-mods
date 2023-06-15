@@ -1,0 +1,125 @@
+{
+	code: "bigbasketleather",
+	class: "BlockContainers",
+	entityclass: "BlockEntityContainers",
+	behaviors: [{name: "Lockable" }, {name: "Container"}, {name: "HorizontalOrientable", properties: {  dropBlockFace: "east" }}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}],
+	entityBehaviors: [{ name: "Animatable" }],
+	attributes: {
+		partialAttachable: false,
+		inventoryClassName: "container",
+		canPlaceGroundStorgeOnTop: false,
+		defaultType: "bigbasketleather",
+		openSound: "sounds/block/container/basketopen",
+		closeSound: "sounds/block/container/basketclose",
+		types: ["bigbasketleather"],
+		drop: {
+			bigbasketleather: true
+		},
+		quantitySlots: {
+			bigbasketleather: 20
+		},
+		dialogTitleLangCode: {
+			bigbasketleather: "Cesta Grande"
+		},
+		storageType: {
+			bigbasketleather: 189
+		},
+		retrieveOnly: {
+			bigbasketleather: false
+		},
+		shape: {
+			bigbasketleather: "block/medieval/cestaleather"
+		},
+		variantByGroup: "side",
+		variantByGroupInventory: null
+	},
+	variantgroups: [
+		{ code:"side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: {  },
+	creativeinventoryStacksByType: {
+		"*-east": [
+			{
+				tabs: [ "general", "decorative", "medieval" ],
+				stacks: [
+					{ type: "block", code: "bigbasketleather-east", attributes: { type: "bigbasketleather" } }
+				]
+			}
+		]
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "block/medieval/cestaleather", rotateY: 270 },
+	shapeByType: {
+		"*-north": { base: "block/medieval/cestaleather", rotateY: 0 },
+		"*-east": { base: "block/medieval/cestaleather", rotateY: 270 },
+		"*-west": { base: "block/medieval/cestaleather", rotateY: 90 },
+		"*-south": { base: "block/medieval/cestaleather", rotateY: 180 },
+	},
+
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	textures: {
+		"bigbasketleather-leather": { base: "block/plant/cesta/leather" }
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 2,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.4375,
+			"z2": 0.9375
+		},
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.5,
+			"z2": 1
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.4375,
+			"z2": 0.9375
+		},
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.5,
+			"z2": 1
+		}
+	],
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.3
+	}
+}

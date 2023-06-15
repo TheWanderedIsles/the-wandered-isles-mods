@@ -1,0 +1,316 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"medieval-woman-shoes-white-r": "entity/humanoid/seraphclothes/foot/medieval-woman-shoes-white-r",
+		"medieval-woman-shoes-white-l": "entity/humanoid/seraphclothes/foot/medieval-woman-shoes-white-l"
+	},
+	"elements": [
+		{
+			"name": "shoe R",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.1, -0.1, -0.1 ], 
+			"to": [ 4.1, 1.9, 3.1 ], 
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 10.0, 8.0, 12.0 ] },
+				"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.0, 10.0, 4.0, 12.0 ] },
+				"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 11.0, 10.0, 15.0, 12.0 ] },
+				"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 10.0, 11.0, 12.0 ] },
+				"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.0, 5.5, 5.0, 8.5 ] },
+				"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 12.0, 11.0, 16.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "N fold 20",
+					"from": [ 2.2, 2.0, 0.0 ], 
+					"to": [ 4.2, 3.0, 0.2 ], 
+					"rotationOrigin": [ 2.2, 2.0, 0.0 ],
+					"rotationX": -15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.0, 6.0, 10.0 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.0, 6.0, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.0, 6.0, 9.5 ] },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.5, 9.0, 3.5, 9.5 ] }
+					}
+				},
+				{
+					"name": "front 28",
+					"from": [ 4.0, 2.0, 0.0 ], 
+					"to": [ 4.2, 3.0, 0.5 ], 
+					"rotationOrigin": [ 4.2, 2.0, 0.0 ],
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 9.5 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 9.5, 8.5, 10.0 ] }
+					}
+				},
+				{
+					"name": "front 29",
+					"from": [ 0.0, 0.99, 0.01 ], 
+					"to": [ 4.08, 1.99, 0.19 ], 
+					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
+					"rotationZ": 13.7,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.5, 8.0, 10.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.5, 4.5, 10.5 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 11.0, 9.5, 15.0, 10.5 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 9.5, 8.5, 10.5 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 12.0, 8.5, 16.0 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.0, 5.0, 5.0, 5.5 ] }
+					}
+				},
+				{
+					"name": "shoe R30",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 4.2, 0.5, 3.2 ], 
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 11.5, 8.0, 12.0 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.0, 11.5, 4.0, 12.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 11.0, 11.5, 15.0, 12.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 11.5, 11.0, 12.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 9.0, 12.5, 13.0, 15.5 ] },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 12.0, 11.0, 16.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "front 31",
+					"from": [ 0.0, 1.0, 0.01 ], 
+					"to": [ 4.08, 2.0, 3.19 ], 
+					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
+					"rotationZ": 13.7,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.5, 8.0, 10.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 7.5, 7.0, 8.5 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 11.0, 9.5, 15.0, 10.5 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 9.5, 11.0, 10.5 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.0, 6.0, 4.0, 10.0 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.0, 5.0, 5.0, 8.0 ] }
+					}
+				},
+				{
+					"name": "front 30",
+					"from": [ 0.0, 0.99, 3.01 ], 
+					"to": [ 4.08, 1.99, 3.19 ], 
+					"rotationOrigin": [ 0.0, 2.0, 3.0 ],
+					"rotationZ": 13.7,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.5, 8.0, 10.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.5, 4.5, 10.5 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 11.0, 9.5, 15.0, 10.5 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 9.5, 8.5, 10.5 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 12.0, 8.5, 16.0 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.0, 5.0, 5.0, 5.5 ] }
+					}
+				},
+				{
+					"name": "N fold 31",
+					"from": [ 2.2, 2.0, 3.0 ], 
+					"to": [ 4.2, 3.0, 3.2 ], 
+					"rotationOrigin": [ 2.2, 2.0, 3.2 ],
+					"rotationX": 15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.5, 6.0, 10.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.0, 6.0, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 4.0, 9.0, 6.0, 9.5 ] },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.5, 9.0, 3.5, 9.5 ] }
+					}
+				},
+				{
+					"name": "front 32",
+					"from": [ 4.0, 2.0, 2.7 ], 
+					"to": [ 4.2, 3.0, 3.2 ], 
+					"rotationOrigin": [ 4.2, 2.0, 2.7 ],
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 9.5 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 9.5, 8.5, 10.0 ] }
+					}
+				},
+				{
+					"name": "front 33",
+					"from": [ 4.0, 2.0, 0.5 ], 
+					"to": [ 4.2, 2.5, 2.7 ], 
+					"rotationOrigin": [ 4.2, 2.0, 0.5 ],
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 3.5, 9.0, 4.0, 9.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.5, 9.5, 3.5, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.0, 9.0, 1.5, 9.5 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.5, 9.5, 3.5, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 1.5, 9.5, 3.5, 10.0 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-r", "uv": [ 8.0, 9.5, 8.5, 11.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "shoe L",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.1, -0.1, -0.1 ], 
+			"to": [ 4.1, 1.9, 3.1 ], 
+			"renderInEditor": false,
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 10.0, 5.0, 12.0 ] },
+				"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.0, 10.0, 15.0, 12.0 ] },
+				"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 10.0, 12.0, 12.0 ] },
+				"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 5.0, 10.0, 8.0, 12.0 ] },
+				"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 5.5, 5.0, 8.5 ] },
+				"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 12.0, 11.0, 16.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "N fold 12",
+					"from": [ 2.2, 2.0, 0.0 ], 
+					"to": [ 4.2, 3.0, 0.2 ], 
+					"rotationOrigin": [ 2.2, 2.0, 0.0 ],
+					"rotationX": -15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 3.0, 10.0 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 1.5, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 10.0, 9.0, 12.0, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 10.0, 9.0, 10.5, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 10.0, 9.0, 12.0, 9.5 ] },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 3.0, 9.0, 5.0, 9.5 ] }
+					}
+				},
+				{
+					"name": "front 13",
+					"from": [ 4.0, 2.0, 0.0 ], 
+					"to": [ 4.2, 3.0, 0.5 ], 
+					"rotationOrigin": [ 4.2, 2.0, 0.0 ],
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 1.5, 10.0 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 1.5, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 1.5, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 1.5, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 1.5, 9.5 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 7.0, 9.5, 7.5, 10.0 ] }
+					}
+				},
+				{
+					"name": "front 14",
+					"from": [ 0.0, 0.99, 0.01 ], 
+					"to": [ 4.08, 1.99, 0.19 ], 
+					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
+					"rotationZ": 13.7,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.5, 5.0, 10.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.5, 1.5, 10.5 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 9.5, 12.0, 10.5 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 4.5, 9.5, 5.0, 10.5 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 12.0, 8.5, 16.0 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 5.0, 5.0, 5.5 ] }
+					}
+				},
+				{
+					"name": "shoe R15",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 4.2, 0.5, 3.2 ], 
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 11.5, 5.0, 12.0 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.0, 11.5, 15.0, 12.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 11.5, 12.0, 12.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 5.0, 11.5, 8.0, 12.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 7.0, 12.5, 11.0, 15.5 ] },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 12.0, 11.0, 16.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "front 16",
+					"from": [ 0.0, 1.0, 0.01 ], 
+					"to": [ 4.08, 2.0, 3.19 ], 
+					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
+					"rotationZ": 13.7,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.5, 5.0, 10.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 4.0, 7.5, 7.0, 8.5 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 9.5, 12.0, 10.5 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 5.0, 9.5, 8.0, 10.5 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 5.0, 6.5, 8.0, 10.5 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 5.0, 5.0, 8.0 ] }
+					}
+				},
+				{
+					"name": "front 17",
+					"from": [ 0.0, 0.99, 3.01 ], 
+					"to": [ 4.08, 1.99, 3.19 ], 
+					"rotationOrigin": [ 0.0, 2.0, 3.0 ],
+					"rotationZ": 13.7,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.5, 5.0, 10.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.5, 1.5, 10.5 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 9.5, 12.0, 10.5 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 4.5, 9.5, 5.0, 10.5 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 12.0, 8.5, 16.0 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 5.0, 5.0, 5.5 ] }
+					}
+				},
+				{
+					"name": "N fold 18",
+					"from": [ 2.2, 2.0, 3.0 ], 
+					"to": [ 4.2, 3.0, 3.2 ], 
+					"rotationOrigin": [ 2.2, 2.0, 3.2 ],
+					"rotationX": 15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.5, 3.0, 10.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 1.5, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 10.0, 9.0, 12.0, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 2.5, 9.0, 3.0, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 1.0, 9.0, 3.0, 9.5 ] },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 3.0, 9.0, 5.0, 9.5 ] }
+					}
+				},
+				{
+					"name": "front 19",
+					"from": [ 4.0, 2.0, 2.7 ], 
+					"to": [ 4.2, 3.0, 3.2 ], 
+					"rotationOrigin": [ 4.2, 2.0, 2.7 ],
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.0, 9.0, 12.5, 10.0 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.0, 9.0, 12.5, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.0, 9.0, 12.5, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.0, 9.0, 12.5, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.0, 9.0, 12.5, 9.5 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 9.5, 8.5, 10.0 ] }
+					}
+				},
+				{
+					"name": "front 20",
+					"from": [ 4.0, 2.0, 0.5 ], 
+					"to": [ 4.2, 2.5, 2.7 ], 
+					"rotationOrigin": [ 4.2, 2.0, 0.5 ],
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.0, 9.0, 12.5, 9.5 ] },
+						"east": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.5, 9.5, 14.5, 10.0 ] },
+						"south": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 14.0, 9.5, 14.5, 10.0 ] },
+						"west": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.5, 9.5, 14.5, 10.0 ] },
+						"up": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 12.5, 9.5, 14.5, 10.0 ], "rotation": 90 },
+						"down": { "texture": "#medieval-woman-shoes-white-l", "uv": [ 8.0, 9.5, 8.5, 11.5 ] }
+					}
+				}
+			]
+		}
+	]}

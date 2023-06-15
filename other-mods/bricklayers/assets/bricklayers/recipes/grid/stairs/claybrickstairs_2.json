@@ -1,0 +1,12 @@
+[
+	{
+	"ingredientPattern": "_BB,BMB,BBB",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar", "name": "mortar", "quantity": 1 },
+		"B": { "type": "item", "code": "game:burnedbrick-*", "name": "brick", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:brickstairs-{brick}-up-north-free", "quantity": 4 }
+	}
+]

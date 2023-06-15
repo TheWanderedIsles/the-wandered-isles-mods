@@ -1,0 +1,253 @@
+[
+
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "blueSpruceClimateTint",
+            "texture": { "base": "environment/seasons/bluespruceclimatetint" },
+            "padding": 4,
+            "loadIntoBlockTextureAtlas": true
+        },
+        "file": "game:config/colormaps.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "seasonalBlueSpruce",
+            "texture": { "base": "environment/seasons/bluesprucetint" },
+            "loadIntoBlockTextureAtlas": true
+        },
+        "file": "game:config/colormaps.json"
+    },
+
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "alder",
+        "file": "game:blocktypes/plant/leaves/normal.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "brideinwhite",
+        "file": "game:blocktypes/plant/leaves/normal.json"
+    },
+	{
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "bluespruce",
+        "file": "game:blocktypes/plant/leaves/normal.json"
+    },
+	
+	{
+        "op": "remove",
+        "path": "/climateColorMapByType/*",
+        "file": "game:blocktypes/plant/leaves/normal.json"
+    },
+    {
+      "op": "add",
+      "path": "/climateColorMapByType/*-bluespruce",
+      "value": "blueSpruceClimateTint",
+      "file": "game:blocktypes/plant/leaves/normal.json"
+  },
+	{
+        "op": "add",
+        "path": "/climateColorMapByType/*",
+        "value": "climatePlantTint",
+        "file": "game:blocktypes/plant/leaves/normal.json"
+    },
+	
+	{
+        "op": "remove",
+        "path": "/seasonColorMapByType/*",
+        "file": "game:blocktypes/plant/leaves/normal.json"
+    },
+    {
+      "op": "add",
+      "path": "/seasonColorMapByType/*-blueSpruce",
+      "value": "seasonalBlueSpruce",
+      "file": "game:blocktypes/plant/leaves/normal.json"
+  },
+	{
+        "op": "add",
+        "path": "/seasonColorMapByType/*",
+        "value": "seasonalFoliage",
+        "file": "game:blocktypes/plant/leaves/normal.json"
+    },
+
+
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/1",
+        "value": "alder",
+        "file": "game:blocktypes/plant/leaves/branchy.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "brideinwhite",
+        "file": "game:blocktypes/plant/leaves/branchy.json"
+    },
+	 {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "bluespruce",
+        "file": "game:blocktypes/plant/leaves/branchy.json"
+    },
+	
+    {
+      "op": "remove",
+      "path": "/shape/baseByType/*",
+      "file": "game:blocktypes/plant/leaves/branchy.json"
+  },
+  {
+      "op": "add",
+      "path": "/shape/baseByType/*-bluespruce",
+      "value": "game:block/plant/leaves/branchy-bluespruce",
+      "file": "game:blocktypes/plant/leaves/branchy.json"
+  },
+  {
+      "op": "add",
+      "path": "/shape/baseByType/*",
+      "value": "game:block/plant/leaves/branchy",
+      "file": "game:blocktypes/plant/leaves/branchy.json"
+  },
+
+
+  {
+      "op": "remove",
+      "path": "/lod0Shape/baseByType/*",
+      "file": "game:blocktypes/plant/leaves/branchy.json"
+  },
+  {
+      "op": "add",
+      "path": "/lod0Shape/baseByType/*-bluespruce",
+      "value": "game:block/plant/leaves/branchy-bluespruce-lod0",
+      "file": "game:blocktypes/plant/leaves/branchy.json"
+  },
+  {
+      "op": "add",
+      "path": "/lod0Shape/baseByType/*",
+      "value": "game:block/plant/leaves/branchy-lod0",
+      "file": "game:blocktypes/plant/leaves/branchy.json"
+  },
+	
+    {
+        "op": "add",
+        "path": "/drops/2",
+        "value": {
+          "type": "item",
+          "code": "wildcrafttrees:willowcane-willow",
+          "quantityByType": {
+            "*-willow": {
+              "avg": 0.6,
+              "var": 0
+            },
+            "*": {
+              "avg": 0.0,
+              "var": 0
+            }
+          }
+        },
+        "file": "game:blocktypes/plant/leaves/normal.json"
+      },
+      {
+        "op": "add",
+        "path": "/drops/2",
+        "value": {
+          "type": "item",
+          "code": "wildcrafttrees:willowcane-willow",
+          "quantityByType": {
+            "*-willow": {
+              "avg": 1.2,
+              "var": 0
+            },
+            "*": {
+              "avg": 0.0,
+              "var": 0
+            }
+          }
+        },
+        "file": "game:blocktypes/plant/leaves/branchy.json"
+      },
+	  
+	  {
+        "op": "add",
+        "path": "/drops/3",
+        "value": {
+          "type": "item",
+          "code": "wildcrafttrees:willowcane-bearnut",
+          "quantityByType": {
+			"*-bearnut": {
+              "avg": 0.6,
+              "var": 0
+            },
+            "*": {
+              "avg": 0.0,
+              "var": 0
+            }
+          }
+        },
+        "file": "game:blocktypes/plant/leaves/normal.json"
+      },
+      {
+        "op": "add",
+        "path": "/drops/3",
+        "value": {
+          "type": "item",
+          "code": "wildcrafttrees:willowcane-bearnut",
+          "quantityByType": {
+			"*-bearnut": {
+              "avg": 1.2,
+              "var": 0
+            },
+            "*": {
+              "avg": 0.0,
+              "var": 0
+            }
+          }
+        },
+        "file": "game:blocktypes/plant/leaves/branchy.json"
+      },
+	  
+	  {
+        "op": "add",
+        "path": "/drops/4",
+        "value": {
+          "type": "item",
+          "code": "wildcrafttrees:willowcane-alder",
+          "quantityByType": {
+			"*-alder": {
+              "avg": 0.6,
+              "var": 0
+            },
+            "*": {
+              "avg": 0.0,
+              "var": 0
+            }
+          }
+        },
+        "file": "game:blocktypes/plant/leaves/normal.json"
+      },
+      {
+        "op": "add",
+        "path": "/drops/4",
+        "value": {
+          "type": "item",
+          "code": "wildcrafttrees:willowcane-alder",
+          "quantityByType": {
+			"*-alder": {
+              "avg": 1.2,
+              "var": 0
+            },
+            "*": {
+              "avg": 0.0,
+              "var": 0
+            }
+          }
+        },
+        "file": "game:blocktypes/plant/leaves/branchy.json"
+      }
+]

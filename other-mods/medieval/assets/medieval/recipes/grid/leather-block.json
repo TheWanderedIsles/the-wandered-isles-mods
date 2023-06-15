@@ -1,0 +1,32 @@
+[
+	{
+	ingredientPattern: "LLL,L_L,LLL",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 1 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:leather"  }
+	},
+	{
+	ingredientPattern: "AT",
+	ingredients: {
+		"T": { type: "block", code: "game:leather", quantity: 1 },
+		"A": { type: "item", code: "game:knife-*", isTool: true  },
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "game:leather-plain", quantity: 8  }
+	},
+	{
+	ingredientPattern: "AT",
+	ingredients: {
+		"T": { type: "block", code: "game:leather", quantity: 1 },
+		"A": { type: "item", code: "knife-*", isTool: true  },
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "game:leather-plain", quantity: 8  }
+	}
+
+]

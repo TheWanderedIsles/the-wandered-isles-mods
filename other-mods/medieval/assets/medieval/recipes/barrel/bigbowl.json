@@ -1,0 +1,11 @@
+[
+	{
+		code: "bigbowl",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:dye-white", litres: 1, consumelitres: 1 },
+			{ type: "block", code: "game:bowl-fired", quantity: 4 }
+		],
+		output: { type: "block", code: "medieval:bigbowl-medieval", stackSize: 4 }
+	}
+]

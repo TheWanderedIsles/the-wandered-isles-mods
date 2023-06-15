@@ -1,0 +1,141 @@
+{
+    "code": "groundberryseedling",
+    "class": "BlockPlant",
+    "entityclassbytype": {
+      "*-planted": "Transient",
+      "*-sprouting": "BESeedling"
+    },
+    "attributes": {
+      "matureDays": {
+        "avg": 7,
+        "var": 2
+      },
+      "dieBelowTemp": -2,
+      "plantCodebyType": {
+        "*-strawberry-*": "wildcraft:groundberryplant-strawberry-empty",
+        "*-cloudberry-*": "wildcraft:groundberryplant-cloudberry-empty",
+        "*-bunchberry-*": "wildcraft:groundberryplant-bunchberry-empty",
+        "*-crowberry-*": "wildcraft:groundberryplant-crowberry-empty"
+      },
+      "transientPropsByType": {
+        "*-planted": {
+          "convertFrom": "*-planted", 
+          "convertTo": "*-sprouting", 
+          "inGameHours": "48",
+          "resetBelowTemperature": -4,
+          "stopBelowTemperature": 2
+        }
+      }
+    },
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "strawberry", "cloudberry", "bunchberry", "crowberry" ]
+        },
+      {
+        "code": "state",
+        "states": [ "planted", "sprouting" ]
+      }
+    ],
+    "renderpass": "OpaqueNoCull",
+    "drawtype": "JSON",
+    "randomDrawOffset": true,
+    "randomizeRotations": true,
+    "shapeByType": {
+      "*-planted": { "base": "wildcraft:block/plant/seedling/dirt" },
+      "*-sprouting": { "base": "wildcraft:block/plant/seedling/groundberryseedling" }
+    },
+    "blockmaterial": "Plant",
+    "sideopaqueByType": {
+      "*": { "all": false }
+    },
+    "sidesolid": {
+      "all": false
+    },
+    "texturesByType": {
+      "*": {
+        "leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
+      }
+    },
+    "dropsByType": {
+      "*-dead-*": [
+        {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": { "avg": 1.0 }
+        }
+      ],
+      "*-alive-*": [
+        {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": { "avg": 1.0 }
+        }
+      ]
+    },
+    "replaceable": 5200,
+    "lightAbsorption": 0,
+    "resistance": 1,
+    "collisionbox": null,
+    "selectionbox": {
+      "x1": 0.3,
+      "y1": 0,
+      "z1": 0.2,
+      "x2": 0.7,
+      "y2": 0.5,
+      "z2": 0.7
+    },
+    "sounds": {
+      "place": "game:block/plant",
+      "break": "game:block/plant",
+      "hit": "game:block/plant"
+    },
+    "rainPermeable": true,
+    "materialDensity": 200,
+    "combustibleProps": {
+      "burnTemperature": 600,
+      "burnDuration": 10
+    },
+    "guiTransformByType": {
+      "*": {
+          "rotation": { "x": 94, "y": 0, "z": 0 },
+          "origin": { "x": 0.6, "y": 0.2, "z": 0.6 },
+          "scale": 1.47
+      }
+    },
+    "fpHandTransform": {
+          "rotation": { "x": 87, "y": 152, "z": -58 },
+          "origin": { "x": 0.5, "y": 0.5, "z": 0.3 }
+      },
+    "tpHandTransform": {
+        "rotation": { "x": 0, "y": 55, "z": 14 },
+        "origin": { "x": 0.5, "y": 0.75, "z": 0.4 },
+        "scale": 0.34
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3
+    },
+    "frostable": true,
+    "__comment": "Wind wave looks not good on ground and horrible in planters and flower post",
+    "vertexFlags": {
+      "weakWave": true,
+      "grassWindWave": false,
+      "leavesWindWave": false
+    }
+  }
+  

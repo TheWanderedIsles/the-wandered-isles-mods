@@ -1,0 +1,16 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron"] },
+	pattern: [[
+		"__#####__",
+		"_#######_",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"_#######_",
+		"__#####__",
+	]],
+	name: "Redondo",
+	output: { type: "item", code: "medieval:redondo-{metal}"  }
+}

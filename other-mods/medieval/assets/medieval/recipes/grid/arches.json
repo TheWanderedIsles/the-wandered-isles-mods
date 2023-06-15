@@ -1,0 +1,66 @@
+[
+    {
+		ingredientPattern: "A__,FFF",
+		ingredients: {
+			"A": { type: "item", code: "game:saw-*", isTool: true  },
+			"F": { type: "block", code: "medieval:cobblestonebricks-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate"] }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:stonearch-{rock}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A__,FF_",
+		ingredients: {
+			"A": { type: "item", code: "game:saw-*", isTool: true  },
+			"F": { type: "block", code: "medieval:cobblestonebricks-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate"] }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:stonearchm-{rock}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A__,F__",
+		ingredients: {
+			"A": { type: "item", code: "game:saw-*", isTool: true  },
+			"F": { type: "block", code: "medieval:cobblestonebricks-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate"] }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:stonearchs-{rock}-north", quantity: 1 }
+	},
+
+
+
+
+    {
+		ingredientPattern: "A__,FFF",
+		ingredients: {
+			"A": { type: "item", code: "game:saw-*", isTool: true  },
+			"F": { type: "block", code: "game:claybricks-*", name: "type", allowedVariants: ["blue", "fire", "brown", "red"] }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:brickarch-{type}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A__,FF_",
+		ingredients: {
+			"A": { type: "item", code: "game:saw-*", isTool: true  },
+			"F": { type: "block", code: "game:claybricks-*", name: "type", allowedVariants: ["blue", "fire", "brown", "red"] }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:brickarchm-{type}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "A__,F__",
+		ingredients: {
+			"A": { type: "item", code: "game:saw-*", isTool: true  },
+			"F": { type: "block", code: "game:claybricks-*", name: "type", allowedVariants: ["blue", "fire", "brown", "red"] }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:brickarchs-{type}-north", quantity: 1 }
+	}
+]

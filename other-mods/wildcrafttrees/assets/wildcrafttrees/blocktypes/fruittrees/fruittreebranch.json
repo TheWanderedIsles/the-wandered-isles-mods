@@ -1,0 +1,337 @@
+{
+	code: "fruittree",
+	class: "BlockDynamicTreeBranch",
+	entityClass: "DynamicTreeBranch",
+	maxStackSize: 16,
+	attributes: {
+		handbook: {
+			groupBy: ["wildcrafttrees:fruittree-*"]
+		},
+		foliageBlock: "wildcrafttrees:fruittree-foliage",
+		branchBlock: "wildcrafttrees:fruittree-branch",
+		worldgen: [
+			{ type: "almond", mintemp: -2, maxtemp: 22, minrain: 0.6, maxrain: 1 },
+			{ type: "apricot", mintemp: 6, maxtemp: 28, minrain: 0.55, maxrain: 1 },
+			{ type: "citron", mintemp: 16, maxtemp: 38, minrain: 0.45, maxrain: 1 },
+			{ type: "cocoa", mintemp: 22, maxtemp: 50, minrain: 0.6, maxrain: 1 },
+			{ type: "fig", mintemp: 22, maxtemp: 50, minrain: 0.3, maxrain: .7 },
+			{ type: "hawthorn",  mintemp: -8, maxtemp: 24, minrain: 0.5, maxrain: 1 },
+			{ type: "purpleplum", mintemp: -4, maxtemp: 24, minrain: 0.6, maxrain: 1 },
+			{ type: "quince", mintemp: -10, maxtemp: 19, minrain: 0.5, maxrain: 1 },
+			{ type: "commonhackberry", mintemp: 6, maxtemp: 36, minrain: 0.4, maxrain: 0.8 },
+			{ type: "sugarhackberry", mintemp: 6, maxtemp: 36, minrain: 0.6, maxrain: 1 },
+			{ type: "pomelo",  mintemp: 16, maxtemp: 38, minrain: 0.45, maxrain: 1 },
+			{ type: "hazelnut",  mintemp: -8, maxtemp: 24, minrain: 0.5, maxrain: 1 }
+		],
+		shapes: {
+			"stem": { base: "game:block/plant/fruittree/branch-ver" },
+			
+			"cutting-ns": { base: "game:block/plant/fruittree/cutting-hor", rotateY: 90 },
+			"cutting-we": { base: "game:block/plant/fruittree/cutting-hor" },
+			"cutting-ud": { base: "game:block/plant/fruittree/cutting-ver" },
+			
+			"branch-ns": { base: "game:block/plant/fruittree/branch-hor", rotateY: 90 },
+			"branch-we": { base: "game:block/plant/fruittree/branch-hor" },
+			"branch-ud": { base: "game:block/plant/fruittree/branch-ver" },
+			
+			"foliage-ver": { base: "game:block/plant/fruittree/leaves-ver" },
+			"foliage-hor-n": { base: "game:block/plant/fruittree/leaves-hor", rotateY: 90 },
+			"foliage-hor-e": { base: "game:block/plant/fruittree/leaves-hor", rotateY: 0 },
+			"foliage-hor-s": { base: "game:block/plant/fruittree/leaves-hor", rotateY: 270 },
+			"foliage-hor-w": { base: "game:block/plant/fruittree/leaves-hor", rotateY: 180 },
+			
+			"fruit-almond": { base: "wildcrafttrees:block/plant/fruittree/fruit-almond" },
+			"fruit-apricot": { base: "wildcrafttrees:block/plant/fruittree/fruit-apricot" },
+			"fruit-citron": { base: "wildcrafttrees:block/plant/fruittree/fruit-citron" },
+			"fruit-cocoa": { base: "wildcrafttrees:block/plant/fruittree/fruit-cocoa" },
+			"fruit-fig": { base: "wildcrafttrees:block/plant/fruittree/fruit-fig" },
+			"fruit-hawthorn": { base: "wildcrafttrees:block/plant/fruittree/fruit-hawthorn" },
+			"fruit-purpleplum": { base: "wildcrafttrees:block/plant/fruittree/fruit-purpleplum" },
+			"fruit-quince": { base: "wildcrafttrees:block/plant/fruittree/fruit-quince" },
+			"fruit-commonhackberry": { base: "wildcrafttrees:block/plant/fruittree/fruit-commonhackberry" },
+			"fruit-sugarhackberry": { base: "wildcrafttrees:block/plant/fruittree/fruit-sugarhackberry" },
+			"fruit-pomelo": { base: "wildcrafttrees:block/plant/fruittree/fruit-pomelo" },
+			"fruit-hazelnut": { base: "wildcrafttrees:block/plant/fruittree/fruit-hazelnut" }
+		},
+		textures: {
+			"deadtree": { base: "block/wood/bark/aged" }
+		},
+		treeFellingGroupCode: "fruittree",
+		treeFellingGroupSpreadIndexByType: {
+			"*-stem": 3,
+			"*-branch": 2,
+			"*-cutting": 2
+		},
+		fruittreeProperties: {
+			"almond": {
+				vernalizationHours: { avg: 250, var: 30 },
+				vernalizationTemp: { avg: 2, var: 0.5 },
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 11, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 9, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-almond", quantity: { dist: "strongerinvexp", avg: 8, var: 4 } }
+				],
+				enterDormancyTemp: { dist: "verynarrowgaussian", avg: -3, var: 4 },
+				leaveDormancyTemp: { dist: "verynarrowgaussian", avg: 19, var: 5 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: -20, var: -10 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"apricot": {
+				vernalizationHours: { avg: 250, var: 30 },
+				vernalizationTemp: { avg: 2, var: 0.5 },
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 30, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 8, var: 8 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-apricot", quantity: { dist: "strongerinvexp", avg: 5, var: 4 } }
+				],
+				enterDormancyTemp: { dist: "verynarrowgaussian", avg: -3, var: 4 },
+				leaveDormancyTemp: { dist: "verynarrowgaussian", avg: 19, var: 5 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: -12, var: -10 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"citron": {
+				cycleType: "Evergreen",
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 48, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 12, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-citron", quantity: { dist: "strongerinvexp", avg: 5, var: 4 } }
+				],
+				looseLeavesBelowTemp: { dist: "strongerinvexp", avg: 3, var: -4 },
+				blossomAtYearRel: { dist: "strongerinvexp", avg: 0.5, var: 0.1 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: 6, var: -5 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"cocoa": {
+				cycleType: "Evergreen",
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 50, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 10, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-cocoa", quantity: { dist: "strongerinvexp", avg: 8, var: 4 } }
+				],
+				looseLeavesBelowTemp: { dist: "strongerinvexp", avg: 12, var: -4 },
+				blossomAtYearRel: { dist: "strongerinvexp", avg: 0.3, var: 0.1 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: 10, var: -4 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"fig": {
+				cycleType: "Evergreen",
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 50, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 10, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-fig", quantity: { dist: "strongerinvexp", avg: 5, var: 4 } }
+				],
+				looseLeavesBelowTemp: { dist: "strongerinvexp", avg: 12, var: -4 },
+				blossomAtYearRel: { dist: "strongerinvexp", avg: 0.3, var: 0.1 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: 10, var: -4 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			}	,
+			"hawthorn": {
+				vernalizationHours: { avg: 250, var: 30 },
+				vernalizationTemp: { avg: 2, var: 0.5 },
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 21, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 9, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-hawthorn", quantity: { dist: "strongerinvexp", avg: 6, var: 4 } }
+				],
+				enterDormancyTemp: { dist: "verynarrowgaussian", avg: -5, var: 4 },
+				leaveDormancyTemp: { dist: "verynarrowgaussian", avg: 10, var: 5 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: -24, var: 10 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"purpleplum": {
+				vernalizationHours: { avg: 250, var: 30 },
+				vernalizationTemp: { avg: 2, var: 0.5 },
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 23, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 10, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-purpleplum", quantity: { dist: "strongerinvexp", avg: 5, var: 4 } }
+				],
+				enterDormancyTemp: { dist: "verynarrowgaussian", avg: -3, var: 4 },
+				leaveDormancyTemp: { dist: "verynarrowgaussian", avg: 19, var: 5 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: -22, var: -10 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"quince": {
+				vernalizationHours: { avg: 250, var: 30 },
+				vernalizationTemp: { avg: 2, var: 0.5 },
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 20, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 28, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-quince", quantity: { dist: "strongerinvexp", avg: 5, var: 4 } }
+				],
+				enterDormancyTemp: { dist: "verynarrowgaussian", avg: -3, var: 4 },
+				leaveDormancyTemp: { dist: "verynarrowgaussian", avg: 19, var: 5 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: -28, var: -13 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"commonhackberry": {
+				vernalizationHours: { avg: 250, var: 30 },
+				vernalizationTemp: { avg: 4, var: 0.5 },
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 20, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 28, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-commonhackberry", quantity: { dist: "strongerinvexp", avg: 5, var: 4 } }
+				],
+				enterDormancyTemp: { dist: "verynarrowgaussian", avg: 2, var: 4 },
+				leaveDormancyTemp: { dist: "verynarrowgaussian", avg: 12, var: 5 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: -8, var: -6 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"sugarhackberry": {
+				vernalizationHours: { avg: 250, var: 30 },
+				vernalizationTemp: { avg: 4, var: 0.5 },
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 20, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 28, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-sugarhackberry", quantity: { dist: "strongerinvexp", avg: 5, var: 4 } }
+				],
+				enterDormancyTemp: { dist: "verynarrowgaussian", avg: 2, var: 4 },
+				leaveDormancyTemp: { dist: "verynarrowgaussian", avg: 12, var: 5 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: -8, var: -6 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"pomelo": {
+				cycleType: "Evergreen",
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 48, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 12, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-citron", quantity: { dist: "strongerinvexp", avg: 5, var: 4 } }
+				],
+				looseLeavesBelowTemp: { dist: "strongerinvexp", avg: 3, var: -4 },
+				blossomAtYearRel: { dist: "strongerinvexp", avg: 0.5, var: 0.1 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: 6, var: -5 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			},
+			"hazelnut": {
+				floweringDays: { avg: 4.5, var: 1.5 },
+				fruitingDays: { dist: "strongerinvexp", avg: 21, var: 12 },
+				ripeDays: { dist: "strongerinvexp", avg: 9, var: 10 },
+				growthStepDays: { dist: "verynarrowgaussian", avg: 5, var: 1 },
+				fruitStacks: [
+					{ type: "item", code: "wildcrafttrees:treefruit-hazelnut", quantity: { dist: "strongerinvexp", avg: 6, var: 4 } }
+				],
+				enterDormancyTemp: { dist: "verynarrowgaussian", avg: -5, var: 4 },
+				leaveDormancyTemp: { dist: "verynarrowgaussian", avg: 10, var: 5 },
+				dieBelowTemp: { dist: "strongerinvexp", avg: -24, var: 10 },
+				cuttingRootingChance: 0.4,
+				cuttingGraftChance: 0.5
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["stem", "branch", "cutting"] },
+	],
+	creativeinventory: { },
+	creativeinventoryStacksByType: {
+		"*-branch": [
+			{
+				tabs: [ "general", "flora" ],
+				stacks: [
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "almond" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "apricot" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "citron" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "cocoa" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "fig" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "hawthorn" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "purpleplum" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "quince" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "commonhackberry" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "sugarhackberry" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "pomelo" } },
+					{ type: "block", code: "fruittree-cutting", attributes: { type: "hazelnut" } }
+				]
+			}
+		],
+	},
+	shape: { 
+		base: "game:block/plant/fruittree/cutting-ver",
+	},
+	textures: {
+		"deadtree": { base: "game:block/wood/bark/aged" }
+	},
+	renderpass: "OpaqueNoCull",
+	faceCullMode: "Callback",
+	blockmaterial: "Wood",
+	requiredMiningTierByType: {
+		"*-cutting": 0,
+		"*": 1,
+	},
+	climateColorMapBy: "climatePlantTint",
+	seasonColorMap: "seasonalFoliage",
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sideao: {
+		all: true
+	},
+	emitSideAo: {
+		all: false
+	},
+	snowCoverage: true,
+	replaceable: 4000,
+	lightAbsorption: 1,
+	resistance: 5,
+	collisionbox: null,
+	dropsByType: {
+		"*-stem": [ { type: "item", code: "game:firewood", quantity: { avg: 3, var: 1 } } ],
+		"*-branch": [ { type: "block", code: "wildcrafttrees:fruittree-cutting", quantity: { avg: 1 } } ],
+		"*-cutting": [ { type: "block", code: "wildcrafttrees:fruittree-cutting", quantity: { avg: 1 } } ]
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		byTool: {
+			"Axe": { hit: "game:block/chop", break: "game:block/planks" }
+		}
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	materialDensity: 300,
+	collisionSelectionBox: { x1: 0.1875, y1: 0, z1: 0.1875, x2: 0.8125, y2: 1, z2: 0.8125 },
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.65 },
+		scale: 2.3
+	}
+}

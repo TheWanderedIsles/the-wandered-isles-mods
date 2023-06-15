@@ -1,0 +1,22 @@
+[
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "game:shears-*", isTool: true  },
+			"I": { type: "item", code: "medieval:pulpaprensada", quantity: 10}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:paper-parchment", quantity: 2 }
+	},
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "medieval:shears-*", isTool: true  },
+			"I": { type: "item", code: "medieval:pulpaprensada", quantity: 10}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:paper-parchment", quantity: 2 }
+	}
+]

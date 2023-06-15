@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "H,C,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+		"S": { "type": "block", "code": "game:rockpolished-*", "name": "rock",
+			"allowedVariants": [ "obsidian"] }
+	},
+	"width": 1,
+	"height": 3,
+	"output": { "type": "block", "code": "game:polishedrockslab-{rock}-down-free", "quantity": 2 }
+	}
+]

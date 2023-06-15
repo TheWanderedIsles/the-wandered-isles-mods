@@ -1,0 +1,204 @@
+{
+	code: "planksmedievalfence",
+	class: "BlockFence",
+	behaviors: [ {name: "CanAttach", properties: { sides: ["up", "down"] } } ],
+	attributes: {
+		isFence: true
+	},
+	variantgroups: [
+		{ code: "material", states: ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] },
+		{ code: "type", states: ["empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw"] },
+		{ code: "cover", states: ["free"] }
+	],
+	creativeinventory: { "general": ["planksmedievalfence-{material}-ew-free"], "decorative": ["planksmedievalfence-{material}-ew-free"], "medieval": ["planksmedievalfence-{material}-ew-free"] },	
+	shapebytype: {
+		"*-empty-free": { base: "block/wood/planksmedievalfence/empty" },
+		"*-n-free": { base: "block/wood/planksmedievalfence/w", rotateY: 270},
+										alternates:[{ base: "block/wood/planksmedievalfence/w1", rotateY: 270}],
+		"*-e-free": { base: "block/wood/planksmedievalfence/w", rotateY: 180 },
+										alternates:[{ base: "block/wood/planksmedievalfence/w1", rotateY: 180}] ,
+		"*-s-free": { base: "block/wood/planksmedievalfence/w", rotateY: 90 },
+										alternates:[{ base: "block/wood/planksmedievalfence/w1", rotateY: 90}] ,
+		"*-w-free": { base: "block/wood/planksmedievalfence/w", rotateY: 0 },
+										alternates:[{ base: "block/wood/planksmedievalfence/w1", rotateY: 0}] ,
+
+		"*-ns-free": { base: "block/wood/planksmedievalfence/ew", rotateY: 90 },
+		"*-ew-free": { base: "block/wood/planksmedievalfence/ew", rotateY: 0 },
+		
+		"*-ne-free": { base: "block/wood/planksmedievalfence/sw", rotateY: 180 },
+										alternates:[{ base: "block/wood/planksmedievalfence/sw1", rotateY: 180}] ,
+		"*-nw-free": { base: "block/wood/planksmedievalfence/sw", rotateY: 270 },
+										alternates:[{ base: "block/wood/planksmedievalfence/sw1", rotateY: 270}] ,
+		"*-es-free": { base: "block/wood/planksmedievalfence/sw", rotateY: 90 },
+										alternates:[{ base: "block/wood/planksmedievalfence/sw1", rotateY: 90}] ,
+		"*-sw-free": { base: "block/wood/planksmedievalfence/sw", rotateY: 0 },
+										alternates:[{ base: "block/wood/planksmedievalfence/sw1", rotateY: 0}] ,
+		
+		"*-nes-free": { base: "block/wood/planksmedievalfence/nsw", rotateY: 180 },
+										alternates:[{ base: "block/wood/planksmedievalfence/nsw1", rotateY: 180}] ,
+		"*-new-free": { base: "block/wood/planksmedievalfence/nsw", rotateY: 270 },
+										alternates:[{ base: "block/wood/planksmedievalfence/nsw1", rotateY: 270}] ,
+		"*-nsw-free": { base: "block/wood/planksmedievalfence/nsw", rotateY: 0 },
+										alternates:[{ base: "block/wood/planksmedievalfence/nsw1", rotateY: 0}] ,
+		"*-esw-free": { base: "block/wood/planksmedievalfence/nsw", rotateY: 90 },
+										alternates:[{ base: "block/wood/planksmedievalfence/nsw1", rotateY: 90}] ,
+		
+		"*-nesw-free": { base: "block/wood/planksmedievalfence/nesw", rotateY: 0 }
+	},
+	drawtypeByType: {
+		"*-free": "JSON",
+		"*-snow": "JSONAndSnowLayer",
+	},
+	blockmaterial: "Wood",
+	texturesByType: {
+
+		"*-acacia-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/acacia"}
+		},
+		"*-aged-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/aged"}
+		},
+		"*-baldcypress-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/baldcypress"}
+		},
+		"*-birch-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/birch"}
+		},
+		"*-ebony-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/ebony"}
+		},
+		"*-kapok-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/kapok"}
+		},
+		"*-larch-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/larch"}
+		},
+		"*-maple-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/maple"}
+		},
+		"*-oak-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/oak"}
+		},
+		"*-pine-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/pine"}
+		},
+		"*-purpleheart-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/purpleheart"}
+		},
+		"*-redwood-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/redwood"}
+		},
+		"*-walnut-*": { 
+						"oak-dark": {base: "block/wood/oak-dark"},
+						"normal1": {base: "block/snow/normal1"},
+						"material": {base: "block/wood/debarked/walnut"}
+		}
+	},
+	sidesolid: {
+		all: false
+	},
+	sideopaque: { all: false },
+	resistance: 3,
+	lightAbsorption: 0,
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	selectionboxbytype: {
+		"*-empty-*": { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 0.625 },
+		"*-n-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2:  0.625, rotateY: 270},
+		"*-e-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2:  0.625, rotateY: 180},
+		"*-s-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-w-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2:  0.625},
+		
+		"*-ns-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-gns-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ngs-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ew-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-egw-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-gew-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+	},
+	selectionboxesbytype: {
+		"*-sw-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 1 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 0 } ],
+		"*-ne-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 180 } ] ,
+		"*-nw-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 270 } ],
+		"*-es-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 90 } ],
+		
+		"*-nes-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 180 } ],
+		"*-new-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 270 } ],
+		"*-nsw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 0 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 0 } ],
+		"*-esw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 90 } ],
+		
+		"*-nesw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1 }, { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2: 0.625 } ]
+	},
+	
+	collisionboxbytype: {
+		"*-empty-*": { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625 },
+		"*-n-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625, rotateY: 270},
+		"*-e-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625, rotateY: 180},
+		"*-s-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-w-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625},
+		
+		"*-ns-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-gns-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ngs-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ew-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-egw-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-gew-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+	},
+	collisionboxesbytype: {
+		"*-sw-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 1 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 0 } ],
+		"*-ne-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 180 } ] ,
+		"*-nw-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 270 } ],
+		"*-es-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 90 } ],
+		
+		"*-nes-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 180 } ],
+		"*-new-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 270 } ],
+		"*-nsw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 0 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 0 } ],
+		"*-esw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 90 } ],
+		
+		"*-nesw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1 }, { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625 } ]
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.2 },
+		rotation: { x: 5, y: -3, z: -96 },
+		scale: 0.37
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 90, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.07
+	}
+}

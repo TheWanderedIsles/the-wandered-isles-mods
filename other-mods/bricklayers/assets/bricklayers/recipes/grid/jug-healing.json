@@ -1,0 +1,60 @@
+[
+	{
+	"ingredientPattern": "SJS,_L_",
+	"ingredients": {
+		"L": { "type": "block", "code": "game:linen-*" },
+		"S": { "type": "item", "code": "game:powderedsulfur" },
+		"J": { "type": "block", "code": "game:jug-*-fired" }
+	},
+	"attributes": {
+		"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "SJS,_C_",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+		"S": { "type": "item", "code": "game:powderedsulfur" },
+		"J": { "type": "block", "code": "game:jug-*-fired" }
+	},
+	"attributes": {
+		"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "SJS,_P_",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+		"S": { "type": "item", "code": "game:powderedsulfur" },
+		"J": { "type": "block", "code": "game:jug-*-fired" }
+	},
+	"attributes": {
+		"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "JB",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:bandage-clean" },
+		"J": { "type": "block", "code": "game:jug-*-fired" }
+	},
+	"attributes": {
+		"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 }
+	},
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "game:bandage-alcoholed", "quantity": 1 }
+	}
+
+]

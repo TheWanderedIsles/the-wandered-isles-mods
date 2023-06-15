@@ -1,0 +1,908 @@
+{
+   "code": "humanoid-trader-glass",
+   "class": "EntityTrader",
+   "canClimb": true,
+   "client": {
+      "animations": [
+	 { "code": "die", "animation": "die", "animationSpeed": 1.75, "blendMode": "AddAverage", "weight": 10 },
+	 { "code": "hurt", "animation": "hurt", "animationSpeed": 2, "blendMode": "AddAverage" },
+	 { "code": "rowdywelcome", "animation": "rowdywelcome", "blendMode": "AddAverage" },
+	 { "code": "lazywelcome" , "animation": "lazywelcome", "blendMode": "AddAverage" },
+	 { "code": "lazynod", "animation": "lazynod", "blendMode": "AddAverage" }
+      ],
+      "behaviors": [
+	 { "code": "nametag", "showtagonlywhentargeted": true },
+	 { "code": "repulseagents" },
+	 { "code": "controlledphysics", "stepHeight": 1.01 },
+	 { "code": "interpolateposition" },
+	 { "code": "conversable", "dialogue": "config/dialogue/trader" }
+      ],
+      "renderer": "Shape",
+      "shape": { "base": "game:entity/humanoid/trader" },
+      "texture": {
+	 "alternates": [
+	    { "base": "game:entity/humanoid/traderclothes/set1" },
+	    { "base": "game:entity/humanoid/traderclothes/set2" },
+	    { "base": "game:entity/humanoid/traderclothes/set3" },
+	    { "base": "game:entity/humanoid/traderclothes/set4" },
+	    { "base": "game:entity/humanoid/traderclothes/set5" }
+	 ],
+	 "base": "game:entity/humanoid/trader"
+      }
+   },
+   "deadHitboxSize": { "x": 0.75, "y": 0.5 },
+   "hitboxSize": { "x": 0.6, "y": 1.75 },
+   "attributes": {
+     "tradeProps": {
+	"money": { "avg": 30, "var": 10 },
+	"buying": {
+	   "maxItems": 14,
+	   "list": [
+		  {
+		     "code": "game:saw-tinbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:saw-bismuthbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:saw-blackbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:clothes-waist-heavy-tool-belt",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.5 }
+		  },
+		  {
+		     "code": "game:crushed-quartz",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-boneash",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-quartz",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-bauxite",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-metal-copper",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-metal-nickel",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-metal-gold",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-leadoxide",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-litharge",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-massicot",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:crushed-cassiterite",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-coal",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-rhodochrosite",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 5, "var": 1 }
+		  },
+		  {
+		     "code": "em:powdered-ore-fluorite",
+		     "type": "item",
+		     "stacksize": 20,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-kernite",
+		     "type": "item",
+		     "stacksize": 20,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:powdered-ore-corundum",
+		     "type": "item",
+		     "stacksize": 20,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:powderedborax",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:barrel",
+		     "type": "block",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:burnedbrick-fire",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+
+		  {
+		     "code": "em:crushed-ore-galena",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 4, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:crushed-olivine",
+		     "type": "item",
+		     "stacksize": 48,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ore-olivine",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:poundercap-blackbronze",
+		     "type": "item",
+		     "stacksize": 2,
+		     "stock": { "avg": 2, "var": 0.75 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:poundercap-tinbronze",
+		     "type": "item",
+		     "stacksize": 2,
+		     "stock": { "avg": 2, "var": 0.75 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:poundercap-bismuthbronze",
+		     "type": "item",
+		     "stacksize": 2,
+		     "stock": { "avg": 1, "var": 0.75 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:poundercap-iron",
+		     "type": "item",
+		     "stacksize": 2,
+		     "stock": { "avg": 1, "var": 0.55 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:lime",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-blue",
+		     "type": "item",
+		     "stacksize": 64,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:clay-fire",
+		     "type": "item",
+		     "stacksize": 32,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ingot-lead",
+		     "type": "item",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ingot-copper",
+		     "type": "item",
+		     "stacksize": 2,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ingot-tin",
+		     "type": "item",
+		     "stacksize": 3,
+		     "stock": { "avg": 5, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+
+		  {
+		     "code": "game:hammer-tinbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:hammer-bismuthbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:hammer-blackbronze",
+		     "type": "item",
+		     "stacksize": 1,
+		     "stock": { "avg": 2, "var": 0.5 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+		  {
+		     "code": "game:charcoal",
+		     "type": "item",
+		     "stacksize": 12,
+		     "stock": { "avg": 4, "var": 1 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  }
+
+	       ]
+	    },
+	    "selling": {
+	       "maxItems": 12,
+	       "list": [
+		  {
+		     "code": "bricklayers:glasscolored-plain-black",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 4, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:glass-plain",
+		     "type": "block",
+		     "stacksize": 10,
+		     "stock": { "avg": 4, "var": 1 },
+		     "price": { "avg": 2, "var": 0.5 }
+		  },
+		  {
+		     "code": "game:glass-blue",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 4 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:glass-green",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:glass-brown",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:glass-violet",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 2 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:glass-yellow",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:glass-red",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 1, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-plain-orange",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 5, "var": 0.75 }
+		  },
+		  {
+		     "code": "game:glass-pink",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 3, "var": 1 },
+		     "price": { "avg": 5, "var": 0.75 }
+		  },
+
+		  {
+		     "code": "em:crushed-ore-rhodochrosite",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "em:crushed-ore-phosphorite",
+		     "type": "item",
+		     "stacksize": 12,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 7, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:crushed-metal-uranium",
+		     "type": "item",
+		     "stacksize": 12,
+		     "stock": { "avg": 2, "var": 1.25 },
+		     "price": { "avg": 6, "var": 0.25 }
+		  },
+		  {
+		     "code": "em:crushed-ore-corundum",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ore-fluorite",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "game:ore-kernite",
+		     "type": "item",
+		     "stacksize": 16,
+		     "stock": { "avg": 3, "var": 1.25 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+
+		  {
+		     "code": "bricklayers:glasscolored-smoky-black",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-smoky-blue",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 4, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-smoky-brown",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-smoky-green",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-smoky-pink",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-smoky-red",
+		     "type": "block",
+		     "stacksize": 6,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 4, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-smoky-violet",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 5, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-smoky-yellow",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+
+		  {
+		     "code": "bricklayers:glasscolored-quartz-black",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-quartz-blue",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-quartz-brown",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-quartz-green",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-quartz-pink",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-quartz-red",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-quartz-violet",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-quartz-yellow",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+
+		  {
+		     "code": "bricklayers:glasscolored-milky-black",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 6, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-milky-blue",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 3 },
+		     "price": { "avg": 6, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-milky-brown",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 5, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-milky-green",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 5, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-milky-pink",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 3 },
+		     "price": { "avg": 6, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-milky-red",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-milky-violet",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 3 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-milky-yellow",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+
+		  {
+		     "code": "bricklayers:glasscolored-dark-black",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 3 },
+		     "price": { "avg": 6, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-dark-blue",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 3 },
+		     "price": { "avg": 6, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-dark-brown",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 5, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-dark-green",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 5, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-dark-pink",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 3 },
+		     "price": { "avg": 6, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-dark-red",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 7, "var": 3 },
+		     "price": { "avg": 5, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-dark-violet",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 5, "var": 3 },
+		     "price": { "avg": 6, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-dark-yellow",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 4, "var": 1 }
+		  },
+
+		  {
+		     "code": "bricklayers:glasscolored-opaque-black",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 8, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-opaque-blue",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 8, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-opaque-brown",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 7, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-opaque-green",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 8, "var": 3 },
+		     "price": { "avg": 6, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-opaque-pink",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 9, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-opaque-red",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 6, "var": 3 },
+		     "price": { "avg": 8, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-opaque-violet",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 4, "var": 3 },
+		     "price": { "avg": 8, "var": 1 }
+		  },
+		  {
+		     "code": "bricklayers:glasscolored-opaque-yellow",
+		     "type": "block",
+		     "stacksize": 4,
+		     "stock": { "avg": 4, "var": 3 },
+		     "price": { "avg": 6, "var": 1 }
+		  },
+
+		  {
+		     "code": "bricklayers:glassbatch-plain-black",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 4, "var": 2 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glassbatch-plain-blue",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 4, "var": 2 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glassbatch-plain-brown",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 4, "var": 2 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glassbatch-plain-green",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 4, "var": 2 },
+		     "price": { "avg": 2, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glassbatch-plain-pink",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 4, "var": 2 },
+		     "price": { "avg": 5, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glassbatch-plain-violet",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 4, "var": 2 },
+		     "price": { "avg": 5, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:glassbatch-plain-yellow",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 4, "var": 2 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+
+		  {
+		     "code": "bricklayers:frit-mix-red",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 3, "var": 2 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:frit-mix-blue",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 3, "var": 2 },
+		     "price": { "avg": 3, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:frit-mix-purple",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 3, "var": 2 },
+		     "price": { "avg": 5, "var": 0.25 }
+		  },
+		  {
+		     "code": "bricklayers:frit-mix-pink",
+		     "type": "item",
+		     "stacksize": 8,
+		     "stock": { "avg": 3, "var": 2 },
+		     "price": { "avg": 5, "var": 0.25 }
+		  }
+	       ]
+	    }
+	 }
+    },
+   "server": {
+      "attributes": {
+	 "pathfinder": { "maxTurnAnglePerSec": 1440, "minTurnAnglePerSec": 720 }
+      },
+      "behaviors": [
+	 {
+	    "code": "nametag",
+	    "selectFromRandomName": [ "Ästrid", "Abbe", "Adalbert", "Bronisław", "Casimir", "Finvid", "Plamen", "Klar", "Kort", "Mette", "Manfred", "Валентин", "Vadim", "Yasen", "Zlata" ],
+	    "showtagonlywhentargeted": true
+	 },
+	 { "code": "repulseagents" },
+	 { "code": "controlledphysics", "stepHeight": 1.01 },
+	 { "code": "reviveondeath", "maxHours": 72, "minHours": 24 },
+	 { "code": "health", "currenthealth": 25, "maxhealth": 25 },
+	 {
+	    "code": "emotionstates",
+	    "states": [
+	       { "accumType": "noaccum", "chance": 0.6, "code": "aggressiveondamage", "duration": 6, "priority": 2, "slot": 0 },
+	       { "accumType": "max", "chance": 0.4, "code": "fleeondamage", "duration": 10, "priority": 1, "slot": 0 }
+	    ]
+	 },
+	 {
+	    "aitasks": [
+	       {
+		  "code": "meleeattack",
+		  "animation": "Attack",
+		  "animationSpeed": 2,
+		  "attackDurationMs": 900,
+		  "damage": 5,
+		  "damagePlayerAtMs": 300,
+		  "entityCodes": [ "player" ],
+		  "maxcooldown": 3500,
+		  "mincooldown": 2500,
+		  "priority": 2,
+		  "whenInEmotionState": "aggressiveondamage"
+	       },
+	       {
+		  "code": "seekentity",
+		  "animation": "Run",
+		  "animationSpeed": 1.75,
+		  "entityCodes": [ "player" ],
+		  "maxcooldown": 1500,
+		  "mincooldown": 1000,
+		  "movespeed": 0.035,
+		  "priority": 1.5,
+		  "seekingRange": 20,
+		  "whenInEmotionState": "aggressiveondamage"
+	       },
+	       {
+		  "code": "fleeentity",
+		  "animation": "Run",
+		  "animationSpeed": 1.75,
+		  "entityCodes": [ "player" ],
+		  "movespeed": 0.035,
+		  "priority": 1.5,
+		  "seekingRange": 12,
+		  "whenInEmotionState": "fleeondamage"
+	       },
+	       {
+		  "code": "idle",
+		  "animation": "laugh",
+		  "maxcooldown": 30000,
+		  "maxduration": 2500,
+		  "mincooldown": 5000,
+		  "minduration": 2500,
+		  "priority": 1.2
+	       },
+	       {
+		  "code": "idle",
+		  "animation": "idle2",
+		  "maxcooldown": 30000,
+		  "maxduration": 2500,
+		  "mincooldown": 5000,
+		  "minduration": 2500,
+		  "priority": 1.2
+	       },
+	       {
+		  "code": "wander",
+		  "animation": "Walk",
+		  "maxDistanceToSpawn": 4,
+		  "movespeed": 0.01,
+		  "priority": 1,
+		  "teleportInGameHours": 1,
+		  "teleportWhenOutOfRange": true,
+		  "wanderChance": 0.005,
+		  "wanderRangeMax": 3,
+		  "wanderRangeMin": 1
+	       },
+	       {
+		  "code": "lookaround",
+		  "priority": 0.5
+	       }
+	    ],
+	    "code": "taskai"
+	 }
+      ]
+   },
+   "sounds": {}
+}

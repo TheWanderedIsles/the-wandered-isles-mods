@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Poultice reed honey sulfur herb",
+    "ingredientPattern": "SBS,_C_,_T_",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:*", "quantity": 2, "allowedVariants": ["papyrustops", "cattailtops"] },
+      "S": { "type": "item", "code": "game:powderedsulfur" },
+      "B": { "type": "block", "code": "game:bowl-fired" },
+      "T": {
+        "type": "item",
+        "code": "wildcraft:herbs-*",
+        "quantity": 2,
+        "name": "herb",
+        "allowedVariants": ["thyme", "lavender", "marshmallow", "holly", "marigold", "yarrow", "sage"]
+      }
+    },
+    "attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 } },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "wildcraft:poultice-reed-honey-sulfur-{herb}", "quantity": 4 }
+  },
+  {
+    "name": "Poultice reed honey sulfur herb",
+    "ingredientPattern": "SBS,_C_,_T_",
+    "ingredients": {
+      "C": { "type": "item", "code": "wildcraft:plantfibers-*", "quantity": 2},
+      "S": { "type": "item", "code": "game:powderedsulfur" },
+      "B": { "type": "block", "code": "game:bowl-fired" },
+      "T": {
+        "type": "item",
+        "code": "wildcraft:herbs-*",
+        "quantity": 2,
+        "name": "herb",
+        "allowedVariants": ["thyme", "lavender", "marshmallow", "holly", "marigold", "yarrow", "sage"]
+      }
+    },
+    "attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 } },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "wildcraft:poultice-reed-honey-sulfur-{herb}", "quantity": 4 }
+  }
+  
+  
+]

@@ -1,0 +1,137 @@
+{
+	"code": "glassluminous",
+	"attributes": {
+		"handbook": { "groupBy": ["glasscolored-*"] },
+		"canChisel": true
+	},
+	"variantgroups": [
+		{ "code": "type",  "states": [ "plain", "dark", "milky", "opaque", "quartz", "smoky" ] },
+		{ "code": "color", "states": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "white", "yellow" ] },
+		{ "code": "light",  "states": [ "faint", "normal", "bright" ] }
+	],
+	"drawtype": "json",
+	"creativeinventory": { "general": ["*"], "construction": ["*"], "glass": ["*"], "luminous": ["*"] },
+	"blockmaterial": "Glass",
+	"replaceable": 900,
+	"faceCullModeByType": {
+	       "*-opaque-*": "Default",
+	       "*": "MergeMaterial"
+	},
+	"lightHsvByType": {
+	       "*-black-faint":			[  1, 2,  6 ],
+	       "*-blue-faint":			[ 42, 6,  9 ],
+	       "*-brown-faint":			[  6, 7,  8 ],
+	       "*-green-faint":			[ 22, 5,  9 ],
+	       "*-orange-faint":		[  4, 5,  9 ],
+	       "*-pink-faint":			[ 53, 5,  9 ],
+	       "*-red-faint":			[  0, 6,  9 ],
+	       "*-violet-faint":		[ 46, 5,  9 ],
+	       "*-white-faint":			[ 10, 1, 10 ],
+	       "*-yellow-faint":		[ 10, 6,  9 ],
+
+	       "*-black-normal":		[  1, 2,  9 ],
+	       "*-blue-normal":			[ 42, 6, 12 ],
+	       "*-brown-normal":		[  6, 7, 11 ],
+	       "*-green-normal":		[ 22, 5, 12 ],
+	       "*-orange-normal":		[  4, 5, 12 ],
+	       "*-pink-normal":			[ 53, 5, 12 ],
+	       "*-red-normal":			[  0, 6, 12 ],
+	       "*-violet-normal":		[ 46, 5, 12 ],
+	       "*-white-normal":		[ 10, 1, 13 ],
+	       "*-yellow-normal":		[ 10, 6, 12 ],
+
+	       "*-black-bright":		[  1, 2, 12 ],
+	       "*-blue-bright":			[ 42, 6, 15 ],
+	       "*-brown-bright":		[  6, 7, 14 ],
+	       "*-green-bright":		[ 22, 5, 15 ],
+	       "*-orange-bright":		[  4, 5, 15 ],
+	       "*-pink-bright":			[ 53, 5, 15 ],
+	       "*-red-bright":			[  0, 6, 15 ],
+	       "*-violet-bright":		[ 46, 5, 15 ],
+
+	       "*-dark-yellow-bright":		[ 10, 6, 13 ],
+	       "*-smoky-yellow-bright": 	[ 10, 6, 13 ],
+	       "*-quartz-yellow-bright":	[ 10, 6, 14 ],
+	       "*-milky-yellow-bright":		[ 10, 6, 16 ],
+	       "*-opaque-yellow-bright":	[ 10, 6, 16 ],
+	       "*-yellow-bright": 		[ 10, 6, 15 ],
+
+	       "*-dark-white-bright":		[ 10, 1, 14 ],
+	       "*-smoky-white-bright":		[ 10, 1, 14 ],
+	       "*-quartz-white-bright":		[ 10, 1, 15 ],
+	       "*-milky-white-bright":		[ 10, 1, 16 ],
+	       "*-opaque-white-bright":		[ 10, 1, 16 ],
+	       "*-white-bright":		[ 10, 1, 15 ]
+	},
+	"lightAbsorption": 0,
+	"shapeByType": {
+	       "*-opaque-*": { "base": "bricklayers:block/glass/framed_opaque" },
+	       "*": { "base": "game:block/glass/framed" }
+	},
+	"renderPassByType": {
+		"*-opaque-*": "Opaque",
+		"*": "Transparent"
+	},
+	"vertexFlags": { "zOffset": 2 },
+	"vertexFlagsByType": {
+		"*-black-faint":	{ "glowLevel": 35 },
+		"*-white-faint":	{ "glowLevel": 70 },
+		"*-smoky-*-faint": 	{ "glowLevel": 40 },
+		"*-quartz-*-faint": 	{ "glowLevel": 45 },
+		"*-faint": 		{ "glowLevel": 50 },
+
+		"*-black-normal":	{ "glowLevel": 75 },
+		"*-white-normal":	{ "glowLevel": 120 },
+		"*-smoky-*-normal":	{ "glowLevel": 82 },
+		"*-quartz-*-normal":	{ "glowLevel": 90 },
+		"*-normal":		{ "glowLevel": 100 },
+
+		"*-black-bright":	{ "glowLevel": 150 },
+		"*-milky-white-bright":	{ "glowLevel": 200 },
+		"*-opaque-white-bright":{ "glowLevel": 200 },
+		"*-opaque-*-bright":	{ "glowLevel": 160 },
+		"*-white-bright":	{ "glowLevel": 190 },
+		"*-smoky-*-bright":	{ "glowLevel": 145 },
+		"*-quartz-*-bright":	{ "glowLevel": 155 },
+		"*-bright":		{ "glowLevel": 170 }
+        },
+	"texturesByType": {
+		"*-plain-black-*": { "material": { "base": "bricklayers:block/glass/normal/{color}_normal" } },
+		"*-plain-orange-*": { "material": { "base": "bricklayers:block/glass/normal/{color}_normal" } },
+		"*-plain-white-*": { "material": { "base": "game:block/glass/plain" } },
+		"*-plain-*": { "material": { "base": "game:block/glass/{color}" } },
+		"*-dark-white-*": { "material": { "base": "game:block/glass/vintage" } },
+		"*-dark-*": { "material": { "base": "bricklayers:block/glass/dark/{color}" } },
+		"*-opaque-*": {
+				"inside-north": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-east": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-south": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-west": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-up": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-down": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"material": { "base": "bricklayers:block/glass/opaque/{color}" }
+
+		},
+		"*": { "material": { "base": "bricklayers:block/glass/normal/{color}", "overlays": [ "bricklayers:block/glass/overlay_{type}" ] } }
+	},
+	"resistance": 0.25,
+	"materialDensity": 1200,
+	"sideopaqueByType": {
+		"*-opaque-*": { "all": true },
+		"*": { "all": false }
+	},
+	"sounds": {
+		"place": "game:player/buildhigh",
+		"break": "game:block/glass",
+		"hit": "game:block/glass"
+	},
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": -0.01, "z": 0.5 }
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.2, "y": -1.1, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.37
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"extreme-brown-fur-coat1": "entity/humanoid/seraphclothes/upperbodyover/extreme-brown-fur-coat1"
+	},
+	"elements": [
+		{
+			"name": "Head",
+			"stepParentName": "Head",
+			"from": [ -0.18, -3.25, -0.5 ], 
+			"to": [ 6.82, 5.75, 5.5 ], 
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 4.2163, -0.25, 2.5 ],
+			"rotationZ": 2.0,
+			"faces": {
+				"north": { "texture": "#extreme-brown-fur-coat1", "uv": [ 42.0, 23.5, 48.5, 33.0 ], "autoUv": false },
+				"east": { "texture": "#extreme-brown-fur-coat1", "uv": [ 36.0, 23.5, 42.0, 33.0 ], "autoUv": false },
+				"south": { "texture": "#extreme-brown-fur-coat1", "uv": [ 54.5, 23.5, 61.0, 33.0 ], "autoUv": false },
+				"west": { "texture": "#extreme-brown-fur-coat1", "uv": [ 48.5, 23.5, 54.5, 33.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#extreme-brown-fur-coat1", "uv": [ 41.5, 17.5, 48.5, 23.5 ], "autoUv": false },
+				"down": { "texture": "#extreme-brown-fur-coat1", "uv": [ 36.0, 23.5, 42.0, 30.0 ], "rotation": 90, "enabled": false, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

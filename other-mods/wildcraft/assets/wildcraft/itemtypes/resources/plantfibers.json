@@ -1,0 +1,38 @@
+{
+	code: "plantfibers",
+	"variantgroups": [
+		{ "code": "type", "states": [ "tule", "brownsedge", "hardsedge"] }
+	],
+	shape: { base: "wildcraft:item/tule" },
+	texture: { base: "game:item/resource/reeds" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraft": ["*"] },
+	maxstacksize: 64,
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 109, y: -51, z: -27 },
+		origin: { x: 0.29, y: 0.34, z: 0.47 },
+		scale: 2.03
+	},
+	fpHandTransform: {
+		translation: { x: 0.25, y: -0.4, z: 0 },
+		rotation: { x: -3, y: 43, z: 88 },
+		scale: 2.19
+	},
+	tpHandTransform: {
+		translation: { x: -0.7, y: -1.2, z: -0.7 },
+		rotation: { x: 180, y: 3, z: 3 },
+		origin: { x: 0.54, y: 0.57, z: 1.26 },
+		scale: 0.87
+	},
+	groundTransform: {
+		translation: { x: 0, y: -0.23, z: 0 },
+		rotation: { x: -180, y: 6, z: 2 },
+		origin: { x: 0.5, y: 0.39, z: 0.5299 },
+		scale: 4.21
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 4,
+	},
+	materialDensity: 100,
+}

@@ -1,0 +1,70 @@
+[
+
+	{
+	ingredientPattern: "H,L",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"L": { type: "item", code: "game:stonebrick-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:stone-{rock}", quantity: 1 }
+	},
+	{
+	ingredientPattern: "H,C,L",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"L": { type: "block", code: "game:stonebricks-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+	},
+	width: 1,
+	height: 3,
+	output: { type: "item", code: "game:stonebrick-{rock}", quantity: 4 }
+	},
+
+
+
+
+	{
+	ingredientPattern: "H,C,L",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"L": { type: "block", code: "game:stonebrickstairs-*-up-north-free", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+	},
+	width: 1,
+	height: 3,
+	output: { type: "item", code: "game:stonebrick-{rock}", quantity: 3 }
+	},
+
+
+
+
+
+	{
+	ingredientPattern: "H,C,L",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"L": { type: "block", code: "game:stonebrickslab-*-down-free", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+	},
+	width: 1,
+	height: 3,
+	output: { type: "item", code: "game:stonebrick-{rock}", quantity: 2 }
+	},
+
+
+
+
+	{
+	ingredientPattern: "P,S",
+	ingredients: {
+		"S": { type: "block", code: "game:stonebricks-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+		"P": { type: "item", code: "game:drygrass", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "block", code: "mossystonebricks-{rock}", quantity: 1 }
+	},
+
+]

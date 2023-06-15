@@ -1,0 +1,95 @@
+{
+	"code": "porcelainbowl",
+	"classByType": {
+		"*-burnt-*": "BlockLiquidContainerTopOpened"
+	},
+	"behaviors": [
+                { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+                { "name": "Unplaceable" },
+                { "name": "RightClickPickup"}
+        ],
+	"variantgroups": [
+		{ "code": "type", "states": [ "raw", "burnt" ] },
+		{ "code": "color", "states": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+		{ "code": "inside", "states": [ "white" ] }
+	],
+	"attributesByType": {
+		"porcelainbowl-burnt-*": {
+			"handbook": { "groupBy": [ "porcelainbowl-burnt-*" ] },
+			"shelvable": true,
+                        "liquidContainerProps": {
+                                "capacityLitres": 2,
+                                "transferSizeLitres": 0.25,
+                                "emptyShapeLoc": "bricklayers:block/clay/bowl/bowl_porcelain_empty_ground",
+                                "opaqueContentShapeLoc": "game:shapes/block/clay/bowl-contents",
+                                "liquidContentShapeLoc": "bricklayers:block/clay/bowl/bowl_porcelain_liquid",
+                                "liquidMaxYTranslate": 0.05
+                        },
+			"mealContainer": true,
+			"mealBlockCode": "bricklayers:porcelainbowl-meal-{color}-{inside}",
+			"servingCapacity": 2,
+			"bowlContents": null
+		},
+		"*": {
+			"handbook": { "groupBy": [ "porcelainbowl-raw-*" ] },
+			"shelvable": true,
+			"bowlContents": null
+		}
+	},
+	"combustiblePropsByType": {
+		"porcelainbowl-raw-*": {
+			"meltingPoint": 1350,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-{color}-{inside}" },
+			"requiresContainer": false
+		}
+	},
+	"shape": { "base": "bricklayers:block/clay/bowl/bowl_porcelain_empty_ground" },
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"replaceable": 300,
+	"liquidSelectable": 1,
+	"resistance": 0.75,
+	"maxStackSize": 8,
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"*-raw-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}" },
+			"top": { "base": "bricklayers:block/clay/raw/{color}" },
+			"inside": { "base": "bricklayers:block/clay/raw/{color}" }
+		},
+		"*-burnt-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}" },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}" },
+			"inside": { "base": "bricklayers:block/clay/burnt/{color}" }
+		}
+	},
+	"sounds": { "walk": "game:walk/stone" },
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 3
+	},
+	"groundTransform": { "scale": 3.5 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.4, "z": 0 },
+		"rotation": { "x": 0, "y": -14, "z": 0 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.1, "z": -0.8 },
+		"rotation": { "x": 0, "y": -56, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.66
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"code": "littlevessel-silver",
+	"class": "Block",
+	"attributes": {
+		"canChisel": false
+	},
+	"behaviors": [{"name": "UnstableFalling"}],
+	"shape": { "base": "block/clay/littlevessel" },
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "medieval": ["*"] },
+	"drops":[{ "type": "item", "code": "medieval:coin-silver", "quantity": { "avg": 10, "var": 5 }},
+		     { "type": "item", "code": "game:ingot-silver", "quantity": { "avg": 0.05, "var": 0 }}
+	],
+	"replaceable": 1000,
+	"resistance": 0.45,
+	"maxStackSize": 4,
+	"lightAbsorption": 0,
+	"sounds": {
+		"walk": "game:walk/stone",
+		"break": "game:block/ceramicbreak",
+		"hit": "game:block/ceramicbreak",
+		"place": "game:block/ceramicplace"
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"collisionSelectionBox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.5, "z2": 0.75 },
+	"tpHandTransform": {
+		"translation": { "x": -0.86, "y": -0.37, "z": -0.58 },
+		"rotation": { "x": -33, "y": -19, "z": -107 },
+		"scale": 0.5
+	},	
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 5
+	}
+}

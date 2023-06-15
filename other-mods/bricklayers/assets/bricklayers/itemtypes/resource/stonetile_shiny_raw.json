@@ -1,0 +1,79 @@
+{
+	"code": "stonerawtileshiny",
+	"behaviors": [
+		{
+		"name": "GroundStorable",
+			"properties": {
+			"layout": "Stacking",
+			"placeRemoveSound": "game:sounds/block/ceramicplace",
+			"stackingModel": "bricklayers:block/clay/tilepile_shiny.json",
+			"collisionBox": { "x1": 0.0312, "y1": 0, "z1": 0.0312, "x2": 0.95, "y2": 0.0625, "z2": 0.95 },
+			"cbScaleYByLayer": 1,
+			"tessQuantityElements": 3,
+			"stackingCapacity": 16,
+			"transferQuantity": 1,
+			"bulkTransferQuantity": 2,
+			"maxFireable": 10
+			}
+		}
+	],
+	"attributes": {
+		"handbook": { "groupBy": [ "stonerawtileshiny" ] }
+	},
+	"attributesByType": {
+		"*": { "handbook": { "extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-stonerawtileshiny" } ] } }
+	},
+	"variantgroups": [
+		{ "code": "rock", "states": [ "whitemarble", "greenmarble", "redmarble", "suevite", "kimberlite", "obsidian" ], "loadFromProperties": "block/rock" }
+	],
+	"shape": { "base": "bricklayers:block/basic/layers/05voxel_15_shiny" },
+	"maxstacksize": 16,
+	"blockmaterial": "Stone",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"replaceable": 700,
+	"resistance": 1,
+	"emitSideAo": { "all": false },
+	"texturesbyType": {
+		"*-obsidian": {
+			"all": { "base": "bricklayers:block/stone/polishedrock/obsidian-inside" },
+			"down": { "base": "bricklayers:block/stone/polishedrock/obsidian_*" },
+			"up": { "base": "bricklayers:block/stone/polishedrock/obsidian_*" },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		},
+		"*": {
+			"all": { "base": "game:block/stone/polishedrock/{rock}-inside" },
+			"down": { "base": "game:block/stone/polishedrock/{rock}" },
+			"up": { "base": "game:block/stone/polishedrock/{rock}" },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		}
+	},
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"break": "game:block/rock-break-pickaxe",
+		"hit": "game:block/rock-hit-pickaxe",
+		"walk": "game:walk/stone"
+	},
+	"materialDensity": 2500,
+	"fpHandTransform": {
+		"translation": { "x": -0.35, "y": -0.15, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 79 },
+		"scale": 1.8
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"rotation": { "x": -42, "y": 9, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0312, "z": 0.5 }
+        },
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 90, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.12, "y": 0.23, "z": -0.85 },
+		"rotation": { "x": 94, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.48
+	}
+}

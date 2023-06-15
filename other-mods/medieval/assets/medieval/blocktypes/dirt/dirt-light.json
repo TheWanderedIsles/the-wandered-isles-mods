@@ -1,0 +1,28 @@
+{
+	code: "dirt-light",
+	attributes: {
+		canChisel: true
+	},
+	creativeinventory: { "general": ["*"], "construction": ["*"], "terrain": ["*"], "medieval": ["*"] },
+	shape: { base: "game:block/basic/cube" },
+	blockmaterial: "Gravel",
+	textures: {
+		all: {base: "block/dirt/light/dirt*"},
+	},
+	replaceable: 400,
+	fertility: 5,
+	resistance: 2.2,
+	sounds: {
+		place: "game:block/gravel",
+		break: "game:block/gravel",
+		hit: "game:block/gravel",
+		walk: "game:walk/gravel"
+	},
+	walkspeedmultiplier: 1.20,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

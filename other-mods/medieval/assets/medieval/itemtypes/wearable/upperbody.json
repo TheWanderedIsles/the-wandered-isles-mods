@@ -1,0 +1,72 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["upperbody"] },
+		{ code: "upperbody", combine: "SelectiveMultiply", onVariant: "category", states: [ "crimson-embroidered-shirt", "camel-embroidered-shirt", "turquoise-embroidered-shirt", "steel-embroidered-shirt", "linen-tunic-black", "linen-tunic-pink", "linen-tunic-blue", "linen-tunic-brown", "linen-tunic-gray", "linen-tunic-green", "linen-tunic-orange", "linen-tunic-purple", "linen-tunic-red", "linen-tunic-white", "linen-tunic-yellow", "medieval-leather-shirt", "medieval-leather-shirt-black", "medieval-leather-shirt-blue", "medieval-leather-shirt-gray", "medieval-leather-shirt-green", "medieval-leather-shirt-red", "medieval-leather-shirt-white", "medieval-shirt", "large-blue-luxurious-medieval-tunic", "large-gray-luxurious-medieval-tunic", "large-green-luxurious-medieval-tunic", "large-orange-luxurious-medieval-tunic", "large-red-luxurious-medieval-tunic", "large-yellow-luxurious-medieval-tunic", "medieval-large-blue-neck", "medieval-large-blue-robe", "medieval-large-blue-w", "medieval-large-brown-neck", "medieval-large-brown-robe", "medieval-large-brown-w", "medieval-large-gray-neck", "medieval-large-gray-robe", "medieval-large-gray-w", "medieval-large-green-neck", "medieval-large-green-robe", "medieval-large-green-w", "medieval-large-orange-neck", "medieval-large-orange-robe", "medieval-large-orange-w", "medieval-large-yellow-neck", "medieval-large-yellow-robe", "medieval-large-yellow-w", "medieval-large-black-neck", "medieval-large-black-robe", "medieval-large-red-neck", "medieval-large-red-robe", "medieval-large-red-w", "medieval-large-pink-w", "medieval-large-purple-w", "medieval-large-white-w", "medieval-blouse", "medieval-blouse-black", "medieval-blouse-blue", "medieval-blouse-brown", "medieval-blouse-gray", "medieval-blouse-green", "medieval-blouse-orange", "medieval-blouse-pink", "medieval-blouse-purple", "medieval-blouse-red", "medieval-blouse-white", "medieval-blouse-yellow", "medieval-dress-top", "medieval-dress-brown-top", "medieval-dress-blue-top", "medieval-woman-coat-top", "medieval-knight-tunic-brown", "medieval-knight-tunic-red", "medieval-knight-tunic-gray", "medieval-squire-tunic", "black", "blackred", "ambar", "camisita-black", "camisita-blue", "camisita-brown", "camisita-gray", "camisita-green", "camisita-orange", "camisita-red", "camisita-yellow", "medieval-lux-leather-shirt", "duende", "gris", "manga", "medieval-short-black", "medieval-short-black-neck", "medieval-short-brown", "medieval-short-brown-neck", "medieval-short-red", "medieval-short-red-neck" ] }
+	],
+	shape: { base: "game:entity/humanoid/seraph" },
+	storageFlags: 128,
+	attributesByType: {
+		"*-medieval-shirt": {
+			clothescategory: "upperbody",
+			warmth: 1.5
+		},
+		"*-medieval-leather-shirt": {
+			clothescategory: "upperbody",
+			warmth: 3
+		},
+		"*-medieval-leather-shirt-*": {
+			clothescategory: "upperbody",
+			warmth: 3
+		},
+		"*": {
+			clothescategory: "upperbody",
+			warmth: 2
+		}
+	},
+	textures: {
+		"seraph": { base: "entity/humanoid/seraphclothes/{category}/{upperbody}" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransform: {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+	},
+	guiTransformByType: {
+		"*-shirt*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -178, y: -65, z: 10 },
+			origin: { x: 0.9, y: 1.1, z: 0.7 },
+			scale: 1.5
+		},
+		"*-short-*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -178, y: -65, z: 10 },
+			origin: { x: 0.9, y: 1.1, z: 0.7 },
+			scale: 1.5
+		},
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -178, y: -65, z: 10 },
+			origin: { x: 0.43, y: 1.1, z: 0.5 },
+			scale: 1.69
+		}
+	},
+	groundTransform: {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	}
+}

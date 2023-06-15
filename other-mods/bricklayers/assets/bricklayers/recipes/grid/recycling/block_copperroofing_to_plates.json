@@ -1,0 +1,62 @@
+[
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
+		"B": { "type": "block", "code": "game:slantedroofing-copper-east-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:metalplate-copper", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
+		"B": { "type": "block", "code": "game:slantedroofingridge-copper-ns-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:metalplate-copper", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 4 },
+		"B": { "type": "block", "code": "game:slantedroofingtip-copper-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:metalplate-copper", "quantity": 2 }
+	},
+
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
+		"B": { "type": "block", "code": "game:slantedroofingcornerinner-copper-east-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:metalplate-copper", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
+		"B": { "type": "block", "code": "game:slantedroofingcornerouter-copper-east-free", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:metalplate-copper", "quantity": 1 }
+	}
+
+]

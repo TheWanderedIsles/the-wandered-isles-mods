@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "LLL	HHH	AAA",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "block", code: "game:hay-normal-ud" },
+			"A": { type: "item", code: "game:plank-aged", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:bed-woodaged-head-north" }
+	}
+]

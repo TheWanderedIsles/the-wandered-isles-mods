@@ -1,0 +1,367 @@
+{
+	code: "medievalsword",
+	class: "ItemAxe",
+	tool: "axe",
+	damagedby: ["blockbreaking", "attacking"],
+	attributes: {
+		handbook: {
+			groupBy: ["medievalsword-*"]
+		},
+		toolrackTransformByType: {
+			"*-swordblackheart":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordceltic":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-sworddiamondleon":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordgoldenceltic":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordheavysword":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordknight":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordmedieval":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordmedieval1l":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordmedieval2":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordpurpleblood":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordredeye":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordskull":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordtemplar1":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				},
+			"*-swordviking":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.65, z: 0 },
+					scale: 1.35
+				}
+		},
+		groundStorageTransformByType: {
+			"*-swordblackheart": {
+				translation: { x: 0, y: 0.62, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordceltic": {
+				translation: { x: 0, y: 0.5, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-sworddiamondleon": {
+				translation: { x: 0, y: 0.72, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordgoldenceltic": {
+				translation: { x: 0, y: 0.57, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordheavysword": {
+				translation: { x: 0, y: 0.6, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordknight": {
+				translation: { x: 0, y: 0.55, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordmedieval": {
+				translation: { x: 0, y: 0.5, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordmedieval1": {
+				translation: { x: 0, y: 0.5, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordmedieval2": {
+				translation: { x: 0, y: 0.5, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordpurpleblood": {
+				translation: { x: 0, y: 0.55, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordredeye": {
+				translation: { x: 0, y: 0.45, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordskull": {
+				translation: { x: 0, y: 0.5, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordtemplar1": {
+				translation: { x: 0, y: 0.5, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*-swordviking": {
+				translation: { x: 0, y: 0.5, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			}
+		},
+		onmoldrackTransformByType: {
+
+			"*-swordblackheart":{
+					translation: { x: 0.42, y: 0.97, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordceltic":{
+					translation: { x: 0.42, y: 0.9, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-sworddiamondleon":{
+					translation: { x: 0.42, y: 1.05, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordgoldenceltic":{
+					translation: { x: 0.42, y: 0.93, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordheavysword":{
+					translation: { x: 0.42, y: 0.95, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordknight":{
+					translation: { x: 0.42, y: 0.92, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordmedieval":{
+					translation: { x: 0.42, y: 0.85, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordmedieval1":{
+					translation: { x: 0.42, y: 0.91, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordmedieval2":{
+					translation: { x: 0.42, y: 0.91, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordpurpleblood":{
+					translation: { x: 0.42, y: 0.94, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordredeye":{
+					translation: { x: 0.42, y: 0.83, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordskull":{
+					translation: { x: 0.42, y: 0.91, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordtemplar1":{
+					translation: { x: 0.42, y: 0.94, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			},
+			"*-swordviking":{
+					translation: { x: 0.42, y: 0.85, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			}
+		},
+
+    "moldrackable": true
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY:  2,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [
+		{ code: "type", states: [ "swordblackheart", "swordceltic", "sworddiamondleon", "swordgoldenceltic", "swordheavysword", "swordknight", "swordmedieval", "swordmedieval1", "swordmedieval2", "swordpurpleblood", "swordredeye", "swordskull", "swordtemplar1", "swordviking" ] },
+	],
+	shapeByType: {
+		"*-swordblackheart": { base: "item/medieval/sword/blackheart" },
+		"*-swordceltic": { base: "item/medieval/sword/celtic" },
+		"*-sworddiamondleon": { base: "item/medieval/sword/diamondleon" },
+		"*-swordgoldenceltic": { base: "item/medieval/sword/goldenceltic" },
+		"*-swordheavysword": { base: "item/medieval/sword/heavysword" },
+		"*-swordknight": { base: "item/medieval/sword/knight" },
+		"*-swordmedieval": { base: "item/medieval/sword/medieval" },
+		"*-swordmedieval1": { base: "item/medieval/sword/medieval1" },
+		"*-swordmedieval2": { base: "item/medieval/sword/medieval2" },
+		"*-swordpurpleblood": { base: "item/medieval/sword/purpleblood" },
+		"*-swordredeye": { base: "item/medieval/sword/redeye" },
+		"*-swordskull": { base: "item/medieval/sword/skull" },
+		"*-swordtemplar1": { base: "item/medieval/sword/templar1" },
+		"*-swordviking": { base: "item/medieval/sword/viking" }
+	},
+	heldTpHitAnimation: "swordhit",
+	texturesByType: {
+		"*-swordblackheart": { "sw1-sword6": { base: "item/medieval/sword/sw1-sword6" }},
+		"*-swordceltic": { "sword": { base: "item/medieval/sword/sword" },
+						   "sw1-sword5": { base: "item/medieval/sword/sw1-sword5" },
+						   "sword-celtic3": { base: "item/medieval/sword/sword-celtic3" }},
+		"*-sworddiamondleon": { "sword": { base: "item/medieval/sword/sword" },
+						   "escudo-leon": { base: "item/medieval/sword/escudo-leon" }},
+		"*-swordgoldenceltic": { "sword": { base: "item/medieval/sword/sword" },
+						   "sw1-sword4": { base: "item/medieval/sword/sw1-sword4" },
+						   "sword-celtic3": { base: "item/medieval/sword/sword-celtic3" }},
+		"*-swordheavysword": { "sw1-sword": { base: "item/medieval/sword/sw1-sword" }},
+		"*-swordknight": { "sw1-sword2": { base: "item/medieval/sword/sw1-sword2" }},
+		"*-swordmedieval": { "sw1-sword": { base: "item/medieval/sword/sw1-sword" }},
+		"*-swordmedieval1": { "sw1-sword4": { base: "item/medieval/sword/sw1-sword4" }},
+		"*-swordmedieval2": { "sw1-sword4": { base: "item/medieval/sword/sw1-sword4" }},
+		"*-swordpurpleblood": { "sw1-sword3": { base: "item/medieval/sword/sw1-sword3" }},
+		"*-swordredeye": { "sw1-sword1": { base: "item/medieval/sword/sw1-sword1" }},
+		"*-swordskull": { "sw1-sword4": { base: "item/medieval/sword/sw1-sword4" }},
+		"*-swordtemplar1": { "sw1-sword": { base: "item/medieval/sword/sw1-sword" }},
+		"*-swordviking": { "sword": { base: "item/medieval/sword/sword" },
+						   "sw1-sword4": { base: "item/medieval/sword/sw1-sword4" },
+						   "sword-celtic4": { base: "item/medieval/sword/sword-celtic4" }}
+		
+	},
+	attackRange: 3.5,
+	tooltierbytype: {
+		"*": 7
+	},
+	attackpowerbytype: {
+		"*": 7
+	},
+	durabilitybytype: {
+		"*": 3000
+	},
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] }
+	},
+	guiTransformByType: {
+		"*":
+			{
+		translation: { x: 6, y: -4, z: 0 },
+		rotation: { x: -89, y: 47, z: 44 },
+		origin: { x: 0.6, y: -0.2, z: 0.44 },
+		scale: 1.42
+			}
+	},
+	fpHandTransformByType: {
+		"*":
+			{
+				translation: { x: -0.2, y: -0.2, z: 0 },
+				rotation: { x: -3, y: 15, z: 90 },
+				scale: 3.18
+			}
+	},
+	groundTransformByType: {
+		"*":
+			{
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 0, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 3.4
+			}
+	},
+	tpHandTransformByType: {
+		"*-swordblackheart":
+			{
+		translation: { x: -1.13, y: 0.03, z: -0.61 },
+		rotation: { x: -90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.8
+			},
+		"*":
+			{
+		translation: { x: -1.23, y: 0.03, z: -0.61 },
+		rotation: { x: -90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.8
+			}
+	}
+}

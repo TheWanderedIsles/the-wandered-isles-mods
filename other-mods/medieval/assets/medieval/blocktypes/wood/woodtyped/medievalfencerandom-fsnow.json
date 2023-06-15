@@ -1,0 +1,276 @@
+{
+	code: "medievalfencerandom",
+	class: "BlockFence",
+	behaviors: [ {name: "CanAttach", properties: { sides: ["up", "down"] } } 
+			],
+	attributes: {
+		isFence: true
+	},
+	variantgroups: [
+		{ code: "material", states: ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] },
+		{ code: "type", states: ["empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw"] },
+		{ code: "cover", states: ["snow"] }
+	],
+	creativeinventory: {  },	
+	shapebytype: {
+		"*-empty-snow": { base: "block/wood/medievalfencerandom/snow-empty" },
+		"*-n-snow": { base: "block/wood/medievalfencerandom/snow-w", rotateY: 270 },
+		"*-e-snow": { base: "block/wood/medievalfencerandom/snow-w", rotateY: 180 },
+		"*-s-snow": { base: "block/wood/medievalfencerandom/snow-w", rotateY: 90 },
+		"*-w-snow": { base: "block/wood/medievalfencerandom/snow-w", rotateY: 0 },
+
+		"*-ns-snow": { base: "block/wood/medievalfencerandom/snow-ew", rotateY: 90,
+					      alternates: [
+							{ base: "block/wood/medievalfencerandom/snow-ew1", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew4", rotateY: 270 },
+							{ base: "block/wood/medievalfencerandom/snow-ew11", rotateY: 270 },
+							{ base: "block/wood/medievalfencerandom/snow-ew4", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew5", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew6", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew7", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew8", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew9", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew10", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew11", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew12", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew12", rotateY: 270 },
+							{ base: "block/wood/medievalfencerandom/snow-ew13", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew14", rotateY: 90 },
+							{ base: "block/wood/medievalfencerandom/snow-ew15", rotateY: 90 }
+						]},
+		"*-ew-snow": { base: "block/wood/medievalfencerandom/snow-ew", rotateY: 0,
+					      alternates: [
+							{ base: "block/wood/medievalfencerandom/snow-ew1", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew4", rotateY: 180 },
+							{ base: "block/wood/medievalfencerandom/snow-ew11", rotateY: 180 },
+							{ base: "block/wood/medievalfencerandom/snow-ew4", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew5", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew6", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew7", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew8", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew9", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew10", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew11", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew12", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew12", rotateY: 180 },
+							{ base: "block/wood/medievalfencerandom/snow-ew13", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew14", rotateY: 0 },
+							{ base: "block/wood/medievalfencerandom/snow-ew15", rotateY: 0 }
+						]},
+		
+		"*-ne-snow": { base: "block/wood/medievalfencerandom/snow-sw", rotateY: 180 },
+		"*-nw-snow": { base: "block/wood/medievalfencerandom/snow-sw", rotateY: 270 },
+		"*-es-snow": { base: "block/wood/medievalfencerandom/snow-sw", rotateY: 90 },
+		"*-sw-snow": { base: "block/wood/medievalfencerandom/snow-sw", rotateY: 0 },
+		
+		"*-nes-snow": { base: "block/wood/medievalfencerandom/snow-nsw", rotateY: 180 },
+		"*-new-snow": { base: "block/wood/medievalfencerandom/snow-nsw", rotateY: 270 },
+		"*-nsw-snow": { base: "block/wood/medievalfencerandom/snow-nsw", rotateY: 0 },
+		"*-esw-snow": { base: "block/wood/medievalfencerandom/snow-nsw", rotateY: 90 },
+		
+		"*-nesw-snow": { base: "block/wood/medievalfencerandom/snow-nesw", rotateY: 0 }
+	},
+	drawtypeByType: {
+		"*-free": "JSON",
+		"*-snow": "JSONAndSnowLayer"
+	},
+	blockmaterial: "Wood",
+	texturesByType: {
+
+		"*-acacia-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/acacia"}
+		},
+		"*-aged-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/aged"}
+		},
+		"*-baldcypress-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/baldcypress"}
+		},
+		"*-birch-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/birch"}
+		},
+		"*-ebony-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/ebony"}
+		},
+		"*-kapok-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/kapok"}
+		},
+		"*-larch-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/larch"}
+		},
+		"*-maple-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/maple"}
+		},
+		"*-oak-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/oak"}
+		},
+		"*-pine-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/pine"}
+		},
+		"*-purpleheart-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/purpleheart"}
+		},
+		"*-redwood-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/redwood"}
+		},
+		"*-walnut-*": { 
+						"normal1": {base: "block/snow/normal1"},
+						"1": {base: "block/wood/debarked/walnut"}
+		}
+	},
+	sidesolid: {
+		all: false
+	},
+	sideopaque: { all: false },
+	resistance: 3,
+	lightAbsorption: 0,
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	selectionboxbytype: {
+		"*-empty-*": { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 0.625 },
+		"*-n-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2:  0.625, rotateY: 270},
+		"*-e-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2:  0.625, rotateY: 180},
+		"*-s-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-w-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2:  0.625},
+		
+		"*-ns-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns1-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns2-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns3-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns4-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns5-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns6-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns7-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns8-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns9-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns10-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns11-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns12-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns13-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns14-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ns15-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-gns-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ngs-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625, rotateY: 90},
+		"*-ew-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew1-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew2-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew3-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew4-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew5-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew6-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew7-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew8-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew9-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew10-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew11-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew12-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew13-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew14-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-ew15-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-egw-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+		"*-gew-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2:  0.625},
+	},
+	selectionboxesbytype: {
+		"*-sw-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 1 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 0 } ],
+		"*-ne-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 180 } ] ,
+		"*-nw-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 270 } ],
+		"*-es-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 90 } ],
+		
+		"*-nes-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 180 } ],
+		"*-new-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 270 } ],
+		"*-nsw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 0 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 0 } ],
+		"*-esw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.0625, z2: 0.625, rotateY: 90 } ],
+		
+		"*-nesw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.0625, z2: 1 }, { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.0625, z2: 0.625 } ]
+	},
+	
+	collisionboxbytype: {
+		"*-empty-*": { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625 },
+		"*-n-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625, rotateY: 270},
+		"*-e-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625, rotateY: 180},
+		"*-s-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-w-*": { x1: 0, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 0.625},
+		
+		"*-ns-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns1-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns2-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns3-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns4-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns5-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns6-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns7-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns8-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns9-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns10-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns11-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns12-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns13-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns14-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ns15-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-gns-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ngs-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625, rotateY: 90},
+		"*-ew-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew1-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew2-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew3-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew4-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew5-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew6-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew7-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew8-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew9-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew10-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew11-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew12-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew13-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew14-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-ew15-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-egw-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+		"*-gew-*": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625},
+	},
+	collisionboxesbytype: {
+		"*-sw-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 1 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 0 } ],
+		"*-ne-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 180 } ] ,
+		"*-nw-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 270 } ],
+		"*-es-*": [ { x1: 0.375, y1: 0, z1: 0.375, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 90 } ],
+		
+		"*-nes-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 180 } ],
+		"*-new-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 270 } ],
+		"*-nsw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 0 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 0 } ],
+		"*-esw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0.375, x2: 0.375, y2: 1.3125, z2: 0.625, rotateY: 90 } ],
+		
+		"*-nesw-*": [ { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1 }, { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.625 } ]
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.2 },
+		rotation: { x: 5, y: -3, z: -96 },
+		scale: 0.37
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 90, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.07
+	}
+}

@@ -1,0 +1,132 @@
+{
+	"code": "vatliquidsmall",
+	"class": "BlockLiquidContainerTopOpened",
+	"variantgroups": [
+		{ "code": "color", "states": [
+			"black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+		{ "code": "lid", "states": [
+			"black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"comment": "Cannot mix clay and porcelain.",
+	"skipVariants": [
+		"@vatliquidsmall-(black|blue|blurple|brown|darkgrey|fire|green|malachite|orange|pink|purple|red|light|yellow)-(lavender|paleblue|palegreen|palered|peach|sunflower|white)",
+		"@vatliquidsmall-(lavender|paleblue|palegreen|palered|peach|sunflower|white)-(black|blue|blurple|brown|darkgrey|fire|green|malachite|orange|pink|purple|red|light|yellow)"
+	],
+	"shape": { "base": "bricklayers:block/clay/vat/vat_liquid_glazed_small", "rotateY": 180 },
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.95, "z2": 1 } } },
+		{ "name": "Unplaceable" },
+		{ "name": "RightClickPickup"},
+		{ "name": "UnstableFalling" }
+	],
+	"attributes": {
+		"handbook": { "groupBy": [ "vatliquidsmall-*" ] },
+		"groundStorageTransform": {
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1
+		},
+		"liquidContainerProps": {
+			"capacityLitres": 6,
+			"transferSizeLitres": 1,
+			"emptyShapeLoc": "bricklayers:block/clay/vat/vat_liquid_glazed_small",
+			"opaqueContentShapeLoc": "game:shapes/block/basic/nothing",
+			"liquidContentShapeLoc": "game:shapes/block/basic/nothing",
+			"liquidMaxYTranslate": 0.05
+		},
+		"openSound": "game:sounds/block/vesselopen",
+		"closeSound": "game:sounds/block/vesselclose"
+	},
+	"attributesByType": {
+		"@.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"liquidContainerProps" : {
+				"capacityLitres": 10,
+				"transferSizeLitres": 1,
+				"emptyShapeLoc": "bricklayers:block/clay/vat/vat_liquid_glazed_small",
+				"opaqueContentShapeLoc": "game:shapes/block/basic/nothing",
+				"liquidContentShapeLoc": "game:shapes/block/basic/nothing",
+				"liquidMaxYTranslate": 0.05
+			}
+		}
+	},
+	"texturesByType": {
+		"@.*-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid" ] },
+			"lid": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid" ] },
+			"spout": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"dark": { "base": "bricklayers:block/ceramic/glazed/ceramic" },
+			"inside": { "base": "game:block/transparent" }
+		},
+		"@.*--(fire|light|yellow)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay_light" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay_light" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"lid": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"spout": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"dark": { "base": "bricklayers:block/ceramic/glazed/ceramic" },
+			"inside": { "base": "game:block/transparent" }
+		},
+		"*": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"lid": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"spout": { "base": "bricklayers:block/clay/burnt/{lid}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"dark": { "base": "bricklayers:block/ceramic/glazed/ceramic" },
+			"inside": { "base": "game:block/transparent" }
+		}
+	},
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"liquidSelectable": 1,
+	"lightAbsorption": 1,
+	"maxStackSize": 4,
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"heldTpIdleAnimation": "holdunderarm",
+	"fpHandTransform": {
+		"translation": { "x": -0.1, "y": 0.1, "z": 0.75 }
+	},
+        "tpHandTransform": {
+                "translation": { "x": -0.8, "y": -0.3, "z": -0.52 },
+                "rotation": { "x": 25, "y": -20, "z": -99 },
+                "scale": 0.65
+        },
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"scale": 3.2
+	},
+	"guiTransform": {
+                "translation": { "x": 0, "y": 6, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+		"scale": 1.2
+	}
+}

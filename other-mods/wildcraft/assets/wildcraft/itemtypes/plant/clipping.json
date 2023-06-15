@@ -1,0 +1,103 @@
+{
+  "code": "clipping",
+  "class": "ItemClipping",
+  "attributes": {},
+  "maxstacksize": 4,
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraft": [ "*" ]
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry","blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "wolfberry", "husktomato"]
+    },
+    {
+      "code": "state",
+      "states": [ "green", "dry" ]
+    }
+  ],
+  "transitionablePropsByType": {
+    "*-green": [
+      {
+        "type": "Dry",
+        "freshHours": { "avg": 0 },
+        "transitionHours": { "avg": 36 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "wildcraft:clipping-{type}-dry"
+        },
+        "transitionRatio": 1
+      }
+    ]
+  },
+  "shapeByType": {
+    "*-green": { "base": "wildcraft:item/clipping/clipping" },
+    "*-dry": { "base": "wildcraft:item/clipping/clipping_dry" }
+  },
+  "texturesByType": {
+    "*-blackcurrant-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-redcurrant-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-whitecurrant-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/redcurrant*" }
+    },
+    "*-blueberry-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-cranberry-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-dry": {
+      "leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-blackcurrant-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-redcurrant-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-whitecurrant-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/redcurrant*" }
+    },
+    "*-blueberry-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-cranberry-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-blueraspberry-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/raspberry*" }
+    },
+    "*-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    }
+  },
+  "materialDensity": 600,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  },
+  "guiTransformByType": {
+    "*": {
+        rotation: { x: 65, y: 6, z: -29 },
+        origin: { x: 0.8, y: -0.1, z: 0.7 },
+        scale: 1.2
+    }
+  },
+  "fpHandTransform": {
+      rotation: { x: 107, y: 143, z: -67 },
+      origin: { x: 0.5, y: 0.3, z: 0.4 }
+
+	},
+  "tpHandTransform": {
+      translation: { x: -1.5, y: -1.55, z: -1.4 },
+      rotation: { x: -16, y: 31, z: 21 },
+      origin: { x: 0.5, y: 0.75, z: 0.4 },
+      scale: 0.34
+  }
+}

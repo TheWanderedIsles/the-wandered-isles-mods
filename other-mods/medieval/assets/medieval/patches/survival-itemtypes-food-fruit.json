@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/freshHours/avg",
+    "value": 360,
+    "file": "game:itemtypes/food/fruit.json"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/transitionHours/avg",
+    "value": 48,
+    "file": "game:itemtypes/food/fruit.json"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cranberry/0/freshHours/avg",
+    "value": 360,
+    "file": "game:itemtypes/food/fruit.json"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cranberry/0/transitionHours/avg",
+    "value": 48,
+    "file": "game:itemtypes/food/fruit.json"
+  }
+]

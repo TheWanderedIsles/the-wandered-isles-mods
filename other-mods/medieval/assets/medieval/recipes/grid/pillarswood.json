@@ -1,0 +1,429 @@
+[
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "sincortezalog-pine-ud", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "simplepinesingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simplepinesingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simplepineup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simplepineup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simplepinemed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simplepinemed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simplepinedown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simplepinedown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingpinesingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingpinesingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingpineup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingpineup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingpinemed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingpinemed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingpinedown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingpinedown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simplepinesingle", quantity: 1 }
+	},
+
+
+
+
+
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "sincortezalog-oak-ud", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "simpleoaksingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleoaksingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleoakup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleoakup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleoakmed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleoakmed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleoakdown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleoakdown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingoaksingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingoaksingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingoakup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingoakup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingoakmed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingoakmed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingoakdown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingoakdown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleoaksingle", quantity: 1 }
+	},
+
+
+
+
+
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "sincortezalog-walnut-ud", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "simplewalnutsingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simplewalnutsingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simplewalnutup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simplewalnutup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simplewalnutmed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simplewalnutmed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simplewalnutdown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simplewalnutdown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingwalnutsingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingwalnutsingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingwalnutup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingwalnutup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingwalnutmed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingwalnutmed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "vikingwalnutdown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "vikingwalnutdown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simplewalnutsingle", quantity: 1 }
+	},
+
+
+
+
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "sincortezalog-acacia-ud", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "simpleacaciasingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleacaciasingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleacaciaup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleacaciaup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleacaciamed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleacaciamed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleacaciadown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleacaciadown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleacaciasingle", quantity: 1 }
+	},
+
+
+
+
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "sincortezalog-ebony-ud", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "simpleebonysingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleebonysingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleebonyup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleebonyup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleebonymed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleebonymed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleebonydown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleebonydown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleebonysingle", quantity: 1 }
+	},
+
+
+
+
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "sincortezalog-redwood-ud", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "simpleredwoodsingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleredwoodsingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleredwoodup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleredwoodup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleredwoodmed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleredwoodmed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleredwooddown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "simpleredwooddown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "simpleredwoodsingle", quantity: 1 }
+	}
+]

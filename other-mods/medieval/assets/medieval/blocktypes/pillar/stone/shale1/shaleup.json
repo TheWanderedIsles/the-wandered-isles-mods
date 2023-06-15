@@ -1,0 +1,40 @@
+{
+	code: "shaleup",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/stone/shale1/shaleup" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "terrain": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/stone/pillar/shale1/shaleup" },
+		"east": { base: "block/stone/pillar/shale1/shaleup" },
+		"south": { base: "block/stone/pillar/shale1/shaleup" },
+		"west": { base: "block/stone/pillar/shale1/shaleup" },
+		"up": { base: "game:block/stone/polishedrock/shale" },
+		"down": { base: "game:block/stone/polishedrock/shale" },
+		"inside-north": { base: "block/stone/pillar/shale1/shaleup" },
+		"inside-east": { base: "block/stone/pillar/shale1/shaleup" },
+		"inside-south": { base: "block/stone/pillar/shale1/shaleup" },
+		"inside-west": { base: "block/stone/pillar/shale1/shaleup" },
+		"inside-up": { base: "game:block/stone/polishedrock/shale" },
+		"inside-down": { base: "game:block/stone/polishedrock/shale" }
+
+	},
+	replaceable: 90,
+	resistance: 3,
+	sounds: {
+		"walk": "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

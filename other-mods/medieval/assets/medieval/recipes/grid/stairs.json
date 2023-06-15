@@ -1,0 +1,40 @@
+[
+  {
+    "ingredientPattern": "HW,WW,W_",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+      "W": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+      "S": { "type": "item", "code": "game:stick", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 3,
+    "output": { "type": "block", "code": "stairs-{wood}-south", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": { "type": "block", "code": "stairs-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "stairsinn-{material}-east" }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": { "type": "block", "code": "stairsinn-*-east", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]}
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "stairsout-{material}-east" }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": { "type": "block", "code": "stairsout-*-east", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "stairs-{material}-south" }
+  },
+]

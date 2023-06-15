@@ -1,0 +1,25 @@
+{
+	"treeWorldPropertyCode": "brideinwhite",
+	"sizeMultiplier": 0.75,
+	"trunks": [{
+		"widthloss": 0.1,
+		"dieAt": { "avg": 0.001 },
+		branchStart: { dist: "gaussian", avg: 0.2, var: 0.1 },
+		branchSpacing: { dist: "gaussian", avg: 0.2, var: 0.1 },
+		branchVerticalAngle:  { avg: 0.8, var: 0.1 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.1, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1 },
+		branchQuantity: { avg: 5, var: 0 },
+		branchWidthLossMul: 0.98,
+		"angleVert": { "avg": 0, "var": 0 }
+	}],
+	"branches": [],
+	"treeBlocks": {
+		"logBlockCode": "lognarrow-grown-brideinwhite-ud",
+		"leavesBlockCode": "leaves-grown-brideinwhite",
+		"leavesBranchyBlockCode": "leaves-grown-brideinwhite",
+		"vinesBlockCode": "wildvine-section-north",
+		"vinesEndBlockCode": "wildvine-end-north",
+	}
+}

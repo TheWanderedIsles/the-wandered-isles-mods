@@ -1,0 +1,44 @@
+[
+	{
+		ingredientPattern: "B,P",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "medieval:medievalarmor-body-ironbody" },
+			"P": { type: "item", code: "medieval:redondo-iron" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		averageDurability: false,
+		name: "medieval armor body",
+		output: { type: "item", code: "medieval:medievalarmor-body-ironbody"  }
+	},
+	{
+		ingredientPattern: "B,P",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "medieval:medievalarmor-head-iron" },
+			"P": { type: "item", code: "medieval:redondo-iron" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		averageDurability: false,
+		name: "medieval armor head",
+		output: { type: "item", code: "medieval:medievalarmor-head-iron"  }
+	},
+	{
+		ingredientPattern: "B,P",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "medieval:medievalarmor-legs-iron" },
+			"P": { type: "item", code: "medieval:redondo-iron" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		averageDurability: false,
+		name: "medieval armor legs",
+		output: { type: "item", code: "medieval:medievalarmor-legs-iron"  }
+	}
+]

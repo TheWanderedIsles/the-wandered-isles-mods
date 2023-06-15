@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"claystone": "block/stone/polishedrock/claystone",
+		"claystonemed": "block/stone/pillar/claystone/claystonemed"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#claystonemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#claystonemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#claystonemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#claystonemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#claystone", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#claystone", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

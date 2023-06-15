@@ -1,0 +1,35 @@
+{
+	code: "axebladehead",
+	variantgroups: [
+		{ code: "metal", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium" ] }
+	],
+	maxstacksize: 4,
+
+	shape: { "base": "item/tool/axebladehead" },
+
+	textures: {	"metal": { base: "item/tool/sword/{metal}" }},
+
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+	fpHandTransform: {
+		translation: { x: -0.5, y: -0.4, z: 0 },
+		rotation: { x: 25, y: 0, z: 86 },
+		scale: 2.5
+	},
+		guiTransform: {
+		translation: { x: 4, y: -13, z: 100 },
+		rotation: { x: -52, y: -110, z: -180 },
+		origin: { x: 0.36, y: 0.51, z: 0.31 },
+		scale: 3
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.3, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.81, y: 0.45, z: 0.42 },
+		scale: 3.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.55, y: -0.1, z: -0.04 },
+		rotation: { x: 90, y: -29, z: 0 },
+		scale: 1
+	}
+}

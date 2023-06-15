@@ -1,0 +1,16 @@
+[
+  {
+    "op": "remove",
+    "path": "/behaviorsByType/*/0/properties/attachmentArea",
+    "file": "game:blocktypes/clay/flowerpot.json"
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*/0/properties/attachableFaces",
+    "value": [
+      "up",
+      "down"
+    ],
+    "file": "game:blocktypes/clay/flowerpot.json"
+  }
+]

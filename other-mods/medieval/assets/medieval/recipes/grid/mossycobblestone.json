@@ -1,0 +1,13 @@
+[
+	{
+	ingredientPattern: "P,L",
+	ingredients: {
+		"L": { type: "block", code: "game:cobblestone-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble"] },
+		"P": { type: "item", code: "game:drygrass", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "block", code: "mossycobblestone-{rock}", quantity: 1 }
+	}
+
+]

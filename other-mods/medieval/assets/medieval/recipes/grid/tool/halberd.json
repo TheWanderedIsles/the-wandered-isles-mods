@@ -1,0 +1,14 @@
+[
+	{
+		ingredientPattern: "HS,_T,_X",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:stick", quantity: 2  },
+			"T": { type: "item", code: "medieval:axebladehead-iron"},
+			"S": { type: "item", code: "medieval:shortbladehead-iron"}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "medieval:halberd", quantity: 1  }
+	}
+]

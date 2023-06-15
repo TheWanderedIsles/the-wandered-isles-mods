@@ -1,0 +1,152 @@
+{
+	code: "littlescythe",
+	damagedby: ["blockbreaking", "attacking"],
+	attributes: {
+		handbook: {
+			groupBy: ["hoe-*"]
+		},
+		toolrackTransformByType: {
+			"*":
+			{
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.23, y: 0.6 },
+				scale: 1.25,
+			}
+		},
+		groundStorageTransform: {
+			translation: { x: 0.1, y: 0.18, z: -0.1 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [
+		{ code: "metal", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] 
+		}
+	],
+	tool: "hoe",
+
+
+	shape: { "base": "item/tool/blade/littlescythe" },
+
+	textures: {	"metal": { base: "item/tool/sword/axe/{metal}" }},
+
+	heldTpHitAnimation: "axechop",
+
+	attackRange: 2,
+
+	tooltierbytype: {
+		"*-copper": 4,
+		"*-gold": 4,
+		"*-silver": 4,
+		"*-bismuthbronze": 5,
+		"*-tinbronze": 5,
+		"*-blackbronze": 5,
+		"*-iron": 6,
+		"*-meteoriciron": 6,
+		"*-steel": 7
+	},
+	miningspeedbytype: {
+		"littlescythe-copper": {
+			"plant": 2.8,
+			"leaves": 2.4
+		},
+		"littlescythe-silver": {
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"littlescythe-gold": {
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"littlescythe-bismuthbronze": {
+			"plant": 3.5,
+			"leaves": 2.6
+		},
+		"littlescythe-tinbronze": {
+			"plant": 3.8,
+			"leaves": 3
+		},
+		"littlescythe-blackbronze": {
+			"plant": 4,
+			"leaves": 3.1
+		},
+		"littlescythe-iron": {
+			"plant": 5,
+			"leaves": 3.2
+		},
+		"littlescythe-meteoriciron": {
+			"plant": 5.5,
+			"leaves": 3.6
+		},
+		"littlescythe-steel": {
+			"plant": 6,
+			"leaves": 4
+		}
+	},
+	durabilitybytype: {
+		"littlescythe-gold": 350,
+		"littlescythe-silver": 350,
+		"littlescythe-copper": 500,
+		"littlescythe-blackbronze": 1200,
+		"littlescythe-bismuthbronze": 1000,
+		"littlescythe-tinbronze": 800,
+		"littlescythe-iron": 1800,
+		"littlescythe-meteoriciron": 2400,
+		"littlescythe-steel": 3600
+	},
+	attackpowerbytype: {
+		"littlescythe-copper": 4.25,
+		"littlescythe-bismuthbronze": 4.75,
+		"littlescythe-gold": 5.75,
+		"littlescythe-silver": 5.75,
+		"littlescythe-tinbronze": 4.75,
+		"littlescythe-blackbronze": 5.25,
+		"littlescythe-iron": 5.5,
+		"littlescythe-meteoriciron": 5.75,
+		"littlescythe-steel": 5.75
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+
+		fpHandTransform: {
+		translation: { x: -0.1, y: -0.3, z: 0.3 },
+		rotation: { x: -14, y: -3, z: 88 },
+		origin: { x: 0.2, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		"*":
+		{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -63, y: -123, z: -180 },
+			origin: { x: 0.61, y: 0, z: 0.47 },
+			scale: 1.58
+		}
+	},
+	groundTransformByType: {
+		"*":
+		{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.6
+		}
+	},
+	tpHandTransformByType: {
+		"*":
+		{
+			translation: { x: -0.89, y: -0.5, z: -0.1 },
+			rotation: { x: 90, y: 0, z: -10 },
+			scale: 0.95
+		}
+	}
+}

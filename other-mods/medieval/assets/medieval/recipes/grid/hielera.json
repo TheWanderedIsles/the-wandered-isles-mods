@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "WHW,WIW,WPW",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", quantity: 2 , "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]},
+      "H": { "type": "item", "code": "game:hammer-*", isTool: true },
+      "P": { "type": "item", "code": "game:metalplate-copper", quantity: 1 },
+      "I": { "type": "block", "code": "game:glacierice", quantity: 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "hielera-east", attributes: { "type": "hielera-{wood}" }}
+  }
+]

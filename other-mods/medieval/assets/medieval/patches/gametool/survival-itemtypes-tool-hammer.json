@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "stainlesssteel",
+    "file": "game:itemtypes/tool/hammer.json"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-stainlesssteel",
+    "value": 6,
+    "file": "game:itemtypes/tool/hammer.json"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-stainlesssteel",
+    "value": 3,
+    "file": "game:itemtypes/tool/hammer.json"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/hammer-stainlesssteel",
+    "value": 5750,
+    "file": "game:itemtypes/tool/hammer.json"
+  }
+]

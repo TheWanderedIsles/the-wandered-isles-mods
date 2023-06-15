@@ -1,0 +1,154 @@
+{
+	"code": "glazedplanter",
+	"classByType": {
+		"*-wet-*": "Block",
+		"*-raw-*": "Block",
+		"*-empty": "Block",
+		"*": "BlockPlantContainer"
+	},
+	"entityClassByType": {
+		"*-wet-*": null,
+		"*-raw-*": null,
+		"*": "PlantContainer"
+	},
+	"behaviorsByType": {
+		"*-wet-*": [ { "name": "GroundStorable" }, { "name": "Unplaceable" }, { "name": "RightClickPickup"} ],
+		"*-raw-*": [ { "name": "GroundStorable" }, { "name": "Unplaceable" }, { "name": "RightClickPickup"} ],
+		"*": [ { "name": "UnstableFalling", "properties": { "attachmentArea": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 } }} ]
+        },
+	"attributes": {
+		"sitHeight": 0.75,
+		"beeFeedByType": {
+			"*-wet-*": false,
+			"*-raw-*": false,
+			"*-empty": false,
+			"*": true
+		},
+		"butterflyFeedByType": {
+			"*-wet-*": false,
+			"*-raw-*": false,
+			"*-empty": false,
+			"*": true
+		},
+		"handbook": { "groupBy": [ "glazedplanter-*" ] },
+		"plantContainerSize": "large",
+		"filledShape": { "base": "bricklayers:block/clay/planter/planter_glazed_filled_shiny" },
+		"fillHeight": 0.5
+	},
+	"attributesByType": {
+		"*-gold-*": {
+			"filledShape": { "base": "bricklayers:block/clay/planter/planter_glazed_filled_sparkly" }
+		},
+		"*": {
+			"filledShape": { "base": "bricklayers:block/clay/planter/planter_glazed_filled_shiny" }
+		}
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"variantgroups": [
+		{ "code": "state", "states": [ "wet", "raw", "burnt" ] },
+		{ "code": "type", "states": [ "clear", "milky" ] },
+		{ "code": "color", "states": [
+		       "black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+		       "malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "code": "pattern", "states": [ "plain", "checker", "lines" ] }
+	],
+	"maxStackSize": 8,
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"shapeByType": {
+		"*-wet-*": { "base": "bricklayers:block/clay/planter/planter_glazed" },
+		"*-raw-*": { "base": "bricklayers:block/clay/planter/planter_glazed" },
+		"*-raw-*-gold-*": { "base": "bricklayers:block/clay/planter/planter_glazed_shiny" },
+		"*-gold-*": { "base": "bricklayers:block/clay/planter/planter_glazed_sparkly" },
+		"*": { "base": "bricklayers:block/clay/planter/planter_glazed_shiny" }
+	},
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"lightAbsorption": 1,
+	"texturesByType": {
+		"*-wet-*": {
+			"ceramic": { "base": "game:block/clay/ceramic",
+				"overlays": [ "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"ceramicdark": { "base": "game:block/clay/ceramic",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom", "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/{type}/{color}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}", "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"bottom": { "base": "bricklayers:block/ceramic/glazed/raw/{type}/{color}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}", "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"soil": { "base": "game:block/transparent" }
+		},
+		"*-raw-*": {
+			"ceramic": { "base": "game:block/clay/ceramic" },
+			"ceramicdark": { "base": "game:block/clay/ceramic",
+				"overlays": [ "bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/ceramic/glazed/{state}/{type}/{color}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}" ] },
+			"bottom": { "base": "bricklayers:block/ceramic/glazed/{state}/{type}/{color}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}" ] },
+			"soil": { "base": "game:block/transparent" }
+		},
+		"*": {
+			"ceramic": { "base": "game:block/clay/ceramic-dark" },
+			"ceramicdark": { "base": "game:block/clay/ceramic-dark",
+				"overlays": [ "bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/ceramic/glazed/{state}/{type}/{color}",
+				"overlays": [
+				       	"bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/{type}/overlay_planter_shine" ] },
+			"bottom": { "base": "bricklayers:block/ceramic/glazed/{state}/{type}/{color}",
+				"overlays": [
+					"bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/{type}/overlay_planter_shine" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		}
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"transitionablePropsByType": {
+		"*-wet-*-plain": [{
+			"type": "Dry",
+			"freshHours": { "avg": 0 },
+			"transitionHours": { "avg": 52, "var": 4 },
+			"transitionedStack": { "type": "block", "code": "bricklayers:glazedplanter-raw-{type}-{color}-{pattern}" },
+			"transitionRatio": 1
+		}],
+		"*-wet-*": [{
+			"type": "Dry",
+			"freshHours": { "avg": 0 },
+			"transitionHours": { "avg": 12, "var": 1 },
+			"transitionedStack": { "type": "block", "code": "bricklayers:glazedplanter-raw-{type}-{color}-{pattern}" },
+			"transitionRatio": 1
+		}]
+	},
+	"blockmaterial": "Ceramic",
+	"combustiblePropsByType": {
+		"glazedplanter-raw-*": {
+			"meltingPoint": 950,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:glazedplanter-burnt-{type}-{color}-{pattern}" },
+			"requiresContainer": false
+		}
+	},
+	"collisionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5625, "z2": 0.875
+	},
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5625, "z2": 0.875
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0.5 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.25
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.75, "y": -0.20, "z": -0.50 },
+		"rotation": { "x": -172, "y": -12, "z": -105 },
+		"origin": { "x": 0.5, "y": 0.01, "z": 0.5 },
+		"scale": 0.57
+	}
+}

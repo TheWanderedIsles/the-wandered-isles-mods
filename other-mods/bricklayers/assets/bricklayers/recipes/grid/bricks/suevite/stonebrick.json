@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "H,C,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+		"S": { "type": "item", "code": "game:polishedrock-*", "name": "rock",
+			"allowedVariants": [ "suevite" ] }
+	},
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "game:stonebrick-{rock}", "quantity": 2 }
+	}
+]

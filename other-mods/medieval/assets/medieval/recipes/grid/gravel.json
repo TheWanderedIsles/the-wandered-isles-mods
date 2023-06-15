@@ -1,0 +1,12 @@
+[
+    {
+		ingredientPattern: "A,F,F",
+		ingredients: {
+			"A": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:stone-*", name: "rock", quantity: 2, allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:gravel-{rock}", quantity: 1 }
+	}
+]

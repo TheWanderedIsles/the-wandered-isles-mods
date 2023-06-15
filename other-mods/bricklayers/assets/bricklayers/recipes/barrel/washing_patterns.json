@@ -1,0 +1,153 @@
+[
+	{
+	"code": "washing-planter-clear-checker",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 18, "consumeLitres": 4 },
+		{ "type": "block", "code": "bricklayers:glazedplanter-raw-clear-*-checker", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-planter-clear-checker",
+	"sealHours": 4,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 18, "consumeLitres": 2 },
+		{ "type": "block", "code": "bricklayers:glazedplanter-wet-clear-*-checker", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-planter-milky-checker",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 18, "consumeLitres": 4 },
+		{ "type": "block", "code": "bricklayers:glazedplanter-raw-milky-*-checker", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-planter-milky-checker",
+	"sealHours": 4,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 18, "consumeLitres": 2 },
+		{ "type": "block", "code": "bricklayers:glazedplanter-wet-milky-*-checker", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-{color}-plain", "stackSize": 1 }
+	},
+
+	{
+	"code": "washing-planter-clear-lines",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 18, "consumeLitres": 4 },
+		{ "type": "block", "code": "bricklayers:glazedplanter-raw-clear-*-lines", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-planter-clear-lines",
+	"sealHours": 4,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 18, "consumeLitres": 2 },
+		{ "type": "block", "code": "bricklayers:glazedplanter-wet-clear-*-lines", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-{color}-plain", "stackSize": 1 }
+	},
+
+	{
+	"code": "washing-planter-milky-lines",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 18, "consumeLitres": 4 },
+		{ "type": "block", "code": "bricklayers:glazedplanter-raw-milky-*-lines", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-planter-milky-lines",
+	"sealHours": 4,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 18, "consumeLitres": 2 },
+		{ "type": "block", "code": "bricklayers:glazedplanter-wet-milky-*-lines", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-{color}-plain", "stackSize": 1 }
+	},
+
+
+	{
+	"code": "washing-flowerpot-clear-checker",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 2 },
+		{ "type": "block", "code": "bricklayers:glazedflowerpot-raw-clear-*-checker", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-flowerpot-clear-checker",
+	"sealHours": 4,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 1 },
+		{ "type": "block", "code": "bricklayers:glazedflowerpot-wet-clear-*-checker", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-clear-{color}-plain", "stackSize": 1 }
+	},
+
+	{
+	"code": "washing-flowerpot-milky-checker",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 2 },
+		{ "type": "block", "code": "bricklayers:glazedflowerpot-raw-milky-*-checker", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-milky-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-flowerpot-milky-checker",
+	"sealHours": 4,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 1 },
+		{ "type": "block", "code": "bricklayers:glazedflowerpot-wet-milky-*-checker", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-milky-{color}-plain", "stackSize": 1 }
+	},
+
+	{
+	"code": "washing-flowerpot-clear-lines",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 2 },
+		{ "type": "block", "code": "bricklayers:glazedflowerpot-raw-clear-*-lines", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-flowerpot-clear-lines",
+	"sealHours": 4,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 1 },
+		{ "type": "block", "code": "bricklayers:glazedflowerpot-wet-clear-*-lines", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-clear-{color}-plain", "stackSize": 1 }
+	},
+
+	{
+	"code": "washing-flowerpot-milky-lines",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 2 },
+		{ "type": "block", "code": "bricklayers:glazedflowerpot-raw-milky-*-lines", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-milky-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "washing-flowerpot-milky-lines",
+	"sealHours": 4,
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 1 },
+		{ "type": "block", "code": "bricklayers:glazedflowerpot-wet-milky-*-lines", "quantity": 1, "name": "color" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-milky-{color}-plain", "stackSize": 1 }
+	}
+]

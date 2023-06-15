@@ -1,0 +1,26 @@
+[
+	{
+	"ingredientPattern": "H_,C_,RS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 8 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 8 },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 8 },
+		"R": { "type": "block", "code": "game:polishedrockslab-*-down-free", "name": "rock", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "item", "code": "bricklayers:stonerawtile-{rock}", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "H_,C_,RS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 16 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 16 },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 16 },
+		"R": { "type": "block", "code": "game:rockpolished-*", "name": "rock", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "item", "code": "bricklayers:stonerawtile-{rock}", "quantity": 16 }
+	}
+]

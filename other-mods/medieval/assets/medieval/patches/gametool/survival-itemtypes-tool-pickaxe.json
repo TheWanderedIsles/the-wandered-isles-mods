@@ -1,0 +1,76 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "stainlesssteel",
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-stainlesssteel",
+    "value": 6,
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-stainlesssteel",
+    "value": {
+      "ceramic": 4.25,
+      "stone": 10,
+      "ore": 10,
+      "metal": 10,
+      "ice": 6.25
+    },
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-stainlesssteel",
+    "value": 4,
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/pickaxe-stainlesssteel",
+    "value": 3750,
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "titanium",
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-titanium",
+    "value": 7,
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-titanium",
+    "value": {
+      "ceramic": 4.25,
+      "stone": 12,
+      "ore": 12,
+      "metal": 12,
+      "ice": 8.25
+    },
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-titanium",
+    "value": 5,
+    "file": "game:itemtypes/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/pickaxe-titanium",
+    "value": 5000,
+    "file": "game:itemtypes/tool/pickaxe.json"
+  }
+]

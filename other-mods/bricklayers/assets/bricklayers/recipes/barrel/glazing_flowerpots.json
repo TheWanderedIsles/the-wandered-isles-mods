@@ -1,0 +1,74 @@
+[
+	{
+	"code": "glazing-clear-colored-flowerpot",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 6, "name": "color", "consumeLitres": 6 },
+		{ "type": "block", "code": "game:flowerpot-burnt", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-wet-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-milky-colored-flowerpot",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-milky-*", "litres": 6, "name": "color", "consumeLitres": 6 },
+		{ "type": "block", "code": "game:flowerpot-burnt", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-wet-milky-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-bluegrey-flowerpot",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-salt", "litres": 6, "consumeLitres": 6 },
+		{ "type": "block", "code": "game:flowerpot-burnt", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedflowerpot-wet-pale-none-salt-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-colored-flowerpot",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-salt", "litres": 6, "consumeLitres": 6 },
+		{ "type": "block", "code": "bricklayers:flowerpotcolored-burnt-*", "name": "color", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedflowerpot-wet-pale-none-salt-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-waxed-colored-flowerpot",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-salt", "litres": 6, "consumeLitres": 6 },
+		{ "type": "block", "code": "bricklayers:waxedflowerpot-bottom-*", "name": "color", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedflowerpot-wet-pale-none-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-copper-bluegrey-flowerpot",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-saltcopper", "litres": 6, "consumeLitres": 6 },
+		{ "type": "block", "code": "game:flowerpot-burnt", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedflowerpot-wet-pale-copper-salt-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-copper-colored-flowerpot",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-saltcopper", "litres": 6, "consumeLitres": 6 },
+		{ "type": "block", "code": "bricklayers:flowerpotcolored-burnt-*", "name": "color", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedflowerpot-wet-pale-copper-salt-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-copper-waxed-colored-flowerpot",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-saltcopper", "litres": 6, "consumeLitres": 6 },
+		{ "type": "block", "code": "bricklayers:waxedflowerpot-bottom-*", "name": "color", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedflowerpot-wet-pale-copper-{color}-plain", "stackSize": 1 }
+	}
+]

@@ -1,0 +1,193 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"travelling-boots": [16,16]
+	},
+	"textures": {
+		"travelling-boots": "entity/humanoid/seraphclothes/foot/travelling-boots-leather"
+	},
+	"elements": [
+		{
+			"name": "shoe R",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.11, -0.1, -0.11 ], 
+			"to": [ 4.11, 6.4, 3.11 ], 
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#travelling-boots", "uv": [ 0.5, 9.5, 4.5, 16.0 ] },
+				"east": { "texture": "#travelling-boots", "uv": [ 0.0, 9.5, 3.0, 16.0 ] },
+				"south": { "texture": "#travelling-boots", "uv": [ 7.0, 9.5, 11.0, 16.0 ] },
+				"west": { "texture": "#travelling-boots", "uv": [ 4.0, 9.5, 7.0, 16.0 ] },
+				"up": { "texture": "#travelling-boots", "uv": [ 4.0, 0.0, 7.0, 4.0 ], "rotation": 90 },
+				"down": { "texture": "#travelling-boots", "uv": [ 0.0, 0.0, 3.0, 4.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "shoe R11",
+					"from": [ 0.0, 6.5, 0.0 ], 
+					"to": [ 4.2, 7.0, 3.2 ], 
+					"rotationOrigin": [ 0.0, 6.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#travelling-boots", "uv": [ 0.5, 8.5, 4.5, 9.0 ] },
+						"east": { "texture": "#travelling-boots", "uv": [ 1.0, 8.5, 4.0, 9.0 ] },
+						"south": { "texture": "#travelling-boots", "uv": [ 7.0, 7.5, 11.0, 8.0 ] },
+						"west": { "texture": "#travelling-boots", "uv": [ 1.0, 8.5, 4.0, 9.0 ] },
+						"up": { "texture": "#travelling-boots", "uv": [ 4.0, 0.0, 7.0, 4.0 ], "rotation": 90 },
+						"down": { "texture": "#travelling-boots", "uv": [ 0.0, 0.0, 3.0, 4.0 ], "rotation": 90, "enabled": false }
+					},
+					"children": [
+						{
+							"name": "back fold 1",
+							"from": [ 4.02, 0.5, 0.0 ], 
+							"to": [ 4.22, 1.5, 3.2 ], 
+							"rotationOrigin": [ 4.0, 0.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#travelling-boots", "uv": [ 2.5, 8.5, 3.0, 9.5 ] },
+								"east": { "texture": "#travelling-boots", "uv": [ 1.0, 7.5, 4.0, 8.5 ] },
+								"south": { "texture": "#travelling-boots", "uv": [ 0.0, 8.5, 0.5, 9.5 ] },
+								"west": { "texture": "#travelling-boots", "uv": [ 7.5, 0.0, 10.5, 1.0 ] },
+								"up": { "texture": "#travelling-boots", "uv": [ 0.0, 8.5, 3.0, 9.0 ], "rotation": 270 },
+								"down": { "texture": "#travelling-boots", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "front fold 1",
+							"from": [ -0.02, 0.5, 0.0 ], 
+							"to": [ 0.18, 1.5, 3.2 ], 
+							"rotationOrigin": [ 0.1, 0.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#travelling-boots", "uv": [ 13.0, 7.5, 13.5, 8.5 ] },
+								"east": { "texture": "#travelling-boots", "uv": [ 7.5, 1.0, 10.5, 2.0 ] },
+								"south": { "texture": "#travelling-boots", "uv": [ 3.0, 7.5, 3.5, 8.5 ] },
+								"west": { "texture": "#travelling-boots", "uv": [ 2.0, 7.5, 5.0, 8.5 ] },
+								"up": { "texture": "#travelling-boots", "uv": [ 1.5, 8.5, 4.5, 9.0 ], "rotation": 90 },
+								"down": { "texture": "#travelling-boots", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "S fold 1",
+							"from": [ 0.0, 0.5, 3.02 ], 
+							"to": [ 4.2, 2.0, 3.22 ], 
+							"rotationOrigin": [ 0.0, 0.5, 3.0 ],
+							"faces": {
+								"north": { "texture": "#travelling-boots", "uv": [ 7.0, 6.0, 11.0, 7.5 ] },
+								"east": { "texture": "#travelling-boots", "uv": [ 13.0, 7.0, 13.5, 8.5 ] },
+								"south": { "texture": "#travelling-boots", "uv": [ 7.0, 6.0, 11.0, 7.5 ] },
+								"west": { "texture": "#travelling-boots", "uv": [ 4.5, 7.0, 5.0, 8.5 ] },
+								"up": { "texture": "#travelling-boots", "uv": [ 7.0, 6.0, 11.0, 6.5 ] },
+								"down": { "texture": "#travelling-boots", "uv": [ 7.0, 15.0, 11.0, 15.5 ] }
+							}
+						},
+						{
+							"name": "N fold 1",
+							"from": [ 0.0, 0.5, -0.02 ], 
+							"to": [ 4.2, 1.5, 0.18 ], 
+							"rotationOrigin": [ 0.0, 0.5, 0.2 ],
+							"faces": {
+								"north": { "texture": "#travelling-boots", "uv": [ 0.0, 7.5, 4.0, 8.5 ] },
+								"east": { "texture": "#travelling-boots", "uv": [ 3.5, 7.5, 4.0, 8.5 ] },
+								"south": { "texture": "#travelling-boots", "uv": [ 9.5, 2.0, 13.5, 3.0 ] },
+								"west": { "texture": "#travelling-boots", "uv": [ 4.0, 7.5, 4.5, 8.5 ] },
+								"up": { "texture": "#travelling-boots", "uv": [ 0.5, 8.5, 4.5, 9.0 ], "rotation": 180 },
+								"down": { "texture": "#travelling-boots", "uv": [ 4.5, 0.0, 8.5, 0.5 ] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shoe L",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.1, -0.1, -0.1 ], 
+			"to": [ 4.1, 6.4, 3.1 ], 
+			"rotationOrigin": [ -7.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#travelling-boots", "uv": [ 0.0, 9.5, 4.0, 16.0 ] },
+				"east": { "texture": "#travelling-boots", "uv": [ 11.0, 9.5, 14.0, 16.0 ] },
+				"south": { "texture": "#travelling-boots", "uv": [ 7.0, 9.5, 11.0, 16.0 ] },
+				"west": { "texture": "#travelling-boots", "uv": [ 4.0, 9.5, 7.0, 16.0 ] },
+				"up": { "texture": "#travelling-boots", "uv": [ 4.0, 0.0, 7.0, 4.0 ], "rotation": 90 },
+				"down": { "texture": "#travelling-boots", "uv": [ 0.0, 0.0, 3.0, 4.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "shoe R12",
+					"from": [ 0.0, 6.5, 0.0 ], 
+					"to": [ 4.2, 7.0, 3.2 ], 
+					"rotationOrigin": [ 0.0, 6.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#travelling-boots", "uv": [ 0.5, 8.5, 4.5, 9.0 ] },
+						"east": { "texture": "#travelling-boots", "uv": [ 1.0, 8.5, 4.0, 9.0 ] },
+						"south": { "texture": "#travelling-boots", "uv": [ 7.0, 7.5, 11.0, 8.0 ] },
+						"west": { "texture": "#travelling-boots", "uv": [ 1.0, 8.5, 4.0, 9.0 ] },
+						"up": { "texture": "#travelling-boots", "uv": [ 4.0, 0.0, 7.0, 4.0 ], "rotation": 90 },
+						"down": { "texture": "#travelling-boots", "uv": [ 0.0, 0.0, 3.0, 4.0 ], "rotation": 90, "enabled": false }
+					},
+					"children": [
+						{
+							"name": "back fold 13",
+							"from": [ 4.02, 0.5, 0.0 ], 
+							"to": [ 4.22, 1.5, 3.2 ], 
+							"rotationOrigin": [ 4.0, 0.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#travelling-boots", "uv": [ 2.5, 8.5, 3.0, 9.5 ] },
+								"east": { "texture": "#travelling-boots", "uv": [ 1.0, 7.5, 4.0, 8.5 ] },
+								"south": { "texture": "#travelling-boots", "uv": [ 0.0, 8.5, 0.5, 9.5 ] },
+								"west": { "texture": "#travelling-boots", "uv": [ 7.5, 0.0, 10.5, 1.0 ] },
+								"up": { "texture": "#travelling-boots", "uv": [ 0.0, 8.5, 3.0, 9.0 ], "rotation": 270 },
+								"down": { "texture": "#travelling-boots", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "front fold 14",
+							"from": [ -0.02, 0.5, 0.0 ], 
+							"to": [ 0.18, 1.5, 3.2 ], 
+							"rotationOrigin": [ 0.1, 0.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#travelling-boots", "uv": [ 13.0, 7.5, 13.5, 8.5 ] },
+								"east": { "texture": "#travelling-boots", "uv": [ 7.5, 1.0, 10.5, 2.0 ] },
+								"south": { "texture": "#travelling-boots", "uv": [ 3.0, 7.5, 3.5, 8.5 ] },
+								"west": { "texture": "#travelling-boots", "uv": [ 2.0, 7.5, 5.0, 8.5 ] },
+								"up": { "texture": "#travelling-boots", "uv": [ 1.5, 8.5, 4.5, 9.0 ], "rotation": 90 },
+								"down": { "texture": "#travelling-boots", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "S fold 15",
+							"from": [ 0.0, 0.5, 3.02 ], 
+							"to": [ 4.2, 2.0, 3.22 ], 
+							"rotationOrigin": [ 0.0, 0.5, 3.0 ],
+							"faces": {
+								"north": { "texture": "#travelling-boots", "uv": [ 7.0, 6.0, 11.0, 7.5 ] },
+								"east": { "texture": "#travelling-boots", "uv": [ 13.0, 7.0, 13.5, 8.5 ] },
+								"south": { "texture": "#travelling-boots", "uv": [ 7.0, 6.0, 11.0, 7.5 ] },
+								"west": { "texture": "#travelling-boots", "uv": [ 4.5, 7.0, 5.0, 8.5 ] },
+								"up": { "texture": "#travelling-boots", "uv": [ 7.0, 6.0, 11.0, 6.5 ] },
+								"down": { "texture": "#travelling-boots", "uv": [ 7.0, 15.0, 11.0, 15.5 ] }
+							}
+						},
+						{
+							"name": "N fold 16",
+							"from": [ 0.0, 0.5, -0.02 ], 
+							"to": [ 4.2, 1.5, 0.18 ], 
+							"rotationOrigin": [ 0.0, 0.5, 0.2 ],
+							"faces": {
+								"north": { "texture": "#travelling-boots", "uv": [ 0.0, 7.5, 4.0, 8.5 ] },
+								"east": { "texture": "#travelling-boots", "uv": [ 3.5, 7.5, 4.0, 8.5 ] },
+								"south": { "texture": "#travelling-boots", "uv": [ 9.5, 2.0, 13.5, 3.0 ] },
+								"west": { "texture": "#travelling-boots", "uv": [ 4.0, 7.5, 4.5, 8.5 ] },
+								"up": { "texture": "#travelling-boots", "uv": [ 0.5, 8.5, 4.5, 9.0 ], "rotation": 180 },
+								"down": { "texture": "#travelling-boots", "uv": [ 4.5, 0.0, 8.5, 0.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,70 @@
+{
+    "code": "clothes",
+    "attributes": {
+      "handbook": {
+        "groupBy": ["cloth-head-brimmedhat-*"]
+      },
+      "clothescategory": "head",
+      "disableElements": ["Ponytail1", "hideme"],
+      "warmth": 1.0,
+      "wearableAttachment": true
+    },
+    "class": "ItemWearable",
+    "variantGroups": [
+      { "code": "category", "states": ["head"] },
+      { "code": "head", "onVariant": "category", "states": ["brimmedhat-straw-wide","brimmedhat-leather-plain", "brimmedhat-leather-black", "brimmedhat-leather-orange"] }
+    ],
+    "shapeByType": {
+      "*-straw-wide": { "base": "entity/humanoid/seraph/clothing/head/brimmedhat-straw-wide" },
+      "*-leather-*": { "base": "entity/humanoid/seraph/clothing/head/brimmedhat-leather" }
+    },
+    "storageFlags": 128,
+    "texturesByType": {
+        "*-straw-*": {
+			"seraph": { "base": "game:block/transparent" },
+            "side": { "base": "game:block/hay/bed/side2" },
+            "normal-top": { "base": "game:block/hay/normal-top"}
+        },
+        "*-leather-plain":
+        {
+			"seraph": { "base": "game:block/transparent" },
+            "leather": { "base": "game:block/leather/plain"}
+        },
+        "*-leather-black":
+        {
+			"seraph": { "base": "game:block/transparent" },
+            "leather": { "base": "game:block/leather/black"}
+        },
+        "*-leather-orange":
+        {
+			"seraph": { "base": "game:block/transparent" },
+            "leather": { "base": "game:block/leather/orange"}
+        }
+    },
+    "creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "hideandfabric": ["*"] },
+    "renderAlphaTest": 0.25,
+	"fpHandTransform": {
+		"translation": { "x": 0.2, "y": -1.6, "z": -0.5 },
+		"rotation": { "x": 0, "y": 0, "z": -90 },
+		"origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+		"scale": 2.15
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.66, "y": -2.2, "z": -0.3 },
+		"rotation": { "x": 10, "y": 90, "z": 90 },
+		"origin": { "x": 0.5, "y": 1.5, "z": 0.5 },
+		"scale": 0.75
+	},
+	"guiTransform": {
+		"translation": { "x": 3, "y": 15, "z": 0 },
+		"rotation": { "x": 164, "y": -68, "z": 10 },
+		"origin": { "x": 0.52, "y": 1.6, "z": 0.5 },
+		"scale": 2.11
+	},
+    "groundTransform": {
+      "translation": { "x": 0.05, "y": -0.3, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 2
+    }
+  }
+  

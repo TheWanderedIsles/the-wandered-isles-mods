@@ -1,0 +1,42 @@
+{
+	code: "simplewalnutsingle",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/wood/simple/simplewalnutsingle" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/wood/sincortezalog/debarked/pillar/simple/walnutsingle" },
+		"east": { base: "block/wood/sincortezalog/debarked/pillar/simple/walnutsingle" },
+		"south": { base: "block/wood/sincortezalog/debarked/pillar/simple/walnutsingle" },
+		"west": { base: "block/wood/sincortezalog/debarked/pillar/simple/walnutsingle" },
+		"up": { base: "block/wood/sincortezalog/debarked/walnut" },
+		"down": { base: "block/wood/sincortezalog/debarked/walnut" },
+		"inside-north": { base: "block/wood/sincortezalog/debarked/pillar/simple/walnutsingle" },
+		"inside-east": { base: "block/wood/sincortezalog/debarked/pillar/simple/walnutsingle" },
+		"inside-south": { base: "block/wood/sincortezalog/debarked/pillar/simple/walnutsingle" },
+		"inside-west": { base: "block/wood/sincortezalog/debarked/pillar/simple/walnutsingle" },
+		"inside-up": { base: "block/wood/sincortezalog/debarked/walnut" },
+		"inside-down": { base: "block/wood/sincortezalog/debarked/walnut" }
+
+	},
+	replaceable: 90,
+	fertility: 0,
+	resistance: 2,
+	blockmaterial: "Wood",
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

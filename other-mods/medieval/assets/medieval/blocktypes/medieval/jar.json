@@ -1,0 +1,99 @@
+{
+	"code": "jar",
+	"classByType": {
+		"*": "BlockLiquidContainerTopOpened"
+	},
+	"behaviors": [
+                { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.175, "z2": 1 } } },
+                { "name": "Unplaceable" },
+                { "name": "RightClickPickup"}
+        ],
+	"variantgroups": [
+		{ "code": "type", "states": [ "medieval", "horn" ] }
+	],
+	"attributesByType": {
+		"*-medieval": {
+			"shelvable": true,
+                        "liquidContainerProps": {
+                                "capacityLitres": 0.25,
+                                "transferSizeLitres": 0.1,
+                                "emptyShapeLoc": "medieval:block/medieval/jar/jar",
+                                "opaqueContentShapeLoc": "medieval:block/medieval/jar/jar-contents",
+                                "liquidContentShapeLoc": "medieval:block/medieval/jar/jar-liquidcontents",
+                                "liquidMaxYTranslate": 0.05
+                        },
+			"mealContainer": false,
+			"displaycaseable": false,
+			"onDisplayTransform": {
+				"rotation": { "x": 0, "y": -35, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1.05
+			}
+		},
+		"*-horn": {
+			"shelvable": true,
+                        "liquidContainerProps": {
+                                "capacityLitres": 0.25,
+                                "transferSizeLitres": 0.1,
+                                "emptyShapeLoc": "medieval:block/medieval/jar/jarhorn",
+                                "opaqueContentShapeLoc": "medieval:block/medieval/jar/jarhorn-contents",
+                                "liquidContentShapeLoc": "medieval:block/medieval/jar/jarhorn-liquidcontents",
+                                "liquidMaxYTranslate": 0.05
+                        },
+			"mealContainer": false,
+			"displaycaseable": false,
+			"onDisplayTransform": {
+				"rotation": { "x": 0, "y": -35, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1.05
+			}
+		}
+	},
+	"shapeByType": {
+		"*-medieval": { "base": "medieval:block/medieval/jar/jar" },
+		"*-horn": { "base": "medieval:block/medieval/jar/jarhorn" }
+	},
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Wood",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "medieval": ["*"] },
+	"replaceable": 300,
+	"liquidSelectable": 1,
+	"resistance": 0.75,
+	"maxStackSize": 16,
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"*-medieval": {
+			"content": { "base": "game:block/transparent" },
+			"1": { "base": "block/medieval/jar" }
+		},
+		"*-horn": {
+			"content": { "base": "game:block/transparent" },
+			"1": { "base": "block/medieval/jarhorn" }
+		}
+	},
+	"heldTpIdleAnimation":  "holdinglanternrighthand",
+	"sounds": { "walk": "game:walk/stone" },
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+		"guiTransform": {
+		"translation": { "x": 1, "y": -4, "z": 0 },
+		"rotation": { "x": -30, "y": -47, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 3.5
+	},
+	"groundTransform": { "scale": 4.5 },
+		"fpHandTransform": {
+		"translation": { "x": 0.1, "y": 0.5, "z": 0.2 },
+		"rotation": { "x": 0, "y": -14, "z": 0 },
+		"scale": 2.5
+	},
+		"tpHandTransform": {
+		"translation": { "x": -0.76, "y": -0.3, "z": -0.65 },
+		"rotation": { "x": 80, "y": -10, "z": -75 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.75
+	}
+}

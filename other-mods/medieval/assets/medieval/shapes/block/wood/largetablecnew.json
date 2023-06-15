@@ -1,0 +1,56 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "block/wood/table/large/oak"
+	},
+	"elements": [
+		{
+			"name": "cube0",
+			"from": [ 0.0, 13.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"rotationOrigin": [ 15.0, 0.0, 15.0 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 1.25, 8.0, 2.75 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 8.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 0.0, 1.25, 8.0, 2.75 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 2.0, 0.0, 3.5, 8.0 ], "rotation": 270, "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "rotation": 180, "autoUv": false }
+			}
+		},
+		{
+			"name": "cube1",
+			"from": [ 0.0, 12.0, 1.0 ],
+			"to": [ 16.0, 13.0, 15.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 2.25, 8.0, 2.75 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 0.0, 2.25, 7.0, 2.75 ], "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 0.0, 2.25, 8.0, 2.75 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 0.0, 2.25, 7.0, 2.75 ], "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 0.0, 0.5, 7.5, 7.5 ], "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 0.0, 0.5, 8.0, 7.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cube3",
+			"from": [ 0.0, 4.0, 7.0 ],
+			"to": [ 16.0, 6.5, 9.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 1.5, 8.0, 2.75 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 2.75, 1.5, 3.75, 2.75 ], "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 0.0, 1.5, 8.0, 2.75 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 2.5, 1.5, 3.5, 2.75 ], "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 1.5, 3.25, 9.5, 4.25 ], "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 0.0, 3.25, 8.0, 4.25 ], "autoUv": false }
+			}
+		}
+	]}

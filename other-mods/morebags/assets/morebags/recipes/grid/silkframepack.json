@@ -1,0 +1,75 @@
+[
+	{
+		ingredientPattern: "LLL,LLL,STS",
+		ingredients: {
+			"L": { type: "item", code: "game:cattailtops", quantity: 3 },
+			"T": { type: "item", code: "spidersilk:silkthread", quantity: 3 },
+			"S": { type: "item", code: "game:stick", quantity: 2 }
+		},
+		name: "wickerminingpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:wickerpack"  }
+	},
+	{
+		ingredientPattern: "PPP,PPP,STS",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 3 },
+			"T": { type: "item", code: "spidersilk:silkthread", quantity: 3 },
+			"S": { type: "item", code: "game:stick", quantity: 2 }
+		},
+		name: "wickerminingpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:wickerpack"  }
+	},
+	{
+		ingredientPattern: "STS,LLL,LLL",
+		ingredients: {
+			"L": { type: "item", code: "game:cattailtops", quantity: 3 },
+			"T": { type: "item", code: "spidersilk:silkthread", quantity: 3 },
+			"S": { type: "item", code: "game:stick", quantity: 2 }
+		},
+		name: "wickerminingpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:wickerminingpack"  }
+	},
+	{
+		ingredientPattern: "STS,PPP,PPP",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 3 },
+			"T": { type: "item", code: "spidersilk:silkthread", quantity: 3 },
+			"S": { type: "item", code: "game:stick", quantity: 2 }
+		},
+		name: "wickerminingpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:wickerminingpack"  }
+	},
+	{
+		ingredientPattern: "CCC,LLL,TFT",
+		ingredients: {
+			"C": { type: "item", code: "spidersilk:silkcloth-*", quantity: 3 },
+			"L": { type: "item", code: "game:leather-*", quantity: 3 },
+			"T": { type: "item", code: "spidersilk:silkthread", quantity: 3 },
+			"F": { type: "item", code: "morebags:packframe", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:silkframepack"  }
+	},
+	{
+		ingredientPattern: "CCC,LPL,TFT",
+		ingredients: {
+			"C": { type: "item", code: "spidersilk:silkcloth-*", quantity: 3 },
+			"L": { type: "item", code: "game:leather-*", quantity: 4 },
+			"P": { type: "item", code: "game:metalplate-*", quantity: 1, allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron"] },
+			"T": { type: "item", code: "spidersilk:silkthread", quantity: 3 },
+			"F": { type: "item", code: "morebags:packframe", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "morebags:silkminingpack"  }
+	}
+]

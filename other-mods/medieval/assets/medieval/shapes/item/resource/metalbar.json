@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"metal": "block/metal/table/molybdochalkos1"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 9.0, 0.5, 8.0 ], 
+			"to": [ 9.0, 0.5, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "handle 1",
+					"from": [ -6.0, -0.5, -0.5 ], 
+					"to": [ 6.0, 1.0, 1.0 ], 
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.5, 6.0, 12.5, 7.5 ] },
+						"east": { "texture": "#metal", "uv": [ 4.5, 8.0, 6.0, 9.5 ] },
+						"south": { "texture": "#metal", "uv": [ 1.5, 11.5, 13.5, 13.0 ] },
+						"west": { "texture": "#metal", "uv": [ 13.5, 13.5, 15.0, 15.0 ] },
+						"up": { "texture": "#metal", "uv": [ 1.0, 8.0, 13.0, 9.5 ] },
+						"down": { "texture": "#metal", "uv": [ 3.0, 5.5, 15.0, 7.0 ] }
+					}
+				}
+			]
+		}
+	]}

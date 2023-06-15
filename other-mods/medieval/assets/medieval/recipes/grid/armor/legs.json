@@ -1,0 +1,14 @@
+[
+	{
+		ingredientPattern: "TPT,RRR,R_R",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:armor-legs-chain-iron", quantity: 1 },
+			"R": { type: "item", code: "medieval:redondo-iron", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medievalarmor-legs-iron" }
+	}
+]

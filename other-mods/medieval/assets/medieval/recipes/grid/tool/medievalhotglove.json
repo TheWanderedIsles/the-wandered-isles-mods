@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "_A_,BPB,_C_",
+    "ingredients": {
+      "A": { "type": "item", "code": "medieval:stripsofleather", quantity: 2},
+      "P": { "type": "item", "code": "game:leather-plain", quantity: 1},
+      "C": { "type": "item", "code": "game:metalchain-iron", quantity: 1},
+      "B": { "type": "item", "code": "game:metalbit-iron", quantity: 1}
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "medieval:medievalhotglove", quantity: 1 }
+  }
+]

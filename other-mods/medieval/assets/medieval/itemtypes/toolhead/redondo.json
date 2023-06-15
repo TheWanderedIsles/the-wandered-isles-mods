@@ -1,0 +1,38 @@
+{
+	code: "redondo",
+	variantgroups: [
+		{ code: "metal", states: ["iron"] },
+	],
+	shape: { base: "item/tool/shield/redondo" },
+	maxstacksize: 8,
+	textures: { 
+		"metal": { base: "item/tool/sword/handle/{metal}" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "medieval": ["*"] },
+	materialDensityByType: {
+		"*-iron": 7870
+	},
+	fpHandTransform: {
+		translation: { x: -0.35, y: -0.15, z: 0 },
+		rotation: { x: 0, y: 0, z: 79 },
+		scale: 1.8
+	},
+	guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: -30, y: -44, z: -180 },
+		origin: { x: 0.5, y: 0.0625, z: 0.5 },
+		scale: 1.85
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 90, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.31
+	},
+	tpHandTransform: {
+		translation: { x: -0.7, y: 0.1, z: -0.53 },
+		rotation: { x: 94, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.75
+	}
+}

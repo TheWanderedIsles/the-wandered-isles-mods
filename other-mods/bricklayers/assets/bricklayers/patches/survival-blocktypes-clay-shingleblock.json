@@ -1,0 +1,32 @@
+[
+  {
+    "op": "add",
+    "path": "/creativeinventory/ceramics",
+    "value":  ["clayshingleblock-*"],
+    "file": "game:blocktypes/clay/shingleblock.json",
+    "side": "Server"
+  },
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": [ "black", "blurple", "darkgrey", "green", "light", "malachite", "orange", "pink", "purple", "yellow" ],
+    "file": "game:blocktypes/clay/shingleblock.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "game:blocktypes/clay/shingleblock.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+	"@.*-(blue|red|fire|brown)": { "all": { "base": "game:block/clay/shingles/{variant}" } },
+	"*": { "all": { "base": "bricklayers:block/clay/shingles/{variant}" } }
+    },
+    "file": "game:blocktypes/clay/shingleblock.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,545 @@
+{
+	"code": "minidrawerfancy",
+	"class": "BlockContainers",
+	"entityclass": "BlockEntityContainers",
+	"attributes": {
+		"partialAttachable": true,
+		"inventoryClassName": "container",
+		"defaultType": "generic",
+		"types": [ "drawerfancy-acacia-draw-mmd", "drawerfancy-baldcypress-draw-mmd", "drawerfancy-birch-draw-mmd", "drawerfancy-ebony-draw-mmd", "drawerfancy-kapok-draw-mmd", "drawerfancy-larch-draw-mmd", "drawerfancy-maple-draw-mmd", "drawerfancy-oak-draw-mmd", "drawerfancy-pine-draw-mmd", "drawerfancy-purpleheart-draw-mmd", "drawerfancy-redwood-draw-mmd", "drawerfancy-walnut-draw-mmd"  ],
+		"rotatatableInterval": {
+			"drawerfancy-acacia-draw-mmd": "90deg",
+			"drawerfancy-baldcypress-draw-mmd": "90deg",
+			"drawerfancy-birch-draw-mmd": "90deg",
+			"drawerfancy-ebony-draw-mmd": "90deg",
+			"drawerfancy-kapok-draw-mmd": "90deg",
+			"drawerfancy-larch-draw-mmd": "90deg",
+			"drawerfancy-maple-draw-mmd": "90deg",
+			"drawerfancy-oak-draw-mmd": "90deg",
+			"drawerfancy-pine-draw-mmd": "90deg",
+			"drawerfancy-purpleheart-draw-mmd": "90deg",
+			"drawerfancy-redwood-draw-mmd": "90deg",
+			"drawerfancy-walnut-draw-mmd": "90deg"
+		},
+		"canAutoPull": {
+			"drawerfancy-acacia-draw-mmd": false,
+			"drawerfancy-baldcypress-draw-mmd": false,
+			"drawerfancy-birch-draw-mmd": false,
+			"drawerfancy-ebony-draw-mmd": false,
+			"drawerfancy-kapok-draw-mmd": false,
+			"drawerfancy-larch-draw-l": false,
+			"drawerfancy-maple-draw-mmd": false,
+			"drawerfancy-oak-draw-mmd": false,
+			"drawerfancy-pine-draw-mmd": false,
+			"drawerfancy-purpleheart-draw-mmd": false,
+			"drawerfancy-redwood-draw-mmd": false,
+			"drawerfancy-walnut-draw-mmd": false
+		},
+		"drop": {
+			"drawerfancy-acacia-draw-mmd": true,
+			"drawerfancy-baldcypress-draw-mmd": true,
+			"drawerfancy-birch-draw-mmd": true,
+			"drawerfancy-ebony-draw-mmd": true,
+			"drawerfancy-kapok-draw-mmd": true,
+			"drawerfancy-larch-draw-mmd": true,
+			"drawerfancy-maple-draw-mmd": true,
+			"drawerfancy-oak-draw-mmd": true,
+			"drawerfancy-pine-draw-mmd": true,
+			"drawerfancy-purpleheart-draw-mmd": true,
+			"drawerfancy-redwood-draw-mmd": true,
+			"drawerfancy-walnut-draw-mmd": true
+		},
+		"quantitySlots": {
+			"drawerfancy-acacia-draw-mmd": 10,
+			"drawerfancy-baldcypress-draw-mmd": 10,
+			"drawerfancy-birch-draw-mmd": 10,
+			"drawerfancy-ebony-draw-mmd": 10,
+			"drawerfancy-kapok-draw-mmd": 10,
+			"drawerfancy-larch-draw-mmd": 10,
+			"drawerfancy-maple-draw-mmd": 10,
+			"drawerfancy-oak-draw-mmd": 10,
+			"drawerfancy-pine-draw-mmd": 10,
+			"drawerfancy-purpleheart-draw-mmd": 10,
+			"drawerfancy-redwood-draw-mmd": 10,
+			"drawerfancy-walnut-draw-mmd": 10
+		},
+		"quantityColumns": {
+			"drawerfancy-acacia-draw-mmd": 5,
+			"drawerfancy-baldcypress-draw-mmd": 5,
+			"drawerfancy-birch-draw-mmd": 5,
+			"drawerfancy-ebony-draw-mmd": 5,
+			"drawerfancy-kapok-draw-mmd": 5,
+			"drawerfancy-larch-draw-mmd": 5,
+			"drawerfancy-maple-draw-mmd": 5,
+			"drawerfancy-oak-draw-mmd": 5,
+			"drawerfancy-pine-draw-mmd": 5,
+			"drawerfancy-purpleheart-draw-mmd": 5,
+			"drawerfancy-redwood-draw-mmd": 5,
+			"drawerfancy-walnut-draw-mmd": 5
+		},
+		"dialogTitleLangCode": {
+			"drawerfancy-acacia-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-baldcypress-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-birch-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-ebony-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-kapok-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-larch-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-maple-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-oak-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-pine-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-purpleheart-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-redwood-draw-mmd": "Cajonera Pequeña",
+			"drawerfancy-walnut-draw-mmd": "Cajonera Pequeña"
+		},
+		"storageType": {
+			"drawerfancy-acacia-draw-mmd": 189,
+			"drawerfancy-baldcypress-draw-mmd": 189,
+			"drawerfancy-birch-draw-mmd": 189,
+			"drawerfancy-kapok-draw-mmd": 189,
+			"drawerfancy-larch-draw-mmd": 189,
+			"drawerfancy-maple-draw-mmd": 189,
+			"drawerfancy-pine-draw-mmd": 189,
+			"drawerfancy-purpleheart-draw-mmd": 189,
+			"drawerfancy-redwood-draw-mmd": 189,
+			"drawerfancy-walnut-draw-mmd": 189
+		},
+		"retrieveOnly": {
+			"drawerfancy-acacia-draw-mmd": false,
+			"drawerfancy-baldcypress-draw-mmd": false,
+			"drawerfancy-birch-draw-mmd": false,
+			"drawerfancy-ebony-draw-mmd": false,
+			"drawerfancy-kapok-draw-mmd": false,
+			"drawerfancy-larch-draw-mmd": false,
+			"drawerfancy-maple-draw-mmd": false,
+			"drawerfancy-oak-draw-mmd": false,
+			"drawerfancy-pine-draw-mmd": false,
+			"drawerfancy-purpleheart-draw-mmd": false,
+			"drawerfancy-redwood-draw-mmd": false,
+			"drawerfancy-walnut-draw-mmd": false
+		},
+		"shape": {
+			"drawerfancy-acacia-draw-mmd": "block/wood/chestfancy/drawerfancy-acacia-draw-mmd",
+			"drawerfancy-baldcypress-draw-mmd": "block/wood/chestfancy/drawerfancy-baldcypress-draw-mmd",
+			"drawerfancy-birch-draw-mmd": "block/wood/chestfancy/drawerfancy-birch-draw-mmd",
+			"drawerfancy-ebony-draw-mmd": "block/wood/chestfancy/drawerfancy-ebony-draw-mmd",
+			"drawerfancy-kapok-draw-mmd": "block/wood/chestfancy/drawerfancy-kapok-draw-mmd",
+			"drawerfancy-larch-draw-mmd": "block/wood/chestfancy/drawerfancy-larch-draw-mmd",
+			"drawerfancy-maple-draw-mmd": "block/wood/chestfancy/drawerfancy-maple-draw-mmd",
+			"drawerfancy-oak-draw-mmd": "block/wood/chestfancy/drawerfancy-oak-draw-mmd",
+			"drawerfancy-pine-draw-mmd": "block/wood/chestfancy/drawerfancy-pine-draw-mmd",
+			"drawerfancy-purpleheart-draw-mmd": "block/wood/chestfancy/drawerfancy-purpleheart-draw-mmd",
+			"drawerfancy-redwood-draw-mmd": "block/wood/chestfancy/drawerfancy-redwood-draw-mmd",
+			"drawerfancy-walnut-draw-mmd": "block/wood/chestfancy/drawerfancy-walnut-draw-mmd"
+		},
+		"typedOpenSound": {
+			"drawerfancy-acacia-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-baldcypress-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-birch-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-ebony-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-kapok-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-larch-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-maple-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-oak-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-pine-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-purpleheart-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-redwood-draw-mmd": "game:sounds/block/drawopen",
+			"drawerfancy-walnut-draw-mmd": "game:sounds/block/drawopen"
+		},
+		"typedCloseSound": {
+			"drawerfancy-acacia-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-baldcypress-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-birch-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-ebony-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-kapok-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-larch-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-maple-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-oak-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-pine-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-purpleheart-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-redwood-draw-mmd": "game:sounds/block/drawclose",
+			"drawerfancy-walnut-draw-mmd": "game:sounds/block/drawclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [{"name": "Lockable" }, {"name": "Container"},	{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" }
+		}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "medieval" ],
+				"stacks": [
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-acacia-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-baldcypress-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-birch-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-ebony-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-kapok-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-larch-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-maple-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-oak-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-pine-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-purpleheart-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-redwood-draw-mmd" } },
+					{ "type": "block", "code": "minidrawerfancy-east", "attributes": { "type": "drawerfancy-walnut-draw-mmd" } }
+				]
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"shapeInventory": { "base": "block/wood/chest/normal", "rotateY": 270 },
+	"shapeByType": {
+		"*-north": { "base": "block/wood/chest/normal", "rotateY": 0 },
+		"*-east": { "base": "block/wood/chest/normal", "rotateY": 270 },
+		"*-west": { "base": "block/wood/chest/normal", "rotateY": 90 },
+		"*-south": { "base": "block/wood/chest/normal", "rotateY": 180 }
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	"textures": {
+
+
+		"drawerfancy-acacia-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-baldcypress-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-birch-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-ebony-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-kapok-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-larch-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-maple-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-oak-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-pine-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-purpleheart-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-redwood-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-walnut-draw-mmd-knob2": { 
+			"base": "block/wood/chest/fancy/knob2"
+		},
+
+
+
+		"drawerfancy-acacia-draw-mmd-acaciadoor": { 
+			"base": "block/wood/chest/fancy/acaciadoor"
+		},
+		"drawerfancy-acacia-draw-mmd-acaciadraw": { 
+			"base": "block/wood/chest/fancy/acaciadraw"
+		},
+		"drawerfancy-acacia-draw-mmd-acaciamm": { 
+			"base": "block/wood/chest/fancy/acaciamm"
+		},
+		"drawerfancy-acacia-draw-mmd-acaciaoverlay": { 
+			"base": "block/wood/chest/fancy/acaciaoverlay"
+		},
+
+
+
+		"drawerfancy-baldcypress-draw-mmd-baldcypressdoor": { 
+			"base": "block/wood/chest/fancy/baldcypressdoor"
+		},
+		"drawerfancy-baldcypress-draw-mmd-baldcypressdraw": { 
+			"base": "block/wood/chest/fancy/baldcypressdraw"
+		},
+		"drawerfancy-baldcypress-draw-mmd-baldcypressmm": { 
+			"base": "block/wood/chest/fancy/baldcypressmm"
+		},
+		"drawerfancy-baldcypress-draw-mmd-baldcypressoverlay": { 
+			"base": "block/wood/chest/fancy/baldcypressoverlay"
+		},
+
+
+
+		"drawerfancy-birch-draw-mmd-birchdoor": { 
+			"base": "block/wood/chest/fancy/birchdoor"
+		},
+		"drawerfancy-birch-draw-mmd-birchdraw": { 
+			"base": "block/wood/chest/fancy/birchdraw"
+		},
+		"drawerfancy-birch-draw-mmd-birchmm": { 
+			"base": "block/wood/chest/fancy/birchmm"
+		},
+		"drawerfancy-birch-draw-mmd-birchoverlay": { 
+			"base": "block/wood/chest/fancy/birchoverlay"
+		},
+
+
+
+		"drawerfancy-ebony-draw-mmd-ebonydoor": { 
+			"base": "block/wood/chest/fancy/ebonydoor"
+		},
+		"drawerfancy-ebony-draw-mmd-ebonydraw": { 
+			"base": "block/wood/chest/fancy/ebonydraw"
+		},
+		"drawerfancy-ebony-draw-mmd-ebonymm": { 
+			"base": "block/wood/chest/fancy/ebonymm"
+		},
+		"drawerfancy-ebony-draw-mmd-ebonyoverlay": { 
+			"base": "block/wood/chest/fancy/ebonyoverlay"
+		},
+
+
+
+		"drawerfancy-kapok-draw-mmd-kapokdoor": { 
+			"base": "block/wood/chest/fancy/kapokdoor"
+		},
+		"drawerfancy-kapok-draw-mmd-kapokdraw": { 
+			"base": "block/wood/chest/fancy/kapokdraw"
+		},
+		"drawerfancy-kapok-draw-mmd-kapokmm": { 
+			"base": "block/wood/chest/fancy/kapokmm"
+		},
+		"drawerfancy-kapok-draw-mmd-kapokoverlay": { 
+			"base": "block/wood/chest/fancy/kapokoverlay"
+		},
+
+
+
+		"drawerfancy-larch-draw-mmd-larchdoor": { 
+			"base": "block/wood/chest/fancy/larchdoor"
+		},
+		"drawerfancy-larch-draw-mmd-larchdraw": { 
+			"base": "block/wood/chest/fancy/larchdraw"
+		},
+		"drawerfancy-larch-draw-mmd-larchmm": { 
+			"base": "block/wood/chest/fancy/larchmm"
+		},
+		"drawerfancy-larch-draw-mmd-larchoverlay": { 
+			"base": "block/wood/chest/fancy/larchoverlay"
+		},
+
+
+
+		"drawerfancy-maple-draw-mmd-mapledoor": { 
+			"base": "block/wood/chest/fancy/mapledoor"
+		},
+		"drawerfancy-maple-draw-mmd-mapledraw": { 
+			"base": "block/wood/chest/fancy/mapledraw"
+		},
+		"drawerfancy-maple-draw-mmd-maplemm": { 
+			"base": "block/wood/chest/fancy/maplemm"
+		},
+		"drawerfancy-maple-draw-mmd-mapleoverlay": { 
+			"base": "block/wood/chest/fancy/mapleoverlay"
+		},
+
+
+
+		"drawerfancy-oak-draw-mmd-oakdoor": { 
+			"base": "block/wood/chest/fancy/oakdoor"
+		},
+		"drawerfancy-oak-draw-mmd-oakdraw": { 
+			"base": "block/wood/chest/fancy/oakdraw"
+		},
+		"drawerfancy-oak-draw-mmd-oakmm": { 
+			"base": "block/wood/chest/fancy/oakmm"
+		},
+		"drawerfancy-oak-draw-mmd-oakoverlay": { 
+			"base": "block/wood/chest/fancy/oakoverlay"
+		},
+
+
+
+		"drawerfancy-pine-draw-mmd-pinedoor": { 
+			"base": "block/wood/chest/fancy/pinedoor"
+		},
+		"drawerfancy-pine-draw-mmd-pinedraw": { 
+			"base": "block/wood/chest/fancy/pinedraw"
+		},
+		"drawerfancy-pine-draw-mmd-pinemm": { 
+			"base": "block/wood/chest/fancy/pinemm"
+		},
+		"drawerfancy-pine-draw-mmd-pineoverlay": { 
+			"base": "block/wood/chest/fancy/pineoverlay"
+		},
+
+
+
+		"drawerfancy-purpleheart-draw-mmd-purpleheartdoor": { 
+			"base": "block/wood/chest/fancy/purpleheartdoor"
+		},
+		"drawerfancy-purpleheart-draw-mmd-purpleheartdraw": { 
+			"base": "block/wood/chest/fancy/purpleheartdraw"
+		},
+		"drawerfancy-purpleheart-draw-mmd-purpleheartmm": { 
+			"base": "block/wood/chest/fancy/purpleheartmm"
+		},
+		"drawerfancy-purpleheart-draw-mmd-purpleheartoverlay": { 
+			"base": "block/wood/chest/fancy/purpleheartoverlay"
+		},
+
+
+
+		"drawerfancy-redwood-draw-mmd-redwooddoor": { 
+			"base": "block/wood/chest/fancy/redwooddoor"
+		},
+		"drawerfancy-redwood-draw-mmd-redwooddraw": { 
+			"base": "block/wood/chest/fancy/redwooddraw"
+		},
+		"drawerfancy-redwood-draw-mmd-redwoodmm": { 
+			"base": "block/wood/chest/fancy/redwoodmm"
+		},
+		"drawerfancy-redwood-draw-mmd-redwoodoverlay": { 
+			"base": "block/wood/chest/fancy/redwoodoverlay"
+		},
+
+
+
+		"drawerfancy-walnut-draw-mmd-walnutdoor": { 
+			"base": "block/wood/chest/fancy/walnutdoor"
+		},
+		"drawerfancy-walnut-draw-mmd-walnutdraw": { 
+			"base": "block/wood/chest/fancy/walnutdraw"
+		},
+		"drawerfancy-walnut-draw-mmd-walnutmm": { 
+			"base": "block/wood/chest/fancy/walnutmm"
+		},
+		"drawerfancy-walnut-draw-mmd-walnutoverlay": { 
+			"base": "block/wood/chest/fancy/walnutoverlay"
+		}
+
+
+	},
+	"blockmaterial": "Wood",
+	"replaceable": 900,
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sideAo": { "all": false },
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.5,
+			"z2": 0.4375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.0625,
+			"z1": 0.4375,
+			"x2": 0.5,
+			"y2": 0.4375,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.5,
+			"y1": 0.0625,
+			"z1": 0.4375,
+			"x2": 1,
+			"y2": 0.4375,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.5,
+			"z2": 0.4375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.0625,
+			"z1": 0.4375,
+			"x2": 0.5,
+			"y2": 0.4375,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.5,
+			"y1": 0.0625,
+			"z1": 0.4375,
+			"x2": 1,
+			"y2": 0.4375,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 35
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"materialDensity": 600,
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.5, "z": -0.3 },
+		"rotation": { "x": 0, "y": 90, "z": -102 },
+		"scale": 0.56
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+		"scale": 1.16
+	}
+}

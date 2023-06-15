@@ -1,0 +1,44 @@
+[
+    {
+		ingredientPattern: "H,S,I",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:stick", quantity: 8  },
+			"I": { type: "item", code: "game:ingot-molybdochalkos", quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:wagonwheels-spoked-west", quantity: 2 }
+	},
+    {
+		ingredientPattern: "H,P,I",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"P": { type: "item", code: "game:plank-*", quantity: 4  },
+			"I": { type: "item", code: "game:ingot-molybdochalkos", quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:wagonwheels-solid-west", quantity: 2 }
+	},
+    {
+		ingredientPattern: "HP",
+		ingredients: {
+			"H": { type: "block", code: "game:wagonwheels-spoked-west" },
+			"P": { type: "item", code: "game:stick", quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:wagonwheels-spoked-longaxle-west", quantity: 1 }
+	},
+    {
+		ingredientPattern: "HP",
+		ingredients: {
+			"H": { type: "block", code: "game:wagonwheels-solid-west" },
+			"P": { type: "item", code: "game:stick", quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:wagonwheels-solid-longaxle-west", quantity: 1 }
+	}
+]

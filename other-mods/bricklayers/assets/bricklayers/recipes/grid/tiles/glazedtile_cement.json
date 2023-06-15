@@ -1,0 +1,22 @@
+[
+	{
+	"ingredientPattern": "T,C",
+	"ingredients": {
+		"T": { "type": "item", "code": "bricklayers:glazedrawtile-burnt-clear-dull-*", "name": "color" },
+		"C": { "type": "item", "code": "game:mortar", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:glazedtile-clear-dull-{color}-down", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "T,C",
+	"ingredients": {
+		"T": { "type": "item", "code": "bricklayers:glazedrawtile-burnt-clear-polished-*", "name": "color" },
+		"C": { "type": "item", "code": "game:mortar", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:glazedtile-clear-polished-{color}-down", "quantity": 1 }
+	}
+]

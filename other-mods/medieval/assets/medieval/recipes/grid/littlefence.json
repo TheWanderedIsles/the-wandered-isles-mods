@@ -1,0 +1,21 @@
+[
+  {
+    "ingredientPattern": "H,W",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:saw-*", "isTool": true  },
+      "W": { "type": "block", "code": "game:roughhewnfence-*-ew-free", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "kapok", "larch", "maple", "oak", "pine", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "littlefence-{wood}-south", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "R,R",
+    "ingredients": {
+      "R": { "type": "block", "code": "littlefence-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "kapok", "larch", "maple", "oak", "pine", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "game:roughhewnfence-{material}-ew-free", "quantity": 1 }
+  }
+]

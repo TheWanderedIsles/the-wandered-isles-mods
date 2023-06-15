@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "meteoriciron"] },
+	pattern: [[
+		"##_____##",
+		"##_____##",
+		"##_____##",
+		"##_____##",
+		"#########",
+		"#########",
+		"##_____##",
+		"##_____##",
+		"#########",
+		"#########"
+	]],
+	name: "Pack Frame",
+	output: { type: "item", code: "packframe"  }
+}

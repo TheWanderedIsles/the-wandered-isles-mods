@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/behaviorsByType/*-ripe/0/properties/harvestedStack/quantity/avg",
+    "value": 3.5,
+    "file": "game:blocktypes/plant/bigberrybush.json"
+  },{
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1.25,
+    "file": "game:blocktypes/plant/bigberrybush.json"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-ripe/0/quantity/avg",
+    "value": 1.25,
+    "file": "game:blocktypes/plant/bigberrybush.json"
+  }
+
+]

@@ -1,0 +1,244 @@
+{
+	"code": "ancientbox",
+	"class": "BlockContainers",
+	"entityclass": "BlockEntityContainers",
+	"attributes": {
+		"partialAttachable": true,
+		"canPlaceGroundStorgeOnTop": false,
+		"inventoryClassName": "container",
+		"defaultType": "ancientboxoak",
+		"types": [ "ancientboxaged1","ancientboxaged2", "ancientboxoak", "ancientboxpine" ],
+
+		"rotatatableInterval": {
+			"ancientboxaged1": "22.5degnot45deg",
+			"ancientboxaged2": "22.5degnot45deg",
+			"ancientboxoak": "22.5degnot45deg",
+			"ancientboxpine": "22.5degnot45deg"
+		},
+		"canAutoPull": {
+			"ancientboxaged1": false,
+			"ancientboxaged2": false,
+			"ancientboxoak": false,
+			"ancientboxpine": false
+		},
+		"drop": {
+			"ancientboxaged1": true,
+			"ancientboxaged2": true,
+			"ancientboxoak": true,
+			"ancientboxpine": true
+		},
+		"quantitySlots": {
+			"ancientboxaged1": 36,
+			"ancientboxaged2": 36,
+			"ancientboxoak": 36,
+			"ancientboxpine": 36
+		},
+		"quantityColumns": {
+			"ancientboxaged1": 9,
+			"ancientboxaged2": 9,
+			"ancientboxoak": 9,
+			"ancientboxpine": 9
+		},
+		"dialogTitleLangCode": {
+			"ancientboxaged1": "Caja Vieja",
+			"ancientboxaged2": "Caja Muy Vieja",
+			"ancientboxoak": "Caja Antigua",
+			"ancientboxpine": "Caja Antigua"
+		},
+		"storageType": {
+			"ancientboxaged1": 189,
+			"ancientboxaged2": 189,
+			"ancientboxoak": 189,
+			"ancientboxpine": 189
+		},
+		"retrieveOnly": {
+			"ancientboxaged1": false,
+			"ancientboxaged2": false,
+			"ancientboxoak": false,
+			"ancientboxpine": false
+		},
+		"shape": {
+			"ancientboxaged1": "block/wood/ancientboxaged1",
+			"ancientboxaged2": "block/wood/ancientboxaged2",
+			"ancientboxoak": "block/wood/ancientboxoak",
+			"ancientboxpine": "block/wood/ancientboxpine"
+		},
+		"typedOpenSound": {
+			"ancientboxaged1": "game:sounds/block/largechestopen",
+			"ancientboxaged2": "game:sounds/block/largechestopen",
+			"ancientboxoak": "game:sounds/block/largechestopen",
+			"ancientboxpine": "game:sounds/block/largechestopen"
+		},
+		"typedCloseSound": {
+			"ancientboxaged1": "game:sounds/block/largechestclose",
+			"ancientboxaged2": "game:sounds/block/largechestclose",
+			"ancientboxoak": "game:sounds/block/largechestclose",
+			"ancientboxpine": "game:sounds/block/largechestclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [
+		{ name: "Multiblock", propertiesByType: {
+				"*-north": { sizex: 2, sizey: 1, sizez: 1, cposition: { x: 0, y: 0, z: 0 } },
+				"*-east": { sizex: 1, sizey: 1, sizez: 2, cposition: { x: 0, y: 0, z: 0 } },
+				"*-south": { sizex: 2, sizey: 1, sizez: 1, cposition: { x: 1, y: 0, z: 0 } },
+				"*-west": { sizex: 1, sizey: 1, sizez: 2, cposition: { x: 0, y: 0, z: 1 } } 
+			}
+		},
+		{"name": "Lockable" }, {"name": "Container"}, {name: "UnstableFalling"},	{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" }
+		}],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "medieval" ],
+				"stacks": [
+					{ "type": "block", code: "ancientbox-east", attributes: { "type": "ancientboxaged1" } },
+					{ "type": "block", code: "ancientbox-east", attributes: { "type": "ancientboxaged2" } },
+					{ "type": "block", code: "ancientbox-east", attributes: { "type": "ancientboxoak" } },
+					{ "type": "block", code: "ancientbox-east", attributes: { "type": "ancientboxpine" } }
+				]
+			}
+		]
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "block/wood/chest/normal", rotateY: 270 },
+	shapeByType: {
+		"*-north": { base: "block/wood/chest/normal", rotateY: 0 },
+		"*-east": { base: "block/wood/chest/normal", rotateY: 270 },
+		"*-west": { base: "block/wood/chest/normal", rotateY: 90 },
+		"*-south": { base: "block/wood/chest/normal", rotateY: 180 },
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	textures: {
+
+
+		"ancientboxaged1-knob": { 
+			base: "block/wood/debarked/ageds/knob"
+		},
+		"ancientboxaged2-knob": { 
+			base: "block/wood/debarked/ageds/knob"
+		},
+		"ancientboxoak-knob": { 
+			base: "block/wood/debarked/ageds/knob"
+		},
+		"ancientboxpine-knob": { 
+			base: "block/wood/debarked/ageds/knob"
+		},
+
+
+
+		"ancientboxaged1-aged": { 
+			base: "block/wood/debarked/ageds/aged"
+		},
+		"ancientboxaged2-aged": { 
+			base: "block/wood/debarked/ageds/aged"
+		},
+		"ancientboxoak-aged1": { 
+			base: "block/wood/debarked/ageds/aged1"
+		},
+		"ancientboxpine-charred": { 
+			base: "block/wood/debarked/ageds/charred"
+		}
+
+
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 3,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	"sidesolid": {
+		"all": false
+	},
+	sideopaque: {
+		all: false
+	},
+	"selectionBoxes": [
+		
+		{
+			"x1": 0.125,
+			"y1": 0,
+			"z1": 0.125,
+			"x2": 0.875,
+			"y2": 0.6875,
+			"z2": 0.875,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.75,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0.125,
+			"y1": 0,
+			"z1": 0.125,
+			"x2": 0.875,
+			"y2": 0.6875,
+			"z2": 0.875,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.75,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.4, z: 0.5 },
+		scale: 1.16
+	}
+}

@@ -1,0 +1,43 @@
+[
+    {
+		ingredientPattern: "A_,FS",
+		ingredients: {
+			"A": { type: "item", code: "game:shears-*", isTool: true  },
+			"S": { type: "item", code: "game:stick", quantity: 8 },
+			"F": { type: "block", code: "wool-*", name: "color", allowedVariants: ["plain", "mordant", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"] }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:cloth-{color}", stackSize: 8 }
+	},
+    {
+		ingredientPattern: "A_,FS",
+		ingredients: {
+			"A": { type: "item", code: "shears-*", isTool: true  },
+			"S": { type: "item", code: "game:stick", quantity: 8 },
+			"F": { type: "block", code: "wool-*", name: "color", allowedVariants: ["plain", "mordant", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"] }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:cloth-{color}", stackSize: 8 }
+	},
+    {
+		ingredientPattern: "FS",
+		ingredients: {
+			"S": { type: "item", code: "game:stick", quantity: 1 },
+			"F": { type: "block", code: "medieval:colorlinen-*-down", name: "color", allowedVariants: ["plain", "mordant", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"] }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:cloth-{color}", quantity: 1 }
+	},
+    {
+		ingredientPattern: "F",
+		ingredients: {
+			"F": { type: "block", code: "game:cloth-*", name: "color", allowedVariants: ["plain", "mordant", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"] }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "medieval:colorlinen-{color}-down", quantity: 1 }
+	}
+]

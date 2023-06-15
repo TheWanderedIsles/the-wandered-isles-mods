@@ -1,0 +1,20 @@
+[
+	{
+		code: "dirtygravel-wetverydark-plain",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:soil-high-none", quantity: 4 }
+		],
+		output: { type: "block", code: "game:dirtygravel-wetverydark-plain", stackSize: 4 }
+	},
+	{
+		code: "dirtygravel-wetdark-stoney",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:dirtygravel-wetverydark-plain", quantity: 4 }
+		],
+		output: { type: "block", code: "game:dirtygravel-wetdark-stoney", stackSize: 4 }
+	}
+]

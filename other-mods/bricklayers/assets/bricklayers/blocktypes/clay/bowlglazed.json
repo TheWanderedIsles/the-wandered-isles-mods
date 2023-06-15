@@ -1,0 +1,145 @@
+{
+	"code": "glazedbowl",
+	"classByType": {
+		"*-burnt-*": "BlockLiquidContainerTopOpened"
+	},
+	"behaviors": [
+                { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+                { "name": "Unplaceable" },
+                { "name": "RightClickPickup"}
+        ],
+	"variantgroups": [
+		{ "code": "type", "states": [ "wet", "raw", "burnt" ] },
+		{ "code": "glazing", "states": [ "clear", "milky" ] },
+		{ "code": "color", "states": [
+		       "black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+		       "malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "code": "pattern", "states": [ "plain" ] }
+	],
+	"attributesByType": {
+		"glazedbowl-burnt-*-gold-*": {
+			"handbook": { "groupBy": [ "glazedbowl-burnt-clear-*", "glazedbowl-burnt-milky-*" ] },
+			"shelvable": true,
+                        "liquidContainerProps": {
+                                "capacityLitres": 1,
+                                "transferSizeLitres": 0.1,
+                                "emptyShapeLoc": "bricklayers:block/clay/bowl/bowl_glazed_empty_ground_sparkly",
+                                "opaqueContentShapeLoc": "game:shapes/block/clay/bowl-contents",
+                                "liquidContentShapeLoc": "game:shapes/block/clay/bowl-liquidcontents",
+                                "liquidMaxYTranslate": 0.05
+                        },
+			"mealContainer": true,
+			"mealBlockCode": "bricklayers:glazedbowl-meal-{glazing}-{color}-{pattern}",
+			"servingCapacity": 1,
+			"bowlContents": null
+		},
+		"glazedbowl-burnt-*": {
+			"handbook": { "groupBy": [ "glazedbowl-burnt-clear-*", "glazedbowl-burnt-milky-*" ] },
+			"shelvable": true,
+                        "liquidContainerProps": {
+                                "capacityLitres": 1,
+                                "transferSizeLitres": 0.1,
+                                "emptyShapeLoc": "bricklayers:block/clay/bowl/bowl_glazed_empty_ground_shiny",
+                                "opaqueContentShapeLoc": "game:shapes/block/clay/bowl-contents",
+                                "liquidContentShapeLoc": "game:shapes/block/clay/bowl-liquidcontents",
+                                "liquidMaxYTranslate": 0.05
+                        },
+			"mealContainer": true,
+			"mealBlockCode": "bricklayers:glazedbowl-meal-{glazing}-{color}-{pattern}",
+			"servingCapacity": 1,
+			"bowlContents": null
+		},
+		"*-wet-*": {
+			"handbook": { "groupBy": [ "glazedbowl-wet-clear-*", "glazedbowl-wet-milky-*" ] },
+			"shelvable": true,
+			"bowlContents": null
+		},
+		"*": {
+			"handbook": { "groupBy": [ "glazedbowl-raw-clear-*", "glazedbowl-raw-milky-*" ] },
+			"shelvable": true,
+			"bowlContents": null
+		}
+	},
+	"combustiblePropsByType": {
+		"*-raw-*": {
+			"meltingPoint": 950,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:glazedbowl-burnt-{glazing}-{color}-{pattern}" },
+			"requiresContainer": false
+		}
+	},
+	"transitionablePropsByType": {
+		"*-wet-*-plain": [{
+			"type": "Dry",
+			"freshHours": { "avg": 0 },
+			"transitionHours": { "avg": 36, "var": 3 },
+			"transitionedStack": { "type": "block", "code": "bricklayers:glazedbowl-raw-{glazing}-{color}-{pattern}" },
+			"transitionRatio": 1
+		}],
+		"*-wet-*": [{
+			"type": "Dry",
+			"freshHours": { "avg": 0 },
+			"transitionHours": { "avg": 12, "var": 1 },
+			"transitionedStack": { "type": "block", "code": "bricklayers:glazedbowl-raw-{glazing}-{color}-{pattern}" },
+			"transitionRatio": 1
+		}]
+	},
+	"shapeByType": {
+		"glazedbowl-raw-*": { "base": "bricklayers:block/clay/bowl/bowl_glazed_empty_ground" },
+		"glazedbowl-wet-*": { "base": "bricklayers:block/clay/bowl/bowl_glazed_empty_ground" },
+		"glazedbowl-burnt-*-gold-*": { "base": "bricklayers:block/clay/bowl/bowl_glazed_empty_ground_sparkly" },
+		"*": { "base": "bricklayers:block/clay/bowl/bowl_glazed_empty_ground_shiny" }
+	},
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"replaceable": 300,
+	"liquidSelectable": 1,
+	"resistance": 0.75,
+	"maxStackSize": 8,
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"*-wet-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic", "overlays": [ "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/{glazing}/{color}",
+				 "overlays": [ "bricklayers:block/ceramic/glazed/wet_overlay" ] }
+		},
+		"*-raw-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/{glazing}/{color}" }
+		},
+		"*-burnt-*": {
+			"content": { "base": "game:block/transparent" },
+			"ceramic": { "base": "game:block/clay/ceramic-dark" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/{glazing}/{color}",
+				 "overlays": [ "bricklayers:block/ceramic/glazed/burnt/{glazing}/overlay_bowl_shine" ] }
+		}
+	},
+	"sounds": { "walk": "game:walk/stone" },
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 3
+	},
+	"groundTransform": { "scale": 3.5 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.4, "z": 0 },
+		"rotation": { "x": 0, "y": -14, "z": 0 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.1, "z": -0.8 },
+		"rotation": { "x": 0, "y": -56, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.66
+	}
+}

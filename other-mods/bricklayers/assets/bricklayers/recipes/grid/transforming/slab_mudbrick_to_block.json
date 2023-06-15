@@ -1,0 +1,25 @@
+[
+	{
+	"ingredientPattern": "S,C,S",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-fire", "name": "clay", "quantity": 1 },
+		"S": { "type": "block", "code": "game:mudbrickslab-*-down-free", "name": "type", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:mudbrick-{type}", "quantity":1 }
+	},
+	{
+	"comment": "Using clay-* seems to not work for clay-blue, hence an extra recipe.",
+	"ingredientPattern": "S,C,S",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-blue", "name": "clay", "quantity": 1 },
+		"S": { "type": "block", "code": "game:mudbrickslab-*-down-free", "name": "type", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:mudbrick-{type}", "quantity":1 }
+	}
+]

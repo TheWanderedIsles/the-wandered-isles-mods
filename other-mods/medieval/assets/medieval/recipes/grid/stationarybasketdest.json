@@ -1,0 +1,14 @@
+[
+
+	{
+		ingredientPattern: "__L	__L	_LL",
+		ingredients: {
+			"L": { type: "item", code: "game:cattailtops", quantity: 2 }
+		},
+		name: "stationarybasket",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:stationarybasket-east", attributes: { type: "aged" }  }
+	}
+
+]

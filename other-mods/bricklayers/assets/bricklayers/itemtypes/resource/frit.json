@@ -1,0 +1,35 @@
+{
+        "code": "frit",
+	"variantgroups": [
+		{ "code": "state", "states": [ "mix", "baked", "ground" ] },
+		{ "code": "type", "states": [
+		       "black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+		       "malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ]
+	       	}
+	],
+	"attributes": {
+		"handbook": {
+			"extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-frit" } ]
+		}
+	},
+        "texture": { "base": "bricklayers:item/resource/frit/{state}/{type}" },
+        "creativeinventory": { "general": ["*"], "items": ["*"], "ceramics": ["*"] },
+	"combustiblePropsByType": {
+		"*-mix-*": {
+			"meltingPoint": 950,
+			"meltingDuration": 15,
+			"smeltingType": "convert",
+			"smeltedStack": { "type": "item", "code": "bricklayers:frit-baked-{type}" },
+			"requiresContainer": false
+		}
+        },
+        "grindingPropsByType": {
+		"*-baked-*": { "groundStack": { "type": "item", "code": "bricklayers:frit-ground-{type}" } }
+        },
+        "maxstacksize": 64,
+        "materialDensity": 500,
+        "fpHandTransform": {
+                "translation": { "x": 0.05, "y": -0.2, "z": 0 },
+                "rotation": { "x": 180, "y": 90, "z": 15 }
+        }
+}

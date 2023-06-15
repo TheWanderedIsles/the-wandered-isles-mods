@@ -1,0 +1,200 @@
+[
+	{
+		ingredientPattern: "HCV,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"V": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-iron" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"},
+			"C": { type: "block", code: "medieval:craneo-north"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordskull", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H__,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-iron" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordceltic", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HCV,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"V": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-blackbronze" },
+			"T": { type: "item", code: "medieval:longbladehead-blackbronze"},
+			"C": { type: "item", code: "game:ore-cinnabar"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordknight", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H__,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-iron" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordmedieval", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HCV,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"V": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-iron" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"},
+			"C": { type: "item", code: "game:ore-cinnabar"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordmedieval2", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HCV,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"V": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-iron" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"},
+			"C": { type: "item", code: "game:ore-cinnabar", quantity: 2}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordmedieval1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HCV,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-iron" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"},
+			"C": { type: "item", code: "medieval:clothes-neck-silver-amulet"},
+			"V": { type: "item", code: "game:gem-diamond-rough"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordtemplar1", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H__,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-tinbronze" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordviking", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HV_,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-blackbronze" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"},
+			"V": { type: "item", code: "game:gem-diamond-rough"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-sworddiamondleon", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HV_,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-blackbronze" },
+			"T": { type: "item", code: "medieval:longbladehead-blackbronze"},
+			"V": { type: "item", code: "game:charcoal", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordblackheart", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HC_,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-blackbronze" },
+			"T": { type: "item", code: "medieval:longbladehead-blackbronze"},
+			"C": { type: "item", code: "game:ore-cinnabar"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordheavysword", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H__,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-tinbronze" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordgoldenceltic", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HC_,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-iron" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"},
+			"C": { type: "item", code: "game:amethyst"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordpurpleblood", quantity: 1  }
+	},
+	{
+		ingredientPattern: "HVC,TF_,IX_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"V": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"I": { type: "item", code: "medieval:swordhandle-blackbronze" },
+			"T": { type: "item", code: "medieval:longbladehead-iron"},
+			"C": { type: "item", code: "game:ore-cinnabar"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalsword-swordredeye", quantity: 1  }
+	}
+]

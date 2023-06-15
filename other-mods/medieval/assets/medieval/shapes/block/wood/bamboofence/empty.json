@@ -1,0 +1,70 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"bamboo-side": "C:/Users/Usuario/AppData/Roaming/VintagestoryData/Mods/Medieval/assets/survival/textures/block/wood/planks/bamboo-side"
+	},
+	"elements": [
+		{
+			"name": "Center",
+			"from": [ 6.5, 0.0, 6.5 ], 
+			"to": [ 7.5, 16.0, 7.5 ], 
+			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#bamboo-side", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"east": { "texture": "#bamboo-side", "uv": [ 1.0, 0.0, 2.0, 16.0 ] },
+				"south": { "texture": "#bamboo-side", "uv": [ 4.0, 0.0, 5.0, 16.0 ] },
+				"west": { "texture": "#bamboo-side", "uv": [ 5.0, 0.0, 6.0, 16.0 ] },
+				"up": { "texture": "#bamboo-side", "uv": [ 0.0, 14.5, 1.0, 15.5 ] },
+				"down": { "texture": "#bamboo-side", "uv": [ 0.0, 14.5, 1.0, 15.5 ] }
+			}
+		},
+		{
+			"name": "Center2",
+			"from": [ 6.5, 0.0, 8.5 ], 
+			"to": [ 7.5, 16.0, 9.5 ], 
+			"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#bamboo-side", "uv": [ 2.0, 0.0, 3.0, 16.0 ] },
+				"east": { "texture": "#bamboo-side", "uv": [ 3.0, 0.0, 4.0, 16.0 ] },
+				"south": { "texture": "#bamboo-side", "uv": [ 6.0, 0.0, 7.0, 16.0 ] },
+				"west": { "texture": "#bamboo-side", "uv": [ 7.0, 0.0, 8.0, 16.0 ] },
+				"up": { "texture": "#bamboo-side", "uv": [ 0.5, 14.5, 1.5, 15.5 ] },
+				"down": { "texture": "#bamboo-side", "uv": [ 0.5, 14.5, 1.5, 15.5 ] }
+			}
+		},
+		{
+			"name": "Center3",
+			"from": [ 8.5, 0.0, 8.5 ], 
+			"to": [ 9.5, 16.0, 9.5 ], 
+			"rotationOrigin": [ 2.0, 0.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#bamboo-side", "uv": [ 8.0, 0.0, 9.0, 16.0 ] },
+				"east": { "texture": "#bamboo-side", "uv": [ 9.0, 0.0, 10.0, 16.0 ] },
+				"south": { "texture": "#bamboo-side", "uv": [ 12.0, 0.0, 13.0, 16.0 ] },
+				"west": { "texture": "#bamboo-side", "uv": [ 13.0, 0.0, 14.0, 16.0 ] },
+				"up": { "texture": "#bamboo-side", "uv": [ 1.0, 14.5, 2.0, 15.5 ] },
+				"down": { "texture": "#bamboo-side", "uv": [ 1.0, 14.5, 2.0, 15.5 ] }
+			}
+		},
+		{
+			"name": "Center4",
+			"from": [ 8.5, 0.0, 6.5 ], 
+			"to": [ 9.5, 16.0, 7.5 ], 
+			"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#bamboo-side", "uv": [ 10.0, 0.0, 11.0, 16.0 ] },
+				"east": { "texture": "#bamboo-side", "uv": [ 11.0, 0.0, 12.0, 16.0 ] },
+				"south": { "texture": "#bamboo-side", "uv": [ 14.0, 0.0, 15.0, 16.0 ] },
+				"west": { "texture": "#bamboo-side", "uv": [ 15.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#bamboo-side", "uv": [ 1.0, 15.0, 2.0, 16.0 ] },
+				"down": { "texture": "#bamboo-side", "uv": [ 1.0, 15.0, 2.0, 16.0 ] }
+			}
+		}
+	]}

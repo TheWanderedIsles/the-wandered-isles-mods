@@ -1,0 +1,40 @@
+{
+	code: "smallplanksroofingblock",
+	behaviors: [ {name: "HorizontalOrientable"} ],
+	attributes: {
+		canChisel: true
+	},
+	variantgroups: [
+		{ code: "material", states: [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: { "general": ["*-east"], "decorative": ["*-east"], "medieval": ["*-east"] },
+	shapeByType: {
+			"*-north": { base: "block/roofing/block/smallplanksroofingblock", rotateY: 0 },
+			"*-west": { base: "block/roofing/block/smallplanksroofingblock", rotateY: 90 },
+			"*-south": { base: "block/roofing/block/smallplanksroofingblock", rotateY: 180 },
+			"*-east": { base: "block/roofing/block/smallplanksroofingblock", rotateY: 270 }
+
+	},
+
+	blockmaterial: "Wood",
+	"textures": {
+		"all": {  base: "block/wood/roof/shingles/small-shingles/{material}" }
+	},
+	"replaceable": 300,
+	resistance: 2,
+	soundsByType: {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks",
+			"walk": "game:walk/wood"
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

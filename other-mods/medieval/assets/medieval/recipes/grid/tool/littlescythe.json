@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "T,X",
+		ingredients: {
+			"X": { type: "item", code: "game:stick" },
+			"T": { type: "item", code: "littlescythehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "littlescythe-{metal}", quantity: 1  }
+	}
+]

@@ -1,0 +1,76 @@
+[
+
+	{
+		ingredientPattern: "LLL,LLL,STS",
+		ingredients: {
+			"L": { type: "item", code: "game:cattailtops", quantity: 3 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 4 },
+			"S": { type: "item", code: "game:stick", quantity: 2 }
+		},
+		name: "wickerpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wickerpack"  }
+	},
+	{
+		ingredientPattern: "PPP,PPP,STS",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 3 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 4 },
+			"S": { type: "item", code: "game:stick", quantity: 2 }
+		},
+		name: "wickerpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wickerpack"  }
+	},
+	{
+		ingredientPattern: "STS,LLL,LLL",
+		ingredients: {
+			"L": { type: "item", code: "game:cattailtops", quantity: 3 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 4 },
+			"S": { type: "item", code: "game:stick", quantity: 2 }
+		},
+		name: "wickerminingpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wickerminingpack"  }
+	},
+	{
+		ingredientPattern: "STS,PPP,PPP",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 3 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 4 },
+			"S": { type: "item", code: "game:stick", quantity: 2 }
+		},
+		name: "wickerminingpack",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wickerminingpack"  }
+	},
+	{
+		ingredientPattern: "CCC,LLL,TFT",
+		ingredients: {
+			"C": { type: "item", code: "game:cloth-*", quantity: 3 },
+			"L": { type: "item", code: "game:leather-*", quantity: 3 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 3 },
+			"F": { type: "item", code: "packframe", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "framepack"  }
+	},
+	{
+		ingredientPattern: "CCC,LPL,TFT",
+		ingredients: {
+			"C": { type: "item", code: "game:cloth-*", quantity: 3 },
+			"L": { type: "item", code: "game:leather-*", quantity: 4 },
+			"P": { type: "item", code: "game:metalplate-*", quantity: 1, allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron"] },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 3 },
+			"F": { type: "item", code: "packframe", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "miningpack"  }
+	}
+]

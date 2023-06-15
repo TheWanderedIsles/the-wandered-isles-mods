@@ -1,0 +1,137 @@
+[
+	{
+	"code": "glass-tile-vanilla-plain",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "game:glass-*", "name": "type", "allowedVariants": [ "plain", "smoky", "quartz" ] },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-{type}-white-down", "quantity": 6 }
+	},
+
+	{
+	"code": "glass-tile-vanilla-vintage",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "game:glass-*", "name": "type", "allowedVariants": [ "vintage" ] },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-milky-white-down", "quantity": 6 }
+	},
+
+	{
+	"code": "glass-tile-vanilla-colored",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "game:glass-*", "name": "color", "allowedVariants": [ "blue", "brown", "green", "pink", "red", "violet", "yellow" ] },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-plain-{color}-down", "quantity": 6 }
+	},
+
+	{
+	"code": "glass-tile-bricklayers-colored",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "bricklayers:glasscolored-plain-*", "name": "color", "allowedVariants": [ "black", "orange" ] },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-plain-{color}-down", "quantity": 6 }
+	},
+
+	{
+	"code": "glass-tile-bricklayers-smoky",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "bricklayers:glasscolored-smoky-*", "name": "color" },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-smoky-{color}-down", "quantity": 6 }
+	},
+
+	{
+	"code": "glass-tile-bricklayers-dark",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "bricklayers:glasscolored-dark-*", "name": "color" },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-dark-{color}-down", "quantity": 6 }
+	},
+
+	{
+	"code": "glass-tile-bricklayers-opaque",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "bricklayers:glasscolored-opaque-*", "name": "color" },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-opaque-{color}-down", "quantity": 6 }
+	},
+
+	{
+	"code": "glass-tile-bricklayers-quartz",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "bricklayers:glasscolored-quartz-*", "name": "color" },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-quartz-{color}-down", "quantity": 6 }
+	},
+
+	{
+	"code": "glass-tile-colored-milky",
+	"ingredientPattern": "H_,C_,GS",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 6 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6 },
+		"G": { "type": "block", "code": "bricklayers:glasscolored-milky-*", "name": "color" },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 2,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-milky-{color}-down", "quantity": 2 }
+	}
+
+]

@@ -1,0 +1,38 @@
+[
+	{
+		code: "shingle",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:dye-red", litres: 1, consumelitres: 1 },
+			{ type: "item", code: "game:burnedbrick-blue", quantity: 12 }
+		],
+		output: { type: "item", code: "game:burnedbrick-red", stackSize: 12 }
+	},
+	{
+		code: "shingle",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:strongtanninportion", litres: 1, consumelitres: 1 },
+			{ type: "item", code: "game:burnedbrick-blue", quantity: 12 }
+		],
+		output: { type: "item", code: "game:burnedbrick-brown", stackSize: 12 }
+	},
+	{
+		code: "shingle",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:dye-red", litres: 1, consumelitres: 1 },
+			{ type: "item", code: "game:burnedbrick-fire", quantity: 12 }
+		],
+		output: { type: "item", code: "game:burnedbrick-red", stackSize: 12 }
+	},
+	{
+		code: "shingle",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:strongtanninportion", litres: 1, consumelitres: 1 },
+			{ type: "item", code: "game:burnedbrick-fire", quantity: 12 }
+		],
+		output: { type: "item", code: "game:burnedbrick-brown", stackSize: 12 }
+	}
+]

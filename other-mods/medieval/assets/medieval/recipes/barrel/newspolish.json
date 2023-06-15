@@ -1,0 +1,146 @@
+[
+	{
+		code: "polishedrockold-full-granite",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:rockpolished-granite", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-full-granite", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-cobbled-granite",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:polishedrockold-full-granite", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-cobbled-granite", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-cobbled-mixed",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:drystone-mixed", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-cobbled-mixed", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-full-pinkmarble",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:rockpolished-redmarble", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-full-pinkmarble", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-full-claystone",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:rockpolished-claystone", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-full-claystone", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-cobbled-claystone",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:polishedrockold-full-claystone", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-cobbled-claystone", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-full-limestone",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:rockpolished-limestone", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-full-limestone", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-cobbled-limestone",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:polishedrockold-full-limestone", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-cobbled-limestone", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-full-peridotite",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:rockpolished-peridotite", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-full-peridotite", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-cobbled-peridotite",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:polishedrockold-full-peridotite", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-cobbled-peridotite", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-full-slate",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:rockpolished-slate", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-full-slate", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-cobbled-slate",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:polishedrockold-full-slate", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-cobbled-slate", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-full-chert",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:rockpolished-chert", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-full-chert", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-cobbled-chert",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:polishedrockold-full-chert", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-cobbled-chert", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-full-sandstone",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:rockpolished-sandstone", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-full-sandstone", stackSize: 4 }
+	},
+	{
+		code: "polishedrockold-cobbled-sandstone",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:polishedrockold-full-sandstone", quantity: 4 }
+		],
+		output: { type: "block", code: "game:polishedrockold-cobbled-sandstone", stackSize: 4 }
+	}
+]

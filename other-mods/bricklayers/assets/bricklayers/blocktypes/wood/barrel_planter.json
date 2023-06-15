@@ -1,0 +1,58 @@
+{
+	"code": "barrelplanter",
+	"classByType": {
+		"*-empty": "Block",
+		"*": "BlockPlantContainer"
+	},
+	"entityClass": "PlantContainer",
+	"behaviors": [
+		{ "name": "UnstableFalling", "properties": { "attachmentArea": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 } }}
+	],
+	"attributes": {
+		"sitHeight": 0.95,
+		"beeFeedByType": {
+			"*-empty": false,
+			"*": true
+		},
+		"butterflyFeedByType": {
+			"*-empty": false,
+			"*": true
+		},
+		"plantContainerSize": "large",
+		"filledShape": { "base": "game:block/wood/barrel/full" },
+		"fillHeight": 0.82
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"variantgroups": [
+		{ "code": "wood", "states": [ "generic" ] }
+	],
+	"maxStackSize": 1,
+	"creativeinventory": { "general": ["*"], "decorative": ["*"] },
+	"shape": { "base": "game:block/wood/barrel/full" },
+	"blockmaterial": "Wood",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"materialDensity": 2500,
+	"lightAbsorption": 1,
+	"textures": {
+		"sides": { "base": "game:block/wood/barrel/sides" },
+		"inside": { "base": "game:block/wood/barrel/inside" },
+		"top-empty": { "base": "game:block/transparent" },
+		"top-redmeat": { "base": "game:block/clay/planter/soil" }
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionSelectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.93, "z2": 1 },
+	"tpHandTransform": {
+		"translation": { "x": -1.45, "y": -0.82, "z": -0.54 },
+                "rotation": { "x": 12, "y": 14, "z": -73 },
+                "scale": 0.38
+        }
+}

@@ -1,0 +1,1178 @@
+{
+  "code": "player",
+  "class": "EntityPlayer",
+  "weight": 65,
+  "canClimb": true,
+  "climbTouchDistance": 0.5,
+  "hitboxSize": { "x": 0.6, "y": 1.85 },
+  "eyeHeight": 1.7,
+  "attributes": {
+    "glitchAffected": true,
+    "skinnableParts": [
+      {
+        "code": "baseskin",
+        "type": "texture",
+        "variants": [
+          { "code": "skin1", "texture": "entity/humanoid/seraphskinparts/body/skin1" },
+          { "code": "skin2", "texture": "entity/humanoid/seraphskinparts/body/skin2" },
+          { "code": "skin3", "texture": "entity/humanoid/seraphskinparts/body/skin3" },
+          { "code": "skin4", "texture": "entity/humanoid/seraphskinparts/body/skin4" },
+          { "code": "skin5", "texture": "entity/humanoid/seraphskinparts/body/skin5" },
+          { "code": "skin6", "texture": "entity/humanoid/seraphskinparts/body/skin6" },
+          { "code": "skin7", "texture": "entity/humanoid/seraphskinparts/body/skin7" },
+          { "code": "skin8", "texture": "entity/humanoid/seraphskinparts/body/skin8" },
+          { "code": "skin9", "texture": "entity/humanoid/seraphskinparts/body/skin9" },
+          { "code": "skin10", "texture": "entity/humanoid/seraphskinparts/body/skin10" },
+          { "code": "skin11", "texture": "entity/humanoid/seraphskinparts/body/skin11" },
+          { "code": "skin12", "texture": "entity/humanoid/seraphskinparts/body/skin12" },
+          { "code": "skin13", "texture": "entity/humanoid/seraphskinparts/body/skin13" },
+          { "code": "skin14", "texture": "entity/humanoid/seraphskinparts/body/skin14" },
+          { "code": "skin15", "texture": "entity/humanoid/seraphskinparts/body/skin15" },
+          { "code": "skin16", "texture": "entity/humanoid/seraphskinparts/body/skin16" },
+          { "code": "skin17", "texture": "entity/humanoid/seraphskinparts/body/skin17" },
+          { "code": "skin18", "texture": "entity/humanoid/seraphskinparts/body/skin18" },
+          { "code": "skin19", "texture": "entity/humanoid/seraphskinparts/body/skin19" },
+          { "code": "skin20", "texture": "entity/humanoid/seraphskinparts/body/skin20" }
+        ]
+      },
+      {
+        "code": "eyecolor",
+        "type": "texture",
+        "textureRenderTo": { "x": 109, "y": 0 },
+        "variants": [
+          { "code": "acid-green", "texture": "entity/humanoid/seraphskinparts/eyes/acid-green" },
+          { "code": "aquamarine", "texture": "entity/humanoid/seraphskinparts/eyes/aquamarine" },
+          { "code": "azure", "texture": "entity/humanoid/seraphskinparts/eyes/azure" },
+          { "code": "bitter-lemon", "texture": "entity/humanoid/seraphskinparts/eyes/bitter-lemon" },
+          { "code": "cadmium-orange", "texture": "entity/humanoid/seraphskinparts/eyes/cadmium-orange" },
+          { "code": "citron", "texture": "entity/humanoid/seraphskinparts/eyes/citron" },
+          { "code": "dark-green", "texture": "entity/humanoid/seraphskinparts/eyes/dark-green" },
+          { "code": "forest-green", "texture": "entity/humanoid/seraphskinparts/eyes/forest-green" },
+          { "code": "goldenrod", "texture": "entity/humanoid/seraphskinparts/eyes/goldenrod" },
+          { "code": "jade", "texture": "entity/humanoid/seraphskinparts/eyes/jade" },
+          { "code": "lavander", "texture": "entity/humanoid/seraphskinparts/eyes/lavander" },
+          { "code": "malachite", "texture": "entity/humanoid/seraphskinparts/eyes/malachite" },
+          { "code": "mantis", "texture": "entity/humanoid/seraphskinparts/eyes/mantis" },
+          { "code": "midnight", "texture": "entity/humanoid/seraphskinparts/eyes/midnight" },
+          { "code": "phthalo-blue", "texture": "entity/humanoid/seraphskinparts/eyes/phthalo-blue" },
+          { "code": "purple", "texture": "entity/humanoid/seraphskinparts/eyes/purple" },
+          { "code": "sand", "texture": "entity/humanoid/seraphskinparts/eyes/sand" },
+          { "code": "sapphire", "texture": "entity/humanoid/seraphskinparts/eyes/sapphire" }
+        ]
+      },
+      {
+        "code": "underwear",
+        "type": "texture",
+        "useDropDown": true,
+        "textureRenderTo": { "x": 0, "y": 0 },
+        "variants": [
+          { "code": "twopiece", "texture": "entity/humanoid/seraphskinparts/underwear/twopiece" },
+          { "code": "leotard", "texture": "entity/humanoid/seraphskinparts/underwear/leotard" },
+          { "code": "breeches", "texture": "entity/humanoid/seraphskinparts/underwear/breeches" }
+        ]
+      },
+      {
+        "code": "voicetype",
+        "type": "voice",
+        "useDropDown": true,
+        "variants": [
+          { "code": "altoflute", "sound": "sounds/voice/altoflute" },
+          { "code": "harmonica", "sound": "sounds/voice/harmonica" },
+          { "code": "oboe", "sound": "sounds/voice/oboe" },
+          { "code": "clarinete", "sound": "sounds/voice/clarinete" },
+          { "code": "accordion", "sound": "sounds/voice/accordion" },
+          { "code": "trumpet", "sound": "sounds/voice/trumpet" },
+          { "code": "tuba", "sound": "sounds/voice/tuba" }
+        ]
+      },
+      {
+        "code": "voicepitch",
+        "type": "voice",
+        "colbreak": true,
+        "useDropDown": true,
+        "variants": [{ "code": "verylow" }, { "code": "low" }, { "code": "medium" }, { "code": "high" }, { "code": "veryhigh" }]
+      },
+      {
+        "code": "hairbase",
+        "type": "shape",
+        "shapeTemplate": { "base": "entity/humanoid/seraphskinparts/hair-base/{code}" },
+        "variants": [
+          { "code": "bald" },
+          { "code": "balding" },
+          { "code": "afro" },
+          { "code": "combed" },
+          { "code": "dreadlocks" },
+          { "code": "indigenousbalding" },
+          { "code": "iroquois" },
+          { "code": "kniaz" },
+          { "code": "layered" },
+          { "code": "longflowing" },
+          { "code": "longwithstrands" },
+          { "code": "mediumlength-bangs" },
+          { "code": "messy" },
+          { "code": "messy2" },
+          { "code": "classic" },
+          { "code": "short" },
+          { "code": "short-parted" },
+          { "code": "shortspiky" },
+          { "code": "short-trimmed" },
+          { "code": "tonsure" }
+        ]
+      },
+      {
+        "code": "hairextra",
+        "type": "shape",
+        "shapeTemplate": { "base": "entity/humanoid/seraphskinparts/hair-extra/{code}" },
+        "variants": [
+          { "code": "none" },
+          { "code": "backbun" },
+          { "code": "braidedup" },
+          { "code": "elaboratestickbun" },
+          { "code": "headsidebraid" },
+          { "code": "largestickbun" },
+          { "code": "neatbraid" },
+          { "code": "classicponytail" },
+          { "code": "ponytail" },
+          { "code": "rolledbraidwithbun" },
+          { "code": "shortmessybraid" },
+          { "code": "sidebraids" },
+          { "code": "sidebuns" },
+          { "code": "siderolls" },
+          { "code": "snood" },
+          { "code": "thicklongfrenchbraid" },
+          { "code": "tiedback" },
+          { "code": "tieddreads" },
+          { "code": "tiedtopknot" },
+          { "code": "topbun" },
+          { "code": "topknot" },
+          { "code": "unkempt" },
+          { "code": "vikingtopbraid" }
+        ]
+      },
+      {
+        "code": "facialexpression",
+        "type": "shape",
+        "variants": [
+          { "code": "angry", "shape": { "base": "entity/humanoid/seraphskinparts/face/angry" } },
+          { "code": "grin", "shape": { "base": "entity/humanoid/seraphskinparts/face/grin" } },
+          { "code": "smirk", "shape": { "base": "entity/humanoid/seraphskinparts/face/smirk" } },
+          { "code": "kind", "shape": { "base": "entity/humanoid/seraphskinparts/face/kind" } },
+          { "code": "upset", "shape": { "base": "entity/humanoid/seraphskinparts/face/upset" } },
+          { "code": "neutral", "shape": { "base": "entity/humanoid/seraphskinparts/face/neutral" } },
+          { "code": "sad", "shape": { "base": "entity/humanoid/seraphskinparts/face/sad" } },
+          { "code": "serious", "shape": { "base": "entity/humanoid/seraphskinparts/face/serious" } },
+          { "code": "tired", "shape": { "base": "entity/humanoid/seraphskinparts/face/tired" } },
+          { "code": "very-sad", "shape": { "base": "entity/humanoid/seraphskinparts/face/very-sad" } }
+        ]
+      },
+      {
+        "code": "mustache",
+        "type": "shape",
+        "shapeTemplate": { "base": "entity/humanoid/seraphskinparts/hair-face/{code}" },
+        "variants": [
+          { "code": "none" },
+          { "code": "mst-line01-pencil" },
+          { "code": "mst-line05-seargent" },
+          { "code": "mst-line10-sheriff" },
+          { "code": "mst-line15-eccentric" },
+          { "code": "mst-line20-seagull" },
+          { "code": "mst-u01-horseshoe" },
+          { "code": "mst-u05-stirrups" },
+          { "code": "mst-walrus05-neat" },
+          { "code": "mst-walrus30-fat" },
+          { "code": "mst-whiskbroom" }
+        ]
+      },
+      {
+        "code": "beard",
+        "type": "shape",
+        "shapeTemplate": { "base": "entity/humanoid/seraphskinparts/hair-face/{code}" },
+        "variants": [
+          { "code": "none" },
+          { "code": "brd-stubble" },
+          { "code": "brd-box05-anchor" },
+          { "code": "brd-box01-chincurtain" },
+          { "code": "brd-box07-ducktail" },
+          { "code": "brd-box10-short" },
+          { "code": "brd-box20-full" },
+          { "code": "brd-chin01-mouche" },
+          { "code": "brd-chin05-chinpatch" },
+          { "code": "brd-chin10-chinpuff" },
+          { "code": "brd-chin15-goatee" },
+          { "code": "brd-chin20-goateehorns" },
+          { "code": "brd-full01-trimmedfull" },
+          { "code": "brd-full05-cleanfull" },
+          { "code": "brd-full10-shaggy" },
+          { "code": "brd-mut05-friendly" },
+          { "code": "brd-mut10-muttonchops" },
+          { "code": "brd-mut15-wildchops" },
+          { "code": "brd-side05-sideburns" },
+          { "code": "brd-side15-sidewhiskers" },
+          { "code": "brd-wisp10-wiseman" }
+        ]
+      },
+      {
+        "code": "haircolor",
+        "type": "texture",
+        "textureTarget": "hair",
+        "textureTemplate": "entity/humanoid/seraphskinparts/hair/{code}",
+        "variants": [
+          { "code": "lightgray" },
+          { "code": "silverchalice" },
+          { "code": "slategray" },
+          { "code": "eerieblack" },
+          { "code": "mossgreen" },
+          { "code": "seagreen" },
+          { "code": "wintergreendream" },
+          { "code": "steelblue" },
+          { "code": "queenblue" },
+          { "code": "indigodye" },
+          { "code": "heliotropegray" },
+          { "code": "palatinatepurple" },
+          { "code": "darkpurple" },
+          { "code": "wheat" },
+          { "code": "ecru" },
+          { "code": "sanddune" },
+          { "code": "harvestgold" },
+          { "code": "cordovan" },
+          { "code": "rosewood" },
+          { "code": "russet" },
+          { "code": "liver" },
+          { "code": "oldburgundy" }
+        ]
+      }
+    ]
+  },
+  "client": {
+    "renderer": "SkinnableShape",
+    "shape": { "base": "entity/humanoid/seraph-faceless" },
+    "texture": { "base": "entity/humanoid/seraph-naked-hairless" },
+    "behaviors": [
+      { "code": "repulseagents" },
+      { "code": "nametag" },
+      { "code": "playerphysics" },
+      { "code": "interpolateposition" },
+      { "code": "aimingaccuracy" },
+      { "code": "tiredness" },
+      { "code": "extraskinnable" }
+    ],
+    "animations": [
+      {
+        "code": "walk",
+        "animation": "walk",
+        "blendMode": "Average",
+        "mulWithWalkSpeed": true,
+        "animationSpeed": 1.1,
+        "triggeredBy": { "onControls": ["Move"], "matchExact": true }
+      },
+      {
+        "code": "idle",
+        "animation": "idle1",
+        "blendMode": "Average",
+        "triggeredBy": { "onControls": ["Idle"], "matchExact": true, "defaultAnim": true }
+      },
+      {
+        "code": "sitflooridle",
+        "animation": "sitflooridle",
+        "blendMode": "Average",
+        "triggeredBy": { "onControls": ["Idle", "FloorSitting"], "matchExact": true }
+      },
+      {
+        "code": "sprint",
+        "animation": "sprint",
+        "animationSpeed": 0.6,
+        "mulWithWalkSpeed": true,
+        "triggeredBy": { "onControls": ["Move", "SprintMode"], "matchExact": true },
+        "blendMode": "Average"
+      },
+      {
+        "code": "sneakwalk",
+        "animation": "sneakwalk",
+        "animationSpeed": 3,
+        "mulWithWalkSpeed": true,
+        "triggeredBy": { "onControls": ["Move", "SneakMode"], "matchExact": true },
+        "blendMode": "Average"
+      },
+      {
+        "code": "sneakidle",
+        "animation": "sneakidle",
+        "triggeredBy": { "onControls": ["Idle", "SneakMode"], "matchExact": true },
+        "blendMode": "Average"
+      },
+      {
+        "code": "glide",
+        "animation": "glide",
+        "triggeredBy": { "onControls": ["Fly"] },
+        "blendMode": "Average"
+      },
+      {
+        "code": "swim",
+        "animation": "swim",
+        "triggeredBy": { "onControls": ["Move", "Swim"], "matchExact": true },
+        "blendMode": "Average"
+      },
+      {
+        "code": "swimidle",
+        "animation": "swimidle",
+        "triggeredBy": { "onControls": ["Idle", "Swim"], "matchExact": true },
+        "blendMode": "Average"
+      },
+      {
+        "code": "land",
+        "animation": "land",
+        "triggeredBy": { "onControls": ["Fall"] },
+        "blendMode": "Average"
+      },
+      {
+        "code": "die",
+        "animation": "die",
+        "blendMode": "Average",
+        "triggeredBy": { "onControls": ["Dead"] },
+        "animationSpeed": 1.5
+      },
+      {
+        "code": "heavyimpact",
+        "animation": "heavyimpact",
+        "blendMode": "Average"
+      },
+      {
+        "code": "jump",
+        "animation": "newjump",
+        "triggeredBy": { "onControls": ["Idle", "Jump"], "matchExact": true },
+        "blendMode": "Average"
+      },
+      {
+        "code": "climbup",
+        "animation": "ladderup",
+        "triggeredBy": { "onControls": ["Move", "Climb"], "matchExact": true },
+        "blendMode": "Average"
+      },
+      {
+        "code": "climbidle",
+        "animation": "LadderIdle",
+        "triggeredBy": { "onControls": ["Idle", "Climb"], "matchExact": true },
+        "blendMode": "Average"
+      },
+      {
+        "code": "sleep",
+        "animation": "lie",
+        "blendMode": "Add"
+      },
+      {
+        "code": "holdunderarm",
+        "animation": "holdunderarm",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage"
+        }
+      },
+      {
+        "code": "holdinglanternrighthand",
+        "animation": "holdinglanternrighthand",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 7,
+          "LowerArmR": 7
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage"
+        }
+      },
+      {
+        "code": "holdinglanternlefthand",
+        "animation": "holdinglanternlefthand",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmL": 7,
+          "LowerArmL": 7
+        },
+        "elementBlendMode": {
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+
+      {
+        "code": "hurt",
+        "animation": "hurt",
+        "animationSpeed": 3,
+        "blendMode": "Add"
+      },
+      {
+        "code": "holdbothhands",
+        "animation": "holdbothhands",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 12,
+          "LowerArmL": 12
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "holdbothhandslarge",
+        "animation": "holdbothhandslarge",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 12,
+          "LowerArmL": 12
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "bowaim",
+        "animation": "bowaim",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "bowhit",
+        "animation": "bowhit",
+        "easeInSpeed": 999,
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "aim",
+        "animation": "throwaim",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "throw",
+        "animation": "throw",
+        "blendMode": "Add",
+        "easeInSpeed": 999,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "slingaimgreek",
+        "animation": "slingaimgreek",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "slingthrowgreek",
+        "animation": "slingthrowgreek",
+        "blendMode": "Add",
+        "easeInSpeed": 999,
+        "easeOutSpeed": 2.5,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "slingaimbalearic",
+        "animation": "slingaimbalearic",
+        "blendMode": "Add",
+        "animationSpeed": 1.5,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "slingthrowbalearic",
+        "animation": "slingthrowbalearic",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "hit",
+        "animation": "hit",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "smithing",
+        "animation": "smithing",
+        "animationSpeed": 1.33,
+        "holdEyePosAfterEasein": 0,
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "knap",
+        "animation": "knap",
+        "animationSpeed": 1.2,
+        "blendMode": "Add",
+        "holdEyePosAfterEasein": 0.1,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+
+      {
+        "code": "knapsitting",
+        "animation": "knapsitting",
+        "animationSpeed": 1.2,
+        "blendMode": "Add",
+        "holdEyePosAfterEasein": 0,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+
+      {
+        "code": "breaktool",
+        "animation": "breaktool",
+        "animationSpeed": 1.8,
+        "blendMode": "Add",
+        "holdEyePosAfterEasein": 0.99,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "breakhand",
+        "animation": "breakhand",
+        "animationSpeed": 1.8,
+        "holdEyePosAfterEasein": 0.9,
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "swordhit",
+        "animation": "swordhit",
+        "blendMode": "Add",
+        "animationSpeed": 0.7,
+        "easeOutSpeed": 60,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "axechop",
+        "animation": "axechop",
+        "blendMode": "Add",
+        "animationSpeed": 1.75,
+        "holdEyePosAfterEasein": 0.3,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "hoe",
+        "animation": "hoe",
+        "blendMode": "Add",
+        "animationSpeed": 1,
+        "holdEyePosAfterEasein": 0.85,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "water",
+        "animation": "water",
+        "blendMode": "Add",
+        "animationSpeed": 1.5,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+
+      {
+        "code": "shoveldig",
+        "animation": "shoveldig",
+        "blendMode": "Add",
+        "animationSpeed": 1.5,
+        "holdEyePosAfterEasein": 0.4,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "spearhit",
+        "animation": "spearhit",
+        "blendMode": "Add",
+        "animationSpeed": 1,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "scythe",
+        "animation": "scythe",
+        "blendMode": "Add",
+        "animationSpeed": 1,
+        "holdEyePosAfterEasein": 0.1,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "code": "shears",
+        "animation": "shears",
+        "blendMode": "Add",
+        "animationSpeed": 1.5,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+
+      {
+        "code": "placeblock",
+        "animation": "placeblock",
+        "animationSpeed": 1.2,
+        "easeOutSpeed": 3,
+        "holdEyePosAfterEasein": 0,
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 8,
+          "LowerArmR": 8,
+          "UpperArmL": 8,
+          "LowerArmL": 8
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+
+      {
+        "code": "interactstatic",
+        "animation": "interactstatic",
+        "animationSpeed": 1,
+        "easeOutSpeed": 4,
+        "holdEyePosAfterEasein": 0,
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 8,
+          "LowerArmR": 8,
+          "UpperArmL": 8,
+          "LowerArmL": 8
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+
+      {
+        "code": "twohandplaceblock",
+        "animation": "twohandplaceblock",
+        "easeOutSpeed": 3,
+        "holdEyePosAfterEasein": 0,
+        "animationSpeed": 2,
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 8,
+          "LowerArmR": 8,
+          "UpperArmL": 8,
+          "LowerArmL": 8
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+
+      {
+        "code": "eat",
+        "animation": "eat",
+        "animationSpeed": 1,
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmR": 3.5,
+          "LowerArmR": 3.5
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage"
+        }
+      },
+      {
+        "code": "wave",
+        "animation": "wave",
+        "animationSpeed": 1.3,
+        "blendMode": "Add",
+        "weight": 4,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "nod",
+        "animation": "nod",
+        "animationSpeed": 1.3,
+        "blendMode": "Add",
+        "weight": 4,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "bow",
+        "animation": "bow",
+        "animationSpeed": 1,
+        "blendMode": "Add",
+        "weight": 4,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "facepalm",
+        "animation": "facepalm",
+        "animationSpeed": 1.1,
+        "blendMode": "Add",
+        "weight": 4,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "cry",
+        "animation": "cry",
+        "animationSpeed": 1.3,
+        "blendMode": "Average",
+        "weight": 4,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "shrug",
+        "animation": "shrug",
+        "animationSpeed": 1.3,
+        "blendMode": "Average",
+        "weight": 4,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "cheer",
+        "animation": "cheer",
+        "animationSpeed": 1.1,
+        "blendMode": "Average",
+        "weight": 2,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "laugh",
+        "animation": "laugh",
+        "animationSpeed": 1.1,
+        "blendMode": "Average",
+        "weight": 2,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "rage",
+        "animation": "rage",
+        "animationSpeed": 1.1,
+        "blendMode": "Average",
+        "weight": 2,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      },
+      {
+        "code": "panning",
+        "animation": "panning",
+        "animationSpeed": 1.5,
+        "blendMode": "Add",
+        "weight": 2,
+        "elementWeight": {
+          "UpperArmR": 4,
+          "LowerArmR": 4,
+          "UpperArmL": 4,
+          "LowerArmL": 4,
+          "Neck": 4,
+          "Head": 4
+        },
+        "elementBlendMode": {
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage",
+          "Neck": "AddAverage",
+          "Head": "AddAverage"
+        }
+      }
+    ]
+  },
+  "server": {
+    "behaviors": [
+      { "code": "repulseagents" },
+      { "code": "nametag" },
+      { "code": "playerphysics" },
+      { "code": "collectitems" },
+      { "code": "health", "currenthealth": 15.0, "maxhealth": 15.0 },
+      { "code": "hunger", "currentsaturation": 1500.0, "maxsaturation": 1500.0, "saturationlossdelay": 180.0 },
+      { "code": "breathe" },
+      { "code": "aimingaccuracy" },
+      { "code": "tiredness" },
+      { "code": "bodytemperature" },
+      { "code": "extraskinnable" }
+    ]
+  },
+  "sounds": {
+    "hurt": "player/hurt",
+    "death": "player/death",
+    "swim": "player/swim",
+    "eat": "player/eat",
+    "drink": "player/drink*"
+  }
+}

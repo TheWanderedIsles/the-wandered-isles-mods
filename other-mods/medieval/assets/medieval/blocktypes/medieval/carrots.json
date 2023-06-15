@@ -1,0 +1,53 @@
+{
+	code: "carrots",
+	variantgroups: [
+		{ code:"type", states: ["carrots" ] },
+	],
+	attributes: {
+		"pieFormingSurface": true
+	},
+	shape: { base: "block/medieval/carrots" },
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "decorative": ["*"], "medieval": ["*"] }
+	},
+	blockmaterial: "leaves",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 0.1,
+	collisionbox: null,
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/plant",
+		"hit": "game:block/plant",
+		"break": "game:block/plant",
+		"walk": "game:walk/grass"
+	},
+	texturesByType: {
+		"*": {
+			"s3": { base: "block/plant/crop/carrot/s2" },
+			"bulb": { base: "block/plant/crop/carrot/bulb" },
+			"e3": { base: "block/plant/crop/carrot/e2" }
+		}
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+		guiTransform: {
+		translation: { x: 0, y: 4.6, z: 0 },
+		scale: 1.55
+	},
+		fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 90, y: 37, z: -100 },
+		scale: 1.55
+	}
+}

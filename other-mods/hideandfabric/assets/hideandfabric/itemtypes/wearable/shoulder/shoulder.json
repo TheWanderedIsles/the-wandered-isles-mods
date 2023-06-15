@@ -1,0 +1,77 @@
+{
+	"code": "clothes",
+	"class": "ItemWearable",
+	"variantgroups": [
+		{ "code":"category",  "states": ["shoulder"] },		
+		{ "code":"shoulder", "combine": "SelectiveMultiply", "onVariant": "category", "states": [
+			"cooks-apron", "straw-cloak",
+            "leather-jerkin-plain", "leather-jerkin-orange", "leather-jerkin-black"
+		] }
+	],
+	"shape": { "base": "game:entity/humanoid/seraph" },
+	"storageFlags": 128,
+	"attributes": {
+		"clothescategory": "shoulder",
+		"warmthByType": {
+			"*-clockmaker-apron": 0.5,
+			"*-straw-cloak": 1,
+			"*": 1
+		}
+	},
+	"textures": {
+		"seraph": { "base": "entity/humanoid/seraphclothes/{category}/{shoulder}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "hideandfabric": ["*"] },
+	"renderAlphaTest": 0.25,
+	"fpHandTransform": {
+		"translation": { "x":-0.15, "y":-0.8, "z":0.3 },
+		"rotation": { "x":180, "y":150, "z":180 },
+		"scale": 2
+	},
+	"tpHandTransformByType": {
+		"*-apron": {
+			"translation": { "x":-0.6, "y":-1.4, "z":-0.85 },
+			"rotation": { "x":-87, "y":-96, "z":91 },
+			"scale": 0.72
+		},
+		"*-hooded-cloak": {
+			"translation": { "x":-0.7, "y":-1.7, "z":-0.85 },
+			"rotation": { "x":91, "y":94, "z":93 },
+			"scale": 0.59
+		},
+		"*": {
+			"translation": { "x":0, "y":-0.7, "z":-0.7 },
+			"rotation": { "x":-81, "y":180, "z":91 },
+			"scale": 0.59
+		}
+	},
+	"guiTransformByType": {
+		"*-apron": {
+			"rotate": false,
+			"translation": { "x":0, "y":0, "z":0 },
+			"rotation": { "x":-178, "y":-74, "z":22 },
+			"origin": { "x":0.2, "y":1.2, "z":0.5 },
+			"scale": 1.75
+		},
+		"*-straw-cloak": {
+			"rotate": false,
+			"translation": { "x":0, "y":0, "z":0 },
+			"rotation": { "x":-178, "y":-87, "z":16 },
+			"origin": { "x":0.2, "y":1.2, "z":0.5 },
+			"scale": 1.76
+		},
+		"*": {
+			"rotate": false,
+			"translation": { "x":2, "y":0, "z":17 },
+			"rotation": { "x":-178, "y":-65, "z":10 },
+			"origin": { "x":0.5, "y":1.4, "z":0.5 },
+			"scale": 2.2
+		}
+	},
+	"groundTransform": {
+		"translation": { "x":0.05, "y":0.1, "z":0 },
+		"rotation": { "x":0, "y":0, "z":-87 },
+		"origin": { "x":0.5, "y":0.5, "z":0.5299 },
+		"scale": 2.19
+	}
+}

@@ -1,0 +1,28 @@
+[
+	{
+	"ingredientPattern": "P,S",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"S": { "type": "block", "code": "game:drystonefence-*-ew-free", "name": "rock", "quantity": 1,
+			"allowedVariants": [
+				"andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:stone-{rock}", "quantity": 6 }
+	},
+	{
+	"ingredientPattern": "H,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"S": { "type": "block", "code": "game:drystonefence-*-ew-free", "name": "rock", "quantity": 1,
+			"allowedVariants": [
+				"andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:stone-{rock}", "quantity": 6 }
+	}
+]

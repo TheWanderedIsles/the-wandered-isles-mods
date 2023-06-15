@@ -1,0 +1,100 @@
+[
+	{
+		file: "itemtypes/bag/cottonframepack.json",
+		op: "add",
+		path: "/enabled",
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/cottonframepack.json",
+		op: "add",	
+		path: "/0/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/cottonframepack.json",
+		op: "add",	
+		path: "/1/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/cottonframepack.json",
+		op: "add",	
+		path: "/2/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/cottonframepack.json",
+		op: "add",	
+		path: "/3/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/cottonframepack.json",
+		op: "add",	
+		path: "/4/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/cottonframepack.json",
+		op: "add",	
+		path: "/5/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "itemtypes/bag/woolframepack.json",
+		op: "add",
+		path: "/enabled",
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/woolframepack.json",
+		op: "add",	
+		path: "/0/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/woolframepack.json",
+		op: "add",	
+		path: "/1/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/woolframepack.json",
+		op: "add",	
+		path: "/2/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/woolframepack.json",
+		op: "add",	
+		path: "/3/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/woolframepack.json",
+		op: "add",	
+		path: "/4/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	},
+	{
+		file: "recipes/grid/woolframepack.json",
+		op: "add",	
+		path: "/5/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "hideandfabric", "invert": true }]
+	}
+]

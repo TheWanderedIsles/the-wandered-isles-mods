@@ -1,0 +1,40 @@
+{
+	code: "claystoneup",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/stone/claystone/claystoneup" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "terrain": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/stone/pillar/claystone/claystoneup" },
+		"east": { base: "block/stone/pillar/claystone/claystoneup" },
+		"south": { base: "block/stone/pillar/claystone/claystoneup" },
+		"west": { base: "block/stone/pillar/claystone/claystoneup" },
+		"up": { base: "game:block/stone/polishedrock/claystone" },
+		"down": { base: "game:block/stone/polishedrock/claystone" },
+		"inside-north": { base: "block/stone/pillar/claystone/claystoneup" },
+		"inside-east": { base: "block/stone/pillar/claystone/claystoneup" },
+		"inside-south": { base: "block/stone/pillar/claystone/claystoneup" },
+		"inside-west": { base: "block/stone/pillar/claystone/claystoneup" },
+		"inside-up": { base: "game:block/stone/polishedrock/claystone" },
+		"inside-down": { base: "game:block/stone/polishedrock/claystone" }
+
+	},
+	replaceable: 90,
+	resistance: 3,
+	sounds: {
+		"walk": "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "block/wood/debarked/stairs/acacia",
+		"top": "block/wood/debarked/acacia"
+	},
+	"elements": [
+		{
+			"name": "Cube7",
+			"from": [ 0.0, 14.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"rotationOrigin": [ 0.0, 14.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 9.5, 8.0, 10.5 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 8.0, 9.5, 16.0, 10.5 ], "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 2.5, 9.5, 10.5, 10.5 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 3.5, 9.5, 11.5, 10.5 ], "autoUv": false },
+				"up": { "texture": "#top", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 8.0, 0.0, 16.0, 8.0 ], "autoUv": false }
+			}
+		}
+	]}

@@ -1,0 +1,50 @@
+[
+	{
+		ingredientPattern: "H_,TF,X_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:bone" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"T": { type: "item", code: "knifebladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "knife-{metal}-bone-p", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,X_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"T": { type: "item", code: "knifebladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "knife-{metal}-leather-p", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,X_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"T": { type: "item", code: "knifebladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "knife-{metal}-red-p", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,X_",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "medieval:horn" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"T": { type: "item", code: "knifebladehead-*", name: "metal", allowedVariants: ["stainlesssteel", "titanium"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "knife-{metal}-horn-p", quantity: 1  }
+	}
+]

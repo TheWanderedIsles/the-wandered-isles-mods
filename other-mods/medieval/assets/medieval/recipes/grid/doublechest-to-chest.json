@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "S,W",
+	ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"W": { type: "block", code: "game:trunk-east", attributes: { type: "normal-generic" }  }
+	},
+	width: 1,
+	height: 2,
+	shapeless: true,
+	output: { type: "block", code: "game:chest-east", attributes: { type: "normal-generic" }, quantity: 2  }
+}

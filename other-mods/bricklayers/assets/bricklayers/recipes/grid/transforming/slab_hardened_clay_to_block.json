@@ -1,0 +1,25 @@
+[
+	{
+	"ingredientPattern": "S,C,S",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-fire", "name": "clay", "quantity": 1 },
+		"S": { "type": "block", "code": "bricklayers:hardenedclayslab-*-down-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:hardenedclay-{color}", "quantity": 1 }
+	},
+	{
+	"comment": "Extra recipe for clay-blue, as clay-* seems not to work.",
+	"ingredientPattern": "S,C,S",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-blue", "name": "clay", "quantity": 1 },
+		"S": { "type": "block", "code": "bricklayers:hardenedclayslab-*-down-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:hardenedclay-{color}", "quantity": 1 }
+	}
+]

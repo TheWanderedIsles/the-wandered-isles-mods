@@ -1,0 +1,13 @@
+[
+	{
+	"ingredientPattern": "_T_,THT,TTT",
+	"ingredients": {
+		"H": { "type": "block", "code": "game:hardenedclay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "blue", "fire" ] },
+		"T": { "type": "block", "code": "bricklayers:stonetile-normal-*-down", "name": "rock",
+			"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "obsidian", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:stonetiles-normal-{rock}", "quantity": 1 }
+	}
+]

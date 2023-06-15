@@ -1,0 +1,35 @@
+[
+  {
+    "ingredientPattern": "H__,_I_,B_B",
+    "ingredients": {
+      "H": { type: "item", code: "game:hammer-*", isTool: true  },
+      "I": { "type": "item", "code": "game:metalplate-molybdochalkos", quantity: 1 },
+      "B": { "type": "item", "code": "metalbar-molybdochalkos", quantity: 1 },
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "metaltable-normal", quantity: 1 }
+  },
+  {
+    "ingredientPattern": "H__,_I_,BIB",
+    "ingredients": {
+      "H": { type: "item", code: "game:hammer-*", isTool: true  },
+      "I": { "type": "item", "code": "game:metalplate-molybdochalkos", quantity: 1 },
+      "B": { "type": "item", "code": "metalbar-molybdochalkos", quantity: 1 },
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "metaldraw-east", attributes: { type: "metalstorage" }, quantity: 1 }
+  },
+  {
+    "ingredientPattern": "HI_,_I_,BIB",
+    "ingredients": {
+      "H": { type: "item", code: "game:hammer-*", isTool: true  },
+      "I": { "type": "item", "code": "game:metalplate-molybdochalkos", quantity: 1 },
+      "B": { "type": "item", "code": "metalbar-molybdochalkos", quantity: 1 },
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "metalcontainer-east", attributes: { type: "bigmetalstorage" }, quantity: 1 }
+  }
+]

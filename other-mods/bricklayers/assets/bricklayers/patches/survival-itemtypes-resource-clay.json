@@ -1,0 +1,146 @@
+[
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": [ "black", "blurple", "brown", "darkgrey", "red", "green", "light", "malachite", "orange", "pink", "purple", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ],
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/combustibleProps",
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "@.*-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+	"meltingPoint": 950,
+	"meltingDuration": 22,
+	"smeltedRatio": 8,
+	"smeltingType": "bake",
+	"smeltedStack": { "type": "block", "code": "bricklayers:biscuitporcelain-{type}" },
+	"requiresContainer": false
+      },
+      "*": {
+	"meltingPoint": 300,
+	"meltingDuration": 10,
+	"smeltedRatio": 8,
+	"smeltingType": "bake",
+	"smeltedStack": { "type": "block", "code": "game:hardenedclay-{type}" },
+	"requiresContainer": false
+      }
+    },
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shape",
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType",
+    "value": {
+      "*-blue": { "base": "game:item/resource/{type}clay" },
+      "*-fire": { "base": "game:item/resource/{type}clay" },
+      "*": 	{ "base": "game:item/resource/blueclay" }
+    },
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texture",
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "*-blue": {
+		"all": { "base": "game:block/soil/{type}clay" }
+      },
+      "*-fire": {
+		"all": { "base": "game:block/soil/{type}clay" }
+      },
+      "*-lavender": {
+		"all": { "base": "bricklayers:block/clay/raw/lavender" },
+		"blueclay": { "base": "bricklayers:block/clay/raw/lavender" }
+      },
+      "*-paleblue": {
+		"all": { "base": "bricklayers:block/clay/raw/paleblue" },
+		"blueclay": { "base": "bricklayers:block/clay/raw/paleblue" }
+      },
+      "*-palegreen": {
+		"all": { "base": "bricklayers:block/clay/raw/palegreen" },
+		"blueclay": { "base": "bricklayers:block/clay/raw/palegreen" }
+      },
+      "*-palered": {
+		"all": { "base": "bricklayers:block/clay/raw/palered" },
+		"blueclay": { "base": "bricklayers:block/clay/raw/palered" }
+      },
+      "*-sunflower": {
+		"all": { "base": "bricklayers:block/clay/raw/sunflower" },
+		"blueclay": { "base": "bricklayers:block/clay/raw/sunflower" }
+      },
+      "*-white": {
+		"all": { "base": "bricklayers:block/clay/raw/white" },
+		"blueclay": { "base": "bricklayers:block/clay/raw/white" }
+      },
+      "*": {
+		"all": { "base": "bricklayers:item/resource/clay/raw-{type}clay" },
+		"blueclay": { "base": "bricklayers:item/resource/clay/raw-{type}clay" }
+      }
+    },
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/ceramics",
+    "value":  ["*"],
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType",
+    "value": {
+      "*-blue": {
+		"inContainerTexture": { "base": "game:block/soil/{type}clay" }
+      },
+      "*-fire": {
+		"inContainerTexture": { "base": "game:block/soil/{type}clay" }
+      },
+      "*-lavender": {
+		"inContainerTexture": { "base": "bricklayers:block/clay/raw/lavender" }
+      },
+      "*-paleblue": {
+		"inContainerTexture": { "base": "bricklayers:block/clay/raw/paleblue" }
+      },
+      "*-palegreen": {
+		"inContainerTexture": { "base": "bricklayers:block/clay/raw/palegreen" }
+      },
+      "*-palered": {
+		"inContainerTexture": { "base": "bricklayers:block/clay/raw/palered" }
+      },
+      "*-sunflower": {
+		"inContainerTexture": { "base": "bricklayers:block/clay/raw/sunflower" }
+      },
+      "*-white": {
+		"inContainerTexture": { "base": "bricklayers:block/clay/raw/white" }
+      },
+      "*": {
+		"inContainerTexture": { "base": "bricklayers:item/resource/clay/raw-{type}clay" }
+      }
+    },
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  }
+]

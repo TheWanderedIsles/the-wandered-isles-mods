@@ -1,0 +1,22 @@
+[
+	{
+	"ingredientPattern": "P,W",
+	"ingredients": {
+		"P": { "type": "block", "code": "game:clayplanter-burnt", "name": "color" },
+		"W": { "type": "item", "code": "game:beeswax" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:waxedplanter-bottom-blue", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "P,W",
+	"ingredients": {
+		"P": { "type": "block", "code": "bricklayers:plantercolored-burnt-*", "name": "color" },
+		"W": { "type": "item", "code": "game:beeswax" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:waxedplanter-bottom-{color}", "quantity": 1 }
+	}
+]

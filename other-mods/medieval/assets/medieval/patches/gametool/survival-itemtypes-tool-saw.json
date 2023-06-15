@@ -1,0 +1,88 @@
+[
+  {
+    "op": "replace",
+    "path": "/shape/base",
+    "value": "item/tool/saw",
+    "file": "game:itemtypes/tool/saw.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransform",
+    "value": {
+      "translation": {
+        "x": -1.23,
+        "y": -0.37,
+        "z": -0.62
+      },
+      "rotation": {
+        "x": -90,
+        "y": -174,
+        "z": -0
+      },
+      "scale": 0.8
+    },
+    "file": "game:itemtypes/tool/saw.json"
+  },
+  {
+    "op": "replace",
+    "path": "/fpHandTransform",
+    "value": {
+      "translation": {
+        "x": 0.0468,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 140,
+        "y": 0,
+        "z": 90
+      },
+      "scale": 2.25
+    },
+    "file": "game:itemtypes/tool/saw.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransform",
+    "value": {
+      "translation": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -77,
+        "y": 47,
+        "z": -151
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "scale": 1.5
+    },
+    "file": "game:itemtypes/tool/saw.json"
+  },
+   {
+    "op": "replace",
+    "path": "/attributes/groundStorageTransform",
+    "value": {
+       "translation": {
+          "x": 0.03,
+          "y": -0.1,
+          "z": 0.29
+        },
+        "rotation": {
+          "x": 26,
+          "y": 90,
+          "z": -90
+        },
+        "scale": 0.75
+    },
+    "file": "game:itemtypes/tool/saw.json"
+  }
+]
+
+
+  

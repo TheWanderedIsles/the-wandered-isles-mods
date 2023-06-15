@@ -1,0 +1,222 @@
+[
+  {
+    "op": "remove",
+    "path": "/shapebytype/*-east",
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "remove",
+    "path": "/shapebytype/*-north",
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "remove",
+    "path": "/shapebytype/*-south",
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "remove",
+    "path": "/shapebytype/*-west",
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/*-rope-east",
+    "value": {
+      "base": "block/rope/ladder",
+      "rotateY": 270,
+      "alternates": [
+        {
+          "base": "block/rope/ladderrope2",
+          "rotateY": 270
+        },
+        {
+          "base": "block/rope/ladderrope3",
+          "rotateY": 270
+        },
+        {
+          "base": "block/rope/ladderrope4",
+          "rotateY": 270
+        },
+        {
+          "base": "block/rope/ladderrope5",
+          "rotateY": 270
+        }
+      ]
+    },
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/*-rope-north",
+    "value": {
+      "base": "block/rope/ladder",
+      "rotateY": 0,
+      "alternates": [
+        {
+          "base": "block/rope/ladderrope2",
+          "rotateY": 0
+        },
+        {
+          "base": "block/rope/ladderrope3",
+          "rotateY": 0
+        },
+        {
+          "base": "block/rope/ladderrope4",
+          "rotateY": 0
+        },
+        {
+          "base": "block/rope/ladderrope5",
+          "rotateY": 0
+        }
+      ]
+    },
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/*-rope-south",
+    "value": {
+      "base": "block/rope/ladder",
+      "rotateY": 180,
+      "alternates": [
+        {
+          "base": "block/rope/ladderrope2",
+          "rotateY": 180
+        },
+        {
+          "base": "block/rope/ladderrope3",
+          "rotateY": 180
+        },
+        {
+          "base": "block/rope/ladderrope4",
+          "rotateY": 180
+        },
+        {
+          "base": "block/rope/ladderrope5",
+          "rotateY": 180
+        }
+      ]
+    },
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/*-rope-west",
+    "value": {
+      "base": "block/rope/ladder",
+      "rotateY": 90,
+      "alternates": [
+        {
+          "base": "block/rope/ladderrope2",
+          "rotateY": 90
+        },
+        {
+          "base": "block/rope/ladderrope3",
+          "rotateY": 90
+        },
+        {
+          "base": "block/rope/ladderrope4",
+          "rotateY": 90
+        },
+        {
+          "base": "block/rope/ladderrope5",
+          "rotateY": 90
+        }
+      ]
+    },
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/*-wood-east",
+    "value": {
+      "base": "block/wood/ladder",
+      "rotateY": 270,
+      "alternates": [
+        {
+          "base": "block/wood/medievalladder2",
+          "rotateY": 270
+        },
+        {
+          "base": "block/wood/medievalladder3",
+          "rotateY": 270
+        },
+        {
+          "base": "block/wood/medievalladder4",
+          "rotateY": 270
+        }
+      ]
+    },
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/*-wood-north",
+    "value": {
+      "base": "block/wood/ladder",
+      "rotateY": 0,
+      "alternates": [
+        {
+          "base": "block/wood/medievalladder2",
+          "rotateY": 0
+        },
+        {
+          "base": "block/wood/medievalladder3",
+          "rotateY": 0
+        },
+        {
+          "base": "block/wood/medievalladder4",
+          "rotateY": 0
+        }
+      ]
+    },
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/*-wood-south",
+    "value": {
+      "base": "block/wood/ladder",
+      "rotateY": 180,
+      "alternates": [
+        {
+          "base": "block/wood/medievalladder2",
+          "rotateY": 180
+        },
+        {
+          "base": "block/wood/medievalladder3",
+          "rotateY": 180
+        },
+        {
+          "base": "block/wood/medievalladder4",
+          "rotateY": 180
+        }
+      ]
+    },
+    "file": "game:blocktypes/wood/ladder.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/*-wood-west",
+    "value": {
+      "base": "block/wood/ladder",
+      "rotateY": 90,
+      "alternates": [
+        {
+          "base": "block/wood/medievalladder2",
+          "rotateY": 90
+        },
+        {
+          "base": "block/wood/medievalladder3",
+          "rotateY": 90
+        },
+        {
+          "base": "block/wood/medievalladder4",
+          "rotateY": 90
+        }
+      ]
+    },
+    "file": "game:blocktypes/wood/ladder.json"
+  }
+]

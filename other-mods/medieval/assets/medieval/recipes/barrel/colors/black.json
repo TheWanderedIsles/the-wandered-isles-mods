@@ -1,0 +1,11 @@
+[
+	{
+		code: "dye-black",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-gray", litres: 10 },
+			{ type: "item", code: "game:charcoal", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-black", litres: 10 }
+	}
+]

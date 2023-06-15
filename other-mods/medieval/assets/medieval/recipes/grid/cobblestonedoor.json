@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "HWW,WDW,WWW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:stone-granite" },
+			"D": { type: "block", code: "game:door-solid-*"  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:cobblestonedoor-granite"  }
+	}
+]

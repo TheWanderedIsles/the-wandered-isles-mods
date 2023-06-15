@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "_L_,LSL,_L_",
+	ingredients: {
+		"L": { type: "item", code: "game:stone-*", name: "rock", quantity: 1 },
+		"S": { type: "block", code: "game:soil-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "stoneway", quantity: 2 }
+}

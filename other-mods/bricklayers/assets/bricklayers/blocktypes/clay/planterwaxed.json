@@ -1,0 +1,53 @@
+{
+	"code": "waxedplanter",
+	"class": "Block",
+	"behaviors": [ { "name": "GroundStorable" }, { "name": "Unplaceable" }, { "name": "RightClickPickup"} ],
+	"attributes": {
+		"handbook": { "groupBy": [ "waxedplanter-*" ] }
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"variantgroups": [
+		{ "code": "type", "states": [ "bottom" ] },
+		{ "code": "color", "states": [
+			"blue", "fire", "brown", "black", "blurple", "darkgrey", "green", "light", "malachite", "orange", "pink", "purple", "red", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"maxStackSize": 8,
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"shape": { "base": "bricklayers:block/clay/planter/planter_glazed" },
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"lightAbsorption": 1,
+	"texturesByType": {
+		"*": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}" },
+			"ceramicdark": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/clay/burnt/overlay_planter" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}", "overlays": [ "bricklayers:block/ceramic/glazed/wax_overlay" ] }
+		}
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5625, "z2": 0.875
+	},
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5625, "z2": 0.875
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0.5 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.25
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.75, "y": -0.20, "z": -0.50 },
+		"rotation": { "x": -172, "y": -12, "z": -105 },
+		"origin": { "x": 0.5, "y": 0.01, "z": 0.5 },
+		"scale": 0.57
+	}
+}

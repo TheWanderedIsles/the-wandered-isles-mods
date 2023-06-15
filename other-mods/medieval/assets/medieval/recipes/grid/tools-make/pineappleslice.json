@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "knife-*", isTool: true },
+		"P": { type: "block", code: "game:pineapple" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:fruit-pineapple", quantity: 12  }
+}

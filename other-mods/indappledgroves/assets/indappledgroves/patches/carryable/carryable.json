@@ -1,0 +1,58 @@
+[
+  { "file": "indappledgroves:blocktypes/barkbasket.json", "op": "add", "path": "/behaviors/-", "value": {
+    "name": "Carryable",
+    "properties": {
+      "interactDelay": 0.4,
+      "slots": {
+        "Hands": {
+          "animation": "carrycapacity:holdlight",
+          "walkSpeedModifier": -0.15
+        },
+        "Back": {
+          "walkSpeedModifier": 0.0,
+          "translation": [
+          0.09375,
+          0,
+          0.03125
+          ],
+          "rotation": [
+          0,
+          0,
+          -90
+          ],
+          "scale": 0.6
+        }
+      }
+    }
+  },
+  "dependsOn": [{ "modid": "carrycapacity" }, { "modid": "carryon", "invert": true }]
+  },
+  { "file": "indappledgroves:blocktypes/barkbasket.json", "op": "add", "path": "/behaviors/-", "value": {
+    "name": "Carryable",
+    "properties": {
+      "interactDelay": 0.4,
+      "slots": {
+        "Hands": {
+          "animation": "carrycapacity:holdlight",
+          "walkSpeedModifier": -0.15
+        },
+        "Back": {
+          "walkSpeedModifier": 0.0,
+          "translation": [
+          0.09375,
+          0,
+          0.03125
+          ],
+          "rotation": [
+          0,
+          0,
+          -90
+          ],
+          "scale": 0.6
+        }
+      }
+    }
+  },
+  "dependsOn": [{ "modid": "carryon" }]
+  }
+]

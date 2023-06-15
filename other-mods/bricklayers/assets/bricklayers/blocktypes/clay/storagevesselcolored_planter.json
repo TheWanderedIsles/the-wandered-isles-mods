@@ -1,0 +1,86 @@
+{
+	"code": "vesselcoloredplanter",
+	"classByType": {
+		"*-empty": "Block",
+		"*": "BlockPlantContainer"
+	},
+	"entityClass": "PlantContainer",
+	"behaviors": [
+		{ "name": "UnstableFalling", "properties": { "attachmentArea": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 } }}
+	],
+	"attributes": {
+		"sitHeight": 0.9,
+		"beeFeedByType": {
+			"*-empty": false,
+			"*": true
+		},
+		"butterflyFeedByType": {
+			"*-empty": false,
+			"*": true
+		},
+		"plantContainerSize": "large",
+		"filledShape": { "base": "bricklayers:block/clay/storagevessel/base" },
+		"fillHeight": 0.751
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"variantgroups": [
+		{ "code": "color", "states": [
+			"black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"maxStackSize": 1,
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"shape": { "base": "bricklayers:block/clay/storagevessel/base" },
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"lightAbsorption": 1,
+	"texturesByType": {
+		"@.*-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"ceramicdark": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter" ] },
+			"inside": { "base": "game:block/clay/planter/soil" }
+		},
+		"@.*-(fire|light|yellow)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"ceramicdark": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter_clay_light" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter_clay_light" ] },
+			"inside": { "base": "game:block/clay/planter/soil" }
+		},
+		"vesselcoloredplanter-blue": {
+			"all": { "base": "game:block/clay/vessel/sides/burned" },
+			"inside": { "base": "game:block/clay/planter/soil" }
+		},
+		"*": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"ceramicdark": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter_clay" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter_clay" ] },
+			"inside": { "base": "game:block/clay/planter/soil" }
+		}
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionSelectionBox": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.8125, "z2": 0.875 },
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": -0.5, "z": -0.5 },
+		"rotation": { "x": 25, "y": -20, "z": -99 },
+		"scale": 0.56
+	}
+}

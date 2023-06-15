@@ -1,0 +1,22 @@
+[
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "game:knife-*", isTool: true },
+			"I": { type: "item", code: "medieval:horn", quantity: 1}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:jar-horn", quantity: 1 }
+	},
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "medieval:knife-*", isTool: true },
+			"I": { type: "item", code: "medieval:horn", quantity: 1}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:jar-horn", quantity: 1 }
+	}
+]

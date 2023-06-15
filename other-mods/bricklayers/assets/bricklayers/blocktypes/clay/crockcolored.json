@@ -1,0 +1,149 @@
+{
+	"code": "crockcolored",
+	"behaviorsByType": {
+		"*": [
+			{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "placeRemoveSound": "game:sounds/player/build", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.3125, "z2": 1 } } },
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup" }
+		]
+		},
+	"heldTpIdleAnimation": "holdbothhands",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"classByType": {
+		"crockcolored-burned-*": "BlockCrock"
+	},
+	"entityClassByType": {
+		"crockcolored-burned-*": "Crock"
+	},
+	"variantgroups": [
+		{ "code": "type", "states": [ "raw", "burned" ] },
+		{ "code": "color", "states": [
+		       "black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"attributesByType": {
+		"@crockcolored-burned-(lavender|paleblue|palegreen|palered|peach|sunflower|white).*": {
+			"shelvable": true,
+			"mealContainer": true,
+			"mealBlockCode": "bricklayers:crockcolored-burned-{color}-{side}",
+			"servingCapacity": 6,
+			"bowlContents": null,
+			"handleLiquidContainerInteract": true,
+			"handleCookingContainerInteract": true,
+			"emptiedBlockCode": "bricklayers:crockcolored-burned-{color}-{side}",
+			"handbook": {
+				"groupBy": [ "crockcolored-burned-*-east" ]
+			}
+		},
+		"crockcolored-burned-*": {
+			"shelvable": true,
+			"mealContainer": true,
+			"mealBlockCode": "bricklayers:crockcolored-burned-{color}-{side}",
+			"servingCapacity": 4,
+			"bowlContents": null,
+			"handleLiquidContainerInteract": true,
+			"handleCookingContainerInteract": true,
+			"emptiedBlockCode": "bricklayers:crockcolored-burned-{color}-{side}",
+			"handbook": {
+				"groupBy": [ "crockcolored-burned-*-east" ]
+			}
+		},
+		"@crockcolored-raw-(lavender|paleblue|palegreen|palered|peach|sunflower|white).*": {
+			"handbook": {
+				"groupBy": [ "crockcolored-raw-*-east" ],
+				"extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-crockcolored-raw-porcelain" } ]
+			}
+		},
+		"*": {
+			"shelvable": true,
+			"handbook": {
+				"groupBy": [ "crockcolored-raw-*-east" ],
+				"extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-crockcolored-raw-clay" } ]
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"crockcolored-raw-*": {
+			"meltingPoint": 600,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:crockcolored-burned-{color}-east" },
+			"requiresContainer": false
+		}
+	},
+	"shape_comment": "shape is completely ignored for the burned variants up until at least 1.17.3, so they all look the same and 'assets/bricklayers/shapes/block/clay/crock/base.json' is expected to be there. Raw crocks do have the high shape, however.",
+	"shapeByType": {
+		"@.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)-north": { "base": "bricklayers:block/clay/crock/base_high", "rotateY": 0 },
+		"@.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)-east": { "base": "bricklayers:block/clay/crock/base_high", "rotateY": 270 },
+		"@.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)-west": { "base": "bricklayers:block/clay/crock/base_high", "rotateY": 90 },
+		"@.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)-south": { "base": "bricklayers:block/clay/crock/base_high", "rotateY": 180 },
+		"*-north": { "base": "bricklayers:block/clay/crock/base", "rotateY": 0 },
+		"*-east": { "base": "bricklayers:block/clay/crock/base", "rotateY": 270 },
+		"*-west": { "base": "bricklayers:block/clay/crock/base", "rotateY": 90 },
+		"*-south": { "base": "bricklayers:block/clay/crock/base", "rotateY": 180 }
+	},
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": {
+		"general": [ "crockcolored-raw-*-east", "crockcolored-burned-*-east" ],
+		"decorative": [ "crockcolored-raw-*-east", "crockcolored-burned-*-east" ],
+		"ceramics": [ "crockcolored-raw-*-east", "crockcolored-burned-*-east" ]
+	},
+	"replaceable": 400,
+	"resistance": 1.5,
+	"maxStackSizeByType": {
+		"*-raw-*": 8,
+		"*": 1
+	},
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"@crockcolored-burned-(lavender|paleblue|palegreen|palered|peach|sunflower|white).*": {
+			"ceramic": {
+				"base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_crock_porcelain" ]
+			},
+			"label": { "base": "game:block/clay/crock/label" }
+		},
+		"*-raw-*": {
+			"ceramic": {
+				"base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_crock" ]
+		       	},
+			"label": { "base": "game:block/transparent" }
+		},
+		"*": {
+			"ceramic": {
+				"base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_crock" ]
+		       	},
+			"label": { "base": "game:block/clay/crock/label" }
+		}
+	},
+	"sounds": {
+		"walk": "game:walk/stone"
+	},
+	"sideopaque": { "all": false },
+	"sidesolid": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.3125, "z2": 0.75 },
+	"selectionbox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.3125, "z2": 0.75 },
+	"guiTransform": {
+		"rotation": { "x": -22.6, "y": -125, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.18, "z": 0.5 },
+		"scale": 3.09
+	},
+	"groundTransform": { "scale": 3 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0.5 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.56, "y": -0.03, "z": -0.52 },
+		"rotation": { "x": -139, "y": -21, "z": -118 },
+		"origin": { "x": 0.5, "y": 0.01, "z": 0.5 },
+		"scale": 0.81
+	}
+}

@@ -1,0 +1,42 @@
+{
+	code: "simpleebonysingle",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/wood/simple/simpleebonysingle" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/wood/sincortezalog/debarked/pillar/simple/ebonysingle" },
+		"east": { base: "block/wood/sincortezalog/debarked/pillar/simple/ebonysingle" },
+		"south": { base: "block/wood/sincortezalog/debarked/pillar/simple/ebonysingle" },
+		"west": { base: "block/wood/sincortezalog/debarked/pillar/simple/ebonysingle" },
+		"up": { base: "block/wood/sincortezalog/debarked/ebony" },
+		"down": { base: "block/wood/sincortezalog/debarked/ebony" },
+		"inside-north": { base: "block/wood/sincortezalog/debarked/pillar/simple/ebonysingle" },
+		"inside-east": { base: "block/wood/sincortezalog/debarked/pillar/simple/ebonysingle" },
+		"inside-south": { base: "block/wood/sincortezalog/debarked/pillar/simple/ebonysingle" },
+		"inside-west": { base: "block/wood/sincortezalog/debarked/pillar/simple/ebonysingle" },
+		"inside-up": { base: "block/wood/sincortezalog/debarked/ebony" },
+		"inside-down": { base: "block/wood/sincortezalog/debarked/ebony" }
+
+	},
+	replaceable: 90,
+	fertility: 0,
+	resistance: 2,
+	blockmaterial: "Wood",
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

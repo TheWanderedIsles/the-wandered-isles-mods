@@ -1,0 +1,26 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType",
+    "file": "game:blocktypes/clay/brick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType",
+    "file": "game:blocktypes/clay/brickslab.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType",
+    "file": "game:blocktypes/clay/brickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType/*-red-*",
+    "file": "game:blocktypes/clay/chimney.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,162 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"side": "entity/humanoid/seraphclothes/head/side",
+		"normal-top": "entity/humanoid/seraphclothes/head/normal-top"
+	},
+	"elements": [
+		{
+			"name": "Brimmedhatbase",
+			"stepParentName": "Head",
+			"from": [ -0.75, 5.0, -0.75 ], 
+			"to": [ 6.75, 7.0, 5.75 ], 
+			"rotationOrigin": [ 2.8, 5.0, 2.7 ],
+			"faces": {
+				"north": { "texture": "#side", "uv": [ 0.0, 0.0, 8.0, 2.0 ], "autoUv": false },
+				"east": { "texture": "#side", "uv": [ 4.0, 0.0, 10.0, 2.0 ], "autoUv": false },
+				"south": { "texture": "#side", "uv": [ 2.0, 8.0, 10.0, 10.0 ], "autoUv": false },
+				"west": { "texture": "#side", "uv": [ 4.0, 4.0, 10.0, 6.0 ], "autoUv": false },
+				"up": { "texture": "#normal-top", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "autoUv": false },
+				"down": { "texture": "#normal-top", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Brimmedhattop",
+					"from": [ 0.5, 2.0, 0.5 ], 
+					"to": [ 7.0, 3.0, 6.0 ], 
+					"rotationOrigin": [ 0.5, 2.0, 0.5 ],
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "autoUv": false },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "autoUv": false },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "autoUv": false },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "autoUv": false },
+						"up": { "texture": "#normal-top", "uv": [ 0.0, 0.0, 7.0, 5.0 ], "autoUv": false },
+						"down": { "texture": "#normal-top", "uv": [ 0.0, 0.0, 7.0, 5.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Brimmedhatbrimfront",
+					"from": [ -3.0, 0.0, 0.5 ], 
+					"to": [ 0.0, 0.5, 6.0 ], 
+					"rotationOrigin": [ -1.0, 0.0, 3.75 ],
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 5.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "autoUv": false },
+						"up": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 3.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 3.0 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "Brimmedhatbrimback",
+					"from": [ 7.5, 0.0, 0.5 ], 
+					"to": [ 10.5, 0.5, 6.0 ], 
+					"rotationOrigin": [ 7.5, 0.0, 3.75 ],
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "autoUv": false },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 5.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 3.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 3.0 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "Brimmedhatbrimright",
+					"from": [ 0.5, 0.0, -3.0 ], 
+					"to": [ 7.0, 0.5, 0.0 ], 
+					"rotationOrigin": [ 3.75, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 7.0, 0.5 ], "autoUv": false },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"up": { "texture": "#side", "uv": [ 0.0, 0.0, 7.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#side", "uv": [ 0.0, 0.0, 7.0, 3.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Brimmedhatbrimleft",
+					"from": [ 0.5, 0.0, 6.5 ], 
+					"to": [ 7.0, 0.5, 9.5 ], 
+					"rotationOrigin": [ 3.75, 0.0, 6.5 ],
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 7.0, 0.5 ], "autoUv": false },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"up": { "texture": "#side", "uv": [ 0.0, 0.0, 7.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#side", "uv": [ 0.0, 0.0, 7.0, 3.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Brimmedhatbrimfrontrightcorner",
+					"from": [ -2.1, 0.0, -1.6 ], 
+					"to": [ 0.9, 0.48, 3.4 ], 
+					"rotationOrigin": [ 0.9, 0.0, 0.9 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"up": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 3.0 ], "rotation": 90 },
+						"down": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 3.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Brimmedhatbrimfrontleftcorner",
+					"from": [ -2.1, 0.0, 3.1 ], 
+					"to": [ 0.9, 0.48, 8.1 ], 
+					"rotationOrigin": [ 0.9, 0.0, 5.6 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"up": { "texture": "#side", "uv": [ 8.0, 0.0, 13.0, 3.0 ], "rotation": 90 },
+						"down": { "texture": "#side", "uv": [ 8.0, 0.0, 13.0, 3.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Brimmedhatbrimbackleftcorner",
+					"from": [ 3.59, 0.0, 3.1 ], 
+					"to": [ 6.59, 0.48, 8.1 ], 
+					"rotationOrigin": [ 6.6, 0.0, 5.6 ],
+					"rotationY": 135.0,
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"up": { "texture": "#side", "uv": [ 10.0, 0.0, 15.0, 3.0 ], "rotation": 90 },
+						"down": { "texture": "#side", "uv": [ 10.0, 0.0, 15.0, 3.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Brimmedhatbrimbackrightcorner",
+					"from": [ 3.59, 0.0, -1.6 ], 
+					"to": [ 6.59, 0.48, 3.4 ], 
+					"rotationOrigin": [ 6.6, 0.0, 0.9 ],
+					"rotationY": -135.0,
+					"faces": {
+						"north": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"east": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"south": { "texture": "#side", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#side", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"up": { "texture": "#side", "uv": [ 4.0, 0.0, 9.0, 3.0 ], "rotation": 90 },
+						"down": { "texture": "#side", "uv": [ 4.0, 0.0, 9.0, 3.0 ], "rotation": 90 }
+					}
+				}
+			]
+		}
+	]}

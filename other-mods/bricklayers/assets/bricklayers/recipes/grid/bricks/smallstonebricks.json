@@ -1,0 +1,13 @@
+[
+	{
+	"ingredientPattern": "LLL,LML,LLL",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"L": { "type": "item", "code": "bricklayers:smallstonebrick-*", "name": "rock",
+			"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "kimberlite", "limestone", "obsidian", "peridotite", "phyllite", "sandstone", "shale", "slate", "suevite" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:smallstonebricks-{rock}", "quantity": 2 }
+	}
+]

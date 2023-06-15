@@ -1,0 +1,20 @@
+[
+	{
+	"code": "whitelead",
+	"sealHours": 672,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:acidiccompost-strong", "quantity": 1 },
+		{ "type": "block", "code": "blacksmiths:metalsheeting-lead-*-down", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "em:powdered-ore-whitelead", "quantity": 4 }
+	},
+	{
+	"code": "whitelead",
+	"sealHours": 840,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:acidiccompost-strong", "quantity": 1 },
+		{ "type": "block", "code": "game:metalsheet-lead-down", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "em:powdered-ore-whitelead", "quantity": 8 }
+	}
+]

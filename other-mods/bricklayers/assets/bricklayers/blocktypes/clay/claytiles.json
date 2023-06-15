@@ -1,0 +1,55 @@
+{
+	"code": "claytiles",
+	"class": "Block",
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "claytiles-*" ]
+		},
+		"canChisel": true
+	},
+	"variantgroups": [
+		{ "code": "size", "states": [ "normal" ] },
+		{ "code": "color", "states": [ "black", "blurple", "blue", "brown", "darkgrey", "fire", "red", "green", "light", "pink", "purple", "malachite", "orange", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"shape": { "base": "game:block/basic/cube" },
+	"drawtype": "Cube",
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "construction": ["*"], "ceramics": ["*"] },
+	"replaceable": 130,
+	"resistance": 2,
+	"lightAbsorption": 99,
+	"texturesByType": {
+		"@.*-(brown|blue|fire|red)": {
+			"all": { "base": "game:block/clay/hardened/{color}1", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ],
+				"alternates": [
+					{ "base": "game:block/clay/hardened/{color}2", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] },
+					{ "base": "game:block/clay/hardened/{color}3", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } ]
+			}
+		},
+		"@.*-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"all": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ],
+				"alternates": [ { "base": "bricklayers:block/clay/burnt/{color}1", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } ]
+			}
+		},
+		"*": {
+			"all": { "base": "bricklayers:block/clay/hardened/{color}1", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ],
+				"alternates": [ { "base": "bricklayers:block/clay/hardened/{color}2", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } ]
+			}
+		}
+	},
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"break": "game:block/rock-break-pickaxe",
+		"walk": "game:walk/ceramic",
+		"byTool": {
+			"Pickaxe": { "hit": "game:block/rock-hit-pickaxe", "break": "game:block/rock-break-pickaxe" }
+		}
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.2, "y": -1.1, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.37
+	}
+}

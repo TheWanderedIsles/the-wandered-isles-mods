@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"worm": "block/wormwhite"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 6.0, 0.0, 7.5 ], 
+			"to": [ 10.0, 1.0, 8.5 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -22.5,
+			"faces": {
+				"north": { "texture": "#worm", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+				"east": { "texture": "#worm", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#worm", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+				"west": { "texture": "#worm", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#worm", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+				"down": { "texture": "#worm", "uv": [ 0.0, 0.0, 4.0, 1.0 ] }
+			}
+		}
+	]}

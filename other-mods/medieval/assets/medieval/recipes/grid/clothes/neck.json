@@ -1,0 +1,203 @@
+[
+	{
+		ingredientPattern: "RRR,R_R,RDR",
+		ingredients: {
+			"R": { type: "item", code: "game:nugget-nativegold" },
+			"D": { type: "item", code: "game:gem-diamond-rough" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-neck-diamond-amulet"  }
+	},
+	{
+		ingredientPattern: "RRR,R_R,RDR",
+		ingredients: {
+			"R": { type: "item", code: "game:metalbit-gold" },
+			"D": { type: "item", code: "game:gem-diamond-rough" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-neck-diamond-amulet"  }
+	},
+	{
+		ingredientPattern: "RDR",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather" },
+			"D": { type: "item", code: "medieval:rabbit" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-neck-footrabbit-amulet"  }
+	},
+	{
+		ingredientPattern: "RDR",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather" },
+			"D": { type: "item", code: "medieval:fang" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-neck-fang-amulet"  }
+	},
+	{
+		ingredientPattern: "R_R,D_D",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather" },
+			"D": { type: "item", code: "medieval:fang" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-fang2-amulet"  }
+	},
+	{
+		ingredientPattern: "R_R,DDD",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather" },
+			"D": { type: "item", code: "medieval:fang" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-fang3-amulet"  }
+	},
+	{
+		ingredientPattern: "H,C,R",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "item", code: "game:nugget-nativegold", quantity: 20 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "clothes-neck-gold"  }
+	},
+	{
+		ingredientPattern: "H,C,R",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "item", code: "game:metalbit-gold", quantity: 20 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "clothes-neck-gold"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:gem-diamond-rough", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-diamond"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:gem-olivine_peridot-rough", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-olivine-p"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:gem-emerald-rough", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-emerald"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:ore-olivine", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-olivine"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:ore-lapislazuli", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-lapislazuli"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:ore-cinnabar", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-cinnabar"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:ore-sylvite", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-sylvite"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:charcoal", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-charcoal"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:amethyst", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-amethyst"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:rosequartz", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-rosyquartz"  }
+	},
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "clothes-neck-gold", quantity: 1 },
+			"G": { type: "item", code: "game:smokyquartz", quantity: 15 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-neck-gold-smokyquartz"  }
+	},
+	{
+		ingredientPattern: "SSS,S_S,SSS",
+		ingredients: {
+			"S": { type: "item", code: "game:nugget-nativesilver" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-neck-silver-amulet"  }
+	}
+]

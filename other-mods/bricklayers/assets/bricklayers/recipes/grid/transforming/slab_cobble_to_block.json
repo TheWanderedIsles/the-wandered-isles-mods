@@ -1,0 +1,49 @@
+[
+	{
+	"ingredientPattern": "S,C,S",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-fire", "name": "clay", "quantity": 1 },
+		"S": { "type": "block", "code": "game:cobblestoneslab-*-down-free", "name": "rock", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:cobblestone-{rock}", "quantity": 1 }
+	},
+	{
+	"comment": "Using clay-* seems to not work for clay-blue, hence an extra recipe.",
+	"ingredientPattern": "S,C,S",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-blue", "name": "clay", "quantity": 1 },
+		"S": { "type": "block", "code": "game:cobblestoneslab-*-down-free", "name": "rock", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:cobblestone-{rock}", "quantity": 1 }
+	},
+	{
+	"comment": "A recipe that saves a bit on clay but contains extra complexity.",
+	"ingredientPattern": "S S, C ,S S",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-fire", "name": "clay", "quantity": 1 },
+		"S": { "type": "block", "code": "game:cobblestoneslab-*-down-free", "name": "rock", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:cobblestone-{rock}", "quantity": 2 }
+	},
+	{
+	"comment": "A recipe that saves a bit on clay but contains extra complexity. Extra recipe for clay-blue, as clay-* seems not to work.",
+	"ingredientPattern": "S S, C ,S S",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-blue", "name": "clay", "quantity": 1 },
+		"S": { "type": "block", "code": "game:cobblestoneslab-*-down-free", "name": "rock", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "game:cobblestone-{rock}", "quantity": 2 }
+	}
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+	"meltingPoint": 1000,
+	"meltingDuration": 14,
+	"smeltedRatio": 1,
+	"smeltingType": "convert",
+	"smeltedStack": { "type": "item", "code": "bricklayers:cookedbones" },
+	"requiresContainer": false
+    },
+    "file": "game:itemtypes/resource/bone.json",
+    "side": "Server"
+  }
+]

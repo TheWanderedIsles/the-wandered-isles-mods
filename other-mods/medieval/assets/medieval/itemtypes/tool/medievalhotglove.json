@@ -1,0 +1,49 @@
+{
+	code: "medievalhotglove",
+	storageFlags: 257,
+	attributes: {
+		toolrackTransform: {
+			translation: { x: 0.3, y: -0.15, z: 0 },
+			rotation: { x: -90, y: 0, z: -90 },
+			scale: 1.6
+		},
+		
+		groundStorageTransform: {
+			translation: { x: 0.21, y: -0.425, z: 0.21 },
+			rotation: { x: -90, y: 0, z: -135 },
+			scale: 1
+		},
+		heatResistant: true,
+		rackable: true,
+	},
+	behaviors: [{ name: "GroundStorable", properties: { layout: "SingleCenter", collisionBox: { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.375, z2: 0.75 }}}],
+	shape: { base: "medieval:item/tool/medievalhotglove" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+			fpHandTransform: {
+		translation: { x: -0.16, y: -0.72, z: 0.32 },
+		rotation: { x: -24, y: -99, z: 180 },
+		scale: 2.75
+	},
+		guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: -45, y: 135, z: 90 },
+		origin: { x: 0.42, y: 0.25, z: 0.45 },
+		scale: 3.5
+	},
+		groundTransform: {
+		translation: { x: 0, y: 0.09, z: 0 },
+		rotation: { x: 0, y: 0, z: -90 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 4.5
+	},
+		tpHandTransform: {
+		translation: { x: -0.69, y: -0.33, z: -0.46 },
+		rotation: { x: 0, y: -180, z: 29 },
+		scale: 1
+	},
+		tpOffHandTransform: {
+		translation: { x: -0.49, y: -0.08, z: -0.5 },
+		rotation: { x: 0, y: -180, z: 0 },
+		scale: 1
+	}
+}

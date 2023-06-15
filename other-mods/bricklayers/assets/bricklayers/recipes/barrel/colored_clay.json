@@ -1,0 +1,119 @@
+[
+	{
+	"code": "clay-colored-blue",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-*", "litres": 1, "name": "color", "allowedVariants": [ "black", "green", "orange", "pink", "purple", "red" ] },
+		{ "type": "item", "code": "game:clay-blue", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-{color}", "stackSize": 1 }
+	},
+	{
+	"code": "clay-colored-fire",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-*", "litres": 1, "name": "color", "allowedVariants": [ "black", "green", "orange", "pink", "purple", "red", "yellow" ] },
+		{ "type": "item", "code": "game:clay-fire", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-{color}", "stackSize": 1 }
+	},
+	{
+	"code": "clay-colored-light",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-*", "litres": 1, "name": "color", "allowedVariants": [ "green", "orange", "pink", "purple", "red", "yellow" ] },
+		{ "type": "item", "code": "game:clay-light", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-{color}", "stackSize": 1 }
+	},
+	{
+	"code": "clay-blurple",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-blue", "litres": 1 },
+		{ "type": "item", "code": "game:clay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "fire", "blue", "light" ] }
+	],
+	"output": { "type": "item", "code": "game:clay-blurple", "stackSize": 1 }
+	},
+	{
+	"code": "clay-blurple",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-woad", "litres": 1 },
+		{ "type": "item", "code": "game:clay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "fire", "blue", "light" ] }
+	],
+	"output": { "type": "item", "code": "game:clay-blurple", "stackSize": 1 }
+	},
+	{
+	"code": "clay-purple-from-red",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-blue", "litres": 1 },
+		{ "type": "item", "code": "game:clay-red", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-purple", "stackSize": 1 }
+	},
+	{
+	"code": "clay-purple-from-red",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-woad", "litres": 1 },
+		{ "type": "item", "code": "game:clay-red", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-purple", "stackSize": 1 }
+	},
+	{
+	"code": "clay-purple-from-blue",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-red", "litres": 1 },
+		{ "type": "item", "code": "game:clay-blurple", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-purple", "stackSize": 1 }
+	},
+	{
+	"code": "clay-light-from-fire",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-white", "litres": 1 },
+		{ "type": "item", "code": "game:clay-fire", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-light", "stackSize": 1 }
+	},
+	{
+	"code": "clay-colored-brown",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:strongtanninportion", "litres": 1 },
+		{ "type": "item", "code": "game:clay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "fire", "blue", "green", "orange", "light", "yellow" ] }
+	],
+	"output": { "type": "item", "code": "game:clay-brown", "stackSize": 1 }
+	},
+	{
+	"code": "clay-colored-black",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-black", "litres": 1 },
+		{ "type": "item", "code": "game:clay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "yellow", "brown", "light", "green", "darkgrey" ] }
+	],
+	"output": { "type": "item", "code": "game:clay-black", "stackSize": 1 }
+	},
+	{
+	"code": "clay-colored-darkgrey",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-gray", "litres": 1 },
+		{ "type": "item", "code": "game:clay-light", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-darkgrey", "stackSize": 1 }
+	},
+	{
+	"code": "clay-colored-darkgrey",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-gray", "litres": 1 },
+		{ "type": "item", "code": "game:clay-fire", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:clay-darkgrey", "stackSize": 1 }
+	}
+]

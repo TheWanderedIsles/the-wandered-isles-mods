@@ -1,0 +1,168 @@
+{
+	code: "blade",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "sword",
+	class: "ItemSword",
+	attributes: {
+		handbook: {
+			groupBy: ["blade-*"]
+		},
+		toolrackTransformByType: {
+			"*":
+				{
+					rotation: { y: 180, z: 1 },
+					translation: { x: -0.05, y: 0.77 },
+					scale: 1.35
+				},
+		},
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.2, z: -0.16 },
+				rotation: { x: 22, y: 88, z: -87 },
+				scale: 0.88
+			}
+		},
+		onmoldrackTransformByType: {
+			"*":{
+					translation: { x: 0.44, y: 0.96, z: 0 },
+					rotation: { x: 0, y: 30, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			}
+		},
+
+    "moldrackable": true
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY:  2,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [
+		{ code: "metal", states: [ "copper-p","copper-b","copper-s", "tinbronze-p", "tinbronze-b", "tinbronze-s", "bismuthbronze-p", "bismuthbronze-b", "bismuthbronze-s", "blackbronze-p", "blackbronze-b", "blackbronze-s", "gold-p", "gold-b", "gold-s", "silver-p", "silver-b", "silver-s", "iron-p", "iron-b", "iron-s", "meteoriciron-p", "meteoriciron-b", "meteoriciron-s", "steel-p", "steel-b", "steel-s" ] },
+	],
+	shapeByType: {
+		"*": { base: "item/tool/blade/shortblade" }
+	},
+	heldTpHitAnimation: "swordhit",
+	texturesByType: {
+		"*": {
+			"metal": { base: "item/tool/sword/short/{metal}" }
+		}
+	},
+	attackRange: 2.5,
+	tooltierbytype: {
+		"*-copper-*": 2,
+		"*-gold-*": 2,
+		"*-silver-*": 2,
+		"*-bismuthbronze-*": 3,
+		"*-tinbronze-*": 3,
+		"*-blackbronze-*": 3,
+		"*-iron-*": 4,
+		"*-meteoriciron-*": 4,
+		"*-steel-*": 5,
+	},
+	miningspeedbytype: {
+		"blade-copper-*": {
+			"wood": 2.2,
+			"leaves": 1.6
+		},
+		"blade-bismuthbronze-*": {
+			"wood": 2.3,
+			"leaves": 2
+		},
+		"blade-tinbronze-*": {
+			"wood": 2.4,
+			"leaves": 2.2
+		},
+		"blade-gold-*": {
+			"wood": 2.4,
+			"leaves": 2.2
+		},
+		"blade-silver-*": {
+			"wood": 2.4,
+			"leaves": 2.2
+		},
+		"blade-blackbronze-*": {
+			"wood": 2.5,
+			"leaves": 2.3
+		},
+		"blade-iron-*": {
+			"wood": 3,
+			"leaves": 3
+		},
+		"blade-meteoriciron-*": {
+			"wood": 3.25,
+			"leaves": 3.5
+		},
+		"blade-steel-*": {
+			"wood": 3.5,
+			"leaves": 4
+		}
+	},
+	attackpowerbytype: {
+		"blade-copper-*": 3.5,
+		"blade-gold-*": 3.75,
+		"blade-silver-*": 3.75,
+		"blade-bismuthbronze-*": 4,
+		"blade-tinbronze-*": 4,
+		"blade-blackbronze-*": 4.25,
+		"blade-iron-*": 4.5,
+		"blade-meteoriciron-*": 4.75,
+		"blade-steel-*": 5.5
+	},
+	durabilitybytype: {
+		"blade-gold-*": 875,
+		"blade-silver-*": 875,
+		"blade-copper-*": 375,
+		"blade-tinbronze-*": 675,
+		"blade-bismuthbronze-*": 795,
+		"blade-blackbronze-*": 900,
+		"blade-iron-*": 1275,
+		"blade-meteoriciron-*": 1650,
+		"blade-steel-*": 3000
+	},
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] }
+	},
+	guiTransformByType: {
+		"*":
+			{
+				translation: { x: 7.5, y: -8, z: 0 },
+				rotation: { x: -89, y: 47, z: 44 },
+				origin: { x: 0.6, y: -0.2, z: 0.44 },
+				scale: 2
+			}
+	},
+	fpHandTransformByType: {
+		"*":
+			{
+				translation: { x: -0.2, y: -0.2, z: 0 },
+				rotation: { x: -3, y: 15, z: 90 },
+				scale: 3.18
+			}
+	},
+	groundTransformByType: {
+		"*":
+			{
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 0, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 3.4
+			}
+	},
+	tpHandTransformByType: {
+		"*":
+			{
+				translation: { x: -1.05, y: -0.01, z: -0.62 },
+				rotation: { x: -90, y: 0, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 0.8
+			},
+	}
+}

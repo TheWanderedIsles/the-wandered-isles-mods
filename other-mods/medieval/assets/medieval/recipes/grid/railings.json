@@ -1,0 +1,77 @@
+[
+  {
+    "ingredientPattern": "HW_,W_W",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+      "W": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "railings-{wood}-south", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": { "type": "block", "code": "railings-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "railingsl-{material}-south" }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": { "type": "block", "code": "railingsl-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]}
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "railingsr-{material}-south" }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": { "type": "block", "code": "railingsr-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "railings-{material}-south" }
+  },
+  {
+    "ingredientPattern": "RR",
+    "ingredients": {
+      "R": { "type": "block", "code": "railings-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "railingsd-{material}-south" }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": { "type": "block", "code": "railingsd-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "railings-{material}-south", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "WHW",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+      "W": { "type": "block", "code": "railings-*-south", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 3,
+    "height": 1,
+    "output": { "type": "block", "code": "railingsint-{wood}-south", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "WH",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:saw-*", "isTool": true  },
+      "W": { "type": "block", "code": "railingsint-*-south", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "railings-{wood}-south", "quantity": 2 }
+  }
+]

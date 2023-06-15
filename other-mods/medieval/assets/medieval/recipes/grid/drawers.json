@@ -1,0 +1,2535 @@
+[
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-acacia" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-acacia" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-acacia" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-acacia-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-acacia-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-acacia" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-acacia" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-acacia-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-acacia-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-acacia-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-acacia-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-acacia-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-aged" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-aged" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-aged" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-aged-door-mm" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-aged-door-mm" }, quantity: 2  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-aged" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-aged" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-aged-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-aged-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-aged-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-aged-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-aged-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-baldcypress" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-baldcypress" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-baldcypress" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-baldcypress-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-baldcypress-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-baldcypress" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-baldcypress" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-baldcypress-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-baldcypress-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-baldcypress-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-baldcypress-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-baldcypress-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-birch" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-birch" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-birch" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-birch-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-birch-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-birch" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-birch" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-birch-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-birch-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-birch-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-birch-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-birch-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-ebony" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-ebony" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-ebony" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-ebony-door-mm" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-ebony-door-mm" }, quantity: 2  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-ebony" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-ebony" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-ebony-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-ebony-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-ebony-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-ebony-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-ebony-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-kapok" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-kapok" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-kapok" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-kapok-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-kapok-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-kapok" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-kapok" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-kapok-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-kapok-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-kapok-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-kapok-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-kapok-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-larch" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-larch" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-larch" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-larch-door-mm" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-larch-door-mm" }, quantity: 2  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-larch" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-larch" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-larch-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-larch-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-larch-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-larch-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-larch-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-maple" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-maple" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-maple" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-maple-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-maple-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-maple" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-maple" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-maple-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-maple-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-maple-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-maple-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-maple-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-oak" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-oak" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-oak" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-oak-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-oak-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-oak" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-oak" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-oak-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-oak-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-oak-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-oak-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-oak-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-pine" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-pine" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-pine" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-pine-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-pine-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-pine" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-pine" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-pine-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-pine-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-pine-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-pine-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-pine-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-purpleheart" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-purpleheart" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-purpleheart" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-purpleheart-door-mm" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-purpleheart-door-mm" }, quantity: 2  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-purpleheart" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-purpleheart" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-purpleheart-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-purpleheart-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-purpleheart-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-purpleheart-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-purpleheart-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-redwood" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-redwood" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-redwood" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-redwood-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-redwood-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-redwood" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-redwood" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-redwood-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-redwood-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-redwood-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-redwood-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-redwood-door" }, quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "_W_,WSW,_W_",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:plank-walnut" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw-c" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw-c" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw-l" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw-l" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw-r" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw-r" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-walnut" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-walnut" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-walnut-door-mm" }, quantity: 2  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minicabinet-east", "attributes": { type: "drawer-walnut-door-mm" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "cabinet-east", "attributes": { type: "generic-walnut" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HRR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "cabinet-east", "attributes": { type: "generic-walnut" }, quantity: 1  }
+		},
+		width: 3,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door" }, quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-walnut-draw-mmd" }, quantity: 4  }
+	},
+	{
+		ingredientPattern: "HRR,_RR",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "minidrawer-east", "attributes": { type: "drawer-walnut-draw-mmd" }, quantity: 1  }
+		},
+		width: 3,
+		height: 2,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-draw" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "H,R,R",
+		ingredients: {
+    			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+				"R": { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door" }, quantity: 1  }
+		},
+		width: 1,
+		height: 3,
+		
+		output: { type: "block", code: "drawtall-east", "attributes": { type: "drawer-walnut-tall" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "HR",
+		ingredients: {
+    			"H": { type: "item", code: "game:saw-*", isTool: true  },
+				"R": { type: "block", code: "drawtall-east", "attributes": { type: "drawer-walnut-tall" }, quantity: 1  }
+		},
+		width: 2,
+		height: 1,
+		
+		output: { type: "block", code: "draw-east", "attributes": { type: "drawer-walnut-door" }, quantity: 2  }
+	}
+
+]

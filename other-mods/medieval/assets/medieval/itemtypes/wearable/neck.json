@@ -1,0 +1,175 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["neck"] },
+		{ code: "neck", combine: "SelectiveMultiply", onVariant: "category", states: [ "diamond-amulet", "fang-amulet", "fang2-amulet", "fang3-amulet", "silver-amulet", "gold", "gold-amethyst", "gold-charcoal", "gold-cinnabar", "gold-diamond", "gold-emerald", "gold-lapislazuli", "gold-olivine", "gold-olivine-p", "gold-rosyquartz", "gold-smokyquartz", "gold-sylvite", "tatoo", "footrabbit-amulet" ] }
+	],
+	shapeByType: {
+		"*-diamond-amulet": {
+			base: "entity/humanoid/seraph/clothing/neck/diamond-amulet" 
+		},
+		"*-footrabbit-amulet": {
+			base: "entity/humanoid/seraph/clothing/neck/footrabbit-amulet" 
+		},
+		"*-fang-amulet": {
+			base: "entity/humanoid/seraph/clothing/neck/fang-amulet" 
+		},
+		"*-fang2-amulet": {
+			base: "entity/humanoid/seraph/clothing/neck/fang2-amulet" 
+		},
+		"*-fang3-amulet": {
+			base: "entity/humanoid/seraph/clothing/neck/fang3-amulet" 
+		},
+		"*-silver-amulet": {
+			base: "entity/humanoid/seraph/clothing/neck/silver-amulet" 
+		},
+		"*-gold": {
+			base: "entity/humanoid/seraph/clothing/neck/gold" 
+		},
+		"*-gold-amethyst": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-amethyst" 
+		},
+		"*-gold-charcoal": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-charcoal" 
+		},
+		"*-gold-cinnabar": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-cinnabar" 
+		},
+		"*-gold-diamond": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-diamond" 
+		},
+		"*-gold-emerald": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-emerald" 
+		},
+		"*-gold-lapislazuli": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-lapislazuli" 
+		},
+		"*-gold-olivine-p": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-olivine-p" 
+		},
+		"*-gold-olivine": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-olivine" 
+		},
+		"*-gold-rosyquartz": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-rosyquartz" 
+		},
+		"*-gold-smokyquartz": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-smokyquartz" 
+		},
+		"*-gold-sylvite": {
+			base: "entity/humanoid/seraph/clothing/neck/gold-sylvite" 
+		},
+		"*-tatoo": {
+			base: "game:entity/humanoid/seraph" 
+		}
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"*-tatoo": {
+			clothescategory: "neck",
+			warmth: 0
+		},
+		"*": {
+			wearableAttachment: true,
+			clothescategory: "neck",
+			warmth: 0
+		}
+	},
+	texturesByType: {
+		"*-diamond-amulet": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-footrabbit-amulet": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-fang-amulet": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-fang2-amulet": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-fang3-amulet": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-silver-amulet": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-amethyst": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-charcoal": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-cinnabar": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-diamond": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-emerald": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-lapislazuli": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-olivine": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-olivine-p": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-rosyquartz": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-smokyquartz": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-gold-sylvite": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-tatoo": {
+			"seraph": { base: "medieval:entity/humanoid/seraphclothes/neck/tatoo" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransform: {
+		translation: { x: 0.2, y: -2.5, z: -0.9 },
+		rotation: { x: -2, y: 31, z: -46 },
+		scale: 4.09
+	},
+	tpHandTransform: {
+		translation: { x: -0.6, y: -2.1, z: -0.7 },
+		rotation: { x: -21, y: -180, z: 25 },
+		origin: { x: 0.5, y: 1.4, z: 0.5 },
+		scale: 0.71
+	},
+	guiTransformByType: {
+		"@*-(diamond-amulet|fang-amulet|fang2-amulet|fang3-amulet|footrabbit-amulet)": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 163, y: -113, z: 6 },
+			origin: { x: 0.45, y: 1.48, z: 0.55 },
+			scale: 3.93
+		},
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 174, y: -128, z: 6 },
+			origin: { x: 0.45, y: 1.43, z: 0.54 },
+			scale: 3.5
+		}
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: -0.05, z: 0 },
+			rotation: { x: 0, y: 0, z: -90 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 3.06
+		}
+	}
+}

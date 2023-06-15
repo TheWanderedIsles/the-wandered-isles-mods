@@ -1,0 +1,30 @@
+[
+	{
+	ingredientPattern: "LTB,LLB,LVP",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 5 },
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1 },
+		"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["molybdochalkos", "silver" , "gold", "copper", "brass"], quantity: 1 },
+		"B": { type: "item", code: "medieval:metalbar-*", name: "metal", allowedVariants: ["molybdochalkos", "silver" , "gold", "copper", "brass"], quantity: 1  },
+		"V": { type: "item", code: "medieval:metalbar-*", name: "metal", allowedVariants: ["molybdochalkos", "silver" , "gold", "copper", "brass"], quantity: 2  }
+	},
+	width: 3,
+	height: 3,
+	name: "backpack",
+	output: { type: "item", code: "medieval:big-backpack"  }
+},
+	{
+	ingredientPattern: "LT_,LL_,LVP",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 2 },
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1 },
+		"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["molybdochalkos", "silver" , "gold", "copper", "brass"], quantity: 1 },
+		"V": { type: "item", code: "medieval:metalbar-*", name: "metal", allowedVariants: ["molybdochalkos", "silver" , "gold", "copper", "brass"], quantity: 2  }
+	},
+	width: 3,
+	height: 3,
+	name: "backpack",
+	output: { type: "item", code: "medieval:medievalbackpack"  }
+}
+
+]

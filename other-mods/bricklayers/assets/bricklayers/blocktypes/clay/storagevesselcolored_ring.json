@@ -1,0 +1,148 @@
+{
+	"code": "vesselcoloredring",
+	"class": "Block",
+	"behaviors": [
+		{ "name": "GroundStorable",
+		       "properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/ceramicplace",
+				"stackingModel": "bricklayers:block/clay/storagevessel/ringpile",
+				"collisionBox": { "x1": 0.21875, "y1": 0, "z1": 0.21875, "x2": 0.78125, "y2": 0.1667, "z2": 0.78125 },
+				"cbScaleYByLayer": 1,
+				"tessQuantityElements": 11,
+				"stackingCapacity": 6,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 2,
+				"maxFireable": 4
+			}
+		},
+		{ "name": "Unplaceable" },
+		{ "name": "RightClickPickup" }
+	],
+	"attributes": {
+		"handbook": { "groupBy": [ "vesselcoloredring-raw-*", "vesselcoloredring-burnt-*" ] }
+	},
+	"attributesByType": {
+		"vesselcoloredring-burnt-*": {
+			"moldrackable": true,
+			"onmoldrackTransform": { "rotation": { "z": 90 }, "translation": { "y": -0.09375, "x": 0.0078125 } }
+		}
+	},
+	"variantgroups": [
+		{ "code": "state", "states": [ "raw", "burnt" ] },
+		{ "code": "color", "states": [
+			"black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"shape": { "base": "bricklayers:block/clay/storagevessel/ring" },
+	"texturesByType": {
+		"@.*-raw-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay" ] },
+			"neck": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_vessel_lid" ] },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		},
+		"vesselcoloredring-raw-blue": {
+			"all": { "base": "game:block/clay/blueclay" },
+			"inside": { "base": "game:block/transparent" },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		},
+		"vesselcoloredring-raw-*": {
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay" ] },
+			"neck": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		},
+		"@.*-burnt-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid" ] },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		},
+		"@.*-burnt-(fire|light|yellow)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		},
+		"vesselcoloredring-burnt-blue": {
+			"all": { "base": "game:block/clay/vessel/sides/burned" },
+			"inside": { "base": "game:block/transparent" },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		},
+		"*": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		}
+	},
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { },
+	"creativeinventoryStacksByType": {
+		"vesselcoloredring-raw-*": [
+			{ "tabs": [ "general", "decorative", "ceramics" ],
+			  "stacks": [ { "type": "block", "code": "vesselcoloredring-raw-{color}" } ] }
+		],
+		"*": [
+			{ "tabs": [ "general", "decorative", "ceramics" ],
+			  "stacks": [ { "type": "block", "code": "vesselcoloredring-burnt-{color}" } ] }
+		]
+	},
+	"replaceable": 1000,
+	"resistance": 0.8,
+	"maxStackSize": 8,
+	"sideAo": { "all": false },
+	"lightAbsorption": 0,
+	"sounds": {
+		"walk": "game:walk/stone",
+		"break": "game:block/ceramicplace",
+		"hit": "game:block/ceramichit",
+		"place": "game:block/ceramicplace"
+	},
+	"sideopaque": { "all": false },
+	"sidesolid": { "all": false },
+	"collisionSelectionBox": { "x1": 0.21875, "y1": 0, "z1": 0.21875, "x2": 0.78125, "y2": 0.1667, "z2": 0.78125 },
+	"combustiblePropsByType": {
+		"vesselcoloredring-raw-light-*": {
+			"meltingPoint": 1250,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vesselcoloredring-burnt-{color}" },
+			"requiresContainer": false
+		},
+		"vesselcoloredring-raw-white-*": {
+			"meltingPoint": 1350,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vesselcoloredring-burnt-{color}" },
+			"requiresContainer": false
+		},
+		"vesselcoloredring-raw-*": {
+			"meltingPoint": 600,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vesselcoloredring-burnt-{color}" },
+			"requiresContainer": false
+		}
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": -0.5, "z": -0.5 },
+		"rotation": { "x": 25, "y": -20, "z": -99 },
+		"scale": 0.56
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.6, "y": -0.3, "z": -0.62 },
+		"rotation": { "x": 86, "y": -14, "z": -180 },
+                "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.8
+	}
+}

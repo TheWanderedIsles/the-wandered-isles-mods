@@ -1,0 +1,45 @@
+[
+  {
+    "op": "add",
+    "path": "/dropsByType/locust-bronze",
+    "value": [
+      {
+        "type": "block",
+        "code": "medieval:locustsack",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/locust.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/locust-corrupt",
+    "value": [
+      {
+        "type": "block",
+        "code": "medieval:locustsack",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/locust.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/locust-corrupt-sawblade/3",
+    "value": {
+      "type": "block",
+      "code": "medieval:locustsackred",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      }
+    },
+    "file": "game:entities/land/locust.json"
+  }
+]

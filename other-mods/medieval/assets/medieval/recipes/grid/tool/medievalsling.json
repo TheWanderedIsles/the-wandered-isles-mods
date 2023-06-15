@@ -1,0 +1,57 @@
+[
+	{
+		ingredientPattern: "R_R,_L_,_P_",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"L": { type: "item", code: "game:leather-gray" },
+			"P": { type: "item", code: "game:metalbit-iron", quantity: 40 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalslingiron", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R_R,_L_,_P_",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"L": { type: "item", code: "game:leather-white" },
+			"P": { type: "item", code: "game:metalbit-meteoriciron", quantity: 40 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalslingmeteoriciron", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R_R,_L_,_P_",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"L": { type: "item", code: "game:leather-black" },
+			"P": { type: "item", code: "game:metalbit-steel", quantity: 40 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalslingsteel", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R_R,_L_,_P_",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"L": { type: "item", code: "game:leather-blue" },
+			"P": { type: "item", code: "game:metalbit-stainlesssteel", quantity: 40 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalslingstainlesssteel", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R_R,_L_,_P_",
+		ingredients: {
+			"R": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"L": { type: "item", code: "game:leather-red" },
+			"P": { type: "item", code: "game:metalbit-titanium", quantity: 40 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalslingtitanium", quantity: 1  }
+	}
+]

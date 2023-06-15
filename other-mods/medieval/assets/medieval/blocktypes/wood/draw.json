@@ -1,0 +1,2077 @@
+{
+	"code": "draw",
+	"class": "BlockContainers",
+	"entityclass": "BlockEntityContainers",
+	"attributes": {
+		"partialAttachable": true,
+		"canPlaceGroundStorgeOnTop": true,
+		"inventoryClassName": "container",
+		"defaultType": "drawer-oak-draw",
+		"types": [ "drawer-acacia-door", "drawer-acacia-door-c", "drawer-acacia-door-l", "drawer-acacia-door-r", "drawer-acacia-draw", "drawer-acacia-draw-c", "drawer-acacia-draw-l", "drawer-acacia-draw-r", "drawer-aged-door", "drawer-aged-door-c", "drawer-aged-door-l", "drawer-aged-door-r", "drawer-aged-draw", "drawer-aged-draw-c", "drawer-aged-draw-l", "drawer-aged-draw-r", "drawer-baldcypress-door", "drawer-baldcypress-door-c", "drawer-baldcypress-door-l", "drawer-baldcypress-door-r", "drawer-baldcypress-draw", "drawer-baldcypress-draw-c", "drawer-baldcypress-draw-l", "drawer-baldcypress-draw-r", "drawer-birch-door", "drawer-birch-door-c", "drawer-birch-door-l", "drawer-birch-door-r", "drawer-birch-draw", "drawer-birch-draw-c", "drawer-birch-draw-l", "drawer-birch-draw-r", "drawer-ebony-door", "drawer-ebony-door-c", "drawer-ebony-door-l", "drawer-ebony-door-r", "drawer-ebony-draw", "drawer-ebony-draw-c", "drawer-ebony-draw-l", "drawer-ebony-draw-r", "drawer-kapok-door", "drawer-kapok-door-c", "drawer-kapok-door-l", "drawer-kapok-door-r", "drawer-kapok-draw", "drawer-kapok-draw-c", "drawer-kapok-draw-l", "drawer-kapok-draw-r", "drawer-larch-door", "drawer-larch-door-c", "drawer-larch-door-l", "drawer-larch-door-r", "drawer-larch-draw", "drawer-larch-draw-c", "drawer-larch-draw-l", "drawer-larch-draw-r", "drawer-maple-door", "drawer-maple-door-c", "drawer-maple-door-l", "drawer-maple-door-r", "drawer-maple-draw", "drawer-maple-draw-c", "drawer-maple-draw-l", "drawer-maple-draw-r", "drawer-oak-door", "drawer-oak-door-c", "drawer-oak-door-l", "drawer-oak-door-r", "drawer-oak-draw", "drawer-oak-draw-c", "drawer-oak-draw-l", "drawer-oak-draw-r", "drawer-pine-door", "drawer-pine-door-c", "drawer-pine-door-l", "drawer-pine-door-r", "drawer-pine-draw", "drawer-pine-draw-c", "drawer-pine-draw-l", "drawer-pine-draw-r", "drawer-purpleheart-door", "drawer-purpleheart-door-c", "drawer-purpleheart-door-l", "drawer-purpleheart-door-r", "drawer-purpleheart-draw", "drawer-purpleheart-draw-c", "drawer-purpleheart-draw-l", "drawer-purpleheart-draw-r", "drawer-redwood-door", "drawer-redwood-door-c", "drawer-redwood-door-l", "drawer-redwood-door-r", "drawer-redwood-draw", "drawer-redwood-draw-c", "drawer-redwood-draw-l", "drawer-redwood-draw-r", "drawer-walnut-door", "drawer-walnut-door-c", "drawer-walnut-door-l", "drawer-walnut-door-r", "drawer-walnut-draw", "drawer-walnut-draw-c", "drawer-walnut-draw-l", "drawer-walnut-draw-r" ],
+
+		"rotatatableInterval": {
+			"drawer-acacia-door": "90deg",
+			"drawer-acacia-door-c": "90deg",
+			"drawer-acacia-door-l": "90deg",
+			"drawer-acacia-door-r": "90deg",
+			"drawer-acacia-draw": "90deg",
+			"drawer-acacia-draw-c": "90deg",
+			"drawer-acacia-draw-l": "90deg",
+			"drawer-acacia-draw-r": "90deg",
+			"drawer-aged-door": "90deg",
+			"drawer-aged-door-c": "90deg",
+			"drawer-aged-door-l": "90deg",
+			"drawer-aged-door-r": "90deg",
+			"drawer-aged-draw": "90deg",
+			"drawer-aged-draw-c": "90deg",
+			"drawer-aged-draw-l": "90deg",
+			"drawer-aged-draw-r": "90deg",
+			"drawer-baldcyprees-door": "90deg",
+			"drawer-baldcyprees-door-c": "90deg",
+			"drawer-baldcyprees-door-l": "90deg",
+			"drawer-baldcyprees-door-r": "90deg",
+			"drawer-baldcyprees-draw": "90deg",
+			"drawer-baldcyprees-draw-c": "90deg",
+			"drawer-baldcyprees-draw-l": "90deg",
+			"drawer-baldcyprees-draw-r": "90deg",
+			"drawer-birch-door": "90deg",
+			"drawer-birch-door-c": "90deg",
+			"drawer-birch-door-l": "90deg",
+			"drawer-birch-door-r": "90deg",
+			"drawer-birch-draw": "90deg",
+			"drawer-birch-draw-c": "90deg",
+			"drawer-birch-draw-l": "90deg",
+			"drawer-birch-draw-r": "90deg",
+			"drawer-ebony-door": "90deg",
+			"drawer-ebony-door-c": "90deg",
+			"drawer-ebony-door-l": "90deg",
+			"drawer-ebony-door-r": "90deg",
+			"drawer-ebony-draw": "90deg",
+			"drawer-ebony-draw-c": "90deg",
+			"drawer-ebony-draw-l": "90deg",
+			"drawer-ebony-draw-r": "90deg",
+			"drawer-kapok-door": "90deg",
+			"drawer-kapok-door-c": "90deg",
+			"drawer-kapok-door-l": "90deg",
+			"drawer-kapok-door-r": "90deg",
+			"drawer-kapok-draw": "90deg",
+			"drawer-kapok-draw-c": "90deg",
+			"drawer-kapok-draw-l": "90deg",
+			"drawer-kapok-draw-r": "90deg",
+			"drawer-larch-door": "90deg",
+			"drawer-larch-door-c": "90deg",
+			"drawer-larch-door-l": "90deg",
+			"drawer-larch-door-r": "90deg",
+			"drawer-larch-draw": "90deg",
+			"drawer-larch-draw-c": "90deg",
+			"drawer-larch-draw-l": "90deg",
+			"drawer-larch-draw-r": "90deg",
+			"drawer-maple-door": "90deg",
+			"drawer-maple-door-c": "90deg",
+			"drawer-maple-door-l": "90deg",
+			"drawer-maple-door-r": "90deg",
+			"drawer-maple-draw": "90deg",
+			"drawer-maple-draw-c": "90deg",
+			"drawer-maple-draw-l": "90deg",
+			"drawer-maple-draw-r": "90deg",
+			"drawer-oak-door": "90deg",
+			"drawer-oak-door-c": "90deg",
+			"drawer-oak-door-l": "90deg",
+			"drawer-oak-door-r": "90deg",
+			"drawer-oak-draw": "90deg",
+			"drawer-oak-draw-c": "90deg",
+			"drawer-oak-draw-l": "90deg",
+			"drawer-oak-draw-r": "90deg",
+			"drawer-pine-door": "90deg",
+			"drawer-pine-door-c": "90deg",
+			"drawer-pine-door-l": "90deg",
+			"drawer-pine-door-r": "90deg",
+			"drawer-pine-draw": "90deg",
+			"drawer-pine-draw-c": "90deg",
+			"drawer-pine-draw-l": "90deg",
+			"drawer-pine-draw-r": "90deg",
+			"drawer-purpleheart-door": "90deg",
+			"drawer-purpleheart-door-c": "90deg",
+			"drawer-purpleheart-door-l": "90deg",
+			"drawer-purpleheart-door-r": "90deg",
+			"drawer-purpleheart-draw": "90deg",
+			"drawer-purpleheart-draw-c": "90deg",
+			"drawer-purpleheart-draw-l": "90deg",
+			"drawer-purpleheart-draw-r": "90deg",
+			"drawer-redwood-door": "90deg",
+			"drawer-redwood-door-c": "90deg",
+			"drawer-redwood-door-l": "90deg",
+			"drawer-redwood-door-r": "90deg",
+			"drawer-redwood-draw": "90deg",
+			"drawer-redwood-draw-c": "90deg",
+			"drawer-redwood-draw-l": "90deg",
+			"drawer-redwood-draw-r": "90deg",
+			"drawer-walnut-door": "90deg",
+			"drawer-walnut-door-c": "90deg",
+			"drawer-walnut-door-l": "90deg",
+			"drawer-walnut-door-r": "90deg",
+			"drawer-walnut-draw": "90deg",
+			"drawer-walnut-draw-c": "90deg",
+			"drawer-walnut-draw-l": "90deg",
+			"drawer-walnut-draw-r": "90deg"
+		},
+		"canAutoPull": {
+			"drawer-acacia-door": false,
+			"drawer-acacia-door-c": false,
+			"drawer-acacia-door-l": false,
+			"drawer-acacia-door-r": false,
+			"drawer-acacia-draw": false,
+			"drawer-acacia-draw-c": false,
+			"drawer-acacia-draw-l": false,
+			"drawer-acacia-draw-r": false,
+			"drawer-aged-door": false,
+			"drawer-aged-door-c": false,
+			"drawer-aged-door-l": false,
+			"drawer-aged-door-r": false,
+			"drawer-aged-draw": false,
+			"drawer-aged-draw-c": false,
+			"drawer-aged-draw-l": false,
+			"drawer-aged-draw-r": false,
+			"drawer-baldcyprees-door": false,
+			"drawer-baldcyprees-door-c": false,
+			"drawer-baldcyprees-door-l": false,
+			"drawer-baldcyprees-door-r": false,
+			"drawer-baldcyprees-draw": false,
+			"drawer-baldcyprees-draw-c": false,
+			"drawer-baldcyprees-draw-l": false,
+			"drawer-baldcyprees-draw-r": false,
+			"drawer-birch-door": false,
+			"drawer-birch-door-c": false,
+			"drawer-birch-door-l": false,
+			"drawer-birch-door-r": false,
+			"drawer-birch-draw": false,
+			"drawer-birch-draw-c": false,
+			"drawer-birch-draw-l": false,
+			"drawer-birch-draw-r": false,
+			"drawer-ebony-door": false,
+			"drawer-ebony-door-c": false,
+			"drawer-ebony-door-l": false,
+			"drawer-ebony-door-r": false,
+			"drawer-ebony-draw": false,
+			"drawer-ebony-draw-c": false,
+			"drawer-ebony-draw-l": false,
+			"drawer-ebony-draw-r": false,
+			"drawer-kapok-door": false,
+			"drawer-kapok-door-c": false,
+			"drawer-kapok-door-l": false,
+			"drawer-kapok-door-r": false,
+			"drawer-kapok-draw": false,
+			"drawer-kapok-draw-c": false,
+			"drawer-kapok-draw-l": false,
+			"drawer-kapok-draw-r": false,
+			"drawer-larch-door": false,
+			"drawer-larch-door-c": false,
+			"drawer-larch-door-l": false,
+			"drawer-larch-door-r": false,
+			"drawer-larch-draw": false,
+			"drawer-larch-draw-c": false,
+			"drawer-larch-draw-l": false,
+			"drawer-larch-draw-r": false,
+			"drawer-maple-door": false,
+			"drawer-maple-door-c": false,
+			"drawer-maple-door-l": false,
+			"drawer-maple-door-r": false,
+			"drawer-maple-draw": false,
+			"drawer-maple-draw-c": false,
+			"drawer-maple-draw-l": false,
+			"drawer-maple-draw-r": false,
+			"drawer-oak-door": false,
+			"drawer-oak-door-c": false,
+			"drawer-oak-door-l": false,
+			"drawer-oak-door-r": false,
+			"drawer-oak-draw": false,
+			"drawer-oak-draw-c": false,
+			"drawer-oak-draw-l": false,
+			"drawer-oak-draw-r": false,
+			"drawer-pine-door": false,
+			"drawer-pine-door-c": false,
+			"drawer-pine-door-l": false,
+			"drawer-pine-door-r": false,
+			"drawer-pine-draw": false,
+			"drawer-pine-draw-c": false,
+			"drawer-pine-draw-l": false,
+			"drawer-pine-draw-r": false,
+			"drawer-purpleheart-door": false,
+			"drawer-purpleheart-door-c": false,
+			"drawer-purpleheart-door-l": false,
+			"drawer-purpleheart-door-r": false,
+			"drawer-purpleheart-draw": false,
+			"drawer-purpleheart-draw-c": false,
+			"drawer-purpleheart-draw-l": false,
+			"drawer-purpleheart-draw-r": false,
+			"drawer-redwood-door": false,
+			"drawer-redwood-door-c": false,
+			"drawer-redwood-door-l": false,
+			"drawer-redwood-door-r": false,
+			"drawer-redwood-draw": false,
+			"drawer-redwood-draw-c": false,
+			"drawer-redwood-draw-l": false,
+			"drawer-redwood-draw-r": false,
+			"drawer-walnut-door": false,
+			"drawer-walnut-door-c": false,
+			"drawer-walnut-door-l": false,
+			"drawer-walnut-door-r": false,
+			"drawer-walnut-draw": false,
+			"drawer-walnut-draw-c": false,
+			"drawer-walnut-draw-l": false,
+			"drawer-walnut-draw-r": false
+		},
+		"drop": {
+			"drawer-acacia-door": true,
+			"drawer-acacia-door-c": true,
+			"drawer-acacia-door-l": true,
+			"drawer-acacia-door-r": true,
+			"drawer-acacia-draw": true,
+			"drawer-acacia-draw-c": true,
+			"drawer-acacia-draw-l": true,
+			"drawer-acacia-draw-r": true,
+			"drawer-aged-door": true,
+			"drawer-aged-door-c": true,
+			"drawer-aged-door-l": true,
+			"drawer-aged-door-r": true,
+			"drawer-aged-draw": true,
+			"drawer-aged-draw-c": true,
+			"drawer-aged-draw-l": true,
+			"drawer-aged-draw-r": true,
+			"drawer-baldcyprees-door": true,
+			"drawer-baldcyprees-door-c": true,
+			"drawer-baldcyprees-door-l": true,
+			"drawer-baldcyprees-door-r": true,
+			"drawer-baldcyprees-draw": true,
+			"drawer-baldcyprees-draw-c": true,
+			"drawer-baldcyprees-draw-l": true,
+			"drawer-baldcyprees-draw-r": true,
+			"drawer-birch-door": true,
+			"drawer-birch-door-c": true,
+			"drawer-birch-door-l": true,
+			"drawer-birch-door-r": true,
+			"drawer-birch-draw": true,
+			"drawer-birch-draw-c": true,
+			"drawer-birch-draw-l": true,
+			"drawer-birch-draw-r": true,
+			"drawer-ebony-door": true,
+			"drawer-ebony-door-c": true,
+			"drawer-ebony-door-l": true,
+			"drawer-ebony-door-r": true,
+			"drawer-ebony-draw": true,
+			"drawer-ebony-draw-c": true,
+			"drawer-ebony-draw-l": true,
+			"drawer-ebony-draw-r": true,
+			"drawer-kapok-door": true,
+			"drawer-kapok-door-c": true,
+			"drawer-kapok-door-l": true,
+			"drawer-kapok-door-r": true,
+			"drawer-kapok-draw": true,
+			"drawer-kapok-draw-c": true,
+			"drawer-kapok-draw-l": true,
+			"drawer-kapok-draw-r": true,
+			"drawer-larch-door": true,
+			"drawer-larch-door-c": true,
+			"drawer-larch-door-l": true,
+			"drawer-larch-door-r": true,
+			"drawer-larch-draw": true,
+			"drawer-larch-draw-c": true,
+			"drawer-larch-draw-l": true,
+			"drawer-larch-draw-r": true,
+			"drawer-maple-door": true,
+			"drawer-maple-door-c": true,
+			"drawer-maple-door-l": true,
+			"drawer-maple-door-r": true,
+			"drawer-maple-draw": true,
+			"drawer-maple-draw-c": true,
+			"drawer-maple-draw-l": true,
+			"drawer-maple-draw-r": true,
+			"drawer-oak-door": true,
+			"drawer-oak-door-c": true,
+			"drawer-oak-door-l": true,
+			"drawer-oak-door-r": true,
+			"drawer-oak-draw": true,
+			"drawer-oak-draw-c": true,
+			"drawer-oak-draw-l": true,
+			"drawer-oak-draw-r": true,
+			"drawer-pine-door": true,
+			"drawer-pine-door-c": true,
+			"drawer-pine-door-l": true,
+			"drawer-pine-door-r": true,
+			"drawer-pine-draw": true,
+			"drawer-pine-draw-c": true,
+			"drawer-pine-draw-l": true,
+			"drawer-pine-draw-r": true,
+			"drawer-purpleheart-door": true,
+			"drawer-purpleheart-door-c": true,
+			"drawer-purpleheart-door-l": true,
+			"drawer-purpleheart-door-r": true,
+			"drawer-purpleheart-draw": true,
+			"drawer-purpleheart-draw-c": true,
+			"drawer-purpleheart-draw-l": true,
+			"drawer-purpleheart-draw-r": true,
+			"drawer-redwood-door": true,
+			"drawer-redwood-door-c": true,
+			"drawer-redwood-door-l": true,
+			"drawer-redwood-door-r": true,
+			"drawer-redwood-draw": true,
+			"drawer-redwood-draw-c": true,
+			"drawer-redwood-draw-l": true,
+			"drawer-redwood-draw-r": true,
+			"drawer-walnut-door": true,
+			"drawer-walnut-door-c": true,
+			"drawer-walnut-door-l": true,
+			"drawer-walnut-door-r": true,
+			"drawer-walnut-draw": true,
+			"drawer-walnut-draw-c": true,
+			"drawer-walnut-draw-l": true,
+			"drawer-walnut-draw-r": true
+		},
+		"quantitySlots": {
+			"drawer-acacia-door": 20,
+			"drawer-acacia-door-c": 20,
+			"drawer-acacia-door-l": 20,
+			"drawer-acacia-door-r": 20,
+			"drawer-acacia-draw": 20,
+			"drawer-acacia-draw-c": 20,
+			"drawer-acacia-draw-l": 20,
+			"drawer-acacia-draw-r": 20,
+			"drawer-aged-door": 20,
+			"drawer-aged-door-c": 20,
+			"drawer-aged-door-l": 20,
+			"drawer-aged-door-r": 20,
+			"drawer-aged-draw": 20,
+			"drawer-aged-draw-c": 20,
+			"drawer-aged-draw-l": 20,
+			"drawer-aged-draw-r": 20,
+			"drawer-baldcyprees-door": 20,
+			"drawer-baldcyprees-door-c": 20,
+			"drawer-baldcyprees-door-l": 20,
+			"drawer-baldcyprees-door-r": 20,
+			"drawer-baldcyprees-draw": 20,
+			"drawer-baldcyprees-draw-c": 20,
+			"drawer-baldcyprees-draw-l": 20,
+			"drawer-baldcyprees-draw-r": 20,
+			"drawer-birch-door": 20,
+			"drawer-birch-door-c": 20,
+			"drawer-birch-door-l": 20,
+			"drawer-birch-door-r": 20,
+			"drawer-birch-draw": 20,
+			"drawer-birch-draw-c": 20,
+			"drawer-birch-draw-l": 20,
+			"drawer-birch-draw-r": 20,
+			"drawer-ebony-door": 20,
+			"drawer-ebony-door-c": 20,
+			"drawer-ebony-door-l": 20,
+			"drawer-ebony-door-r": 20,
+			"drawer-ebony-draw": 20,
+			"drawer-ebony-draw-c": 20,
+			"drawer-ebony-draw-l": 20,
+			"drawer-ebony-draw-r": 20,
+			"drawer-kapok-door": 20,
+			"drawer-kapok-door-c": 20,
+			"drawer-kapok-door-l": 20,
+			"drawer-kapok-door-r": 20,
+			"drawer-kapok-draw": 20,
+			"drawer-kapok-draw-c": 20,
+			"drawer-kapok-draw-l": 20,
+			"drawer-kapok-draw-r": 20,
+			"drawer-larch-door": 20,
+			"drawer-larch-door-c": 20,
+			"drawer-larch-door-l": 20,
+			"drawer-larch-door-r": 20,
+			"drawer-larch-draw": 20,
+			"drawer-larch-draw-c": 20,
+			"drawer-larch-draw-l": 20,
+			"drawer-larch-draw-r": 20,
+			"drawer-maple-door": 20,
+			"drawer-maple-door-c": 20,
+			"drawer-maple-door-l": 20,
+			"drawer-maple-door-r": 20,
+			"drawer-maple-draw": 20,
+			"drawer-maple-draw-c": 20,
+			"drawer-maple-draw-l": 20,
+			"drawer-maple-draw-r": 20,
+			"drawer-oak-door": 20,
+			"drawer-oak-door-c": 20,
+			"drawer-oak-door-l": 20,
+			"drawer-oak-door-r": 20,
+			"drawer-oak-draw": 20,
+			"drawer-oak-draw-c": 20,
+			"drawer-oak-draw-l": 20,
+			"drawer-oak-draw-r": 20,
+			"drawer-pine-door": 20,
+			"drawer-pine-door-c": 20,
+			"drawer-pine-door-l": 20,
+			"drawer-pine-door-r": 20,
+			"drawer-pine-draw": 20,
+			"drawer-pine-draw-c": 20,
+			"drawer-pine-draw-l": 20,
+			"drawer-pine-draw-r": 20,
+			"drawer-purpleheart-door": 20,
+			"drawer-purpleheart-door-c": 20,
+			"drawer-purpleheart-door-l": 20,
+			"drawer-purpleheart-door-r": 20,
+			"drawer-purpleheart-draw": 20,
+			"drawer-purpleheart-draw-c": 20,
+			"drawer-purpleheart-draw-l": 20,
+			"drawer-purpleheart-draw-r": 20,
+			"drawer-redwood-door": 20,
+			"drawer-redwood-door-c": 20,
+			"drawer-redwood-door-l": 20,
+			"drawer-redwood-door-r": 20,
+			"drawer-redwood-draw": 20,
+			"drawer-redwood-draw-c": 20,
+			"drawer-redwood-draw-l": 20,
+			"drawer-redwood-draw-r": 20,
+			"drawer-walnut-door": 20,
+			"drawer-walnut-door-c": 20,
+			"drawer-walnut-door-l": 20,
+			"drawer-walnut-door-r": 20,
+			"drawer-walnut-draw": 20,
+			"drawer-walnut-draw-c": 20,
+			"drawer-walnut-draw-l": 20,
+			"drawer-walnut-draw-r": 20
+		},
+		"quantityColumns": {
+			"drawer-acacia-door": 5,
+			"drawer-acacia-door-c": 5,
+			"drawer-acacia-door-l": 5,
+			"drawer-acacia-door-r": 5,
+			"drawer-acacia-draw": 5,
+			"drawer-acacia-draw-c": 5,
+			"drawer-acacia-draw-l": 5,
+			"drawer-acacia-draw-r": 5,
+			"drawer-aged-door": 5,
+			"drawer-aged-door-c": 5,
+			"drawer-aged-door-l": 5,
+			"drawer-aged-door-r": 5,
+			"drawer-aged-draw": 5,
+			"drawer-aged-draw-c": 5,
+			"drawer-aged-draw-l": 5,
+			"drawer-aged-draw-r": 5,
+			"drawer-baldcyprees-door": 5,
+			"drawer-baldcyprees-door-c": 5,
+			"drawer-baldcyprees-door-l": 5,
+			"drawer-baldcyprees-door-r": 5,
+			"drawer-baldcyprees-draw": 5,
+			"drawer-baldcyprees-draw-c": 5,
+			"drawer-baldcyprees-draw-l": 5,
+			"drawer-baldcyprees-draw-r": 5,
+			"drawer-birch-door": 5,
+			"drawer-birch-door-c": 5,
+			"drawer-birch-door-l": 5,
+			"drawer-birch-door-r": 5,
+			"drawer-birch-draw": 5,
+			"drawer-birch-draw-c": 5,
+			"drawer-birch-draw-l": 5,
+			"drawer-birch-draw-r": 5,
+			"drawer-ebony-door": 5,
+			"drawer-ebony-door-c": 5,
+			"drawer-ebony-door-l": 5,
+			"drawer-ebony-door-r": 5,
+			"drawer-ebony-draw": 5,
+			"drawer-ebony-draw-c": 5,
+			"drawer-ebony-draw-l": 5,
+			"drawer-ebony-draw-r": 5,
+			"drawer-kapok-door": 5,
+			"drawer-kapok-door-c": 5,
+			"drawer-kapok-door-l": 5,
+			"drawer-kapok-door-r": 5,
+			"drawer-kapok-draw": 5,
+			"drawer-kapok-draw-c": 5,
+			"drawer-kapok-draw-l": 5,
+			"drawer-kapok-draw-r": 5,
+			"drawer-larch-door": 5,
+			"drawer-larch-door-c": 5,
+			"drawer-larch-door-l": 5,
+			"drawer-larch-door-r": 5,
+			"drawer-larch-draw": 5,
+			"drawer-larch-draw-c": 5,
+			"drawer-larch-draw-l": 5,
+			"drawer-larch-draw-r": 5,
+			"drawer-maple-door": 5,
+			"drawer-maple-door-c": 5,
+			"drawer-maple-door-l": 5,
+			"drawer-maple-door-r": 5,
+			"drawer-maple-draw": 5,
+			"drawer-maple-draw-c": 5,
+			"drawer-maple-draw-l": 5,
+			"drawer-maple-draw-r": 5,
+			"drawer-oak-door": 5,
+			"drawer-oak-door-c": 5,
+			"drawer-oak-door-l": 5,
+			"drawer-oak-door-r": 5,
+			"drawer-oak-draw": 5,
+			"drawer-oak-draw-c": 5,
+			"drawer-oak-draw-l": 5,
+			"drawer-oak-draw-r": 5,
+			"drawer-pine-door": 5,
+			"drawer-pine-door-c": 5,
+			"drawer-pine-door-l": 5,
+			"drawer-pine-door-r": 5,
+			"drawer-pine-draw": 5,
+			"drawer-pine-draw-c": 5,
+			"drawer-pine-draw-l": 5,
+			"drawer-pine-draw-r": 5,
+			"drawer-purpleheart-door": 5,
+			"drawer-purpleheart-door-c": 5,
+			"drawer-purpleheart-door-l": 5,
+			"drawer-purpleheart-door-r": 5,
+			"drawer-purpleheart-draw": 5,
+			"drawer-purpleheart-draw-c": 5,
+			"drawer-purpleheart-draw-l": 5,
+			"drawer-purpleheart-draw-r": 5,
+			"drawer-redwood-door": 5,
+			"drawer-redwood-door-c": 5,
+			"drawer-redwood-door-l": 5,
+			"drawer-redwood-door-r": 5,
+			"drawer-redwood-draw": 5,
+			"drawer-redwood-draw-c": 5,
+			"drawer-redwood-draw-l": 5,
+			"drawer-redwood-draw-r": 5,
+			"drawer-walnut-door": 5,
+			"drawer-walnut-door-c": 5,
+			"drawer-walnut-door-l": 5,
+			"drawer-walnut-door-r": 5,
+			"drawer-walnut-draw": 5,
+			"drawer-walnut-draw-c": 5,
+			"drawer-walnut-draw-l": 5,
+			"drawer-walnut-draw-r": 5
+		},
+		"dialogTitleLangCode": {
+			"drawer-acacia-door": "Ropero",
+			"drawer-acacia-door-c": "Ropero",
+			"drawer-acacia-door-l": "Ropero",
+			"drawer-acacia-door-r": "Ropero",
+			"drawer-acacia-draw": "Cajón",
+			"drawer-acacia-draw-c": "Cajón",
+			"drawer-acacia-draw-l": "Cajón",
+			"drawer-acacia-draw-r": "Cajón",
+			"drawer-aged-door": "Ropero",
+			"drawer-aged-door-c": "Ropero",
+			"drawer-aged-door-l": "Ropero",
+			"drawer-aged-door-r": "Ropero",
+			"drawer-aged-draw": "Cajón",
+			"drawer-aged-draw-c": "Cajón",
+			"drawer-aged-draw-l": "Cajón",
+			"drawer-aged-draw-r": "Cajón",
+			"drawer-baldcyprees-door": "Ropero",
+			"drawer-baldcyprees-door-c": "Ropero",
+			"drawer-baldcyprees-door-l": "Ropero",
+			"drawer-baldcyprees-door-r": "Ropero",
+			"drawer-baldcyprees-draw": "Cajón",
+			"drawer-baldcyprees-draw-c": "Cajón",
+			"drawer-baldcyprees-draw-l": "Cajón",
+			"drawer-baldcyprees-draw-r": "Cajón",
+			"drawer-birch-door": "Ropero",
+			"drawer-birch-door-c": "Ropero",
+			"drawer-birch-door-l": "Ropero",
+			"drawer-birch-door-r": "Ropero",
+			"drawer-birch-draw": "Cajón",
+			"drawer-birch-draw-c": "Cajón",
+			"drawer-birch-draw-l": "Cajón",
+			"drawer-birch-draw-r": "Cajón",
+			"drawer-ebony-door": "Ropero",
+			"drawer-ebony-door-c": "Ropero",
+			"drawer-ebony-door-l": "Ropero",
+			"drawer-ebony-door-r": "Ropero",
+			"drawer-ebony-draw": "Cajón",
+			"drawer-ebony-draw-c": "Cajón",
+			"drawer-ebony-draw-l": "Cajón",
+			"drawer-ebony-draw-r": "Cajón",
+			"drawer-kapok-door": "Ropero",
+			"drawer-kapok-door-c": "Ropero",
+			"drawer-kapok-door-l": "Ropero",
+			"drawer-kapok-door-r": "Ropero",
+			"drawer-kapok-draw": "Cajón",
+			"drawer-kapok-draw-c": "Cajón",
+			"drawer-kapok-draw-l": "Cajón",
+			"drawer-kapok-draw-r": "Cajón",
+			"drawer-larch-door": "Ropero",
+			"drawer-larch-door-c": "Ropero",
+			"drawer-larch-door-l": "Ropero",
+			"drawer-larch-door-r": "Ropero",
+			"drawer-larch-draw": "Cajón",
+			"drawer-larch-draw-c": "Cajón",
+			"drawer-larch-draw-l": "Cajón",
+			"drawer-larch-draw-r": "Cajón",
+			"drawer-maple-door": "Ropero",
+			"drawer-maple-door-c": "Ropero",
+			"drawer-maple-door-l": "Ropero",
+			"drawer-maple-door-r": "Ropero",
+			"drawer-maple-draw": "Cajón",
+			"drawer-maple-draw-c": "Cajón",
+			"drawer-maple-draw-l": "Cajón",
+			"drawer-maple-draw-r": "Cajón",
+			"drawer-oak-door": "Ropero",
+			"drawer-oak-door-c": "Ropero",
+			"drawer-oak-door-l": "Ropero",
+			"drawer-oak-door-r": "Ropero",
+			"drawer-oak-draw": "Cajón",
+			"drawer-oak-draw-c": "Cajón",
+			"drawer-oak-draw-l": "Cajón",
+			"drawer-oak-draw-r": "Cajón",
+			"drawer-pine-door": "Ropero",
+			"drawer-pine-door-c": "Ropero",
+			"drawer-pine-door-l": "Ropero",
+			"drawer-pine-door-r": "Ropero",
+			"drawer-pine-draw": "Cajón",
+			"drawer-pine-draw-c": "Cajón",
+			"drawer-pine-draw-l": "Cajón",
+			"drawer-pine-draw-r": "Cajón",
+			"drawer-purpleheart-door": "Ropero",
+			"drawer-purpleheart-door-c": "Ropero",
+			"drawer-purpleheart-door-l": "Ropero",
+			"drawer-purpleheart-door-r": "Ropero",
+			"drawer-purpleheart-draw": "Cajón",
+			"drawer-purpleheart-draw-c": "Cajón",
+			"drawer-purpleheart-draw-l": "Cajón",
+			"drawer-purpleheart-draw-r": "Cajón",
+			"drawer-redwood-door": "Ropero",
+			"drawer-redwood-door-c": "Ropero",
+			"drawer-redwood-door-l": "Ropero",
+			"drawer-redwood-door-r": "Ropero",
+			"drawer-redwood-draw": "Cajón",
+			"drawer-redwood-draw-c": "Cajón",
+			"drawer-redwood-draw-l": "Cajón",
+			"drawer-redwood-draw-r": "Cajón",
+			"drawer-walnut-door": "Ropero",
+			"drawer-walnut-door-c": "Ropero",
+			"drawer-walnut-door-l": "Ropero",
+			"drawer-walnut-door-r": "Ropero",
+			"drawer-walnut-draw": "Cajón",
+			"drawer-walnut-draw-c": "Cajón",
+			"drawer-walnut-draw-l": "Cajón",
+			"drawer-walnut-draw-r": "Cajón"
+		},
+		"storageType": {
+			"drawer-acacia-door": 189,
+			"drawer-acacia-door-c": 189,
+			"drawer-acacia-door-l": 189,
+			"drawer-acacia-door-r": 189,
+			"drawer-acacia-draw": 189,
+			"drawer-acacia-draw-c": 189,
+			"drawer-acacia-draw-l": 189,
+			"drawer-acacia-draw-r": 189,
+			"drawer-aged-door": 189,
+			"drawer-aged-door-c": 189,
+			"drawer-aged-door-l": 189,
+			"drawer-aged-door-r": 189,
+			"drawer-aged-draw": 189,
+			"drawer-aged-draw-c": 189,
+			"drawer-aged-draw-l": 189,
+			"drawer-aged-draw-r": 189,
+			"drawer-baldcyprees-door": 189,
+			"drawer-baldcyprees-door-c": 189,
+			"drawer-baldcyprees-door-l": 189,
+			"drawer-baldcyprees-door-r": 189,
+			"drawer-baldcyprees-draw": 189,
+			"drawer-baldcyprees-draw-c": 189,
+			"drawer-baldcyprees-draw-l": 189,
+			"drawer-baldcyprees-draw-r": 189,
+			"drawer-birch-door": 189,
+			"drawer-birch-door-c": 189,
+			"drawer-birch-door-l": 189,
+			"drawer-birch-door-r": 189,
+			"drawer-birch-draw": 189,
+			"drawer-birch-draw-c": 189,
+			"drawer-birch-draw-l": 189,
+			"drawer-birch-draw-r": 189,
+			"drawer-ebony-door": 189,
+			"drawer-ebony-door-c": 189,
+			"drawer-ebony-door-l": 189,
+			"drawer-ebony-door-r": 189,
+			"drawer-ebony-draw": 189,
+			"drawer-ebony-draw-c": 189,
+			"drawer-ebony-draw-l": 189,
+			"drawer-ebony-draw-r": 189,
+			"drawer-kapok-door": 189,
+			"drawer-kapok-door-c": 189,
+			"drawer-kapok-door-l": 189,
+			"drawer-kapok-door-r": 189,
+			"drawer-kapok-draw": 189,
+			"drawer-kapok-draw-c": 189,
+			"drawer-kapok-draw-l": 189,
+			"drawer-kapok-draw-r": 189,
+			"drawer-larch-door": 189,
+			"drawer-larch-door-c": 189,
+			"drawer-larch-door-l": 189,
+			"drawer-larch-door-r": 189,
+			"drawer-larch-draw": 189,
+			"drawer-larch-draw-c": 189,
+			"drawer-larch-draw-l": 189,
+			"drawer-larch-draw-r": 189,
+			"drawer-maple-door": 189,
+			"drawer-maple-door-c": 189,
+			"drawer-maple-door-l": 189,
+			"drawer-maple-door-r": 189,
+			"drawer-maple-draw": 189,
+			"drawer-maple-draw-c": 189,
+			"drawer-maple-draw-l": 189,
+			"drawer-maple-draw-r": 189,
+			"drawer-oak-door": 189,
+			"drawer-oak-door-c": 189,
+			"drawer-oak-door-l": 189,
+			"drawer-oak-door-r": 189,
+			"drawer-oak-draw": 189,
+			"drawer-oak-draw-c": 189,
+			"drawer-oak-draw-l": 189,
+			"drawer-oak-draw-r": 189,
+			"drawer-pine-door": 189,
+			"drawer-pine-door-c": 189,
+			"drawer-pine-door-l": 189,
+			"drawer-pine-door-r": 189,
+			"drawer-pine-draw": 189,
+			"drawer-pine-draw-c": 189,
+			"drawer-pine-draw-l": 189,
+			"drawer-pine-draw-r": 189,
+			"drawer-purpleheart-door": 189,
+			"drawer-purpleheart-door-c": 189,
+			"drawer-purpleheart-door-l": 189,
+			"drawer-purpleheart-door-r": 189,
+			"drawer-purpleheart-draw": 189,
+			"drawer-purpleheart-draw-c": 189,
+			"drawer-purpleheart-draw-l": 189,
+			"drawer-purpleheart-draw-r": 189,
+			"drawer-redwood-door": 189,
+			"drawer-redwood-door-c": 189,
+			"drawer-redwood-door-l": 189,
+			"drawer-redwood-door-r": 189,
+			"drawer-redwood-draw": 189,
+			"drawer-redwood-draw-c": 189,
+			"drawer-redwood-draw-l": 189,
+			"drawer-redwood-draw-r": 189,
+			"drawer-walnut-door": 189,
+			"drawer-walnut-door-c": 189,
+			"drawer-walnut-door-l": 189,
+			"drawer-walnut-door-r": 189,
+			"drawer-walnut-draw": 189,
+			"drawer-walnut-draw-c": 189,
+			"drawer-walnut-draw-l": 189,
+			"drawer-walnut-draw-r": 189
+		},
+		"retrieveOnly": {
+			"drawer-acacia-door": false,
+			"drawer-acacia-door-c": false,
+			"drawer-acacia-door-l": false,
+			"drawer-acacia-door-r": false,
+			"drawer-acacia-draw": false,
+			"drawer-acacia-draw-c": false,
+			"drawer-acacia-draw-l": false,
+			"drawer-acacia-draw-r": false,
+			"drawer-aged-door": false,
+			"drawer-aged-door-c": false,
+			"drawer-aged-door-l": false,
+			"drawer-aged-door-r": false,
+			"drawer-aged-draw": false,
+			"drawer-aged-draw-c": false,
+			"drawer-aged-draw-l": false,
+			"drawer-aged-draw-r": false,
+			"drawer-baldcyprees-door": false,
+			"drawer-baldcyprees-door-c": false,
+			"drawer-baldcyprees-door-l": false,
+			"drawer-baldcyprees-door-r": false,
+			"drawer-baldcyprees-draw": false,
+			"drawer-baldcyprees-draw-c": false,
+			"drawer-baldcyprees-draw-l": false,
+			"drawer-baldcyprees-draw-r": false,
+			"drawer-birch-door": false,
+			"drawer-birch-door-c": false,
+			"drawer-birch-door-l": false,
+			"drawer-birch-door-r": false,
+			"drawer-birch-draw": false,
+			"drawer-birch-draw-c": false,
+			"drawer-birch-draw-l": false,
+			"drawer-birch-draw-r": false,
+			"drawer-ebony-door": false,
+			"drawer-ebony-door-c": false,
+			"drawer-ebony-door-l": false,
+			"drawer-ebony-door-r": false,
+			"drawer-ebony-draw": false,
+			"drawer-ebony-draw-c": false,
+			"drawer-ebony-draw-l": false,
+			"drawer-ebony-draw-r": false,
+			"drawer-kapok-door": false,
+			"drawer-kapok-door-c": false,
+			"drawer-kapok-door-l": false,
+			"drawer-kapok-door-r": false,
+			"drawer-kapok-draw": false,
+			"drawer-kapok-draw-c": false,
+			"drawer-kapok-draw-l": false,
+			"drawer-kapok-draw-r": false,
+			"drawer-larch-door": false,
+			"drawer-larch-door-c": false,
+			"drawer-larch-door-l": false,
+			"drawer-larch-door-r": false,
+			"drawer-larch-draw": false,
+			"drawer-larch-draw-c": false,
+			"drawer-larch-draw-l": false,
+			"drawer-larch-draw-r": false,
+			"drawer-maple-door": false,
+			"drawer-maple-door-c": false,
+			"drawer-maple-door-l": false,
+			"drawer-maple-door-r": false,
+			"drawer-maple-draw": false,
+			"drawer-maple-draw-c": false,
+			"drawer-maple-draw-l": false,
+			"drawer-maple-draw-r": false,
+			"drawer-oak-door": false,
+			"drawer-oak-door-c": false,
+			"drawer-oak-door-l": false,
+			"drawer-oak-door-r": false,
+			"drawer-oak-draw": false,
+			"drawer-oak-draw-c": false,
+			"drawer-oak-draw-l": false,
+			"drawer-oak-draw-r": false,
+			"drawer-pine-door": false,
+			"drawer-pine-door-c": false,
+			"drawer-pine-door-l": false,
+			"drawer-pine-door-r": false,
+			"drawer-pine-draw": false,
+			"drawer-pine-draw-c": false,
+			"drawer-pine-draw-l": false,
+			"drawer-pine-draw-r": false,
+			"drawer-purpleheart-door": false,
+			"drawer-purpleheart-door-c": false,
+			"drawer-purpleheart-door-l": false,
+			"drawer-purpleheart-door-r": false,
+			"drawer-purpleheart-draw": false,
+			"drawer-purpleheart-draw-c": false,
+			"drawer-purpleheart-draw-l": false,
+			"drawer-purpleheart-draw-r": false,
+			"drawer-redwood-door": false,
+			"drawer-redwood-door-c": false,
+			"drawer-redwood-door-l": false,
+			"drawer-redwood-door-r": false,
+			"drawer-redwood-draw": false,
+			"drawer-redwood-draw-c": false,
+			"drawer-redwood-draw-l": false,
+			"drawer-redwood-draw-r": false,
+			"drawer-walnut-door": false,
+			"drawer-walnut-door-c": false,
+			"drawer-walnut-door-l": false,
+			"drawer-walnut-door-r": false,
+			"drawer-walnut-draw": false,
+			"drawer-walnut-draw-c": false,
+			"drawer-walnut-draw-l": false,
+			"drawer-walnut-draw-r": false,
+			"bigmetalstorage": false,
+			"metalstorage": false
+		},
+		"shape": {
+			"drawer-acacia-door": "block/wood/chest/drawer-acacia-door",
+			"drawer-acacia-door-c": "block/wood/chest/drawer-acacia-door-c",
+			"drawer-acacia-door-l": "block/wood/chest/drawer-acacia-door-l",
+			"drawer-acacia-door-r": "block/wood/chest/drawer-acacia-door-r",
+			"drawer-acacia-draw": "block/wood/chest/drawer-acacia-draw",
+			"drawer-acacia-draw-c": "block/wood/chest/drawer-acacia-draw-c",
+			"drawer-acacia-draw-l": "block/wood/chest/drawer-acacia-draw-l",
+			"drawer-acacia-draw-r": "block/wood/chest/drawer-acacia-draw-r",
+			"drawer-aged-door": "block/wood/chest/drawer-aged-door",
+			"drawer-aged-door-c": "block/wood/chest/drawer-aged-door-c",
+			"drawer-aged-door-l": "block/wood/chest/drawer-aged-door-l",
+			"drawer-aged-door-r": "block/wood/chest/drawer-aged-door-r",
+			"drawer-aged-draw": "block/wood/chest/drawer-aged-draw",
+			"drawer-aged-draw-c": "block/wood/chest/drawer-aged-draw-c",
+			"drawer-aged-draw-l": "block/wood/chest/drawer-aged-draw-l",
+			"drawer-aged-draw-r": "block/wood/chest/drawer-aged-draw-r",
+			"drawer-baldcypress-door": "block/wood/chest/drawer-baldcypress-door",
+			"drawer-baldcypress-door-c": "block/wood/chest/drawer-baldcypress-door-c",
+			"drawer-baldcypress-door-l": "block/wood/chest/drawer-baldcypress-door-l",
+			"drawer-baldcypress-door-r": "block/wood/chest/drawer-baldcypress-door-r",
+			"drawer-baldcypress-draw": "block/wood/chest/drawer-baldcypress-draw",
+			"drawer-baldcypress-draw-c": "block/wood/chest/drawer-baldcypress-draw-c",
+			"drawer-baldcypress-draw-l": "block/wood/chest/drawer-baldcypress-draw-l",
+			"drawer-baldcypress-draw-r": "block/wood/chest/drawer-baldcypress-draw-r",
+			"drawer-birch-door": "block/wood/chest/drawer-birch-door",
+			"drawer-birch-door-c": "block/wood/chest/drawer-birch-door-c",
+			"drawer-birch-door-l": "block/wood/chest/drawer-birch-door-l",
+			"drawer-birch-door-r": "block/wood/chest/drawer-birch-door-r",
+			"drawer-birch-draw": "block/wood/chest/drawer-birch-draw",
+			"drawer-birch-draw-c": "block/wood/chest/drawer-birch-draw-c",
+			"drawer-birch-draw-l": "block/wood/chest/drawer-birch-draw-l",
+			"drawer-birch-draw-r": "block/wood/chest/drawer-birch-draw-r",
+			"drawer-ebony-door": "block/wood/chest/drawer-ebony-door",
+			"drawer-ebony-door-c": "block/wood/chest/drawer-ebony-door-c",
+			"drawer-ebony-door-l": "block/wood/chest/drawer-ebony-door-l",
+			"drawer-ebony-door-r": "block/wood/chest/drawer-ebony-door-r",
+			"drawer-ebony-draw": "block/wood/chest/drawer-ebony-draw",
+			"drawer-ebony-draw-c": "block/wood/chest/drawer-ebony-draw-c",
+			"drawer-ebony-draw-l": "block/wood/chest/drawer-ebony-draw-l",
+			"drawer-ebony-draw-r": "block/wood/chest/drawer-ebony-draw-r",
+			"drawer-kapok-door": "block/wood/chest/drawer-kapok-door",
+			"drawer-kapok-door-c": "block/wood/chest/drawer-kapok-door-c",
+			"drawer-kapok-door-l": "block/wood/chest/drawer-kapok-door-l",
+			"drawer-kapok-door-r": "block/wood/chest/drawer-kapok-door-r",
+			"drawer-kapok-draw": "block/wood/chest/drawer-kapok-draw",
+			"drawer-kapok-draw-c": "block/wood/chest/drawer-kapok-draw-c",
+			"drawer-kapok-draw-l": "block/wood/chest/drawer-kapok-draw-l",
+			"drawer-kapok-draw-r": "block/wood/chest/drawer-kapok-draw-r",
+			"drawer-larch-door": "block/wood/chest/drawer-larch-door",
+			"drawer-larch-door-c": "block/wood/chest/drawer-larch-door-c",
+			"drawer-larch-door-l": "block/wood/chest/drawer-larch-door-l",
+			"drawer-larch-door-r": "block/wood/chest/drawer-larch-door-r",
+			"drawer-larch-draw": "block/wood/chest/drawer-larch-draw",
+			"drawer-larch-draw-c": "block/wood/chest/drawer-larch-draw-c",
+			"drawer-larch-draw-l": "block/wood/chest/drawer-larch-draw-l",
+			"drawer-larch-draw-r": "block/wood/chest/drawer-larch-draw-r",
+			"drawer-maple-door": "block/wood/chest/drawer-maple-door",
+			"drawer-maple-door-c": "block/wood/chest/drawer-maple-door-c",
+			"drawer-maple-door-l": "block/wood/chest/drawer-maple-door-l",
+			"drawer-maple-door-r": "block/wood/chest/drawer-maple-door-r",
+			"drawer-maple-draw": "block/wood/chest/drawer-maple-draw",
+			"drawer-maple-draw-c": "block/wood/chest/drawer-maple-draw-c",
+			"drawer-maple-draw-l": "block/wood/chest/drawer-maple-draw-l",
+			"drawer-maple-draw-r": "block/wood/chest/drawer-maple-draw-r",
+			"drawer-oak-door": "block/wood/chest/drawer-oak-door",
+			"drawer-oak-door-c": "block/wood/chest/drawer-oak-door-c",
+			"drawer-oak-door-l": "block/wood/chest/drawer-oak-door-l",
+			"drawer-oak-door-r": "block/wood/chest/drawer-oak-door-r",
+			"drawer-oak-draw": "block/wood/chest/drawer-oak-draw",
+			"drawer-oak-draw-c": "block/wood/chest/drawer-oak-draw-c",
+			"drawer-oak-draw-l": "block/wood/chest/drawer-oak-draw-l",
+			"drawer-oak-draw-r": "block/wood/chest/drawer-oak-draw-r",
+			"drawer-pine-door": "block/wood/chest/drawer-pine-door",
+			"drawer-pine-door-c": "block/wood/chest/drawer-pine-door-c",
+			"drawer-pine-door-l": "block/wood/chest/drawer-pine-door-l",
+			"drawer-pine-door-r": "block/wood/chest/drawer-pine-door-r",
+			"drawer-pine-draw": "block/wood/chest/drawer-pine-draw",
+			"drawer-pine-draw-c": "block/wood/chest/drawer-pine-draw-c",
+			"drawer-pine-draw-l": "block/wood/chest/drawer-pine-draw-l",
+			"drawer-pine-draw-r": "block/wood/chest/drawer-pine-draw-r",
+			"drawer-purpleheart-door": "block/wood/chest/drawer-purpleheart-door",
+			"drawer-purpleheart-door-c": "block/wood/chest/drawer-purpleheart-door-c",
+			"drawer-purpleheart-door-l": "block/wood/chest/drawer-purpleheart-door-l",
+			"drawer-purpleheart-door-r": "block/wood/chest/drawer-purpleheart-door-r",
+			"drawer-purpleheart-draw": "block/wood/chest/drawer-purpleheart-draw",
+			"drawer-purpleheart-draw-c": "block/wood/chest/drawer-purpleheart-draw-c",
+			"drawer-purpleheart-draw-l": "block/wood/chest/drawer-purpleheart-draw-l",
+			"drawer-purpleheart-draw-r": "block/wood/chest/drawer-purpleheart-draw-r",
+			"drawer-redwood-door": "block/wood/chest/drawer-redwood-door",
+			"drawer-redwood-door-c": "block/wood/chest/drawer-redwood-door-c",
+			"drawer-redwood-door-l": "block/wood/chest/drawer-redwood-door-l",
+			"drawer-redwood-door-r": "block/wood/chest/drawer-redwood-door-r",
+			"drawer-redwood-draw": "block/wood/chest/drawer-redwood-draw",
+			"drawer-redwood-draw-c": "block/wood/chest/drawer-redwood-draw-c",
+			"drawer-redwood-draw-l": "block/wood/chest/drawer-redwood-draw-l",
+			"drawer-redwood-draw-r": "block/wood/chest/drawer-redwood-draw-r",
+			"drawer-walnut-door": "block/wood/chest/drawer-walnut-door",
+			"drawer-walnut-door-c": "block/wood/chest/drawer-walnut-door-c",
+			"drawer-walnut-door-l": "block/wood/chest/drawer-walnut-door-l",
+			"drawer-walnut-door-r": "block/wood/chest/drawer-walnut-door-r",
+			"drawer-walnut-draw": "block/wood/chest/drawer-walnut-draw",
+			"drawer-walnut-draw-c": "block/wood/chest/drawer-walnut-draw-c",
+			"drawer-walnut-draw-l": "block/wood/chest/drawer-walnut-draw-l",
+			"drawer-walnut-draw-r": "block/wood/chest/drawer-walnut-draw-r",
+			"bigmetalstorage": "block/wood/chest/bigmetalstorage",
+			"metalstorage": "block/wood/chest/metalstorage"
+		},
+		"typedOpenSound": {
+			"drawer-acacia-door": "game:sounds/block/largechestopen",
+			"drawer-acacia-door-c": "game:sounds/block/largechestopen",
+			"drawer-acacia-door-l": "game:sounds/block/largechestopen",
+			"drawer-acacia-door-r": "game:sounds/block/largechestopen",
+			"drawer-acacia-draw": "game:sounds/block/drawopen",
+			"drawer-acacia-draw-c": "game:sounds/block/drawopen",
+			"drawer-acacia-draw-l": "game:sounds/block/drawopen",
+			"drawer-acacia-draw-r": "game:sounds/block/drawopen",
+			"drawer-aged-door": "game:sounds/block/largechestopen",
+			"drawer-aged-door-c": "game:sounds/block/largechestopen",
+			"drawer-aged-door-l": "game:sounds/block/largechestopen",
+			"drawer-aged-door-r": "game:sounds/block/largechestopen",
+			"drawer-aged-draw": "game:sounds/block/drawopen",
+			"drawer-aged-draw-c": "game:sounds/block/drawopen",
+			"drawer-aged-draw-l": "game:sounds/block/drawopen",
+			"drawer-aged-draw-r": "game:sounds/block/drawopen",
+			"drawer-baldcyprees-door": "game:sounds/block/largechestopen",
+			"drawer-baldcyprees-door-c": "game:sounds/block/largechestopen",
+			"drawer-baldcyprees-door-l": "game:sounds/block/largechestopen",
+			"drawer-baldcyprees-door-r": "game:sounds/block/largechestopen",
+			"drawer-baldcyprees-draw": "game:sounds/block/drawopen",
+			"drawer-baldcyprees-draw-c": "game:sounds/block/drawopen",
+			"drawer-baldcyprees-draw-l": "game:sounds/block/drawopen",
+			"drawer-baldcyprees-draw-r": "game:sounds/block/drawopen",
+			"drawer-birch-door": "game:sounds/block/largechestopen",
+			"drawer-birch-door-c": "game:sounds/block/largechestopen",
+			"drawer-birch-door-l": "game:sounds/block/largechestopen",
+			"drawer-birch-door-r": "game:sounds/block/largechestopen",
+			"drawer-birch-draw": "game:sounds/block/drawopen",
+			"drawer-birch-draw-c": "game:sounds/block/drawopen",
+			"drawer-birch-draw-l": "game:sounds/block/drawopen",
+			"drawer-birch-draw-r": "game:sounds/block/drawopen",
+			"drawer-ebony-door": "game:sounds/block/largechestopen",
+			"drawer-ebony-door-c": "game:sounds/block/largechestopen",
+			"drawer-ebony-door-l": "game:sounds/block/largechestopen",
+			"drawer-ebony-door-r": "game:sounds/block/largechestopen",
+			"drawer-ebony-draw": "game:sounds/block/drawopen",
+			"drawer-ebony-draw-c": "game:sounds/block/drawopen",
+			"drawer-ebony-draw-l": "game:sounds/block/drawopen",
+			"drawer-ebony-draw-r": "game:sounds/block/drawopen",
+			"drawer-kapok-door": "game:sounds/block/largechestopen",
+			"drawer-kapok-door-c": "game:sounds/block/largechestopen",
+			"drawer-kapok-door-l": "game:sounds/block/largechestopen",
+			"drawer-kapok-door-r": "game:sounds/block/largechestopen",
+			"drawer-kapok-draw": "game:sounds/block/drawopen",
+			"drawer-kapok-draw-c": "game:sounds/block/drawopen",
+			"drawer-kapok-draw-l": "game:sounds/block/drawopen",
+			"drawer-kapok-draw-r": "game:sounds/block/drawopen",
+			"drawer-larch-door": "game:sounds/block/largechestopen",
+			"drawer-larch-door-c": "game:sounds/block/largechestopen",
+			"drawer-larch-door-l": "game:sounds/block/largechestopen",
+			"drawer-larch-door-r": "game:sounds/block/largechestopen",
+			"drawer-larch-draw": "game:sounds/block/drawopen",
+			"drawer-larch-draw-c": "game:sounds/block/drawopen",
+			"drawer-larch-draw-l": "game:sounds/block/drawopen",
+			"drawer-larch-draw-r": "game:sounds/block/drawopen",
+			"drawer-maple-door": "game:sounds/block/largechestopen",
+			"drawer-maple-door-c": "game:sounds/block/largechestopen",
+			"drawer-maple-door-l": "game:sounds/block/largechestopen",
+			"drawer-maple-door-r": "game:sounds/block/largechestopen",
+			"drawer-maple-draw": "game:sounds/block/drawopen",
+			"drawer-maple-draw-c": "game:sounds/block/drawopen",
+			"drawer-maple-draw-l": "game:sounds/block/drawopen",
+			"drawer-maple-draw-r": "game:sounds/block/drawopen",
+			"drawer-oak-door": "game:sounds/block/largechestopen",
+			"drawer-oak-door-c": "game:sounds/block/largechestopen",
+			"drawer-oak-door-l": "game:sounds/block/largechestopen",
+			"drawer-oak-door-r": "game:sounds/block/largechestopen",
+			"drawer-oak-draw": "game:sounds/block/drawopen",
+			"drawer-oak-draw-c": "game:sounds/block/drawopen",
+			"drawer-oak-draw-l": "game:sounds/block/drawopen",
+			"drawer-oak-draw-r": "game:sounds/block/drawopen",
+			"drawer-pine-door": "game:sounds/block/largechestopen",
+			"drawer-pine-door-c": "game:sounds/block/largechestopen",
+			"drawer-pine-door-l": "game:sounds/block/largechestopen",
+			"drawer-pine-door-r": "game:sounds/block/largechestopen",
+			"drawer-pine-draw": "game:sounds/block/drawopen",
+			"drawer-pine-draw-c": "game:sounds/block/drawopen",
+			"drawer-pine-draw-l": "game:sounds/block/drawopen",
+			"drawer-pine-draw-r": "game:sounds/block/drawopen",
+			"drawer-purpleheart-door": "game:sounds/block/largechestopen",
+			"drawer-purpleheart-door-c": "game:sounds/block/largechestopen",
+			"drawer-purpleheart-door-l": "game:sounds/block/largechestopen",
+			"drawer-purpleheart-door-r": "game:sounds/block/largechestopen",
+			"drawer-purpleheart-draw": "game:sounds/block/drawopen",
+			"drawer-purpleheart-draw-c": "game:sounds/block/drawopen",
+			"drawer-purpleheart-draw-l": "game:sounds/block/drawopen",
+			"drawer-purpleheart-draw-r": "game:sounds/block/drawopen",
+			"drawer-redwood-door": "game:sounds/block/largechestopen",
+			"drawer-redwood-door-c": "game:sounds/block/largechestopen",
+			"drawer-redwood-door-l": "game:sounds/block/largechestopen",
+			"drawer-redwood-door-r": "game:sounds/block/largechestopen",
+			"drawer-redwood-draw": "game:sounds/block/drawopen",
+			"drawer-redwood-draw-c": "game:sounds/block/drawopen",
+			"drawer-redwood-draw-l": "game:sounds/block/drawopen",
+			"drawer-redwood-draw-r": "game:sounds/block/drawopen",
+			"drawer-walnut-door": "game:sounds/block/largechestopen",
+			"drawer-walnut-door-c": "game:sounds/block/largechestopen",
+			"drawer-walnut-door-l": "game:sounds/block/largechestopen",
+			"drawer-walnut-door-r": "game:sounds/block/largechestopen",
+			"drawer-walnut-draw": "game:sounds/block/drawopen",
+			"drawer-walnut-draw-c": "game:sounds/block/drawopen",
+			"drawer-walnut-draw-l": "game:sounds/block/drawopen",
+			"drawer-walnut-draw-r": "game:sounds/block/drawopen"
+		},
+		"typedCloseSound": {
+			"drawer-acacia-door": "game:sounds/block/largechestclose",
+			"drawer-acacia-door-c": "game:sounds/block/largechestclose",
+			"drawer-acacia-door-l": "game:sounds/block/largechestclose",
+			"drawer-acacia-door-r": "game:sounds/block/largechestclose",
+			"drawer-acacia-draw": "game:sounds/block/drawclose",
+			"drawer-acacia-draw-c": "game:sounds/block/drawclose",
+			"drawer-acacia-draw-l": "game:sounds/block/drawclose",
+			"drawer-acacia-draw-r": "game:sounds/block/drawclose",
+			"drawer-aged-door": "game:sounds/block/largechestclose",
+			"drawer-aged-door-c": "game:sounds/block/largechestclose",
+			"drawer-aged-door-l": "game:sounds/block/largechestclose",
+			"drawer-aged-door-r": "game:sounds/block/largechestclose",
+			"drawer-aged-draw": "game:sounds/block/drawclose",
+			"drawer-aged-draw-c": "game:sounds/block/drawclose",
+			"drawer-aged-draw-l": "game:sounds/block/drawclose",
+			"drawer-aged-draw-r": "game:sounds/block/drawclose",
+			"drawer-baldcyprees-door": "game:sounds/block/largechestclose",
+			"drawer-baldcyprees-door-c": "game:sounds/block/largechestclose",
+			"drawer-baldcyprees-door-l": "game:sounds/block/largechestclose",
+			"drawer-baldcyprees-door-r": "game:sounds/block/largechestclose",
+			"drawer-baldcyprees-draw": "game:sounds/block/drawclose",
+			"drawer-baldcyprees-draw-c": "game:sounds/block/drawclose",
+			"drawer-baldcyprees-draw-l": "game:sounds/block/drawclose",
+			"drawer-baldcyprees-draw-r": "game:sounds/block/drawclose",
+			"drawer-birch-door": "game:sounds/block/largechestclose",
+			"drawer-birch-door-c": "game:sounds/block/largechestclose",
+			"drawer-birch-door-l": "game:sounds/block/largechestclose",
+			"drawer-birch-door-r": "game:sounds/block/largechestclose",
+			"drawer-birch-draw": "game:sounds/block/drawclose",
+			"drawer-birch-draw-c": "game:sounds/block/drawclose",
+			"drawer-birch-draw-l": "game:sounds/block/drawclose",
+			"drawer-birch-draw-r": "game:sounds/block/drawclose",
+			"drawer-ebony-door": "game:sounds/block/largechestclose",
+			"drawer-ebony-door-c": "game:sounds/block/largechestclose",
+			"drawer-ebony-door-l": "game:sounds/block/largechestclose",
+			"drawer-ebony-door-r": "game:sounds/block/largechestclose",
+			"drawer-ebony-draw": "game:sounds/block/drawclose",
+			"drawer-ebony-draw-c": "game:sounds/block/drawclose",
+			"drawer-ebony-draw-l": "game:sounds/block/drawclose",
+			"drawer-ebony-draw-r": "game:sounds/block/drawclose",
+			"drawer-kapok-door": "game:sounds/block/largechestclose",
+			"drawer-kapok-door-c": "game:sounds/block/largechestclose",
+			"drawer-kapok-door-l": "game:sounds/block/largechestclose",
+			"drawer-kapok-door-r": "game:sounds/block/largechestclose",
+			"drawer-kapok-draw": "game:sounds/block/drawclose",
+			"drawer-kapok-draw-c": "game:sounds/block/drawclose",
+			"drawer-kapok-draw-l": "game:sounds/block/drawclose",
+			"drawer-kapok-draw-r": "game:sounds/block/drawclose",
+			"drawer-larch-door": "game:sounds/block/largechestclose",
+			"drawer-larch-door-c": "game:sounds/block/largechestclose",
+			"drawer-larch-door-l": "game:sounds/block/largechestclose",
+			"drawer-larch-door-r": "game:sounds/block/largechestclose",
+			"drawer-larch-draw": "game:sounds/block/drawclose",
+			"drawer-larch-draw-c": "game:sounds/block/drawclose",
+			"drawer-larch-draw-l": "game:sounds/block/drawclose",
+			"drawer-larch-draw-r": "game:sounds/block/drawclose",
+			"drawer-maple-door": "game:sounds/block/largechestclose",
+			"drawer-maple-door-c": "game:sounds/block/largechestclose",
+			"drawer-maple-door-l": "game:sounds/block/largechestclose",
+			"drawer-maple-door-r": "game:sounds/block/largechestclose",
+			"drawer-maple-draw": "game:sounds/block/drawclose",
+			"drawer-maple-draw-c": "game:sounds/block/drawclose",
+			"drawer-maple-draw-l": "game:sounds/block/drawclose",
+			"drawer-maple-draw-r": "game:sounds/block/drawclose",
+			"drawer-oak-door": "game:sounds/block/largechestclose",
+			"drawer-oak-door-c": "game:sounds/block/largechestclose",
+			"drawer-oak-door-l": "game:sounds/block/largechestclose",
+			"drawer-oak-door-r": "game:sounds/block/largechestclose",
+			"drawer-oak-draw": "game:sounds/block/drawclose",
+			"drawer-oak-draw-c": "game:sounds/block/drawclose",
+			"drawer-oak-draw-l": "game:sounds/block/drawclose",
+			"drawer-oak-draw-r": "game:sounds/block/drawclose",
+			"drawer-pine-door": "game:sounds/block/largechestclose",
+			"drawer-pine-door-c": "game:sounds/block/largechestclose",
+			"drawer-pine-door-l": "game:sounds/block/largechestclose",
+			"drawer-pine-door-r": "game:sounds/block/largechestclose",
+			"drawer-pine-draw": "game:sounds/block/drawclose",
+			"drawer-pine-draw-c": "game:sounds/block/drawclose",
+			"drawer-pine-draw-l": "game:sounds/block/drawclose",
+			"drawer-pine-draw-r": "game:sounds/block/drawclose",
+			"drawer-purpleheart-door": "game:sounds/block/largechestclose",
+			"drawer-purpleheart-door-c": "game:sounds/block/largechestclose",
+			"drawer-purpleheart-door-l": "game:sounds/block/largechestclose",
+			"drawer-purpleheart-door-r": "game:sounds/block/largechestclose",
+			"drawer-purpleheart-draw": "game:sounds/block/drawclose",
+			"drawer-purpleheart-draw-c": "game:sounds/block/drawclose",
+			"drawer-purpleheart-draw-l": "game:sounds/block/drawclose",
+			"drawer-purpleheart-draw-r": "game:sounds/block/drawclose",
+			"drawer-redwood-door": "game:sounds/block/largechestclose",
+			"drawer-redwood-door-c": "game:sounds/block/largechestclose",
+			"drawer-redwood-door-l": "game:sounds/block/largechestclose",
+			"drawer-redwood-door-r": "game:sounds/block/largechestclose",
+			"drawer-redwood-draw": "game:sounds/block/drawclose",
+			"drawer-redwood-draw-c": "game:sounds/block/drawclose",
+			"drawer-redwood-draw-l": "game:sounds/block/drawclose",
+			"drawer-redwood-draw-r": "game:sounds/block/drawclose",
+			"drawer-walnut-door": "game:sounds/block/largechestclose",
+			"drawer-walnut-door-c": "game:sounds/block/largechestclose",
+			"drawer-walnut-door-l": "game:sounds/block/largechestclose",
+			"drawer-walnut-door-r": "game:sounds/block/largechestclose",
+			"drawer-walnut-draw": "game:sounds/block/drawclose",
+			"drawer-walnut-draw-c": "game:sounds/block/drawclose",
+			"drawer-walnut-draw-l": "game:sounds/block/drawclose",
+			"drawer-walnut-draw-r": "game:sounds/block/drawclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [{"name": "Lockable" }, {"name": "Container"},	{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" }
+		}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "medieval" ],
+				"stacks": [
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-acacia-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-acacia-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-acacia-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-acacia-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-acacia-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-acacia-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-acacia-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-acacia-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-aged-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-aged-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-aged-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-aged-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-aged-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-aged-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-aged-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-aged-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-baldcypress-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-baldcypress-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-baldcypress-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-baldcypress-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-baldcypress-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-baldcypress-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-baldcypress-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-baldcypress-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-birch-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-birch-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-birch-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-birch-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-birch-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-birch-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-birch-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-birch-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-ebony-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-ebony-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-ebony-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-ebony-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-ebony-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-ebony-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-ebony-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-ebony-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-kapok-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-kapok-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-kapok-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-kapok-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-kapok-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-kapok-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-kapok-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-kapok-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-larch-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-larch-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-larch-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-larch-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-larch-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-larch-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-larch-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-larch-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-maple-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-maple-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-maple-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-maple-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-maple-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-maple-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-maple-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-maple-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-oak-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-oak-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-oak-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-oak-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-oak-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-oak-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-oak-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-oak-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-pine-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-pine-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-pine-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-pine-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-pine-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-pine-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-pine-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-pine-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-purpleheart-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-purpleheart-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-purpleheart-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-purpleheart-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-purpleheart-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-purpleheart-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-purpleheart-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-purpleheart-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-redwood-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-redwood-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-redwood-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-redwood-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-redwood-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-redwood-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-redwood-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-redwood-draw-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-walnut-door" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-walnut-door-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-walnut-door-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-walnut-door-r" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-walnut-draw" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-walnut-draw-c" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-walnut-draw-l" } },
+					{ "type": "block", code: "draw-east", attributes: { "type": "drawer-walnut-draw-r" } }
+				]
+			}
+		]
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "block/wood/chest/normal", rotateY: 270 },
+	shapeByType: {
+		"*-north": { base: "block/wood/chest/normal", rotateY: 0 },
+		"*-east": { base: "block/wood/chest/normal", rotateY: 270 },
+		"*-west": { base: "block/wood/chest/normal", rotateY: 90 },
+		"*-south": { base: "block/wood/chest/normal", rotateY: 180 },
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	textures: {
+
+
+		"drawer-acacia-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-acacia-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-acacia-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-acacia-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-acacia-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-acacia-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-acacia-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-acacia-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-aged-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-aged-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-aged-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-aged-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-aged-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-aged-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-aged-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-aged-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-birch-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-birch-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-birch-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-birch-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-birch-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-birch-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-birch-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-birch-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-ebony-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-ebony-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-ebony-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-ebony-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-ebony-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-ebony-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-ebony-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-ebony-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-kapok-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-kapok-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-kapok-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-kapok-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-kapok-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-kapok-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-kapok-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-kapok-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-larch-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-larch-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-larch-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-larch-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-larch-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-larch-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-larch-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-larch-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-maple-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-maple-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-maple-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-maple-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-maple-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-maple-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-maple-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-maple-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-oak-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-oak-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-oak-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-oak-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-oak-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-oak-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-oak-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-oak-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-pine-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-pine-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-pine-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-pine-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-pine-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-pine-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-pine-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-pine-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-redwood-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-redwood-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-redwood-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-redwood-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-redwood-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-redwood-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-redwood-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-redwood-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-walnut-door-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-walnut-door-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-walnut-door-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-walnut-door-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-walnut-draw-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-walnut-draw-c-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-walnut-draw-l-knob": { 
+			base: "block/wood/chest/knob"
+		},
+		"drawer-walnut-draw-r-knob": { 
+			base: "block/wood/chest/knob"
+		},
+
+
+
+		"drawer-acacia-door-acaciadark": { 
+			base: "block/wood/chest/acaciadark"
+		},
+		"drawer-acacia-door-c-acaciadark": { 
+			base: "block/wood/chest/acaciadark"
+		},
+		"drawer-acacia-door-l-acaciadark": { 
+			base: "block/wood/chest/acaciadark"
+		},
+		"drawer-acacia-door-r-acaciadark": { 
+			base: "block/wood/chest/acaciadark"
+		},
+
+		"drawer-acacia-draw-acaciadark": { 
+			base: "block/wood/chest/acaciadark"
+		},
+		"drawer-acacia-draw-c-acaciadark": { 
+			base: "block/wood/chest/acaciadark"
+		},
+		"drawer-acacia-draw-l-acaciadark": { 
+			base: "block/wood/chest/acaciadark"
+		},
+		"drawer-acacia-draw-r-acaciadark": { 
+			base: "block/wood/chest/acaciadark"
+		},
+
+
+		"drawer-aged-door-ageddark": { 
+			base: "block/wood/chest/ageddark"
+		},
+		"drawer-aged-door-c-ageddark": { 
+			base: "block/wood/chest/ageddark"
+		},
+		"drawer-aged-door-l-ageddark": { 
+			base: "block/wood/chest/ageddark"
+		},
+		"drawer-aged-door-r-ageddark": { 
+			base: "block/wood/chest/ageddark"
+		},
+
+		"drawer-aged-draw-ageddark": { 
+			base: "block/wood/chest/ageddark"
+		},
+		"drawer-aged-draw-c-ageddark": { 
+			base: "block/wood/chest/ageddark"
+		},
+		"drawer-aged-draw-l-ageddark": { 
+			base: "block/wood/chest/ageddark"
+		},
+		"drawer-aged-draw-r-ageddark": { 
+			base: "block/wood/chest/ageddark"
+		},
+
+
+		"drawer-baldcypress-door-baldcypressdark": { 
+			base: "block/wood/chest/baldcypressdark"
+		},
+		"drawer-baldcypress-door-c-baldcypressdark": { 
+			base: "block/wood/chest/baldcypressdark"
+		},
+		"drawer-baldcypress-door-l-baldcypressdark": { 
+			base: "block/wood/chest/baldcypressdark"
+		},
+		"drawer-baldcypress-door-r-baldcypressdark": { 
+			base: "block/wood/chest/baldcypressdark"
+		},
+
+		"drawer-baldcypress-draw-baldcypressdark": { 
+			base: "block/wood/chest/baldcypressdark"
+		},
+		"drawer-baldcypress-draw-c-baldcypressdark": { 
+			base: "block/wood/chest/baldcypressdark"
+		},
+		"drawer-baldcypress-draw-l-baldcypressdark": { 
+			base: "block/wood/chest/baldcypressdark"
+		},
+		"drawer-baldcypress-draw-r-baldcypressdark": { 
+			base: "block/wood/chest/baldcypressdark"
+		},
+
+
+		"drawer-birch-door-birchdark": { 
+			base: "block/wood/chest/birchdark"
+		},
+		"drawer-birch-door-c-birchdark": { 
+			base: "block/wood/chest/birchdark"
+		},
+		"drawer-birch-door-l-birchdark": { 
+			base: "block/wood/chest/birchdark"
+		},
+		"drawer-birch-door-r-birchdark": { 
+			base: "block/wood/chest/birchdark"
+		},
+
+		"drawer-birch-draw-birchdark": { 
+			base: "block/wood/chest/birchdark"
+		},
+		"drawer-birch-draw-c-birchdark": { 
+			base: "block/wood/chest/birchdark"
+		},
+		"drawer-birch-draw-l-birchdark": { 
+			base: "block/wood/chest/birchdark"
+		},
+		"drawer-birch-draw-r-birchdark": { 
+			base: "block/wood/chest/birchdark"
+		},
+
+
+		"drawer-ebony-door-ebonydark": { 
+			base: "block/wood/chest/ebonydark"
+		},
+		"drawer-ebony-door-c-ebonydark": { 
+			base: "block/wood/chest/ebonydark"
+		},
+		"drawer-ebony-door-l-ebonydark": { 
+			base: "block/wood/chest/ebonydark"
+		},
+		"drawer-ebony-door-r-ebonydark": { 
+			base: "block/wood/chest/ebonydark"
+		},
+
+		"drawer-ebony-draw-ebonydark": { 
+			base: "block/wood/chest/ebonydark"
+		},
+		"drawer-ebony-draw-c-ebonydark": { 
+			base: "block/wood/chest/ebonydark"
+		},
+		"drawer-ebony-draw-l-ebonydark": { 
+			base: "block/wood/chest/ebonydark"
+		},
+		"drawer-ebony-draw-r-ebonydark": { 
+			base: "block/wood/chest/ebonydark"
+		},
+
+
+		"drawer-kapok-door-kapokdark": { 
+			base: "block/wood/chest/kapokdark"
+		},
+		"drawer-kapok-door-c-kapokdark": { 
+			base: "block/wood/chest/kapokdark"
+		},
+		"drawer-kapok-door-l-kapokdark": { 
+			base: "block/wood/chest/kapokdark"
+		},
+		"drawer-kapok-door-r-kapokdark": { 
+			base: "block/wood/chest/kapokdark"
+		},
+
+		"drawer-kapok-draw-kapokdark": { 
+			base: "block/wood/chest/kapokdark"
+		},
+		"drawer-kapok-draw-c-kapokdark": { 
+			base: "block/wood/chest/kapokdark"
+		},
+		"drawer-kapok-draw-l-kapokdark": { 
+			base: "block/wood/chest/kapokdark"
+		},
+		"drawer-kapok-draw-r-kapokdark": { 
+			base: "block/wood/chest/kapokdark"
+		},
+
+
+		"drawer-larch-door-larchdark": { 
+			base: "block/wood/chest/larchdark"
+		},
+		"drawer-larch-door-c-larchdark": { 
+			base: "block/wood/chest/larchdark"
+		},
+		"drawer-larch-door-l-larchdark": { 
+			base: "block/wood/chest/larchdark"
+		},
+		"drawer-larch-door-r-larchdark": { 
+			base: "block/wood/chest/larchdark"
+		},
+
+		"drawer-larch-draw-larchdark": { 
+			base: "block/wood/chest/larchdark"
+		},
+		"drawer-larch-draw-c-larchdark": { 
+			base: "block/wood/chest/larchdark"
+		},
+		"drawer-larch-draw-l-larchdark": { 
+			base: "block/wood/chest/larchdark"
+		},
+		"drawer-larch-draw-r-larchdark": { 
+			base: "block/wood/chest/larchdark"
+		},
+
+
+		"drawer-maple-door-mapledark": { 
+			base: "block/wood/chest/mapledark"
+		},
+		"drawer-maple-door-c-mapledark": { 
+			base: "block/wood/chest/mapledark"
+		},
+		"drawer-maple-door-l-mapledark": { 
+			base: "block/wood/chest/mapledark"
+		},
+		"drawer-maple-door-r-mapledark": { 
+			base: "block/wood/chest/mapledark"
+		},
+
+		"drawer-maple-draw-mapledark": { 
+			base: "block/wood/chest/mapledark"
+		},
+		"drawer-maple-draw-c-mapledark": { 
+			base: "block/wood/chest/mapledark"
+		},
+		"drawer-maple-draw-l-mapledark": { 
+			base: "block/wood/chest/mapledark"
+		},
+		"drawer-maple-draw-r-mapledark": { 
+			base: "block/wood/chest/mapledark"
+		},
+
+
+		"drawer-oak-door-oakdark": { 
+			base: "block/wood/chest/oakdark"
+		},
+		"drawer-oak-door-c-oakdark": { 
+			base: "block/wood/chest/oakdark"
+		},
+		"drawer-oak-door-l-oakdark": { 
+			base: "block/wood/chest/oakdark"
+		},
+		"drawer-oak-door-r-oakdark": { 
+			base: "block/wood/chest/oakdark"
+		},
+
+		"drawer-oak-draw-oakdark": { 
+			base: "block/wood/chest/oakdark"
+		},
+		"drawer-oak-draw-c-oakdark": { 
+			base: "block/wood/chest/oakdark"
+		},
+		"drawer-oak-draw-l-oakdark": { 
+			base: "block/wood/chest/oakdark"
+		},
+		"drawer-oak-draw-r-oakdark": { 
+			base: "block/wood/chest/oakdark"
+		},
+
+
+		"drawer-pine-door-pinedark": { 
+			base: "block/wood/chest/pinedark"
+		},
+		"drawer-pine-door-c-pinedark": { 
+			base: "block/wood/chest/pinedark"
+		},
+		"drawer-pine-door-l-pinedark": { 
+			base: "block/wood/chest/pinedark"
+		},
+		"drawer-pine-door-r-pinedark": { 
+			base: "block/wood/chest/pinedark"
+		},
+
+		"drawer-pine-draw-pinedark": { 
+			base: "block/wood/chest/pinedark"
+		},
+		"drawer-pine-draw-c-pinedark": { 
+			base: "block/wood/chest/pinedark"
+		},
+		"drawer-pine-draw-l-pinedark": { 
+			base: "block/wood/chest/pinedark"
+		},
+		"drawer-pine-draw-r-pinedark": { 
+			base: "block/wood/chest/pinedark"
+		},
+
+
+		"drawer-purpleheart-door-purpleheartdark": { 
+			base: "block/wood/chest/purpleheartdark"
+		},
+		"drawer-purpleheart-door-c-purpleheartdark": { 
+			base: "block/wood/chest/purpleheartdark"
+		},
+		"drawer-purpleheart-door-l-purpleheartdark": { 
+			base: "block/wood/chest/purpleheartdark"
+		},
+		"drawer-purpleheart-door-r-purpleheartdark": { 
+			base: "block/wood/chest/purpleheartdark"
+		},
+
+		"drawer-purpleheart-draw-purpleheartdark": { 
+			base: "block/wood/chest/purpleheartdark"
+		},
+		"drawer-purpleheart-draw-c-purpleheartdark": { 
+			base: "block/wood/chest/purpleheartdark"
+		},
+		"drawer-purpleheart-draw-l-purpleheartdark": { 
+			base: "block/wood/chest/purpleheartdark"
+		},
+		"drawer-purpleheart-draw-r-purpleheartdark": { 
+			base: "block/wood/chest/purpleheartdark"
+		},
+
+
+		"drawer-redwood-door-redwooddark": { 
+			base: "block/wood/chest/redwooddark"
+		},
+		"drawer-redwood-door-c-redwooddark": { 
+			base: "block/wood/chest/redwooddark"
+		},
+		"drawer-redwood-door-l-redwooddark": { 
+			base: "block/wood/chest/redwooddark"
+		},
+		"drawer-redwood-door-r-redwooddark": { 
+			base: "block/wood/chest/redwooddark"
+		},
+
+		"drawer-redwood-draw-redwooddark": { 
+			base: "block/wood/chest/redwooddark"
+		},
+		"drawer-redwood-draw-c-redwooddark": { 
+			base: "block/wood/chest/redwooddark"
+		},
+		"drawer-redwood-draw-l-redwooddark": { 
+			base: "block/wood/chest/redwooddark"
+		},
+		"drawer-redwood-draw-r-redwooddark": { 
+			base: "block/wood/chest/redwooddark"
+		},
+
+
+		"drawer-walnut-door-walnutdark": { 
+			base: "block/wood/chest/walnutdark"
+		},
+		"drawer-walnut-door-c-walnutdark": { 
+			base: "block/wood/chest/walnutdark"
+		},
+		"drawer-walnut-door-l-walnutdark": { 
+			base: "block/wood/chest/walnutdark"
+		},
+		"drawer-walnut-door-r-walnutdark": { 
+			base: "block/wood/chest/walnutdark"
+		},
+
+		"drawer-walnut-draw-walnutdark": { 
+			base: "block/wood/chest/walnutdark"
+		},
+		"drawer-walnut-draw-c-walnutdark": { 
+			base: "block/wood/chest/walnutdark"
+		},
+		"drawer-walnut-draw-l-walnutdark": { 
+			base: "block/wood/chest/walnutdark"
+		},
+		"drawer-walnut-draw-r-walnutdark": { 
+			base: "block/wood/chest/walnutdark"
+		}
+
+
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 3,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},
+	sideopaque: {
+		all: false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.0625,
+			"z1": 0.9375,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 1,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.0625,
+			"z1": 0.9375,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 1,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.4, z: 0.5 },
+		scale: 1.16
+	}
+}

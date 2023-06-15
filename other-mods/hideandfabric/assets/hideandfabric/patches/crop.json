@@ -1,0 +1,52 @@
+[
+  {
+    "file": "game:worldgen/blockpatches/crop.json",
+    "op": "replace",
+    "path": "/2",
+    "value": {
+        "comment": "Small patches of flax",
+        "blockCodes": ["crop-flax-4", "crop-flax-6", "crop-flax-8", "crop-flax-9", "crop-flax-2"],
+        "minTemp": 1,
+        "maxTemp": 26,
+        "minRain": 0.35,
+        "maxRain": 0.75,
+        "maxForest": 0.5,
+        "quantity": { "avg": 5, "var": 5 },
+        "chance": 0.09
+    }
+  },
+  {
+    "file": "game:worldgen/blockpatches/crop.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of cotton",
+      "blockCodes": ["hideandfabric:crop-cotton-1", "hideandfabric:crop-cotton-2", "hideandfabric:crop-cotton-3", "hideandfabric:crop-cotton-4", "hideandfabric:crop-cotton-5", "hideandfabric:crop-cotton-6", "hideandfabric:crop-cotton-7", "hideandfabric:crop-cotton-8"],
+      "minTemp": 14,
+      "maxTemp": 45,
+      "minRain": 0.45,
+      "maxRain": 0.9,
+      "minForest": 0.2,
+      "maxForest": 0.8,
+      "quantity": { "avg": 5, "var": 5 },
+      "chance": 0.06
+    }
+  },
+  {
+    "file": "game:worldgen/blockpatches/crop.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of jute",
+      "blockCodes": ["hideandfabric:crop-jute-1", "hideandfabric:crop-jute-2", "hideandfabric:crop-jute-3", "hideandfabric:crop-jute-4", "hideandfabric:crop-jute-5", "hideandfabric:crop-jute-6", "hideandfabric:crop-jute-7", "hideandfabric:crop-jute-8", "hideandfabric:crop-jute-9"],
+      "minTemp": 14,
+      "maxTemp": 45,
+      "minRain": 0.50,
+      "maxRain": 1.00,
+      "minForest": 0.3,
+      "maxForest": 1.0,
+      "quantity": { "avg": 5, "var": 5 },
+      "chance": 0.05
+    }
+  }
+]

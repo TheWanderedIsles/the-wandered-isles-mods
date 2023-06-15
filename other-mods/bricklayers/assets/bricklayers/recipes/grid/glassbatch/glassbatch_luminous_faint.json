@@ -1,0 +1,166 @@
+[
+	{
+	"ingredientPattern": "UUL,BBB",
+	"ingredients": {
+		"U": { "type": "item", "code": "em:powdered-metal-uranium", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-yellow", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-yellow-faint", "quantity": 3 }
+	},
+	{
+	"ingredientPattern": "RRL,BBB",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-redphosphorus", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-red", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-red-faint", "quantity": 3 }
+	},
+	{
+	"ingredientPattern": "GGL,BBB",
+	"ingredients": {
+		"G": { "type": "item", "code": "em:powdered-metal-temporal", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-blue", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-blue-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "RUL,BBB",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-redphosphorus", "quantity": 1 },
+		"U": { "type": "item", "code": "em:powdered-ore-yellowcake", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-orange", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"name": "glassbatch-luminous-orange-normal",
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-orange-faint", "quantity": 3 }
+	},
+	{
+	"ingredientPattern": "RUL,BBB",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-redphosphorus", "quantity": 1 },
+		"U": { "type": "item", "code": "em:powdered-metal-uranium", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-brown", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"name": "glassbatch-luminous-orange-normal",
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-brown-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "UGL,BBB",
+	"ingredients": {
+		"U": { "type": "item", "code": "em:powdered-metal-uranium", "quantity": 1 },
+		"G": { "type": "item", "code": "em:powdered-metal-temporal", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-green", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-green-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "RFL,BBB",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-redphosphorus", "quantity": 1 },
+		"F": { "type": "item", "code": "em:powdered-ore-fluorite", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-pink", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-pink-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "RGL,BBB",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-redphosphorus", "quantity": 1 },
+		"G": { "type": "item", "code": "em:powdered-metal-temporal", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-violet", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-violet-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "FLL,BBB",
+	"ingredients": {
+		"F": { "type": "item", "code": "em:powdered-ore-fluorite", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-black", "quantity": 1, "name": "type", "allowedVariants": [ "plain", "dark", "milky", "quartz", "smoky", "opaque" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-black-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "FPL,BBB",
+	"ingredients": {
+		"F": { "type": "item", "code": "em:powdered-ore-fluorite", "quantity": 1 },
+		"P": { "type": "item", "code": "em:powdered-ore-phosphorite", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-plain-white-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "FPL,BBB",
+	"ingredients": {
+		"F": { "type": "item", "code": "em:powdered-ore-fluorite", "quantity": 1 },
+		"P": { "type": "item", "code": "em:powdered-ore-phosphorite", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-white", "quantity": 1, "name": "type", "allowedVariants": [ "opaque" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-white-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "FPL,BBB",
+	"ingredients": {
+		"F": { "type": "item", "code": "em:powdered-ore-fluorite", "quantity": 1 },
+		"P": { "type": "item", "code": "em:powdered-ore-phosphorite", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-*-smoky", "quantity": 1, "name": "type", "allowedVariants": [ "milky", "quartz", "smoky" ] }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-{type}-white-faint", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "FPL,BBB",
+	"ingredients": {
+		"F": { "type": "item", "code": "em:powdered-ore-fluorite", "quantity": 1 },
+		"P": { "type": "item", "code": "em:powdered-ore-phosphorite", "quantity": 1 },
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-black", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-dark-white-faint", "quantity": 3 }
+	}
+
+]

@@ -1,0 +1,374 @@
+{
+  "code": "fruit",
+  "maxstacksize": 64,
+  "variantgroups": [
+    { "loadFromProperties": "wildcraft:block/fruit" }
+  ],
+  "materialDensityByType": {
+    "*": 600
+  },
+  "attributes": {
+    "inContainerTexture": {
+      "base": "wildcraft:block/food/pie/fill-{fruit}"
+    },
+    "nutritionPropsWhenInMealByType": {
+      "*-cloudberry": {
+        "satiety": 120,
+        "health": 1,
+        "foodcategory": "Fruit"
+      },
+      "*-strawberry": {
+        "satiety": 120,
+        "foodcategory": "Fruit"
+      },
+      "@*-(brambleberry|gooseberry|honeysuckle|raspberry)": {
+        "satiety": 100,
+        "health": 0,
+        "foodcategory": "Fruit"
+      },
+      "*-wolfberry": {
+        "satiety": 100,
+        "health": -8,
+        "foodcategory": "Fruit"
+      },
+      "*-elderberry": {
+        "satiety": 80,
+        "foodcategory": "Fruit"
+      },
+      "@*-(bunchberry|crowberry)": {
+        "satiety": 60,
+        "foodcategory": "Fruit"
+      },
+      "*-snowberry": {
+        "satiety": 60,
+        "health": -2,
+        "foodcategory": "Fruit"
+      },
+      "*-dogrose": {
+        "satiety": 40,
+        "foodcategory": "Fruit"
+      },
+      "*": {
+        "satiety": 80,
+        "foodcategory": "Fruit"
+      }
+    },
+    "inPieProperties": {
+      "texture": "wildcraft:block/food/pie/fill-{fruit}",
+      "partType": "Filling"
+    },
+    "juiceablePropertiesByType": {
+      "*": {
+				  "litresPerItem": 0.3125,
+				  "liquidStack": { "type": "item", "code": "wildcraft:juiceportion-{fruit}", "stacksize": 1 },
+				  "pressedStack": { "type": "item", "code": "wildcraft:pressedmash-{fruit}", "stacksize": 1 }
+      }
+    }
+  },
+  "shapebytype": {
+    "*": { "base": "wildcraft:item/fruit/{fruit}" }
+  },
+  "textureByType": {
+    "*": null
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraft": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-cloudberry": {
+      "satiety": 120,
+      "health": 0.5,
+      "foodcategory": "Fruit"
+    },
+    "*-strawberry": {
+      "satiety": 100,
+      "foodcategory": "Fruit"
+    },
+    "@*-(brambleberry|gooseberry|honeysuckle|raspberry)": {
+      "satiety": 80,
+      "health": 0,
+      "foodcategory": "Fruit"
+    },
+    "*-wolfberry": {
+      "satiety": 60,
+      "health": -8,
+      "foodcategory": "Fruit"
+    },
+    "*-elderberry": {
+      "satiety": 60,
+      "health": -0.5,
+      "foodcategory": "Fruit"
+    },
+    "@*-(bunchberry|crowberry)": {
+      "satiety": 40,
+      "foodcategory": "Fruit"
+    },
+    "*-snowberry": {
+      "satiety": 40,
+      "health": -2,
+      "foodcategory": "Fruit"
+    },
+    "*-dogrose": {
+      "satiety": 20,
+      "foodcategory": "Fruit"
+    },
+    "*": {
+      "satiety": 60,
+      "foodcategory": "Fruit"
+    }
+  },
+  "transitionablePropsByType": {
+    "*-snowberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-cloudberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 6 },
+        "transitionHours": { "avg": 2 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "@*-(strawberry|honeysuckle)": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 24 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-elderberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 68 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-huckleberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 96 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-dogrose": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 336 },
+        "transitionHours": { "avg": 168 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 48 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ]
+  },
+  "guiTransformByType": {
+    "*-wolfberry": {
+      rotation: { x: -2, y: 140, z: 103 },
+      origin: { x: 0.37, y: -0.1, z: 0.8 },
+      scale: 2.23
+    },
+    "*-crowberry": {
+      rotation: { x: 13, y: 0, z: -8 },
+      origin: { x: 0.45, y: 0, z: 0 },
+      scale: 2.91
+    },
+    "*-bunchberry": {
+      rotation: { x: -30, y: 0, z: 16 },
+      origin: { x: 0.55, y: 0.45, z: 0 },
+      scale: 2.97
+    },
+    "*-husktomato": {
+        rotation: { x: -43, y: 3, z: 146 },
+        origin: { x: 0.5, y: -0.1, z: 0 },
+        scale: 2.09
+    },
+    "*-strawberry": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 56, y: -142, z: -124 },
+        origin: { x: 0.55, y: 0.1, z: 0.55 },
+        scale: 2.53
+    },
+    "@*-(huckleberry|snowberry)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -113, y: -58, z: 16 },
+			origin: { x: 0.46, y: 0.22, z: 0.42 },
+			scale: 2.6
+		},
+    "*-brambleberry": {
+      translation: { x: 0, y: 0, z: 0 },
+      rotation: { x: 40, y: -180, z: 180 },
+      origin: { x: 0.4389, y: 0.113, z: 0.5329 },
+      scale: 2.56
+    },
+    "*-cloudberry":	{
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 99, y: -122, z: -180 },
+        origin: { x: 0.4299, y: 0.32, z: 0.57 },
+        scale: 3.34
+    },
+    "*-elderberry":	{
+        rotation: { x: 0, y: -5, z: -42 },
+        origin: { x: 0.52, y: 0.1, z: 0.1 },
+        scale: 3.92
+    },
+    "*-gooseberry": {
+        rotation: { x: -125, y: 30, z: 1 },
+        origin: { x: 0.45, y: 0, z: 0.2 },
+        scale: 1.92
+    },
+    "*-raspberry": {
+        rotation: { x: -127, y: -1, z: -48 },
+        origin: { x: 0.55, y: -0.1, z: 0.3 },
+        scale: 2.14
+    },
+    "*-blueraspberry": {
+      rotation: { x: -127, y: -1, z: -48 },
+      origin: { x: 0.55, y: -0.1, z: 0.3 },
+      scale: 2.14
+  },
+    "*-dogrose":{
+        translation: { x: 3, y: 1.2, z: 0 },
+        rotation: { x: 99, y: -85, z: 6 },
+        origin: { x: 0.4, y: 0.5, z: 0.5 },
+        scale: 2.05
+    },
+    "*-honeysuckle": {
+        rotation: { x: 25, y: -2, z: -105 },
+        origin: { x: 0.5, y: 0.1, z: 0 },
+        scale: 4.05
+    }
+  },
+  "fpHandTransformByType": {
+    "*-strawberry": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 83, y: 21, z: 36 },
+        origin: { x: 0.71, y: 0.33, z: 0.5 },
+        scale: 1.29
+    },
+		"@*-(huckleberry|snowberry)": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 21, y: 3, z: -30 },
+        origin: { x: 0.5, y: 0.3, z: 0.5 },
+        scale: 1.01
+		},
+    "*-brambleberry": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 133, y: 1, z: 24 },
+        origin: { x: 0.6, y: 0.1, z: 0.4 },
+        scale: 1.09
+    },
+    "*-cloudberry":	{
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 28, y: 6, z: -163 },
+        origin: { x: 0.42, y: 0.29, z: 0.8 },
+        scale: 0.99
+    },
+    "*-elderberry":	{
+      rotation: { x: 180, y: 67, z: -28 },
+      origin: { x: 0.5, y: 0.27, z: 0.5 },
+      scale: 1.47
+    },
+    "*-gooseberry":	{
+        rotation: { x: -119, y: 105, z: -180 },
+        origin: { x: 0.73, y: 0.51, z: 0.5 },
+        scale: 0.88
+    },
+    "*-raspberry": {
+        rotation: { x: 77, y: 24, z: -17 },
+        origin: { x: 0.86, y: 0.35, z: 0.5 },
+        scale: 1.23
+    },
+    "*-blueraspberry": {
+      rotation: { x: 77, y: 24, z: -17 },
+      origin: { x: 0.86, y: 0.35, z: 0.5 },
+      scale: 1.23
+  },
+    "*-dogrose":{
+        rotation: { x: -22, y: 77, z: 99 },
+        origin: { x: 0.45, y: 0.57, z: 0.99 },
+        scale: 0.78
+    },
+    "*-honeysuckle": {
+        rotation: { x: 96, y: 90, z: -30 },
+        origin: { x: 0.8, y: 0.9, z: 0.5 },
+        scale: 1.89
+    }
+  },
+  tpHandTransform: {
+    "*-bramblberry":{
+      translation: { x: -1.5, y: -1.1, z: -1.4 },
+      rotation: { x: 4, y: -45, z: 12 }
+    },
+    "*-cloudberry": {
+      translation: { x: -1.5, y: -1.3, z: -1.4 }
+    },
+    "*-dogrose": {
+      rotation: { x: 53, y: -62, z: 18 },
+      origin: { x: 0.5, y: 0.48, z: 0.55 }
+    },
+    "*-gooseberry":{
+        rotation: { x: 0, y: -62, z: 73 },
+        origin: { x: 0.6, y: 0.55, z: 0.5 }
+    },
+    "*-honeysuckle":{
+        rotation: { x: 0, y: -62, z: 98 },
+        origin: { x: 0.5, y: 0.6, z: 0.5 },
+        scale: 0.37
+    },
+    "*-raspberry":{
+        rotation: { x: -86, y: -87, z: 95 },
+        origin: { x: 0.5, y: 0.65, z: 0.5 }
+    },
+    "*-blueraspberry":{
+      rotation: { x: -86, y: -87, z: 95 },
+      origin: { x: 0.5, y: 0.65, z: 0.5 }
+  },
+    "*-strawberry":{
+        origin: { x: 0.5, y: 0.65, z: 0.5 }
+    }
+	}
+}

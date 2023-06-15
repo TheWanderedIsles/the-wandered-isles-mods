@@ -1,0 +1,609 @@
+{
+	"code": "drawtallfancy",
+	"class": "BlockContainers",
+	"entityclass": "BlockEntityContainers",
+	"attributes": {
+		"partialAttachable": true,
+		"canPlaceGroundStorgeOnTop": true,
+		"inventoryClassName": "container",
+		"defaultType": "drawerfancy-acacia-tall",
+		"types": [ "drawerfancy-acacia-tall", "drawerfancy-baldcypress-tall", "drawerfancy-birch-tall", "drawerfancy-ebony-tall", "drawerfancy-kapok-tall", "drawerfancy-larch-tall", "drawerfancy-maple-tall", "drawerfancy-oak-tall", "drawerfancy-pine-tall", "drawerfancy-purpleheart-tall", "drawerfancy-redwood-tall", "drawerfancy-walnut-tall", ],
+
+		"rotatatableInterval": {
+			"drawerfancy-acacia-tall": "90deg",
+			"drawerfancy-baldcypress-tall": "90deg",
+			"drawerfancy-birch-tall": "90deg",
+			"drawerfancy-ebony-tall": "90deg",
+			"drawerfancy-kapok-tall": "90deg",
+			"drawerfancy-larch-tall": "90deg",
+			"drawerfancy-maple-tall": "90deg",
+			"drawerfancy-oak-tall": "90deg",
+			"drawerfancy-pine-tall": "90deg",
+			"drawerfancy-purpleheart-tall": "90deg",
+			"drawerfancy-redwood-tall": "90deg",
+			"drawerfancy-walnut-tall": "90deg"
+		},
+		"canAutoPull": {
+			"drawerfancy-acacia-tall": false,
+			"drawerfancy-baldcypress-tall": false,
+			"drawerfancy-birch-tall": false,
+			"drawerfancy-ebony-tall": false,
+			"drawerfancy-kapok-tall": false,
+			"drawerfancy-larch-tall": false,
+			"drawerfancy-maple-tall": false,
+			"drawerfancy-oak-tall": false,
+			"drawerfancy-pine-tall": false,
+			"drawerfancy-purpleheart-tall": false,
+			"drawerfancy-redwood-tall": false,
+			"drawerfancy-walnut-tall": false
+		},
+		"drop": {
+			"drawerfancy-acacia-tall": true,
+			"drawerfancy-baldcypress-tall": true,
+			"drawerfancy-birch-tall": true,
+			"drawerfancy-birch-tall-r": true,
+			"drawerfancy-kapok-tall": true,
+			"drawerfancy-larch-tall": true,
+			"drawerfancy-maple-tall": true,
+			"drawerfancy-oak-tall": true,
+			"drawerfancy-pine-tall": true,
+			"drawerfancy-purpleheart-tall": true,
+			"drawerfancy-redwood-tall": true,
+			"drawerfancy-walnut-tall": true
+		},
+		"quantitySlots": {
+			"drawerfancy-acacia-tall": 40,
+			"drawerfancy-baldcypress-tall": 40,
+			"drawerfancy-birch-tall": 40,
+			"drawerfancy-ebony-tall": 40,
+			"drawerfancy-kapok-tall": 40,
+			"drawerfancy-larch-tall": 40,
+			"drawerfancy-maple-tall": 40,
+			"drawerfancy-oak-tall": 40,
+			"drawerfancy-pine-tall": 40,
+			"drawerfancy-purpleheart-tall": 40,
+			"drawerfancy-redwood-tall": 40,
+			"drawerfancy-walnut-tall": 40
+		},
+		"quantityColumns": {
+			"drawerfancy-acacia-tall": 5,
+			"drawerfancy-baldcypress-tall": 5,
+			"drawerfancy-birch-tall": 5,
+			"drawerfancy-ebony-tall": 5,
+			"drawerfancy-kapok-tall": 5,
+			"drawerfancy-larch-tall": 5,
+			"drawerfancy-maple-tall": 5,
+			"drawerfancy-oak-tall": 5,
+			"drawerfancy-pine-tall": 5,
+			"drawerfancy-purpleheart-tall": 5,
+			"drawerfancy-redwood-tall": 5,
+			"drawerfancy-walnut-tall": 5
+		},
+		"dialogTitleLangCode": {
+			"drawerfancy-acacia-tall": "Ropero Grande",
+			"drawerfancy-baldcypress-tall": "Ropero Grande",
+			"drawerfancy-birch-tall": "Ropero Grande",
+			"drawerfancy-ebony-tall": "Ropero Grande",
+			"drawerfancy-kapok-tall": "Ropero Grande",
+			"drawerfancy-larch-tall": "Ropero Grande",
+			"drawerfancy-maple-tall": "Ropero Grande",
+			"drawerfancy-oak-tall": "Ropero Grande",
+			"drawerfancy-pine-tall": "Ropero Grande",
+			"drawerfancy-purpleheart-tall": "Ropero Grande",
+			"drawerfancy-redwood-tall": "Ropero Grande",
+			"drawerfancy-walnut-tall": "Ropero Grande"
+		},
+		"storageType": {
+			"drawerfancy-acacia-tall": 189,
+			"drawerfancy-baldcypress-tall": 189,
+			"drawerfancy-birch-tall": 189,
+			"drawerfancy-ebony-tall": 189,
+			"drawerfancy-kapok-tall": 189,
+			"drawerfancy-larch-tall": 189,
+			"drawerfancy-maple-tall": 189,
+			"drawerfancy-oak-tall": 189,
+			"drawerfancy-pine-tall": 189,
+			"drawerfancy-purpleheart-tall": 189,
+			"drawerfancy-redwood-tall": 189,
+			"drawerfancy-walnut-tall": 189
+		},
+		"retrieveOnly": {
+			"drawerfancy-acacia-tall": false,
+			"drawerfancy-baldcypress-tall": false,
+			"drawerfancy-birch-tall": false,
+			"drawerfancy-ebony-tall": false,
+			"drawerfancy-kapok-tall": false,
+			"drawerfancy-larch-tall": false,
+			"drawerfancy-maple-tall": false,
+			"drawerfancy-oak-tall": false,
+			"drawerfancy-pine-tall": false,
+			"drawerfancy-purpleheart-tall": false,
+			"drawerfancy-redwood-tall": false,
+			"drawerfancy-walnut-tall": false
+		},
+		"shape": {
+			"drawerfancy-acacia-tall": "block/wood/chestfancy/drawerfancy-acacia-tall",
+			"drawerfancy-baldcypress-tall": "block/wood/chestfancy/drawerfancy-baldcypress-tall",
+			"drawerfancy-birch-tall": "block/wood/chestfancy/drawerfancy-birch-tall",
+			"drawerfancy-ebony-tall": "block/wood/chestfancy/drawerfancy-ebony-tall",
+			"drawerfancy-kapok-tall": "block/wood/chestfancy/drawerfancy-kapok-tall",
+			"drawerfancy-larch-tall": "block/wood/chestfancy/drawerfancy-larch-tall",
+			"drawerfancy-maple-tall": "block/wood/chestfancy/drawerfancy-maple-tall",
+			"drawerfancy-oak-tall": "block/wood/chestfancy/drawerfancy-oak-tall",
+			"drawerfancy-pine-tall": "block/wood/chestfancy/drawerfancy-pine-tall",
+			"drawerfancy-purpleheart-tall": "block/wood/chestfancy/drawerfancy-purpleheart-tall",
+			"drawerfancy-redwood-tall": "block/wood/chestfancy/drawerfancy-redwood-tall",
+			"drawerfancy-walnut-tall": "block/wood/chestfancy/drawerfancy-walnut-tall"
+		},
+		"typedOpenSound": {
+			"drawerfancy-acacia-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-baldcypress-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-birch-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-ebony-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-kapok-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-larch-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-maple-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-oak-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-pine-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-purpleheart-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-redwood-tall": "game:sounds/block/largechestopen",
+			"drawerfancy-walnut-tall": "game:sounds/block/largechestopen",
+		},
+		"typedCloseSound": {
+			"drawerfancy-acacia-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-baldcypress-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-birch-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-ebony-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-kapok-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-larch-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-maple-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-oak-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-pine-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-purpleheart-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-redwood-tall": "game:sounds/block/largechestclose",
+			"drawerfancy-walnut-tall": "game:sounds/block/largechestclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [{"name": "Lockable" }, {"name": "Container"},	{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" }
+		},
+		{ name: "Multiblock", propertiesByType: {
+				"*-north": { sizex: 1, sizey: 2, sizez: 1, cposition: { x: 0, y: 0, z: 0 } },
+				"*-east": { sizex: 1, sizey: 2, sizez: 1, cposition: { x: 0, y: 0, z: 0 } },
+				"*-south": { sizex: 1, sizey: 2, sizez: 1, cposition: { x: 0, y: 0, z: 0 } },
+				"*-west": { sizex: 1, sizey: 2, sizez: 1, cposition: { x: 0, y: 0, z: 0 } } 
+			}
+		}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "medieval" ],
+				"stacks": [
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-acacia-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-baldcypress-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-birch-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-ebony-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-kapok-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-larch-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-maple-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-oak-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-pine-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-purpleheart-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-redwood-tall" } },
+					{ "type": "block", code: "drawtallfancy-east", attributes: { "type": "drawerfancy-walnut-tall" } }
+				]
+			}
+		]
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "block/wood/chest/normal", rotateY: 270 },
+	shapeByType: {
+		"*-north": { base: "block/wood/chest/normal", rotateY: 0 },
+		"*-east": { base: "block/wood/chest/normal", rotateY: 270 },
+		"*-west": { base: "block/wood/chest/normal", rotateY: 90 },
+		"*-south": { base: "block/wood/chest/normal", rotateY: 180 },
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	textures: {
+
+
+		"drawerfancy-acacia-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-baldcypress-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-birch-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-ebony-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-kapok-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-larch-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-maple-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-oak-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-pine-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-purpleheart-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-redwood-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+		"drawerfancy-walnut-tall-knob2": { 
+			base: "block/wood/chest/fancy/knob2"
+		},
+
+
+
+		"drawerfancy-acacia-tall-acaciadoor": { 
+			base: "block/wood/chest/fancy/acaciadoor"
+		},
+		"drawerfancy-acacia-tall-acaciadraw": { 
+			base: "block/wood/chest/fancy/acaciadraw"
+		},
+		"drawerfancy-acacia-tall-acaciamm": { 
+			base: "block/wood/chest/fancy/acaciamm"
+		},
+		"drawerfancy-acacia-tall-acaciaoverlay": { 
+			base: "block/wood/chest/fancy/acaciaoverlay"
+		},
+		"drawerfancy-acacia-tall-acaciatall": { 
+			base: "block/wood/chest/fancy/acaciatall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-baldcypress-tall-baldcypressdoor": { 
+			base: "block/wood/chest/fancy/baldcypressdoor"
+		},
+		"drawerfancy-baldcypress-tall-baldcypressdraw": { 
+			base: "block/wood/chest/fancy/baldcypressdraw"
+		},
+		"drawerfancy-baldcypress-tall-baldcypressmm": { 
+			base: "block/wood/chest/fancy/baldcypressmm"
+		},
+		"drawerfancy-baldcypress-tall-baldcypressoverlay": { 
+			base: "block/wood/chest/fancy/baldcypressoverlay"
+		},
+		"drawerfancy-baldcypress-tall-baldcypresstall": { 
+			base: "block/wood/chest/fancy/baldcypresstall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-birch-tall-birchdoor": { 
+			base: "block/wood/chest/fancy/birchdoor"
+		},
+		"drawerfancy-birch-tall-birchdraw": { 
+			base: "block/wood/chest/fancy/birchdraw"
+		},
+		"drawerfancy-birch-tall-birchmm": { 
+			base: "block/wood/chest/fancy/birchmm"
+		},
+		"drawerfancy-birch-tall-birchoverlay": { 
+			base: "block/wood/chest/fancy/birchoverlay"
+		},
+		"drawerfancy-birch-tall-birchtall": { 
+			base: "block/wood/chest/fancy/birchtall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-ebony-tall-ebonydoor": { 
+			base: "block/wood/chest/fancy/ebonydoor"
+		},
+		"drawerfancy-ebony-tall-ebonydraw": { 
+			base: "block/wood/chest/fancy/ebonydraw"
+		},
+		"drawerfancy-ebony-tall-ebonymm": { 
+			base: "block/wood/chest/fancy/ebonymm"
+		},
+		"drawerfancy-ebony-tall-ebonyoverlay": { 
+			base: "block/wood/chest/fancy/ebonyoverlay"
+		},
+		"drawerfancy-ebony-tall-ebonytall": { 
+			base: "block/wood/chest/fancy/ebonytall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-kapok-tall-kapokdoor": { 
+			base: "block/wood/chest/fancy/kapokdoor"
+		},
+		"drawerfancy-kapok-tall-kapokdraw": { 
+			base: "block/wood/chest/fancy/kapokdraw"
+		},
+		"drawerfancy-kapok-tall-kapokmm": { 
+			base: "block/wood/chest/fancy/kapokmm"
+		},
+		"drawerfancy-kapok-tall-kapokoverlay": { 
+			base: "block/wood/chest/fancy/kapokoverlay"
+		},
+		"drawerfancy-kapok-tall-kapoktall": { 
+			base: "block/wood/chest/fancy/kapoktall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-larch-tall-larchdoor": { 
+			base: "block/wood/chest/fancy/larchdoor"
+		},
+		"drawerfancy-larch-tall-larchdraw": { 
+			base: "block/wood/chest/fancy/larchdraw"
+		},
+		"drawerfancy-larch-tall-larchmm": { 
+			base: "block/wood/chest/fancy/larchmm"
+		},
+		"drawerfancy-larch-tall-larchoverlay": { 
+			base: "block/wood/chest/fancy/larchoverlay"
+		},
+		"drawerfancy-larch-tall-larchtall": { 
+			base: "block/wood/chest/fancy/larchtall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-maple-tall-mapledoor": { 
+			base: "block/wood/chest/fancy/mapledoor"
+		},
+		"drawerfancy-maple-tall-mapledraw": { 
+			base: "block/wood/chest/fancy/mapledraw"
+		},
+		"drawerfancy-maple-tall-maplemm": { 
+			base: "block/wood/chest/fancy/maplemm"
+		},
+		"drawerfancy-maple-tall-mapleoverlay": { 
+			base: "block/wood/chest/fancy/mapleoverlay"
+		},
+		"drawerfancy-maple-tall-mapletall": { 
+			base: "block/wood/chest/fancy/mapletall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-oak-tall-oakdoor": { 
+			base: "block/wood/chest/fancy/oakdoor"
+		},
+		"drawerfancy-oak-tall-oakdraw": { 
+			base: "block/wood/chest/fancy/oakdraw"
+		},
+		"drawerfancy-oak-tall-oakmm": { 
+			base: "block/wood/chest/fancy/oakmm"
+		},
+		"drawerfancy-oak-tall-oakoverlay": { 
+			base: "block/wood/chest/fancy/oakoverlay"
+		},
+		"drawerfancy-oak-tall-oaktall": { 
+			base: "block/wood/chest/fancy/oaktall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-pine-tall-pinedoor": { 
+			base: "block/wood/chest/fancy/pinedoor"
+		},
+		"drawerfancy-pine-tall-pinedraw": { 
+			base: "block/wood/chest/fancy/pinedraw"
+		},
+		"drawerfancy-pine-tall-pinemm": { 
+			base: "block/wood/chest/fancy/pinemm"
+		},
+		"drawerfancy-pine-tall-pineoverlay": { 
+			base: "block/wood/chest/fancy/pineoverlay"
+		},
+		"drawerfancy-pine-tall-pinetall": { 
+			base: "block/wood/chest/fancy/pinetall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-purpleheart-tall-purpleheartdoor": { 
+			base: "block/wood/chest/fancy/purpleheartdoor"
+		},
+		"drawerfancy-purpleheart-tall-purpleheartdraw": { 
+			base: "block/wood/chest/fancy/purpleheartdraw"
+		},
+		"drawerfancy-purpleheart-tall-purpleheartmm": { 
+			base: "block/wood/chest/fancy/purpleheartmm"
+		},
+		"drawerfancy-purpleheart-tall-purpleheartoverlay": { 
+			base: "block/wood/chest/fancy/purpleheartoverlay"
+		},
+		"drawerfancy-purpleheart-tall-purplehearttall": { 
+			base: "block/wood/chest/fancy/purplehearttall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-redwood-tall-redwooddoor": { 
+			base: "block/wood/chest/fancy/redwooddoor"
+		},
+		"drawerfancy-redwood-tall-redwooddraw": { 
+			base: "block/wood/chest/fancy/redwooddraw"
+		},
+		"drawerfancy-redwood-tall-redwoodmm": { 
+			base: "block/wood/chest/fancy/redwoodmm"
+		},
+		"drawerfancy-redwood-tall-redwoodoverlay": { 
+			base: "block/wood/chest/fancy/redwoodoverlay"
+		},
+		"drawerfancy-redwood-tall-redwoodtall": { 
+			base: "block/wood/chest/fancy/redwoodtall"
+		},
+
+
+
+
+
+
+
+		"drawerfancy-walnut-tall-walnutdoor": { 
+			base: "block/wood/chest/fancy/walnutdoor"
+		},
+		"drawerfancy-walnut-tall-walnutdraw": { 
+			base: "block/wood/chest/fancy/walnutdraw"
+		},
+		"drawerfancy-walnut-tall-walnutmm": { 
+			base: "block/wood/chest/fancy/walnutmm"
+		},
+		"drawerfancy-walnut-tall-walnutoverlay": { 
+			base: "block/wood/chest/fancy/walnutoverlay"
+		},
+		"drawerfancy-walnut-tall-walnuttall": { 
+			base: "block/wood/chest/fancy/walnuttall"
+		}
+
+
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 3,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},
+	faceCullMode: "NeverCull",
+	sideopaque: {
+		all: false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.9375,
+			"x2": 0.9375,
+			"y2": 1,
+			"z2": 1,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.9375,
+			"x2": 0.9375,
+			"y2": 1,
+			"z2": 1,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.4, z: 0.5 },
+		scale: 1.16
+	}
+}

@@ -1,0 +1,51 @@
+If you want to use the functionality provided by Hide and Fabric's wool shearing library then have a look at 
+the patches contained in the file assets/hideandfabric/patches/sheep.json, all you need to do to add wool growth
+and shearing behaviour to your entity is to add the "wool" entity behaviour to both theserver and client side
+behavior arrays and adjust the properties to your liking, what the entity behavior does is allow you to define
+a wool/hair item that you can shear depending on what generation the animal is and you can customise the behavior
+to allow you to define what the minimum generation of the animal that you can begin shearing them at, the minimum
+and maximum of the random roll that determines the amount of the shearing product you get per shearing, how much
+extra product you get from using shears instead of a knife (this can be zero), how long you have to wait in between 
+shearings for the product to regrow, what sound is played when shearing is performed and how often the animal is 
+scratched and a small amount of damage is dealt to the animal during shearing (this can result in the animal attacking)
+
+Here is a rundown on what the various properties do:
+
+- minQuantity is the lower bound of the random roll determining how much product is received during shearing, if
+this value is undefined the default value is 4
+- maxQuantity is the upper bound of the random roll determining how much product is received, the maximum amount 
+is equal to maxQuantity + shearBonus + 1, if this value is undefined the default value is 12
+- shearableAt is the number of in-game hours that you have to wait after shearing before you can shear the animal again,
+if this value is undefined the default value is 216 hours or 9 days
+- minGen is the minimum generation number at which you can begin to shear the animal for it's shearing products,
+below this number the animal is considered too wild to be sheared, is this is undefined the default value is gen 3
+- shearsBonus is the amount of extra wool you receive during shearing for using a pair of shears instead of a knife,
+or the amount of potential wool you lose out on when shearing with a knife, if undefined the default value is 4
+- scratchChance is the chance threshold in a random roll between 0 and 1 below which a small amount of damage is dealt
+to the animal during shearing to simulate accidental nicking of the animal, using a knife doubles this chance, if this
+value is undefined the default value is 0.5
+- woolItem is the item code of the item given when the animal is sheared, by default this value is "hideandfabric:woolfibers"
+- shearSound is the asset code for the sound produced when shearing the animal, if undefined the default value of this
+property is "game:sound/player/scrape.ogg" which is the same sound used in the vanilla game for harvesting/skinning animals
+
+Here is an example definition, make sure it is defined in both the client and server side behaviors array and that the values
+in both definitions are the same:
+   {
+      "code": "wool",
+
+      "minQuantity": 16,
+
+      "maxQuantity": 32,
+
+      "shearableAt": 96,
+
+      "minGen": 2,
+
+      "shearsBonus": 8,
+      "scratchChance": 0.5,
+
+      "woolItem": "game:flaxfibers",
+      "shearSound": "game:sounds/player/scrape.ogg"
+   }
+
+Credit to Jakecool19 for making the initial implementation of the wool entityBehavior library for me

@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"shale": "block/stone/polishedrock/shale",
+		"shalemed": "block/stone/pillar/shale1/shalemed"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#shalemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#shalemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#shalemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#shalemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#shale", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#shale", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

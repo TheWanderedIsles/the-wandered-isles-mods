@@ -1,0 +1,71 @@
+{
+	code: "barrelhorizontal",
+	class: "BlockBucket",
+	behaviors: [
+		{name: "UnstableFalling"}, 
+		{ name: "MilkingContainer" } 
+	],
+	entityClass: "Bucket",
+	attributes: {
+		liquidContainerProps: {
+			capacityLitres: 50,
+			transferSizeLitres: 1,
+			emptyShapeLoc: "medieval:shapes/block/wood/barril/empty",
+			opaqueContentShapeLoc: "medieval:shapes/block/wood/barril/contents",
+			liquidContentShapeLoc: "medieval:shapes/block/wood/barril/liquidcontents",
+			liquidMaxYTranslate: 0.4375
+		}
+	},
+    variantgroups: [
+              { code: "type", states: ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"]}],
+    creativeinventory: { 
+                        "general": ["*"], "decorative": ["*"], "medieval": ["*"] },
+	shape: { base: "medieval:block/wood/barril/empty" },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	blockmaterial: "Wood",
+	textures: {
+		"0": { "base": "game:block/wood/debarked/barrel/side/{type}" },
+	},
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldTpUseAnimation": "twohandplaceblock",
+	replaceable: 500,
+	resistance: 1.5,
+	maxStackSize: 1,
+	liquidSelectable: 1,
+	lightAbsorption: 0,
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	collisionbox: {
+		x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1
+	},
+	selectionbox: {
+		x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1
+	},
+	materialDensity: 400,
+		tpHandTransform: {
+		translation: { x: -0.85, y: -0.77, z: -0.52 },
+		rotation: { x: -81, y: 12, z: -100 },
+		scale: 0.56
+	},
+		guiTransform: {
+		rotation: { x: -22.6, y: 135, z: 0 },
+		origin: { x: 0.5, y: 0.42, z: 0.5 },
+		scale: 1.2
+	},
+	fpHandTransform: {
+		scale: 1.5
+	},
+	groundTransform: {
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2
+	}
+}

@@ -1,0 +1,389 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"grape_flower_stem": "block/plant/vine/stem/grape_flower_stem",
+		"grape_leaves": "block/plant/vine/leaves/grape_leaves",
+		"grape_flower": "block/plant/vine/flowers/grape_flower"
+	},
+	"elements": [
+		{
+			"name": "stalk2",
+			"from": [ 0.0, 0.0, 8.0026 ], 
+			"to": [ 16.0, 16.0, 8.0026 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 7.5, 0.0, 8.0 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+				"east": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"south": { "texture": "#grape_flower_stem", "uv": [ 1.0, 0.0, 15.0, 14.0 ], "autoUv": false, "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+				"west": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"up": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "bigleaf",
+					"from": [ -0.25, 0.0, -0.05 ], 
+					"to": [ 7.25, 8.5, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalMaple",
+					"renderPass": 2,
+					"rotationOrigin": [ 3.5, 8.5, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_leaves", "uv": [ 8.0, 0.5, 15.5, 9.0 ], "windMode": [0,0,1,1] },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "smalleaf",
+					"from": [ 1.85, 5.1, -0.05 ], 
+					"to": [ 9.35, 13.6, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalMaple",
+					"renderPass": 2,
+					"rotationOrigin": [ 5.6, 13.6, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_leaves", "uv": [ 0.0, 0.5, 7.5, 9.0 ], "windMode": [1,1,1,1] },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bigleaf5",
+					"from": [ 7.75, 0.0, -0.05 ], 
+					"to": [ 15.25, 8.5, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 11.5, 8.5, -0.05 ],
+					"rotationX": 90.0,
+					"rotationY": -45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_leaves", "uv": [ 8.0, 0.5, 15.5, 9.0 ], "windMode": [0,0,1,1] },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "smallleaf2",
+					"from": [ 5.85, 5.1, -0.05 ], 
+					"to": [ 13.35, 13.6, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 9.6, 13.6, -0.05 ],
+					"rotationX": 90.0,
+					"rotationY": -45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_leaves", "uv": [ 0.0, 0.5, 7.5, 9.0 ], "windMode": [1,1,1,1] },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "smalflowers",
+					"from": [ 3.75, 7.2, -0.05 ], 
+					"to": [ 10.25, 12.7, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 7.5, 15.7, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 5.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 5.5 ], "enabled": false },
+						"south": { "texture": "#grape_flower", "uv": [ 0.0, 1.0, 13.0, 16.0 ], "autoUv": false },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 5.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bigflower",
+					"from": [ -0.35, 0.1, -0.05 ], 
+					"to": [ 7.15, 8.6, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 3.4, 8.6, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_flower", "uv": [ 2.0, 0.5, 13.5, 16.0 ], "autoUv": false },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bigflower2",
+					"from": [ 7.85, 0.1, -0.05 ], 
+					"to": [ 15.35, 8.6, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 11.6, 8.6, -0.05 ],
+					"rotationX": 90.0,
+					"rotationY": -45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_flower", "uv": [ 2.0, 1.0, 13.0, 16.0 ], "autoUv": false },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "smalflowers14",
+					"from": [ 3.95, 7.2, -0.05 ], 
+					"to": [ 10.45, 12.7, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 7.7, 15.7, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -135.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 5.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 5.5 ], "enabled": false },
+						"south": { "texture": "#grape_flower", "uv": [ 0.0, 1.0, 13.0, 16.0 ], "autoUv": false },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 5.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "stalk10",
+			"from": [ 0.0, 0.0, 8.0026 ], 
+			"to": [ 16.0, 16.0, 8.0026 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 7.5, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+				"east": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"south": { "texture": "#grape_flower_stem", "uv": [ 1.0, 0.0, 15.0, 14.0 ], "autoUv": false },
+				"west": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"up": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#vine_stem", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "bigleaf11",
+					"from": [ -0.25, 0.0, -0.05 ], 
+					"to": [ 7.25, 8.5, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 3.5, 8.5, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_leaves", "uv": [ 8.0, 0.5, 15.5, 9.0 ] },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "smalleaf12",
+					"from": [ 1.85, 5.1, -0.05 ], 
+					"to": [ 9.35, 13.6, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 5.6, 13.6, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_leaves", "uv": [ 0.0, 0.5, 7.5, 9.0 ] },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bigleaf13",
+					"from": [ 7.75, 0.0, -0.05 ], 
+					"to": [ 15.25, 8.5, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 11.5, 8.5, -0.05 ],
+					"rotationX": 90.0,
+					"rotationY": -45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_leaves", "uv": [ 8.0, 0.5, 15.5, 9.0 ] },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "smallleaf14",
+					"from": [ 5.85, 5.1, -0.05 ], 
+					"to": [ 13.35, 13.6, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 9.6, 13.6, -0.05 ],
+					"rotationX": 90.0,
+					"rotationY": -45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_leaves", "uv": [ 0.0, 0.5, 7.5, 9.0 ] },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "smalflowers15",
+					"from": [ 3.75, 7.2, -0.05 ], 
+					"to": [ 10.25, 12.7, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 7.5, 15.7, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 5.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 5.5 ], "enabled": false },
+						"south": { "texture": "#grape_flower", "uv": [ 0.0, 1.0, 13.0, 16.0 ], "autoUv": false },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 5.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bigflower16",
+					"from": [ -0.35, 0.1, -0.05 ], 
+					"to": [ 7.15, 8.6, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 3.4, 8.6, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -45.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_flower", "uv": [ 2.0, 0.5, 13.5, 16.0 ], "autoUv": false },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bigflower17",
+					"from": [ 7.85, 0.1, -0.05 ], 
+					"to": [ 15.35, 8.6, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 11.6, 8.6, -0.05 ],
+					"rotationX": 90.0,
+					"rotationY": -45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 8.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"south": { "texture": "#grape_flower", "uv": [ 2.0, 1.0, 13.0, 16.0 ], "autoUv": false },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 8.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "smalflowers18",
+					"from": [ 3.95, 7.2, -0.05 ], 
+					"to": [ 10.45, 12.7, -0.05 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "climatePlantTint",
+					"renderPass": 2,
+					"rotationOrigin": [ 7.7, 15.7, -0.05 ],
+					"rotationX": -90.0,
+					"rotationY": -135.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 5.5 ], "enabled": false },
+						"east": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 5.5 ], "enabled": false },
+						"south": { "texture": "#grape_flower", "uv": [ 0.0, 1.0, 13.0, 16.0 ], "autoUv": false },
+						"west": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 0.5, 5.5 ], "enabled": false },
+						"up": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#grape_leaves", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

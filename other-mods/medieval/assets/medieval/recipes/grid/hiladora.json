@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "RTF,PPP,S_S",
+	ingredients: {
+		"S": { type: "item", code: "game:stick", quantity: 2 },
+		"P": { type: "item", code: "game:plank-*", quantity: 1 },
+		"T": { type: "item", code: "game:resin", quantity: 1 },
+		"F": { type: "item", code: "game:flaxtwine", quantity: 1 },
+		"R": { type: "block", code: "game:angledgears-s"  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "hiladora-north"  }
+}

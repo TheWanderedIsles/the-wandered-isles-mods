@@ -1,0 +1,32 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"fur": "C:/Users/Usuario/AppData/Roaming/VintagestoryData/Mods/Medieval/assets/survival/shapes/entity/humanoid/seraph/clothing/upperbodyover/fur"
+	},
+	"elements": [
+		{
+			"name": "GamHelmet",
+			"stepParentName": "Head",
+			"from": [ 0.1, 0.0, -0.6 ], 
+			"to": [ 6.8, 6.0, 5.7 ], 
+			"unwrapMode": 1,
+			"autoUnwrap": false,
+			"uv": [ 36.0, 17.5 ],
+			"rotationOrigin": [ 0.1, 0.8, -0.6 ],
+			"faces": {
+				"north": { "texture": "#fur", "uv": [ 41.5, 23.5, 48.5, 30.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#fur", "uv": [ 36.0, 23.5, 42.0, 30.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#fur", "uv": [ 54.5, 23.5, 61.0, 30.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#fur", "uv": [ 48.5, 23.5, 54.5, 30.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#fur", "uv": [ 41.5, 17.5, 48.5, 23.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#fur", "uv": [ 41.5, 30.0, 48.0, 36.0 ], "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

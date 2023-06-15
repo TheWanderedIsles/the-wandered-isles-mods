@@ -1,0 +1,41 @@
+[
+    {
+	"ingredientPattern": "ANL,C  ",
+	"ingredients": {
+		"A": { "type": "item", "code": "moremetals:crushed-aluminium", "quantity": 4 },
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 6 },
+		"L": { "type": "item", "code": "em:crushed-ore-limonite", "quantity": 8 },
+		"C": { "type": "item", "code": "moremetals:cobalt", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:alnicoblendlimonite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "ANH,C  ",
+	"ingredients": {
+		"A": { "type": "item", "code": "moremetals:crushed-aluminium", "quantity": 4 },
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 6 },
+		"H": { "type": "item", "code": "em:crushed-ore-hematite", "quantity": 8 },
+		"C": { "type": "item", "code": "moremetals:cobalt", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:alnicoblendhematite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "ANM,C  ",
+	"ingredients": {
+		"A": { "type": "item", "code": "moremetals:crushed-aluminium", "quantity": 4 },
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 6 },
+		"M": { "type": "item", "code": "em:crushed-ore-magnetite", "quantity": 8 },
+		"C": { "type": "item", "code": "moremetals:cobalt", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:alnicoblendmagnetite", "quantity": 1 }
+   }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:entities/humanoid/trader-clothing.json",
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+      "code": "hideandfabric:seeds-cotton",
+      "type": "item",
+      "stacksize": 4,
+      "stock": { "avg": 2, "var": 0.5 },
+      "price": { "avg": 4, "var": 1 }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+    {
+		ingredientPattern: "H__,RCR",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "block", code: "game:moldrack-normal-east", quantity: 1},
+			"R": { type: "item", code: "game:plank-*", quantity: 1}
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "swordrackfun-normal-north", quantity: 2 }
+	}
+]

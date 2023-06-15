@@ -1,0 +1,39 @@
+[
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/attributes",
+    "value": {"workStationTransformsbyType": 
+                {
+                "plank-*":
+                  {
+                    "idgSawHorseProps": 
+                    {
+                      "idgSawHorseTransform": 
+                      {
+                        "translation": {
+                          "north": {
+                            "x": 0,
+                            "z": -0.5
+                          },
+                          "south": {
+                            "x": 0,
+                            "z": 0.5 
+                          },
+                          "west": {
+                            "x": -0.5
+                          },
+                          "east": {
+                            "x": 0.5
+                          }
+
+                        }
+                      }
+                    } 
+                  }
+                }
+             },
+    "file": "game:itemtypes/resource/plank.json",
+    "side": "server"
+  }
+]

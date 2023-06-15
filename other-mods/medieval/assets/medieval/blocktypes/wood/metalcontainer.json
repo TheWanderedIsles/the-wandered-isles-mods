@@ -1,0 +1,184 @@
+{
+	"code": "metalcontainer",
+	"class": "BlockContainers",
+	"entityclass": "BlockEntityContainers",
+	"attributes": {
+		"partialAttachable": true,
+		"canPlaceGroundStorgeOnTop": true,
+		"inventoryClassName": "container",
+		"defaultType": "generic",
+		"types": [ "bigmetalstorage" ],
+		"rotatatableInterval": {
+			"bigmetalstorage": "90deg"
+		},
+		"canAutoPull": {
+			"bigmetalstorage": false
+		},
+		"drop": {
+			"bigmetalstorage": true
+		},
+		"quantitySlots": {
+			"bigmetalstorage": 30
+		},
+		"quantityColumns": {
+			"bigmetalstorage": 5
+		},
+		"dialogTitleLangCode": {
+			"bigmetalstorage": "Contenedor Metálico"
+		},
+		"storageType": {
+			"bigmetalstorage": 189
+		},
+		"retrieveOnly": {
+			"bigmetalstorage": false
+		},
+		"shape": {
+			"bigmetalstorage": "block/wood/chest/bigmetalstorage"
+		},
+		"typedOpenSound": {
+			"bigmetalstorage": "game:sounds/block/metalchestopen"
+		},
+		"typedCloseSound": {
+			"bigmetalstorage": "game:sounds/block/metalchestclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [{"name": "Lockable" }, {"name": "Container"},	{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" }
+		}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "medieval" ],
+				"stacks": [
+					{ "type": "block", "code": "metalcontainer-east", "attributes": { "type": "bigmetalstorage" } }
+				]
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"shapeInventory": { "base": "block/wood/chest/bigmetalstorage", "rotateY": 270 },
+	"shapeByType": {
+		"*-north": { "base": "block/wood/chest/bigmetalstorage", "rotateY": 0 },
+		"*-east": { "base": "block/wood/chest/bigmetalstorage", "rotateY": 270 },
+		"*-west": { "base": "block/wood/chest/bigmetalstorage", "rotateY": 90 },
+		"*-south": { "base": "block/wood/chest/bigmetalstorage", "rotateY": 180 }
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	"textures": {
+
+
+
+
+
+
+		"bigmetalstorage-lid": { 
+			"base": "block/wood/chest/lid"
+		},
+		"bigmetalstorage-molybdochalkos1": { 
+			"base": "block/wood/chest/molybdochalkos1"
+		},
+		"bigmetalstorage-side": { 
+			"base": "block/wood/chest/side"
+		},
+		"bigmetalstorage-top": { 
+			"base": "block/wood/chest/top"
+		}
+
+
+	},
+	"blockmaterial": "Metal",
+	"replaceable": 900,
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sideAo": { "all": false },
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.0625,
+			"z1": 0.9375,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 1,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.9375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.0625,
+			"z1": 0.9375,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 1,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"sounds": {
+		"place": "game:block/metaldoor-place",
+		"break": "game:block/chute",
+		"hit": "game:block/chute",
+		"walk": "game:block/chute"
+	},
+	"materialDensity": 300,
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.5, "z": -0.3 },
+		"rotation": { "x": 0, "y": 90, "z": -102 },
+		"scale": 0.56
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+		"scale": 1.16
+	}
+}

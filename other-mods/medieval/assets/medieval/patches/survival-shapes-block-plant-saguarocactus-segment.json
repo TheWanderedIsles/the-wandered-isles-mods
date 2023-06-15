@@ -1,0 +1,109 @@
+[
+  {
+    "op": "add",
+    "path": "/editor",
+    "value": {
+      "allAngles": false,
+      "entityTextureMode": false
+    },
+    "file": "game:shapes/block/plant/saguarocactus/segment.json"
+  },
+  {
+    "op": "add",
+    "path": "/textureHeight",
+    "value": 16,
+    "file": "game:shapes/block/plant/saguarocactus/segment.json"
+  },
+  {
+    "op": "add",
+    "path": "/textureSizes",
+    "value": {},
+    "file": "game:shapes/block/plant/saguarocactus/segment.json"
+  },
+  {
+    "op": "add",
+    "path": "/textureWidth",
+    "value": 16,
+    "file": "game:shapes/block/plant/saguarocactus/segment.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/1",
+    "value": {
+      "name": "Base2",
+      "from": [
+        3.0,
+        -0.05,
+        3.0
+      ],
+      "to": [
+        13.0,
+        15.95,
+        13.0
+      ],
+      "rotationOrigin": [
+        8.0,
+        0.0,
+        8.0
+      ],
+      "rotationY": -45.0,
+      "faces": {
+        "north": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            3.0,
+            6.0,
+            13.0,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            6.0,
+            13.0,
+            16.0
+          ]
+        }
+      }
+    },
+    "file": "game:shapes/block/plant/saguarocactus/segment.json"
+  }
+]

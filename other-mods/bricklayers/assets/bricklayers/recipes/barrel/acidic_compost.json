@@ -1,0 +1,21 @@
+[
+	{
+	"code": "acidiccompostweak",
+	"sealHours": 6,
+	"ingredients": [
+		{ "type": "item", "code": "game:vinegarportion", "litres": 1 },
+		{ "type": "item", "code": "game:compost", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "bricklayers:acidiccompost-weak", "quantity": 1 }
+	},
+
+	{
+	"code": "acidiccompoststrong",
+	"sealHours": 24,
+	"ingredients": [
+		{ "type": "item", "code": "game:weaktanninportion", "litres": 1 },
+		{ "type": "item", "code": "bricklayers:acidiccompost-weak", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "bricklayers:acidiccompost-strong", "quantity": 1 }
+	}
+]

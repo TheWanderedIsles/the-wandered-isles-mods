@@ -1,0 +1,28 @@
+[
+	{
+	"ingredientPattern": "W,P",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:beeswax" },
+		"P": { "type": "block", "code": "bricklayers:pattern-burnt-*", "name": "type" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:pattern-waxed-{type}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "B,P",
+	"ingredients": {
+		"B": { "type": "block", "code": "game:woodbucket" },
+		"P": { "type": "block", "code": "bricklayers:pattern-waxed-*", "name": "type" }
+	},
+	"width": 1,
+	"height": 2,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "bricklayers:glazing-clear-brown" },
+                        "requiresLitres": 2
+		}
+	},
+	"output": { "type": "block", "code": "bricklayers:pattern-colored-{type}", "quantity": 1 }
+	}
+]

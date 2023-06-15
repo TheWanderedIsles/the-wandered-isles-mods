@@ -1,0 +1,122 @@
+{
+	code: "bigbasketwood",
+	classByType: { "*": "BlockContainers" },
+	entityclassByType: { "*": "BlockEntityContainers" },
+	behaviorsByType: {
+		"*": [{name: "Lockable" }, {name: "Container"}, {name: "UnstableFalling"}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}]
+	},
+	entityBehaviorsByType: {
+		"*": [{ name: "Animatable" }]
+	},
+	attributes: {
+		partialAttachable: false,
+		canPlaceGroundStorgeOnTop: false,
+		inventoryClassName: "chest",
+		defaultType: "bigbasketwood",
+		types: ["bigbasketwood"],
+		drop: {
+			"bigbasketwood": true
+		},
+		quantitySlots: {
+			"bigbasketwood": 20
+		},
+		quantityColumns: {
+			"bigbasketwood": 4
+		},
+		dialogTitleLangCode: {
+			"bigbasketwood": "Cesta Grande de Madera"
+		},
+		storageType: {
+			"bigbasketwood": 189
+		},
+		retrieveOnly: {
+			"bigbasketwood": false
+		},
+		shape: {
+			"bigbasketwood": "block/medieval/cestawood"
+		},
+		variantByGroup: "variant",
+		variantByGroupInventory: "variant",
+		openSound: "sounds/block/container/basketopen",
+		closeSound: "sounds/block/container/basketclose",
+	},
+	variantgroups: [
+		{ code: "variant", states: ["acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] },
+	],
+	shape: { base: "block/medieval/cestawood" },
+	texturesByType: {
+		"*": {
+			"bigbasketwood-variant": { base: "block/wood/debarked/cesta/{variant}" }
+		},
+	},
+	blockmaterial: "Wood",
+	creativeinventory: {  },
+	creativeinventoryStacksByType: {
+		"*": [
+			{
+				tabs: [ "general", "decorative", "medieval" ],
+				stacks: [
+					{ type: "block", code: "bigbasketwood-{variant}", attributes: { type: "bigbasketwood" } },
+				]
+			}
+		]
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 2,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.4375,
+			"z2": 0.9375
+		},
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.5,
+			"z2": 1
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.4375,
+			"z2": 0.9375
+		},
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.5,
+			"z2": 1
+		}
+	],
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.3
+	}
+}

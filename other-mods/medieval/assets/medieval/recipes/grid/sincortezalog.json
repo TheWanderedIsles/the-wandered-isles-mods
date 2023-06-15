@@ -1,0 +1,21 @@
+[
+	{
+		"ingredientPattern": "LS",
+		"ingredients": {
+			"L": { "type": "block",	"code": "game:log-placed-*-ud",	"name": "wood" },
+			"S": { "type": "item", "code": "medieval:bastren-*", "isTool": true }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "block", "code": "medieval:sincortezalog-{wood}-ud", "quantity": 1 } },
+	{
+		"ingredientPattern": "LS",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:logsection-placed-*-ne-ud", "name": "wood" },	
+			"S": { "type": "item", "code": "bastren-*", "isTool": true }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "block", "code": "sincortezalog-{wood}-ud", "quantity": 1 }
+	}
+]

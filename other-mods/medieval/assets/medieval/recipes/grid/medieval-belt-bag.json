@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "LTL,_L_",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1 }
+	},
+	width: 3,
+	height: 2,
+	name: "backpack",
+	output: { type: "item", code: "medieval-belt-bag"  }
+}

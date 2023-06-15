@@ -1,0 +1,13 @@
+[
+	{
+	"ingredientPattern": "BS",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"B": { "type": "block", "code": "game:hardenedclay-*", "name": "type", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 1,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:hardenedclayslab-{type}-down-free", "quantity": 2 }
+	}
+]

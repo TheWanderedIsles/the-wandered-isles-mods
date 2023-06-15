@@ -1,0 +1,106 @@
+[
+  {
+    "file": "game:entities/land/sheep-bighorn-female.json",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "wool",
+	  "hoursPerWoolUnit" : 18.0,
+      "hoursPerWoolUnitGenerationalReduction" : 0.5,
+      "hoursPerWoolUnitMaxReduction" : 6.0,
+      "maxGenBonus" : 8,
+      "generationalMaxWoolGrowthBonus" : 8,
+      "generationalScratchChanceReduction" : 0.05,
+      "minQuantity": 10,
+      "maxQuantity": 20,
+      "minGen": 2,
+      "shearsBonus": 4,
+      "scratchChance": 0.25,
+      "woolItem": "hideandfabric:fibers-wool",
+      "shearSound": "game:sounds/player/scrape.ogg"
+    }
+  },
+  {
+    "file": "game:entities/land/sheep-bighorn-female.json",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "wool",
+	  "hoursPerWoolUnit" : 18.0,
+      "hoursPerWoolUnitGenerationalReduction" : 0.5,
+      "hoursPerWoolUnitMaxReduction" : 6.0,
+      "maxGenBonus" : 8,
+      "generationalMaxWoolGrowthBonus" : 8,
+      "generationalScratchChanceReduction" : 0.05,
+      "minQuantity": 10,
+      "maxQuantity": 20,
+      "minGen": 3,
+      "shearsBonus": 4,
+      "scratchChance": 0.25,
+      "woolItem": "hideandfabric:fibers-wool",
+      "shearSound": "game:sounds/player/scrape.ogg"
+    }
+  },
+  {
+    "file": "game:entities/land/sheep-bighorn-male.json",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "wool",
+	    "hoursPerWoolUnit" : 18.0,
+      "hoursPerWoolUnitGenerationalReduction" : 0.5,
+      "hoursPerWoolUnitMaxReduction" : 6.0,
+      "maxGenBonus" : 8,
+      "generationalMaxWoolGrowthBonus" : 8,
+      "generationalScratchChanceReduction" : 0.05,
+      "minQuantity": 10,
+      "maxQuantity": 20,
+      "minGen": 3,
+      "shearsBonus": 4,
+      "scratchChance": 0.25,
+      "woolItem": "hideandfabric:fibers-wool",
+      "shearSound": "game:sounds/player/scrape.ogg"
+    }
+  },
+  {
+    "file": "game:entities/land/sheep-bighorn-male.json",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "wool",
+	  "hoursPerWoolUnit" : 18.0,
+      "hoursPerWoolUnitGenerationalReduction" : 0.5,
+      "hoursPerWoolUnitMaxReduction" : 6.0,
+      "maxGenBonus" : 8,
+      "generationalMaxWoolGrowthBonus" : 8,
+      "generationalScratchChanceReduction" : 0.05,
+      "minQuantity": 10,
+      "maxQuantity": 20,
+      "minGen": 3,
+      "shearsBonus": 4,
+      "scratchChance": 0.25,
+      "woolItem": "hideandfabric:fibers-wool",
+      "shearSound": "game:sounds/player/scrape.ogg"
+    }
+  },
+  {
+    "file": "game:entities/land/sheep-bighorn-female.json",
+    "op": "replace",
+    "path": "/server/behaviors/7",
+    "value": {
+        "code": "multiplywithevolution",
+		"spawnEntityCodes": [ "sheep-bighorn-lamb" ],
+        "spawnEvolvedEntityCodes": [ "sheep-domestic-lamb" ],
+        "evolutionGenerationThresholds": [ 4 ],
+        "requiresNearbyEntityCodes": [ "sheep-bighorn-male", "sheep-domestic-male" ],
+		"requiresNearbyEntityRange": 25,
+		"exclusiveEvolution": false,
+        "spawnQuantityMin": 1,
+		"spawnQuantityMax": 1,
+		"pregnancyDays": 20,
+		"multiplyCooldownDaysMin": 4,
+		"multiplyCooldownDaysMax": 11,
+		"portionsEatenForMultiply": 20
+    }
+  }
+]

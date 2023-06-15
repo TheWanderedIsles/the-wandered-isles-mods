@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "H,C,S",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true },
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"S": { type: "block", code: "game:rock-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "redmarble", "whitemarble", "greenmarble", "bauxite", "suevite", "kimberlite"] },
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:rockpolished-{rock}", quantity: 1 }
+}

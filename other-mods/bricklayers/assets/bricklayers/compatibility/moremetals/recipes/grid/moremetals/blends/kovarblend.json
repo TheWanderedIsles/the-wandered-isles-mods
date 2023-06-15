@@ -1,0 +1,38 @@
+[
+    {
+	"ingredientPattern": "CM",
+	"ingredients": {
+		"C": { "type": "item", "code": "moremetals:cobalt", "quantity": 4 },
+		"M": { "type": "item", "code": "em:crushed-ore-magnetite", "quantity": 16 }
+	},
+	"name": "Kovar blend",
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:kovarblendmagnetite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "CH",
+	"ingredients": {
+		"C": { "type": "item", "code": "moremetals:cobalt", "quantity": 4 },
+		"H": { "type": "item", "code": "em:crushed-ore-hematite", "quantity": 16 }
+	},
+	"name": "Kovar blend",
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:kovarblendhematite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "CL",
+	"ingredients": {
+		"C": { "type": "item", "code": "moremetals:cobalt", "quantity": 4 },
+		"L": { "type": "item", "code": "em:crushed-ore-limonite", "quantity": 16 }
+	},
+	"name": "Kovar blend",
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:kovarblendlimonite", "quantity": 1 }
+   }
+]

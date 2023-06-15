@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "LLL,SSS,LLL",
+	ingredients: {
+		"S": { type: "item", code: "game:stick", quantity: 2 },
+		"L": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cage-wooden-north"  }
+}

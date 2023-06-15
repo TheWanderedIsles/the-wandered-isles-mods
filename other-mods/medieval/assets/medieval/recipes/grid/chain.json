@@ -1,0 +1,31 @@
+[
+    {
+		ingredientPattern: "H__,_C_,__I",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"I": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["brass", "molybdochalkos"] }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:metalchain-{metal}", quantity: 3 }
+	},
+    {
+		ingredientPattern: "C",
+		ingredients: {
+			"C": { type: "block", code: "medieval:metalchain-*", name: "metal", allowedVariants: ["brass", "molybdochalkos"] }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:chain45-{metal}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "C",
+		ingredients: {
+			"C": { type: "block", code: "medieval:chain45-*-north", name: "metal", allowedVariants: ["brass", "molybdochalkos"] }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:metalchain-{metal}", quantity: 1 }
+	}
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "game:blocktypes/stone/stonebrick/stonebrickslab.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "*-kimberlite-*": {
+        "all": {
+          "base": "bricklayers:block/stone/brick/{rock}*"
+        }
+      },
+      "*-obsidian-*": {
+        "all": {
+          "base": "bricklayers:block/stone/brick/{rock}*"
+        }
+      },
+      "*-suevite-*": {
+        "all": {
+          "base": "bricklayers:block/stone/brick/{rock}*"
+        }
+      },
+      "*": {
+        "all": {
+          "base": "game:block/stone/brick/{rock}*"
+        }
+      }
+    },
+    "file": "game:blocktypes/stone/stonebrick/stonebrickslab.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/code",
+    "value": "rock",
+    "file": "game:blocktypes/stone/stonebrick/stonebrickslab.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states",
+    "value": [
+	"kimberlite", "obsidian", "suevite"
+    ],
+    "file": "game:blocktypes/stone/stonebrick/stonebrickslab.json",
+    "side": "Server"
+  }
+]

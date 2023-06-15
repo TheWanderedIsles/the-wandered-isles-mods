@@ -1,0 +1,62 @@
+[
+	{
+		ingredientPattern: "H__,_C_,__X",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"X": { type: "block", code: "game:quartz-plain" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:quartzpillar-ud", quantity: 1  }
+	},
+
+	
+	{
+		ingredientPattern: "H__,_C_,__X",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"X": { type: "block", code: "game:quartzpillar-ud" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:quartz-ornate", quantity: 1  }
+	},
+
+	
+	{
+		ingredientPattern: "S,X",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true },
+			"X": { type: "block", code: "game:quartz-plain" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "medieval:stonebrick-quartz", quantity: 4  }
+	},
+
+	
+	{
+		ingredientPattern: "XXX,XCX,XXX",
+		ingredients: {
+			"C": { type: "item", code: "game:clay-blue" },
+			"X": { type: "item", code: "medieval:stonebrick-quartz" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:quartzstonebricks", quantity: 2  }
+	},
+
+	
+	{
+		ingredientPattern: "XXX,XCX,XXX",
+		ingredients: {
+			"C": { type: "item", code: "game:clay-fire" },
+			"X": { type: "item", code: "medieval:stonebrick-quartz" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:quartzstonebricks", quantity: 2  }
+	}
+]

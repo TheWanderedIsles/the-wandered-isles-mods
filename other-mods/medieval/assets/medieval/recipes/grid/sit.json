@@ -1,0 +1,13 @@
+[
+    {
+		ingredientPattern: "_W_,HKH",
+		ingredients: {
+			"H": { type: "item", code: "game:stick", quantity: 1 },
+			"K": { type: "item", code: "game:stick", quantity: 2 },
+    		"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ], quantity: 1 },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "sit-{wood}" }
+	}
+]

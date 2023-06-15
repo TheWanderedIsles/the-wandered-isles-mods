@@ -1,0 +1,81 @@
+{
+	"code": "wateringcancolored",
+	"classByType": {
+		"*-burnt-*": "BlockWateringCan"
+	},
+	"behaviorsByType": {
+		"*-raw-*": [
+			{ "name": "GroundStorable" },
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup" }
+		],
+		"*": [ { "name": "UnstableFalling"}, { "name": "RightClickPickup"}, { "name": "SneakPlacing" } ]
+	},
+	"heldTpUseAnimation": "water",
+	"variantgroups": [
+		{ "code": "materialtype", "states": [ "raw", "burnt"] },
+		{ "code": "color", "states": [
+			"black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"entityClassByType": {
+		"*-burnt-*": "WateringCan"
+	},
+	"attributesByType": {
+		"@*-burnt-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"capacitySeconds": 40
+		}
+	},
+	"combustiblePropsByType": {
+		"*-raw-*": {
+			"meltingPoint": 600,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:wateringcancolored-burnt-{color}" },
+			"requiresContainer": false
+		}
+	},
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "construction": ["*"], "ceramics": ["*"] },
+	"replaceable": 1200,
+	"resistance": 1.5,
+	"maxStackSize": 1,
+	"liquidSelectable": 1,
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"*-raw-*": { "all": { "base": "bricklayers:block/clay/raw/{color}",
+				      "overlays": [ "bricklayers:block/clay/raw/overlay_wateringcan" ] }
+		},
+		"@.*-burnt-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+				"all": { "base": "bricklayers:block/clay/burnt/{color}",
+					"overlays": [ "bricklayers:block/clay/burnt/overlay_wateringcan_porcelain" ] }
+		},
+		"*-burnt-*": { "all": { "base": "bricklayers:block/clay/burnt/{color}",
+				      "overlays": [ "bricklayers:block/clay/burnt/overlay_wateringcan" ] }
+		}
+	},
+	"shape": { "base": "game:block/clay/watering-can" },
+	"sounds": { "walk": "game:walk/stone" },
+	"collisionbox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.75, "z2": 0.75 },
+	"selectionbox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.75, "z2": 0.75 },
+	"sideopaque": { "all": false },
+	"sidesolid": { "all": false },
+	"fpHandTransform": {
+		"rotation": { "x": 0, "y": -134, "z": 0 },
+		"scale": 1.56
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.35, "z": 0.5 },
+		"scale": 1.87
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.97, "y": -0.71, "z": -0.71 },
+		"rotation": { "x": 0, "y": 180, "z": 9 },
+		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+		"scale": 0.65
+	},
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	}
+}

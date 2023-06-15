@@ -1,0 +1,48 @@
+[
+	{
+	"ingredientPattern": "_T_,THT,TTT",
+	"ingredients": {
+		"H": { "type": "block", "code": "game:hardenedclay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "blue", "fire" ] },
+		"T": { "type": "block", "code": "bricklayers:glazedtile-clear-dull-*-down", "name": "color" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glazedtiles-clear-dull-{color}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "_T_,THT,TTT",
+	"ingredients": {
+		"H": { "type": "block", "code": "game:hardenedclay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "blue", "fire" ] },
+		"T": { "type": "block", "code": "bricklayers:glazedtile-clear-polished-*-down", "name": "color" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glazedtiles-clear-polished-{color}", "quantity": 1 }
+	},
+
+
+	{
+	"ingredientPattern": "MTM,THT,TTT",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar", "quantity": 1 },
+		"H": { "type": "block", "code": "game:hardenedclay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "blue", "fire" ] },
+		"T": { "type": "item", "code": "bricklayers:glazedrawtile-burnt-clear-dull-*", "name": "color" }
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup": 4,
+	"output": { "type": "block", "code": "bricklayers:glazedtiles-clear-dull-{color}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "MTM,THT,TTT",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar", "quantity": 1 },
+		"H": { "type": "block", "code": "game:hardenedclay-*", "quantity": 1, "name": "clay", "allowedVariants": [ "blue", "fire" ] },
+		"T": { "type": "item", "code": "bricklayers:glazedrawtile-burnt-clear-polished-*", "name": "color" }
+	},
+	"width": 3,
+	"height": 3,
+	"recipeGroup": 4,
+	"output": { "type": "block", "code": "bricklayers:glazedtiles-clear-polished-{color}", "quantity": 1 }
+	}
+]

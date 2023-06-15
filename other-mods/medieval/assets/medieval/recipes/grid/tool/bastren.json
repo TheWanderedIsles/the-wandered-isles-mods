@@ -1,0 +1,18 @@
+{
+	"ingredientPattern": "_B_,S_S",
+	"ingredients": {
+    "B": {
+      "type": "item", 
+	  "code": "bastren-base-*",
+	  "name": "metal",
+	  "allowedVariants": ["copper", "blackbronze", "tinbronze", "bismuthbronze", "gold", "silver", "iron", "meteoriciron", "steel" ]
+    },
+    "S": {
+      "type": "item",
+      "code": "game:stick"
+    }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bastren-{metal}" }
+}

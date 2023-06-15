@@ -1,0 +1,62 @@
+{
+	code: "birdhouse",
+	behaviors: [ {name: "HorizontalOrientable"}, { name: "UnstableFalling", properties: { attachableFaces: [ "down"] }} ],
+	attributes: {
+		canChisel: false
+	},
+	variantgroups: [
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: { "general": ["*-east"], "decorative": ["*-east"], "medieval": ["*-east"] },
+	shapeByType: {
+			"*-north": { base: "block/wood/birdhouse", rotateY: 0 },
+			"*-west": { base: "block/wood/birdhouse", rotateY: 90 },
+			"*-south": { base: "block/wood/birdhouse", rotateY: 180 },
+			"*-east": { base: "block/wood/birdhouse", rotateY: 270 }
+
+	},
+
+	blockmaterial: "Wood",
+	"textures": {
+		"aged1": {base: "block/wood/debarked/aged1"},
+		"pine": {base: "block/wood/debarked/pine"},
+		"doordoorl": {base: "block/wood/door/doordoorl"}
+	},
+	"replaceable": 300,
+	drawtype: "json",
+	resistance: 2,
+	faceCullMode: "NeverCull",
+	lightAbsorption: 0,
+	emitSideAo: {all: false },
+	sideAo: { all: false },
+	sideopaque: {
+		all: false
+	},
+	collisionbox: null,
+	selectionBox: {
+		x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.875, z2: 0.875,
+		rotateYByType: {
+			"*-east": 270,
+			"*-west": 90,
+			"*-south": 180
+		}
+	},
+	soundsByType: {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks",
+			"walk": "game:walk/wood"
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+		guiTransform: {
+		translation: { x: 0, y: -6, z: 0 },
+		scale: 1.75
+	}
+}

@@ -1,0 +1,119 @@
+[
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:bone" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-molybdochalkos" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-bone-p", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-molybdochalkos" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-leather-p", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-molybdochalkos" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-red-p", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:bone" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-brass" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-bone-b", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-brass" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-leather-b", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-brass" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-red-b", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:bone" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-silversolder" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-bone-s", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-silversolder" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-leather-s", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,TF,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:cloth-red" },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"I": { type: "item", code: "swordhandle-silversolder" },
+			"T": { type: "item", code: "longbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-red-s", quantity: 1  }
+	}
+]

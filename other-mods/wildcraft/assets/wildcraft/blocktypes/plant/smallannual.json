@@ -1,0 +1,141 @@
+{
+	"code": "smallannualplant",
+	"class":"BlockPlant",
+	"entityClassByType": {
+		"*-harvested": "Transient"
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["minerslettuce", "clover", "caltha", "woodspurge"]},
+		{ "code": "state", "states": ["flowering", "normal"] }
+	],
+	"attributes": {
+    "butterflyFeedByType": {
+      "*-normal": true
+    },
+    "beeFeedByType": {
+      "*-normal": true
+    },
+    "transientPropsByType": {
+			"*-flowering": {
+				"convertFrom": "*-flowering", 
+				"convertTo": "*-normal", 
+				"inGameHours": "84",
+				"resetBelowTemperature": 10,
+				"stopBelowTemperature": 12
+			}
+		},
+    "forageStatAffected": true,
+    "hasRootByType":{
+        "*": "false"
+    },
+    "isPoisonousByType":{
+        "*":"false"
+    }
+  },
+	"creativeinventory": {
+    "general": ["*"],
+    "flora": ["*"],
+    "wildcraft": [ "*" ]
+  },
+  "texturesByType": {
+    "*-minerslettuce-normal":{
+      "stems": {"base": "wildcraft:block/plant/clover/minerslettuce_stems"},
+      "leaves": {"base": "wildcraft:block/plant/clover/minerslettuce_leaves"},
+    },
+    "*-minerslettuce-flowering":{
+      "stems": {"base": "wildcraft:block/plant/clover/minerslettuce_shoots_stems"},
+      "leaves": {"base": "wildcraft:block/plant/clover/minerslettuce_shoots_leaves"},
+    },
+
+    "*-clover-normal":{
+      "stems": {"base": "wildcraft:block/plant/clover/clover_stems"},
+      "leaves": {"base": "wildcraft:block/plant/clover/clover_leaves"},
+    },
+    "*-clover-flowering":{
+      "stems": {"base": "wildcraft:block/plant/clover/clover_stems"},
+      "flowers": {"base": "wildcraft:block/plant/clover/clover_flowers"},
+      "leaves": {"base": "wildcraft:block/plant/clover/clover_leaves"},
+    },
+
+    "*-caltha-normal":{
+      "stems": {"base": "wildcraft:block/plant/clover/caltha_stems"},
+      "leaves": {"base": "wildcraft:block/plant/clover/caltha_leaves"},
+    },
+    "*-caltha-flowering":{
+      "stems": {"base": "wildcraft:block/plant/clover/caltha_stems"},
+      "flowers": {"base": "wildcraft:block/plant/clover/caltha_flowers"},
+      "leaves": {"base": "wildcraft:block/plant/clover/caltha_leaves"},
+    }
+  },
+  "shapeByType": {
+    "*-minerslettuce-normal": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },
+    "*-minerslettuce-flowering": { "base": "wildcraft:block/plant/clover/minerslettuce_sprouting" },
+    "*-woodspurge-normal": { "base": "wildcraft:block/plant/clover/woodspurge*" },
+    "*-woodspurge-flowering": { "base": "wildcraft:block/plant/clover/harvested_woodspurge" },
+    "*-flowering": {"base": "wildcraft:block/plant/clover/{type}_flowering"},
+    "*-normal": {"base": "wildcraft:block/plant/clover/{type}_normal"}
+  },
+	"renderpass": "BlendNoCull",
+	"blockmaterial": "Plant",
+  "randomDrawOffsetByType": {
+    "*-minerslettuce-*": true,
+    "*-woodspurge-*": true,
+    "*":false
+  },
+  "randomizeRotationsByType": {
+    "*-clover-*": false,
+    "*": true
+  },
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBox": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+	"guiTransform": {
+    "rotation": { "x": -22, "y": 107, "z": 0 },
+    "origin": { "x": 0.3, "y": 0.5, "z": 0.4 },
+    "scale": 1.32
+  },
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"vertexFlags": {
+		"leavesWindWave": true
+	},
+	"materialDensity": 200,
+	"frostable": true,
+  "dropsByType": {
+    "smallannualplant-minerslettuce-normal": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{type}",
+        "quantity": { "avg": 1.6 }
+      }
+    ],
+    "smallannualplant-woodspurge-normal": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{type}",
+        "quantity": { "avg": 1.6 }
+      }
+    ]
+  }
+}

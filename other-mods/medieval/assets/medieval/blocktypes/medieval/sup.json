@@ -1,0 +1,317 @@
+{
+	code: "sup",
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "south", drop: { type: "block", code: "sup-{material}-south" }  }}],
+	variantgroups: [
+		{ code: "material", states: [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		{ loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapeByType: { 
+		
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-north-*": { base: "block/medieval/sup-1", rotateY: 0, alternates: [{base: "block/medieval/sup-2", rotateY: 0}, {base: "block/medieval/sup-3", rotateY: 0,}]},
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-west-*": { base: "block/medieval/sup-1", rotateY: 90, alternates: [{base: "block/medieval/sup-2", rotateY: 90}, {base: "block/medieval/sup-3", rotateY: 90,}]},
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-south-*": { base: "block/medieval/sup-1", rotateY: 180, alternates: [{base: "block/medieval/sup-2", rotateY: 180}, {base: "block/medieval/sup-3", rotateY: 180,}]},
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-east-*": { base: "block/medieval/sup-1", rotateY: 270, alternates: [{base: "block/medieval/sup-2", rotateY: 270}, {base: "block/medieval/sup-3", rotateY: 270,}]}
+	},
+	texturesByType: {
+		
+		"*-acacia-north": {
+			"material": { base: "block/wood/debarked/stairs/acacia" },
+			"top": { base: "block/wood/debarked/acacia", rotation: 0 }
+		},
+		"*-acacia-west": {
+			"material": { base: "block/wood/debarked/stairs/acacia" },
+			"top": { base: "block/wood/debarked/acacia", rotation: 270 }
+		},
+		"*-acacia-south": {
+			"material": { base: "block/wood/debarked/stairs/acacia" },
+			"top": { base: "block/wood/debarked/acacia", rotation: 180 }
+		},
+		"*-acacia-east": {
+			"material": { base: "block/wood/debarked/stairs/acacia" },
+			"top": { base: "block/wood/debarked/acacia", rotation: 90 }
+		},
+
+
+
+		"*-aged-north": {
+			"material": { base: "block/wood/debarked/stairs/aged" },
+			"top": { base: "block/wood/debarked/aged", rotation: 0 }
+		},
+		"*-aged-west": {
+			"material": { base: "block/wood/debarked/stairs/aged" },
+			"top": { base: "block/wood/debarked/aged", rotation: 270 }
+		},
+		"*-aged-south": {
+			"material": { base: "block/wood/debarked/stairs/aged" },
+			"top": { base: "block/wood/debarked/aged", rotation: 180 }
+		},
+		"*-aged-east": {
+			"material": { base: "block/wood/debarked/stairs/aged" },
+			"top": { base: "block/wood/debarked/aged", rotation: 90 }
+		},
+
+
+
+		"*-baldcypress-north": {
+			"material": { base: "block/wood/debarked/stairs/baldcypress" },
+			"top": { base: "block/wood/debarked/baldcypress", rotation: 0 }
+		},
+		"*-baldcypress-west": {
+			"material": { base: "block/wood/debarked/stairs/baldcypress" },
+			"top": { base: "block/wood/debarked/baldcypress", rotation: 270 }
+		},
+		"*-baldcypress-south": {
+			"material": { base: "block/wood/debarked/stairs/baldcypress" },
+			"top": { base: "block/wood/debarked/baldcypress", rotation: 180 }
+		},
+		"*-baldcypress-east": {
+			"material": { base: "block/wood/debarked/stairs/baldcypress" },
+			"top": { base: "block/wood/debarked/baldcypress", rotation: 90 }
+		},
+
+
+
+		"*-birch-north": {
+			"material": { base: "block/wood/debarked/stairs/birch" },
+			"top": { base: "block/wood/debarked/birch", rotation: 0 }
+		},
+		"*-birch-west": {
+			"material": { base: "block/wood/debarked/stairs/birch" },
+			"top": { base: "block/wood/debarked/birch", rotation: 270 }
+		},
+		"*-birch-south": {
+			"material": { base: "block/wood/debarked/stairs/birch" },
+			"top": { base: "block/wood/debarked/birch", rotation: 180 }
+		},
+		"*-birch-east": {
+			"material": { base: "block/wood/debarked/stairs/birch" },
+			"top": { base: "block/wood/debarked/birch", rotation: 90 }
+		},
+
+
+
+		"*-ebony-north": {
+			"material": { base: "block/wood/debarked/stairs/ebony" },
+			"top": { base: "block/wood/debarked/ebony", rotation: 0 }
+		},
+		"*-ebony-west": {
+			"material": { base: "block/wood/debarked/stairs/ebony" },
+			"top": { base: "block/wood/debarked/ebony", rotation: 270 }
+		},
+		"*-ebony-south": {
+			"material": { base: "block/wood/debarked/stairs/ebony" },
+			"top": { base: "block/wood/debarked/ebony", rotation: 180 }
+		},
+		"*-ebony-east": {
+			"material": { base: "block/wood/debarked/stairs/ebony" },
+			"top": { base: "block/wood/debarked/ebony", rotation: 90 }
+		},
+
+
+
+		"*-kapok-north": {
+			"material": { base: "block/wood/debarked/stairs/kapok" },
+			"top": { base: "block/wood/debarked/kapok", rotation: 0 }
+		},
+		"*-kapok-west": {
+			"material": { base: "block/wood/debarked/stairs/kapok" },
+			"top": { base: "block/wood/debarked/kapok", rotation: 270 }
+		},
+		"*-kapok-south": {
+			"material": { base: "block/wood/debarked/stairs/kapok" },
+			"top": { base: "block/wood/debarked/kapok", rotation: 180 }
+		},
+		"*-kapok-east": {
+			"material": { base: "block/wood/debarked/stairs/kapok" },
+			"top": { base: "block/wood/debarked/kapok", rotation: 90 }
+		},
+
+
+
+		"*-larch-north": {
+			"material": { base: "block/wood/debarked/stairs/larch" },
+			"top": { base: "block/wood/debarked/larch", rotation: 0 }
+		},
+		"*-larch-west": {
+			"material": { base: "block/wood/debarked/stairs/larch" },
+			"top": { base: "block/wood/debarked/larch", rotation: 270 }
+		},
+		"*-larch-south": {
+			"material": { base: "block/wood/debarked/stairs/larch" },
+			"top": { base: "block/wood/debarked/larch", rotation: 180 }
+		},
+		"*-larch-east": {
+			"material": { base: "block/wood/debarked/stairs/larch" },
+			"top": { base: "block/wood/debarked/larch", rotation: 90 }
+		},
+
+
+
+		"*-maple-north": {
+			"material": { base: "block/wood/debarked/stairs/maple" },
+			"top": { base: "block/wood/debarked/maple", rotation: 0 }
+		},
+		"*-maple-west": {
+			"material": { base: "block/wood/debarked/stairs/maple" },
+			"top": { base: "block/wood/debarked/maple", rotation: 270 }
+		},
+		"*-maple-south": {
+			"material": { base: "block/wood/debarked/stairs/maple" },
+			"top": { base: "block/wood/debarked/maple", rotation: 180 }
+		},
+		"*-maple-east": {
+			"material": { base: "block/wood/debarked/stairs/maple" },
+			"top": { base: "block/wood/debarked/maple", rotation: 90 }
+		},
+
+
+
+		"*-oak-north": {
+			"material": { base: "block/wood/debarked/stairs/oak" },
+			"top": { base: "block/wood/debarked/oak", rotation: 0 }
+		},
+		"*-oak-west": {
+			"material": { base: "block/wood/debarked/stairs/oak" },
+			"top": { base: "block/wood/debarked/oak", rotation: 270 }
+		},
+		"*-oak-south": {
+			"material": { base: "block/wood/debarked/stairs/oak" },
+			"top": { base: "block/wood/debarked/oak", rotation: 180 }
+		},
+		"*-oak-east": {
+			"material": { base: "block/wood/debarked/stairs/oak" },
+			"top": { base: "block/wood/debarked/oak", rotation: 90 }
+		},
+
+
+
+		"*-pine-north": {
+			"material": { base: "block/wood/debarked/stairs/pine" },
+			"top": { base: "block/wood/debarked/pine", rotation: 0 }
+		},
+		"*-pine-west": {
+			"material": { base: "block/wood/debarked/stairs/pine" },
+			"top": { base: "block/wood/debarked/pine", rotation: 270 }
+		},
+		"*-pine-south": {
+			"material": { base: "block/wood/debarked/stairs/pine" },
+			"top": { base: "block/wood/debarked/pine", rotation: 180 }
+		},
+		"*-pine-east": {
+			"material": { base: "block/wood/debarked/stairs/pine" },
+			"top": { base: "block/wood/debarked/pine", rotation: 90 }
+		},
+
+
+
+		"*-purpleheart-north": {
+			"material": { base: "block/wood/debarked/stairs/purpleheart" },
+			"top": { base: "block/wood/debarked/purpleheart", rotation: 0 }
+		},
+		"*-purpleheart-west": {
+			"material": { base: "block/wood/debarked/stairs/purpleheart" },
+			"top": { base: "block/wood/debarked/purpleheart", rotation: 270 }
+		},
+		"*-purpleheart-south": {
+			"material": { base: "block/wood/debarked/stairs/purpleheart" },
+			"top": { base: "block/wood/debarked/purpleheart", rotation: 180 }
+		},
+		"*-purpleheart-east": {
+			"material": { base: "block/wood/debarked/stairs/purpleheart" },
+			"top": { base: "block/wood/debarked/purpleheart", rotation: 90 }
+		},
+
+
+
+		"*-redwood-north": {
+			"material": { base: "block/wood/debarked/stairs/redwood" },
+			"top": { base: "block/wood/debarked/redwood", rotation: 0 }
+		},
+		"*-redwood-west": {
+			"material": { base: "block/wood/debarked/stairs/redwood" },
+			"top": { base: "block/wood/debarked/redwood", rotation: 270 }
+		},
+		"*-redwood-south": {
+			"material": { base: "block/wood/debarked/stairs/redwood" },
+			"top": { base: "block/wood/debarked/redwood", rotation: 180 }
+		},
+		"*-redwood-east": {
+			"material": { base: "block/wood/debarked/stairs/redwood" },
+			"top": { base: "block/wood/debarked/redwood", rotation: 90 }
+		},
+
+
+
+		"*-walnut-north": {
+			"material": { base: "block/wood/debarked/stairs/walnut" },
+			"top": { base: "block/wood/debarked/walnut", rotation: 0 }
+		},
+		"*-walnut-west": {
+			"material": { base: "block/wood/debarked/stairs/walnut" },
+			"top": { base: "block/wood/debarked/walnut", rotation: 270 }
+		},
+		"*-walnut-south": {
+			"material": { base: "block/wood/debarked/stairs/walnut" },
+			"top": { base: "block/wood/debarked/walnut", rotation: 180 }
+		},
+		"*-walnut-east": {
+			"material": { base: "block/wood/debarked/stairs/walnut" },
+			"top": { base: "block/wood/debarked/walnut", rotation: 90 }
+		}
+	},
+
+
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, up: true },
+	sideopaque: { all: false },
+	sideao: { all: false	},
+	blockmaterialByType: {
+		"*-acacia-*": "wood",
+		"*-aged-*": "wood",
+		"*-baldcypress-*": "wood",
+		"*-birch-*": "wood",
+		"*-ebony-*": "wood",
+		"*-kapok-*": "wood",
+		"*-larch-*": "wood",
+		"*-maple-*": "wood",
+		"*-oak-*": "wood",
+		"*-pine-*": "wood",
+		"*-purpleheart-*": "wood",
+		"*-redwood-*": "wood",
+		"*-walnut-*": "wood"
+	},
+	creativeinventory: { "general": ["*-south"], "decorative": ["*-south"], "medieval": ["*-south"] },
+	replaceable: 300,
+	resistance: 2,
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 20,
+	},
+	lightAbsorption: 1,
+	emitSideAo: {
+		all: false
+	},
+	collisionSelectionBoxesByType: {
+		"*-north": [ { x1: 0, y1: 0.875, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 0 }],
+		"*-west": [ { x1: 0, y1: 0.875, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 90 } ],
+		"*-south": [ { x1: 0, y1: 0.875, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 180 } ],
+		"*-east": [ { x1: 0, y1: 0.875, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 270 } ]
+	},
+	soundsByType: {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks",
+		"walk": "game:walk/wood"
+		}
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.53, y: 0.55, z: 0.46 },
+			scale: 0.85
+		}
+	}
+}

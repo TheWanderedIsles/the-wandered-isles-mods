@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium" ] },
+	pattern: [[
+		"########_#_",
+		"_______##_#",
+		"########_#_",
+	]],
+	name: "Shears",
+	output: { type: "item", code: "shears-{metal}"  }
+}

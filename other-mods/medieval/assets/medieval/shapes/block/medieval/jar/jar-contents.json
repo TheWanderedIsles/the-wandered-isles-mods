@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 0.0, 0.0, 0.0 ], 
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+				"east": { "texture": "#", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+				"south": { "texture": "#", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+				"west": { "texture": "#", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+				"up": { "texture": "#", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+				"down": { "texture": "#", "uv": [ 0.0, 0.0, 0.0, 0.0 ] }
+			},
+			"children": [
+				{
+					"name": "cube8",
+					"from": [ 7.0, 2.21, 7.0 ], 
+					"to": [ 9.0, 2.71, 9.0 ], 
+					"rotationOrigin": [ 7.5, 3.2, 1.5 ],
+					"faces": {
+						"north": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "enabled": false, "autoUv": false },
+						"east": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "enabled": false, "autoUv": false },
+						"south": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "enabled": false, "autoUv": false },
+						"west": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "enabled": false, "autoUv": false },
+						"up": { "texture": "top", "uv": [ 11.0, 9.5, 13.0, 11.5 ], "autoUv": false },
+						"down": { "texture": "#1", "uv": [ 11.0, 9.5, 13.0, 11.5 ], "enabled": false, "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,25 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+	"pattern": [[
+		"_____",
+		"_#___",
+		"_____"
+	],
+	[
+		"###__",
+		"#_##_",
+		"###__"
+	],
+	[
+		"###__",
+		"#_#_#",
+		"###__"
+	],
+	[
+		"###__",
+		"#_##_",
+		"###__"
+	]],
+	"name": "recipe-clayforming-colored-cup",
+	"output": { "type": "block", "code": "bricklayers:coloredcup-raw-{color}-plain-plain" }
+}

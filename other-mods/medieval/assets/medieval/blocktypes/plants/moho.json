@@ -1,0 +1,34 @@
+{
+	code: "moho",
+	behaviors: [ {name: "Decor", properties: {sides: ["north", "east", "south", "west", "up", "down"], notFullFace:true, thickness: 0.0 }} ],
+	variantgroups: [
+		{ code:"type", states: ["moho"] }
+	],
+	renderPass: "Transparent",
+	drawtype: "surfacelayer",
+	randomizeRotations: true,
+	shapeInventory: {
+		base: "game:block/basic/layers/0voxel", rotateX: 90
+	},
+	doNotRenderAtLod2: true,
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	blockmaterial: "Plant",
+	creativeinventory: { "general": ["*"], "decorative": ["*"], "medieval": ["*"] },
+	replaceable: 5500,
+	resistance: 0,
+	lightAbsorption: 0,
+	texturesByType: {
+		"*-moho": { all: {  base: "game:block/overlay/mold/mold*" } }
+	},
+	dropsByType: {
+
+		"*-moho": [ { type: "block", code: "moho-moho" } ],
+
+
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.5, z: 0 }
+	},
+	materialDensity: 400
+}

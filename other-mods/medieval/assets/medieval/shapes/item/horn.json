@@ -1,0 +1,214 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"jarhorn": "block/medieval/jarhorn"
+	},
+	"elements": [
+		{
+			"name": "R horn base",
+			"from": [ 5.0, -2.0, 8.0 ], 
+			"to": [ 10.0, 1.0, 11.0 ], 
+			"rotationOrigin": [ 4.6307, -0.3141, 13.5 ],
+			"rotationX": 47.0,
+			"faces": {
+				"north": { "texture": "#jarhorn", "uv": [ 2.0, 5.5, 5.0, 10.5 ], "rotation": 270 },
+				"east": { "texture": "#jarhorn", "uv": [ 3.0, 6.0, 6.0, 9.0 ], "rotation": 180 },
+				"south": { "texture": "#jarhorn", "uv": [ 5.0, 5.5, 8.0, 10.5 ], "rotation": 90 },
+				"west": { "texture": "#jarhorn", "uv": [ 11.5, 13.0, 14.5, 16.0 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#jarhorn", "uv": [ 5.5, 5.5, 8.5, 10.5 ], "rotation": 90 },
+				"down": { "texture": "#jarhorn", "uv": [ 6.0, 5.5, 9.0, 10.5 ], "rotation": 270 }
+			},
+			"children": [
+				{
+					"name": " R horn 2",
+					"from": [ 3.6, 0.2, 0.6 ], 
+					"to": [ 6.6, 3.2, 3.6 ], 
+					"rotationOrigin": [ 3.6, 1.5, 2.0 ],
+					"rotationY": 30.0,
+					"rotationZ": -33.0,
+					"faces": {
+						"north": { "texture": "#jarhorn", "uv": [ 2.0, 7.5, 5.0, 10.5 ], "rotation": 270 },
+						"east": { "texture": "#jarhorn", "uv": [ 10.0, 7.0, 13.0, 10.0 ], "rotation": 180 },
+						"south": { "texture": "#jarhorn", "uv": [ 10.5, 7.0, 13.5, 10.0 ], "rotation": 90 },
+						"west": { "texture": "#jarhorn", "uv": [ 10.0, 7.0, 13.0, 10.0 ] },
+						"up": { "texture": "#jarhorn", "uv": [ 1.5, 7.5, 4.5, 10.5 ], "rotation": 90 },
+						"down": { "texture": "#jarhorn", "uv": [ 13.0, 7.5, 16.0, 10.5 ], "rotation": 270 }
+					},
+					"children": [
+						{
+							"name": "R horn 3",
+							"from": [ 2.2, 0.7, 0.8 ], 
+							"to": [ 6.2, 2.7, 2.8 ], 
+							"rotationOrigin": [ 2.2, 1.7, 1.8 ],
+							"rotationX": 30.0,
+							"rotationY": 3.0,
+							"rotationZ": -47.0,
+							"faces": {
+								"north": { "texture": "#jarhorn", "uv": [ 10.0, 5.5, 12.0, 9.5 ], "rotation": 270 },
+								"east": { "texture": "#jarhorn", "uv": [ 11.5, 8.0, 13.5, 10.0 ], "rotation": 180 },
+								"south": { "texture": "#jarhorn", "uv": [ 7.5, 5.5, 9.5, 9.5 ], "rotation": 90 },
+								"west": { "texture": "#jarhorn", "uv": [ 10.5, 7.5, 12.5, 9.5 ] },
+								"up": { "texture": "#jarhorn", "uv": [ 8.0, 5.5, 10.0, 9.5 ], "rotation": 90 },
+								"down": { "texture": "#jarhorn", "uv": [ 3.5, 5.5, 5.5, 9.5 ], "rotation": 270 }
+							},
+							"children": [
+								{
+									"name": "R horn 4",
+									"from": [ 2.6, -0.5, -0.3 ], 
+									"to": [ 5.6, 1.5, 1.7 ], 
+									"rotationOrigin": [ 3.6, 0.5, 0.7 ],
+									"rotationX": 25.0,
+									"rotationZ": -60.0,
+									"faces": {
+										"north": { "texture": "#jarhorn", "uv": [ 2.0, 1.5, 4.0, 4.5 ], "rotation": 270 },
+										"east": { "texture": "#jarhorn", "uv": [ 10.0, 7.5, 12.0, 9.5 ], "rotation": 180 },
+										"south": { "texture": "#jarhorn", "uv": [ 1.0, 1.5, 3.0, 4.5 ], "rotation": 90 },
+										"west": { "texture": "#jarhorn", "uv": [ 5.5, 7.0, 7.5, 9.0 ] },
+										"up": { "texture": "#jarhorn", "uv": [ 1.5, 1.5, 3.5, 4.5 ], "rotation": 90 },
+										"down": { "texture": "#jarhorn", "uv": [ 0.0, 1.5, 2.0, 4.5 ], "rotation": 270 }
+									},
+									"children": [
+										{
+											"name": "R horn 5",
+											"from": [ 2.4, 0.5, 0.5 ], 
+											"to": [ 6.4, 1.5, 1.5 ], 
+											"rotationOrigin": [ 2.9, 1.0, 1.0 ],
+											"rotationX": 10.0,
+											"rotationZ": -30.0,
+											"faces": {
+												"north": { "texture": "#jarhorn", "uv": [ 0.0, 0.5, 1.0, 4.5 ], "rotation": 270 },
+												"east": { "texture": "#jarhorn", "uv": [ 0.5, 1.5, 1.5, 2.5 ], "rotation": 180 },
+												"south": { "texture": "#jarhorn", "uv": [ 1.5, 0.5, 2.5, 4.5 ], "rotation": 90 },
+												"west": { "texture": "#jarhorn", "uv": [ 41.0, 62.0, 42.0, 63.0 ], "enabled": false },
+												"up": { "texture": "#jarhorn", "uv": [ 1.5, 0.5, 2.5, 4.5 ], "rotation": 90 },
+												"down": { "texture": "#jarhorn", "uv": [ 0.5, 0.5, 1.5, 4.5 ], "rotation": 270 }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "Walk",
+			"code": "walk",
+			"quantityframes": 90,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Run",
+			"code": "run",
+			"quantityframes": 40,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Look",
+			"code": "look",
+			"quantityframes": 160,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Idle",
+			"code": "idle",
+			"quantityframes": 80,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Death",
+			"code": "death",
+			"quantityframes": 120,
+			"onActivityStopped": "Stop",
+			"onAnimationEnd": "Hold",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Attack",
+			"code": "attack",
+			"quantityframes": 75,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Eat",
+			"code": "eat",
+			"quantityframes": 120,
+			"onActivityStopped": "Stop",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Hurt",
+			"code": "hurt",
+			"quantityframes": 30,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Sit",
+			"code": "sit",
+			"quantityframes": 30,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+
+			]
+		},
+
+		{
+			"name": "Sleep",
+			"code": "sleep",
+			"quantityframes": 30,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+
+			]
+		}
+	]
+}

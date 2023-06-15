@@ -1,0 +1,82 @@
+[
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"F": { type: "item", code: "game:plank-*" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "axe-*", isTool: true  },
+			"F": { type: "item", code: "game:plank-*" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "bigaxe-*", isTool: true  },
+			"F": { type: "item", code: "game:plank-*" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "axe-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "bigaxe-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:knife-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "knife-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	}
+]

@@ -1,0 +1,39 @@
+{
+	code: "plasterglow-orange",
+	creativeinventory: { "general": ["*"], "items": ["*"], "medieval": ["*"] },
+	maxstacksize: 64,
+	attributes: {
+	},
+	behaviors: [{
+		name: "ArtPigment",
+		properties: {
+			decorBlockCodes: ["caveart-orange-1-*"],
+			paintableOnBlockMaterials: ["Stone", "Wood", "Brick", "Ceramic", "Metal", "Meta" ]
+		}
+	}],
+	shape: { base: "item/plasterglow-orange" },
+	materialDensity: 300,
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 9, y: 13, z: 0 },
+		scale: 1.67
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 146, y: 50, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.93, y: -0.19, z: -0.77 },
+		rotation: { x: -48, y: -180, z: 23 },
+		origin: { x: 0.5, y: 0.12, z: 0.5 },
+		scale: 0.6
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.5
+	}
+}

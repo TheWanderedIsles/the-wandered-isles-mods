@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium"] },
+	pattern: [[
+		"#___#___#",
+		"#########",
+		"#########",
+		"#___#___#",
+		"##__#__##"
+	]],
+	name: "axe",
+	output: { type: "item", code: "bigaxebladehead-{metal}"  }
+}

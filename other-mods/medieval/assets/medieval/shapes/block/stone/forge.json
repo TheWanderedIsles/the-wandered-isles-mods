@@ -1,0 +1,92 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"coal-dust": "block/stone/forge/coal-dust",
+		"forge": "block/stone/forge/forge"
+	},
+	"elements": [
+		{
+			"name": "N0",
+			"from": [ 0.0, 10.0, 0.0 ],
+			"to": [ 16.0, 17.0, 3.0 ],
+			"rotationOrigin": [ -1.0, 10.0, -1.0 ],
+			"faces": {
+				"north": { "texture": "#forge", "uv": [ 0.0, 0.0, 16.0, 7.0 ] },
+				"east": { "texture": "#forge", "uv": [ 13.0, 0.0, 16.0, 7.0 ] },
+				"south": { "texture": "#coal-dust", "uv": [ 0.0, 0.0, 16.0, 7.0 ] },
+				"west": { "texture": "#forge", "uv": [ 0.0, 0.0, 3.0, 7.0 ] },
+				"up": { "texture": "#coal-dust", "uv": [ 0.0, 13.0, 16.0, 16.0 ], "rotation": 180 },
+				"down": { "texture": "#forge", "uv": [ 0.0, 11.0, 16.0, 14.0 ] }
+			}
+		},
+		{
+			"name": "S1",
+			"from": [ 0.0, 10.0, 13.0 ],
+			"to": [ 16.0, 17.0, 16.0 ],
+			"rotationOrigin": [ -1.0, 10.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#coal-dust", "uv": [ 0.0, 0.0, 16.0, 7.0 ] },
+				"east": { "texture": "#forge", "uv": [ 0.0, 0.0, 3.0, 7.0 ] },
+				"south": { "texture": "#forge", "uv": [ 0.0, 0.0, 16.0, 7.0 ] },
+				"west": { "texture": "#forge", "uv": [ 13.0, 0.0, 16.0, 7.0 ] },
+				"up": { "texture": "#coal-dust", "uv": [ 0.0, 9.0, 16.0, 12.0 ] },
+				"down": { "texture": "#forge", "uv": [ 0.0, 5.0, 16.0, 8.0 ] }
+			}
+		},
+		{
+			"name": "W2",
+			"from": [ 0.0, 10.0, 3.0 ],
+			"to": [ 3.0, 17.0, 13.0 ],
+			"rotationOrigin": [ -1.0, 10.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#forge", "uv": [ 0.0, 0.0, 3.0, 7.0 ] },
+				"east": { "texture": "#coal-dust", "uv": [ 2.0, 0.0, 12.0, 7.0 ] },
+				"south": { "texture": "#forge", "uv": [ 0.0, 0.0, 3.0, 7.0 ] },
+				"west": { "texture": "#forge", "uv": [ 3.0, 0.0, 13.0, 7.0 ] },
+				"up": { "texture": "#coal-dust", "uv": [ 4.0, 13.0, 14.0, 16.0 ], "rotation": 90 },
+				"down": { "texture": "#forge", "uv": [ 13.0, 3.0, 16.0, 13.0 ] }
+			}
+		},
+		{
+			"name": "E3",
+			"from": [ 13.0, 10.0, 3.0 ],
+			"to": [ 16.0, 17.0, 13.0 ],
+			"rotationOrigin": [ 0.0, 10.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#forge", "uv": [ 0.0, 0.0, 3.0, 7.0 ] },
+				"east": { "texture": "#forge", "uv": [ 3.0, 0.0, 13.0, 7.0 ] },
+				"south": { "texture": "#forge", "uv": [ 0.0, 0.0, 3.0, 7.0 ] },
+				"west": { "texture": "#coal-dust", "uv": [ 4.0, 0.0, 14.0, 7.0 ] },
+				"up": { "texture": "#coal-dust", "uv": [ 4.0, 10.0, 14.0, 13.0 ], "rotation": 270 },
+				"down": { "texture": "#forge", "uv": [ 4.0, 3.0, 7.0, 13.0 ] }
+			}
+		},
+		{
+			"name": "Floor4",
+			"from": [ 3.0, 0.0, 3.0 ],
+			"to": [ 13.0, 16.0, 13.0 ],
+			"faces": {
+				"up": { "texture": "#coal-dust", "uv": [ 3.0, 4.0, 13.0, 14.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cube5",
+			"from": [ 0.0, -0.01, 0.0 ],
+			"to": [ 16.0, 10.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#forge", "uv": [ 0.0, 6.0, 16.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#forge", "uv": [ 0.0, 6.0, 16.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#forge", "uv": [ 0.0, 6.0, 16.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#forge", "uv": [ 0.0, 6.0, 16.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#forge", "uv": [ 2.5, 2.0, 14.5, 14.0 ], "autoUv": false },
+				"down": { "texture": "#forge", "uv": [ 2.0, 2.0, 14.0, 14.0 ], "autoUv": false }
+			}
+		}
+	]}

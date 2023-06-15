@@ -1,0 +1,26 @@
+[
+	{
+	"code": "glazedbricks",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 2, "consumeLitres": 2, "name": "color",
+			"allowedVariants": [
+				"black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+				"malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "type": "item", "code": "game:burnedbrick-*", "quantity": 1, "name": "type", "allowedVariants": [ "blue" ] }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazedbrick-wet-clear-{color}", "stackSize": 1 }
+	},
+	{
+	"code": "glazedbricks",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-milky-*", "litres": 2, "consumeLitres": 2, "name": "color",
+			"allowedVariants": [
+				"black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+				"malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "type": "item", "code": "game:burnedbrick-*", "quantity": 1, "name": "type", "allowedVariants": [ "fire" ] }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazedbrick-wet-milky-{color}", "stackSize": 1 }
+	}
+]

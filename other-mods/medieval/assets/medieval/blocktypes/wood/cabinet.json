@@ -1,0 +1,410 @@
+{
+	"_info": "",
+	"code": "cabinet",
+	"class": "BlockContainers",
+	"entityclass": "BlockEntityContainers",
+	"attributes": {
+		"partialAttachable": true,
+		"canPlaceGroundStorgeOnTop": false,
+		"inventoryClassName": "container",
+		"defaultType": "generic-oak",
+		"types": [ 
+			"generic-acacia",
+			"generic-aged",
+			"generic-baldcypress",
+			"generic-birch",
+			"generic-ebony",
+			"generic-kapok",
+			"generic-larch",
+			"generic-maple",
+			"generic-oak",
+			"generic-pine",
+			"generic-purpleheart",
+			"generic-redwood",
+			"generic-walnut"
+		],
+		"rotatatableInterval": {
+			"generic-acacia": "90deg",
+			"generic-aged": "90deg",
+			"generic-baldcyprees": "90deg",
+			"generic-birch": "90deg",
+			"generic-ebony": "90deg",
+			"generic-kapok": "90deg",
+			"generic-larch": "90deg",
+			"generic-maple": "90deg",
+			"generic-oak": "90deg",
+			"generic-pine": "90deg",
+			"generic-redwood": "90deg",
+			"generic-purpleheart": "90deg",
+			"generic-walnut": "90deg"
+		},
+		"canAutoPull": {
+			"generic-acacia": false,
+			"generic-aged": false,
+			"generic-baldcyprees": false,
+			"generic-birch": false,
+			"generic-ebony": false,
+			"generic-kapok": false,
+			"generic-larch": false,
+			"generic-maple": false,
+			"generic-oak": false,
+			"generic-pine": false,
+			"generic-purpleheart": false,
+			"generic-redwood": false,
+			"generic-walnut": false
+		},
+		"drop": {
+			"generic-acacia": true,
+			"generic-aged": true,
+			"generic-baldcyprees": true,
+			"generic-birch": true,
+			"generic-ebony": true,
+			"generic-kapok": true,
+			"generic-larch": true,
+			"generic-maple": true,
+			"generic-oak": true,
+			"generic-pine": true,
+			"generic-purpleheart": true,
+			"generic-redwood": true,
+			"generic-walnut": true
+		},
+		"quantitySlots": {
+			"generic-acacia": 15,
+			"generic-aged": 15,
+			"generic-baldcyprees": 15,
+			"generic-birch": 15,
+			"generic-ebony": 15,
+			"generic-kapok": 15,
+			"generic-larch": 15,
+			"generic-maple": 15,
+			"generic-oak": 15,
+			"generic-pine": 15,
+			"generic-purpleheart": 15,
+			"generic-redwood": 15,
+			"generic-walnut": 15
+		},
+		"quantityColumns": {
+			"generic-acacia": 5,
+			"generic-aged": 5,
+			"generic-baldcyprees": 5,
+			"generic-birch": 5,
+			"generic-ebony": 5,
+			"generic-kapok": 5,
+			"generic-larch": 5,
+			"generic-maple": 5,
+			"generic-oak": 5,
+			"generic-pine": 5,
+			"generic-purpleheart": 5,
+			"generic-redwood": 5,
+			"generic-walnut": 5
+		},
+		"dialogTitleLangCode": {
+			"generic-acacia": "Gabinete",
+			"generic-aged": "Gabinete",
+			"generic-baldcyprees": "Gabinete",
+			"generic-birch": "Gabinete",
+			"generic-ebony": "Gabinete",
+			"generic-kapok": "Gabinete",
+			"generic-larch": "Gabinete",
+			"generic-maple": "Gabinete",
+			"generic-oak": "Gabinete",
+			"generic-pine": "Gabinete",
+			"generic-purpleheart": "Gabinete",
+			"generic-redwood": "Gabinete",
+			"generic-walnut": "Gabinete"
+		},
+		"storageType": {
+			"generic-acacia": 189,
+			"generic-aged": 189,
+			"generic-baldcyprees": 189,
+			"generic-birch": 189,
+			"generic-kapok": 189,
+			"generic-larch": 189,
+			"generic-maple": 189,
+			"generic-pine": 189,
+			"generic-purpleheart": 189,
+			"generic-redwood": 189,
+			"generic-walnut": 189
+		},
+		"retrieveOnly": {
+			"generic-acacia": false,
+			"generic-aged": false,
+			"generic-baldcyprees": false,
+			"generic-birch": false,
+			"generic-ebony": false,
+			"generic-kapok": false,
+			"generic-larch": false,
+			"generic-maple": false,
+			"generic-oak": false,
+			"generic-pine": false,
+			"generic-purpleheart": false,
+			"generic-redwood": false,
+			"generic-walnut": false
+		},
+		"shape": {
+			"generic-acacia": "block/wood/chest/acacia/drawer-door-m",
+			"generic-aged": "block/wood/chest/aged/drawer-door-m",
+			"generic-baldcypress": "block/wood/chest/baldcypress/drawer-door-m",
+			"generic-birch": "block/wood/chest/birch/drawer-door-m",
+			"generic-ebony": "block/wood/chest/ebony/drawer-door-m",
+			"generic-kapok": "block/wood/chest/kapok/drawer-door-m",
+			"generic-larch": "block/wood/chest/larch/drawer-door-m",
+			"generic-maple": "block/wood/chest/maple/drawer-door-m",
+			"generic-oak": "block/wood/chest/oak/drawer-door-m",
+			"generic-pine": "block/wood/chest/pine/drawer-door-m",
+			"generic-purpleheart": "block/wood/chest/purpleheart/drawer-door-m",
+			"generic-redwood": "block/wood/chest/redwood/drawer-door-m",
+			"generic-walnut": "block/wood/chest/walnut/drawer-door-m"
+		},
+		"typedOpenSound": {
+			"generic-acacia": "game:sounds/block/largechestopen",
+			"generic-aged": "game:sounds/block/largechestopen",
+			"generic-baldcyprees": "game:sounds/block/largechestopen",
+			"generic-birch": "game:sounds/block/largechestopen",
+			"generic-ebony": "game:sounds/block/largechestopen",
+			"generic-kapok": "game:sounds/block/largechestopen",
+			"generic-larch": "game:sounds/block/largechestopen",
+			"generic-maple": "game:sounds/block/largechestopen",
+			"generic-oak": "game:sounds/block/largechestopen",
+			"generic-pine": "game:sounds/block/largechestopen",
+			"generic-purpleheart": "game:sounds/block/largechestopen",
+			"generic-redwood": "game:sounds/block/largechestopen",
+			"generic-walnut": "game:sounds/block/largechestopen"
+		},
+		"typedCloseSound": {
+			"generic-acacia": "game:sounds/block/largechestclose",
+			"generic-aged": "game:sounds/block/largechestclose",
+			"generic-baldcyprees": "game:sounds/block/largechestclose",
+			"generic-birch": "game:sounds/block/largechestclose",
+			"generic-ebony": "game:sounds/block/largechestclose",
+			"generic-kapok": "game:sounds/block/largechestclose",
+			"generic-larch": "game:sounds/block/largechestclose",
+			"generic-maple": "game:sounds/block/largechestclose",
+			"generic-oak": "game:sounds/block/largechestclose",
+			"generic-pine": "game:sounds/block/largechestclose",
+			"generic-purpleheart": "game:sounds/block/largechestclose",
+			"generic-redwood": "game:sounds/block/largechestclose",
+			"generic-walnut": "game:sounds/block/largechestclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [{"name": "Lockable" }, {"name": "Container"},	{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" }
+		}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {},
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "medieval" ],
+				"stacks": [
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-acacia" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-aged" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-baldcypress" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-birch" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-ebony" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-kapok" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-larch" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-maple" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-oak" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-pine" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-purpleheart" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-redwood" } },
+					{ "type": "block", "code": "cabinet-east", "attributes": { "type": "generic-walnut" } }
+				]
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"shapeInventory": { "base": "block/wood/chest/drawer-door-m", "rotateY": 270 },
+	"shapeByType": {
+		"*-north": { "base": "block/wood/chest/drawer-door-m", "rotateY": 0 },
+		"*-east": { "base": "block/wood/chest/drawer-door-m", "rotateY": 270 },
+		"*-west": { "base": "block/wood/chest/drawer-door-m", "rotateY": 90 },
+		"*-south": { "base": "block/wood/chest/drawer-door-m", "rotateY": 180 }
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	"textures": {
+
+
+		"generic-acacia-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-aged-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-baldcypress-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-birch-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-ebony-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-kapok-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-larch-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-maple-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-oak-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-pine-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-purpleheart-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-redwood-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"generic-walnut-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+
+
+
+		"generic-acacia-material": { 
+			"base": "block/wood/chest/acaciadark"
+		},
+		"generic-aged-material": { 
+			"base": "block/wood/chest/ageddark"
+		},
+		"generic-baldcypress-material": { 
+			"base": "block/wood/chest/baldcypressdark"
+		},
+		"generic-birch-material": { 
+			"base": "block/wood/chest/birchdark"
+		},
+		"generic-ebony-material": { 
+			"base": "block/wood/chest/ebonydark"
+		},
+		"generic-kapok-material": { 
+			"base": "block/wood/chest/kapokdark"
+		},
+		"generic-larch-material": { 
+			"base": "block/wood/chest/larchdark"
+		},
+		"generic-maple-material": { 
+			"base": "block/wood/chest/mapledark"
+		},
+		"generic-oak-material": { 
+			"base": "block/wood/chest/oakdark"
+		},
+		"generic-pine-material": { 
+			"base": "block/wood/chest/pinedark"
+		},
+		"generic-purpleheart-material": { 
+			"base": "block/wood/chest/purpleheartdark"
+		},
+		"generic-redwood-material": { 
+			"base": "block/wood/chest/redwooddark"
+		},
+		"generic-walnut-material": { 
+			"base": "block/wood/chest/walnutdark"
+		}
+
+
+	},
+	"blockmaterial": "Wood",
+	"replaceable": 900,
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sideAo": { "all": false },
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.4375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.0625,
+			"z1": 0.4375,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.4375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.0625,
+			"z1": 0.4375,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 35
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"materialDensity": 600,
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.5, "z": -0.3 },
+		"rotation": { "x": 0, "y": 90, "z": -102 },
+		"scale": 0.56
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+		"scale": 1.16
+	}
+}

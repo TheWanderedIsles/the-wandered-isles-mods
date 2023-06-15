@@ -1,0 +1,44 @@
+{
+	code: "caveart",
+	behaviors: [ {name: "Decor", properties: {sides: ["north", "east", "south", "west", "up", "down"], notFullFace:true, thickness: 0.0 }} ],
+	attributes: {
+		handbook: {
+			exclude: true
+		}
+	},
+	vertexFlags: {
+		zOffset: 1
+	},
+	renderpass: "Transparent",
+	variantgroups: [
+		{ code: "material", states: [ "blue", "celtic", "green", "orange", "yellow" ] },
+		{ code: "set", states: ["1" ] },
+		{ code: "col", states: ["1","2","3","4","5","6"] },
+		{ code: "row", states: ["1","2","3","4","5","6"] }
+	],
+	drawtype: "surfacelayer",
+	doNotRenderAtLod2: true,
+	shapeInventory: {
+		base: "game:block/basic/layers/0voxel", rotateX: 90
+	},
+	vertexFlagsByType: {
+		"*-celtic-*": {glowLevel: 200},
+		"*-green-*": {glowLevel: 200},
+		"*-orange-*": {glowLevel: 200},
+		"*-yellow-*": {glowLevel: 200},
+		"*-blue-*": {glowLevel: 200}
+	},
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	blockmaterial: "Cloth",
+	replaceable: 5500,
+	resistance: 0,
+	lightAbsorption: 0,
+	textures: {
+		all: { 
+			base: "medieval:block/painting/caveart/{material}{set}"
+		}
+	},
+	drops: [],
+	materialDensity: 400
+}

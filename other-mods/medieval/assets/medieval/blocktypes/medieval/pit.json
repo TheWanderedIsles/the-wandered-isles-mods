@@ -1,0 +1,96 @@
+{
+	code: "pit",
+	behaviors: [ {name: "HorizontalOrientable"}, { name: "UnstableFalling", properties: { attachableFaces: [ "down"] }} ],
+	attributes: {
+		canChisel: false
+	},
+	variantgroups: [
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: { "general": ["*-east"], "decorative": ["*-east"], "medieval": ["*-east"] },
+	shapeByType: {
+			"*-north": { base: "game:block/wood/firepit/lit-normal", rotateY: 0 },
+			"*-west": { base: "game:block/wood/firepit/lit-normal", rotateY: 90 },
+			"*-south": { base: "game:block/wood/firepit/lit-normal", rotateY: 180 },
+			"*-east": { base: "game:block/wood/firepit/lit-normal", rotateY: 270 }
+
+	},
+
+	blockmaterial: "Wood",
+	texturesByType: {
+
+		"*-lit-normal-*": { 						
+				"ember": "game:block/coal/ember",
+				"ashes": "game:block/wood/firepit/ground",
+				"birch": "game:block/wood/debarked/birch",
+				"fire": "game:block/wood/firepit/fire",
+				"walnut-h": "game:block/wood/bark/walnut-h"
+		}
+	},
+	particleProperties: [
+		{
+			hsvaColor: [{ avg: 20, var: 20 }, { avg: 255, var: 50 }, { avg: 255, var: 50 },  { avg: 255, var: 0 }],
+			opacityEvolve: { transform: "quadratic", factor: -16 },
+			gravityEffect: { avg: 0, var: 0 },
+			posOffset: [ { avg: 0, var: 0.12 }, { avg: -0.2, var: 0 }, { avg: 0, var: 0.12 }],
+			velocity: [ { avg: 0, var: 0.025 }, { avg: 0.5, var: 0.07 }, { avg: 0, var: 0.025 }],
+			quantity: { avg: 1 },
+			size: { avg: 0.5, var: 0 },
+			lifeLength: { avg: 0.2 },
+			sizeEvolve: { transform: "linear", factor: 0.25 },
+			particleModel: "Quad",
+			vertexFlags: 128,
+			glowLevel: 64
+		},
+		{
+			hsvaColor: [{ avg: 0, var: 0 }, { avg: 0, var: 0 }, { avg: 40, var: 30 },  { avg: 220, var: 50 }],
+			opacityEvolve: { transform: "quadratic", factor: -16 },
+			gravityEffect: { avg: 0, var: 0 },
+			posOffset: [ { avg: 0, var: 0.1 }, { avg: 0, var: 0 }, { avg: 0, var: 0.1 }],
+			velocity: [ { avg: 0, var: 0.025 }, { avg: 0.15, var: 0.1 }, { avg: 0, var: 0.025 }],
+			quantity: { avg: 0.05 },
+			size: { avg: 0.25, var: 0.05 },
+			sizeEvolve: { transform: "linear", factor: 0.5 },
+			particleModel: "Quad"
+		}
+	],
+	lightHsv: [4, 7, 10],
+	"replaceable": 300,
+	drawtype: "json",
+	resistance: 2,
+	faceCullMode: "NeverCull",
+	lightAbsorption: 0,
+	emitSideAo: {all: false },
+	sideAo: { all: false },
+	sideopaque: {
+		all: false
+	},
+	renderpass: "OpaqueNoCull",
+	collisionbox: null,
+	selectionBox: {
+		x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1,
+		rotateYByType: {
+			"*-east": 270,
+			"*-west": 90,
+			"*-south": 180
+		}
+	},
+	soundsByType: {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks",
+			"walk": "game:walk/wood"
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+		guiTransform: {
+		translation: { x: 0, y: -6, z: 0 },
+		scale: 1.75
+	}
+}

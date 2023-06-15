@@ -1,0 +1,13 @@
+[
+    {
+		ingredientPattern: "LC,SS,SS",
+		ingredients: {
+			"S": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: [ "andesite", "chert", "conglomerate", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "slate", "bauxite" ], quantity: 1 },
+			"L": { type: "block", code: "medieval:locustsack", quantity: 1 },
+			"C": { type: "item", code: "medieval:colorpowder-*", name: "color", allowedVariants: [ "red", "orange", "yellow", "green", "blue" ], quantity: 1 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "medieval:plasterglow-{color}", quantity: 4 }
+	}
+]

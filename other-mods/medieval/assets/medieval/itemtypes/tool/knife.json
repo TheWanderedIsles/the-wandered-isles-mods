@@ -1,0 +1,197 @@
+{
+	code: "knife",
+	"__comment": "ItemKnife contains code for harvesting animal carcasses",
+	class: "ItemKnife",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "knife",
+	attributes: {
+		handbook: {
+			groupBy: ["knife-*"]
+		},
+		toolrackTransform: {
+			translation: { x: 0.1, y: 0.6, z: -0.1 },
+			rotation: { x: 97, y: 180, z: 3 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.8
+		},
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.01, z: -0.044 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			}
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [
+		{ code: "metal", states: [ "copper-bone-p", "copper-leather-p", "copper-red-p", "tinbronze-bone-p", "tinbronze-leather-p", "tinbronze-red-p", "bismuthbronze-bone-p", "bismuthbronze-leather-p", "bismuthbronze-red-p", "blackbronze-bone-p", "blackbronze-leather-p", "blackbronze-red-p", "gold-bone-p", "gold-leather-p", "gold-red-p", "silver-bone-p", "silver-leather-p", "silver-red-p", "iron-bone-p", "iron-leather-p", "iron-red-p", "meteoriciron-bone-p", "meteoriciron-leather-p", "meteoriciron-red-p", "steel-bone-p", "steel-leather-p", "steel-red-p", "stainlesssteel-bone-p", "stainlesssteel-leather-p", "stainlesssteel-red-p", "stainlesssteel-horn-p", "titanium-bone-p", "titanium-leather-p", "titanium-red-p", "titanium-horn-p" ] },
+	],
+	shapeByType: {
+		"*": { base: "item/tool/blade/knifeblade" }
+	},
+	heldTpHitAnimation: "breaktool",
+	heldTpUseAnimation: "knap",
+	texturesByType: {
+		"*": {
+			"metal": { base: "item/tool/sword/{metal}" }
+		},
+	},
+	attackRange: 1.5,
+	tooltierbytype: {
+		"*-copper-bone-p": 2,
+		"*-copper-leather-p": 2,
+		"*-copper-red-p": 2,
+		"*-gold-bone-p": 2,
+		"*-gold-leather-p": 2,
+		"*-gold-red-p": 2,
+		"*-silver-bone-p": 2,
+		"*-silver-leather-p": 2,
+		"*-silver-red-p": 2,
+		"*-bismuthbronze-bone-p": 3,
+		"*-bismuthbronze-leather-p": 3,
+		"*-bismuthbronze-red-p": 3,
+		"*-tinbronze-bone-p": 3,
+		"*-tinbronze-leather-p": 3,
+		"*-tinbronze-red-p": 3,
+		"*-blackbronze-bone-p": 3,
+		"*-blackbronze-leather-p": 3,
+		"*-blackbronze-red-p": 3,
+		"*-iron-bone-p": 4,
+		"*-iron-leather-p": 4,
+		"*-iron-red-p": 4,
+		"*-meteoriciron-bone-p": 4,
+		"*-meteoriciron-leather-p": 4,
+		"*-meteoriciron-red-p": 4,
+		"*-steel-bone-p": 5,
+		"*-steel-leather-p": 5,
+		"*-steel-red-p": 5,
+		"*-stainlesssteel-bone-p": 6,
+		"*-stainlesssteel-leather-p": 6,
+		"*-stainlesssteel-red-p": 6,
+		"*-stainlesssteel-horn-p": 6,
+		"*-titanium-bone-p": 7,
+		"*-titanium-leather-p": 7,
+		"*-titanium-red-p": 7,
+		"*-titanium-horn-p": 7
+	},
+	durabilitybytype: {
+		
+		"knife-gold-bone-p": 300,
+		"knife-gold-leather-p": 300,
+		"knife-gold-red-p": 300,
+		"knife-silver-bone-p": 350,
+		"knife-silver-leather-p": 350,
+		"knife-silver-red-p": 350,
+		"knife-copper-bone-p": 600,
+		"knife-copper-leather-p": 600,
+		"knife-copper-red-p": 600,
+		"knife-tinbronze-bone-p": 900,
+		"knife-tinbronze-leather-p": 900,
+		"knife-tinbronze-red-p": 900,
+		"knife-bismuthbronze-bone-p": 1000,
+		"knife-bismuthbronze-leather-p": 1000,
+		"knife-bismuthbronze-red-p": 1000,
+		"knife-blackbronze-bone-p": 1100,
+		"knife-blackbronze-leather-p": 1100,
+		"knife-blackbronze-red-p": 1100,
+		"knife-iron-bone-p": 1800,
+		"knife-iron-leather-p": 1800,
+		"knife-iron-red-p": 1800,
+		"knife-meteoriciron-bone-p": 2400,
+		"knife-meteoriciron-leather-p": 2400,
+		"knife-meteoriciron-red-p": 2400,
+		"knife-steel-bone-p": 4500,
+		"knife-steel-leather-p": 4500,
+		"knife-steel-red-p": 4500,
+		"knife-stainlesssteel-bone-p": 6500,
+		"knife-stainlesssteel-leather-p": 6500,
+		"knife-stainlesssteel-red-p": 6500,
+		"knife-stainlesssteel-horn-p": 6500,
+		"knife-titanium-bone-p": 8250,
+		"knife-titanium-leather-p": 8250,
+		"knife-titanium-red-p": 8250,
+		"knife-titanium-horn-p": 8250
+	},
+	miningspeedbytype: {
+		"knife-copper-*": {
+			"plant": 2,
+		},
+		"knife-silver-*": {
+			"plant": 2.1,
+		},
+		"knife-gold-*": {
+			"plant": 2.1,
+		},
+		"knife-bismuthbronze-*": {
+			"plant": 2.2,
+		},
+		"knife-tinbronze-*": {
+			"plant": 2.3,
+		},
+		"knife-blackbronze-*": {
+			"plant": 2.4,
+		},
+		"knife-iron-*": {
+			"plant": 3
+		},
+		"knife-meteoriciron-*": {
+			"plant": 3.2
+		},
+		"knife-steel-*": {
+			"plant": 3.5,
+		},
+		"knife-stainlesssteel-*": {
+			"plant": 4.5,
+		},
+		"knife-titanium-*": {
+			"plant": 5.5,
+		}
+	},
+	attackpowerbytype: {
+		"knife-copper-*": 1.5,
+		"knife-bismuthbronze-*": 2,
+		"knife-tinbronze-*": 2.5,
+		"knife-gold-*": 2.5,
+		"knife-silver-*": 2.5,
+		"knife-blackbronze-*": 3,
+		"knife-iron-*": 3.5,
+		"knife-meteoriciron-*": 3.75,
+		"knife-steel-*": 4,
+		"knife-stainlesssteel-*": 5.5,
+		"knife-titanium-*": 6.5
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.2, y: 0.1, z: 0.5 },
+		rotation: { x: 140, y: 93, z: -75 },
+		scale: 2.5
+		
+	},
+	guiTransform: {
+		rotate: false,
+		translation: { x: 0, y: 1, z: 0 },
+		rotation: { x: -158, y: 0, z: 48 },
+		origin: { x: 0.48, y: 0.1, z: 0.5 },
+		scale: 3
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.45 },
+			scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.85, y: -0.2, z: -0.48 },
+		rotation: { x: 0, y: 0, z: -30 },
+		scale: 1		
+	}
+}

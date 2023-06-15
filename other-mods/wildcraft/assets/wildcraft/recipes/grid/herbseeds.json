@@ -1,0 +1,106 @@
+[
+    {
+      "ingredientPattern": "K,H",
+      "enabled": true,
+      "shapeless": true,
+      "ingredients": {
+        "K": {
+          "type": "item",
+          "code": "game:knife-*",
+          "isTool": true
+        },
+        "H": {
+          "type": "item",
+          "code": "wildcraft:herbs-*",
+          "quantity": 2,
+          "name": "herb"
+        }
+      },
+      "name": "herbseeds",
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "wildcraft:herbseeds-{herb}",
+        "quantity": 1
+      }
+    },
+    {
+      "ingredientPattern": "K,H",
+      "enabled": true,
+      "shapeless": true,
+      "ingredients": {
+        "K": {
+          "type": "item",
+          "code": "game:knife-*",
+          "isTool": true
+        },
+        "H": {
+          "type": "item",
+          "code": "wildcraft:waterherbs-*",
+          "quantity": 2,
+          "name": "herb"
+        }
+      },
+      "name": "waterherbseeds",
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "wildcraft:waterherbseeds-{herb}",
+        "quantity": 1
+      }
+    },
+    {
+      "ingredientPattern": "K,H",
+      "enabled": true,
+      "shapeless": true,
+      "ingredients": {
+        "K": {
+          "type": "item",
+          "code": "game:knife-*",
+          "isTool": true
+        },
+        "H": {
+          "type": "item",
+          "code": "wildcraft:skunkcabbage-stem",
+          "quantity": 1,
+          "name": "herb"
+        }
+      },
+      "name": "waterherbseeds",
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "wildcraft:waterherbseeds-skunkcabbage",
+        "quantity": 2
+      }
+    },
+    {
+      "ingredientPattern": "K,H",
+      "enabled": true,
+      "shapeless": true,
+      "ingredients": {
+        "K": {
+          "type": "item",
+          "code": "game:knife-*",
+          "isTool": true
+        },
+        "H": {
+          "type": "item",
+          "code": "wildcraft:plantfibers-*",
+          "quantity": 2,
+          "name": "herb"
+        }
+      },
+      "name": "waterherbseeds",
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "wildcraft:waterherbseeds-{herb}",
+        "quantity": 1
+      }
+    }
+  ]

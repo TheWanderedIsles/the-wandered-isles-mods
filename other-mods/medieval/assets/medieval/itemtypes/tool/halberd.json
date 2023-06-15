@@ -1,0 +1,104 @@
+{
+	code: "halberd",
+	class: "ItemAxe",
+	attributes: {
+		handbook: {
+			groupBy: ["axe-*"]
+		},
+		toolrackTransformByType: {
+			"*":
+			{	
+			translation: { x: -0.23, y: 0.6, z: 0 },
+			rotation: { x: 0, y: 10, z: -1 },
+			scale: 1.25
+			}
+		},
+		groundStorageTransform: {
+			translation: { x: 0.0, y: 0.18, z: 0.4 },
+			rotation: { x: 26, y: 88, z: 87 },
+			scale: 0.88
+		},
+		onmoldrackTransformByType: {
+
+			"*":{
+					translation: { x: 0.45, y: 0.76, z: 0 },
+					rotation: { x: 180, y: 150, z: -90 },
+					scale: 0.75,
+					origin: { x: 0.5, y: 0, z: 0.5 }
+			}
+		},
+
+    "moldrackable": true
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 2,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	tool: "axe",
+
+	damagedby: ["blockbreaking", "attacking"],
+
+	shape: { "base": "item/tool/halberd" },
+
+
+	heldTpHitAnimation: "axechop",
+
+	attackRange: 3.5,
+
+	tooltierbytype: {
+		"*": 7
+	},
+	miningspeedbytype: {
+		"*": {
+			"wood": 11,
+			"plant": 6,
+			"leaves": 4
+		}
+	},
+	durabilitybytype: {
+		"*": 3000
+	},
+	attackpowerbytype: {
+		"*": 7
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+
+	fpHandTransform: {
+		translation: { x: -0.3, y: -0.5, z: 0.3 },
+		rotation: { x: -29, y: 1, z: 88 },
+		origin: { x: 0.2, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		"*":
+		{	
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -63, y: -123, z: -180 },
+		origin: { x: 0.61, y: 0, z: 0.47 }
+	
+		}
+	},
+	groundTransformByType: {
+		"*":
+		{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.6
+		}
+	},
+	tpHandTransformByType: {
+		"*":
+		{
+			translation: { x: -0.89, y: -0.5, z: -0.1 },
+			rotation: { x: 90, y: 0, z: -10 },
+			scale: 0.95
+		}
+	}
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+	"code": "em:powdered-ore-boneash",
+	"type": "item",
+	    "stacksize": 32,
+	    "stock": {
+		"avg": 4,
+		"var": 2
+	    },
+	    "price": {
+		"avg": 3,
+		"var": 0.5
+	    }
+    },
+    "file": "game:entities/humanoid/trader-survivalgoods.json",
+    "side": "Server"
+  }
+]

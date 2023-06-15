@@ -1,0 +1,42 @@
+[
+	{
+	"code": "glazing-clay",
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 1 },
+		{ "type": "item", "code": "game:clay-*", "quantity": 1, "allowedVariants": [ "fire", "blue" ], "name": "clay" }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazingbase-clay", "litres": 1 }
+	},
+	{
+	"code": "glazing-salt",
+	"ingredients": [
+		{ "type": "item", "code": "game:brineportion", "litres": 1 },
+		{ "type": "item", "code": "game:salt", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazingbase-salt", "litres": 1 }
+	},
+	{
+	"code": "glazing-saltcopper",
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-salt", "litres": 2 },
+		{ "type": "item", "code": "em:powdered-metal-copper", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazingbase-saltcopper", "litres": 2 }
+	},
+	{
+	"code": "glazing-clear",
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-clay", "litres": 1 },
+		{ "type": "item", "code": "em:powdered-ore-quartz", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazingbase-clear", "litres": 1 }
+	},
+	{
+	"code": "glazing-milky",
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-clay", "litres": 2 },
+		{ "type": "item", "code": "em:powdered-ore-cassiterite", "quantity": 1, "name": "clouding" }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazingbase-milky", "litres": 2 }
+	}
+]

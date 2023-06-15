@@ -1,0 +1,12 @@
+
+	{
+		ingredientPattern: "CC,CC",
+		enabled: true,
+		ingredients: {
+			"C": { type: "item", code: "wildcrafttrees:willowcane-*", name: "wood" }
+		},
+		name: "wattleanddaub",
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "wildcrafttrees:wattle-{wood}-ew-free", quantity: 4  }
+	}

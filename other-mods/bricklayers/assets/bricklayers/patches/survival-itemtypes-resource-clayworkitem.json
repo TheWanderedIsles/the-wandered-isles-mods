@@ -1,0 +1,44 @@
+[
+  {
+    "op": "remove",
+    "path": "/texture",
+    "file": "game:itemtypes/resource/clayworkitem.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturebyType",
+    "value": {
+      "*-blue": {
+        "base": "game:block/soil/{type}clay"
+      },
+      "*-fire": {
+        "base": "game:block/soil/{type}clay"
+      },
+      "*-white": {
+        "base": "bricklayers:block/clay/raw/white"
+      },
+      "*-paleblue": {
+        "base": "bricklayers:block/clay/raw/paleblue"
+      },
+      "*-palegreen": {
+        "base": "bricklayers:block/clay/raw/palegreen"
+      },
+      "*-palered": {
+        "base": "bricklayers:block/clay/raw/palered"
+      },
+      "*": {
+        "base": "bricklayers:item/resource/clay/raw-{type}clay"
+      }
+    },
+    "file": "game:itemtypes/resource/clayworkitem.json",
+    "side": "Server"
+  },
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": [ "black", "blurple", "brown", "darkgrey", "green", "light", "malachite", "orange", "pink", "red", "purple", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ],
+    "file": "game:itemtypes/resource/clayworkitem.json",
+    "side": "Server"
+  }
+]

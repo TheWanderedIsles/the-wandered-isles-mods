@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "_RS,PPP,P_P",
+	ingredients: {
+		"S": { type: "item", code: "game:stick" },
+		"P": { type: "item", code: "game:plank-*" },
+		"R": { type: "block", code: "game:rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "peridotite"]  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "grindstone-{rock}-north"  }
+}

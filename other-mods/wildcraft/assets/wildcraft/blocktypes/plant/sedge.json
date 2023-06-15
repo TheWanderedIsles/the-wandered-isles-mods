@@ -1,0 +1,167 @@
+{
+	"code": "sedge",
+	"classByType":{
+    "*": "WaterPlant"
+  },
+	"entityClassByType": {
+		"*-harvested": "Transient"
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["swamptule", "tule", "softsedge", "hardsedge", "brownsedge", "waterchestnut"] },
+		{ "code": "state", "states": ["normal", "harvested"] }
+	],
+	"attributes": {
+    "maxDepthByType": {
+      "*-swamptule-*": 3,
+        "*-tule-*": 3,
+        "*-softsedge-*": 1,
+        "*-hardsedge-*": 1,
+        "*-brownsedge-*": 1,
+        "*-waterchestnut-*": 1
+    },
+    "butterflyFeedByType": {
+    "*-normal": true
+    },
+    "beeFeedByType": {
+    "*-normal": true
+    },
+    "transientPropsByType": {
+      "*-normal": {
+        "convertFrom": "*-normal", 
+        "convertTo": "*-harvested", 
+        "inGameHours": "84",
+        "whenAboveTemperature": 12
+      },
+      "*-harvested": {
+        "convertFrom": "*-harvested", 
+        "convertTo": "*-normal", 
+        "inGameHours": "84",
+        "whenBelowTemperature": 8
+      }
+    },
+    "forageStatAffected": true,
+    "hasRootByType":{
+      "*-waterchestnut-*": "true",
+      "*-tule-*": "true",
+      "*-swamptule-*": "true",
+      "*-brownsedge-*": "true",
+      "*-hardsedge-*": "true",
+      "*": "false"
+    },
+    "isPoisonousByType":{
+        "*":"false"
+    }
+  },
+  "walkspeedmultiplierByType":{
+    "*-swamptule-*": 0.65,
+    "*-tule-*": 0.65,
+    "*": 1
+  },
+  "randomDrawOffset": true,
+  "texturesByType": {
+    "*-tule-harvested": {
+      "tule": { "base": "wildcraft:block/plant/sedge/tule_harvested*" }
+    },
+    "*-swamptule-harvested": {
+      "tule": { "base": "wildcraft:block/plant/sedge/tule_harvested*" }
+    },
+    "*-normal": {
+      "leaves": { "base": "wildcraft:block/plant/sedge/{type}" }
+    },
+    "*-harvested": {
+      "leaves": { "base": "wildcraft:block/plant/sedge/{type}_harvested*" }
+    }
+  },
+	"creativeinventory": {
+    "general": ["*-normal"],
+    "flora": ["*-normal"],
+    "wildcraft": [ "*-normal" ]
+  },
+  "shapeByType": {
+    "*-swamptule-normal": {"base": "wildcraft:block/plant/leafygroundvegetable/tule/tule_fin_tufts"},
+    "*-swamptule-harvested": {"base": "wildcraft:block/plant/leafygroundvegetable/tule/tule_fin"},
+    "*-tule-*": {"base": "wildcraft:block/plant/leafygroundvegetable/tule/tule_fin"},
+    "*-softsedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/sedge/sedge_untinted"},
+    "*-waterchestnut-*": {"base": "wildcraft:block/plant/leafygroundvegetable/sedge/sedge_untinted"},
+    "*-brownsedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/sedge/sedge_untinted"},
+    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/sedge/sedge2"}
+  },
+  "dropsByType": {
+    "*-tule-normal": [ { "type": "item", "code": "wildcraft:plantfibers-tule","quantity": { "avg": 2.5 } } ],
+    "*-tule-harvested": [ { "type": "item", "code": "wildcraft:roots-tule" } ],
+
+    "*-swamptule-normal": [ { "type": "item", "code": "wildcraft:plantfibers-tule","quantity": { "avg": 2.5 } } ],
+    "*-swamptule-harvested": [ { "type": "item", "code": "wildcraft:roots-tule" } ],
+
+    "*-softsedge-normal": [{"type": "item","code": "wildcraft:herbs-softsedge","quantity": { "avg": 2.5 }}],
+
+    "*-hardsedge-normal": [ { "type": "item", "code": "wildcraft:plantfibers-hardsedge","quantity": { "avg": 2.5 } } ],
+    "*-hardsedge-harvested": [ { "type": "item", "code": "wildcraft:roots-hardsedge" } ],
+
+    "*-brownsedge-normal": [ { "type": "item", "code": "wildcraft:plantfibers-brownsedge","quantity": { "avg": 2.5 } } ],
+    "*-brownsedge-harvested": [ { "type": "item", "code": "wildcraft:roots-brownsedge" } ],
+
+    "*-waterchestnut-normal": [ { "type": "item", "code": "wildcraft:herbs-waterchestnut","quantity": { "avg": 2.5 } } ],
+		"*-waterchestnut-harvested": [ { "type": "item", "code": "wildcraft:roots-waterchestnut" } ]
+	},
+	"renderpass": "OpaqueNoCull",
+  "faceCullMode": "NeverCull",
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBoxByType": {
+    "*-tule-normal": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 3.75, "z2": 1 },
+    "*-tule-harvested": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 1.25, "z2": 1 },
+
+    "*-swamptule-normal": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 3.75, "z2": 1 },
+    "*-swamptule-harvested": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 1.25, "z2": 1 },
+    "*-harvested":{ "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+    "*": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 1.5, "z2": 1 }
+  },
+  "guiTransformByType": {
+    "*-tule-*":	{
+      "rotation": { x: -22, y: 107, z: 0 },
+      "origin": { x: 0.3, y: 1.4, z: 0.4 },
+      "scale": 0.5
+    },
+    "*-swamptule-*":	{
+      "rotation": { x: -22, y: 107, z: 0 },
+      "origin": { x: 0.3, y: 1.4, z: 0.4 },
+      "scale": 0.5
+    },
+    "*":{
+      "rotation": { "x": -22, "y": 107, "z": 0 },
+      "origin": { "x": 0.3, "y": 0.5, "z": 0.4 },
+      "scale": 1.32
+    }
+  },
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"vertexFlags": {
+		"leavesWindWave": true
+	},
+	"materialDensity": 200,
+	"frostable": true
+}

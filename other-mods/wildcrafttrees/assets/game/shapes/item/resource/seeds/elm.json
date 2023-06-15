@@ -1,0 +1,44 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"elm": "item/resource/seeds/elm"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 6.0, 0.0, 8.0 ], 
+			"to": [ 10.0, 5.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#elm", "uv": [ 1.0, 0.0, 10.0, 10.0 ], "autoUv": false },
+				"east": { "texture": "#elm", "uv": [ 0.0, 0.0, 1.0, 5.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 5.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 1.3, 2.0, -0.5 ], 
+					"to": [ 2.8, 3.5, 0.5 ], 
+					"rotationOrigin": [ 1.3, 2.0, -0.5 ],
+					"faces": {
+						"north": { "texture": "#elm", "uv": [ 12.0, 1.0, 15.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#elm", "uv": [ 12.0, 1.0, 14.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#elm", "uv": [ 12.0, 1.0, 15.0, 4.0 ], "autoUv": false },
+						"west": { "texture": "#elm", "uv": [ 12.0, 1.0, 14.0, 4.0 ], "autoUv": false },
+						"up": { "texture": "#elm", "uv": [ 12.0, 1.0, 15.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#elm", "uv": [ 12.0, 2.0, 15.0, 4.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

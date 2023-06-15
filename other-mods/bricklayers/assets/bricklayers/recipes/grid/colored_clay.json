@@ -1,0 +1,442 @@
+[
+	{
+	"ingredientPattern": "XX,BB",
+	"ingredients": {
+		"X": { "type": "item", "code": "em:powdered-ore-magnetite" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-black", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "XC,BB",
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-coal" },
+		"X": { "type": "item", "code": "em:powdered-ore-magnetite" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-black", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "CC,BB",
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-coal" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-black", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LZ,BF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"Z": { "type": "item", "code": "em:powdered-ore-lapislazuli" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-blurple", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LN,BF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-blurple", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LM,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-darkgrey", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LC,BF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-coal" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-darkgrey", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LC,BF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-coal" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-darkgrey", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "CX,BG",
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-coal" },
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"G": { "type": "item", "code": "game:clay-green", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-brown", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "CX,BG",
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-magnetite" },
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"G": { "type": "item", "code": "game:clay-green", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-brown", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "CX,BG",
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-coal" },
+		"X": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"G": { "type": "item", "code": "game:clay-green", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-brown", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LC,BB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-metal-copper" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-green", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "QC,BB",
+	"ingredients": {
+		"Q": { "type": "item", "code": "game:crushed-quartz" },
+		"C": { "type": "item", "code": "em:powdered-ore-chromiumoxide" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-green", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "OO,BB",
+	"ingredients": {
+		"O": { "type": "item", "code": "em:powdered-ore-olivine" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-green", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LA,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"A": { "type": "item", "code": "em:powdered-ore-boneash" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-light", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LA,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"A": { "type": "item", "code": "em:powdered-ore-zincoxide" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:clay-light", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LA,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"A": { "type": "item", "code": "em:powdered-ore-whitelead" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "game:clay-light", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LC,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-malachite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-malachite", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "XX,FF",
+	"ingredients": {
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 4,
+	"output": { "type": "item", "code": "game:clay-orange", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RY,FF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"Y": { "type": "item", "code": "em:powdered-ore-limonite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-orange", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RY,FF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"Y": { "type": "item", "code": "em:powdered-ore-massicot" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-orange", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RY,FF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"Y": { "type": "item", "code": "em:powdered-ore-massicot" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-orange", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RY,FF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"Y": { "type": "item", "code": "em:powdered-ore-limonite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-orange", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LR,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-pink", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LR,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-pink", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RB,FF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"B": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-red", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RB,FF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"B": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-red", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RB,FF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"B": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-red", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "RN,BF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-purple", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RZ,BF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"Z": { "type": "item", "code": "em:powdered-ore-lapislazuli" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-purple", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RZ,BF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"Z": { "type": "item", "code": "em:powdered-ore-lapislazuli" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-purple", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RN,BF",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-purple", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "RR,BB",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:clay-blurple" },
+		"R": { "type": "item", "code": "game:clay-red" }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 2,
+	"output": { "type": "item", "code": "game:clay-purple", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "MM,FF",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-ore-massicot" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-yellow", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LY,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"Y": { "type": "item", "code": "em:powdered-ore-limonite" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-yellow", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "XX,BB",
+	"ingredients": {
+		"X": { "type": "item", "code": "em:powdered-metal-rusty" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-black", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "XC,BB",
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-coal" },
+		"X": { "type": "item", "code": "em:powdered-metal-rusty" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-black", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "LM,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-metal-rusty" },
+		"F": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-darkgrey", "quantity": 8 }
+	},
+	{
+	"ingredientPattern": "CX,BG",
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-metal-rusty" },
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 },
+		"G": { "type": "item", "code": "game:clay-green", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-brown", "quantity": 8 }
+	}
+]

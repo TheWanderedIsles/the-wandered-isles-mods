@@ -1,0 +1,69 @@
+{
+	code: "woodenbucket",
+	class: "BlockBucket",
+	behaviors: [
+		{name: "UnstableFalling"}, 
+		{ name: "RightClickPickup"}, 
+		{ name: "MilkingContainer" } 
+	],
+	entityClass: "Bucket",
+	attributes: {
+		liquidContainerProps: {
+			capacityLitres: 10,
+			transferSizeLitres: 1,
+			emptyShapeLoc: "medieval:shapes/block/wood/bucket/empty",
+			opaqueContentShapeLoc: "medieval:shapes/block/wood/bucket/contents",
+			liquidContentShapeLoc: "medieval:shapes/block/wood/bucket/liquidcontents",
+			liquidMaxYTranslate: 0.4375
+		}
+	},
+    variantgroups: [
+              { code: "wood", states: ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"]}],
+    creativeinventory: { 
+                        "general": ["*"], "decorative": ["*"], "medieval": ["*"] },
+	shape: { base: "medieval:block/wood/bucket/empty" },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	blockmaterial: "Wood",
+	textures: {
+		"wood": { base: "medieval:block/wood/debarked/vertical/woodenbucket/{wood}" }
+	},
+	replaceable: 500,
+	resistance: 1.5,
+	maxStackSize: 5,
+	liquidSelectable: 1,
+	lightAbsorption: 0,
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	collisionbox: {
+		x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.75, z2: 0.75
+	},
+	selectionbox: {
+		x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.75, z2: 0.75
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.85, y: -1, z: -0.8 },
+		rotation: { x: 0, y: 0, z: 0 },
+		scale: 0.62
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.75
+	},
+	fpHandTransform: {
+		scale: 1.5
+	},
+	groundTransform: {
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2
+	}
+}

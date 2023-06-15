@@ -1,0 +1,52 @@
+[
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/ingot-chromium/meltingPoint",
+    "value": 1698,
+    "file": "game:itemtypes/resource/ingot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/reinforcementStrengthByType/*-stailesssteel",
+    "value": 1800,
+    "file": "game:itemtypes/resource/ingot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/reinforcementStrengthByType/*-titanium",
+    "value": 2200,
+    "file": "game:itemtypes/resource/ingot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/requiresAnvilTierByType/ingot-titanium",
+    "value": 4,
+    "file": "game:itemtypes/resource/ingot.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/excludeByType/*-chromium",
+    "value": false,
+    "file": "game:itemtypes/resource/ingot.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/ingot-nickel",
+    "value": {
+      "meltingPoint": 1455,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-nickel"} },
+    "file": "game:itemtypes/resource/ingot.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/ingot-stainlesssteel",
+    "value": {
+      "meltingPoint": 1510,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-stainlesssteel"} },
+    "file": "game:itemtypes/resource/ingot.json"
+  }
+]

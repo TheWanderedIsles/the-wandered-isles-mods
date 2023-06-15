@@ -1,0 +1,13 @@
+[
+
+	{
+		ingredientPattern: "_W_,WLW,_W_",
+		ingredients: {
+			"L": { type: "block", code: "medieval:bigbasket-east", attributes: { type: "bigbasket" } },
+    		"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "oak", "purpleheart", "redwood", "walnut" ], quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:bigbasketwood-{wood}", attributes: { type: "bigbasketwood" }  }
+	}
+]

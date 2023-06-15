@@ -1,0 +1,20 @@
+[
+	{
+	"code": "glazing-clear-colored-bowl",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 3, "name": "color", "consumeLitres": 3 },
+		{ "type": "block", "code": "game:bowl-fired", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedbowl-wet-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-milky-colored-bowl",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-milky-*", "litres": 3, "name": "color", "consumeLitres": 3 },
+		{ "type": "block", "code": "game:bowl-fired", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedbowl-wet-milky-{color}-plain", "stackSize": 1 }
+	}
+]

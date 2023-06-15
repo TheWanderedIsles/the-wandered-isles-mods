@@ -1,0 +1,63 @@
+{
+	"code": "glazedbowl-meal",
+	"class": "BlockMeal",
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+		{ "name": "Unplaceable" },
+		{ "name": "RightClickPickup"}
+	],
+	"variantgroups": [
+		{ "code": "glazing", "states": [ "clear", "milky" ] },
+		{ "code": "color", "states": [
+		       "black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+		       "malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "code": "pattern", "states": [ "plain" ] }
+	],
+	"attributes": {
+		"shelvable": true,
+		"eatenBlock": "bricklayers:glazedbowl-burnt-{glazing}-{color}-{pattern}",
+		"handleCookingContainerInteract": true
+	},
+        "entityClass": "Meal",
+	"shapeByType": {
+	       "*-gold-*": { "base": "bricklayers:block/clay/bowl/bowl_glazed_empty_ground_sparkly" },
+	       "*": { "base": "bricklayers:block/clay/bowl/bowl_glazed_empty_ground_shiny" }
+	},
+	"heldTpIdleAnimation": "holdbothhands",
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": [""], "decorative": [""] },
+	"replaceable": 300,
+	"resistance": 0.75,
+	"maxStackSize": 1,
+	"lightAbsorption": 0,
+	"textures": {
+		"transparent": { "base": "game:block/transparent" },
+		"ceramic": { "base": "game:block/clay/ceramic-dark" },
+		"pattern_top": { "base": "bricklayers:block/ceramic/glazed/pattern/{pattern}" },
+		"top": { "base": "bricklayers:block/ceramic/glazed/burnt/{glazing}/{color}",
+			 "overlays": [ "bricklayers:block/ceramic/glazed/burnt/{glazing}/overlay_bowl_shine" ] }
+	},
+	"sounds": { "walk": "game:walk/stone" },
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 3
+	},
+	"groundTransform": { "scale": 3.5 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.4, "z": 0 },
+		"rotation": { "x": 0, "y": -14, "z": 0 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.85, "y": -0.21, "z": -0.57 },
+		"rotation": { "x": 90, "y": 0, "z": -60 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.66
+	}
+}

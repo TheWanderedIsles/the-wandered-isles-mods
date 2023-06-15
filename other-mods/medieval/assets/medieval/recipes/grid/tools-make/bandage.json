@@ -1,0 +1,27 @@
+[
+	{
+		ingredientPattern: "K,H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"K": { type: "item", code: "knife-*", isTool: true },
+			"H": { type: "block", code: "game:linen-*", quantity: 1 },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:bandage-clean", quantity: 4 }
+	},
+	{
+		ingredientPattern: "K,T",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"K": { type: "item", code: "knife-*", isTool: true },
+			"T": { type: "item", code: "game:*-tattered-*", quantity: 1 },
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 1,
+		output: { type: "item", code: "game:bandage-clean", quantity: 2 }
+	}
+]

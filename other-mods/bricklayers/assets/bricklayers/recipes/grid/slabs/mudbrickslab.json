@@ -1,0 +1,15 @@
+[
+	{
+	"ingredientPattern": "CSC,GLG",
+	"ingredients": {
+		"G": { "type": "item",  "code": "game:drygrass", "quantity": 2 },
+		"C": { "type": "item",  "code": "game:clay-*" },
+		"L": { "type": "block", "code": "game:soil-low-none" },
+		"S": { "type": "block", "code": "game:sand-*" }
+	},
+	"name": "mudbrickslablight",
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:mudbrickslab-light-down-free", "quantity": 4 }
+	}
+]

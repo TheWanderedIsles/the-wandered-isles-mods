@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/drop/aged",
+    "value": true,
+    "file": "game:blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/retrieveOnly/aged",
+    "value": false,
+    "file": "game:blocktypes/stationarybasket.json"
+  }
+]

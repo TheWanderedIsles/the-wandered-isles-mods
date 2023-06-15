@@ -1,0 +1,75 @@
+{
+	code: "candil2",
+	behaviors: [
+	 { name: "UnstableFalling", properties: { 
+		attachableFaces: ["down"],
+		attachmentAreas: {
+			"down": { x1: 7, y1: 15, z1: 7, x2: 8, y2: 15, z2: 8 }
+		}
+	 }}
+	],
+	creativeinventory: { "general": ["candil2"], "decorative": ["candil2"], "medieval": ["candil2"] },
+	shape: { base: "block/metal/lanterns/candil2" },
+	particleProperties: [
+		{
+			hsvaColor: [{ avg: 20, var: 20 }, { avg: 255, var: 50 }, { avg: 255, var: 50 },  { avg: 255, var: 0 }],
+			gravityEffect: { dist: "invexp", avg: -0.07, var: 0.4 },
+			posOffset: [ { avg: 0, var: 0.1 }, { avg: -0.2, var: 0 }, { avg: 0, var: 0.1 }],
+			velocity: [ { avg: 0, var: 0.15 }, { avg: 0.5, var: 0.1 }, { avg: 0, var: 0.15 }],
+			quantity: { avg: 0.015 },
+			size: { avg: 0.5, var: 0 },
+			sizeEvolve: { transform: "quadratic", factor: -0.7 },
+			lifeLength: { avg: 1.5 },
+			vertexFlags: 128,
+			windAffectednes: 0.2
+		},
+		{
+			hsvaColor: [{ avg: 20, var: 20 }, { avg: 255, var: 50 }, { avg: 255, var: 50 },  { avg: 255, var: 0 }],
+			opacityEvolve: { transform: "quadratic", factor: -16 },
+			gravityEffect: { avg: 0, var: 0 },
+			posOffset: [ { avg: 0, var: 0.2 }, { avg: -0.2, var: 0 }, { avg: 0, var: 0.2 }],
+			velocity: [ { avg: 0, var: 0.025 }, { avg: 0.18, var: 0.07 }, { avg: 0, var: 0.025 }],
+			quantity: { avg: 0.5 },
+			size: { avg: 0.5, var: 0 },
+			lifeLength: { avg: 0.25 },
+			sizeEvolve: { transform: "linear", factor: 0.25 },
+			particleModel: "Quad",
+			vertexFlags: 128,
+			glowLevel: 64,
+			windAffectednes: 0.2
+		},
+		{
+			hsvaColor: [{ avg: 0, var: 0 }, { avg: 0, var: 0 }, { avg: 40, var: 30 },  { avg: 220, var: 50 }],
+			opacityEvolve: { transform: "quadratic", factor: -16 },
+			gravityEffect: { avg: 0, var: 0 },
+			posOffset: [ { avg: 0, var: 0.2 }, { avg: -0.3, var: 0 }, { avg: 0, var: 0.2 }],
+			velocity: [ { avg: 0, var: 0.025 }, { avg: 0.1, var: 0.1 }, { avg: 0, var: 0.025 }],
+			quantity: { avg: 0.5 },
+			size: { avg: 0.3125, var: 0.05 },
+			sizeEvolve: { transform: "linear", factor: 0.5 },
+			lifeLength: { avg: 1.5 },
+			particleModel: "Quad",
+			windAffectednes: 0.2
+		}
+	],
+	drawtype: "json",
+	blockmaterial: "Metal",
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	resistance: 3,
+	lightHsvByType: {
+		"candil2": [4, 4, 16]
+	},
+	drops: [
+		{
+			type: "block",
+			code: "candil2"
+		}
+	],
+	lightAbsorption: 0,
+	collisionSelectionBox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.5, z2: 0.9375 },
+	sounds: {
+		hit: "game:block/chandelier-hit",
+		break: "game:block/chandelier-break",
+	}
+}

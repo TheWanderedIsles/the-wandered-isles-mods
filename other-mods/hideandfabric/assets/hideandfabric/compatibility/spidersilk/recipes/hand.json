@@ -1,0 +1,124 @@
+[
+{
+    "ingredientPattern": "_K_,CTC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "game:cloth-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-linen-gloves" }
+  },
+  {
+    "ingredientPattern": "_K_,CTC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "hideandfabric:cloth-cotton-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-cotton-gloves" }
+  },
+  {
+    "ingredientPattern": "_K_,CTC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "hideandfabric:cloth-wool-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-wool-gloves" }
+  },
+
+  {
+    "ingredientPattern": "_K_,CTC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-silk-gloves" }
+  },
+  {
+    "ingredientPattern": "_K_,CTC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "hideandfabric:twine-cotton", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-silk-gloves" }
+  },
+  {
+    "ingredientPattern": "_K_,CTC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "hideandfabric:twine-wool", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-silk-gloves" }
+  },
+  {
+    "ingredientPattern": "_K_,CTC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain", "quantity": 2 },
+      "T": { "type": "item", "code": "spidersilk:silkthread", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-silk-gloves" }
+  },
+
+  {
+    "ingredientPattern": "_F_,CGC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain" },
+      "F": { "type": "item", "code": "game:feather", "quantity": 4 },
+      "G": { "type": "item", "code": "clothes-hand-silk-gloves", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-silk-mittens" }
+  },
+  {
+    "ingredientPattern": "_F_,CGC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain" },
+      "F": { "type": "item", "code": "fibers-*", "quantity": 4, "allowedVariants": [ "cotton", "wool" ] },
+      "G": { "type": "item", "code": "clothes-hand-silk-gloves", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-silk-mittens" }
+  },
+  {
+    "ingredientPattern": "_F_,CGC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": { "type": "item", "code": "spidersilk:silkcloth-plain" },
+      "F": { "type": "item", "code": "game:*", "quantity": 4, "allowedVariants": [ "flaxfibers", "treeseed-kapok" ] },
+      "G": { "type": "item", "code": "clothes-hand-silk-gloves", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "hideandfabric:clothes-hand-silk-mittens" }
+  }
+]

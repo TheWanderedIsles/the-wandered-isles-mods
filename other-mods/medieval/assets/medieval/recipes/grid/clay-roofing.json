@@ -1,0 +1,216 @@
+[
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofing-blueclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingup-blueclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofing-fireclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingup-fireclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofing-redclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingup-redclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofing-brownclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingup-brownclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofingup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofinghalfup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofinghalfup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingdown-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofingdown-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "game:slantedroofing-{material}-east-free", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofingcornerinner-blueclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerinnerup-blueclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofingcornerinner-fireclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerinnerup-fireclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofingcornerinner-redclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerinnerup-redclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofingcornerinner-brownclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerinnerup-brownclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofingcornerinnerup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerinnerhalfup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofingcornerinnerhalfup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerinnerdown-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofingcornerinnerdown-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "game:slantedroofingcornerinner-{material}-east-free", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofingcornerouter-blueclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerouterup-blueclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofingcornerouter-fireclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerouterup-fireclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofingcornerouter-redclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerouterup-redclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "game:slantedroofingcornerouter-brownclay-east-free", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerouterup-brownclay-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofingcornerouterup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerouterhalfup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofingcornerouterhalfup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallclayroofingcornerouterdown-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallclayroofingcornerouterdown-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "game:slantedroofingcornerouter-{material}-east-free", quantity: 1  }
+	}
+]

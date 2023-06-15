@@ -1,0 +1,32 @@
+[
+	{
+		ingredientPattern: "T_T,_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "medieval:clothes-face-leather-mask" }
+	},
+	{
+		ingredientPattern: "KS",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"S": { type: "block", code: "medieval:craneo-north" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "medieval:clothes-face-skullmask" }
+	},
+	{
+		ingredientPattern: "KS",
+		ingredients: {
+			"K": { type: "item", code: "medieval:knife-*", isTool: true },
+			"S": { type: "block", code: "medieval:craneo-east" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "medieval:clothes-face-skullmask" }
+	}
+]

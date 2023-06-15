@@ -1,0 +1,38 @@
+[
+    {
+	"ingredientPattern": "NCL",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 7 },
+		"C": { "type": "item", "code": "em:crushed-metal-copper", "quantity": 7 },
+		"L": { "type": "item", "code": "em:crushed-ore-limonite", "quantity": 6 }
+	},
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:cupronickelblendnativelimonite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "NCH",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 7 },
+		"C": { "type": "item", "code": "em:crushed-metal-copper", "quantity": 7 },
+		"H": { "type": "item", "code": "em:crushed-ore-hematite", "quantity": 6 }
+	},
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:cupronickelblendnativehematite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "NCM",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 7 },
+		"C": { "type": "item", "code": "em:crushed-metal-copper", "quantity": 7 },
+		"M": { "type": "item", "code": "em:crushed-ore-magnetite", "quantity": 6 }
+	},
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:cupronickelblendnativemagnetite", "quantity": 1 }
+   }
+]

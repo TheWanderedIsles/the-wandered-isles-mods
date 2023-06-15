@@ -1,0 +1,13 @@
+[
+
+	{
+		ingredientPattern: "SSS,SLS,SSS",
+		ingredients: {
+			"S": { type: "item", code: "game:stick", quantity: 1 },
+			"L": { type: "item", code: "game:hide-raw-medium", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:porkskin-east", quantity: 1  }
+	}
+]

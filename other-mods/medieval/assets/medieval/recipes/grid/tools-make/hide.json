@@ -1,0 +1,200 @@
+[
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-small", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-medium", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-large", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-huge", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-small" },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-medium" },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-*", allowedVariants: ["large", "huge"] },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-large", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-knee-high-fur-boots"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["large", "huge"], quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 2 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-large", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"K": { type: "item", code: "knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	}
+]

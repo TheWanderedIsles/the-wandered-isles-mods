@@ -1,0 +1,195 @@
+{
+	code: "grubaxe",
+	class: "idgtool",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"]},
+	attributes: {
+		"choppingProps": {"fellingMultiplier": 1.25, "splittingMod": 0.19},
+		"hewingProps": {"hewingMod": 1},
+		handbook: {
+			groupBy: ["grubaxe-*"],
+			"extraSections": [
+					{
+						"title": "indappledgroves:item-handbooktitle-grubaxe",
+						"text": "indappledgroves:item-handbooktext-grubaxe"
+					}
+			]
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.4, z: 0.1 },
+			rotation: { x: 25, y: 0, z: -90 }
+		},
+		toolrackTransform: {
+			translation: { x: -0.6, y: 0, z: 0 },
+			scale: 1.25
+		},
+		"modeTransforms": {
+			"chopping": {
+				fpHandTransform: {
+					translation: { x: -0.2, y: -0.2, z: 0.2 },
+					rotation: { x: -29, y: 1, z: 88 },
+					scale: 2.5
+				},
+					tpHandTransform: {
+					translation: { x: -1.15, y: 0.01, z: -1.13},
+					rotation: { x: 90, y: 1, z: 0 },
+					origin: { x: 0.5, y: 0, z: 0.5 },
+					scale: 0.8
+				}
+			},
+			"hewing": {
+				fpHandTransform: {
+					translation: { x: -0.2, y: -0.2, z: 0.2 },
+					rotation: { x: -29, y: -179, z: 88 },
+					scale: 2.49
+				},
+				tpHandTransform: {
+					translation: { x: -1.15, y: 0.01, z: -0.12 },
+					rotation: { x: -89, y: 0, z: 0 },
+					origin: { x: 0.5, y: 0, z: 0.5 },
+					scale: 0.8
+				}
+			}
+		},
+		
+	},
+		behaviors: [{
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.35, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}},
+		{
+		"name": "woodsplitter"
+		},
+		{
+			"name": "woodhewer"
+		}
+	],
+	tool: "axe",
+	heldTpHitAnimation: "axechop",
+	damagedby: ["blockbreaking", "attacking"],
+	miningspeedbytype: {
+		"grubaxe-copper": {
+			"wood": 5.2,
+			"plant": 2.8,
+			"leaves": 2.4
+		},
+		"grubaxe-silver": {
+			"wood": 4.5,
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"grubaxe-gold": {
+			"wood": 4.5,
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"grubaxe-bismuthbronze": {
+			"wood": 5.8,
+			"plant": 3.5,
+			"leaves": 2.6
+		},
+		"grubaxe-tinbronze": {
+			"wood": 6.3,
+			"plant": 3.8,
+			"leaves": 3
+		},
+		"grubaxe-blackbronze": {
+			"wood": 6.6,
+			"plant": 4,
+			"leaves": 3.1
+		},
+		"grubaxe-iron": {
+			"wood": 8.4,
+			"plant": 5,
+			"leaves": 3.2
+		},
+		"grubaxe-meteoriciron": {
+			"wood": 9.6,
+			"plant": 5.5,
+			"leaves": 3.6
+		},
+		"grubaxe-steel": {
+			"wood": 11,
+			"plant": 6,
+			"leaves": 4
+		}
+	},
+		groundStorageTransform: {
+			translation: { x: 0.05, y: 0.05, z: 0 },
+			rotation: { x: 13, y: 88, z: -87 },
+			scale: 0.88
+		},
+		rackable: true,
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.3, y: 0.6 },
+			scale: 1.25,
+		},
+	variantgroups: [
+    { code: "material", states: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]},
+   ],
+	drawtype: "json",
+    shapeByType: {
+		"@grubaxe-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)": { base: "item/tools/grubaxe" }
+	},
+	texturesByType: {
+		"@grubaxe-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)": {
+			"material": { base: "game:block/metal/ingot/{material}" },
+			"handle": { base: "game:item/tool/material/handle" },
+			"leather": { base: "game:item/resource/leather" }
+		}
+	},
+	maxstacksize: 1,
+	attackRange: 2,
+	tooltierbytype: {
+		"@grubaxe-(copper|silver|gold)": 2,
+		"@grubaxe-(tinbronze|bismuthbronze|blackbronze)": 3,
+		"@grubaxe-(iron|meteoriciron)": 4,
+		"@grubaxe-(steel)": 5
+	},
+	durabilitybytype: {
+		"*-bone-obsidian": 100,
+		"*-copper": 250,
+		"*-tinbronze": 400,
+		"*-bismuthbronze": 500,
+		"*-blackbronze": 600,
+		"*-iron": 900,
+		"*-meteoriciron": 1200,
+		"*-steel": 1800
+	},
+	attackpowerbytype: {
+		"*-copper": 2,
+		"@grubaxe-(bismuthbronze)": 2.5,
+		"*-tinbronze": 2.75,
+		"@grubaxe-(blackbronze|iron)": 3,
+		"*-medeoriciron": 3.5,
+		"*-steel": 4
+	},
+		guiTransform: {
+		translation: { x: 2, y: 7.7, z: -0.8 },
+		rotation: { x: -106, y: -135, z: -180 },
+		origin: { x: 0.48, y: 0.8, z: 0.38 },
+		scale: 1.05
+	},
+	fpHandTransform: {
+					translation: { x: -0.2, y: -0.2, z: 0.2 },
+					rotation: { x: -29, y: 1, z: 88 },
+					scale: 2.5
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.53
+	},
+	tpHandTransform: {
+		translation: { x: -0.9, y: 0.01, z: -0.75 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.8
+	}
+}

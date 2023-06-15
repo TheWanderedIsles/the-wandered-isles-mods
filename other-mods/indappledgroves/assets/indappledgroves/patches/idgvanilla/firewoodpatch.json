@@ -1,0 +1,72 @@
+[
+  {
+    "op": "replace",
+    "path": "/class",
+    "value": "idgfirewood",
+    "file": "game:itemtypes/resource/firewood.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/workStationTransforms",
+    "value": {
+        "idgChoppingBlockProps":  {
+          "idgChoppingBlockTransform": {
+              "translation": {
+                "x": 0,
+                "y": 0.9625,
+                "z": 0.15
+              },
+              "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+              },
+              "origin": {
+                "x": 0,
+                "y": 0.125,
+                "z": 0
+              },
+              "scale": 0.95
+          }
+        }
+    },
+    "file": "game:itemtypes/resource/firewood.json",
+    "side": "server"
+   },
+  {
+     "op": "replace",
+     "path": "/attributes",
+     "value": {
+       firepitConstructable: true,
+		   isClayOvenFuel: true,
+		   placeSound: "block/planks",
+		  "handbook": {
+				"extraSections": [
+					  {
+              "title": "indappledgroves:item-handbooktitle-firewood",
+						  "text": "indappledgroves:item-handbooktext-firewood"
+					  }
+          ]
+        }
+      },
+     "file": "game:itemtypes/resource/firewood.json",
+     "side": "server"
+   },
+   {
+     "op": "add",
+     "path": "/attributes",
+     "value": {
+		  "handbook": {
+				"extraSections": [
+					  {
+              "title": "indappledgroves:item-handbooktitle-stick",
+						  "text": "indappledgroves:item-handbooktext-stick"
+					  }
+          ]
+        }
+      },
+     "file": "game:itemtypes/resource/stick.json",
+     "side": "server"
+   }
+]

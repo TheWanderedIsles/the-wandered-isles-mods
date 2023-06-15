@@ -1,0 +1,97 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/buying/list/-",
+    "value": {
+	"code": "em:powdered-ore-boneash",
+	"type": "item",
+	    "stacksize": 30,
+	    "stock": {
+		"avg": 4,
+		"var": 2
+	    },
+	    "price": {
+		"avg": 4,
+		"var": 0.5
+	    }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/buying/list/-",
+    "value": {
+	"code": "bricklayers:crockcolored-burned-yellow-east",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": {
+		"avg": 2,
+		"var": 1
+	    },
+	    "price": {
+		"avg": 4,
+		"var": 0.5
+	    }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/buying/list/-",
+    "value": {
+	"code": "bricklayers:crockcolored-burned-orange-east",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": {
+		"avg": 2,
+		"var": 1
+	    },
+	    "price": {
+		"avg": 4,
+		"var": 0.5
+	    }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/buying/list/-",
+    "value": {
+	"code": "bricklayers:crockcolored-burned-blurple-east",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": {
+		"avg": 2,
+		"var": 1
+	    },
+	    "price": {
+		"avg": 5,
+		"var": 0.5
+	    }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/buying/list/-",
+    "value": {
+	"code": "bricklayers:crockcolored-burned-purple-east",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": {
+		"avg": 2,
+		"var": 1
+	    },
+	    "price": {
+		"avg": 5,
+		"var": 0.5
+	    }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server"
+  }
+]

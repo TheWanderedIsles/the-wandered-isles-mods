@@ -1,0 +1,14 @@
+[
+
+	{
+		ingredientPattern: "P_P,SLS,P_P",
+		ingredients: {
+			"S": { type: "item", code: "game:stick", quantity: 1 },
+			"P": { type: "item", code: "game:plank-*", quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:littlechair-north", quantity: 1  }
+	}
+]

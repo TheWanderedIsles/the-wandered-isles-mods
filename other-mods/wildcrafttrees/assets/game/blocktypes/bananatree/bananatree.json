@@ -1,0 +1,127 @@
+{
+	"code": "bananatree",
+	"variantgroups": [
+		{ "code": "type", "states": ["banana"] },
+		{ "code": "part", "states": ["trunk6", "trunk7", "trunk8", "trunk9", "trunk10", "trunktopflowers", "foliageyoung", "foliagemed", "trunktopfruit" ] }
+	],
+	"attributes": {
+		"treeFellingGroupcode": "bananatree-{type}",
+		"treeFellingGroupSpreadIndexBytype": {
+			"*-trunk10": 2,
+			"*-trunk9": 2,
+			"*-trunk8": 2,
+			"*-trunk7": 2,
+			"*-trunk6": 2,
+			"*-foliageyoung": 1,
+			"*-foliagemed": 1,
+			"*-trunktopflowers": 1,
+			"*-trunktopfruit": 1
+		}
+	},
+	"texturesBytype": {
+		"*-trunk*": { 
+			"bark": { "base": "game:block/plant/palm/{type}/barkdark" },
+			"treetrunk": { "base": "game:block/plant/palm/{type}/treetrunkdark" }
+		},
+		"*-trunktopflowers": { 
+			"bananaflower": { "base": "/block/plant/palm/{type}/bananaflower" },
+			"bananaflowerdark": { "base": "/block/plant/palm/{type}/bananaflowerdark" },
+			"bark": { "base": "/block/plant/palm/{type}/barkdark" },
+			"barkgreen": { "base": "block/plant/palm/banana/barkgreen" },
+			"treetrunk": { "base": "/block/plant/palm/{type}/treetrunkdark" },
+			"greenbanana": { "base": "block/plant/palm/greenbanana" }
+		},
+		"*-foliageyoung": { 
+			"barktuft2": { "base": "game:block/plant/palm/{type}/barktuft2" },
+			"leaves": { "base": "game:block/plant/palm/{type}/bananaleafshort2" },
+			"bark": { "base": "game:block/plant/palm/{type}/barkdark" },
+			"treetrunk": { "base": "game:block/plant/palm/{type}/treetrunkdark" }
+		},
+		"*-foliagemed": { 
+			"barktuft2": { "base": "game:block/plant/palm/{type}/barktuft2" },
+			"leaves": { "base": "game:block/plant/palm/{type}/bananaleafshort2" },
+			"bark": { "base": "game:block/plant/palm/{type}/barkdark" },
+			"treetrunk": { "base": "game:block/plant/palm/{type}/treetrunkdark" }
+			"bananaleafbot": "block/plant/palm/banana/bananaleafbot*",
+			"bananaleafdeadthinbot1": "block/plant/palm/banana/bananaleafdeadthinbot1",
+			"bananaleafdeadthinend1": "block/plant/palm/banana/bananaleafdeadthinend1",
+			"bananaleafend": "block/plant/palm/banana/bananaleafend*",
+			"bananaleafmid": "block/plant/palm/banana/bananaleafmid*",
+		},
+		"*-trunktopfruit": { 
+			"barkgreen": { "base": "game:block/plant/palm/{type}/barkgreen" },
+			"greenbanana": { "base": "game:block/plant/palm/{type}/greenbanana" },
+			"bananaflower": { "base": "game:block/plant/palm/{type}/bananaflower" },
+			"bananaflowerdark": { "base": "game:block/plant/palm/{type}/bananaflowerdark" },
+			"bark": { "base": "game:block/plant/palm/{type}/barkdark" },
+			"treetrunk": { "base": "game:block/plant/palm/{type}/treetrunkdark" }
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"randomDrawOffset": true,
+	"randomizeRotations": true,
+	"randomizeAxes": "xz",
+	"randomSizeAdjustBytype": {
+		"*-foliage": 1.15,
+		"*-trunk*": -0.15,
+		"*": 0.15
+	},
+	"shape": { "base": "block/plant/palm/{type}/{part}" },
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"combustibleProps": {
+		"burnTemperature": 700,
+		"burnDuration": 10
+	},
+	"replaceable": 600,
+	"lightAbsorption": 0,
+	"resistance": 2,
+	"collisionSelectionBox": { "x1": 0.1, "y1": 0, "z1": 0.1, "x2": 0.9, "y2": 1, "z2": 0.9 },
+	"rainPermeable": true,
+	"materialDensity": 200,
+	"dropsBytype": {
+		"*-trunk10": [ { "type": "item", "code": "game:firewood", "quantity": { "avg": 3.0, "var": 1.5 }  } ],
+		"*-trunk9": [ { "type": "item", "code": "game:firewood", "quantity": { "avg": 2.5, "var": 1.5 }  } ],
+		"*-trunk8": [ { "type": "item", "code": "game:firewood", "quantity": { "avg": 2.0, "var": 1.5 }  } ],
+		"*-trunk7": [ { "type": "item", "code": "game:firewood", "quantity": { "avg": 2.0, "var": 1.0 }  } ],
+		"*-trunk6": [ { "type": "item", "code": "game:firewood", "quantity": { "avg": 1.5, "var": 1.0 }  } ],
+		"*": []
+	},
+	"guitransformBytype": {
+		"*-foliage": {
+			"translation": { "x": 0, "y": 1, "z": 0 },
+			"rotation": { "x": -22, "y": -45, "z": 0 },
+			"origin": { "x": 0.4, "y": 0.9, "z": 0.5 },
+			"scale": 0.58
+		},
+		"*": {
+			"translation": { "x": 0, "y": 1, "z": 0 },
+			"rotation": { "x": -22, "y": -45, "z": 0 },
+			"origin": { "x": 0.4, "y": 0.3, "z": 0.5 },
+			"scale": 0.76
+		}
+	},
+	"fpHandTransformBytype": {
+		"*-foliage": {
+			"translation": { "x": 0, "y": -0.1, "z": 0.5 },
+			"rotation": { "x": 0, "y": -112, "z": 0 },
+			"scale": 0.99
+		}
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	},
+	"frostable": true
+}

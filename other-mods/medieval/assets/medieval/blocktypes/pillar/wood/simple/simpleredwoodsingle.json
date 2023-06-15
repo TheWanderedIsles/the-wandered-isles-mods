@@ -1,0 +1,42 @@
+{
+	code: "simpleredwoodsingle",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/wood/simple/simpleredwoodsingle" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/wood/sincortezalog/debarked/pillar/simple/redwoodsingle" },
+		"east": { base: "block/wood/sincortezalog/debarked/pillar/simple/redwoodsingle" },
+		"south": { base: "block/wood/sincortezalog/debarked/pillar/simple/redwoodsingle" },
+		"west": { base: "block/wood/sincortezalog/debarked/pillar/simple/redwoodsingle" },
+		"up": { base: "block/wood/sincortezalog/debarked/redwood" },
+		"down": { base: "block/wood/sincortezalog/debarked/redwood" },
+		"inside-north": { base: "block/wood/sincortezalog/debarked/pillar/simple/redwoodsingle" },
+		"inside-east": { base: "block/wood/sincortezalog/debarked/pillar/simple/redwoodsingle" },
+		"inside-south": { base: "block/wood/sincortezalog/debarked/pillar/simple/redwoodsingle" },
+		"inside-west": { base: "block/wood/sincortezalog/debarked/pillar/simple/redwoodsingle" },
+		"inside-up": { base: "block/wood/sincortezalog/debarked/redwood" },
+		"inside-down": { base: "block/wood/sincortezalog/debarked/redwood" }
+
+	},
+	replaceable: 90,
+	fertility: 0,
+	resistance: 2,
+	blockmaterial: "Wood",
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

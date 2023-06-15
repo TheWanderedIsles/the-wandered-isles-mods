@@ -1,0 +1,46 @@
+[
+  {
+    "op": "remove",
+    "path": "/shapebytype/*-east/alternates",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype/*-east/base",
+    "value": "block/wood/fence/palisade/palisadestakes*",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  },
+  {
+    "op": "remove",
+    "path": "/shapebytype/*-north/alternates",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype/*-north/base",
+    "value": "block/wood/fence/palisade/palisadestakes*",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  },
+  {
+    "op": "remove",
+    "path": "/shapebytype/*-south/alternates",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype/*-south/base",
+    "value": "block/wood/fence/palisade/palisadestakes*",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  },
+  {
+    "op": "remove",
+    "path": "/shapebytype/*-west/alternates",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype/*-west/base",
+    "value": "block/wood/fence/palisade/palisadestakes*",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  }
+]

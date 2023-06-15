@@ -1,0 +1,26 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": { },
+	"textures": { },
+	"elements": [
+		{
+			"name": "cup liquidcontents",
+			"from": [ 7.25, 0.5, 7.25 ],
+			"to": [ 9.0, 1.4, 9.0 ],
+			"renderPass": 4,
+			"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#top", "uv": [ 10.0, 10.0, 11.5, 11.5 ] },
+				"down": { "texture": "#0", "uv": [ 5.0, 5.0, 6.5, 6.5 ], "enabled": false }
+			}
+		}
+	]}

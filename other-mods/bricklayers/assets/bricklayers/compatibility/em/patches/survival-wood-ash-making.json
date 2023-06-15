@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+	"burnTemperature": 800,
+	"burnDuration": 72,
+	"meltingPoint": 700,
+	"meltingDuration": 30,
+	"smeltedRatio": 1,
+	"smeltingType": "convert",
+	"smeltedStack": { "type": "item", "code": "em:ash-organic-wood", "stacksize": 2 },
+	"requiresContainer": false
+    },
+    "file": "game:blocktypes/wood/woodtyped/log.json",
+    "side": "Server"
+  }
+]

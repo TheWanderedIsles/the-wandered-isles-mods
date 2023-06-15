@@ -1,0 +1,37 @@
+[
+	{
+	"ingredientPattern": "A,L",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+		"L": { "type": "block", "code": "medieval:sincortezalog-*" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "game:firewood", "quantity": 16  }
+	},
+
+
+	{
+	"ingredientPattern": "A,L",
+	"ingredients": {
+		"A": { "type": "item", "code": "medieval:axe-*", "isTool": true  },
+		"L": { "type": "block", "code": "medieval:sincortezalog-*" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "game:firewood", "quantity": 16  }
+	},
+
+
+	{
+	"ingredientPattern": "A,L",
+	"ingredients": {
+		"A": { "type": "item", "code": "medieval:bigaxe-*", "isTool": true  },
+		"L": { "type": "block", "code": "medieval:sincortezalog-*" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "game:firewood", "quantity": 16  }
+	}
+
+]

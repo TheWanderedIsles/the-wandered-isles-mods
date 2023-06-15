@@ -1,0 +1,71 @@
+[
+	{
+	ingredientPattern: "_AA	__A	__A",
+	ingredients: {
+		"A": { type: "item", code: "game:plank-aged", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:chest-east", attributes: { type: "collapsed1" }  }
+	},
+	{
+	ingredientPattern: "__A	_AA	__A",
+	ingredients: {
+		"A": { type: "item", code: "game:plank-aged", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:chest-east", attributes: { type: "collapsed2" }  }
+	},
+	{
+	ingredientPattern: "__A	__A	_AA",
+	ingredients: {
+		"A": { type: "item", code: "game:plank-aged", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:chest-east", attributes: { type: "collapsed3" }  }
+	},
+	{
+	ingredientPattern: "__A	AAA	_AA",
+	ingredients: {
+		"A": { type: "item", code: "game:plank-aged", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:chest-east", attributes: { type: "normal-aged" }  }
+	},
+
+
+	{
+	ingredientPattern: "BAA	__A	__A",
+	ingredients: {
+		"A": { type: "item", code: "game:plank-aged", quantity: 2 },
+		"B": { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:trunk-east", attributes: { type: "collapsed1" }  }
+	},
+	{
+	ingredientPattern: "B_A	_AA	__A",
+	ingredients: {
+		"A": { type: "item", code: "game:plank-aged", quantity: 2 },
+		"B": { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:trunk-east", attributes: { type: "collapsed2" }  }
+	},
+	{
+	ingredientPattern: "B_A	__A	_AA",
+	ingredients: {
+		"A": { type: "item", code: "game:plank-aged", quantity: 2 },
+		"B": { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:trunk-east", attributes: { type: "collapsed3" }  }
+	}
+
+]

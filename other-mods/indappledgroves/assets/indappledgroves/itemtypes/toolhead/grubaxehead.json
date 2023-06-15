@@ -1,0 +1,33 @@
+{
+	code: "grubaxehead",
+	variantgroups: [
+		{ code: "material", states: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	],
+	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
+	shape: { "base": "item/toolhead/grubaxehead" },
+	textures: {
+			"material": { base: "game:block/metal/ingot/{material}" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.1, y: -0.4, z: 0 },
+		rotation: { x: 25, y: 0, z: 86 },
+		scale: 2.5
+	},
+		guiTransform: {
+		translation: { x: 30, y: 22, z: 0 },
+		rotation: { x: -94, y: -129, z: -154 },
+		scale: 2.71
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.81, y: 0.45, z: 0.42 },
+		scale: 3.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.1, y: -0.76, z: -0.04 },
+		rotation: { x: 90, y: -29, z: 0 },
+		scale: 1
+	}
+}

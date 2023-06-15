@@ -1,0 +1,15 @@
+[
+
+	{
+		ingredientPattern: "MCO,_P_",
+		ingredients: {
+			"M": { type: "item", code: "game:poultry-cooked", quantity: 1 },
+			"C": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+			"O": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+			"P": { type: "item", code: "game:plank-*", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "medieval:pollo-east", quantity: 1  }
+	}
+]

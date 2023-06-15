@@ -1,0 +1,81 @@
+[
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "idgtool",
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [{"name": "woodsawer"}],
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {"sawingProps": {"sawingMod": 0.46 }},
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/miningspeedbytype",
+    "value": {
+		"*-scrap": {
+			"wood": 4,
+			"plant": 2.6,
+			"leaves": 2.2
+		},		
+		"*-copper": {
+			"wood": 5.2,
+			"plant": 2.8,
+			"leaves": 2.4
+		},
+		"*-silver": {
+			"wood": 4.5,
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"*-gold": {
+			"wood": 4.5,
+			"plant": 3.3,
+			"leaves": 3
+		},
+		"*-bismuthbronze": {
+			"wood": 5.8,
+			"plant": 3.5,
+			"leaves": 2.6
+		},
+		"*-tinbronze": {
+			"wood": 6.3,
+			"plant": 3.8,
+			"leaves": 3
+		},
+		"*-blackbronze": {
+			"wood": 6.6,
+			"plant": 4,
+			"leaves": 3.1
+		},
+		"*-iron": {
+			"wood": 8.4,
+			"plant": 5,
+			"leaves": 3.2
+		},
+		"*-meteoriciron": {
+			"wood": 9.6,
+			"plant": 5.5,
+			"leaves": 3.6
+		},
+		"*-steel": {
+			"wood": 11,
+			"plant": 6,
+			"leaves": 4
+		}
+	},
+		"file": "game:itemtypes/tool/saw.json",
+		"side": "server"
+  }
+]

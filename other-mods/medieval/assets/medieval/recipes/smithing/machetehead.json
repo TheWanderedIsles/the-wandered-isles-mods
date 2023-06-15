@@ -1,0 +1,11 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium"] },
+	pattern: [[
+		"_________#______",
+		"################",
+		"_#########_____#",
+		"___####__#______"
+	]],
+	name: "machete",
+	output: { type: "item", code: "machetehead-{metal}"  }
+}

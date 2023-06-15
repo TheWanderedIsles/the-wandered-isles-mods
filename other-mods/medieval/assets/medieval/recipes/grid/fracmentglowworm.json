@@ -1,0 +1,44 @@
+[
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "game:shears-*", isTool: true  },
+			"I": { type: "block", code: "game:glowworms-*", name: "type", allowedVariants: ["base1", "base1-short", "base2", "base2-short", "segment1", "segment2", "end1", "end2"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "fracmentglowworm", quantity: 20 }
+	},
+    {
+		ingredientPattern: "H,I",
+		ingredients: {
+			"H": { type: "item", code: "shears-*", isTool: true  },
+			"I": { type: "block", code: "game:glowworms-*", name: "type", allowedVariants: ["base1", "base1-short", "base2", "base2-short", "segment1", "segment2", "end1", "end2"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "fracmentglowworm", quantity: 20 }
+	},
+		{
+		ingredientPattern: "BF",
+		ingredients: {
+				"B": { type: "block", code: "game:bowl-fired" },
+				"F": { type: "block", code: "fracmentglowworm", quantity: 1 }
+			},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wormlamp-up", quantity: 1  }
+	},
+		{
+		ingredientPattern: "BF",
+		ingredients: {
+				"B": { type: "block", code: "game:bowl-fired" },
+				"F": { type: "block", code: "fracmentglowwormwhite", quantity: 1 }
+			},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wormlampwhite-up", quantity: 1 }
+	}
+]

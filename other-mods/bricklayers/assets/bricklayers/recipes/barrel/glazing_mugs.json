@@ -1,0 +1,26 @@
+[
+	{
+	"code": "glazedmug",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 1, "consumeLitres": 1, "name": "color",
+			"allowedVariants": [
+				"black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+				"malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "type": "block", "code": "bricklayers:coloredmug-burnt-*", "quantity": 1, "name": "type" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedmug-wet-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazedmug",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-milky-*", "litres": 1, "consumeLitres": 1, "name": "color",
+			"allowedVariants": [
+				"black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+				"malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow" ] },
+		{ "type": "block", "code": "bricklayers:coloredmug-burnt-*", "quantity": 1, "name": "type" }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedmug-wet-milky-{color}-plain", "stackSize": 1 }
+	}
+]

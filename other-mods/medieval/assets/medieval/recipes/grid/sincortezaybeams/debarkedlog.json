@@ -1,0 +1,26 @@
+[
+	{
+		ingredientPattern: "AHL",
+		ingredients: {
+			"A": { type: "item", code: "medieval:axe-*", isTool: true  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"L": { type: "block", code: "game:log-placed-*-ud", name: "wood" }
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "game:debarkedlog-{wood}-ud", quantity: 1  }
+	},
+	{
+		ingredientPattern: "AHL",
+		ingredients: {
+			"A": { type: "item", code: "medieval:bigaxe-*", isTool: true  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"L": { type: "block", code: "game:log-placed-*-ud", name: "wood" }
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "game:debarkedlog-{wood}-ud", quantity: 1  }
+	}
+]

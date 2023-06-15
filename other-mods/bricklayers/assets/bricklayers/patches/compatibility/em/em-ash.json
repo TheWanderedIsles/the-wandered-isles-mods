@@ -1,0 +1,27 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "em:itemtypes/resource/ash.json",
+    "dependsOn": [ { "modid": "em" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "file": "em:recipes/barrel/ash_sludge.json",
+    "dependsOn": [ { "modid": "em" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "file": "em:recipes/barrel/ash_sludge.json",
+    "dependsOn": [ { "modid": "em" } ],
+    "side": "Server"
+  }
+
+]

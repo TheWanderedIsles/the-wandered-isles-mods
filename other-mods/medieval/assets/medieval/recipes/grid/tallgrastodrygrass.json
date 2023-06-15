@@ -1,0 +1,22 @@
+[
+    {
+		ingredientPattern: "C,I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true  },
+			"I": { type: "block", code: "game:tallgrass-*-free", name: "tallgrass", allowedVariants: [ "eaten", "veryshort", "short", "mediumshort", "medium", "tall", "verytall"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:drygrass", quantity: 2 }
+	},
+    {
+		ingredientPattern: "C,I",
+		ingredients: {
+			"C": { type: "item", code: "knife-*", isTool: true  },
+			"I": { type: "block", code: "game:tallgrass-*-free", name: "tallgrass", allowedVariants: [ "eaten", "veryshort", "short", "mediumshort", "medium", "tall", "verytall"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:drygrass", quantity: 2 }
+	}
+]

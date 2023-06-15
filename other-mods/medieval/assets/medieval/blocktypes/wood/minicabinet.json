@@ -1,0 +1,396 @@
+{
+	"code": "minicabinet",
+	"class": "BlockContainers",
+	"entityclass": "BlockEntityContainers",
+	"attributes": {
+		"partialAttachable": true,
+		"canPlaceGroundStorgeOnTop": false,
+		"inventoryClassName": "container",
+		"defaultType": "generic",
+		"types": [ "drawer-acacia-door-mm", "drawer-aged-door-mm", "drawer-baldcypress-door-mm", "drawer-birch-door-mm", "drawer-ebony-door-mm", "drawer-kapok-door-mm", "drawer-larch-door-mm", "drawer-maple-door-mm", "drawer-oak-door-mm", "drawer-pine-door-mm", "drawer-purpleheart-door-mm", "drawer-redwood-door-mm", "drawer-walnut-door-mm"  ],
+		"rotatatableInterval": {
+			"drawer-acacia-door-mm": "90deg",
+			"drawer-aged-door-mm": "90deg",
+			"drawer-baldcyprees-door-mm": "90deg",
+			"drawer-birch-door-mm": "90deg",
+			"drawer-ebony-door-mm": "90deg",
+			"drawer-kapok-door-mm": "90deg",
+			"drawer-larch-door-mm": "90deg",
+			"drawer-maple-door-mm": "90deg",
+			"drawer-oak-door-mm": "90deg",
+			"drawer-pine-door-mm": "90deg",
+			"drawer-purpleheart-door-mm": "90deg",
+			"drawer-redwood-door-mm": "90deg",
+			"drawer-walnut-door-mm": "90deg"
+		},
+		"canAutoPull": {
+			"drawer-acacia-door-mm": false,
+			"drawer-aged-door-mm": false,
+			"drawer-baldcyprees-door-mm": false,
+			"drawer-birch-door-mm": false,
+			"drawer-ebony-door-mm": false,
+			"drawer-kapok-door-mm": false,
+			"drawer-larch-door-l": false,
+			"drawer-maple-door-mm": false,
+			"drawer-oak-door-mm": false,
+			"drawer-pine-door-mm": false,
+			"drawer-purpleheart-door-mm": false,
+			"drawer-redwood-door-mm": false,
+			"drawer-walnut-door-mm": false
+		},
+		"drop": {
+			"drawer-acacia-door-mm": true,
+			"drawer-acacia-door-r": true,
+			"drawer-aged-door-mm": true,
+			"drawer-baldcyprees-door-mm": true,
+			"drawer-birch-door-mm": true,
+			"drawer-ebony-door-mm": true,
+			"drawer-kapok-door-mm": true,
+			"drawer-larch-door-mm": true,
+			"drawer-maple-door-mm": true,
+			"drawer-oak-door-mm": true,
+			"drawer-pine-door-mm": true,
+			"drawer-purpleheart-door-mm": true,
+			"drawer-redwood-door-mm": true,
+			"drawer-walnut-door-mm": true
+		},
+		"quantitySlots": {
+			"drawer-acacia-door-mm": 10,
+			"drawer-aged-door-mm": 10,
+			"drawer-baldcyprees-door-mm": 10,
+			"drawer-birch-door-mm": 10,
+			"drawer-ebony-door-mm": 10,
+			"drawer-kapok-door-mm": 10,
+			"drawer-larch-door-mm": 10,
+			"drawer-maple-door-mm": 10,
+			"drawer-oak-door-mm": 10,
+			"drawer-pine-door-mm": 10,
+			"drawer-purpleheart-door-mm": 10,
+			"drawer-redwood-door-mm": 10,
+			"drawer-walnut-door-mm": 10
+		},
+		"quantityColumns": {
+			"drawer-acacia-door-mm": 5,
+			"drawer-aged-door-mm": 5,
+			"drawer-baldcyprees-door-mm": 5,
+			"drawer-birch-door-mm": 5,
+			"drawer-ebony-door-mm": 5,
+			"drawer-kapok-door-mm": 5,
+			"drawer-larch-door-mm": 5,
+			"drawer-maple-door-mm": 5,
+			"drawer-oak-door-mm": 5,
+			"drawer-pine-door-mm": 5,
+			"drawer-purpleheart-door-mm": 5,
+			"drawer-redwood-door-mm": 5,
+			"drawer-walnut-door-mm": 5
+		},
+		"dialogTitleLangCode": {
+			"drawer-acacia-door-mm": "Pequeño Gabinete",
+			"drawer-aged-door-mm": "Pequeño Gabinete",
+			"drawer-baldcyprees-door-mm": "Pequeño Gabinete",
+			"drawer-birch-door-mm": "Pequeño Gabinete",
+			"drawer-ebony-door-mm": "Pequeño Gabinete",
+			"drawer-kapok-door-mm": "Pequeño Gabinete",
+			"drawer-larch-door-mm": "Pequeño Gabinete",
+			"drawer-maple-door-mm": "Pequeño Gabinete",
+			"drawer-oak-door-mm": "Pequeño Gabinete",
+			"drawer-pine-door-mm": "Pequeño Gabinete",
+			"drawer-purpleheart-door-mm": "Pequeño Gabinete",
+			"drawer-redwood-door-mm": "Pequeño Gabinete",
+			"drawer-walnut-door-mm": "Pequeño Gabinete"
+		},
+		"storageType": {
+			"drawer-acacia-door-mm": 32,
+			"drawer-aged-door-l": 32,
+			"drawer-baldcyprees-door-mm": 32,
+			"drawer-birch-door-mm": 32,
+			"drawer-kapok-door-mm": 32,
+			"drawer-larch-door-mm": 32,
+			"drawer-maple-door-mm": 32,
+			"drawer-pine-door-mm": 32,
+			"drawer-purpleheart-door-mm": 32,
+			"drawer-redwood-door-mm": 32,
+			"drawer-walnut-door-mm": 32
+		},
+		"retrieveOnly": {
+			"drawer-acacia-door-mm": false,
+			"drawer-aged-door-mm": false,
+			"drawer-baldcyprees-door-mm": false,
+			"drawer-birch-door-mm": false,
+			"drawer-ebony-door-mm": false,
+			"drawer-kapok-door-mm": false,
+			"drawer-larch-door-mm": false,
+			"drawer-maple-door-mm": false,
+			"drawer-oak-door-mm": false,
+			"drawer-pine-door-mm": false,
+			"drawer-purpleheart-door-mm": false,
+			"drawer-redwood-door-mm": false,
+			"drawer-walnut-door-mm": false
+		},
+		"shape": {
+			"drawer-acacia-door-mm": "block/wood/chest/drawer-acacia-door-mm",
+			"drawer-aged-door-mm": "block/wood/chest/drawer-aged-door-mm",
+			"drawer-baldcypress-door-mm": "block/wood/chest/drawer-baldcypress-door-mm",
+			"drawer-birch-door-mm": "block/wood/chest/drawer-birch-door-mm",
+			"drawer-ebony-door-mm": "block/wood/chest/drawer-ebony-door-mm",
+			"drawer-kapok-door-mm": "block/wood/chest/drawer-kapok-door-mm",
+			"drawer-larch-door-mm": "block/wood/chest/drawer-larch-door-mm",
+			"drawer-maple-door-mm": "block/wood/chest/drawer-maple-door-mm",
+			"drawer-oak-door-mm": "block/wood/chest/drawer-oak-door-mm",
+			"drawer-pine-door-mm": "block/wood/chest/drawer-pine-door-mm",
+			"drawer-purpleheart-door-mm": "block/wood/chest/drawer-purpleheart-door-mm",
+			"drawer-redwood-door-mm": "block/wood/chest/drawer-redwood-door-mm",
+			"drawer-walnut-door-mm": "block/wood/chest/drawer-walnut-door-mm"
+		},
+		"typedOpenSound": {
+			"drawer-acacia-door-mm": "game:sounds/block/largechestopen",
+			"drawer-aged-door-mm": "game:sounds/block/largechestopen",
+			"drawer-baldcyprees-door-mm": "game:sounds/block/largechestopen",
+			"drawer-birch-door-mm": "game:sounds/block/largechestopen",
+			"drawer-ebony-door-mm": "game:sounds/block/largechestopen",
+			"drawer-kapok-door-mm": "game:sounds/block/largechestopen",
+			"drawer-larch-door-mm": "game:sounds/block/largechestopen",
+			"drawer-maple-door-mm": "game:sounds/block/largechestopen",
+			"drawer-oak-door-mm": "game:sounds/block/largechestopen",
+			"drawer-pine-door-mm": "game:sounds/block/largechestopen",
+			"drawer-purpleheart-door-mm": "game:sounds/block/largechestopen",
+			"drawer-redwood-door-mm": "game:sounds/block/largechestopen",
+			"drawer-walnut-door-mm": "game:sounds/block/largechestopen"
+		},
+		"typedCloseSound": {
+			"drawer-acacia-door-mm": "game:sounds/block/largechestclose",
+			"drawer-aged-door-mm": "game:sounds/block/largechestclose",
+			"drawer-baldcyprees-door-mm": "game:sounds/block/largechestclose",
+			"drawer-birch-door-mm": "game:sounds/block/largechestclose",
+			"drawer-ebony-door-mm": "game:sounds/block/largechestclose",
+			"drawer-kapok-door-mm": "game:sounds/block/largechestclose",
+			"drawer-larch-door-mm": "game:sounds/block/largechestclose",
+			"drawer-maple-door-mm": "game:sounds/block/largechestclose",
+			"drawer-oak-door-mm": "game:sounds/block/largechestclose",
+			"drawer-pine-door-mm": "game:sounds/block/largechestclose",
+			"drawer-purpleheart-door-mm": "game:sounds/block/largechestclose",
+			"drawer-redwood-door-mm": "game:sounds/block/largechestclose",
+			"drawer-walnut-door-mm": "game:sounds/block/largechestclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": null
+	},
+	"behaviors": [{"name": "Lockable" }, {"name": "Container"},	{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" }
+		}, { name: "Carryable", properties: { translation: [ 0.0625, 0, 0 ], rotation: [ 0, 180, 0 ], slots: { "Hands": {  }, "Back": {  },}
+    }}],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "medieval" ],
+				"stacks": [
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-acacia-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-aged-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-baldcypress-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-birch-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-ebony-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-kapok-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-larch-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-maple-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-oak-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-pine-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-purpleheart-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-redwood-door-mm" } },
+					{ "type": "block", "code": "minicabinet-east", "attributes": { "type": "drawer-walnut-door-mm" } }
+				]
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"shapeInventory": { "base": "block/wood/chest/normal", "rotateY": 270 },
+	"shapeByType": {
+		"*-north": { "base": "block/wood/chest/normal", "rotateY": 0 },
+		"*-east": { "base": "block/wood/chest/normal", "rotateY": 270 },
+		"*-west": { "base": "block/wood/chest/normal", "rotateY": 90 },
+		"*-south": { "base": "block/wood/chest/normal", "rotateY": 180 }
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	"textures": {
+
+
+		"drawer-acacia-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-aged-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-baldcypress-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-birch-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-ebony-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-kapok-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-larch-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-maple-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-oak-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-pine-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-purpleheart-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-redwood-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+		"drawer-walnut-door-mm-knob": { 
+			"base": "block/wood/chest/knob"
+		},
+
+
+
+		"drawer-acacia-door-mm-acaciadark": { 
+			"base": "block/wood/chest/acaciadark"
+		},
+		"drawer-aged-door-mm-ageddark": { 
+			"base": "block/wood/chest/ageddark"
+		},
+		"drawer-baldcypress-door-mm-baldcypressdark": { 
+			"base": "block/wood/chest/baldcypressdark"
+		},
+		"drawer-birch-door-mm-birchdark": { 
+			"base": "block/wood/chest/birchdark"
+		},
+		"drawer-ebony-door-mm-ebonydark": { 
+			"base": "block/wood/chest/ebonydark"
+		},
+		"drawer-kapok-door-mm-kapokdark": { 
+			"base": "block/wood/chest/kapokdark"
+		},
+		"drawer-larch-door-mm-larchdark": { 
+			"base": "block/wood/chest/larchdark"
+		},
+		"drawer-maple-door-mm-mapledark": { 
+			"base": "block/wood/chest/mapledark"
+		},
+		"drawer-oak-door-mm-oakdark": { 
+			"base": "block/wood/chest/oakdark"
+		},
+		"drawer-pine-door-mm-pinedark": { 
+			"base": "block/wood/chest/pinedark"
+		},
+		"drawer-purpleheart-door-mm-purpleheartdark": { 
+			"base": "block/wood/chest/purpleheartdark"
+		},
+		"drawer-redwood-door-mm-redwooddark": { 
+			"base": "block/wood/chest/redwooddark"
+		},
+		"drawer-walnut-door-mm-walnutdark": { 
+			"base": "block/wood/chest/walnutdark"
+		}
+
+
+	},
+	"blockmaterial": "Wood",
+	"replaceable": 900,
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sideAo": { "all": false },
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"selectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0.5,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.4375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.5625,
+			"z1": 0.4375,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0,
+			"y1": 0.5,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.4375,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.5625,
+			"z1": 0.4375,
+			"x2": 0.9375,
+			"y2": 0.9375,
+			"z2": 0.5,
+			"rotateYByType": {
+				"*-north": 0,
+				"*-east": 270,
+				"*-south": 180,
+				"*-west": 90
+			} 
+		}
+	],
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 35
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"materialDensity": 600,
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.5, "z": -0.3 },
+		"rotation": { "x": 0, "y": 90, "z": -102 },
+		"scale": 0.56
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+		"scale": 1.16
+	}
+}

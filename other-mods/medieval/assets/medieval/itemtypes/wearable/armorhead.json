@@ -1,0 +1,93 @@
+{
+  "code": "medievalarmor",
+  "class": "ItemWearable",
+  "heldTpIdleAnimation": "holdunderarm",
+  "variantgroups": [
+    { "code": "bodypart", "states": ["head"] },
+    { "code": "construction", "states": ["iron"] }
+  ],
+  "shapeByType": {
+    "medievalarmor-head-iron": { "base": "game:entity/humanoid/seraph" }
+  },
+  "texturesByType": {
+    "medievalarmor-head-iron": {
+      "seraph": { "base": "entity/humanoid/serapharmor/head/iron" }
+    }
+    
+  },
+  "storageFlags": 128,
+  "attributes": {
+    "visibleDamageEffect": false,
+    "wearableAttachment": true,
+    "clothescategoryByType": {
+      "medievalarmor-head-*": "armorhead"
+    },
+    "defaultProtLoss": {
+      "perTierRelativeProtectionLoss": [0.03, 0.15],
+      "perTierFlatDamageReductionLoss": [0.1, 0.2]
+    },
+    "footStepSoundByType": {
+      "medievalarmor-body-iron": "game:wearable/leather*"
+    },
+    "protectionModifiersByType": {
+      "medievalarmor-head-*": {
+        "relativeProtection": 0.97,
+        "flatDamageReduction": 1.8,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      }
+    },
+    "statModifiersByType": {
+      "medievalarmor-body-*": {
+        "rangedWeaponsAcc": 0.2,
+        "rangedWeaponsSpeed": 0.1,
+        "walkSpeed": 0.1,
+        "healingeffectivness": 0.1,
+        "hungerrate": -0.3
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "clothing": ["*"],
+    "medieval": ["*"]
+  },
+  "renderAlphaTest": 0.25,
+  "durabilityByType": {
+    "medievalarmor-head-*": 2500
+  },
+
+  "fpHandTransformByType": {
+    "medievalarmor-head-*": {
+      "translation": { "x": 0.4, "y": -1.9, "z": -0.5 },
+      "rotation": { "x": 163, "y": -111, "z": -180 },
+      "origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+      "scale": 2.15
+    }
+  },
+  "tpHandTransformByType": {
+    "medievalarmor-head-*": {
+      "translation": { "x": -0.82, "y": -2.2, "z": -0.5 },
+      "rotation": { "x": 18, "y": 169, "z": 30 },
+      "origin": { "x": 0.5, "y": 1.7, "z": 0.5 },
+      "scale": 0.64
+    }
+  },
+  "guiTransformByType": {
+    "medievalarmor-head-*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": -26, "y": -46, "z": -180 },
+      "origin": { "x": 0.6, "y": 1.72, "z": 0.5 },
+      "scale": 2
+    }
+  },
+  "groundTransformByType": {
+    "medievalarmor-head-*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.34, "y": 1.71, "z": 0.5 },
+      "scale": 3.1
+    }
+  }
+}

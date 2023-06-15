@@ -1,0 +1,98 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"bonehumanoid": "block/bonehumanoid",
+		"bonehumanoid1": "block/bonehumanoid1"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationX": -27.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "skull2",
+					"from": [ -2.5, 0.5, -2.1 ],
+					"to": [ 2.5, 4.5, 2.9 ],
+					"rotationOrigin": [ 0.05, -0.5, -1.1 ],
+					"faces": {
+						"north": { "texture": "#bonehumanoid", "uv": [ 8.0, 7.5, 13.0, 11.5 ] },
+						"east": { "texture": "#bonehumanoid", "uv": [ 9.0, 7.5, 14.0, 11.5 ] },
+						"south": { "texture": "#bonehumanoid", "uv": [ 3.5, 2.0, 8.5, 6.0 ] },
+						"west": { "texture": "#bonehumanoid", "uv": [ 9.0, 9.5, 14.0, 13.5 ] },
+						"up": { "texture": "#bonehumanoid", "uv": [ 8.5, 7.5, 13.5, 12.5 ] },
+						"down": { "texture": "#bonehumanoid", "uv": [ 8.5, 6.5, 13.5, 11.5 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "nose",
+							"from": [ 1.25, -0.5, 5.0 ],
+							"to": [ 3.75, 1.5, 5.5 ],
+							"rotationOrigin": [ 1.2, -0.5, 5.0 ],
+							"rotationX": -14.5,
+							"faces": {
+								"east": { "texture": "#bonehumanoid", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+								"south": { "texture": "#bonehumanoid", "uv": [ 2.0, 10.0, 4.5, 12.0 ] },
+								"west": { "texture": "#bonehumanoid", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+								"up": { "texture": "#bonehumanoid", "uv": [ 10.0, 8.0, 12.5, 8.5 ] },
+								"down": { "texture": "#bonehumanoid", "uv": [ 9.5, 7.0, 12.0, 7.5 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "teeth",
+							"from": [ 0.5, -1.5, 1.0 ],
+							"to": [ 4.5, 0.0, 5.0 ],
+							"rotationOrigin": [ 3.0, -1.0, 4.0 ],
+							"faces": {
+								"east": { "texture": "#bonehumanoid", "uv": [ 11.5, 14.5, 15.5, 16.0 ] },
+								"south": { "texture": "#bonehumanoid", "uv": [ 5.5, 14.5, 9.5, 16.0 ] },
+								"west": { "texture": "#bonehumanoid", "uv": [ 0.5, 14.5, 4.5, 16.0 ] }
+							}
+						},
+						{
+							"name": "top",
+							"from": [ 0.5, 4.0, 0.5 ],
+							"to": [ 4.5, 4.5, 4.5 ],
+							"rotationOrigin": [ 2.5, 4.0, 2.5 ],
+							"faces": {
+								"north": { "texture": "#bonehumanoid", "uv": [ 7.0, 7.0, 11.0, 7.5 ] },
+								"east": { "texture": "#bonehumanoid", "uv": [ 8.0, 8.5, 12.0, 9.0 ] },
+								"south": { "texture": "#bonehumanoid", "uv": [ 9.0, 7.0, 13.0, 7.5 ] },
+								"west": { "texture": "#bonehumanoid", "uv": [ 9.5, 8.0, 13.5, 8.5 ] },
+								"up": { "texture": "#bonehumanoid", "uv": [ 7.0, 5.5, 11.0, 9.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "skull4",
+					"from": [ 0.5, 2.0, 2.91 ],
+					"to": [ 2.0, 3.5, 2.91 ],
+					"rotationOrigin": [ 3.05, 1.0, 3.9 ],
+					"faces": {
+						"south": { "texture": "#bonehumanoid1", "uv": [ 6.5, 3.0, 8.0, 4.5 ], "glow": 255 }
+					}
+				},
+				{
+					"name": "skull5",
+					"from": [ -2.0, 2.0, 2.91 ],
+					"to": [ -0.5, 3.5, 2.91 ],
+					"rotationOrigin": [ 0.55, 1.0, 3.9 ],
+					"faces": {
+						"south": { "texture": "#bonehumanoid1", "uv": [ 4.0, 3.0, 5.5, 4.5 ], "glow": 255 }
+					}
+				}
+			]
+		}
+	]}

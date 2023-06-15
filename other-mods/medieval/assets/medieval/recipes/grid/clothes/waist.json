@@ -1,0 +1,98 @@
+[
+	{
+		ingredientPattern: "LIL",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"I": { type: "item", code: "game:metalbit-iron", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-waist-peasant-strap"  }
+	},
+	{
+		ingredientPattern: "___,_I_,L_L",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"I": { type: "item", code: "game:metalbit-iron", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-waist-medieval-large-belt"  }
+	},
+	{
+		ingredientPattern: "___,KI_,L_L",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"I": { type: "item", code: "game:metalbit-iron", quantity: 1 },
+			"K": { type: "item", code: "game:knife-generic-flint", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-waist-medieval-large-belt-knife"  }
+	},
+	{
+		ingredientPattern: "KIC,LLL",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"I": { type: "item", code: "game:metalbit-iron", quantity: 1 },
+			"K": { type: "item", code: "game:knife-generic-flint", quantity: 1 },
+			"C": { type: "block", code: "medieval:canteen-medieval", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-waist-medieval-large-belt-knife-ex"  }
+	},
+	{
+		ingredientPattern: "___,III,LLL",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"I": { type: "item", code: "game:metalbit-iron", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:clothes-waist-heavy-tool-belt"  }
+	},
+	{
+		ingredientPattern: "_I_,L_L,L_L",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"I": { type: "item", code: "game:metalbit-iron", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-waist-medieval-wide-belt"  }
+	},
+	{
+		ingredientPattern: "KI_,L_L,L_L",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"I": { type: "item", code: "game:metalbit-iron", quantity: 1 },
+			"K": { type: "item", code: "game:knife-generic-flint", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-waist-medieval-wide-belt-knife"  }
+	},
+	{
+		ingredientPattern: "KIC,L_L,L_L",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"I": { type: "item", code: "game:metalbit-iron", quantity: 1 },
+			"K": { type: "item", code: "game:knife-generic-flint", quantity: 1 },
+			"C": { type: "block", code: "medieval:canteen-medieval", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-waist-medieval-wide-belt-knife-ex"  }
+	},
+	{
+		ingredientPattern: "ILI,III",
+		ingredients: {
+			"L": { type: "item", code: "clothes-waist-medieval-wide-belt", quantity: 1 },
+			"I": { type: "item", code: "game:bone", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-waist-bone"  }
+	}
+]

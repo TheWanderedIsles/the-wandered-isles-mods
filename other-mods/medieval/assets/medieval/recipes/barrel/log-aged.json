@@ -1,0 +1,38 @@
+[
+	{
+		code: "log-aged",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:log-placed-oak-ud", quantity: 4 }
+		],
+		output: { type: "block", code: "game:log-placed-aged-ud", stackSize: 4 }
+	},
+	{
+		code: "log-aged",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:log-placed-walnut-ud", quantity: 4 }
+		],
+		output: { type: "block", code: "game:log-placed-aged-ud", stackSize: 4 }
+	},
+	{
+		code: "log-aged",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:log-placed-pine-ud", quantity: 4 }
+		],
+		output: { type: "block", code: "game:log-placed-aged-ud", stackSize: 4 }
+	},
+	{
+		code: "log-aged",
+		sealHours: 8,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 1, consumeLitres: 1 },
+			{ type: "block", code: "game:log-placed-maple-ud", quantity: 4 }
+		],
+		output: { type: "block", code: "game:log-placed-aged-ud", stackSize: 4 }
+	}
+]

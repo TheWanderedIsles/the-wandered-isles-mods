@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "C,I",
+		recipeGroup: 1,
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "medieval:coin-*", name: "value", allowedVariants: [ "gold","silver","stainlesssteel" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{value}", quantity: 2 }
+	}
+]

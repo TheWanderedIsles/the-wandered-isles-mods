@@ -1,0 +1,30 @@
+[
+	{
+	"ingredientPattern": "_BB,BMB,BBB",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"B": { "type": "item", "code": "bricklayers:glazedbrick-burnt-clear-*", "name": "brick",
+			"allowedVariants": [
+				"black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+				"malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow"
+			] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glazedbrickstairs-clear-{brick}-up-north-free", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "_BB,BMB,BBB",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"B": { "type": "item", "code": "bricklayers:glazedbrick-burnt-milky-*", "name": "brick",
+			"allowedVariants": [
+				"black", "blue", "brown", "gold", "green", "greenblue", "lapislazuli",
+				"malachite", "orange", "pink", "purple", "red", "redbrown", "white", "yellow"
+			] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glazedbrickstairs-milky-{brick}-up-north-free", "quantity": 2 }
+	}
+]

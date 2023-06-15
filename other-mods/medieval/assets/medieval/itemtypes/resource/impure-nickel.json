@@ -1,0 +1,65 @@
+{
+	code: "impure-nickel",
+	maxstacksize: 64,
+	dimensions: { width: 0.0625, height: 0.0625, length: 0.0625 },
+	attributes: {
+		displaycaseable: true,
+		shelvable: true
+	},
+	variantgroups: [
+		{ code: "variant", states: ["andesite", "basalt", "granite", "peridotite" ] },
+	],
+	storageFlags: 5,
+	shape: { base: "item/resource/metal/nickel/{variant}" },
+
+	creativeinventory: { "general": ["*"], "items": ["*"], "medieval": ["*"] },
+	combustiblePropsByType: {
+		"*-andesite": {
+			meltingPoint: 1455,
+			meltingDuration: 30,
+			smeltedRatio: 20,
+			smeltedStack: { type: "item", code: "game:ingot-nickel" }
+		},
+		"*-basalt": {
+			meltingPoint: 1455,
+			meltingDuration: 30,
+			smeltedRatio: 20,
+			smeltedStack: { type: "item", code: "game:ingot-nickel" }
+		},
+		"*-granite": {
+			meltingPoint: 1455,
+			meltingDuration: 30,
+			smeltedRatio: 20,
+			smeltedStack: { type: "item", code: "game:ingot-nickel" }
+		},
+		"*-peridotite": {
+			meltingPoint: 1455,
+			meltingDuration: 30,
+			smeltedRatio: 20,
+			smeltedStack: { type: "item", code: "game:ingot-nickel" }
+		}
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 1, y: 90, z: 0 },
+		scale: 1.67
+	},
+	guiTransform: {
+		translation: { x: 3, y: 2, z: 0 },
+		rotation: { x: 150, y: -38, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 3.8
+	},
+	tpHandTransform: {
+		translation: { x: -0.93, y: -0.19, z: -0.77 },
+		rotation: { x: -48, y: -180, z: 23 },
+		origin: { x: 0.5, y: 0.12, z: 0.5 },
+		scale: 0.6
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.5
+	}
+}

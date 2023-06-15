@@ -1,0 +1,177 @@
+{
+  "code": "hide",
+  "attributes": {
+    "handbook": {
+      "groupBy": ["hide-*-{animal}-*"]
+    }
+  },
+  "variantGroups": [
+    { "code": "size", "states": ["small", "medium", "large", "huge"] },
+    { "code": "animal", "states": ["boar", "fox", "hare", "raccoon", "sheep", "wolf", "bear"] },
+    { "code": "coat", "states": ["arctic", "forest", "ashgrey", "darkbrown", "darkgrey", "desert", "gold", "lightbrown", "lightgrey", "silver", "smokegrey", "normal", "brown", "black", "panda", "polar", "sun"] }
+  ],
+  "allowedVariants": [
+    "*-medium-boar-normal",
+    "@.*-small-fox-(arctic|forest)",
+    "@.*-small-hare-(arctic|ashgrey|darkbrown|darkgrey|desert|gold|lightbrown|lightgrey|silver|smokegrey)",
+    "*-small-raccoon-normal",
+    "@.*-(small|large)-sheep-normal",
+    "*-medium-wolf-normal",
+    "@.*-huge-bear-(brown|black|panda|polar|sun)"
+  ],
+  "creativeinventory": { "general": ["*"], "items": ["*"], "hideandfabric": ["*"] },
+  "maxstacksize": 32,
+  "shape": { "base": "item/resource/hide/{size}-{animal}" },
+  "texturesByType": {
+    "*-boar-*": { "boar": { "base": "game:entity/pig/pig-wild-male1" } },
+    "*-fox-*": { "skin": { "base": "game:entity/fox/{coat}-female" } },
+    "*-hare-*": { "skin": { "base": "game:entity/hare/female-{coat}" } },
+    "*-raccoon-*": { "raccoon": { "base": "game:entity/raccoon/raccoon-male1" } },
+    "*-small-sheep-*": { "lamb": { "base": "game:entity/sheep/sheep-bighorn-lamb" } },
+    "*-large-sheep-*": { "ram": { "base": "game:entity/sheep/sheep-bighorn-male" } },
+    "*-wolf-*": { "skin": { "base": "game:entity/wolf/wolf5" } },
+    "*-bear-*": { "fur": { "base": "game:entity/bear/{coat}1" } }
+  },
+  "guiTransformByType": {
+    "*-boar-*": {
+      "translation": { "x": 0, "y": 6, "z": 0 },
+      "rotation": { "x": -180, "y": -90, "z": 55 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 0.76
+    },
+    "*-fox-*": {
+      "translation": { "x": 2, "y": 10, "z": 0 },
+      "rotation": { "x": -180, "y": -90, "z": 47 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 1.6
+    },
+    "*-raccoon-*": {
+      "translation": { "x": 1, "y": 3, "z": 0 },
+      "rotation": { "x": -180, "y": -90, "z": 60 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 1.6
+    },
+    "*-hare-*": {
+      "translation": { "x": 1, "y": 10, "z": 0 },
+      "rotation": { "x": -180, "y": -90, "z": 60 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 1.8
+    },
+    "*-small-sheep-*": {
+      "translation": { "x": 2, "y": 10, "z": 0 },
+      "rotation": { "x": -180, "y": -90, "z": 47 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 1.6
+    },
+    "*-large-sheep-*": {
+      "translation": { "x": 0, "y": 6, "z": 0 },
+      "rotation": { "x": -180, "y": -90, "z": 55 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 0.76
+    },
+    "*-wolf-*": {
+      "translation": { "x": 0, "y": 6, "z": 0 },
+      "rotation": { "x": -180, "y": -90, "z": 55 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 0.76
+    },
+    "*-huge-bear-*": {
+      "translation": { "x": 0, "y": 6, "z": 0 },
+      "rotation": { "x": -180, "y": -90, "z": 55 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 0.5
+    }
+  },
+  "groundTransformByType": {
+    "*-boar-*": {
+      "scale": 1.5
+    },
+    "@.*(fox|hare|raccoon).*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": -45, "z": 0 },
+      "origin": { "x": 0.5, "y": -0.02, "z": 0.5 },
+      "scale": 4.5
+    },
+    "*-small-sheep-*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": -45, "z": 0 },
+      "origin": { "x": 0.5, "y": -0.02, "z": 0.5 },
+      "scale": 4.5
+    },
+    "*-large-sheep-*": {
+      "scale": 2.4
+    },
+    "*-wolf-*": {
+      "scale": 1.5
+    },
+    "*-bear-*": {
+      "scale": 1.0
+    }
+  },
+  "fpHandTransformByType": {
+    "*-boar-*": {
+      "rotation": { "x": 30, "y": -90, "z": -30 }
+    },
+    "@.*(fox|hare|raccoon).*": {
+      "rotation": { "x": 45, "y": -90, "z": 0 },
+      "scale": 1.5
+    },
+    "*-small-sheep-*": {
+      "rotation": { "x": 45, "y": -90, "z": 0 },
+      "scale": 1.5
+    },
+    "*-large-sheep-*": {
+      "rotation": { "x": 30, "y": -90, "z": -30 }
+    },
+    "*-wolf-*": {
+      "rotation": { "x": 30, "y": -90, "z": -30 }
+    },
+    "*-bear-*": {
+      "rotation": { "x": 30, "y": -90, "z": -30 }
+    }
+  },
+  "tpHandTransformByType": {
+    "*-boar-*": {
+      "translation": { "x": -1.2, "y": -0.1, "z": -0.35 },
+      "rotation": { "x": -90, "y": 0, "z": -2 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.5
+    },
+    "*-fox-*": {
+      "translation": { "x": -0.7, "y": -0.1, "z": -0.4 },
+      "rotation": { "x": -90, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.7
+    },
+    "@.*(hare|raccoon).*": {
+      "translation": { "x": -0.5, "y": 0, "z": -0.45 },
+      "rotation": { "x": -90, "y": -180, "z": 0 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 0.9
+    },
+    "*-small-sheep-*": {
+      "translation": { "x": -0.5, "y": 0, "z": -0.45 },
+      "rotation": { "x": -90, "y": -180, "z": 0 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 0.9
+    },
+    "*-large-sheep-*": {
+      "translation": { "x": -1.2, "y": -0.1, "z": -0.35 },
+      "rotation": { "x": -90, "y": 0, "z": -2 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.5
+    },
+    "*-wolf-*": {
+      "translation": { "x": -1.2, "y": -0.1, "z": -0.35 },
+      "rotation": { "x": -90, "y": 0, "z": -2 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.5
+    },
+    "*-bear-*": {
+      "translation": { "x": -1.2, "y": -0.1, "z": -0.35 },
+      "rotation": { "x": -90, "y": 0, "z": -2 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.3
+    }
+  }
+}

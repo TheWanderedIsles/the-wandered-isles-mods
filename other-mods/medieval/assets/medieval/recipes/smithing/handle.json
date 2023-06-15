@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["molybdochalkos", "brass", "silversolder", "iron", "tinbronze", "blackbronze"] },
+	pattern: [[
+		"_#_______",
+		"_#_____##",
+		"#######_#",
+		"_#_____##",
+		"_#_______"
+	]],
+	name: "Handle",
+	output: { type: "item", code: "swordhandle-{metal}"  }
+}

@@ -1,0 +1,40 @@
+{
+	code: "basaltsingle",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/stone/basalt/basaltsingle" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "terrain": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/stone/pillar/basalt/basaltsingle" },
+		"east": { base: "block/stone/pillar/basalt/basaltsingle" },
+		"south": { base: "block/stone/pillar/basalt/basaltsingle" },
+		"west": { base: "block/stone/pillar/basalt/basaltsingle" },
+		"up": { base: "game:block/stone/polishedrock/basalt" },
+		"down": { base: "game:block/stone/polishedrock/basalt" },
+		"inside-north": { base: "block/stone/pillar/basalt/basaltsingle" },
+		"inside-east": { base: "block/stone/pillar/basalt/basaltsingle" },
+		"inside-south": { base: "block/stone/pillar/basalt/basaltsingle" },
+		"inside-west": { base: "block/stone/pillar/basalt/basaltsingle" },
+		"inside-up": { base: "game:block/stone/polishedrock/basalt" },
+		"inside-down": { base: "game:block/stone/polishedrock/basalt" }
+
+	},
+	replaceable: 90,
+	resistance: 3,
+	sounds: {
+		"walk": "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

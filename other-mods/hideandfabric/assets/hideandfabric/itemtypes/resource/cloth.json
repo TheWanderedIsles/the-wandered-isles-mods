@@ -1,0 +1,69 @@
+{
+  "code": "cloth",
+  "shape": { "base": "game:item/resource/cloth" },
+  "attributes": {
+    "clothingRepairStrength": 0.5,
+    "displaycaseable": true,
+    "shelvable": true,
+    "onDisplayTransform": {
+      "translation": { "x": 0.05, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": -90, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.65
+    }
+  },
+  "variantgroups": [
+    { "code": "material", "states": ["cotton", "wool", "jute"] },
+    { "code": "color", "states": ["plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white", "mordant"] }
+  ],
+  "skipVariants": [
+      "cloth-jute-blue",
+	  "cloth-jute-red",
+	  "cloth-jute-yellow",
+	  "cloth-jute-green",
+	  "cloth-jute-purple",
+	  "cloth-jute-pink",
+	  "cloth-jute-orange",
+	  "cloth-jute-brown",
+	  "cloth-jute-gray",
+  	  "cloth-jute-black",
+	  "cloth-jute-white",
+	  "cloth-jute-mordant"
+  ],
+  "creativeinventory": { "general": ["*"], "items": ["*"], "hideandfabric": ["*"] },
+  "maxstacksize": 32,
+  "materialDensity": 210,
+  "texturesByType": {
+    "*-plain": {
+      "color": { "base": "block/cloth/{material}/normal1" }
+    },
+	"*-mordant": {
+      "color": { "base": "block/cloth/{material}/mordant" }
+    },
+    "*": {
+      "color": { "base": "game:block/cloth/linen/{color}" }
+    }
+  },
+  "guiTransform": {
+    "rotation": { "x": -166, "y": 78, "z": -45 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.58 },
+    "scale": 2.5
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0.25, "y": 0, "z": 0 },
+    "rotation": { "x": 152, "y": 71, "z": -87 },
+    "origin": { "x": 0.6, "y": 0.3, "z": 0.5 },
+    "scale": 1.82
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1, "y": -0.9, "z": -1.35 },
+    "rotation": { "x": 99, "y": -180, "z": 180 },
+    "scale": 0.49
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0.25, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+    "scale": 2.19
+  }
+}

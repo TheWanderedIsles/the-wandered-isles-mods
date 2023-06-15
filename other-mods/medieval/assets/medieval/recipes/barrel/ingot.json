@@ -1,0 +1,11 @@
+[
+	{
+		code: "ingot",
+		sealHours: 0.05,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 0.5, consumeLitres: 0.5 },
+			{ type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"], quantity: 1 }
+		],
+		output: { type: "item", code: "game:ingot-{metal}", quantity: 1 }
+	}
+]

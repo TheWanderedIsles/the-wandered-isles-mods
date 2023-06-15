@@ -1,0 +1,85 @@
+{
+	"enabled": false,
+	code: "idgboard",
+	class: "idgboardblock",
+	behaviors: [{"name": "Unstable"}],
+	"blockmaterial": "Wood",
+	shapeByType:{
+		"*-rough-*": {"base": "indappledgroves:block/wood/groundroughplank", "rotateYByType": {
+										"*-north": 0,
+										"*-east": 270,
+										"*-south": 180,
+										"*-west": 90
+		              }},
+		"*-hewn-*": {"base": "indappledgroves:block/wood/groundhewnplank", "rotateYByType": {
+										"*-north": 0,
+										"*-east": 270,
+										"*-south": 180,
+										"*-west": 90
+		              }},
+		"*-smooth-*": {"base": "indappledgroves:block/wood/groundplank", "rotateYByType": {
+										"*-north": 0,
+										"*-east": 270,
+										"*-south": 180,
+										"*-west": 90
+		              }}
+	}, 
+	variantgroups: [
+		{ "code": "wood", "states": ["aged"], "loadFromProperties": "block/wood" },
+		{ "code": "type","states": ["rough","hewn","smooth"]},
+		{ "code": "state","states": ["green","cured"]},
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"resistance": 0,
+	texturesByType: {
+		"*-smooth-*": {
+			"wood": { "base": "game:block/wood/planks/{wood}1" }
+		},
+		"*-rough-*": {
+			"wood": { "base": "game:block/wood/debarked/{wood}" },
+			"bark": {"base": "game:block/wood/bark/{wood}"}
+		},
+		"*-hewn-*": {
+			"wood": { "base": "game:block/wood/debarked/{wood}" }
+		}
+	},
+	"sideopaque": { "all": false },
+  "sidesolid": { "all": false },
+	"collisionBox": {"x1": 0,"y1": 0,"z1": 0.375,"x2": 1,"y2": 0.0625,"z2": 0.625, "rotateYByType": {
+					"*-north": 270,
+          "*-east": 180,
+          "*-south": 90,
+          "*-west": 0
+					}
+	},
+	selectionBox: {"x1": 0,"y1": 0,"z1": 0.375,"x2": 1,"y2": 0.0625,"z2": 0.625, "rotateYByType": {
+					"*-north": 270,
+          "*-east": 180,
+          "*-south": 90,
+          "*-west": 0
+					}},
+	guiTransform: {
+		translation: { x: 0, y: 2, z: 0 },
+		rotation: { x: -55, y: 94, z: 27 },
+		origin: { x: 0.5, y: 0, z: 0.45 },
+		scale: 1.86
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 3, y: -33, z: -25 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1.98
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.25
+	},
+	tpHandTransform: {
+		translation: { x: -0.6, y: -0.06, z: -0.44 },
+		rotation: { x: 109, y: 51, z: 1 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.86
+	}
+}

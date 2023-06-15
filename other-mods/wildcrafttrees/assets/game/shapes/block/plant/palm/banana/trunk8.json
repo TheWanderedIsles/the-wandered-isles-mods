@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"bark": "block/plant/palm/banana/barkdark",
+		"treetrunk": "block/plant/palm/banana/treetrunkdark"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 4.0, 0.0, 4.0 ], 
+			"to": [ 12.0, 16.0, 12.0 ], 
+			"rotationOrigin": [ 4.0, 0.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#bark", "uv": [ 0.0, 0.0, 8.0, 16.0 ] },
+				"east": { "texture": "#bark", "uv": [ 6.0, 0.0, 14.0, 16.0 ] },
+				"south": { "texture": "#bark", "uv": [ 1.5, 0.0, 9.5, 16.0 ] },
+				"west": { "texture": "#bark", "uv": [ 8.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#treetrunk", "uv": [ 1.0, 1.0, 9.0, 9.0 ] },
+				"down": { "texture": "#treetrunk", "uv": [ 1.0, 1.0, 9.0, 9.0 ] }
+			}
+		}
+	]}

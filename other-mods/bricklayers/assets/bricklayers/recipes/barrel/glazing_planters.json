@@ -1,0 +1,75 @@
+[
+	{
+	"code": "glazing-clear-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 12, "name": "color", "consumeLitres": 12 },
+		{ "type": "block", "code": "game:clayplanter-burnt", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-wet-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-milky-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-milky-*", "litres": 12, "name": "color", "consumeLitres": 12 },
+		{ "type": "block", "code": "game:clayplanter-burnt", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-wet-milky-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-blue-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-salt", "litres": 12, "consumeLitres": 12 },
+		{ "type": "block", "code": "game:clayplanter-burnt", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedplanter-wet-pale-none-salt-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-salt", "litres": 12, "consumeLitres": 12 },
+		{ "type": "block", "code": "bricklayers:plantercolored-burnt-*", "name": "color", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedplanter-wet-pale-none-salt-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-salt-waxed-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-salt", "litres": 12, "consumeLitres": 12 },
+		{ "type": "block", "code": "bricklayers:waxedplanter-bottom-*", "name": "color", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedplanter-wet-pale-none-{color}-plain", "stackSize": 1 }
+	},
+
+	{
+	"code": "glazing-saltcopper-blue-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-saltcopper", "litres": 12, "consumeLitres": 12 },
+		{ "type": "block", "code": "game:clayplanter-burnt", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedplanter-wet-pale-copper-salt-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-saltcopper-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-saltcopper", "litres": 12, "consumeLitres": 12 },
+		{ "type": "block", "code": "bricklayers:plantercolored-burnt-*", "name": "color", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedplanter-wet-pale-copper-salt-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-saltcopper-waxed-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazingbase-saltcopper", "litres": 12, "consumeLitres": 12 },
+		{ "type": "block", "code": "bricklayers:waxedplanter-bottom-*", "name": "color", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:saltglazedplanter-wet-pale-copper-{color}-plain", "stackSize": 1 }
+	}
+]

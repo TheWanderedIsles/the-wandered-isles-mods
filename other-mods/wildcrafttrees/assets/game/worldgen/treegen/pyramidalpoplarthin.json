@@ -1,0 +1,24 @@
+{
+	treeWorldPropertyCode: "pyramidalpoplarthin",
+	sizeMultiplier: 0.5,
+	trunks: [{
+		widthloss: 0.044,
+		dieAt: { avg: 0.001 },
+		branchStart: { dist: "gaussian", avg: 0.35, var: 0.1 },
+		branchSpacing: { avg: 0.01, var: 0.005 },
+		branchVerticalAngle:  { dist: "gaussian", avg: 1.57, var: 0.3 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.28, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 0.2 },
+		branchQuantity: { avg: 4, var: 0 },
+		branchQuantityEvolve: { transform: "linear", factor: 0.2 }
+	}],
+	branches: [],
+	treeBlocks: {
+		logBlockCode: "log-grown-pyramidalpoplar-ud",
+		leavesBlockCode: "leaves-grown-pyramidalpoplar",
+		leavesBranchyBlockCode: "leavesbranchy-grown-pyramidalpoplar",
+		vinesBlockCode: "wildvine-section-north",
+		vinesEndBlockCode: "wildvine-end-north"
+	}
+}

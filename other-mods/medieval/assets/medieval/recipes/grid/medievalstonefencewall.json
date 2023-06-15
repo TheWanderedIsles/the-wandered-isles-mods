@@ -1,0 +1,25 @@
+[
+	{
+	ingredientPattern: "AB_,LLL,LLL",
+	ingredients: {
+			"A": { type: "item", code: "game:hammer-*", isTool: true  },
+			"B": { type: "item", code: "game:chisel-*", isTool: true  },
+		"L": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite","basalt", "bauxite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale",  "peridotite", "phyllite", "slate", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble"] }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "medieval:medievalstonefence-{rock}-ew-free", quantity: 4 }
+	},
+	{
+	ingredientPattern: "AB_,LLL",
+	ingredients: {
+			"A": { type: "item", code: "game:hammer-*", isTool: true  },
+			"B": { type: "item", code: "game:chisel-*", isTool: true  },
+		"L": { type: "block", code: "game:cobblestone-*", name: "rock", allowedVariants: ["andesite","basalt", "bauxite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale",  "peridotite", "phyllite", "slate", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble"] }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "medieval:medievalstonewall-{rock}-ew-free", quantity: 9 }
+	}
+
+]

@@ -1,0 +1,102 @@
+[
+    {
+		ingredientPattern: "WWW,WHW,W_W",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ], quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "largetables-{wood}-north" }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "largetables-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]},
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "largetablel-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "largetablel-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "largetabler-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "largetabler-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "largetablec-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "largetablec-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "largetables-{material}-north", quantity: 1 }
+	},
+
+
+
+
+    {
+		ingredientPattern: "HCW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+    		"W": { type: "item", code: "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ], quantity: 2 },
+    		"C": { type: "block", code: "largetables-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ], quantity: 1 },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "largetablefancy-{wood}-north" }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "largetablefancy-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]},
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "largetablefancyl-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "largetablefancyl-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "largetablefancyr-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "largetablefancyr-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "largetablefancyc-{material}-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "W",
+		ingredients: {
+    		"W": { type: "block", code: "largetablefancyc-*-north", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "largetablefancy-{material}-north", quantity: 1 }
+	}
+
+
+
+]

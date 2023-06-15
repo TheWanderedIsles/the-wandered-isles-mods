@@ -1,0 +1,46 @@
+[
+	{
+		ingredientPattern: "T_T,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-medieval-gloves"  }
+	},
+	{
+		ingredientPattern: "T_T,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"T": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-medieval-gloves-white"  }
+	},
+	{
+		ingredientPattern: "T_T,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-black", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-medieval-gloves-black"  }
+	},
+	{
+		ingredientPattern: "TLT,_LL",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-winter-gloves"  }
+	}
+]

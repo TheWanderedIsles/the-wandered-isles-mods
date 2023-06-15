@@ -1,0 +1,11 @@
+[
+	{
+		ingredientPattern: "_F_,FFF,_F_",
+		ingredients: {
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:logsbridge-east", quantity: 8  }
+	}
+]

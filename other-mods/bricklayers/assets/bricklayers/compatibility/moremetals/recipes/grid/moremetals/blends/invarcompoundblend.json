@@ -1,0 +1,38 @@
+[
+    {
+	"ingredientPattern": "NM",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 7 },
+		"M": { "type": "item", "code": "em:crushed-ore-magnetite", "quantity": 13 }
+	},
+	"name": "Invar compound blend",
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:invarcompoundblendmagnetite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "NH",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 7 },
+		"H": { "type": "item", "code": "em:crushed-ore-hematite", "quantity": 13 }
+	},
+	"name": "Invar compound blend",
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:invarcompoundblendhematite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "NL",
+	"ingredients": {
+		"N": { "type": "item", "code": "em:crushed-ore-pentlandite", "quantity": 7 },
+		"L": { "type": "item", "code": "em:crushed-ore-limonite", "quantity": 13 }
+	},
+	"name": "Invar compound blend",
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:invarcompoundblendlimonite", "quantity": 1 }
+   }
+]

@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "knife-*", isTool: true },
+		"P": { type: "item", code: "game:rawcassava-soaked" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:vegetable-cassava", quantity: 1  }
+}

@@ -1,0 +1,12 @@
+[
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:charcoal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "charcoalpowder", quantity: 2 }
+	}
+]

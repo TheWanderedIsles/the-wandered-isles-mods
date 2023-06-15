@@ -1,0 +1,63 @@
+[
+  {
+    "op": "replace",
+    "path": "/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "treeseed-{wood}",
+        "quantityByType": {
+          "*-pine": {
+            "avg": 0.2,
+            "var": 0
+          },
+          "*-acacia": {
+            "avg": 0.2,
+            "var": 0
+          },
+          "*-larch": {
+            "avg": 0.2,
+            "var": 0
+          },
+          "*-crimsonkingmaple": {
+            "avg": 0.2,
+            "var": 0
+          },
+          "*-redwood": {
+            "avg": 0.2,
+            "var": 0
+          },
+          "*-ebony": {
+            "avg": 0.2,
+            "var": 0
+          },
+          "*-purpleheart": {
+            "avg": 0.2,
+            "var": 0
+          },
+          "*": {
+            "avg": 0.2,
+            "var": 0
+          }
+        }
+      },
+      {
+        "type": "item",
+        "code": "stick",
+        "quantity": {
+          "avg": 1.5,
+          "var": 1
+        }
+      },
+      {
+        "type": "block",
+        "code": "leavesbranchy-placed-{wood}",
+        "quantity": {
+          "avg": 0.25,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/leaves/branchy.json"
+  }
+]

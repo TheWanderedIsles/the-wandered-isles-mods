@@ -1,0 +1,127 @@
+{
+	"code": "berrybush",
+	"class": "WildcraftBerryBush",
+	"attributes": {
+		"stackable": false,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"stopBelowTemperatureByType":{
+			"*-huckleberry-*": -2,
+			"*-wolfberry-*": -10,
+			"*-gooseberry-*": -2,
+			"*-snowberry-*": -4,
+			"*-honeysuckle-*": 4
+		},
+		"resetBelowTemperatureByType":{
+			"*-huckleberry-*": -4,
+			"*-wolfberry-*": -12,
+			"*-gooseberry-*": -4,
+			"*-snowberry-*": -6,
+			"*-honeysuckle-*": 0
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-huckleberry-*": -6,
+			"*-wolfberry-*": -14,
+			"*-gooseberry-*": -8,
+			"*-snowberry-*": -10,
+			"*-honeysuckle-*": -2
+		},
+
+		"stopAboveTemperatureByType":{
+			"*-huckleberry-*": 27,
+			"*-wolfberry-*": 14,
+			"*-gooseberry-*": 25,
+			"*-snowberry-*": 22,
+			"*-honeysuckle-*": 30
+		},
+		"resetAboveTemperatureByType":{
+			"*-huckleberry-*": 30,
+			"*-wolfberry-*": 16,
+			"*-gooseberry-*": 27,
+			"*-snowberry-*": 25,
+			"*-honeysuckle-*": 35
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-huckleberry-*": 33,
+			"*-wolfberry-*": 18,
+			"*-gooseberry-*": 30,
+			"*-snowberry-*": 27,
+			"*-honeysuckle-*": 38
+		}
+	},
+	"entityclassByType": {
+		"*-gooseberry-*": "BETallBerryBush",
+		"*": "BEWildcraftBerryBush"
+	},
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraft:fruit-{type}", "quantity": { "avg": 2.2 }  },
+			"harvestedBlockCode": "wildcraft:berrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["huckleberry", "gooseberry", "honeysuckle", "snowberry", "wolfberry"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-empty": { "base": "game:block/plant/berrybush/large*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*": { "base": "game:block/plant/berrybush/large*" }
+	},
+	"blockmaterial": "Plant",
+	"textures": {
+		"leavessmall": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraft:block/plant/berrybush/large/leaves/{type}large" }
+	},
+	"texturesByType": {
+		"*-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraft:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraft:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrysmall": { "base": "wildcraft:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraft:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraft:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraft:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrysmall": { "base": "wildcraft:block/plant/berrybush/small/fruit/{type}*", "alternates": [{"base": "wildcraft:block/plant/berrybush/small/fruit/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraft:block/plant/berrybush/large/fruit/{type}large" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraft:fruit-{type}", "quantity": { "avg": 2.2 }  }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

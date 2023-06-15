@@ -1,0 +1,35 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "light", "malachite", "orange", "pink", "purple", "red", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+	"pattern": [[
+		"########",
+		"########",
+		"##____##",
+		"##____##",
+		"##____##",
+		"##____##",
+		"########",
+		"########"
+	],
+	[
+		"########",
+		"########",
+		"##____##",
+		"##____##",
+		"##____##",
+		"##____##",
+		"########",
+		"########"
+	],
+	[
+		"########",
+		"########",
+		"##____##",
+		"##____##",
+		"##____##",
+		"##____##",
+		"########",
+		"########"
+	]],
+	"name": "recipe-clayforming-colored-storagevesselring",
+	"output": { "type": "block", "code": "bricklayers:vesselcoloredring-raw-{color}" }
+}

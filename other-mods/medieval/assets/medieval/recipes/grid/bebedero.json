@@ -1,0 +1,14 @@
+[
+    {
+		ingredientPattern: "HS,CR",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"C": { type: "block", code: "game:trough-genericwood-large-head-north", quantity: 1},
+			"R": { type: "item", code: "game:plank-*", quantity: 1}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "bebedero", quantity: 2 }
+	}
+]

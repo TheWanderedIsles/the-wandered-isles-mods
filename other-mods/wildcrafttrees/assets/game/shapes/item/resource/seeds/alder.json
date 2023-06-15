@@ -1,0 +1,126 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"alder_seeds": "item/resource/seeds/alder"
+	},
+	"elements": [
+		{
+			"name": "Stem",
+			"from": [ 4.5, 0.0, 2.0 ], 
+			"to": [ 11.5, 0.0, 12.0 ], 
+			"rotationOrigin": [ 4.5, 0.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#alder_seeds", "uv": [ 0.0, 0.0, 7.0, 10.0 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 7.0, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 0.5 ], "enabled": false },
+				"up": { "texture": "#alder_seeds", "uv": [ 0.0, 0.0, 7.0, 10.0 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 7.0, 10.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "ConeStem1",
+					"from": [ 0.0, 0.0, 6.0 ], 
+					"to": [ 1.0, 1.0, 7.0 ], 
+					"rotationOrigin": [ 0.5, 0.0, 6.5 ],
+					"rotationX": 90.0,
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#alder_seeds", "uv": [ 10.0, 3.0, 11.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#alder_seeds", "uv": [ 11.0, 2.0, 12.0, 3.0 ], "autoUv": false },
+						"south": { "texture": "#alder_seeds", "uv": [ 10.0, 1.0, 11.0, 2.0 ], "autoUv": false },
+						"west": { "texture": "#alder_seeds", "uv": [ 11.0, 1.0, 12.0, 2.0 ], "autoUv": false },
+						"up": { "texture": "#alder_seeds", "uv": [ 8.0, 2.0, 9.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#alder_seeds", "uv": [ 8.0, 2.0, 9.0, 3.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Seedbody1",
+							"from": [ -0.5, 1.0, -0.5 ], 
+							"to": [ 1.5, 4.0, 1.5 ], 
+							"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#alder_seeds", "uv": [ 8.0, 0.0, 10.0, 3.0 ], "autoUv": false },
+								"east": { "texture": "#alder_seeds", "uv": [ 12.0, 8.0, 14.0, 11.0 ], "autoUv": false },
+								"south": { "texture": "#alder_seeds", "uv": [ 8.0, 8.0, 10.0, 11.0 ], "autoUv": false },
+								"west": { "texture": "#alder_seeds", "uv": [ 12.0, 0.0, 14.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#alder_seeds", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false },
+								"down": { "texture": "#alder_seeds", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "ConeStem3",
+					"from": [ 2.0, 0.0, 9.0 ], 
+					"to": [ 3.0, 1.0, 10.0 ], 
+					"rotationOrigin": [ 2.5, 0.0, 9.5 ],
+					"rotationX": 90.0,
+					"faces": {
+						"north": { "texture": "#alder_seeds", "uv": [ 10.0, 3.0, 11.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#alder_seeds", "uv": [ 11.0, 4.0, 12.0, 5.0 ], "autoUv": false },
+						"south": { "texture": "#alder_seeds", "uv": [ 10.0, 1.0, 11.0, 2.0 ], "autoUv": false },
+						"west": { "texture": "#alder_seeds", "uv": [ 11.0, 1.0, 12.0, 2.0 ], "autoUv": false },
+						"up": { "texture": "#alder_seeds", "uv": [ 8.0, 2.0, 9.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#alder_seeds", "uv": [ 8.0, 2.0, 9.0, 3.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Seedbody3",
+							"from": [ -0.5, 1.0, -0.5 ], 
+							"to": [ 1.5, 4.0, 1.5 ], 
+							"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#alder_seeds", "uv": [ 8.0, 0.0, 10.0, 3.0 ], "autoUv": false },
+								"east": { "texture": "#alder_seeds", "uv": [ 12.0, 8.0, 14.0, 11.0 ], "autoUv": false },
+								"south": { "texture": "#alder_seeds", "uv": [ 8.0, 8.0, 10.0, 11.0 ], "autoUv": false },
+								"west": { "texture": "#alder_seeds", "uv": [ 12.0, 0.0, 14.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#alder_seeds", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false },
+								"down": { "texture": "#alder_seeds", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "ConeStem2",
+					"from": [ 6.0, 0.0, 7.0 ], 
+					"to": [ 7.0, 1.0, 8.0 ], 
+					"rotationOrigin": [ 6.5, 0.0, 7.5 ],
+					"rotationX": 90.0,
+					"rotationY": 0.0,
+					"rotationZ": -45.0,
+					"faces": {
+						"north": { "texture": "#alder_seeds", "uv": [ 10.0, 3.0, 11.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#alder_seeds", "uv": [ 9.0, 3.0, 10.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#alder_seeds", "uv": [ 10.0, 1.0, 11.0, 2.0 ], "autoUv": false },
+						"west": { "texture": "#alder_seeds", "uv": [ 11.0, 1.0, 12.0, 2.0 ], "autoUv": false },
+						"up": { "texture": "#alder_seeds", "uv": [ 8.0, 2.0, 9.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#alder_seeds", "uv": [ 8.0, 2.0, 9.0, 3.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Seedbody2",
+							"from": [ -0.5, 1.0, -0.5 ], 
+							"to": [ 1.5, 4.0, 1.5 ], 
+							"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#alder_seeds", "uv": [ 8.0, 0.0, 10.0, 3.0 ], "autoUv": false },
+								"east": { "texture": "#alder_seeds", "uv": [ 12.0, 8.0, 14.0, 11.0 ], "autoUv": false },
+								"south": { "texture": "#alder_seeds", "uv": [ 8.0, 8.0, 10.0, 11.0 ], "autoUv": false },
+								"west": { "texture": "#alder_seeds", "uv": [ 12.0, 0.0, 14.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#alder_seeds", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false },
+								"down": { "texture": "#alder_seeds", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

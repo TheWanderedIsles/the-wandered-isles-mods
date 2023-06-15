@@ -1,0 +1,24 @@
+[
+	{
+	"ingredientPattern": "P,S",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"S": { "type": "block", "code": "game:cobblestonestairs-*-up-north-free", "name": "rock", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:stone-{rock}", "quantity": 3 }
+	},
+	{
+	"ingredientPattern": "H,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"S": { "type": "block", "code": "game:cobblestonestairs-*-up-north-free", "name": "rock", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:stone-{rock}", "quantity": 3 }
+	}
+]

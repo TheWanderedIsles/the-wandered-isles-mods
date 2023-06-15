@@ -1,0 +1,26 @@
+[
+  {
+    "op": "remove",
+    "path": "/texturesByType/rock-*",
+    "file": "game:blocktypes/stone/rock.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/rock-obsidian",
+    "value": {
+      "all": { "base": "bricklayers:block/stone/rock/{rock}*" }
+    },
+    "file": "game:blocktypes/stone/rock.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/rock-*",
+    "value": {
+      "all": { "base": "game:block/stone/rock/{rock}*" }
+    },
+    "file": "game:blocktypes/stone/rock.json",
+    "side": "Server"
+  }
+]

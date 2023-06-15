@@ -1,0 +1,69 @@
+[
+
+	{
+		ingredientPattern: "GD,DW",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 1  },
+			"D": { type: "block", code: "game:soil-*", quantity: 1  },
+			"W": { type: "block", code: "wildcrafttrees:wattle-*-ew-free", quantity: 2 },
+		},
+		name: "wattleanddaub",
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "wildcrafttrees:wattleanddaub-dark", quantity: 4  }
+	},
+	{
+		ingredientPattern: "GD,SW",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 1  },
+			"D": { type: "block", code: "game:soil-*", quantity: 1  },
+			"S": { type: "block", code: "game:sand-*", quantity: 1  },
+			"W": { type: "block", code: "wildcrafttrees:wattle-*-ew-free", quantity: 2 },
+		},
+		name: "wattleanddaub",
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "wildcrafttrees:wattleanddaub-dark", quantity: 4  }
+	},
+	{
+		ingredientPattern: "GS,DW",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 1  },
+			"D": { type: "block", code: "game:soil-*", quantity: 1  },
+			"S": { type: "block", code: "game:sand-*", quantity: 1  },
+			"W": { type: "block", code: "wildcrafttrees:wattle-*-ew-free", quantity: 2 },
+		},
+		name: "wattleanddaub",
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "wildcrafttrees:wattleanddaub-dark", quantity: 4  }
+	},
+	{
+		ingredientPattern: "CW",
+		enabled: true,
+		ingredients: {
+			"C": { type: "block", code: "game:cob-none", quantity: 2  },
+			"W": { type: "block", code: "wildcrafttrees:wattle-*-ew-free", quantity: 2 },
+		},
+		name: "wattleanddaub",
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "wildcrafttrees:wattleanddaub-dark", quantity: 4  }
+	},
+	{
+		ingredientPattern: "WL",
+		enabled: true,
+		ingredients: {
+			"L": { type: "item", code: "game:quicklime", quantity: 1  },
+			"W": { type: "block", code: "wildcrafttrees:wattleanddaub-dark", quantity: 4 },
+		},
+		name: "wattleanddaub",
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "wildcrafttrees:wattleanddaub-light", quantity: 4  }
+	}
+
+]

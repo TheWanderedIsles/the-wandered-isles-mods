@@ -1,0 +1,109 @@
+{
+	code: "fancyrailingsd",
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "south", drop: { type: "block", code: "fancyrailingsd-{material}-south" }  }}],
+	variantgroups: [
+		{ code: "material", states: [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		{ loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapeByType: { 
+		
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-north-*": { base: "block/medieval/fancyrailingsd", rotateY: 90 },
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-west-*": { base: "block/medieval/fancyrailingsd", rotateY: 180 },
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-south-*": { base: "block/medieval/fancyrailingsd", rotateY: 270 },
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-east-*": { base: "block/medieval/fancyrailingsd", rotateY: 0 }
+	},
+	texturesByType: {
+		"*-acacia-*": {
+			"material": { base: "block/wood/debarked/stairs/acacia" }
+		},
+		"*-aged-*": {
+			"material": { base: "block/wood/debarked/stairs/aged" }
+		},
+		"*-baldcypress-*": {
+			"material": { base: "block/wood/debarked/stairs/baldcypress" }
+		},
+		"*-birch-*": {
+			"material": { base: "block/wood/debarked/stairs/birch" }
+		},
+		"*-ebony-*": {
+			"material": { base: "block/wood/debarked/stairs/ebony" }
+		},
+		"*-kapok-*": {
+			"material": { base: "block/wood/debarked/stairs/kapok" }
+		},
+		"*-larch-*": {
+			"material": { base: "block/wood/debarked/stairs/larch" }
+		},
+		"*-maple-*": {
+			"material": { base: "block/wood/debarked/stairs/maple" }
+		},
+		"*-oak-*": {
+			"material": { base: "block/wood/debarked/stairs/oak" }
+		},
+		"*-pine-*": {
+			"material": { base: "block/wood/debarked/stairs/pine" }
+		},
+		"*-purpleheart-*": {
+			"material": { base: "block/wood/debarked/stairs/purpleheart" }
+		},
+		"*-redwood-*": {
+			"material": { base: "block/wood/debarked/stairs/redwood" }
+		},
+		"*-walnut-*": {
+			"material": { base: "block/wood/debarked/stairs/walnut" }
+		}
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, up: false },
+	sideopaque: { all: false },
+	sideao: { all: false },
+	blockmaterialByType: {
+		"*-acacia-*": "wood",
+		"*-aged-*": "wood",
+		"*-baldcypress-*": "wood",
+		"*-birch-*": "wood",
+		"*-ebony-*": "wood",
+		"*-kapok-*": "wood",
+		"*-larch-*": "wood",
+		"*-maple-*": "wood",
+		"*-oak-*": "wood",
+		"*-pine-*": "wood",
+		"*-purpleheart-*": "wood",
+		"*-redwood-*": "wood",
+		"*-walnut-*": "wood"
+	},
+	creativeinventory: { "general": ["*-south"], "decorative": ["*-south"], "medieval": ["*-south"] },
+	replaceable: 300,
+	resistance: 2,
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 20,
+	},
+	lightAbsorption: 1,
+	emitSideAo: {
+		all: false
+	},
+	collisionSelectionBoxesByType: {
+		"*-north": [ { x1: 0, y1: 0, z1: 0.9375, x2: 1, y2: 1, z2: 1, rotateY: 90 }, { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 90 }],
+		"*-west": [ { x1: 0, y1: 0, z1: 0.9375, x2: 1, y2: 1, z2: 1, rotateY: 180 }, { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 180 } ],
+		"*-south": [ { x1: 0, y1: 0, z1: 0.9375, x2: 1, y2: 1, z2: 1, rotateY: 270 }, { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 270 } ],
+		"*-east": [ { x1: 0, y1: 0, z1: 0.9375, x2: 1, y2: 1, z2: 1, rotateY: 0 }, { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 0 } ]
+	},
+	soundsByType: {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks",
+		"walk": "game:walk/wood"
+		}
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.53, y: 0.55, z: 0.46 },
+			scale: 0.85
+		}
+	}
+}

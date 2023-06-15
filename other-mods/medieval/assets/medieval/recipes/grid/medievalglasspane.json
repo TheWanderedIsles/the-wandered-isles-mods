@@ -1,0 +1,44 @@
+[
+
+		{
+		ingredientPattern: "WWW,WGW,WWW",
+		ingredients: {
+			"G": { type: "block", code: "game:glass-plain" },
+			"W": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:glasspanesimple-ew", quantity: 8  }
+	},
+
+		{
+		ingredientPattern: "G",
+		ingredients: {
+			"G": { type: "block", code: "medieval:glasspanesimple-ew" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:glasspanenormal-ew", quantity: 1  }
+	},
+
+		{
+		ingredientPattern: "G",
+		ingredients: {
+			"G": { type: "block", code: "medieval:glasspanenormal-ew" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:glasspanefancy-ew", quantity: 1  }
+	},
+
+		{
+		ingredientPattern: "G",
+		ingredients: {
+			"G": { type: "block", code: "medieval:glasspanefancy-ew" }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "medieval:glasspanesimple-ew", quantity: 1  }
+	}
+
+]

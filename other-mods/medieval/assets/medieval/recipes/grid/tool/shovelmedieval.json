@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "T,X,X",
+		ingredients: {
+			"X": { type: "item", code: "game:stick" },
+			"T": { type: "item", code: "shovelcover-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "stainlesssteel"]}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "shovelmedieval-{metal}", quantity: 1  }
+	}
+]

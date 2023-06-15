@@ -1,0 +1,54 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "black", "blurple", "brown", "darkgrey", "fire", "green", "light", "malachite", "orange", "pink", "purple", "red", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+	"pattern": [[
+		"_____",
+		"_###_",
+		"_###_",
+		"_###_",
+		"_____"
+	],
+	[
+		"#####",
+		"#___#",
+		"#___#",
+		"#___#",
+		"#####"
+	],
+	[
+		"#####",
+		"#___#",
+		"#___#",
+		"#___#",
+		"#####"
+	],
+	[
+		"#####",
+		"#___#",
+		"#___#",
+		"#___#",
+		"#####"
+	],
+	[
+		"#####",
+		"#___#",
+		"#___#",
+		"#___#",
+		"#####"
+	],
+	[
+		"#####",
+		"#####",
+		"#####",
+		"#####",
+		"#####"
+	],
+	[
+		"_____",
+		"_____",
+		"__#__",
+		"_____",
+		"_____"
+	]],
+	"name": "Colored crock",
+	"output": { "type": "block", "code": "bricklayers:crockcolored-raw-{color}-east" }
+}

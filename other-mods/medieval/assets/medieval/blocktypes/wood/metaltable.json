@@ -1,0 +1,49 @@
+{
+	code: "metaltable",
+	behaviors: [{name: "UnstableFalling"} ],
+	variantgroups: [
+		{ code:"type", states: ["normal" ] },
+	],
+	attributes: {
+		"pieFormingSurface": true
+	},
+	shape: { base: "block/metal/metaltable" },
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "decorative": ["*"], "medieval": ["*"] }
+	},
+	blockmaterial: "Metal",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	sidesolid: {
+		up: true,
+		all: false
+	},	
+	sideopaque: {
+		up: true,
+		all: false
+	},
+	sounds: {
+		"place": "game:block/metaldoor-place",
+		"break": "game:block/chute",
+		"hit": "game:block/chute",
+		"walk": "game:block/chute"
+	},
+	texturesByType: {
+		"side": { base: "block/metal/table/side"},
+		"top": { base: "block/metal/table/top"},
+		"molybdochalkos1": { base: "block/metal/table/molybdochalkos1"},
+		"knob": { base: "block/metal/table/knob"}
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	}
+}

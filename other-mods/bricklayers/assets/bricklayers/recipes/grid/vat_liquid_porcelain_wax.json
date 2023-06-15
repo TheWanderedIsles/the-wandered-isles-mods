@@ -1,0 +1,80 @@
+[
+	{
+		"ingredientPattern": "L,F,B",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vatlidcolored-burnt-spouted-*", "name": "lid",
+				"allowedVariants": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"B": { "type": "block", "code": "bricklayers:vatplantersmall-fired-lavender" },
+			"F": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "bricklayers:vatliquidsmall-lavender-{lid}" }
+	},
+
+	{
+		"ingredientPattern": "L,F,B",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vatlidcolored-burnt-spouted-*", "name": "lid",
+				"allowedVariants": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"B": { "type": "block", "code": "bricklayers:vatplantersmall-fired-paleblue" },
+			"F": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "bricklayers:vatliquidsmall-paleblue-{lid}" }
+	},
+
+	{
+		"ingredientPattern": "L,F,B",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vatlidcolored-burnt-spouted-*", "name": "lid",
+				"allowedVariants": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"B": { "type": "block", "code": "bricklayers:vatplantersmall-fired-palegreen" },
+			"F": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "bricklayers:vatliquidsmall-palegreen-{lid}" }
+	},
+
+	{
+		"ingredientPattern": "L,F,B",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vatlidcolored-burnt-spouted-*", "name": "lid",
+				"allowedVariants": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"B": { "type": "block", "code": "bricklayers:vatplantersmall-fired-palered" },
+			"F": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "bricklayers:vatliquidsmall-palered-{lid}" }
+	},
+
+	{
+		"ingredientPattern": "L,F,B",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vatlidcolored-burnt-spouted-*", "name": "lid",
+				"allowedVariants": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"B": { "type": "block", "code": "bricklayers:vatplantersmall-fired-sunflower" },
+			"F": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "bricklayers:vatliquidsmall-sunflower-{lid}" }
+	},
+
+	{
+		"ingredientPattern": "L,F,B",
+		"ingredients": {
+			"L": { "type": "block", "code": "bricklayers:vatlidcolored-burnt-spouted-*", "name": "lid",
+				"allowedVariants": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+			"B": { "type": "block", "code": "bricklayers:vatplantersmall-fired-white" },
+			"F": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "bricklayers:vatliquidsmall-white-{lid}" }
+	}
+
+]

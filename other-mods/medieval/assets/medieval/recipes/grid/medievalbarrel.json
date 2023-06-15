@@ -1,0 +1,24 @@
+[
+    {
+    "ingredientPattern": "SPS,_P_,SPS",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick" },
+      "P": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ]}
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "medieval:medievalbarrel-{wood}" }
+  },
+    {
+    "ingredientPattern": "SPS,FPF,SPS",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick" },
+      "P": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]},
+      "F": { "type": "item", "code": "game:firewood" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "barrelhorizontal-{wood}" }
+  }
+
+]

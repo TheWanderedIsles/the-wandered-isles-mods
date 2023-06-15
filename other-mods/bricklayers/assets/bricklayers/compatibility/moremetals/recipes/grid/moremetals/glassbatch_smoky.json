@@ -1,0 +1,27 @@
+[
+	{
+	"code": "glassbatch-smoky-color",
+	"ingredientPattern": "CQ,BB",
+	"ingredients": {
+		"C": { "type": "item", "code": "moremetals:crushed-charcoal" },
+		"Q": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "name": "color",
+			"allowedVariants": [ "blue", "brown", "green", "pink", "violet", "red", "yellow", "black"] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-smoky-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-smoky",
+	"ingredientPattern": "CP,QQ",
+	"ingredients": {
+		"C": { "type": "item", "code": "moremetals:crushed-charcoal" },
+		"P": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 2 },
+		"Q": { "type": "item", "code": "game:crushed-quartz" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-smoky-smoky", "quantity": 4 }
+	}
+]

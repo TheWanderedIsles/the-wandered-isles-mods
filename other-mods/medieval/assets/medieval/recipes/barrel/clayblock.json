@@ -1,0 +1,38 @@
+[
+	{
+		code: "hardenedclay",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:dye-red", litres: 1, consumelitres: 1 },
+			{ type: "block", code: "game:hardenedclay-blue", quantity: 4 }
+		],
+		output: { type: "block", code: "game:hardenedclay-red", stackSize: 4 }
+	},
+	{
+		code: "hardenedclay",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:strongtanninportion", litres: 1, consumelitres: 1 },
+			{ type: "block", code: "game:hardenedclay-blue", quantity: 4 }
+		],
+		output: { type: "block", code: "game:hardenedclay-brown", stackSize: 4 }
+	},
+	{
+		code: "hardenedclay",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:dye-red", litres: 1, consumelitres: 1 },
+			{ type: "block", code: "game:hardenedclay-fire", quantity: 4 }
+		],
+		output: { type: "block", code: "game:hardenedclay-red", stackSize: 4 }
+	},
+	{
+		code: "hardenedclay",
+		sealHours: 4,
+		ingredients: [
+			{ type: "item", code: "game:strongtanninportion", litres: 1, consumelitres: 1 },
+			{ type: "block", code: "game:hardenedclay-fire", quantity: 4 }
+		],
+		output: { type: "block", code: "game:hardenedclay-brown", stackSize: 4 }
+	}
+]

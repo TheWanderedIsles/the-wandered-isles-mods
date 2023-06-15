@@ -1,0 +1,251 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"medieval-large-belt1": "entity/humanoid/seraphclothes/waist/medieval-large-belt1"
+	},
+	"elements": [
+		{
+			"name": "Waist",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.2, -0.5, -0.4 ], 
+			"to": [ 5.2, 2.5, 6.4 ], 
+			"rotationOrigin": [ 2.8, -1.5, 3.0 ],
+			"faces": {
+				"north": { "texture": "#medieval-large-belt1", "uv": [ 8.5, 11.0, 13.5, 14.0 ] },
+				"east": { "texture": "#medieval-large-belt1", "uv": [ 9.0, 11.0, 15.5, 14.0 ] },
+				"south": { "texture": "#medieval-large-belt1", "uv": [ 11.0, 11.0, 16.0, 14.0 ] },
+				"west": { "texture": "#medieval-large-belt1", "uv": [ 8.5, 11.0, 15.0, 14.0 ] },
+				"up": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 1.5, 5.0, 8.0 ] },
+				"down": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 1.5, 5.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Waist44",
+					"from": [ -0.1178, 2.05, -0.0791 ], 
+					"to": [ 5.4822, 3.05, 6.9209 ], 
+					"rotationOrigin": [ 2.8814, 1.0, 3.323 ],
+					"faces": {
+						"north": { "texture": "#medieval-large-belt1", "uv": [ 8.5, 11.0, 14.0, 12.0 ] },
+						"east": { "texture": "#medieval-large-belt1", "uv": [ 9.0, 11.0, 16.0, 12.0 ] },
+						"south": { "texture": "#medieval-large-belt1", "uv": [ 10.5, 11.0, 16.0, 12.0 ] },
+						"west": { "texture": "#medieval-large-belt1", "uv": [ 8.5, 11.0, 15.5, 12.0 ] },
+						"up": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 1.5, 5.0, 8.0 ], "autoUv": false },
+						"down": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 1.5, 5.0, 8.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Waist45",
+							"from": [ 0.0, -2.1, 0.0 ], 
+							"to": [ 5.6, -1.1, 7.0 ], 
+							"rotationOrigin": [ 2.9992, -3.2, 3.4021 ],
+							"faces": {
+								"north": { "texture": "#medieval-large-belt1", "uv": [ 8.5, 13.0, 14.0, 14.0 ] },
+								"east": { "texture": "#medieval-large-belt1", "uv": [ 9.0, 13.0, 16.0, 14.0 ] },
+								"south": { "texture": "#medieval-large-belt1", "uv": [ 10.5, 13.0, 16.0, 14.0 ] },
+								"west": { "texture": "#medieval-large-belt1", "uv": [ 8.5, 13.0, 15.5, 14.0 ] },
+								"up": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 1.5, 5.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 1.5, 5.0, 8.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "buckle-left",
+					"from": [ -1.0, 0.6, 2.4 ], 
+					"to": [ 0.0, 2.6, 4.4 ], 
+					"rotationOrigin": [ -1.0, 2.6, 2.4 ],
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 12.5, 1.0, 14.5 ] },
+						"east": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false },
+						"south": { "texture": "#medieval-large-belt1", "uv": [ 3.0, 12.5, 4.0, 14.5 ] },
+						"west": { "texture": "#medieval-large-belt1", "uv": [ 1.0, 12.5, 3.0, 14.5 ] },
+						"up": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.5, 14.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.5, 14.5 ] }
+					},
+					"children": [
+						{
+							"name": "buckle-left5",
+							"from": [ 0.0, -1.5, 0.25 ], 
+							"to": [ 1.0, 0.0, 1.75 ], 
+							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+							"rotationZ": 10.0,
+							"faces": {
+								"north": { "texture": "#medieval-large-belt1", "uv": [ 4.5, 14.5, 5.5, 16.0 ] },
+								"east": { "texture": "#medieval-large-belt1", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false },
+								"south": { "texture": "#medieval-large-belt1", "uv": [ 5.0, 14.5, 6.0, 16.0 ] },
+								"west": { "texture": "#medieval-large-belt1", "uv": [ 3.0, 14.5, 4.5, 16.0 ] },
+								"up": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.5, 14.0 ] },
+								"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 15.0, 3.0, 16.0 ], "rotation": 90 }
+							}
+						}
+					]
+				},
+				{
+					"name": "Waist6",
+					"from": [ -0.3, 0.5, 0.9 ], 
+					"to": [ 0.2, 2.5, 1.4 ], 
+					"rotationOrigin": [ -0.3, 1.5, 1.15 ],
+					"rotationX": 25.0,
+					"faces": {
+						"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+						"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+					},
+					"children": [
+						{
+							"name": "Waist7",
+							"from": [ -0.1, 0.0, 0.0 ], 
+							"to": [ 0.4, 2.0, 0.5 ], 
+							"rotationOrigin": [ -0.1, 1.0, 0.25 ],
+							"rotationX": -50.0,
+							"faces": {
+								"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+								"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+							}
+						},
+						{
+							"name": "Waist8",
+							"from": [ 0.0, 1.9018, 4.0784 ], 
+							"to": [ 0.5, 3.9018, 4.5784 ], 
+							"rotationOrigin": [ 0.0, 2.9018, 4.3284 ],
+							"faces": {
+								"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+								"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+							},
+							"children": [
+								{
+									"name": "Waist9",
+									"from": [ -0.1, 0.0, 0.0 ], 
+									"to": [ 0.4, 2.0, 0.5 ], 
+									"rotationOrigin": [ -0.1, 1.0, 0.25 ],
+									"rotationX": -50.0,
+									"faces": {
+										"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+										"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+										"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+										"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+										"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+										"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Waist10",
+					"from": [ 5.2, 0.5, 0.9 ], 
+					"to": [ 5.7, 2.5, 1.4 ], 
+					"rotationOrigin": [ 5.2, 1.5, 1.15 ],
+					"rotationX": 25.0,
+					"faces": {
+						"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+						"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+					},
+					"children": [
+						{
+							"name": "Waist11",
+							"from": [ -0.1, 0.0, 0.0 ], 
+							"to": [ 0.4, 2.0, 0.5 ], 
+							"rotationOrigin": [ -0.1, 1.0, 0.25 ],
+							"rotationX": -50.0,
+							"faces": {
+								"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+								"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+							}
+						},
+						{
+							"name": "Waist12",
+							"from": [ 0.0, 1.9018, 4.0784 ], 
+							"to": [ 0.5, 3.9018, 4.5784 ], 
+							"rotationOrigin": [ 0.0, 2.9018, 4.3284 ],
+							"faces": {
+								"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+								"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+							},
+							"children": [
+								{
+									"name": "Waist13",
+									"from": [ -0.1, 0.0, 0.0 ], 
+									"to": [ 0.4, 2.0, 0.5 ], 
+									"rotationOrigin": [ -0.1, 1.0, 0.25 ],
+									"rotationX": -50.0,
+									"faces": {
+										"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+										"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+										"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+										"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+										"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+										"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Waist14",
+					"from": [ 5.2, 0.5, 3.1 ], 
+					"to": [ 5.7, 2.5, 3.6 ], 
+					"rotationOrigin": [ 5.2, 1.5, 3.35 ],
+					"rotationX": 25.0,
+					"faces": {
+						"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+						"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+						"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+					},
+					"children": [
+						{
+							"name": "Waist15",
+							"from": [ -0.1, 0.0, 0.0 ], 
+							"to": [ 0.4, 2.0, 0.5 ], 
+							"rotationOrigin": [ -0.1, 1.0, 0.25 ],
+							"rotationX": -50.0,
+							"faces": {
+								"north": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"east": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"south": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"west": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 14.5 ] },
+								"up": { "texture": "#medieval-large-belt1", "uv": [ 2.0, 13.0, 2.5, 13.5 ] },
+								"down": { "texture": "#medieval-large-belt1", "uv": [ 1.5, 12.5, 2.0, 13.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

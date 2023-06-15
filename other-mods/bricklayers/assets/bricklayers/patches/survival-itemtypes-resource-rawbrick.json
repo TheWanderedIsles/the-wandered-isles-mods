@@ -1,0 +1,44 @@
+[
+  {
+    "op": "replace",
+    "path": "/behaviors/0/properties/stackingModel",
+    "value": "bricklayers:block/clay/smallbrickpile",
+    "file": "game:itemtypes/resource/rawbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/behaviors/0/properties/stackingCapacity",
+    "value": 32,
+    "file": "game:itemtypes/resource/rawbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/behaviors/0/properties/cbScaleYByLayer",
+    "value": 0.125,
+    "file": "game:itemtypes/resource/rawbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/behaviors/0/properties/maxFireable",
+    "value": 16,
+    "file": "game:itemtypes/resource/rawbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/shape",
+    "value": { "base": "bricklayers:item/brick" },
+    "file": "game:itemtypes/resource/rawbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/textures/all",
+    "value": { "base": "bricklayers:block/clay/brickpile/raw/{type}" },
+    "file": "game:itemtypes/resource/rawbrick.json",
+    "side": "Server"
+  }
+]

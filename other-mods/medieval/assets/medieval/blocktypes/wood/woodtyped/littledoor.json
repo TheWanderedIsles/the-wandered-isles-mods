@@ -1,0 +1,281 @@
+{
+	code: "littledoor",
+	class: "BlockTrapdoor",
+	behaviors: [
+		{name: "Lockable" }, 
+		{
+			name: "ExchangeOnInteract",
+			properties: {
+				exchangeStates: ["*-closed-*", "*-opened-*"],
+				sound: "block/door",
+				actionLangCode: "blockhelp-trapdoor-openclose"
+			}
+		},
+		{
+			name: "OmniRotatable",
+			properties: {
+				"rotateH": true,
+				"rotateV": true,
+				"rotateV4": true,
+				"facing": "block"
+			}
+		}
+	],
+	attributes: {
+		handbook: {
+			groupBy: ["trapdoor-*"]
+		}
+	},
+	variantgroups: [
+		{ code: "material", states: ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] },
+		{ code: "state", states: ["closed", "opened"] },
+		{ code: "v", states: ["up", "left", "down", "right"] },
+		{ code: "rot", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapeByType: {
+		"*-up-north": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 0, rotateZ: 0 },
+		"*-up-west": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 90, rotateX: 0 },
+		"*-up-south": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 180, rotateZ: 0 },
+		"*-up-east": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 270, rotateX: 0 },
+		"*-left-north": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 0, rotateZ: 0 },
+		"*-left-west": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 90, rotateX: 0 },
+		"*-left-south": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 180, rotateZ: 0 },
+		"*-left-east": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 270, rotateX: 0 },
+		"*-down-north": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 0, rotateZ: 0 },
+		"*-down-west": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 90, rotateX: 0 },
+		"*-down-south": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 180, rotateZ: 0 },
+		"*-down-east": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 270, rotateX: 0 },
+		"*-right-north": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 0, rotateZ: 0 },
+		"*-right-west": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 90, rotateX: 0 },
+		"*-right-south": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 180, rotateZ: 0 },
+		"*-right-east": { base: "block/wood/littledoor/littledoor-{state}", rotateY: 270, rotateX: 0 }
+	},
+	creativeinventory: { "general": ["*-closed-up-south"], "decorative": ["*-closed-up-south"], "medieval": ["*-closed-up-south"] },
+	drops: [{ code: "littledoor-{material}-closed-up-south" }],
+	blockmaterial: "Wood",
+	texturesByType: {
+
+		"*-acacia-*": { 
+						"material": {base: "block/wood/littledoor/acacia"}
+		},
+		"*-aged-*": { 
+						"material": {base: "block/wood/littledoor/aged"}
+		},
+		"*-baldcypress-*": { 
+						"material": {base: "block/wood/littledoor/baldcypress"}
+		},
+		"*-birch-*": { 
+						"material": {base: "block/wood/littledoor/birch"}
+		},
+		"*-ebony-*": { 
+						"material": {base: "block/wood/littledoor/ebony"}
+		},
+		"*-kapok-*": { 
+						"material": {base: "block/wood/littledoor/kapok"}
+		},
+		"*-larch-*": { 
+						"material": {base: "block/wood/littledoor/larch"}
+		},
+		"*-maple-*": { 
+						"material": {base: "block/wood/littledoor/maple"}
+		},
+		"*-oak-*": { 
+						"material": {base: "block/wood/littledoor/oak"}
+		},
+		"*-pine-*": { 
+						"material": {base: "block/wood/littledoor/pine"}
+		},
+		"*-purpleheart-*": { 
+						"material": {base: "block/wood/littledoor/purpleheart"}
+		},
+		"*-redwood-*": { 
+						"material": {base: "block/wood/littledoor/redwood"}
+		},
+		"*-walnut-*": { 
+						"material": {base: "block/wood/littledoor/walnut"}
+		}
+	},
+	replaceable: 900,
+	lightAbsorption: 100,
+	resistance: 3,
+	sideopaque: { all: false },
+	sidesolid: { all: false },
+	emitsideao: { all: false },
+	sideao: { all: true },
+	collisionboxesByType: {
+	"*-closed-*": [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.1,
+			rotateYByType: {
+				"*-east": 270,
+				"*-west": 90,
+				"*-south": 180,
+				"*-north": 0
+
+			}
+		}],
+		"*-opened-*-*": [{ x1: 0.9, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.5, 
+
+				rotateYByType: {
+				"*-up-north": 0,
+				"*-down-north": 0,
+				"*-east": 270,
+				"*-up-south": 180,
+				"*-down-south": 180,
+				"*-west": 90,
+				"*-left-south": 180,
+				"*-right-south": 180,
+				
+			},
+			rotateXByType: {
+				"*-left-west": 0,
+				"*-right-east": 0,
+				"*-left-north": 0,
+				"*-left-south": 0,
+				"*-right-west": 0,
+				"*-left-east": 0,
+				"*-right-north": 0,
+				"*-right-south": 0
+
+			},
+			rotateZByType: {
+				"*-left-north": 0,
+				"*-left-south": 0,
+				"*-right-north": 0,
+				"*-right-south": 0
+			}
+		},
+		 { x1: 0, y1: 0, z1: 0, x2: 0.1, y2: 1, z2: 0.5, 
+
+				rotateYByType: {
+				"*-up-north": 0,
+				"*-down-north": 0,
+				"*-east": 270,
+				"*-up-south": 180,
+				"*-down-south": 180,
+				"*-west": 90,
+				"*-left-south": 180,
+				"*-right-south": 180,
+				
+			},
+			rotateXByType: {
+				"*-left-west": 0,
+				"*-right-east": 0,
+				"*-left-north": 0,
+				"*-left-south": 0,
+				"*-right-west": 0,
+				"*-left-east": 0,
+				"*-right-north": 0,
+				"*-right-south": 0
+
+			},
+			rotateZByType: {
+				"*-left-north": 0,
+				"*-left-south": 0,
+				"*-right-north": 0,
+				"*-right-south": 0
+			}
+		}
+		]
+	},
+	selectionboxesByType: {
+		"*-closed-*": [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.1,
+			rotateYByType: {
+				"*-east": 270,
+				"*-west": 90,
+				"*-south": 180,
+				"*-north": 0
+
+			}
+		}],
+		"*-opened-*-*": [{ x1: 0.9, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.5, 
+
+				rotateYByType: {
+				"*-up-north": 0,
+				"*-down-north": 0,
+				"*-east": 270,
+				"*-up-south": 180,
+				"*-down-south": 180,
+				"*-west": 90,
+				"*-left-south": 180,
+				"*-right-south": 180,
+				
+			},
+			rotateXByType: {
+				"*-left-west": 0,
+				"*-right-east": 0,
+				"*-left-north": 0,
+				"*-left-south": 0,
+				"*-right-west": 0,
+				"*-left-east": 0,
+				"*-right-north": 0,
+				"*-right-south": 0
+
+			},
+			rotateZByType: {
+				"*-left-north": 0,
+				"*-left-south": 0,
+				"*-right-north": 0,
+				"*-right-south": 0
+			}
+		},
+		 { x1: 0, y1: 0, z1: 0, x2: 0.1, y2: 1, z2: 0.5, 
+
+				rotateYByType: {
+				"*-up-north": 0,
+				"*-down-north": 0,
+				"*-east": 270,
+				"*-up-south": 180,
+				"*-down-south": 180,
+				"*-west": 90,
+				"*-left-south": 180,
+				"*-right-south": 180,
+				
+			},
+			rotateXByType: {
+				"*-left-west": 0,
+				"*-right-east": 0,
+				"*-left-north": 0,
+				"*-left-south": 0,
+				"*-right-west": 0,
+				"*-left-east": 0,
+				"*-right-north": 0,
+				"*-right-south": 0
+
+			},
+			rotateZByType: {
+				"*-left-north": 0,
+				"*-left-south": 0,
+				"*-right-north": 0,
+				"*-right-south": 0
+			}
+		}
+		]
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 15
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+		guiTransform: {
+		origin: { x: 0.5, y: 0.425, z: 0.8 },
+		scale: 1.12
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -0.1, z: -1.07 },
+		rotation: { x: 102, y: 7, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.4
+	},
+	fpHandTransform: {
+		translation: { x: 0.1, y: 0, z: 0.33 },
+		rotation: { x: 0, y: -50, z: 109 },
+		origin: { x: 0.5, y: 0.13, z: 0.5 },
+		scale: 1.37
+	}
+}

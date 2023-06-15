@@ -1,0 +1,102 @@
+{
+	"code": "burlapsack",
+	"class": "BlockGenericTypedContainer",
+	"entityclass": "GenericTypedContainer",
+	"behaviors": [ {"name": "Container"}, {"name": "UnstableFalling"}, {"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" }} ],
+	"attributes": {
+		"partialAttachable": true,
+		"inventoryClassName": "chest",
+		"defaultType": "single",
+		"types": ["single"],
+		"collisionSelectionBoxes": {
+			"single": [{ "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.8, "z2": 0.875 }]
+		},
+		"drop": {
+			"single": true
+		},
+		"quantitySlots": {
+			"single": 12
+		},
+		"quantityColumns": {
+			"single": 4
+		},
+		"dialogTitleLangCode": {
+			"single": "hideandfabric:sackcontents"
+		},
+		"storageType": {
+			"single": 32
+		},
+		"retrieveOnly": {
+			"single": false
+		},
+		"spoilSpeedMulByFoodCat": {
+			"single": {
+				"vegetable": 0.75,
+				"grain": 0.6,
+				"fruit": 0.75,
+				"protein": 0.8
+			}
+		},
+		"shape": {
+			"single": "hideandfabric:block/cloth/burlapsack-standing"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": "null",
+		"openSound": "game:sounds/player/poultice",
+		"closeSound": "game:sounds/player/clothrepair"
+	},
+	"variantgroups": [
+		{ "code":"side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {  },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative", "hideandfabric" ],
+				"stacks": [
+					{ "type": "block", "code": "burlapsack-east", "attributes": { "type": "single" } }
+				]
+			}
+		]
+	},
+	"shapeInventory": { "base": "hideandfabric:block/cloth/burlapsack-standing", "rotateY": 270 },
+	"shapeByType": {
+		"*-north": { "base": "hideandfabric:block/cloth/burlapsack-standing", "rotateY": 0 },
+		"*-east": { "base": "hideandfabric:block/cloth/burlapsack-standing", "rotateY": 270 },
+		"*-west": { "base": "hideandfabric:block/cloth/burlapsack-standing", "rotateY": 90 },
+		"*-south": { "base": "hideandfabric:block/cloth/burlapsack-standing", "rotateY": 180 }
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	"textures": {
+		"single-fold": { "base": "hideandfabric:block/cloth/burlapsack/fold" },
+		"single-string": { "base": "hideandfabric:block/cloth/burlapsack/string" },
+		"single-sides-stiches2": { "base": "hideandfabric:block/cloth/burlapsack/sides-stiches2" },
+		"single-sides": { "base": "hideandfabric:block/cloth/burlapsack/sides" },
+		"single-stacked-sides": { "base": "hideandfabric:block/cloth/burlapsack/stacked-sides" }
+	},
+	"blockmaterial": "Cloth",
+	"replaceable": 1000,
+	"resistance": 0.8,
+	"maxStackSize": 4,
+	"sideAo": { "all": false },
+	"lightAbsorption": 0,
+	"sounds": {
+		"place": "game:block/cloth",
+		"break": "game:block/cloth",
+		"hit": "game:block/cloth",
+		"walk": "game:walk/cloth"
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": { "scale": 1.75 },
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": -0.5, "z": -0.5 },
+		"rotation": { "x": 25, "y": -20, "z": -99 },
+		"scale": 0.56
+	}
+}

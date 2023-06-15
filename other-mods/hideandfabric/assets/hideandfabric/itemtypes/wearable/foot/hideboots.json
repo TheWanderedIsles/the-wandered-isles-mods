@@ -1,0 +1,119 @@
+{
+  "code": "hideboots",
+  "class": "ItemWearable",
+  "behaviors": [{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 } } }],
+  "variantGroups": [
+    { "code": "animal", "states": ["boar", "fox", "hare", "raccoon", "sheep", "wolf", "bear"] },
+    {
+      "code": "coat",
+      "states": [
+        "arctic",
+        "forest",
+        "ashgrey",
+        "darkbrown",
+        "darkgrey",
+        "desert",
+        "gold",
+        "lightbrown",
+        "lightgrey",
+        "silver",
+        "smokegrey",
+        "wolf1",
+        "wolf2",
+        "wolf3",
+        "wolf4",
+        "wolf5",
+        "wolf6",
+        "wolf7",
+        "wolf8",
+        "wolf9",
+        "normal",
+        "brown",
+        "black",
+        "sun",
+        "panda",
+        "polar"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "@.*-boar-normal",
+    "@.*-fox-(arctic|forest)",
+    "@.*-hare-(arctic|ashgrey|darkbrown|darkgrey|desert|gold|lightbrown|lightgrey|silver|smokegrey)",
+    "@.*-raccoon-normal",
+    "@.*-sheep-normal",
+    "@.*-wolf-wolf(1|2|3|4|5|6|7|8|9)",
+    "@.*-bear-(brown|black|sun|panda|polar)",
+  ],
+  "shapeByType": {
+    "@.*-hare-.*": { "base": "entity/humanoid/seraph/clothing/foot/hide/hare-boots-gold-crosslace" },
+    "*-boar-normal": { "base": "entity/humanoid/seraph/clothing/foot/hide/hare-boots-gold-crosslace" },
+    "*": { "base": "entity/humanoid/seraph/clothing/foot/hide/wolf-boots-normal-crosslace" }
+  },
+  "textures": {
+    "seraph": { "base": "game:block/transparent" },
+    "shoes-furByType": {
+      "*-boar-normal": { "base": "entity/humanoid/seraphclothes/foot/boarhide-boots-leather" },
+      "*-fox-*": { "base": "entity/humanoid/seraphclothes/foot/foxhide-boots-{coat}-leather" },
+      "*-hare-*": { "base": "entity/humanoid/seraphclothes/foot/harehide-boots-{coat}-leather" },
+      "*-raccoon-normal": { "base": "entity/humanoid/seraphclothes/foot/raccoonhide-boots-leather" },
+      "*-sheep-normal": { "base": "entity/humanoid/seraphclothes/foot/sheephide-boots-leather" },
+      "*-wolf-*": { "base": "entity/humanoid/seraphclothes/foot/wolfhide-boots-{coat}-leather" },
+      "*-bear-*": { "base": "entity/humanoid/seraphclothes/foot/bearhide-boots-{coat}-leather" }
+    }
+  },
+  "storageFlags": 128,
+  "attributes": {
+    "groundStorageTransform": {
+      "translation": { "x": 0, "y": 0.011, "z": 0 }
+    },
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": 0.011, "z": 0 },
+      "rotation": { "x": 0, "y": -90, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.9
+    },
+    "clothescategory": "foot",
+    "displaycaseable": true,
+    "shelvable": true,
+    "wearableAttachment": true,
+  },
+  "attributesByType":
+  {
+	  "*-boar-normal": { "warmth": 1.25 },
+      "*-fox-arctic": { "warmth": 2.25 },
+      "*-fox-forest": { "warmth": 2.0 },
+      "*-hare-arctic": { "warmth": 2.25 },
+      "*-hare-*": { "warmth": 2.0 },
+      "*-raccoon-normal": { "warmth": 2.0 },
+      "*-sheep-normal": { "warmth": 2.0 },
+      "*-wolf-*": { "warmth": 2.0 },
+      "*-bear-*": { "warmth": 2.75 },
+	    "*": { "warmth": 1.25 }
+  },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "hideandfabric": ["*"] },
+  "renderAlphaTest": 0.25,
+  "fpHandTransform": {
+    "translation": { "x": 0.7, "y": 0.1, "z": -0.4 },
+    "rotation": { "x": -33, "y": 10, "z": -24 },
+    "scale": 2.5
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.65, "y": -0.6, "z": -0.75 },
+    "rotation": { "x": 48, "y": 88, "z": 54 },
+    "scale": 0.75
+  },
+  "guiTransform": {
+    "rotate": false,
+    "translation": { "x": 2, "y": 0, "z": 18 },
+    "rotation": { "x": 152, "y": -118, "z": -3 },
+    "origin": { "x": 0.5, "y": 0.29, "z": 0.55 },
+    "scale": 2.2
+  },
+  "groundTransform": {
+    "translation": { "x": 0.05, "y": 0.02, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 3.11
+  }
+}

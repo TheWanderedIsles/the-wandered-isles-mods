@@ -1,0 +1,42 @@
+{
+	code: "vikingoakdown",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/wood/vikingoak/vikingoakdown" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/wood/sincortezalog/debarked/pillar/vikingoak/oakdown" },
+		"east": { base: "block/wood/sincortezalog/debarked/pillar/vikingoak/oakdown" },
+		"south": { base: "block/wood/sincortezalog/debarked/pillar/vikingoak/oakdown" },
+		"west": { base: "block/wood/sincortezalog/debarked/pillar/vikingoak/oakdown" },
+		"up": { base: "block/wood/sincortezalog/debarked/oak" },
+		"down": { base: "block/wood/sincortezalog/debarked/oak" },
+		"inside-north": { base: "block/wood/sincortezalog/debarked/pillar/vikingoak/oakdown" },
+		"inside-east": { base: "block/wood/sincortezalog/debarked/pillar/vikingoak/oakdown" },
+		"inside-south": { base: "block/wood/sincortezalog/debarked/pillar/vikingoak/oakdown" },
+		"inside-west": { base: "block/wood/sincortezalog/debarked/pillar/vikingoak/oakdown" },
+		"inside-up": { base: "block/wood/sincortezalog/debarked/oak" },
+		"inside-down": { base: "block/wood/sincortezalog/debarked/oak" }
+
+	},
+	replaceable: 90,
+	fertility: 0,
+	resistance: 2,
+	blockmaterial: "Wood",
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

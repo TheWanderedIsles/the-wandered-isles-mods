@@ -1,0 +1,198 @@
+{
+	"code": "vesselcoloredbase",
+	"class": "Block",
+	"behaviorsByType": {
+		"*-raw-*": [
+			{ "name": "GroundStorable", "properties": { "layout": "SingleCenter" } },
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup"}
+		],
+		"*-burnt-*": [
+			{ "name": "GroundStorable", "properties": { "layout": "SingleCenter" } },
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup"}
+		],
+		"*-done-*": [ { "name": "Lockable" }, { "name": "Container" }, { "name": "UnstableFalling" } ]
+	},
+	"attributes": { "handbook": { "groupBy": [ "vesselcoloredbase-raw-*", "vesselcoloredbase-burnt-*" ] } },
+	"attributesByType": {
+		"vesselcoloredbase-burnt-*": {
+			"handbook": {
+				"extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-vesselcoloredbase" } ]
+			}
+		}
+	},
+	"variantgroups": [
+		{ "code": "state", "states": [ "raw", "burnt" ] },
+		{ "code": "color", "states": [
+			"black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"shape": { "base": "bricklayers:block/clay/storagevessel/base" },
+	"texturesByType": {
+		"@.*-raw-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_vessel" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_vessel" ] },
+			"neck": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_vessel_lid" ] },
+			"lid": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_vessel_lid" ] },
+			"inside": { "base": "game:block/transparent" }
+		},
+		"vesselcoloredbase-raw-blue": {
+			"all": { "base": "game:block/clay/blueclay" },
+			"inside": { "base": "game:block/transparent" }
+		},
+		"*-raw-*": {
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"neck": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"lid": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"inside": { "base": "game:block/transparent" }
+		},
+		"@.*-burnt-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"normal-ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ]	},
+			"normal-top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel" ] },
+			"normal-bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel" ] },
+			"normal-neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid" ] },
+			"normal-lid": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid" ] },
+			"normal-inside": { "base": "bricklayers:block/ceramic/glazed/ceramic" },
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid" ] },
+			"lid": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid" ] },
+			"inside": { "base": "game:block/transparent" }
+		},
+		"@.*-burnt-(fire|light|yellow)": {
+			"normal-ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ]	},
+			"normal-top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay_light" ] },
+			"normal-bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay_light" ] },
+			"normal-neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"normal-lid": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"normal-inside": { "base": "bricklayers:block/ceramic/glazed/ceramic" },
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay_light" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay_light" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"lid": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"inside": { "base": "game:block/transparent" }
+		},
+		"vesselcoloredbase-burnt-blue": {
+			"all": { "base": "game:block/clay/vessel/sides/burned" },
+			"inside": { "base": "game:block/transparent" }
+		},
+		"*": {
+			"normal-ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ]	},
+			"normal-top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"normal-bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"normal-neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"normal-lid": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"normal-inside": { "base": "bricklayers:block/ceramic/glazed/ceramic" },
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_clay" ] },
+			"neck": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"lid": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_vessel_lid_clay" ] },
+			"inside": { "base": "game:block/transparent" }
+		}
+	},
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { },
+	"creativeinventoryStacksByType": {
+		"*-raw-*": [
+			{ "tabs": [ "general", "decorative", "ceramics" ],
+			  "stacks": [ { "type": "block", "code": "vesselcoloredbase-raw-{color}" } ] }
+		],
+		"*": [
+			{ "tabs": [ "general", "decorative", "ceramics" ],
+			  "stacks": [ { "type": "block", "code": "vesselcoloredbase-burnt-{color}", "attributes": { "type": "normal" } } ] }
+		]
+	},
+	"replaceable": 1000,
+	"resistance": 0.8,
+	"maxStackSize": 4,
+	"sideAo": { "all": false },
+	"lightAbsorption": 0,
+	"sounds": {
+		"walk": "game:walk/stone",
+		"break": "game:block/ceramicplace",
+		"hit": "game:block/ceramichit",
+		"place": "game:block/ceramicplace"
+	},
+	"sideopaque": { "all": false },
+	"sidesolid": { "all": false },
+	"collisionSelectionBox": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.8125, "z2": 0.875 },
+	"heldTpIdleAnimation": "holdunderarm",
+	"combustiblePropsByType": {
+		"*-raw-light-*": {
+			"meltingPoint": 1250,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vesselcoloredbase-burnt-{color}", "attributes": { "type": "normal" } },
+			"requiresContainer": false
+		},
+		"*-raw-white-*": {
+			"meltingPoint": 1350,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vesselcoloredbase-burnt-{color}", "attributes": { "type": "normal" } },
+			"requiresContainer": false
+		},
+		"*-raw-*": {
+			"meltingPoint": 600,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:vesselcoloredbase-burnt-{color}", "attributes": { "type": "normal" } },
+			"requiresContainer": false
+		}
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": -0.5, "z": -0.5 },
+		"rotation": { "x": 25, "y": -20, "z": -99 },
+		"scale": 0.56
+	}
+}

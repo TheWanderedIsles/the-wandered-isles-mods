@@ -1,0 +1,26 @@
+{
+	code: "smallstonebricks",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "game:block/basic/cube" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "terrain": ["*"], "medieval": ["*"] },
+	replaceable: 90,
+	textures: {
+		all: {base: "block/stone/smallbricks/granite*"},
+	},
+	fertility: 5,
+	resistance: 2,
+	sounds: {
+		"walk": "game:walk/stone",
+		byTool: {
+			"Pickaxe": { hit: "game:block/rock-hit-pickaxe", break: "game:block/rock-break-pickaxe" }
+		}
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "__K,LL_,LL_",
+		ingredients: {
+			"K": { type: "item", code: "knife-*", isTool: true },
+			"L": { type: "item", code: "game:cattailtops", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rushmat"  }
+	},
+	{
+		ingredientPattern: "__K,PP_,PP_",
+		ingredients: {
+			"K": { type: "item", code: "knife-*", isTool: true },
+			"P": { type: "item", code: "game:papyrustops", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rushmat"  }
+	}
+]

@@ -1,0 +1,49 @@
+{
+	code: "meat",
+	variantgroups: [
+		{ code:"type", states: ["meat" ] },
+	],
+	attributes: {
+		"pieFormingSurface": true
+	},
+	shape: { base: "block/medieval/carne" },
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "decorative": ["*"], "medieval": ["*"] }
+	},
+	blockmaterial: "leaves",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 0.1,
+	collisionbox: null,
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:creature/drifter-hit",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	texturesByType: {
+		"*": {
+			"pierna": { base: "block/medieval/pierna" }
+		}
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	guiTransform: {
+		scale: 1.55
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: 0.1, z: 0.6 },
+		rotation: { x: 176, y: 47, z: 180 }
+	}
+}

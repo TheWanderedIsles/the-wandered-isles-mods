@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/lightHsv",
+    "value": [ 6, 4, 16 ],
+    "dependsOn": [{ "modid": "awearablelight" }],
+    "side": "server",
+    
+    "file": "itemtypes/wearable/waistlantern.json"
+  }
+]

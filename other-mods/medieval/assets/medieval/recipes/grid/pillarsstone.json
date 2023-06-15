@@ -1,0 +1,288 @@
+[
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "game:rock-granite", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "granite1single", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "granite1single", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "granite1up", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "granite1up", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "granite1med", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "granite1med", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "granite1down", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "granite1down", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "granite2single", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "granite2single", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "granite2up", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "granite2up", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "granite2med", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "granite2med", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "granite2down", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "granite2down", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "granite1single", quantity: 1 }
+	},
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "game:rock-basalt", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "basaltsingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "basaltsingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "basaltup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "basaltup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "basaltmed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "basaltmed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "basaltdown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "basaltdown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "basaltsingle", quantity: 1 }
+	},
+
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "game:rock-claystone", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "claystonesingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "claystonesingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "claystoneup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "claystoneup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "claystonemed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "claystonemed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "claystonedown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "claystonedown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "claystonesingle", quantity: 1 }
+	},
+
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "game:rock-sandstone", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "sandstonesingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "sandstonesingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "sandstoneup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "sandstoneup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "sandstonemed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "sandstonemed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "sandstonedown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "sandstonedown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "sandstonesingle", quantity: 1 }
+	},
+
+
+
+
+    {
+		ingredientPattern: "H__,_C_,__L",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "game:rock-shale", quantity: 1}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "shalesingle", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "shalesingle", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "shaleup", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "shaleup", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "shalemed", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "shalemed", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "shaledown", quantity: 1 }
+	},
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "block", code: "shaledown", quantity: 1}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "shalesingle", quantity: 1 }
+	}
+]

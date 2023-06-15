@@ -1,0 +1,58 @@
+[
+  {
+    "op": "replace",
+    "path": "/combustibleProps/burnDuration",
+    "value": 16,
+    "file": "game:blocktypes/plant/hay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "disabled": true,
+    "path": "/combustiblePropsByType",
+    "value": {
+	"*-ud": {
+		"meltingPoint": 600,
+		"meltingDuration": 30,
+		"smeltedRatio": 1,
+		"smeltingType": "convert",
+		"smeltedStack": { "type": "item", "code": "em:ash-organic-plant", "stacksize": 1 },
+		"requiresContainer": false
+	}
+    },
+    "file": "game:blocktypes/plant/hay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+	"burnTemperature": 600,
+	"burnDuration": 4,
+	"meltingPoint": 600,
+	"meltingDuration": 30,
+	"smeltedRatio": 8,
+	"smeltingType": "convert",
+	"smeltedStack": { "type": "item", "code": "em:ash-organic-plant", "stacksize": 1 },
+	"requiresContainer": false
+    },
+    "file": "game:itemtypes/resource/drygrass.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+	"burnTemperature": 700,
+	"burnDuration": 8,
+	"meltingPoint": 700,
+	"meltingDuration": 30,
+	"smeltedRatio": 8,
+	"smeltingType": "convert",
+	"smeltedStack": { "type": "item", "code": "em:ash-organic-wood", "stacksize": 1 },
+	"requiresContainer": false
+    },
+    "file": "game:itemtypes/resource/stick.json",
+    "side": "Server"
+  }
+]

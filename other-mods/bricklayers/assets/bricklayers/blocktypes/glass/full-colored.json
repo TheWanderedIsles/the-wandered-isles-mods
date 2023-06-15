@@ -1,0 +1,95 @@
+{
+	"code": "glasscolored",
+	"attributes": {
+		"handbook": { "groupBy": ["glasscolored-*"] },
+		"canChisel": true
+	},
+	"variantgroups": [
+		{ "code": "type",  "states": [ "plain", "dark", "milky", "opaque", "quartz", "smoky", "dull" ] },
+		{ "code": "color", "states": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "white", "yellow" ] }
+	],
+	"skipVariants": [ "@.*plain-(blue|brown|green|pink|red|violet|yellow)", "@.*(plain|dark|milky|quartz|smoky)-white" ],
+	"drawtype": "json",
+	"creativeinventory": { "general": ["*"], "construction": ["*"], "glass": ["*"] },
+	"blockmaterial": "Glass",
+	"replaceable": 900,
+	"faceCullModeByType": {
+	       "glasscolored-opaque-*": "Default",
+	       "glasscolored-dull-*": "Default",
+	       "*": "MergeMaterial"
+	},
+	"lightAbsorptionByType": {
+	       "glasscolored-milky-*": 2,
+	       "glasscolored-quartz-*": 2,
+	       "glasscolored-smoky-*": 3,
+	       "glasscolored-dark-yellow": 3,
+	       "glasscolored-dark-black": 6,
+	       "glasscolored-dark-*": 4,
+	       "glasscolored-opaque-white": 7,
+	       "glasscolored-opaque-black": 9,
+	       "glasscolored-opaque-*": 7,
+	       "glasscolored-dull-white": 7,
+	       "glasscolored-dull-black": 9,
+	       "glasscolored-dull-*": 8,
+	       "*": 0
+	},
+	"shapeByType": {
+	       "glasscolored-opaque-*": { "base": "bricklayers:block/glass/framed_opaque" },
+	       "glasscolored-dull-*": { "base": "bricklayers:block/glass/framed_opaque" },
+	       "*": { "base": "game:block/glass/framed" }
+	},
+	"renderPassByType": {
+		"glasscolored-opaque-*": "Opaque",
+		"glasscolored-dull-*": "Opaque",
+		"*": "Transparent"
+	},
+	"vertexFlagsByType": {
+		"glasscolored-opaque-*": { "reflective": true, "windDataByType": { "*": 1 } },
+		"glasscolored-dull-*": { "reflective": false, "zOffset": 0 },
+		"*": { "zOffset": 2 }
+	},
+	"texturesByType": {
+		"*-plain-*": { "material": { "base": "bricklayers:block/glass/normal/{color}_normal" } },
+		"*-dark-*": { "material": { "base": "bricklayers:block/glass/dark/{color}" } },
+		"*-opaque-*": {
+				"inside-north": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-east": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-south": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-west": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-up": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-down": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"material": { "base": "bricklayers:block/glass/opaque/{color}" }
+		},
+		"*-dull-*": {
+				"inside-north": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-east": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-south": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-west": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-up": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"inside-down": { "base": "bricklayers:block/glass/opaque/{color}" },
+				"material": { "base": "bricklayers:block/glass/opaque/{color}" }
+		},
+		"*": { "material": { "base": "bricklayers:block/glass/normal/{color}", "overlays": [ "bricklayers:block/glass/overlay_{type}" ] } }
+	},
+	"resistance": 0.25,
+	"materialDensity": 1200,
+	"sideopaqueByType": {
+		"glasscolored-opaque-*": { "all": true },
+		"glasscolored-dull-*": { "all": true },
+		"*": { "all": false }
+	},
+	"sounds": {
+		"place": "game:player/buildhigh",
+		"break": "game:block/glass",
+		"hit": "game:block/glass"
+	},
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": -0.01, "z": 0.5 }
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.2, "y": -1.1, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.37
+	}
+}

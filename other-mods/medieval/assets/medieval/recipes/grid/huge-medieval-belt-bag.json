@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "LTL,ILI,_M_",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1 },
+		"I": { type: "item", code: "game:metalplate-iron", quantity: 5 },
+		"M": { type: "item", code: "game:metalplate-meteoriciron", quantity: 5 }
+	},
+	width: 3,
+	height: 3,
+	name: "backpack",
+	output: { type: "item", code: "huge-medieval-belt-bag"  }
+}

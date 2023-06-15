@@ -1,0 +1,86 @@
+[
+	{
+		ingredientPattern: "__H,___,FFF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-four-lower-west", quantity: 3 }
+	},
+	{
+		ingredientPattern: "__H,_F_,FFF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-four-top-west", quantity: 4 }
+	},
+	{
+		ingredientPattern: "__H,__F,___",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "block", code: "game:palisadewall-four-top-west", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-four-halftop-west", quantity: 2 }
+	},
+	{
+		ingredientPattern: "__H,__F,___",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "block", code: "game:palisadewall-four-halftop-west", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-four-top-west", quantity: 1 }
+	},
+
+
+
+
+	{
+		ingredientPattern: "__H,___,F_F",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-three-lower-west", quantity: 2 }
+	},
+	{
+		ingredientPattern: "__H,_F_,F_F",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-three-top-west", quantity: 3 }
+	},
+	{
+		ingredientPattern: "__H,__F,___",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "block", code: "game:palisadewall-three-top-west", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-three-halftop-west", quantity: 2 }
+	},
+	{
+		ingredientPattern: "__H,__F,___",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "block", code: "game:palisadewall-three-halftop-west", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-three-top-west", quantity: 1 }
+	}
+]

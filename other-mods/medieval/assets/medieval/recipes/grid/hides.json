@@ -1,0 +1,89 @@
+[
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:shears-*", isTool: true  },
+			"F": { type: "item", code: "game:hide-raw-medium" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-raw-small", quantity: 2  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:shears-*", isTool: true  },
+			"F": { type: "item", code: "game:hide-raw-large" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-raw-medium", quantity: 2  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:shears-*", isTool: true  },
+			"F": { type: "item", code: "game:hide-raw-huge" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-raw-large", quantity: 2  }
+	},
+    {
+		ingredientPattern: "F",
+		ingredients: {
+			"F": { type: "item", code: "game:hide-raw-large", quantity: 2 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:hide-raw-huge", quantity: 1  }
+	},
+    {
+		ingredientPattern: "F",
+		ingredients: {
+			"F": { type: "item", code: "game:hide-raw-medium", quantity: 2 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:hide-raw-large", quantity: 1  }
+	},
+    {
+		ingredientPattern: "F",
+		ingredients: {
+			"F": { type: "item", code: "game:hide-raw-small", quantity: 2 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:hide-raw-medium", quantity: 1  }
+	},
+	{
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "shears-*", isTool: true  },
+			"F": { type: "item", code: "game:hide-raw-medium" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-raw-small", quantity: 2  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "shears-*", isTool: true  },
+			"F": { type: "item", code: "game:hide-raw-large" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-raw-medium", quantity: 2  }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "shears-*", isTool: true  },
+			"F": { type: "item", code: "game:hide-raw-huge" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-raw-large", quantity: 2  }
+	}
+]

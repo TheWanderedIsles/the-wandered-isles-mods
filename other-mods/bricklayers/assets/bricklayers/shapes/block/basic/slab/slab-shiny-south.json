@@ -1,0 +1,20 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": { },
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 0.0, 0.0, 8.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"faces": {
+				"north": { "reflectiveMode": 2, "texture": "#north", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "reflectiveMode": 2, "texture": "#east", "uv": [ 0.0, 0.0, 8.0, 16.0 ] },
+				"south": { "reflectiveMode": 2, "texture": "#south", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "reflectiveMode": 2, "texture": "#west", "uv": [ 8.0, 0.0, 16.0, 16.0 ] },
+				"up": { "reflectiveMode": 2, "texture": "#up", "uv": [ 0.0, 8.0, 16.0, 16.0 ] },
+				"down": { "reflectiveMode": 2, "texture": "#down", "uv": [ 0.0, 8.0, 16.0, 16.0 ] }
+			}
+		}
+	]
+}

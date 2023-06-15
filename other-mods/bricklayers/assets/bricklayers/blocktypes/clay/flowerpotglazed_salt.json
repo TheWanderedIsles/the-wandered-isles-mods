@@ -1,0 +1,235 @@
+{
+	"code": "saltglazedflowerpot",
+	"classByType": {
+		"saltglazedflowerpot-burnt-*": "BlockPlantContainer",
+		"*": "Block"
+	},
+	"entityClassByType": {
+		"saltglazedflowerpot-raw-*": null,
+		"*": "PlantContainer"
+	},
+	"behaviorsByType": {
+		"saltglazedflowerpot-wet-*": [
+			{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.4375, "z2": 1 } } },
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup" }
+		],
+		"saltglazedflowerpot-raw-*": [
+			{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.4375, "z2": 1 } } },
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup" }
+		],
+		"*": [ { "name": "UnstableFalling", "properties": { "attachmentArea": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 } }} ]
+	},
+	"attributes": {
+		"sitHeight": 0.75,
+		"beeFeedByType": {
+			"saltglazedflowerpot-burnt-*": true,
+			"*": false
+		},
+		"butterflyFeedByType": {
+			"saltglazedflowerpot-burnt-*": true,
+			"*": false
+		},
+		"handbook": { "groupBy": [ "saltglazedflowerpot-*" ] },
+		"handbookByType": {
+			"saltglazedflowerpot-raw-orange-*": {
+				"extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-saltglazedflowerpot-raw-orange" } ]
+			},
+			"saltglazedflowerpot-burnt-pale-*": {
+				"extraSections": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-saltglazedflowerpot-burnt-pale" } ]
+			}
+		},
+		"plantContainerSize": "small",
+		"filledShape": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled_shiny" },
+		"fillHeight": 0.375
+	},
+	"attributesByType": {
+		"*-burnt-*-none-*": {
+			"filledShape": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled" }
+		},
+		"*-pale-copper-salt-*": {
+			"filledShape": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled_shiny" }
+		},
+		"*-pale-copper-*": {
+			"filledShape": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled_top_shiny" }
+		},
+		"*-pale-*": {
+			"filledShape": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled" }
+		},
+		"*-orange-copper-salt-*": {
+			"filledShape": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled_shiny" }
+		},
+		"*": {
+			"filledShape": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled_top_shiny" }
+		}
+	},
+	"maxStackSize": 8,
+	"variantgroups": [
+		{ "code": "state", "states": [ "wet", "raw", "burnt" ] },
+		{ "code": "type", "states": [ "pale", "orange" ] },
+		{ "code": "additive", "states": [ "none", "copper" ] },
+		{ "code": "color", "states": [
+			"salt",
+			"blue", "fire", "brown", "black", "blurple", "darkgrey", "green", "light", "malachite", "orange", "pink", "purple", "red", "yellow",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+		{ "code": "pattern", "states": [ "plain" ] }
+	],
+	"skipVariants": [ "saltglazedflowerpot-wet-orange-*" ],
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"shapeByType": {
+		"saltglazedflowerpot-wet-pale-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed" },
+		"saltglazedflowerpot-raw-pale-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed" },
+		"saltglazedflowerpot-raw-orange-none-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled" },
+		"saltglazedflowerpot-raw-orange-copper-salt-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled_shiny" },
+		"saltglazedflowerpot-raw-orange-copper-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled_top_shiny" },
+		"saltglazedflowerpot-raw-orange-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_filled" },
+		"saltglazedflowerpot-burnt-pale-none-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed" },
+		"saltglazedflowerpot-burnt-pale-copper-salt-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_shiny" },
+		"saltglazedflowerpot-burnt-pale-copper-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_top_shiny" },
+		"saltglazedflowerpot-burnt-orange-none-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed" },
+		"saltglazedflowerpot-burnt-orange-copper-salt-*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_shiny" },
+		"*": { "base": "bricklayers:block/clay/flowerpot/flowerpot_glazed_top_shiny" }
+	},
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"lightAbsorption": 1,
+	"texturesByType": {
+		"*-wet-pale-*-salt-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/raw/salt/insideplain", "overlays": [ "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}", "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"bottom": { "base": "bricklayers:block/ceramic/glazed/raw/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}", "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"soil": { "base": "game:block/transparent" }
+		},
+		"*-wet-pale-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/raw/salt/insideplain", "overlays": [ "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}", "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}", "overlays": [ "bricklayers:block/ceramic/glazed/wax_overlay", "bricklayers:block/ceramic/glazed/wet_overlay" ] },
+			"soil": { "base": "game:block/transparent" }
+		},
+		"*-raw-pale-*-salt-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/raw/salt/insideplain" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}" ] },
+			"bottom": { "base": "bricklayers:block/ceramic/glazed/raw/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}" ] },
+			"soil": { "base": "game:block/transparent" }
+		},
+		"*-raw-pale-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/raw/salt/insideplain" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/raw/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}", "overlays": [ "bricklayers:block/ceramic/glazed/wax_overlay" ] },
+			"soil": { "base": "game:block/transparent" }
+		},
+		"*-raw-orange-*-salt-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/insideplain" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"bottom": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"soil": { "base": "game:block/soil/flooring/strawbedding4" }
+		},
+		"*-raw-orange-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/insideplain" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [	"bricklayers:block/clay/burnt/overlay_planter_clay",
+						"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"soil": { "base": "game:block/soil/flooring/strawbedding4" }
+		},
+		"*-burnt-pale-*-salt-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/insideplain" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"bottom": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		},
+		"*-burnt-pale-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/insideplain" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/plain{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [	"bricklayers:block/clay/burnt/overlay_planter_clay",
+						"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		},
+		"*-burnt-orange-*-salt-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/insideorange" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/orange{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"bottom": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/orange{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		},
+		"*-burnt-orange-*": {
+			"ceramic": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/insideorange" },
+			"top": { "base": "bricklayers:block/ceramic/glazed/burnt/salt/orange{additive}",
+				"overlays": [ "bricklayers:block/ceramic/glazed/pattern/{pattern}",
+					"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [	"bricklayers:block/clay/burnt/overlay_planter_clay",
+						"bricklayers:block/ceramic/glazed/burnt/clear/overlay_flowerpot_shine" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		}
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"transitionablePropsByType": {
+		"*-wet-*-plain": [{
+			"type": "Dry",
+			"freshHours": { "avg": 0 },
+			"transitionHours": { "avg": 48, "var": 4 },
+			"transitionedStack": { "type": "block", "code": "bricklayers:saltglazedflowerpot-raw-pale-{additive}-{color}-{pattern}" },
+			"transitionRatio": 1
+		}]
+	},
+	"combustiblePropsByType": {
+		"saltglazedflowerpot-raw-pale-*": {
+			"meltingPoint": 900,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:saltglazedflowerpot-burnt-pale-{additive}-{color}-{pattern}" },
+			"requiresContainer": false
+		},
+		"saltglazedflowerpot-raw-orange-*": {
+			"meltingPoint": 1150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:saltglazedflowerpot-burnt-orange-{additive}-{color}-{pattern}" },
+			"requiresContainer": false
+		}
+	},
+	"collisionbox": {
+		"x1": 0.3125, "y1": 0, "z1": 0.3125,
+		"x2": 0.6875, "y2": 0.4375, "z2": 0.6875
+	},
+	"selectionbox": {
+		"x1": 0.3125, "y1": 0, "z1": 0.3125,
+		"x2": 0.6875, "y2": 0.4375, "z2": 0.6875
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -0.9, "z": -1 },
+		"rotation": { "x": -78, "y": 32, "z": -95 },
+		"scale": 0.45
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+		"scale": 1.5
+	}
+}

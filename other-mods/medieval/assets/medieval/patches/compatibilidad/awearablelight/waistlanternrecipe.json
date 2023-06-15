@@ -1,0 +1,59 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "dependsOn": [ { "modid": "awearablelight" } ],
+    "file": "medieval:itemtypes/wearable/waistlantern.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [ { "modid": "awearablelight" } ],
+    "file": "medieval:recipes/grid/clothes/waistlanternrecipe.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "file": "medieval:recipes/grid/clothes/waistlanternrecipe.json",
+    "dependsOn": [ { "modid": "awearablelight" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": true,
+    "file": "medieval:recipes/grid/clothes/waistlanternrecipe.json",
+    "dependsOn": [ { "modid": "awearablelight" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/3/enabled",
+    "value": true,
+    "file": "medieval:recipes/grid/clothes/waistlanternrecipe.json",
+    "dependsOn": [ { "modid": "awearablelight" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/4/enabled",
+    "value": true,
+    "file": "medieval:recipes/grid/clothes/waistlanternrecipe.json",
+    "dependsOn": [ { "modid": "awearablelight" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/5/enabled",
+    "value": true,
+    "file": "medieval:recipes/grid/clothes/waistlanternrecipe.json",
+    "dependsOn": [ { "modid": "awearablelight" } ],
+    "side": "Server"
+  }
+
+]

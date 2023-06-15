@@ -1,0 +1,27 @@
+[
+	{
+	"code": "glassbatch-quartz-color",
+	"ingredientPattern": "AQ,BB",
+	"ingredients": {
+		"A": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 2 },
+		"Q": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatch-plain-*", "quantity": 1, "name": "color",
+			"allowedVariants": [ "blue", "brown", "green", "orange", "pink", "violet", "red", "yellow", "black"] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-quartz-{color}", "quantity": 4 }
+	},
+	{
+	"code": "glassbatch-quartz-smoky",
+	"ingredientPattern": "AB,QQ",
+	"ingredients": {
+		"A": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 2 },
+		"B": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:glassbatch-quartz-smoky", "quantity": 4 }
+	}
+]

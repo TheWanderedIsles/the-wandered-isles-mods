@@ -1,0 +1,12 @@
+[
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:porcelainoillamp-*-white-up", "name": "color" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-{color}-white" }
+	}
+]

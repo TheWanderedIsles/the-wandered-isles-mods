@@ -1,0 +1,27 @@
+[
+
+	{
+		ingredientPattern: "SR,LB",
+		ingredients: {
+    		"S": { type: "item", code: "game:knife-*", isTool: true },
+    		"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+    		"R": { type: "item", code: "medieval:stripsofleather", quantity: 1 },
+    		"B": { type: "block", code: "game:jug-blue-fired", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:canteen-medieval", quantity: 1  }
+	},
+	{
+		ingredientPattern: "SR,LB",
+		ingredients: {
+    		"S": { type: "item", code: "medieval:knife-*", isTool: true },
+    		"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+    		"R": { type: "item", code: "medieval:stripsofleather", quantity: 1 },
+    		"B": { type: "block", code: "game:jug-blue-fired", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:canteen-medieval", quantity: 1  }
+	}
+]

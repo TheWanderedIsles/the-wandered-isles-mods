@@ -1,0 +1,14 @@
+[
+	{
+		ingredientPattern: "HLC",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"L": { type: "block", code: "medieval:sincortezalog-*-ud", name: "wood" }
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "game:supportbeam-{wood}", quantity: 4  }
+	}
+]

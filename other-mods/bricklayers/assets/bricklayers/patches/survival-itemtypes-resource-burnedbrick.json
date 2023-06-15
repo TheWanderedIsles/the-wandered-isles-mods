@@ -1,0 +1,43 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType",
+    "file": "game:itemtypes/resource/burnedbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/behaviors/0/properties/stackingModel",
+    "value": "bricklayers:block/clay/smallbrickpile",
+    "file": "game:itemtypes/resource/burnedbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/behaviors/0/properties/stackingCapacity",
+    "value": 32,
+    "file": "game:itemtypes/resource/burnedbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/behaviors/0/properties/cbScaleYByLayer",
+    "value": 0.125,
+    "file": "game:itemtypes/resource/burnedbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/shape",
+    "value": { "base": "bricklayers:item/brick" },
+    "file": "game:itemtypes/resource/burnedbrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/textures/all",
+    "value": { "base": "bricklayers:block/clay/brickpile/burnt/{type}" },
+    "file": "game:itemtypes/resource/burnedbrick.json",
+    "side": "Server"
+  }
+]

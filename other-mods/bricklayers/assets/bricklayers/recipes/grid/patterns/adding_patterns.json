@@ -1,0 +1,126 @@
+[
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-lines", "name": "pattern",
+			"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-lines" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-wet-clear-{color}-lines", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-lines", "name": "pattern",
+		"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-lines" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-wet-milky-{color}-lines", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-clear-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-lines", "name": "pattern",
+			"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-lines" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-wet-clear-{color}-lines", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-milky-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-lines", "name": "pattern",
+			"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-lines" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-wet-milky-{color}-lines", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-checker", "name": "pattern",
+			"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-checker" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-wet-clear-{color}-checker", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-checker", "name": "pattern",
+		"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-checker" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-wet-milky-{color}-checker", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-clear-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-checker", "name": "pattern",
+			"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-checker" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-wet-clear-{color}-checker", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedflowerpot-burnt-milky-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-checker", "name": "pattern",
+			"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-checker" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedflowerpot-wet-milky-{color}-checker", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedmug-burnt-clear-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-checker", "name": "pattern",
+			"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-checker" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedmug-wet-clear-{color}-checker", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "WP",
+	"ingredients": {
+		"W": { "type": "block", "code": "bricklayers:glazedmug-burnt-milky-*-plain", "name": "color" },
+		"P": { "type": "block", "code": "bricklayers:pattern-colored-checker", "name": "pattern",
+			"returnedStack": { "type": "block", "code": "bricklayers:pattern-burnt-checker" }
+		}
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "block", "code": "bricklayers:glazedmug-wet-milky-{color}-checker", "quantity": 1 }
+	}
+]

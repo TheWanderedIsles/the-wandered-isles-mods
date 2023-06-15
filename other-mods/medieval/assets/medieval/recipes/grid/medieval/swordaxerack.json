@@ -1,0 +1,24 @@
+[
+    {
+		ingredientPattern: "_S_,FKF",
+		ingredients: {
+			"F": { type: "item", code: "game:plank-*", quantity: 2 },
+			"S": { type: "item", code: "game:stick", quantity: 1 },
+			"K": { type: "item", code: "game:knife-generic-flint", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "swordrack-north", quantity: 1 }
+	},
+    {
+		ingredientPattern: "_S_,FKF",
+		ingredients: {
+			"F": { type: "item", code: "game:plank-*", quantity: 2 },
+			"S": { type: "item", code: "game:stick", quantity: 1 },
+			"K": { type: "item", code: "game:axe-flint", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "axerack-north", quantity: 1 }
+	}
+]

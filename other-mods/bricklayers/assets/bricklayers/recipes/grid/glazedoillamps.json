@@ -1,0 +1,24 @@
+[
+	{
+	"ingredientPattern": "BF",
+	"ingredients": {
+                "B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-clear-*-plain", "name": "color" },
+                "F": { "type": "item", "code": "game:fat" }
+        },
+        "width": 2,
+        "height": 1,
+	"shapeless": true,
+        "output": { "type": "block", "code": "bricklayers:glazedoillamp-clear-{color}-up"  }
+	},
+	{
+	"ingredientPattern": "BF",
+	"ingredients": {
+                "B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-milky-*-plain", "name": "color" },
+                "F": { "type": "item", "code": "game:fat" }
+        },
+        "width": 2,
+        "height": 1,
+	"shapeless": true,
+        "output": { "type": "block", "code": "bricklayers:glazedoillamp-milky-{color}-up"  }
+	}
+]

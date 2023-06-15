@@ -1,0 +1,122 @@
+[
+	{
+	"code": "glass-vanilla-plain",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-*-white-down", "name": "type", "allowedVariants": [ "plain", "quartz", "smoky" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:glass-{type}" }
+	},
+
+	{
+	"code": "glass-vanilla-vintage",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-milky-white-down" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:glass-vintage" }
+	},
+
+	{
+	"code": "glass-vanilla-colored",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-plain-*-down", "name": "color", "allowedVariants": [ "blue", "brown", "green", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:glass-{color}" }
+	},
+
+	{
+	"code": "glass-bricklayers-colored",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-plain-*-down", "name": "color", "allowedVariants": [ "black", "orange" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glasscolored-plain-{color}" }
+	},
+
+	{
+	"code": "glass-bricklayers-smoky",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-smoky-*-down", "name": "color", "allowedVariants":  [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glasscolored-smoky-{color}" }
+	},
+
+	{
+	"code": "glass-bricklayers-dark",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-dark-*-down", "name": "color" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glasscolored-dark-{color}" }
+	},
+
+	{
+	"code": "glass-bricklayers-dull",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-dull-*-down", "name": "color" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glasscolored-dull-{color}" }
+	},
+
+	{
+	"code": "glass-bricklayers-opaque",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-opaque-*-down", "name": "color" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glasscolored-opaque-{color}" }
+	},
+
+	{
+	"code": "glass-bricklayers-quartz",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-quartz-*-down", "name": "color", "allowedVariants":  [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ]  }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glasscolored-quartz-{color}" }
+	},
+
+	{
+	"code": "glass-bricklayers-milky",
+	"ingredientPattern": "_G_,GMG,GGG",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-milky-*-down", "name": "color", "allowedVariants":  [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "yellow" ]  }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:glasscolored-milky-{color}" }
+	}
+
+]

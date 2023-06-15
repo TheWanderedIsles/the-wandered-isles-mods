@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "C__,IFI,_R_",
+    "ingredients": {
+      "C": { type: "item", code: "game:hammer-*", isTool: true  },
+      "I": { "type": "item", "code": "metalbar-molybdochalkos", quantity: 1 },
+      "R": { "type": "item", "code": "metalbar-molybdochalkos", quantity: 2 },
+      "F": { "type": "item", "code": "game:firewood", quantity: 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "candil2", quantity: 1 }
+  }
+]

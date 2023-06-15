@@ -1,0 +1,35 @@
+[
+	{
+	"ingredientPattern": "S,D,B",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:shovel-*", "isTool": true },
+                "D": { "type": "block", "code": "game:soil-medium-*" },
+                "B": { "type": "block", "code": "game:barrel" }
+        },
+        "width": 1,
+        "height": 3,
+        "output": { "type": "block", "code": "bricklayers:barrelplanter-generic" }
+	},
+	{
+	"ingredientPattern": "S,D,B",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:shovel-*", "isTool": true },
+                "D": { "type": "block", "code": "game:soil-high-*" },
+                "B": { "type": "block", "code": "game:barrel" }
+        },
+        "width": 1,
+        "height": 3,
+	"output": { "type": "block", "code": "bricklayers:barrelplanter-generic" }
+	},
+	{
+	"ingredientPattern": "S,D,B",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:shovel-*", "isTool": true },
+                "D": { "type": "block", "code": "game:soil-compost-*" },
+                "B": { "type": "block", "code": "game:barrel" }
+        },
+        "width": 1,
+        "height": 3,
+	"output": { "type": "block", "code": "bricklayers:barrelplanter-generic" }
+	}
+]

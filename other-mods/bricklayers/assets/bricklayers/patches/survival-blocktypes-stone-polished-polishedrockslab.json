@@ -1,0 +1,63 @@
+[
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "*-obsidian-*": {
+        "all": {
+          "base": "bricklayers:block/stone/polishedrock/obsidian_*"
+        },
+        "inside-north": {
+          "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+        },
+        "inside-east": {
+          "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+        },
+        "inside-south": {
+          "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+        },
+        "inside-west": {
+          "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+        },
+        "inside-up": {
+          "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+        },
+        "inside-down": {
+          "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+        }
+      },
+      "*": {
+        "all": {
+          "base": "game:block/stone/polishedrock/{rock}"
+        },
+        "inside-north": {
+          "base": "game:block/stone/polishedrock/{rock}-inside"
+        },
+        "inside-east": {
+          "base": "game:block/stone/polishedrock/{rock}-inside"
+        },
+        "inside-south": {
+          "base": "game:block/stone/polishedrock/{rock}-inside"
+        },
+        "inside-west": {
+          "base": "game:block/stone/polishedrock/{rock}-inside"
+        },
+        "inside-up": {
+          "base": "game:block/stone/polishedrock/{rock}-inside"
+        },
+        "inside-down": {
+          "base": "game:block/stone/polishedrock/{rock}-inside"
+        }
+      }
+    },
+    "file": "game:blocktypes/stone/polished/polishedrockslab.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "obsidian",
+    "file": "game:blocktypes/stone/polished/polishedrockslab.json",
+    "side": "Server"
+  }
+]

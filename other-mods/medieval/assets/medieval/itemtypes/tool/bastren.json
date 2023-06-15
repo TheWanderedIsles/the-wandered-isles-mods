@@ -1,0 +1,105 @@
+{
+	"code": "bastren",
+	"attributes": {
+		"rackable": true,
+		"toolrackTransform": {
+			"translation": { x: 0.45, y: 0.5, z: 0.5 },
+			"rotation": { x: 0, y: 90, z: -180 },
+			"origin": { x: 0, y: 0, z: 0 },
+			"scale": 1,
+		}
+	},
+	attributes: {
+		"rackable": true,
+		toolrackTransformByType: {
+			"*":
+			{
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.23, y: 0.6 },
+				scale: 1.25,
+			}
+		},
+		groundStorageTransform: {
+			translation: { x: 0.1, y: 0.18, z: -0.1 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+
+	"variantgroups": [
+		{ "code": "metal", "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] }
+	],
+	"creativeinventory": { "general": ["*"], "tools": ["*"], "medieval": ["*"]},
+	"shape": { "base": "medieval:item/tool/bastren" },
+	"textures": {
+		"copper": { "base": "medieval:item/tool/sword/axe/{metal}" }
+	},
+	"maxstacksize": 1,
+	"attackpowerbytype": {
+		"*-copper": 1.25,
+		"*-gold": 1,
+		"*-silver": 1,
+		"*-bismuthbronze": 1.5,
+		"*-tinbronze": 1.75,
+		"*-blackbronze": 2,
+		"*-iron": 2.25,
+		"*-meteoriciron": 2.4,
+		"*-steel": 2.4
+	},
+	"durabilitybytype": {
+		"*-copper": 350,
+		"*-gold": 250,
+		"*-silver": 250,
+		"*-tinbronze": 500,
+		"*-bismuthbronze": 600,
+		"*-blackbronze": 750,
+		"*-iron": 1250,
+		"*-meteoriciron": 1500,
+		"*-steel": 2250
+	},
+	"tooltierByType": {
+		"*-copper": 2,
+		"*-gold": 2,
+		"*-silver": 2,
+		"*-tinbronze": 3,
+		"*-bismuthbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5
+	},
+		guiTransform: {
+		translation: { x: 4, y: 0, z: 0 },
+		rotation: { x: -60, y: -21, z: -1 },
+		origin: { x: 0.3, y: 1, z: -0.11 },
+		scale: 2
+	},
+		fpHandTransform: {
+		translation: { x: 0.5, y: -0.2, z: 0.5 },
+		rotation: { x: 145, y: -180, z: -97 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 2.24
+	},
+		tpHandTransform: {
+		translation: { x: 0.3, y: 0.2, z: -0.1 },
+		rotation: { x: 0, y: 98, z: -83 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 0.75
+	},
+		groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -180, y: -180, z: -180 },
+		origin: { x: 0, y: 0, z: 1 },
+		scale: 5
+	}
+}

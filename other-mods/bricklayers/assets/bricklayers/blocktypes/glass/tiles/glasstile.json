@@ -1,0 +1,147 @@
+{
+	"code": "glasstile",
+	"class": "BlockSimpleCoating",
+	"behaviorsByType": {
+		"*-opaque-*": [ {
+			"name": "Decor",
+			"properties": {
+				"sides": [ "north", "east", "south", "west", "up", "down" ],
+				"sidedVariants": true,
+				"thickness": 0.0312,
+				"removable": true
+			}
+		} ],
+		"*": [ {
+			"name": "Decor",
+			"properties": {
+				"sides": [ "north", "east", "south", "west", "up", "down" ],
+				"sidedVariants": true,
+				"thickness": 0.0312,
+				"removable": true,
+				"alternateZOffset": true,
+				"drawIfCulled": true,
+				"notFullFace": true
+			}
+		} ]
+	},
+	"attributes": {
+		"handbook": { "groupBy": ["glasstile-*"] },
+		"moldrackable": true,
+		"onmoldrackTransform": { "rotation": { "z": 83 }, "translation": { "y": 0.1 }, "scale": 0.9 }
+	},
+	"variantgroups": [
+		{ "code": "size", "states": [ "normal" ] },
+		{ "code": "type",  "states": [ "plain", "dark", "milky", "opaque", "quartz", "smoky", "dull" ] },
+		{ "code": "color", "states": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "white", "yellow" ] },
+		{ "code": "side", "states": [ "north", "east", "south", "west", "up", "down" ] }
+	],
+	"skipVariants": [ "@.*(dark)-white-.*" ],
+	"materialDensity": 6000,
+	"shapeByType": {
+		"*-down": { "base": "bricklayers:block/basic/layers/05voxel" },
+		"*-up": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 180 },
+		"*-north": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90 },
+		"*-east": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
+		"*-west": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*-south": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 270 }
+	},
+	"sidesolidByType": {
+		"*-down": { "all": false, "down": true },
+		"*-up": { "all": false, "up": true },
+		"*-north": { "all": false, "north": true },
+		"*-east": { "all": false, "east": true },
+		"*-west": { "all": false, "west": true },
+		"*-south": { "all": false, "south": true }
+	},
+	"sideopaqueByType": {
+		"*-opaque-*-down": { "all": false, "down": true },
+		"*-opaque-*-up": { "all": false, "up": true },
+		"*-opaque-*-north": { "all": false, "north": true },
+		"*-opaque-*-east": { "all": false, "east": true },
+		"*-opaque-*-west": { "all": false, "west": true },
+		"*-opaque-*-south": { "all": false, "south": true },
+		"*": { "all": false }
+	},
+	"blockmaterial": "Glass",
+	"creativeinventory": { "general": ["*-down"], "decorative": ["*-down"], "glass": ["*-down"] },
+	"replaceable": 900,
+	"resistance": 0.25,
+	"lightAbsorption": 1,
+	"emitSideAo": { "all": false },
+	"texturesByType": {
+		"*-plain-white-*": { "all": { "base": "bricklayers:block/glass/normal/plain_normal" } },
+		"*-plain-black-*": { "all": { "base": "bricklayers:block/glass/normal/black_normal" } },
+		"*-plain-*": { "all": { "base": "bricklayers:block/glass/normal/{color}" } },
+		"*-dark-*": { "all": { "base": "bricklayers:block/glass/dark/{color}" } },
+		"*-opaque-*": { "all": { "base": "bricklayers:block/glass/opaque/{color}" } },
+		"*-dull-*": { "all": { "base": "bricklayers:block/glass/opaque/{color}" } },
+		"*": { "all": { "base": "bricklayers:block/glass/normal/{color}", "overlays": [ "bricklayers:block/glass/overlay_{type}" ] } }
+	},
+	"renderPassByType": {
+		"*-opaque-*": "Opaque",
+		"*-dull-*": "Opaque",
+		"*": "Transparent"
+	},
+	"vertexFlagsByType": {
+		"*-opaque-*": { "reflective": true, "windDataByType": { "*": 1 } },
+		"*-dull-*": { "zOffset": 0 },
+		"*": { "zOffset": 2 }
+	},
+	"selectionbox": {
+		"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0312, "z2": 1,
+		"rotateXByType": {
+			"*-up": 180,
+			"*-north": 90,
+			"*-east": 90,
+			"*-west": 90,
+			"*-south": 270
+		},
+		"rotateYByType": {
+			"*-east": 180,
+			"*-west": 0
+		},
+		"rotateZByType": {
+			"*-east": 270,
+			"*-west": 270
+		}
+	},
+	"collisionbox": {
+		"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0312, "z2": 1,
+		"rotateXByType": {
+			"*-up": 180,
+			"*-north": 90,
+			"*-east": 90,
+			"*-west": 90,
+			"*-south": 270
+		},
+		"rotateYByType": {
+			"*-east": 180,
+			"*-west": 0
+		},
+		"rotateZByType": {
+			"*-east": 270,
+			"*-west": 270
+		}
+	},
+	"sounds": {
+		"place": "game:player/buildhigh",
+		"break": "game:block/glass",
+		"hit": "game:block/glass"
+	},
+	"materialDensity": 120,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0312, "z": 0.5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.6, "y": -1.19, "z": -1.69 },
+		"rotation": { "x": 66, "y": 89, "z": 154 },
+		"scale": 0.45
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.3, "y": 0, "z": 0.3 }
+	},
+	"groundTransform": {
+		"scale": 3.5
+	}
+}

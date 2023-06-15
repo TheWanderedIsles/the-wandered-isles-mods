@@ -1,0 +1,479 @@
+[
+  {
+    "ingredientPattern": "BLB,BCB,BLB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-cotton-*-down"
+      },
+      "C": {
+        "type": "block",
+        "code": "game:chest-east",
+        "attributes": { "type": "normal-generic" }
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "BLB,BCB,BLB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-wool-*-down"
+      },
+      "C": {
+        "type": "block",
+        "code": "game:chest-east",
+        "attributes": { "type": "normal-generic" }
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "BLB,BCB,BLB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-jute-normal-down"
+      },
+      "C": {
+        "type": "block",
+        "code": "game:chest-east",
+        "attributes": { "type": "normal-generic" }
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+  
+  
+  
+  {
+    "ingredientPattern": "BLB,BCB,BLB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-cotton-*-down"
+      },
+      "C": {
+        "type": "block",
+        "code": "game:labeledchest-east"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "BLB,BCB,BLB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-wool-*-down"
+      },
+      "C": {
+        "type": "block",
+        "code": "game:labeledchest-east"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "BLB,BCB,BLB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-jute-normal-down"
+      },
+      "C": {
+        "type": "block",
+        "code": "game:labeledchest-east"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+
+  
+  
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-wood-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-cotton-*-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-wood-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-wool-*-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-wood-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-jute-normal-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-wood-center-east"
+    }
+  },
+  
+  
+
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-copper-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-cotton-*-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-copper-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-copper-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-wool-*-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-copper-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-copper-center-east"
+      },
+      "L": {
+        "type": "block",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+      "code": "bettercrates:bettercrate2sided-copper-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-copper-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-jute-normal-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-copper-center-east"
+    }
+  },
+  
+  
+  
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-bronze-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-cotton-*-down",\\
+        "allowedVariants": [ "diamond", "normal", "offset", "square" ]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-bronze-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-bronze-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-wool-*-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-bronze-center-east"
+    }
+  },
+
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-bronze-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-jute-normal-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-bronze-center-east"
+    }
+  },
+
+
+  
+  
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-iron-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-cotton-*-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-iron-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-iron-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-wool-*-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-iron-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-iron-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-jute-normal-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-iron-center-east"
+    }
+  },
+  
+  
+  
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-steel-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-cotton-*-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-steel-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-iron-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-wool-*-down",
+        "allowedVariants": [ "diamond", "normal", "offset", "square" ]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-iron-center-east"
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "bettercrates:bettercrate-iron-center-east"
+      },
+      "L": {
+        "type": "block",
+        "code": "hideandfabric:fabric-jute-normal-down"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "bettercrates:bettercrate2sided-iron-center-east"
+    }
+  }
+
+
+]

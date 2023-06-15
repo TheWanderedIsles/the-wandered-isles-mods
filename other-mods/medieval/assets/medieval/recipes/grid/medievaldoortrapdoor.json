@@ -1,0 +1,184 @@
+[
+	{
+		ingredientPattern: "HW,_D",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "game:door-solid-*"  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:anidoor-anidoorrough"  }
+	},
+	{
+		ingredientPattern: "HW,WD",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "game:door-solid-*"  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:anidoor-anidoorwood"  }
+	},
+	{
+		ingredientPattern: "HW,WD,WW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "game:door-solid-*"  }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "medieval:anidoor-anidoorheavy"  }
+	},
+	{
+		ingredientPattern: "H_,WD",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anidoor-anidoorheavy" },
+			"D": { type: "block", code: "game:door-solid-*"  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:anidoor-anidoorheavyround"  }
+	},
+	{
+		ingredientPattern: "HP,WD",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anidoor-anidoorheavy" },
+			"P": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "game:door-solid-*"  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:anidoor-anidoorheavytall"  }
+	},
+	{
+		ingredientPattern: "HWW,WDB,WWB",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "game:door-solid-*"  },
+      		"B": { "type": "item", "code": "medieval:metalbar-molybdochalkos", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:anidoor-anidoordoor"  }
+	},
+	{
+		ingredientPattern: "H_,WD",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anidoor-anidoordoor"  },
+			"D": { type: "block", code: "game:door-solid-*"  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:anidoor-anidoordoorround"  }
+	},
+	{
+		ingredientPattern: "HP,WD",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anidoor-anidoordoor"  },
+			"P": { type: "item", code: "game:plank-*" },
+			"D": { type: "block", code: "game:door-solid-*"  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "medieval:anidoor-anidoordoortall"  }
+	},
+	{
+		ingredientPattern: "HPW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"P": { type: "item", code: "game:chisel-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anidoor-anidoordoortall"  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "medieval:anidoor-anidoordoortalleng"  }
+	},
+	{
+		ingredientPattern: "HWW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anidoor-anidoordoortall"  },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "medieval:anigate-doorgate"  }
+	},
+	{
+		ingredientPattern: "HWW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anidoor-anidoordoor"  },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "medieval:anigate-doorhalfgate"  }
+	},
+	{
+		ingredientPattern: "HCW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anigate-doorgate"  },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "medieval:anigate-doorgateeng"  }
+	},
+	{
+		ingredientPattern: "HCW",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true  },
+			"W": { type: "block", code: "medieval:anigate-doorhalfgate"  },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "medieval:anigate-doorhalfgateeng"  }
+	},
+
+
+
+
+
+	{
+	ingredientPattern: "HW,SW",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true  },
+		"W": { type: "item", code: "game:plank-*" },
+		"S": { type: "block", code: "game:trapdoor-closed-up-north", quantity: 1 },
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "medieval:woodentrapdoor-closed-up-north", quantity: 2  }
+	},
+	{
+	ingredientPattern: "HWB,SWB",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true  },
+		"W": { type: "item", code: "game:plank-*" },
+		"S": { type: "block", code: "game:trapdoor-closed-up-north", quantity: 1 },
+      	"B": { "type": "item", "code": "medieval:metalbar-molybdochalkos", quantity: 1 }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "medieval:heavytrapdoor-closed-up-north", quantity: 2  }
+	},
+	{
+	ingredientPattern: "S,H,H",
+	ingredients: {
+		"S": { type: "item", code: "game:stick" },
+		"H": { type: "item", code: "game:hide-pelt-medium" }
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "medieval:doormedievalleather-doorleather-north-down-closed-left", quantity: 1  }
+	}
+]

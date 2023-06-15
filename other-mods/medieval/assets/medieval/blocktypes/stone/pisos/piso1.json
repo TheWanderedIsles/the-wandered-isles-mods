@@ -1,0 +1,25 @@
+{
+	code: "piso1",
+	class: "Block",
+	attributes: {
+		canChisel: true,
+	},
+	shape: { base: "game:block/stone/pisos/piso1" },
+	blockmaterial: "Stone",
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+	replaceable: 200,
+	resistance: 2.5,
+	lightAbsorption: 99,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	textures: {
+		"all": { base: "block/stone/pisos/piso1/piso*" },
+	},
+	sounds: {
+		walk: "walk/stone",
+	},
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

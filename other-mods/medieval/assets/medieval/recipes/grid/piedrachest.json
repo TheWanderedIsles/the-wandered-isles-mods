@@ -1,0 +1,21 @@
+[
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "WWW,WSW,WWW",
+		ingredients: {
+				"S": { type: "block", code: "game:chest-east", "attributes": { type: "normal-generic" } },
+    			"W": { type: "item", code: "game:stone-granite" }
+		},
+		width: 3,
+		height: 3,
+		
+		output: { type: "block", code: "piedrachest-east", "attributes": { type: "piedrachest" }, quantity: 1  }
+	}
+
+]

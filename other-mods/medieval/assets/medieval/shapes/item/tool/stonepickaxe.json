@@ -1,0 +1,107 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+		"stone": [16,16],
+		"fibers": [16,16],
+		"wood": [16,8]
+	},
+	"textures": {
+		"stone": "block/stone/rock/andesite1",
+		"fibers": "item/resource/fibers",
+		"wood": "item/tool/material/wood"
+	},
+	"elements": [
+		{
+			"name": "handle",
+			"from": [ 3.5, 7.5, 7.5 ],
+			"to": [ 14.5, 8.5, 8.5 ],
+			"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 2.0, 3.0, 13.0, 4.0 ] },
+				"east": { "texture": "#wood", "uv": [ 3.0, 0.0, 4.0, 1.0 ] },
+				"south": { "texture": "#wood", "uv": [ 1.0, 5.5, 12.0, 6.5 ] },
+				"west": { "texture": "#wood", "uv": [ 4.0, 0.0, 5.0, 1.0 ] },
+				"up": { "texture": "#wood", "uv": [ 5.0, 2.0, 16.0, 3.0 ] },
+				"down": { "texture": "#wood", "uv": [ 0.0, 5.0, 11.0, 6.0 ] }
+			}
+		},
+		{
+			"name": "Cube1",
+			"from": [ 12.4, 7.25, 6.0 ],
+			"to": [ 14.0, 8.75, 10.0 ],
+			"rotationOrigin": [ 0.4, 0.2, 0.0 ],
+			"faces": {
+				"north": { "texture": "#stone", "uv": [ 1.0, 5.0, 4.0, 8.0 ], "autoUv": false },
+				"east": { "texture": "#stone", "uv": [ 2.0, 1.0, 9.0, 4.0 ], "autoUv": false },
+				"south": { "texture": "#stone", "uv": [ 2.0, 3.0, 5.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#stone", "uv": [ 1.0, 5.0, 8.0, 8.0 ], "autoUv": false },
+				"up": { "texture": "#stone", "uv": [ 5.0, 2.0, 8.0, 9.0 ], "autoUv": false },
+				"down": { "texture": "#stone", "uv": [ 1.0, 3.0, 4.0, 10.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ 12.7, 7.26, 5.5 ],
+			"to": [ 13.7, 8.74, 6.5 ],
+			"rotationOrigin": [ 13.2, 8.0, 6.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#stone", "uv": [ 1.0, 5.0, 3.0, 8.0 ], "autoUv": false },
+				"east": { "texture": "#stone", "uv": [ 2.0, 1.0, 4.0, 4.0 ], "autoUv": false },
+				"south": { "texture": "#stone", "uv": [ 2.0, 3.0, 4.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#stone", "uv": [ 1.0, 5.0, 3.0, 8.0 ], "autoUv": false },
+				"up": { "texture": "#stone", "uv": [ 5.0, 2.0, 7.0, 4.0 ], "autoUv": false },
+				"down": { "texture": "#stone", "uv": [ 1.0, 3.0, 3.0, 5.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube3",
+			"from": [ 12.7, 7.26, 9.5 ],
+			"to": [ 13.7, 8.74, 10.5 ],
+			"rotationOrigin": [ 13.2, 8.0, 10.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#stone", "uv": [ 1.0, 5.0, 3.0, 8.0 ], "autoUv": false },
+				"east": { "texture": "#stone", "uv": [ 2.0, 1.0, 4.0, 4.0 ], "autoUv": false },
+				"south": { "texture": "#stone", "uv": [ 2.0, 3.0, 4.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#stone", "uv": [ 1.0, 5.0, 3.0, 8.0 ], "autoUv": false },
+				"up": { "texture": "#stone", "uv": [ 5.0, 2.0, 7.0, 4.0 ], "autoUv": false },
+				"down": { "texture": "#stone", "uv": [ 1.0, 3.0, 3.0, 5.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ 11.9, 7.1, 8.0 ],
+			"to": [ 14.4, 8.9, 8.2 ],
+			"rotationOrigin": [ 13.35, 7.1, 8.2 ],
+			"rotationY": -35.0,
+			"faces": {
+				"north": { "texture": "#fibers", "uv": [ 0.0, 0.0, 2.5, 1.5 ] },
+				"east": { "texture": "#fibers", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+				"south": { "texture": "#fibers", "uv": [ 0.0, 0.0, 2.5, 1.5 ] },
+				"west": { "texture": "#fibers", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+				"up": { "texture": "#fibers", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+				"down": { "texture": "#fibers", "uv": [ 0.0, 0.0, 2.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "Cube5",
+			"from": [ 11.9, 7.1, 7.8 ],
+			"to": [ 14.5, 8.9, 8.0 ],
+			"rotationOrigin": [ 13.35, 7.1, 8.0 ],
+			"rotationY": 35.0,
+			"faces": {
+				"north": { "texture": "#fibers", "uv": [ 0.0, 0.0, 2.5, 1.5 ] },
+				"east": { "texture": "#fibers", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+				"south": { "texture": "#fibers", "uv": [ 0.0, 0.0, 2.5, 1.5 ] },
+				"west": { "texture": "#fibers", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+				"up": { "texture": "#fibers", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+				"down": { "texture": "#fibers", "uv": [ 0.0, 0.0, 2.5, 0.5 ] }
+			}
+		}
+	]}

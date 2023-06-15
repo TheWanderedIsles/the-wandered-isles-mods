@@ -1,0 +1,268 @@
+[
+  {
+    "op": "add",
+    "path": "/editor",
+    "value": {
+      "allAngles": false,
+      "entityTextureMode": false
+    },
+    "file": "game:shapes/block/plant/saguarocactus/branchysgement.json"
+  },
+  {
+    "op": "add",
+    "path": "/textureHeight",
+    "value": 16,
+    "file": "game:shapes/block/plant/saguarocactus/branchysgement.json"
+  },
+  {
+    "op": "add",
+    "path": "/textureSizes",
+    "value": {},
+    "file": "game:shapes/block/plant/saguarocactus/branchysgement.json"
+  },
+  {
+    "op": "add",
+    "path": "/textureWidth",
+    "value": 16,
+    "file": "game:shapes/block/plant/saguarocactus/branchysgement.json"
+  },
+  {
+    "op": "remove",
+    "path": "/elements/1",
+    "file": "game:shapes/block/plant/saguarocactus/branchysgement.json"
+  },
+  {
+    "op": "replace",
+    "path": "/elements/1",
+    "value": {
+      "name": "Branch",
+      "from": [
+        6.0,
+        4.0,
+        1.0
+      ],
+      "to": [
+        9.0,
+        8.0,
+        3.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side",
+          "uv": [
+            5.0,
+            0.0,
+            8.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            11.0,
+            0.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#null",
+          "uv": [
+            0.0,
+            0.0,
+            3.0,
+            4.0
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            1.0,
+            5.0,
+            5.0
+          ]
+        },
+        "up": {
+          "texture": "#side",
+          "uv": [
+            11.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "rotation": 270
+        },
+        "down": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            5.0,
+            3.0
+          ],
+          "rotation": 270
+        }
+      }
+    },
+    "file": "game:shapes/block/plant/saguarocactus/branchysgement.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/2",
+    "value": {
+      "name": "Cube",
+      "from": [
+        5.0,
+        9.0,
+        13.0
+      ],
+      "to": [
+        8.0,
+        13.0,
+        15.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#null",
+          "uv": [
+            0.0,
+            0.0,
+            3.0,
+            4.0
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            11.0,
+            0.0,
+            13.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            6.0,
+            0.0,
+            9.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            1.0,
+            5.0,
+            5.0
+          ]
+        },
+        "up": {
+          "texture": "#side",
+          "uv": [
+            11.0,
+            0.0,
+            13.0,
+            3.0
+          ],
+          "rotation": 270
+        },
+        "down": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            5.0,
+            3.0
+          ],
+          "rotation": 270
+        }
+      }
+    },
+    "file": "game:shapes/block/plant/saguarocactus/branchysgement.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/3",
+    "value": {
+      "name": "Base4",
+      "from": [
+        3.0,
+        -0.05,
+        3.0
+      ],
+      "to": [
+        13.0,
+        15.95,
+        13.0
+      ],
+      "rotationOrigin": [
+        8.0,
+        0.0,
+        8.0
+      ],
+      "rotationY": -45.0,
+      "faces": {
+        "north": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            3.0,
+            6.0,
+            13.0,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "#top",
+          "uv": [
+            3.0,
+            6.0,
+            13.0,
+            16.0
+          ]
+        }
+      }
+    },
+    "file": "game:shapes/block/plant/saguarocactus/branchysgement.json"
+  }
+]

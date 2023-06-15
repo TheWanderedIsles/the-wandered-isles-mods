@@ -1,0 +1,597 @@
+[
+	{
+	"ingredientPattern": "LMM,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-black", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LMM,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-metal-rusty" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-black", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "LNN,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-black", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LCC,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-chromite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-black", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LCC,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-metal-copper" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-blue", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "LMX,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite" },
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-brown", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LMX,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-metal-rusty" },
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-brown", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "LCZ,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-metal-copper" },
+		"Z": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 1 },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-greenblue", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LGI,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"G": { "type": "item", "code": "em:powdered-metal-gold" },
+		"I": { "type": "item", "code": "em:powdered-ore-ilmenite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-gold", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LOO,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"O": { "type": "item", "code": "em:powdered-ore-olivine" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-green", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LCL,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-metal-copper" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-green", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LCP,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-chromiumoxide" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"P": { "type": "item", "code": "em:powdered-ore-quartz" },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-green", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LML,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-ore-malachite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-malachite", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRY,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"Y": { "type": "item", "code": "em:powdered-ore-massicot" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-orange", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRY,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"Y": { "type": "item", "code": "em:powdered-ore-massicot" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-orange", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRY,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"Y": { "type": "item", "code": "em:powdered-ore-massicot" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-orange", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "LRY,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"Y": { "type": "item", "code": "em:powdered-ore-limonite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-orange", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRY,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"Y": { "type": "item", "code": "em:powdered-ore-limonite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-orange", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRY,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"Y": { "type": "item", "code": "em:powdered-ore-limonite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-orange", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRT,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"T": { "type": "item", "code": "em:powdered-ore-cassiterite" },
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-pink", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRT,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"T": { "type": "item", "code": "em:powdered-ore-cassiterite" },
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-pink", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRR,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-pink", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "LMR,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite" },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-green", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LMR,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-metal-rusty" },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-green", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "LNR,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-purple", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRZ,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"Z": { "type": "item", "code": "em:powdered-ore-lapislazuli" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-purple", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRZ,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"Z": { "type": "item", "code": "em:powdered-ore-lapislazuli" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-purple", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRZ,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"Z": { "type": "item", "code": "em:powdered-ore-lapislazuli" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-purple", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRN,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-purple", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRN,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-purple", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRN,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-purple", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LCC,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-red", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRC,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"C": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-red", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LHC,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"H": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"C": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-red", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRX,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-cinnabar" },
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-redbrown", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRX,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-litharge" },
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-redbrown", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LRX,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"R": { "type": "item", "code": "em:powdered-ore-hematite" },
+		"X": { "type": "item", "code": "em:powdered-ore-bauxite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-redbrown", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LZL,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"Z": { "type": "item", "code": "em:powdered-ore-lapislazuli" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-lapislazuli", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LNL,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"N": { "type": "item", "code": "em:powdered-metal-nickel" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-lapislazuli", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LTI,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"T": { "type": "item", "code": "em:powdered-ore-cassiterite" },
+		"I": { "type": "item", "code": "em:powdered-ore-ilmenite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-white", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LIT,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"T": { "type": "item", "code": "em:powdered-ore-cassiterite" },
+		"I": { "type": "item", "code": "em:powdered-ore-ilmenite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-white", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LMM,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-ore-massicot" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-yellow", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LYY,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"Y": { "type": "item", "code": "em:powdered-ore-limonite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-yellow", "quantity": 4 }
+	}
+
+]

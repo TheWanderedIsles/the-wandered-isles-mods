@@ -1,0 +1,44 @@
+[
+	{
+		file: "itemtypes/bag/silkframepack.json",
+		op: "add",
+		path: "/enabled",
+		value: "false",
+		dependsOn: [{ "modid": "spidersilk", "invert": true	}]
+	},
+	{
+		file: "itemtypes/bag/silkminingpack.json",
+		op: "add",
+		path: "/enabled",
+		value: "false",
+		dependsOn: [{ "modid": "spidersilk", "invert": true	}]
+	},
+	{
+		file: "recipes/grid/silkframepack.json",
+		op: "add",	
+		path: "/0/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "spidersilk", "invert": true	}]
+	},
+	{
+		file: "recipes/grid/silkframepack.json",
+		op: "add",	
+		path: "/1/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "spidersilk", "invert": true	}]
+	},
+	{
+		file: "recipes/grid/silkframepack.json",
+		op: "add",	
+		path: "/2/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "spidersilk", "invert": true	}]
+	},
+	{
+		file: "recipes/grid/silkframepack.json",
+		op: "add",	
+		path: "/3/enabled",	
+		value: "false",
+		dependsOn: [{ "modid": "spidersilk", "invert": true	}]
+	}
+]

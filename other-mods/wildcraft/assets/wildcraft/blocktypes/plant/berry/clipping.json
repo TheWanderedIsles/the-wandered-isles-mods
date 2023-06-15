@@ -1,0 +1,170 @@
+{
+  "code": "clipping",
+  "class": "BlockPlant",
+  "entityclassbytype": {
+    "*-alive": "BEClipping"
+  },
+  "attributes": {
+    "matureDays": {
+      "avg": 7,
+      "var": 2
+    },
+    "dieBelowTemp": -2,
+    "bushCodebyType": {
+      "*-redcurrant-*": "game:bigberrybush-redcurrant-empty",
+      "*-blackcurrant-*": "game:bigberrybush-blackcurrant-empty",
+      "*-whitecurrant-*": "game:bigberrybush-whitecurrant-empty",
+
+      "*-blueberry-*": "game:smallberrybush-blueberry-empty",
+      "*-cranberry-*": "game:smallberrybush-cranberry-empty",
+
+      "*-huckleberry-*": "wildcraft:berrybush-huckleberry-empty",
+      "*-gooseberry-*": "wildcraft:berrybush-gooseberry-empty",
+      "*-honeysuckle-*": "wildcraft:berrybush-honeysuckle-empty",
+      "*-snowberry-*": "wildcraft:berrybush-snowberry-empty",
+      "*-wolfberry-*": "wildcraft:berrybush-wolfberry-empty",
+
+      "*-elderberry-*": "wildcraft:shrubberrybush-elderberry-empty",
+      "*-husktomato-*": "wildcraft:shrubberrybush-husktomato-empty",
+
+      "*-raspberry-*": "wildcraft:pricklyberrybush-raspberry-empty",
+      "*-brambleberry-*": "wildcraft:pricklyberrybush-brambleberry-empty",
+      "*-dogrose-*": "wildcraft:pricklyberrybush-dogrose-empty",
+      "*-blueraspberry-*": "wildcraft:pricklyberrybush-blueraspberry-empty"
+    }
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "husktomato", "wolfberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry"]
+    },
+    {
+      "code": "state",
+      "states": [ "alive", "dead" ]
+    }
+  ],
+  "renderpass": "OpaqueNoCull",
+  "drawtype": "JSON",
+  "randomDrawOffset": true,
+  "randomizeRotations": true,
+  "shapeByType": {
+    "*-elderberry-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+    "*-husktomato-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+
+    "*-dead": { "base": "wildcraft:block/plant/clipping/child_dead" },
+    "*-alive": { "base": "wildcraft:block/plant/clipping/child" }
+  },
+  "blockmaterial": "Plant",
+  "sideopaqueByType": {
+    "*": { "all": false }
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "texturesByType": {
+    "*-blueberry-*": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-cranberry-*": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-redcurrant-*": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-blackcurrant-*": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+    },
+    "*-whitecurrant-*": {
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/redcurrant*" }
+    },
+    "*-elderberry-*": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/elderberry_growing" }
+    },
+    "*-husktomato-*": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/husktomato_growing" }
+    },
+    "*": {
+      "leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
+    }
+  },
+  "dropsByType": {
+    "*-dead": [
+      {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": { "avg": 1.0 }
+      }
+    ],
+    "*-alive": [
+      {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": { "avg": 1.0 }
+      }
+    ]
+  },
+  "replaceable": 5200,
+  "lightAbsorption": 0,
+  "resistance": 1,
+  "collisionbox": null,
+  "selectionbox": {
+    "x1": 0.3,
+    "y1": 0,
+    "z1": 0.2,
+    "x2": 0.7,
+    "y2": 0.5,
+    "z2": 0.7
+  },
+  "sounds": {
+    "place": "game:block/plant",
+    "break": "game:block/plant",
+    "hit": "game:block/plant"
+  },
+  "rainPermeable": true,
+  "materialDensity": 200,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  },
+  "guiTransformByType": {
+    "*": {
+        "rotation": { "x": 94, "y": 0, "z": 0 },
+        "origin": { "x": 0.6, "y": 0.2, "z": 0.6 },
+        "scale": 1.47
+    }
+  },
+  "fpHandTransform": {
+		"rotation": { "x": 87, "y": 152, "z": -58 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.3 }
+	},
+  "tpHandTransform": {
+      "rotation": { "x": 0, "y": 55, "z": 14 },
+      "origin": { "x": 0.5, "y": 0.75, "z": 0.4 },
+      "scale": 0.34
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": -45,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 3
+  },
+  "frostable": true,
+  "__comment": "Wind wave looks not good on ground and horrible in planters and flower post",
+  "vertexFlags": {
+    "weakWave": true,
+    "grassWindWave": false,
+    "leavesWindWave": false
+  }
+}

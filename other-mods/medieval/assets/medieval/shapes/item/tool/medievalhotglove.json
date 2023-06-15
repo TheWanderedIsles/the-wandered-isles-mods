@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"0": "item/tool/glove/hotglove"
+	},
+	"elements": [
+		{
+			"name": "cube0",
+			"from": [ 6.5, 0.0, 6.75 ],
+			"to": [ 9.5, 6.5, 9.25 ],
+			"rotationOrigin": [ 7.5, 0.0, 7.75 ],
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 5.0, 6.5, 8.0, 13.0 ], "autoUv": false },
+				"east": { "texture": "#0", "uv": [ 13.5, 6.5, 16.0, 13.0 ], "autoUv": false },
+				"south": { "texture": "#0", "uv": [ 10.5, 6.5, 13.5, 13.0 ], "autoUv": false },
+				"west": { "texture": "#0", "uv": [ 8.0, 6.5, 10.5, 13.0 ], "autoUv": false },
+				"up": { "texture": "#0", "uv": [ 13.5, 13.0, 16.0, 16.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#0", "uv": [ 8.0, 13.0, 10.5, 16.0 ], "rotation": 90, "autoUv": false }
+			}
+		}
+	]}

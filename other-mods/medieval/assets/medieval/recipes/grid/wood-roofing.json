@@ -1,0 +1,242 @@
+[
+
+
+	{
+		ingredientPattern: "__P,_P_,P__",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "planksroofing-{material}-east-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "_P_,P_P",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "planksroofingridge-{material}-ns-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "_P_,PPP",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "planksroofingtip-{material}-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "_P,P_,_P",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "planksroofingcornerinner-{material}-east-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "_P,PP",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "planksroofingcornerouter-{material}-east-free", quantity: 2  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "W_W,_W_,W__",
+		ingredients: {
+			"A": { tyWe: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "smallplanksroofing-{material}-east-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofing-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofinghalfup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofinghalfup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingdown-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingdown-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofing-{material}-east-free", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "WW_,W_W,___",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "smallplanksroofingridge-{material}-ns-free", quantity: 2  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "WW_,WWW,___",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "smallplanksroofingtip-{material}-free", quantity: 2  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "WW_,W__,_W_",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "smallplanksroofingcornerinner-{material}-east-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingcornerinner-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingcornerinnerup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingcornerinnerup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingcornerinnerhalfup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingcornerinnerhalfup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingcornerinnerdown-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingcornerinnerdown-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingcornerinner-{material}-east-free", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "_WW,WW_,___",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"W": { type: "item", code: "game:plank-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+	shapeless: false,
+		output: { type: "block", code: "smallplanksroofingcornerouter-{material}-east-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingcornerouter-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingcornerouterup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingcornerouterup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingcornerouterhalfup-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingcornerouterhalfup-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingcornerouterdown-{material}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "W",
+		ingredients: {
+			"W": { type: "block", code: "smallplanksroofingcornerouterdown-*-east-free", name: "material", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "smallplanksroofingcornerouter-{material}-east-free", quantity: 1  }
+	}
+]

@@ -1,0 +1,40 @@
+[
+	{
+	"ingredientPattern": "LMC,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"M": { "type": "item", "code": "em:powdered-ore-magnetite" },
+		"C": { "type": "item", "code": "moremetals:cobalt" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "game:powderedborax" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-black", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LCC,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "moremetals:cobalt" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "game:powderedborax" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-greenblue", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "LCM,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "moremetals:cobalt" },
+		"M": { "type": "item", "code": "moremetals:crushed-magnesium" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "game:powderedborax" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-purple", "quantity": 4 }
+	}
+]

@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"walnutmed": "block/wood/sincortezalog/debarked/pillar/vikingwalnut/walnutmed",
+		"walnut": "block/wood/sincortezalog/debarked/walnut"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#walnutmed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#walnutmed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#walnutmed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#walnutmed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#walnut", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#walnut", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

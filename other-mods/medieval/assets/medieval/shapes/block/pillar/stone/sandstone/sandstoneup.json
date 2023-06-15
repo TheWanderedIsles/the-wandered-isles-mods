@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"sandstone": "block/stone/polishedrock/sandstone",
+		"sandstoneup": "block/stone/pillar/sandstone/sandstoneup"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#sandstoneup", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#sandstoneup", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#sandstoneup", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#sandstoneup", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#sandstone", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#sandstone", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

@@ -1,0 +1,93 @@
+[
+	{
+	"ingredientPattern": "BC",
+	"ingredients": {
+		"B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-clear-*-plain" },
+		"C": { "type": "item", "code": "game:bandage-clean" }
+	},
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "game:bandage-alcoholed" }
+	},
+
+	{
+	"ingredientPattern": "BC",
+	"ingredients": {
+		"B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-milky-*-plain" },
+		"C": { "type": "item", "code": "game:bandage-clean" }
+	},
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "game:bandage-alcoholed" }
+	},
+
+	{
+	"ingredientPattern": "MC",
+	"ingredients": {
+		"M": { "type": "block", "code": "bricklayers:coloredmug-burnt-*" },
+		"C": { "type": "item", "code": "game:bandage-clean" }
+	},
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "game:bandage-alcoholed" }
+	},
+
+	{
+	"ingredientPattern": "MC",
+	"ingredients": {
+		"M": { "type": "block", "code": "bricklayers:glazedmug-burnt-clear-*-plain" },
+		"C": { "type": "item", "code": "game:bandage-clean" }
+	},
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "game:bandage-alcoholed" }
+	},
+
+	{
+	"ingredientPattern": "MC",
+	"ingredients": {
+		"M": { "type": "block", "code": "bricklayers:glazedmug-burnt-milky-*-plain" },
+		"C": { "type": "item", "code": "game:bandage-clean" }
+	},
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "game:bandage-alcoholed" }
+	},
+
+	{
+	"ingredientPattern": "MC",
+	"ingredients": {
+		"M": { "type": "block", "code": "bricklayers:glazedmug-burnt-clear-*-checker" },
+		"C": { "type": "item", "code": "game:bandage-clean" }
+	},
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "game:bandage-alcoholed" }
+	},
+
+	{
+	"ingredientPattern": "MC",
+	"ingredients": {
+		"M": { "type": "block", "code": "bricklayers:glazedmug-burnt-milky-*-checker" },
+		"C": { "type": "item", "code": "game:bandage-clean" }
+	},
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:alcoholportion" }, "requiresLitres": 0.2 } },
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "game:bandage-alcoholed" }
+	}
+
+]

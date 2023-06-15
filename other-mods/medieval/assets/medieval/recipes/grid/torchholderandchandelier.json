@@ -1,0 +1,34 @@
+[
+	{
+	ingredientPattern: "I,I",
+	ingredients: {
+		"I": { type: "item", code: "game:ingot-molybdochalkos" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "block", code: "game:torchholder-aged-empty-north", quantity: 4  }
+
+	},
+	{
+	ingredientPattern: "_B_,BBB",
+	ingredients: {
+		"B": { type: "block", code: "game:torchholder-aged-empty-north" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "game:chandelier-candle0", quantity: 2  }
+
+	},
+	{
+	ingredientPattern: "BBB,BCB,BBB",
+	ingredients: {
+		"B": { type: "block", code: "game:torchholder-aged-empty-north" },
+		"C": { type: "item", code: "game:candle", quantity: 8 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "candil1", quantity: 1  }
+
+	}
+
+]

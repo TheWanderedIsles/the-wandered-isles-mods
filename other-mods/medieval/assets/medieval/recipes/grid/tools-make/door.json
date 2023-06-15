@@ -1,0 +1,24 @@
+[
+	{
+		ingredientPattern: "AS	PS	PS",
+		ingredients: {
+			"A": { type: "item", code: "axe-*", isTool: true  },
+			"P": { type: "block", code: "game:log-placed-*-ud" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:door-log-north-down-closed-left"  }
+	},
+	{
+		ingredientPattern: "AS	PS	PS",
+		ingredients: {
+			"A": { type: "item", code: "bigaxe-*", isTool: true  },
+			"P": { type: "block", code: "game:log-placed-*-ud" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:door-log-north-down-closed-left"  }
+	}
+]

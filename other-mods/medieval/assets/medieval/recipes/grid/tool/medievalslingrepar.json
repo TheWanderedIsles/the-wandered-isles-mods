@@ -1,0 +1,62 @@
+[
+	{
+		ingredientPattern: "R,L",
+		ingredients: {
+			"R": { type: "item", code: "medieval:medievalslingtitanium" },
+			"L": { type: "item", code: "game:metalbit-titanium", quantity: 40 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "medieval:medievalslingtitanium", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R,L",
+		ingredients: {
+			"R": { type: "item", code: "medieval:medievalslingstainlesssteel" },
+			"L": { type: "item", code: "game:metalbit-stainlesssteel", quantity: 40 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "medieval:medievalslingstainlesssteel", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R,L",
+		ingredients: {
+			"R": { type: "item", code: "medieval:medievalslingsteel" },
+			"L": { type: "item", code: "game:metalbit-steel", quantity: 40 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "medieval:medievalslingsteel", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R,L",
+		ingredients: {
+			"R": { type: "item", code: "medieval:medievalslingiron" },
+			"L": { type: "item", code: "game:metalbit-iron", quantity: 40 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "medieval:medievalslingiron", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R,L",
+		ingredients: {
+			"R": { type: "item", code: "medieval:medievalslingmeteoriciron" },
+			"L": { type: "item", code: "game:metalbit-meteoriciron", quantity: 40 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "medieval:medievalslingmeteoriciron", quantity: 1  }
+	},
+	{
+		ingredientPattern: "R,L",
+		ingredients: {
+			"R": { type: "item", code: "game:sling" },
+			"L": { type: "item", code: "game:leather-plain" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:sling", quantity: 1  }
+	}
+]

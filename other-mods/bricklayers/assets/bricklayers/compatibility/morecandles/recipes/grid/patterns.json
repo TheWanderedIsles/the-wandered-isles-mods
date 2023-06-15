@@ -1,0 +1,23 @@
+[
+	{
+	"ingredientPattern": "W,P",
+	"ingredients": {
+		"W": { "type": "block", "code": "morecandles:waxblock" },
+		"P": { "type": "block", "code": "bricklayers:pattern-burnt-*", "name": "type" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:pattern-waxed-{type}", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "W,P",
+	"ingredients": {
+		"W": { "type": "block", "code": "morecandles:soyblock" },
+		"P": { "type": "block", "code": "bricklayers:pattern-burnt-*", "name": "type" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:pattern-waxed-{type}", "quantity": 1 }
+	}
+]

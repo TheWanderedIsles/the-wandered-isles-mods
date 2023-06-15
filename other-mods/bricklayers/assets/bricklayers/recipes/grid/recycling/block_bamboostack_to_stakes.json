@@ -1,0 +1,24 @@
+[
+	{
+	"ingredientPattern": "A,B",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:axe-*", "isTool": true },
+		"B": { "type": "block", "code": "game:stackedbamboo-ud", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:bamboostakes", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "S,B",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"B": { "type": "block", "code": "game:stackedbamboo-ud", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:bamboostakes", "quantity": 4 }
+	}
+]

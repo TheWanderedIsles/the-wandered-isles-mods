@@ -1,0 +1,42 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"downr": "block/wood/door/doorplanks/oak-downr",
+		"knob": "block/wood/door/doorplanks/knob"
+	},
+	"elements": [
+		{
+			"name": "Leftframe",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 2.0 ], 
+			"faces": {
+				"north": { "texture": "#downr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#downr", "uv": [ 13.5, 0.0, 15.5, 16.0 ] },
+				"south": { "texture": "#downr", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#downr", "uv": [ 2.0, 0.0, 0.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#downr", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"down": { "texture": "#downr", "uv": [ 0.0, 0.0, 16.0, 2.0 ] }
+			}
+		},
+		{
+			"name": "Cube1",
+			"from": [ -0.05, 4.0, -0.5 ], 
+			"to": [ 15.95, 6.5, 2.5 ], 
+			"rotationOrigin": [ -0.1, 4.0, -0.5 ],
+			"faces": {
+				"north": { "texture": "#knob", "uv": [ 0.0, 11.0, 16.0, 13.5 ] },
+				"east": { "texture": "#knob", "uv": [ 5.0, 11.0, 8.0, 13.5 ] },
+				"south": { "texture": "#knob", "uv": [ 0.0, 13.5, 16.0, 16.0 ] },
+				"west": { "texture": "#knob", "uv": [ 5.0, 11.0, 8.0, 13.5 ] },
+				"up": { "texture": "#knob", "uv": [ 0.0, 11.0, 16.0, 13.5 ], "autoUv": false },
+				"down": { "texture": "#knob", "uv": [ 0.0, 11.0, 16.0, 13.5 ], "autoUv": false }
+			}
+		}
+	]}

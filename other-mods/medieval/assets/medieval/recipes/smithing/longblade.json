@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"_######_________",
+		"################",
+		"_######_________"
+	]],
+	name: "longblade",
+	output: { type: "item", code: "longbladehead-{metal}"  }
+}

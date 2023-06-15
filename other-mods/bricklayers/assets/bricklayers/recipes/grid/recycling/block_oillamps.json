@@ -1,0 +1,32 @@
+[
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:glazedoillamp-clear-*-up", "name": "color" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "block", "code": "bricklayers:glazedbowl-burnt-clear-{color}-plain" }
+	},
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:glazedoillamp-milky-*-up", "name": "color" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "block", "code": "bricklayers:glazedbowl-burnt-milky-{color}-plain" }
+	},
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "game:oillamp-up" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "block", "code": "game:bowl-fired" }
+	}
+]

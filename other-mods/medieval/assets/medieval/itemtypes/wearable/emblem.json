@@ -1,0 +1,295 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["emblem"] },
+		{ code: "emblem", combine: "SelectiveMultiply", onVariant: "category", states: ["corset", "chain", "leathercross", "leathersquare", "leathersquarem", "armor1", "armor8", "armor10", "black1", "chain1", "guard", "iron", "iron1", "king", "leathersquare2", "leathersquare3", "brown-fur-coat", "red-fur-coat", "red-fur-coat1", "white-fur-coat1", "white-fur-coat2", "ladyarmortop", "hunter", "capa", "emperador", "lad" ] }
+	],
+	shapeByType: {
+		"*-corset": { base: "game:entity/humanoid/seraph" },
+		"*-chain": { base: "game:entity/humanoid/seraph" },
+		"*-leathercross": { base: "game:entity/humanoid/seraph" },
+		"*-leathersquare": { base: "game:entity/humanoid/seraph" },
+		"*-leathersquarem": { base: "game:entity/humanoid/seraph" },
+		"*-armor1": { base: "game:entity/humanoid/seraph" },
+		"*-armor8": { base: "game:entity/humanoid/seraph" },
+		"*-armor10": { base: "game:entity/humanoid/seraph" },
+		"*-black1": { base: "game:entity/humanoid/seraph" },
+		"*-chain1": { base: "game:entity/humanoid/seraph" },
+		"*-guard": { base: "game:entity/humanoid/seraph" },
+		"*-iron": { base: "game:entity/humanoid/seraph" },
+		"*-iron1": { base: "game:entity/humanoid/seraph" },
+		"*-king": { base: "game:entity/humanoid/seraph" },
+		"*-leathersquare2": { base: "game:entity/humanoid/seraph" },
+		"*-leathersquare3": { base: "game:entity/humanoid/seraph" },
+		"*-brown-fur-coat": { base: "game:entity/humanoid/seraph" },
+		"*-red-fur-coat": { base: "game:entity/humanoid/seraph" },
+		"*-red-fur-coat1": { base: "game:entity/humanoid/seraph" },
+		"*-white-fur-coat1": { base: "game:entity/humanoid/seraph" },
+		"*-white-fur-coat2": { base: "game:entity/humanoid/seraph" },
+		"*-ladyarmortop": { base: "game:entity/humanoid/seraph" },
+		"*-hunter": { base: "game:entity/humanoid/seraph" },
+		"*-lad": { base: "game:entity/humanoid/seraph" },
+		"*-capa": { base: "game:entity/humanoid/seraph" },
+		"*-emperador": { base: "game:entity/humanoid/seraph" }
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"*-corset": { clothescategory: "emblem", warmth: 0.5 },
+		"*-chain": { clothescategory: "emblem", warmth: 0.5 },
+		"*-leathercross": { clothescategory: "emblem", warmth: 0.5 },
+		"*-leathersquare": { clothescategory: "emblem", warmth: 0.5 },
+		"*-leathersquarem": { clothescategory: "emblem", warmth: 0.5 },
+		"*-armor1": { clothescategory: "emblem", warmth: 0.5 },
+		"*-armor8": { clothescategory: "emblem", warmth: 0.5 },
+		"*-armor10": { clothescategory: "emblem", warmth: 0.5 },
+		"*-black1": { clothescategory: "emblem", warmth: 0.5 },
+		"*-chain1": { clothescategory: "emblem", warmth: 0.5 },
+		"*-guard": { clothescategory: "emblem", warmth: 0.5 },
+		"*-iron": { clothescategory: "emblem", warmth: 0.5 },
+		"*-iron1": { clothescategory: "emblem", warmth: 0.5 },
+		"*-king": { clothescategory: "emblem", warmth: 0.5 },
+		"*-leathersquare2": { clothescategory: "emblem", warmth: 0.5 },
+		"*-leathersquare3": { clothescategory: "emblem", warmth: 0.5 },
+		"*-ladyarmortop": { clothescategory: "emblem", warmth: 0.5 },
+		"*-hunter": { clothescategory: "emblem", warmth: 3 },
+		"*-lad": { clothescategory: "emblem", warmth: 2.5 },
+		"*-capa": { clothescategory: "emblem", warmth: 3 },
+		"*-emperador": { clothescategory: "emblem", warmth: 3 },
+		"*-brown-fur-coat": { clothescategory: "emblem", disableElements: ["Ponytail1", "hideme"], warmth: 4 },
+		"*-red-fur-coat": { clothescategory: "emblem", disableElements: ["Ponytail1", "hideme"], warmth: 4 },
+		"*-red-fur-coat1": { clothescategory: "emblem", disableElements: ["Ponytail1", "hideme"], warmth: 4 },
+		"*-white-fur-coat1": { clothescategory: "emblem", disableElements: ["Ponytail1", "hideme"], warmth: 4 },
+		"*-white-fur-coat2": { clothescategory: "emblem", disableElements: ["Ponytail1", "hideme"], warmth: 4 },
+		"*": { clothescategory: "emblem", warmth: 4 }
+	},
+	texturesByType: {
+		"*-corset": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-chain": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-leathercross": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-leathersquare": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-leathersquarem": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-armor1": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-armor8": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-armor10": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-black1": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-chain1": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-guard": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-iron": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-iron1": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-king": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-leathersquare2": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-leathersquare3": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-brown-fur-coat": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-red-fur-coat": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-red-fur-coat1": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-white-fur-coat1": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-white-fur-coat2": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-ladyarmortop": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-hunter": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-lad": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-capa": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-emperador": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransformByType: {
+		"*-corset": {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+		},
+		"*-chain": {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+		},
+		"*": {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+		}
+	},
+	tpHandTransformByType: {
+		"*-corset": {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+		},
+		"*-chain": {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+		},
+		"*": {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+		}
+	},
+	guiTransformByType: {
+		"*-corset": {	
+		translation: { x: 2, y: 4, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 2.5
+		},
+		"*-armor1": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-armor8": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-armor10": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-ladyarmortop": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-chain1": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-guard": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-iron": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-iron1": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-king": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-hunter": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-lad": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-capa": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-emperador": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-leathersquare2": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-leathersquare3": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-black1": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-chain": {	
+		translation: { x: 2, y: 14, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 2.5
+		},
+		"*-brown-fur-coat": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-red-fur-coat": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-red-fur-coat1": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-white-fur-coat1": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-white-fur-coat2": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*": {	
+		translation: { x: 2, y: 14, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 2.5
+		}
+	},
+	groundTransformByType: {
+		"*-corset": {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	},
+		"*-chain": {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	},
+		"*": {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	}
+}

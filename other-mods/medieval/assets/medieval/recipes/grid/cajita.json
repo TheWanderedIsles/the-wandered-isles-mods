@@ -1,0 +1,195 @@
+[
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "PS,SP",
+		ingredients: {
+				"P": { type: "item", code: "game:plank-*", quantity: 1 },
+				"S": { type: "item", code: "game:stick", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		
+		output: { type: "block", code: "medieval:cajitafloor-none-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitafloor-none-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitawall-none-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitawall-none-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitafloor-none-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P,S",
+		ingredients: {
+				"P": { type: "item", code: "game:legume-soybean", quantity: 1 },
+				"S": { type: "block", code: "medieval:cajitafloor-none-north", quantity: 1 }
+		},
+		width:1,
+		height: 2,
+		
+		output: { type: "block", code: "medieval:cajitafloor-soybean-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitafloor-soybean-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitawall-soybean-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitawall-soybean-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitafloor-soybean-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P,S",
+		ingredients: {
+				"P": { type: "item", code: "game:vegetable-cabbage", quantity: 1 },
+				"S": { type: "block", code: "medieval:cajitafloor-none-north", quantity: 1 }
+		},
+		width:1,
+		height: 2,
+		
+		output: { type: "block", code: "medieval:cajitafloor-cabbage-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitafloor-cabbage-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitawall-cabbage-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitawall-cabbage-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitafloor-cabbage-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P,S",
+		ingredients: {
+				"P": { type: "item", code: "game:vegetable-carrot", quantity: 1 },
+				"S": { type: "block", code: "medieval:cajitafloor-none-north", quantity: 1 }
+		},
+		width:1,
+		height: 2,
+		
+		output: { type: "block", code: "medieval:cajitafloor-carrot-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitafloor-carrot-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitawall-carrot-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitawall-carrot-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitafloor-carrot-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P,S",
+		ingredients: {
+				"P": { type: "item", code: "game:vegetable-onion", quantity: 1 },
+				"S": { type: "block", code: "medieval:cajitafloor-none-north", quantity: 1 }
+		},
+		width:1,
+		height: 2,
+		
+		output: { type: "block", code: "medieval:cajitafloor-onion-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitafloor-onion-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitawall-onion-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitawall-onion-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitafloor-onion-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "P,S",
+		ingredients: {
+				"P": { type: "item", code: "game:vegetable-turnip", quantity: 1 },
+				"S": { type: "block", code: "medieval:cajitafloor-none-north", quantity: 1 }
+		},
+		width:1,
+		height: 2,
+		
+		output: { type: "block", code: "medieval:cajitafloor-turnip-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitafloor-turnip-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitawall-turnip-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+				"C": { type: "block", code: "medieval:cajitawall-turnip-north", quantity: 1 }
+		},
+		width:1,
+		height: 1,
+		
+		output: { type: "block", code: "medieval:cajitafloor-turnip-north", quantity: 1  }
+	}
+]

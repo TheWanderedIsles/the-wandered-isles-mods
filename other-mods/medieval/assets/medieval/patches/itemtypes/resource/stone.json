@@ -1,0 +1,19 @@
+[
+
+
+	{ "file": "game:itemtypes/resource/stone.json",
+      "side": "Server", 
+	  "op": "add", 
+	  "path": "/combustiblePropsByType/stone-*", 
+	  "value": {
+
+				"meltingPoint": 1350,
+				"meltingDuration": 15,
+				"smeltedRatio": 2,
+				"smeltedStack": { "type": "block", "code": "rock-{rock}" }
+		
+				}
+	}
+
+]
+

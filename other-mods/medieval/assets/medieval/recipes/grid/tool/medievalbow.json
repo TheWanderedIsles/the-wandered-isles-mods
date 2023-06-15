@@ -1,0 +1,28 @@
+[
+	{
+		ingredientPattern: "MFT	BLT	MFT",
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-recurve-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:leather-red" },
+			"F": { type: "item", code: "medieval:horn" },
+			"M": { type: "item", code: "game:nugget-nativegold" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalbow-bowleon", quantity: 1  }
+	},
+	{
+		ingredientPattern: "MFT	BLT	MFT",
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-recurve-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "game:leather-red" },
+			"F": { type: "item", code: "medieval:horn" },
+			"M": { type: "item", code: "game:metalbit-gold" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medieval:medievalbow-bowleon", quantity: 1  }
+	}
+]

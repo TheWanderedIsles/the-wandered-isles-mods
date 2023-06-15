@@ -1,0 +1,41 @@
+[
+    {
+	"ingredientPattern": "CMN",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:crushed-chromite", "quantity": 9 },
+		"M": { "type": "item", "code": "em:crushed-ore-magnetite", "quantity": 7 },
+		"N": { "type": "item", "code": "moremetals:crushed-nativemolybdenite", "quantity": 4 }
+	},
+	"name": "Chromoly compound blend",
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:chromolycompoundblendmagnetite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "CHN",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:crushed-chromite", "quantity": 9 },
+		"H": { "type": "item", "code": "em:crushed-ore-hematite", "quantity": 7 },
+		"N": { "type": "item", "code": "moremetals:crushed-nativemolybdenite", "quantity": 4 }
+	},
+	"name": "Chromoly compound blend",
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:chromolycompoundblendhematite", "quantity": 1 }
+   },
+    {
+	"ingredientPattern": "CLN",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:crushed-chromite", "quantity": 9 },
+		"L": { "type": "item", "code": "em:crushed-ore-limonite", "quantity": 7 },
+		"N": { "type": "item", "code": "moremetals:crushed-nativemolybdenite", "quantity": 4 }
+	},
+	"name": "Chromoly compound blend",
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "moremetals:chromolycompoundblendlimonite", "quantity": 1 }
+   }
+]

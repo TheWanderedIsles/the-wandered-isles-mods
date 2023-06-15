@@ -1,0 +1,99 @@
+[
+  {
+    "op": "add",
+    "path": "/textureSizes",
+    "value": {},
+    "file": "game:shapes/block/plant/saguarocactus/top-flowering.json"
+  },
+  {
+    "op": "remove",
+    "path": "/editor/singleTexture",
+    "file": "game:shapes/block/plant/saguarocactus/top-flowering.json"
+  },
+  {
+    "op": "add",
+    "path": "/editor/entityTextureMode",
+    "value": false,
+    "file": "game:shapes/block/plant/saguarocactus/top-flowering.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/4",
+    "value": {
+      "name": "Base5",
+      "from": [
+        3.0,
+        -0.05,
+        3.0
+      ],
+      "to": [
+        13.0,
+        13.95,
+        13.0
+      ],
+      "rotationOrigin": [
+        8.0,
+        0.0,
+        8.0
+      ],
+      "rotationY": -45.0,
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            14.0
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            14.0
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            14.0
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            3.0,
+            0.0,
+            13.0,
+            14.0
+          ]
+        },
+        "up": {
+          "texture": "#1",
+          "uv": [
+            3.0,
+            6.0,
+            13.0,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "#1",
+          "uv": [
+            3.0,
+            6.0,
+            13.0,
+            16.0
+          ]
+        }
+      }
+    },
+    "file": "game:shapes/block/plant/saguarocactus/top-flowering.json"
+  }
+]

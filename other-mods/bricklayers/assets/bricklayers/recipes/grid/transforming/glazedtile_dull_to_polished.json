@@ -1,0 +1,15 @@
+[
+	{
+	"ingredientPattern": "CTP",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 4 },
+		"P": { "type": "item", "code": "bricklayers:polishingset-*", "isTool": true, "toolDurabilityCost": 4 },
+		"T": { "type": "block", "code": "bricklayers:glazedtile-clear-dull-*-down", "name": "color" }
+	},
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glazedtile-clear-polished-{color}-down", "quantity": 1 }
+	}
+]

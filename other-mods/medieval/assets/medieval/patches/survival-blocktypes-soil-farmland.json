@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/drops/0",
+    "value": {
+      "type": "block",
+      "code": "soil-{fertility}-none",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      }
+    },
+    "file": "game:blocktypes/soil/farmland.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/weedBlockCodes/4/chance",
+    "value": 0.75,
+    "file": "game:blocktypes/soil/farmland.json"
+  },
+  {
+    "op": "replace",
+    "path": "/fertilityByType/*-compost",
+    "value": 95,
+    "file": "game:blocktypes/soil/farmland.json"
+  },
+  {
+    "op": "replace",
+    "path": "/fertilityByType/*-high",
+    "value": 90,
+    "file": "game:blocktypes/soil/farmland.json"
+  }
+]

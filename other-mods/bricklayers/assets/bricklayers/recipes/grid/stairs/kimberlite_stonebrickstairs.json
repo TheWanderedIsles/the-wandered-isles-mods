@@ -1,0 +1,13 @@
+[
+	{
+	"ingredientPattern": "_LL,LML,LLL",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar" },
+		"L": { "type": "item", "code": "game:stonebrick-*", "name": "rock",
+			"allowedVariants": [ "kimberlite" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:stonebrickstairs-{rock}-up-north-free", "quantity": 2 }
+	}
+]

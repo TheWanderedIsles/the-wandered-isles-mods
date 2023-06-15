@@ -1,0 +1,103 @@
+[
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:glazedbowl-meal-clear-*-plain", "name": "color" }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "bricklayers:glazedbowl-burnt-clear-{color}-plain" }
+	},
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:glazedbowl-meal-milky-*-plain", "name": "color" }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "bricklayers:glazedbowl-burnt-milky-{color}-plain" }
+	},
+
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:porcelainbowl-meal-lavender-*", "name": "inside", "allowedVariants": [ "white" ] }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-lavender-{inside}" }
+	},
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:porcelainbowl-meal-paleblue-*", "name": "inside", "allowedVariants": [ "white" ] }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-paleblue-{inside}" }
+	},
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:porcelainbowl-meal-palegreen-*", "name": "inside", "allowedVariants": [ "white" ] }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-palegreen-{inside}" }
+	},
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:porcelainbowl-meal-palered-*", "name": "inside", "allowedVariants": [ "white" ] }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-palered-{inside}" }
+	},
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:porcelainbowl-meal-sunflower-*", "name": "inside", "allowedVariants": [ "white" ] }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-sunflower-{inside}" }
+	},
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "bricklayers:porcelainbowl-meal-white-*", "name": "inside", "allowedVariants": [ "white" ] }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-white-{inside}" }
+	},
+
+	{
+	"ingredientPattern": "K,L",
+	"ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+                "L": { "type": "block", "code": "game:bowl-meal" }
+        },
+        "width": 1,
+        "height": 2,
+	"recipeGroup": 2,
+        "output": { "type": "block", "code": "game:bowl-fired" }
+	}
+]

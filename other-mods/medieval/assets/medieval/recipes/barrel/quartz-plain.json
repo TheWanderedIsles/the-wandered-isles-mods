@@ -1,0 +1,11 @@
+[
+	{
+		code: "quartz-plain",
+		sealHours: 16,
+			ingredients: [
+			{ type: "item", code: "game:limewaterportion", litres: 10, consumeLitres: 10 },
+			{ type: "item", code: "game:crushed-quartz", quantity: 10 }
+		],
+		output: { type: "block", code: "game:quartz-plain", stackSize: 5 }
+	}
+]

@@ -1,0 +1,38 @@
+[
+	{
+		ingredientPattern: "H_,T_,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"I": { type: "item", code: "shortswordhandle-brass" },
+			"T": { type: "item", code: "shortbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-b", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,T_,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"I": { type: "item", code: "shortswordhandle-molybdochalkos" },
+			"T": { type: "item", code: "shortbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-p", quantity: 1  }
+	},
+	{
+		ingredientPattern: "H_,T_,IX",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:leather-plain" },
+			"I": { type: "item", code: "shortswordhandle-silversolder" },
+			"T": { type: "item", code: "shortbladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"]}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "blade-{metal}-s", quantity: 1  }
+	}
+]

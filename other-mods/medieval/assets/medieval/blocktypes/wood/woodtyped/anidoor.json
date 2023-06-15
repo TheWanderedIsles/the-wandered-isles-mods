@@ -1,0 +1,182 @@
+{
+	code: "anidoor",
+	class: "BlockGeneric",
+	entityClass: "Generic",
+	behaviors: [ 
+		{ name: "Door" }, 
+		{ name: "BlockEntityInteract" }, 
+		{ name: "Lockable" }
+	],
+	entityBehaviors: [{ name: "Door" }],
+	variantgroups: [
+		{ code: "style", states: ["anidoordoor", "anidoordoorround", "anidoordoortall", "anidoordoortalleng", "anidoorheavy", "anidoorheavyround", "anidoorheavytall", "anidoorrough", "anidoorwood"] }
+	],
+	attributes: {
+		widthByType: {
+			"*": 1
+		},
+		heightByType: {
+			"anidoor-anidoordoortall": 3,
+			"anidoor-anidoordoortalleng": 3,
+			"anidoor-anidoorheavytall": 3,
+			"*": 2
+		},
+		openSoundByType: {
+			"anidoor-anidoordoortall": "game:sounds/block/largedoor-open",
+			"anidoor-anidoordoortalleng": "game:sounds/block/largedoor-open",
+			"anidoor-anidoorheavytall": "game:sounds/block/largedoor-open",
+			"*": "game:sounds/block/door"
+		},
+		closeSoundByType: {
+			"anidoor-anidoordoortall": "game:sounds/block/largedoor-close",
+			"anidoor-anidoordoortalleng": "game:sounds/block/largedoor-close",
+			"anidoor-anidoorheavytall": "game:sounds/block/largedoor-close",
+			"*": "game:sounds/block/door"
+		},
+		easingSpeedByType: {
+			
+			"anidoor-anidoordoortall": 3,
+			"anidoor-anidoordoortalleng": 3,
+			"anidoor-anidoorheavytall": 3,
+			"*": 10
+		}
+	},
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "decorative": ["*"], "medieval": ["*"] },
+	},
+	shapeByType: {
+		 "*-anidoordoor":{ base: "block/wood/door/doordoor/anidoordoor" },
+		 "*-anidoordoorround":{ base: "block/wood/door/doordoorround/anidoordoorround" },
+		 "*-anidoordoortall":{ base: "block/wood/door/doordoortall/anidoordoortall" },
+		 "*-anidoordoortalleng":{ base: "block/wood/door/doordoortall/anidoordoortalleng" },
+		 "*-anidoorheavy":{ base: "block/wood/door/doorheavy/anidoorheavy" },
+		 "*-anidoorheavyround":{ base: "block/wood/door/doorheavyround/anidoorheavyround" },
+		 "*-anidoorheavytall":{ base: "block/wood/door/doorheavytall/anidoorheavytall" },
+		 "*-anidoorrough":{ base: "block/wood/door/doorrough/anidoorrough" },
+		 "*-anidoorwood":{ base: "block/wood/door/doorwood/anidoorwood" }
+	},
+	"__comment": "Needs to be no cull pass because for double doors we flip x coords, but indices don't change so i believe that inverts the winding order, making the graphics card believe the face is facing the other direction",
+	renderPass: "OpaqueNoCull",
+	faceCullMode: "NeverCull",
+	blockmaterial: "Wood",
+	sideAo: { all: false },
+	heldTpIdleAnimation: "holdunderarm",
+	replaceable: 500,
+	resistance: 3.5,
+	lightAbsorption: 0,
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	guiTransformByType: {
+		"anidoor-anidoordoortall": {
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.73
+		},
+		"anidoor-anidoordoorround": {
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.73
+		},
+		"anidoor-anidoorheavytall": {
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.73
+		},
+		"anidoor-anidoorheavyround": {
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.73
+		},
+		"*": {
+			origin: { x: 0.49, y: 1, z: 0.8 },
+			scale: 0.73
+		},
+	},
+	fpHandTransform: {
+		translation: { x: -0.77, y: 0.18, z: 0.72 },
+		rotation: { x: 98, y: 42, z: 0 },
+		origin: { x: 0.5, y: 0.7, z: 1 },
+		scale: 1.11
+	},
+	tpHandTransformByType: {
+		"anidoor-anidoordoortall": {
+			translation: { x: -0.44, y: -1.82, z: -1.3 },
+			rotation: { x: 8, y: 11, z: 59 },
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.71
+		},
+		"anidoor-anidoordoorround": {
+			translation: { x: -0.44, y: -1.82, z: -1.3 },
+			rotation: { x: 8, y: 11, z: 59 },
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.71
+		},
+		"anidoor-anidoorheavytall": {
+			translation: { x: -0.44, y: -1.82, z: -1.3 },
+			rotation: { x: 8, y: 11, z: 59 },
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.71
+		},
+		"anidoor-anidoorheavyround": {
+			translation: { x: -0.44, y: -1.82, z: -1.3 },
+			rotation: { x: 8, y: 11, z: 59 },
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.71
+		},
+		"*": {
+			translation: { x: -0.74, y: -1.22, z: -1.3 },
+			rotation: { x: 8, y: 11, z: 59 },
+			origin: { x: 0.5, y: 1, z: 1 },
+			scale: 0.71
+		}
+	},
+	groundTransformByType: {
+		"anidoor-anidoordoortall": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 1.5, z: 0.85 },
+			scale: 3
+		},
+		"anidoor-anidoordoorround": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 1.5, z: 0.85 },
+			scale: 3
+		},
+		"anidoor-anidoorheavytall": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 1.5, z: 0.85 },
+			scale: 3
+		},
+		"anidoor-anidoorheavyround": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 1.5, z: 0.85 },
+			scale: 3
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 1, z: 0.85 },
+			scale: 3
+		}
+	},
+	selectionbox: { 
+		x1: 0, y1: 0, z1: 0.875, x2: 1, y2: 1, z2: 1
+	},
+	collisionbox: { 
+		x1: 0, y1: 0, z1: 0.875, x2: 1, y2: 1, z2: 1
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 25,
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600
+}

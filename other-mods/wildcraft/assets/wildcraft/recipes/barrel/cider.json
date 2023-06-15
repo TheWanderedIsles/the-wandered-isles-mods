@@ -1,0 +1,11 @@
+
+[
+    {
+        "code": "wildcraft:cider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraft:juiceportion-*",  "name": "fruit", "litres": 0.1 }
+        ],
+        "output": { "type": "item", "code": "wildcraft:ciderportion-{fruit}", "litres": 0.1 }
+    }
+]

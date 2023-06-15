@@ -1,0 +1,17 @@
+[
+	{
+	"comment": "Only with lead: ruby gold glass is usually made of lead glass with added tin.",
+	"ingredientPattern": "LGT,QQB",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"G": { "type": "item", "code": "em:powdered-metal-gold" },
+		"T": { "type": "item", "code": "em:powdered-ore-cassiterite" },
+		"Q": { "type": "item", "code": "em:powdered-ore-quartz", "quantity": 2 },
+		"B": { "type": "item", "code": "em:powdered-ore-leadoxide" }
+	},
+	"width": 3,
+	"height": 2,
+	"recipeGroup": 4,
+	"output": { "type": "item", "code": "bricklayers:frit-mix-red", "quantity": 4 }
+	}
+]

@@ -1,0 +1,152 @@
+{
+	code: "machete",
+	"__comment": "ItemKnife contains code for harvesting animal carcasses",
+	class: "ItemKnife",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "knife",
+	attributes: {
+		toolrackTransform: {
+			translation: { x: 0.1, y: 0.6, z: -0.1 },
+			rotation: { x: 97, y: 180, z: 3 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.8
+		},
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.15, z: -0.044 },
+			rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			}
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [
+		{ code: "metal", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium" ] },
+	],
+	shapeByType: {
+		"*": { base: "item/tool/blade/machete" }
+	},
+	heldTpHitAnimation: "breaktool",
+	heldTpUseAnimation: "knap",
+	texturesByType: {
+		"*": {
+			"metal": { base: "item/tool/sword/machete/{metal}" }
+		},
+	},
+	attackRange: 2,
+	tooltierbytype: {
+		"*-copper": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5,
+		"*-stainlesssteel": 6,
+		"*-titanium": 7
+	},
+	durabilitybytype: {
+		
+		"machete-copper": 600,
+		"machete-tinbronze": 900,
+		"machete-bismuthbronze": 1000,
+		"machete-blackbronze": 1100,
+		"machete-iron": 1800,
+		"machete-meteoriciron": 2400,
+		"machete-steel": 4500,
+		"machete-stainlesssteel": 6750,
+		"machete-titanium": 8250
+	},
+	miningspeedbytype: {
+
+		"machete-copper": {
+			"wood": 3.5,
+			"plant": 2.8,
+			"leaves": 2.4
+		},
+		"machete-bismuthbronze": {
+			"wood": 3.7,
+			"plant": 3,
+			"leaves": 2.6
+		},
+		"machete-tinbronze": {
+			"wood": 3.8,
+			"plant": 3.2,
+			"leaves": 2.8
+		},
+		"machete-blackbronze": {
+			"wood": 3.8,
+			"plant": 3.4,
+			"leaves": 2.6
+		},
+		"machete-iron": {
+			"wood": 4,
+			"plant": 4,
+			"leaves": 2.8
+		},
+		"machete-meteoriciron": {
+			"wood": 4,
+			"plant": 4.5,
+			"leaves": 2.8
+		},
+		"machete-steel": {
+			"wood": 4.2,
+			"plant": 5,
+			"leaves": 3
+		},
+		"machete-stainlesssteel": {
+			"wood": 4.5,
+			"plant": 5.5,
+			"leaves": 3.2
+		},
+		"machete-titanium": {
+			"wood": 5.5,
+			"plant": 6.5,
+			"leaves": 5
+		}
+	},
+	attackpowerbytype: {
+		"machete-copper": 2,
+		"machete-bismuthbronze": 2.5,
+		"machete-tinbronze": 3,
+		"machete-blackbronze": 3.5,
+		"machete-iron": 4,
+		"machete-meteoriciron": 4.5,
+		"machete-steel": 5,
+		"machete-stainlesssteel": 6,
+		"machete-titanium": 7
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.2, y: 0.1, z: 0.5 },
+		rotation: { x: 140, y: 93, z: -75 },
+		scale: 2.5
+		
+	},
+		guiTransform: {
+		translation: { x: 0, y: 1, z: 0 },
+		rotation: { x: -158, y: 0, z: 48 },
+		origin: { x: 0.57, y: 0.1, z: 0.52 },
+		scale: 3
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.45 },
+			scale: 3.6
+	},
+		tpHandTransform: {
+		translation: { x: -0.66, y: -0.03, z: -0.49 },
+		rotation: { x: 0, y: 0, z: 0 },
+		scale: 1
+	}
+}

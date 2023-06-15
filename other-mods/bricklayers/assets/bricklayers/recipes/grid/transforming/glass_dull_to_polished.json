@@ -1,0 +1,39 @@
+[
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"G": { "type": "block", "code": "bricklayers:glasscolored-dull-*", "name": "color" },
+		"P": { "type": "item", "code": "bricklayers:polishingset-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 1,
+	"output": { "type": "block", "code": "bricklayers:glasscolored-opaque-{color}", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"G": { "type": "block", "code": "bricklayers:glasstile-normal-dull-*-down", "name": "color" },
+		"P": { "type": "item", "code": "bricklayers:polishingset-*", "isTool": true, "toolDurabilityCost": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 1,
+	"output": { "type": "block", "code": "bricklayers:glasstile-normal-opaque-{color}-down", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "P,G",
+	"ingredients": {
+		"G": { "type": "block", "code": "bricklayers:glassslabcolored-dull-*-down-free", "name": "color" },
+		"P": { "type": "item", "code": "bricklayers:polishingset-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 1,
+	"comment": "The input and output slab have OmniRotatable, so the handbook will display an inclickable item, anyway...",
+	"output": { "type": "block", "code": "bricklayers:glassslabcolored-opaque-{color}-down-free", "quantity": 1, "attributes": { } }
+	}
+
+]

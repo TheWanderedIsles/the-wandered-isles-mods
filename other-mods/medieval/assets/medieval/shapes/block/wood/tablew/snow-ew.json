@@ -1,0 +1,61 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "block/wood/door/doorplanks/oak",
+		"top": "block/wood/door/doorplanks/oak",
+		"normal1": "block/snow/normal1"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 0.0, 13.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 13.0, 0.0, 10.0, 16.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 7.5, 0.0, 4.5, 16.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 13.0, 0.0, 10.0, 16.0 ], "rotation": 90, "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 7.5, 0.0, 4.5, 16.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#top", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 90 },
+				"down": { "texture": "#material", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube5",
+					"from": [ 15.5, -6.0, 8.0 ], 
+					"to": [ 16.5, -4.0, 24.0 ], 
+					"rotationOrigin": [ 16.0, -6.0, 8.0 ],
+					"rotationY": -90.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"east": { "texture": "#material", "uv": [ 6.5, 0.0, 4.5, 16.0 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"west": { "texture": "#material", "uv": [ 6.5, 0.0, 4.5, 16.0 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#material", "uv": [ 7.0, 0.0, 8.0, 16.0 ] },
+						"down": { "texture": "#material", "uv": [ 2.0, 0.0, 3.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Cube3",
+					"from": [ 0.0, 3.0, 0.0 ], 
+					"to": [ 16.0, 5.0, 16.0 ], 
+					"rotationOrigin": [ 0.0, 3.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#normal1", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+						"east": { "texture": "#normal1", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+						"south": { "texture": "#normal1", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+						"west": { "texture": "#normal1", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+						"up": { "texture": "#normal1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+						"down": { "texture": "#normal1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+					}
+				}
+			]
+		}
+	]}

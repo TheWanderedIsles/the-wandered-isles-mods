@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"pineup2": "block/wood/sincortezalog/debarked/pillar/vikingpine/pineup",
+		"pine": "block/wood/sincortezalog/debarked/pine"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#pineup2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#pineup2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#pineup2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#pineup2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#pine", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#pine", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

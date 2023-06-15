@@ -1,0 +1,108 @@
+[
+	{
+		ingredientPattern: "L,P,M",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-white", quantity: 1 },
+			"M": { type: "item", code: "game:leather-red", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "reli-normal-whitered"  }
+	},
+	{
+		ingredientPattern: "L,P,M",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-white", quantity: 1 },
+			"M": { type: "item", code: "game:leather-blue", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "reli-normal-whiteblue"  }
+	},
+	{
+		ingredientPattern: "L_,PG,M_",
+		ingredients: {
+			"G": { type: "item", code: "game:nugget-nativegold", quantity: 1 },
+			"L": { type: "item", code: "game:leather-black", quantity: 1 },
+			"M": { type: "item", code: "game:leather-black", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "reli-normal-holy"  }
+	},
+	{
+		ingredientPattern: "L_,PG,M_",
+		ingredients: {
+			"G": { type: "item", code: "game:ore-cinnabar", quantity: 1 },
+			"L": { type: "item", code: "game:leather-black", quantity: 1 },
+			"M": { type: "item", code: "game:leather-black", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "reli-normal-s"  }
+	},
+	{
+		ingredientPattern: "L_,PG,M_",
+		ingredients: {
+			"G": { type: "item", code: "game:ore-cinnabar", quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "reli-normal-diary"  }
+	},
+	{
+		ingredientPattern: "L_,PG,M_",
+		ingredients: {
+			"G": { type: "block", code: "game:soil-*", allowedVariants: ["verylow-none", "low-none", "medium-none"], quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "reli-normal-earth"  }
+	},
+	{
+		ingredientPattern: "L_,PG,M_",
+		ingredients: {
+			"G": { type: "block", code: "game:torch-basic-lit-up", quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "reli-normal-fire"  }
+	},
+	{
+		ingredientPattern: "L_,PG,M_",
+		ingredients: {
+			"G": { type: "block", code: "game:glacierice", quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "reli-normal-water"  }
+	},
+	{
+		ingredientPattern: "L_,PG,M_",
+		ingredients: {
+			"G": { type: "block", code: "game:snowblock", quantity: 1 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"M": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"P": { type: "item", code: "game:paper-parchment", quantity: 8 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "reli-normal-air"  }
+	}
+]

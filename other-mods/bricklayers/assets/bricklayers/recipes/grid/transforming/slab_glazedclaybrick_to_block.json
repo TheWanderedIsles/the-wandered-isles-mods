@@ -1,0 +1,24 @@
+[
+	{
+	"ingredientPattern": "S,M,S",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar", "name": "mortar", "quantity": 1 },
+		"S": { "type": "block", "code": "bricklayers:glazedbrickslab-clear-*-down-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glazedbricks-clear-{color}", "quantity":1 }
+	},
+	{
+	"ingredientPattern": "S,M,S",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:mortar", "name": "mortar", "quantity": 1 },
+		"S": { "type": "block", "code": "bricklayers:glazedbrickslab-milky-*-down-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 3,
+	"recipeGroup": 2,
+	"output": { "type": "block", "code": "bricklayers:glazedbricks-milky-{color}", "quantity":1 }
+	}
+]

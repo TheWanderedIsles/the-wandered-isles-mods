@@ -1,0 +1,19 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "black", "blurple", "brown", "darkgrey", "fire", "green", "light", "malachite", "orange", "pink", "purple", "red", "yellow" ] },
+	"pattern": [[
+		"#####",
+		"#####",
+		"#####",
+		"#####",
+		"#####"
+	],
+	[
+		"#####",
+		"#___#",
+		"#___#",
+		"#___#",
+		"#####"
+	]],
+	"name": "recipe-clayforming-colored-bowl",
+	"output": { "type": "block", "code": "bricklayers:coloredbowl-raw-{color}-none" }
+}

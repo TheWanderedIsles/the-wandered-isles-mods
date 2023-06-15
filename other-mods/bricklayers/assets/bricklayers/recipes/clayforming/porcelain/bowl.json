@@ -1,0 +1,21 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+	"pattern": [[
+		"######",
+		"######",
+		"######",
+		"######",
+		"######",
+		"######"
+	],
+	[
+		"######",
+		"#____#",
+		"#____#",
+		"#____#",
+		"#____#",
+		"######"
+	]],
+	"name": "recipe-clayforming-porcelain-bowl",
+	"output": { "type": "block", "code": "bricklayers:porcelainbowl-raw-{color}-white" }
+}

@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "LTL	LBL	LPL",
+	ingredients: {
+		"T": { type: "item", code: "game:flaxtwine", quantity: 2 },
+		"L": { type: "item", code: "game:cloth-black", quantity: 2 },
+		"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["gold"], quantity: 2 },
+		"B": { type: "item", code: "medieval:metalbar-*", name: "metal", allowedVariants: ["gold"], quantity: 8  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "huge-sack"  }
+}

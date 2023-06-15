@@ -1,0 +1,23 @@
+[
+	{
+	"ingredientPattern": "T,C",
+	"ingredients": {
+		"T": { "type": "item", "code": "bricklayers:stonerawtile-*", "name": "rock" },
+		"C": { "type": "item", "code": "game:mortar", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:stonetile-normal-{rock}-down", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "T,C",
+	"ingredients": {
+		"T": { "type": "item", "code": "bricklayers:stonerawtileshiny-*", "name": "rock" },
+		"C": { "type": "item", "code": "game:mortar", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "block", "code": "bricklayers:stonetile-shiny-{rock}-down", "quantity": 1 }
+	}
+]

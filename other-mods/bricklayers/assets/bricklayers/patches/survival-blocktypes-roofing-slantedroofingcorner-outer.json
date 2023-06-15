@@ -1,0 +1,215 @@
+[
+  {
+    "op": "add",
+    "path": "/creativeinventory/ceramics",
+    "value":  [ "@.*clay-east-free" ],
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": [ "blackclay", "blurpleclay", "darkgreyclay", "greenclay", "lightclay", "malachiteclay", "orangeclay", "pinkclay", "purpleclay", "yellowclay" ],
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-blackclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/black" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-blurpleclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/blurple" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-darkgreyclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/darkgrey" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-greenclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/green" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-lightclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/light" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-malachiteclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/malachite" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-orangeclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/orange" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-pinkclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/pink" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-purpleclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/purple" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-yellowclay-*",
+    "value": { "material": { "base": "bricklayers:block/clay/shingles/yellow" } },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/@.*-(fire|blue|red|brown)clay-north-.*",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/@.*-(fire|blue|red|brown)clay-west-.*",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/@.*-(fire|blue|red|brown)clay-east-.*",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/@.*-(fire|blue|red|brown)clay-south-.*",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-north-*",
+    "comment": "Fix #235 - wrong clay roofs",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-west-*",
+    "comment": "Fix #235 - wrong clay roofs",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-south-*",
+    "comment": "Fix #235 - wrong clay roofs",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-east-*",
+    "comment": "Fix #235 - wrong clay roofs",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@.*-(slate|copper)-north-.*",
+    "value": { "base": "block/roofing/cornerouter/shingles-slate-copper-{cover}", "rotateY": 90 },
+    "comment": "Fix #235 - wrong clay roofs",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@.*-(slate|copper)-west-.*",
+    "value": { "base": "block/roofing/cornerouter/shingles-slate-copper-{cover}", "rotateY": 180 },
+    "comment": "Fix #235 - wrong clay roofs",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@.*-(slate|copper)-south-.*",
+    "value": { "base": "block/roofing/cornerouter/shingles-slate-copper-{cover}", "rotateY": 270 },
+    "comment": "Fix #235 - wrong clay roofs",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@.*-(slate|copper)-east-.*",
+    "value": { "base": "block/roofing/cornerouter/shingles-slate-copper-{cover}", "rotateY": 0 },
+    "comment": "Fix #235 - wrong clay roofs",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@.*-([a-z]+)clay-north-.*",
+    "value": { "base": "block/roofing/cornerouter/shingles-clay-{cover}", "rotateY": 90 },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@.*-([a-z]+)clay-west-.*",
+    "value": { "base": "block/roofing/cornerouter/shingles-clay-{cover}", "rotateY": 180 },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@.*-([a-z]+)clay-south-.*",
+    "value": { "base": "block/roofing/cornerouter/shingles-clay-{cover}", "rotateY": 270 },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@.*-([a-z]+)clay-east-.*",
+    "value": { "base": "block/roofing/cornerouter/shingles-clay-{cover}", "rotateY": 0 },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/blockmaterialByType/@.*-([a-z]+)clay-*",
+    "value": "Ceramic",
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/soundsByType/@.*-([a-z]+)clay-*",
+    "value": {
+	"walk": "walk/stone",
+	"place": "block/ceramicplace"
+    },
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "side": "Server"
+  }
+]

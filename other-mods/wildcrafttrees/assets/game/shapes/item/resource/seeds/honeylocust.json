@@ -1,0 +1,76 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"honeylocust_seed": "item/resource/seeds/honeylocust"
+	},
+	"elements": [
+		{
+			"name": "LocustBeanPod1",
+			"from": [ 7.0, 3.0, 5.0 ], 
+			"to": [ 8.0, 8.5, 7.5 ], 
+			"rotationOrigin": [ 7.0, 3.0, 5.0 ],
+			"faces": {
+				"north": { "texture": "#honeylocust_seed", "uv": [ 1.0, 1.0, 2.0, 7.0 ], "autoUv": false },
+				"east": { "texture": "#honeylocust_seed", "uv": [ 6.0, 0.0, 10.0, 7.0 ], "autoUv": false },
+				"south": { "texture": "#honeylocust_seed", "uv": [ 5.0, 1.0, 6.0, 7.0 ], "autoUv": false },
+				"west": { "texture": "#honeylocust_seed", "uv": [ 2.0, 0.0, 6.0, 6.0 ], "autoUv": false },
+				"up": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "autoUv": false },
+				"down": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "LocustBeanMiddle1",
+					"from": [ 0.02, -5.0, 0.0 ], 
+					"to": [ 1.02, 0.0, 2.5 ], 
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -20.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 6.0 ], "autoUv": false },
+						"east": { "texture": "#honeylocust_seed", "uv": [ 6.0, 0.0, 10.0, 6.0 ], "autoUv": false },
+						"south": { "texture": "#honeylocust_seed", "uv": [ 2.0, 0.0, 3.0, 6.0 ], "autoUv": false },
+						"west": { "texture": "#honeylocust_seed", "uv": [ 2.0, 0.0, 6.0, 6.0 ], "autoUv": false },
+						"up": { "texture": "#honeylocust_seed", "uv": [ 0.0, 4.0, 1.0, 8.0 ], "autoUv": false },
+						"down": { "texture": "#honeylocust_seed", "uv": [ 0.0, 3.0, 1.0, 7.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "LocustBeanPodLower1",
+							"from": [ 0.02, -2.5, 0.0 ], 
+							"to": [ 1.02, 0.0, 2.5 ], 
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": -20.0,
+							"faces": {
+								"north": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 6.0 ], "autoUv": false },
+								"east": { "texture": "#honeylocust_seed", "uv": [ 6.0, 12.0, 10.0, 16.0 ], "autoUv": false },
+								"south": { "texture": "#honeylocust_seed", "uv": [ 2.0, 0.0, 3.0, 6.0 ], "autoUv": false },
+								"west": { "texture": "#honeylocust_seed", "uv": [ 6.0, 12.0, 10.0, 16.0 ], "autoUv": false },
+								"up": { "texture": "#honeylocust_seed", "uv": [ 0.0, 4.0, 1.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#honeylocust_seed", "uv": [ 0.0, 3.0, 1.0, 7.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "LocustBeanPodStem",
+					"from": [ 0.1, 5.5, 0.8 ], 
+					"to": [ 0.9, 6.5, 1.6 ], 
+					"rotationOrigin": [ 0.1, 5.5, 0.8 ],
+					"faces": {
+						"north": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"east": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"west": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#honeylocust_seed", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

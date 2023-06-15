@@ -1,0 +1,31 @@
+[
+    {
+		ingredientPattern: "HR",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"R": { type: "item", code: "game:gear-rusty", quantity: 1}
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "medieval:rustyplus-rust", quantity: 64 }
+	},
+    {
+		ingredientPattern: "HR",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"R": { type: "block", code: "medieval:rustyplus-rust", quantity: 1}
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "medieval:rusty-rust", quantity: 2 }
+	},
+    {
+		ingredientPattern: "RR",
+		ingredients: {
+			"R": { type: "block", code: "medieval:rusty-rust", quantity: 1}
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "medieval:rustyplus-rust", quantity: 1 }
+	}
+]

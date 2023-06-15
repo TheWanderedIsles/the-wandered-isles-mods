@@ -1,0 +1,83 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"armadura": "C:/Users/Usuario/AppData/Roaming/VintagestoryData/Mods/Medieval/assets/medieval/textures/entity/humanoid/seraphclothes/upperbody/armor1"
+	},
+	"elements": [
+		{
+			"name": "ArmorUpperArmR",
+			"stepParentName": "UpperArmR",
+			"from": [ -0.2, 3.8, -0.3 ], 
+			"to": [ 3.1, 7.2, 2.1 ], 
+			"autoUnwrap": false,
+			"uv": [ 31.5, 0.0 ],
+			"rotationOrigin": [ -0.2, 3.8, -0.3 ],
+			"faces": {
+				"north": { "texture": "#armadura", "uv": [ 33.0, 41.5, 36.0, 44.5 ], "autoUv": false },
+				"east": { "texture": "#armadura", "uv": [ 31.0, 41.5, 33.0, 44.5 ] },
+				"south": { "texture": "#armadura", "uv": [ 38.0, 41.5, 41.0, 44.5 ] },
+				"west": { "texture": "#armadura", "uv": [ 36.0, 41.5, 38.0, 44.5 ] },
+				"up": { "texture": "#armadura", "uv": [ 36.0, 38.5, 38.0, 41.5 ], "rotation": 90 },
+				"down": { "texture": "#armadura", "uv": [ 36.0, 41.5, 38.0, 44.5 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "ArmorUpperArmL",
+			"stepParentName": "UpperArmL",
+			"from": [ -0.2, 3.8, -0.1 ], 
+			"to": [ 3.1, 7.2, 2.3 ], 
+			"autoUnwrap": false,
+			"uv": [ 34.0, -0.5 ],
+			"rotationOrigin": [ -0.2, 3.8, -0.1 ],
+			"faces": {
+				"north": { "texture": "#armadura", "uv": [ 42.0, 41.5, 45.0, 44.5 ] },
+				"east": { "texture": "#armadura", "uv": [ 50.0, 41.5, 52.0, 44.5 ] },
+				"south": { "texture": "#armadura", "uv": [ 47.0, 41.5, 50.0, 44.5 ] },
+				"west": { "texture": "#armadura", "uv": [ 45.0, 41.5, 47.0, 44.5 ] },
+				"up": { "texture": "#armadura", "uv": [ 45.0, 38.5, 47.0, 41.5 ], "rotation": 90 },
+				"down": { "texture": "#armadura", "uv": [ 45.0, 41.5, 47.0, 44.5 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "ArmorLowerArmR",
+			"stepParentName": "LowerArmR",
+			"from": [ -0.2, -0.2, -0.35 ], 
+			"to": [ 2.7, 3.2, 2.25 ], 
+			"autoUnwrap": false,
+			"uv": [ 52.0, 35.5 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.5 ],
+			"faces": {
+				"north": { "texture": "#armadura", "uv": [ 27.0, 2.5, 29.5, 5.5 ] },
+				"east": { "texture": "#armadura", "uv": [ 25.0, 2.5, 27.0, 5.5 ], "autoUv": false },
+				"south": { "texture": "#armadura", "uv": [ 31.5, 2.5, 34.0, 5.5 ] },
+				"west": { "texture": "#armadura", "uv": [ 29.5, 2.5, 31.5, 5.5 ], "autoUv": false },
+				"up": { "texture": "#armadura", "uv": [ 31.5, 2.5, 33.5, 5.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#armadura", "uv": [ 29.5, 0.0, 31.5, 2.5 ], "rotation": 90, "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorLowerArmL",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.2, -0.2, -0.25 ], 
+			"to": [ 2.7, 3.2, 2.35 ], 
+			"autoUnwrap": false,
+			"uv": [ 52.0, 35.0 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.3 ],
+			"faces": {
+				"north": { "texture": "#armadura", "uv": [ 25.0, 8.5, 27.5, 11.5 ] },
+				"east": { "texture": "#armadura", "uv": [ 32.0, 8.5, 34.0, 11.5 ], "autoUv": false },
+				"south": { "texture": "#armadura", "uv": [ 29.5, 8.5, 32.0, 11.5 ] },
+				"west": { "texture": "#armadura", "uv": [ 27.5, 8.5, 29.5, 11.5 ], "autoUv": false },
+				"up": { "texture": "#armadura", "uv": [ 25.5, 8.5, 27.5, 11.0 ], "autoUv": false },
+				"down": { "texture": "#armadura", "uv": [ 27.5, 6.0, 29.5, 8.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

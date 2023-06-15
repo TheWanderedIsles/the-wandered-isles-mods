@@ -1,0 +1,112 @@
+{
+	code: "littlefence",
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "south", drop: { type: "block", code: "littlefence-{material}-south" }  }}],
+	variantgroups: [
+		{ code: "material", states: [ "acacia", "aged", "baldcypress", "birch", "kapok", "larch", "maple", "oak", "pine", "redwood", "walnut" ] },
+		{ loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapeByType: { 
+		
+		"@.*-(acacia|aged|baldcypress|birch|kapok|larch|maple|oak|pine|redwood|walnut)-north-*": { base: "block/wood/littlefence/ew1", rotateY: 0, alternates: [ { base: "block/wood/littlefence/ew2", rotateY: 0}, { base: "block/wood/littlefence/ew3", rotateY: 0}, { base: "block/wood/littlefence/ew4", rotateY: 0}] },
+		"@.*-(acacia|aged|baldcypress|birch|kapok|larch|maple|oak|pine|redwood|walnut)-west-*": { base: "block/wood/littlefence/ew1", rotateY: 90, alternates: [ { base: "block/wood/littlefence/ew2", rotateY: 90}, { base: "block/wood/littlefence/ew3", rotateY:90}, { base: "block/wood/littlefence/ew4", rotateY: 90}] },
+		"@.*-(acacia|aged|baldcypress|birch|kapok|larch|maple|oak|pine|redwood|walnut)-south-*": { base: "block/wood/littlefence/ew1", rotateY: 180, alternates: [ { base: "block/wood/littlefence/ew2", rotateY: 180}, { base: "block/wood/littlefence/ew3", rotateY: 180}, { base: "block/wood/littlefence/ew4", rotateY: 180}] },
+		"@.*-(acacia|aged|baldcypress|birch|kapok|larch|maple|oak|pine|redwood|walnut)-east-*": { base: "block/wood/littlefence/ew1", rotateY: 270, alternates: [ { base: "block/wood/littlefence/ew2", rotateY: 270}, { base: "block/wood/littlefence/ew3", rotateY: 270}, { base: "block/wood/littlefence/ew4", rotateY: 270}] },
+	},
+	texturesByType: {
+		"*-acacia-*": {
+			"pole": { base: "block/wood/roughfence/acacia2" },
+			"palo": { base: "block/wood/roughfence/acacia" }
+		},
+		"*-aged-*": {
+			"pole": { base: "block/wood/roughfence/aged2" },
+			"palo": { base: "block/wood/roughfence/aged" }
+		},
+		"*-baldcypress-*": {
+			"pole": { base: "block/wood/roughfence/baldcypress2" },
+			"palo": { base: "block/wood/roughfence/baldcypress" }
+		},
+		"*-birch-*": {
+			"pole": { base: "block/wood/roughfence/birch2" },
+			"palo": { base: "block/wood/roughfence/birch" }
+		},
+		"*-kapok-*": {
+			"pole": { base: "block/wood/roughfence/kapok2" },
+			"palo": { base: "block/wood/roughfence/kapok" }
+		},
+		"*-larch-*": {
+			"pole": { base: "block/wood/roughfence/larch2" },
+			"palo": { base: "block/wood/roughfence/larch" }
+		},
+		"*-maple-*": {
+			"pole": { base: "block/wood/roughfence/maple2" },
+			"palo": { base: "block/wood/roughfence/maple" }
+		},
+		"*-oak-*": {
+			"pole": { base: "block/wood/roughfence/oak2" },
+			"palo": { base: "block/wood/roughfence/oak" }
+		},
+		"*-pine-*": {
+			"pole": { base: "block/wood/roughfence/pine2" },
+			"palo": { base: "block/wood/roughfence/pine" }
+		},
+		"*-redwood-*": {
+			"pole": { base: "block/wood/roughfence/redwood2" },
+			"palo": { base: "block/wood/roughfence/redwood" }
+		},
+		"*-walnut-*": {
+			"pole": { base: "block/wood/roughfence/walnut2" },
+			"palo": { base: "block/wood/roughfence/walnut" }
+		}
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, up: false },
+	sideopaque: { all: false },
+	sideao: { all: false },
+	blockmaterialByType: {
+		"*-acacia-*": "wood",
+		"*-aged-*": "wood",
+		"*-baldcypress-*": "wood",
+		"*-birch-*": "wood",
+		"*-kapok-*": "wood",
+		"*-larch-*": "wood",
+		"*-maple-*": "wood",
+		"*-oak-*": "wood",
+		"*-pine-*": "wood",
+		"*-redwood-*": "wood",
+		"*-walnut-*": "wood"
+	},
+	creativeinventory: { "general": ["*-south"], "decorative": ["*-south"], "medieval": ["*-south"] },
+	replaceable: 300,
+	resistance: 2,
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 20,
+	},
+	lightAbsorption: 1,
+	emitSideAo: {
+		all: false
+	},
+	collisionSelectionBoxesByType: {
+		"*-north": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5, z2: 0.0625, rotateY: 0 }],
+		"*-west": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5, z2: 0.0625, rotateY: 90 } ],
+		"*-south": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5, z2: 0.0625, rotateY: 180 } ],
+		"*-east": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5, z2: 0.0625, rotateY: 270 } ]
+	},
+	soundsByType: {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks",
+		"walk": "game:walk/wood"
+		}
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.53, y: 0.55, z: 0.46 },
+			scale: 0.85
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	code: "wattleanddaub",
+	class: "Block",
+	attributes: {
+	},
+	variantgroups: [
+		{ code:"type", states: ["light", "dark"] }
+	],
+	shape: { base: "game:block/basic/cube" },
+	drawtype: "Cube",
+	blockmaterial: "Soil",
+	creativeinventory: { "general": ["*"], "construction": ["*"] },
+	replaceable: 700,
+	resistance: 1.2,
+	lightAbsorption: 99,
+	textures: {
+		all: { 
+			base: "wattleanddaub/{type}"
+		},
+	},
+	sounds: {
+		walk: "game:walk/stone",
+		place: "game:block/dirt"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

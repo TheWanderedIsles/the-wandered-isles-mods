@@ -1,0 +1,101 @@
+{
+	code: "planksroofingridge",
+	behaviors: [{name: "NWOrientable"}],	
+	variantgroups: [
+		{ code: "material", states: [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+		{ code:"orientation", states: ["ns", "we"] },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	shapeByType: { 
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-ns-.*": { base: "block/roofing/ridge/planksroof-{cover}", rotateY: 0 },
+		"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-we-.*": { base: "block/roofing/ridge/planksroof-{cover}", rotateY: 90 }
+	},
+	texturesByType: {
+		"*-acacia-*": {
+			"material": { base: "block/wood/roof/shingles/acacia*" }
+		},
+		"*-aged-*": {
+			"material": { base: "block/wood/roof/shingles/aged*" }
+		},
+		"*-baldcypress-*": {
+			"material": { base: "block/wood/roof/shingles/baldcypress*" }
+		},
+		"*-birch-*": {
+			"material": { base: "block/wood/roof/shingles/birch*" }
+		},
+		"*-ebony-*": {
+			"material": { base: "block/wood/roof/shingles/ebony*" }
+		},
+		"*-kapok-*": {
+			"material": { base: "block/wood/roof/shingles/kapok*" }
+		},
+		"*-larch-*": {
+			"material": { base: "block/wood/roof/shingles/larch*" }
+		},
+		"*-maple-*": {
+			"material": { base: "block/wood/roof/shingles/maple*" }
+		},
+		"*-oak-*": {
+			"material": { base: "block/wood/roof/shingles/oak*" }
+		},
+		"*-pine-*": {
+			"material": { base: "block/wood/roof/shingles/pine*" }
+		},
+		"*-purpleheart-*": {
+			"material": { base: "block/wood/roof/shingles/purpleheart*" }
+		},
+		"*-redwood-*": {
+			"material": { base: "block/wood/roof/shingles/redwood*" }
+		},
+		"*-walnut-*": {
+			"material": { base: "block/wood/roof/shingles/walnut*" }
+		}
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, down: true },
+	sideopaque: { all: false },
+	blockmaterialByType: {
+		"*-acacia-*": "wood",
+		"*-aged-*": "wood",
+		"*-baldcypress-*": "wood",
+		"*-birch-*": "wood",
+		"*-ebony-*": "wood",
+		"*-kapok-*": "wood",
+		"*-larch-*": "wood",
+		"*-maple-*": "wood",
+		"*-oak-*": "wood",
+		"*-pine-*": "wood",
+		"*-purpleheart-*": "wood",
+		"*-redwood-*": "wood",
+		"*-walnut-*": "wood"
+	},
+	creativeinventory: { "general": ["*-ns-free"], "decorative": ["*-ns-free"], "medieval": ["*-ns-free"] },
+	replaceable: 300,
+	resistance: 2,
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 20,
+	},
+	lightAbsorption: 99,
+	emitSideAo: {
+		all: true
+	},
+	collisionSelectionBoxes: [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.375, z2: 1, rotateYByType: { "*-we-*": 90 } },
+		{ x1: 0.25, y1: 0.375, z1: 0, x2: 0.75, y2: 0.5625, z2: 1, rotateYByType: { "*-we-*": 90 } },
+	],
+	soundsByType: {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks"
+		}
+	},
+	guiTransform: {
+		rotation: { x: -22.6, y: -50, z: 0 },
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 0.8
+	}
+}

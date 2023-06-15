@@ -1,0 +1,26 @@
+[
+	{
+	"ingredientPattern": "P,L,B",
+	"ingredients": {
+		"P": { "type": "block", "code": "game:peatbrick" },
+                "L": { "type": "block", "code": "expandedfoods:hardlard", "quantity": 2 },
+                "B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-clear-*-plain", "name": "color" }
+        },
+        "width": 1,
+        "height": 3,
+	"recipeGroup": 3,
+        "output": { "type": "block", "code": "bricklayers:glazedoillamp-clear-{color}-up"  }
+	},
+	{
+	"ingredientPattern": "P,L,B",
+	"ingredients": {
+		"P": { "type": "block", "code": "game:peatbrick" },
+                "L": { "type": "block", "code": "expandedfoods:hardlard", "quantity": 2 },
+                "B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-milky-*-plain", "name": "color" }
+        },
+        "width": 1,
+        "height": 3,
+	"recipeGroup": 3,
+        "output": { "type": "block", "code": "bricklayers:glazedoillamp-milky-{color}-up"  }
+	}
+]

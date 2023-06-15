@@ -1,0 +1,329 @@
+[
+  {
+     "op": "add",
+     "path": "/attributes",
+     "value": {
+		  "handbook": {
+				"extraSections": [
+					  {
+              "title": "indappledgroves:block-handbooktitle-debarkedlog",
+						  "text": "indappledgroves:block-handbooktext-debarkedlog"
+					  }
+          ]
+        }
+      },
+     "file": "game:blocktypes/wood/woodtyped/log-debarked.json",
+     "side": "server"
+  },
+  {
+     "op": "add",
+     "path": "/attributes",
+     "value": {
+		  "handbook": {
+				"extraSections": [
+					  {
+              "title": "indappledgroves:block-handbooktitle-supportbeam",
+						  "text": "indappledgroves:block-handbooktext-supportbeam"
+					  }
+          ]
+        }
+      },
+     "file": "game:blocktypes/wood/woodtyped/suppportbeam.json",
+     "side": "server"
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log.json",
+    "side": "server",
+    "op": "add",
+    "path": "/attributes/workStationTransformsByType",
+    "value": {
+      "*-placed-*":{
+        "idgChoppingBlockProps": {               
+            "idgChoppingBlockTransform": {
+            "translation": {
+              "x": 0,
+              "y": 0.0625,
+              "z": 0,
+              "scale": 0.95
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "origin": {
+              "x": 0.5,
+              "y": 0,
+              "z": 0.5
+            }
+          }
+      },
+      "idgSawBuckProps": {
+          "idgSawBuckTransform": {
+              "translation": {
+                "x": 0.027,
+                "y": 0.7,
+                "z": 0,
+                "scale": 0.7
+              },
+              "rotation": {
+                "x": 0,
+                "northx": 90,
+                "southx": 90,
+                "eastx": 45,
+                "westx": 45,
+                "y": 0,
+                "northy": 45,
+                "southy": 45,
+                "easty": 90,
+                "westy": 90, 
+                "z": 0,
+                "eastz": 90,
+                "westz": 90
+                            
+              },
+              "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+              }
+          }
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-debarked.json",
+    "side": "server",
+    "op": "add",
+    "path": "/attributes/workStationTransforms",
+    "value": {
+        "idgChoppingBlockProps": {               
+            "idgChoppingBlockTransform": {
+            "translation": {
+              "x": 0,
+              "y": 0.0625,
+              "z": 0,
+              "scale": 0.95
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "origin": {
+              "x": 0.5,
+              "y": 0,
+              "z": 0.5
+            }
+          }
+      },
+      "idgSawBuckProps": {
+          "idgSawBuckTransform": {
+              "translation": {
+                "x": 0.027,
+                "y": 0.7,
+                "z": 0,
+                "scale": 0.7
+              },
+              "rotation": {
+                "x": 0,
+                "northx": 90,
+                "southx": 90,
+                "eastx": 45,
+                "westx": 45,
+                "y": 0,
+                "northy": 45,
+                "southy": 45,
+                "easty": 90,
+                "westy": 90, 
+                "z": 0,
+                "eastz": 90,
+                "westz": 90
+                            
+              },
+              "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+              }
+          }
+        }
+      }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/planks.json",
+    "side": "server",
+    "op": "add",
+    "path": "/attributes",
+    "value": { "workStationTransformsByType": {
+      "*-placed-*":{
+        "idgChoppingBlockProps": {               
+            "idgChoppingBlockTransform": {
+            "translation": {
+              "x": 0,
+              "y": 0.0625,
+              "z": 0,
+              "scale": 0.95
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "origin": {
+              "x": 0.5,
+              "y": 0,
+              "z": 0.5
+            }
+          }
+      },
+      "idgSawBuckProps": {
+          "idgSawBuckTransform": {
+              "translation": {
+                "x": 0.027,
+                "y": 0.7,
+                "z": 0
+              },
+              "rotation": {
+                "x": 0,
+                "northx": 90,
+                "southx": 90,
+                "eastx": 45,
+                "westx": 45,
+                "y": 0,
+                "northy": 45,
+                "southy": 45,
+                "easty": 90,
+                "westy": 90, 
+                "z": 0,
+                "eastz": 90,
+                "westz": 90
+                            
+              },
+              "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log.json",
+    "op": "remove",
+    "path": "/resistance"
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log.json",
+    "op": "add",
+    "path": "/resistanceByType",
+    "value": {
+    "*-birch-*": 5.7,
+		"*-oak-*": 5.8,
+		"*-maple-*": 6.5,
+		"*-pine-*": 3.9,
+		"*-acacia-*": 10.3,
+		"*-kapok-*": 4,
+		"*-baldcypress-*": 2.3,
+		"*-larch-*": 3.7,
+		"*-redwood-*": 1.9,
+		"*-ebony-*": 14.5,
+		"*-walnut-*": 4.5,
+		"*-purpleheart-*": 12.2,
+		"*-aged-*": 4.5,
+		"*": 4.5
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-debarked.json",
+    "op": "remove",
+    "path": "/resistance"
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-debarked.json",
+    "op": "add",
+    "path": "/resistanceByType",
+    "value": {
+    "*-birch-*": 5.7,
+		"*-oak-*": 5.8,
+		"*-maple-*": 6.5,
+		"*-pine-*": 3.9,
+		"*-acacia-*": 10.3,
+		"*-kapok-*": 4,
+		"*-baldcypress-*": 2.3,
+		"*-larch-*": 3.7,
+		"*-redwood-*": 1.9,
+		"*-ebony-*": 14.5,
+		"*-walnut-*": 4.5,
+		"*-purpleheart-*": 12.2,
+		"*-aged-*": 4.5,
+		"*": 4.5
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-section.json",
+    "side": "server",
+    "op": "add",
+    "path": "/attributes/workStationTransformsByType",
+    "value": {
+      "*-placed-*":{
+        "idgChoppingBlockProps": {               
+            "idgChoppingBlockTransform": {
+            "translation": {
+              "x": 0,
+              "y": 0.0625,
+              "z": 0,
+              "scale": 0.95
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "origin": {
+              "x": 0.5,
+              "y": 0,
+              "z": 0.5
+            },
+            
+          }
+      },
+      "idgSawBuckProps": {
+          "idgSawBuckTransform": {
+              "translation": {
+                "x": 0.027,
+                "y": 0.7,
+                "z": 0
+              },
+              "rotation": {
+                "x": 0,
+                "northx": 90,
+                "southx": 90,
+                "eastx": 45,
+                "westx": 45,
+                "y": 0,
+                "northy": 45,
+                "southy": 45,
+                "easty": 90,
+                "westy": 90, 
+                "z": 0,
+                "eastz": 90,
+                "westz": 90
+                            
+              },
+              "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+              },
+              "scale": 0.95
+          }
+        }
+      }
+    }
+  }
+]

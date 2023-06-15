@@ -1,0 +1,28 @@
+[
+    
+    {
+        "ingredientPattern": "TK_,CCC,__T",
+        "recipeGroup": 1,
+        "ingredients": {
+          "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+          "T": { "type": "item", "code": "spidersilk:silkthread" },
+          "C": { "type": "item", "code": "spidersilk:silkcloth-*", "quantity": 1, "name": "color" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "item", "code": "clothes-neck-neckscarf-silk-{color}" }
+    },
+    {
+        "ingredientPattern": "_KT,CCC,T__",
+        "recipeGroup": 1,
+        "ingredients": {
+          "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+          "T": { "type": "item", "code": "spidersilk:silkthread" },
+          "C": { "type": "item", "code": "spidersilk:silkcloth-*", "quantity": 1, "name": "color" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "item", "code": "clothes-neck-neckscarf-silk-{color}" }
+    }
+
+]

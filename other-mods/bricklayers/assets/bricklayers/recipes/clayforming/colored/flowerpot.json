@@ -1,0 +1,61 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "black", "blurple", "brown", "darkgrey", "fire", "green", "light", "malachite", "orange", "pink", "purple", "red", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+	"pattern": [[
+		"######",
+		"######",
+		"######",
+		"######",
+		"######",
+		"######"
+	],
+	[
+		"######",
+		"#____#",
+		"#____#",
+		"#____#",
+		"#____#",
+		"######"
+	],
+	[
+		"######",
+		"#____#",
+		"#____#",
+		"#____#",
+		"#____#",
+		"######"
+	],
+	[
+		"######",
+		"#____#",
+		"#____#",
+		"#____#",
+		"#____#",
+		"######"
+	],
+	[
+		"######",
+		"#____#",
+		"#____#",
+		"#____#",
+		"#____#",
+		"######"
+	],
+	[
+		"######",
+		"#____#",
+		"#____#",
+		"#____#",
+		"#____#",
+		"######"
+	],
+	[
+		"######",
+		"#____#",
+		"#____#",
+		"#____#",
+		"#____#",
+		"######"
+	]],
+	"name": "recipe-clayforming-colored-flowerpot",
+	"output": { "type": "block", "code": "bricklayers:flowerpotcolored-raw-{color}" }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/resistanceByType/",
+    "value": {"douglasfir": 2.9,
+              "willow": 1.9,
+              "honeylocust": 7,
+              "bearnut": 6.8,
+              "blackpoplar": 2.4,
+              "pyramidalpoplar": 2.5,
+              "catalpa": 2.5,
+              "mahogany": 3.9,
+              "sal": 10.2,
+              "saxaul": 11.1,
+              "sycamore": 3.4,
+              "elm": 3.9,
+              "beech": 5.8,
+              "eucalyptus": 13.3,
+              "cedar": 1.5},
+    "file": "game:blocktypes/wood/woodtyped/log.json",
+    "side": "server",
+    "dependsOn": [ { "modid": "wildcrafttrees" } ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "ingredientPattern": "L__,HHH,WWW",
+    "ingredients": {
+      "L": { "type": "block", "code": "fabric-*-normal-down" },
+      "H": { "type": "block", "code": "game:hay-normal-*" },
+      "W": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "game:bed-wood-head-north" }
+  }
+]

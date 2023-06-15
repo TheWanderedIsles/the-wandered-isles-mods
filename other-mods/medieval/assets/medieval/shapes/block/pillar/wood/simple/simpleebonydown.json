@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"ebonydown": "block/wood/sincortezalog/debarked/pillar/simple/ebonydown",
+		"ebony": "block/wood/sincortezalog/debarked/ebony"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#ebonydown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#ebonydown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#ebonydown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#ebonydown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#ebony", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#ebony", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

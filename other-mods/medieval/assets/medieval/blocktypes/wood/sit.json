@@ -1,0 +1,124 @@
+{
+	code: "sit",
+	variantgroups: [
+		{ code: "material", states: ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] }
+
+		 ],
+	behaviors: [
+		{ name: "UnstableFalling"}
+	],
+	creativeinventory: { "general": ["*"], "decorative": ["*"], "medieval": ["*"] },
+	
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "block/wood/sit" },
+	shapeByType: {
+		"*": { base: "block/wood/sit",
+			alternates: [
+				{ base: "block/wood/sit", rotateY: 45},
+				{ base: "block/wood/sit", rotateY: 90},
+				{ base: "block/wood/sit", rotateY: 135},
+				{ base: "block/wood/sit", rotateY: 180}
+
+			] }
+	},
+	texturesByType: {
+
+		"*-acacia": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/acacia" }
+		},
+		"*-baldcypress": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/baldcypress" }
+		},
+		"*-birch": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/birch" }
+		},
+		"*-ebony": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/ebony" }
+		},
+		"*-kapok": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/kapok" }
+		},
+		"*-larch": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/larch" }
+		},
+		"*-maple": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/maple" }
+		},
+		"*-oak": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/oak" }
+		},
+		"*-pine": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/pine" }
+		},
+		"*-purpleheart": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/purpleheart" }
+		},
+		"*-redwood": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/redwood" }
+		},
+		"*-walnut": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/walnut" }
+		},
+		"*-aged": { 
+						"material": { base: "block/wood/planks/{material}1" },
+						"up": { base: "block/wood/planks/up/aged" }
+		}
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 3,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	faceCullMode: "NeverCull",
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	sideao: { 
+		all: false
+	},
+	drops: [
+		{ type: "block", code: "sit-{material}" }],
+	collisionSelectionBox: {
+		x1: 0.25, y1: 0, z1: 0.25, x2:0.75, y2: 0.5, z2: 0.75
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -0.3, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+		guiTransform: {
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.8
+	},
+		tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.5 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	}
+}

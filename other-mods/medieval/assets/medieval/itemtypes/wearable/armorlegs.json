@@ -1,0 +1,93 @@
+{
+  "code": "medievalarmor",
+  "class": "ItemWearable",
+  "heldTpIdleAnimation": "holdunderarm",
+  "variantgroups": [
+    { "code": "bodypart", "states": [ "legs"] },
+    { "code": "construction", "states": ["iron"] }
+  ],
+  "shapeByType": {
+    "medievalarmor-legs-iron": { "base": "game:entity/humanoid/seraph" }
+  },
+  "texturesByType": {
+    "medievalarmor-legs-iron": {
+      "seraph": { "base": "entity/humanoid/serapharmor/legs/iron" }
+    }
+    
+  },
+  "storageFlags": 128,
+  "attributes": {
+    "visibleDamageEffect": false,
+    "wearableAttachment": true,
+    "clothescategoryByType": {
+      "medievalarmor-legs-*": "armorlegs"
+    },
+    "defaultProtLoss": {
+      "perTierRelativeProtectionLoss": [0.03, 0.15],
+      "perTierFlatDamageReductionLoss": [0.1, 0.2]
+    },
+    "footStepSoundByType": {
+      "medievalarmor-body-iron": "game:wearable/leather*"
+    },
+    "protectionModifiersByType": {
+      "medievalarmor-legs-*": {
+        "relativeProtection": 0.97,
+        "flatDamageReduction": 1.8,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      }
+    },
+    "statModifiersByType": {
+      "medievalarmor-body-*": {
+        "rangedWeaponsAcc": 0.2,
+        "rangedWeaponsSpeed": 0.1,
+        "walkSpeed": 0.1,
+        "healingeffectivness": 0.1,
+        "hungerrate": -0.3
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "clothing": ["*"],
+    "medieval": ["*"]
+  },
+  "renderAlphaTest": 0.25,
+  "durabilityByType": {
+    "medievalarmor-legs-*": 2500
+  },
+
+  "fpHandTransformByType": {
+    "medievalarmor-legs-*": {
+      "translation": { "x": 0.4, "y": -1.2, "z": -0.5 },
+      "rotation": { "x": 163, "y": -111, "z": -180 },
+      "origin": { "x": 0.5, "y": 1.6, "z": 0.5 },
+      "scale": 2.15
+    }
+  },
+  "tpHandTransformByType": {
+    "medievalarmor-legs-*": {
+      "translation": { "x": -0.7, "y": -0.6, "z": -0.4 },
+      "rotation": { "x": 95, "y": -20, "z": -91 },
+      "origin": { "x": 0.5, "y": 0.7, "z": 0.5 },
+      "scale": 0.74
+    }
+  },
+  "guiTransformByType": {
+    "medievalarmor-legs-*": {
+      "translation": { "x": 1, "y": 0, "z": 0 },
+      "rotation": { "x": -26, "y": -46, "z": -180 },
+      "origin": { "x": 0.5, "y": 0.6, "z": 0.5 },
+      "scale": 1.25
+    }
+  },
+  "groundTransformByType": {
+    "medievalarmor-legs-*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 90 },
+      "origin": { "x": 0.34, "y": 1.12, "z": 0.5 },
+      "scale": 3.1
+    }
+  }
+}

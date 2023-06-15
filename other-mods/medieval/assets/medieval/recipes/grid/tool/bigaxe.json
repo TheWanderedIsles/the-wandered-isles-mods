@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "H,T,X",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"X": { type: "item", code: "game:stick" },
+			"T": { type: "item", code: "bigaxebladehead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "stainlesssteel", "titanium"]}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "bigaxe-{metal}", quantity: 1  }
+	}
+]

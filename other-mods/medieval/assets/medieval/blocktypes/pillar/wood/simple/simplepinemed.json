@@ -1,0 +1,42 @@
+{
+	code: "simplepinemed",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/wood/simple/simplepinemed" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/wood/sincortezalog/debarked/pillar/simple/pinemed" },
+		"east": { base: "block/wood/sincortezalog/debarked/pillar/simple/pinemed" },
+		"south": { base: "block/wood/sincortezalog/debarked/pillar/simple/pinemed" },
+		"west": { base: "block/wood/sincortezalog/debarked/pillar/simple/pinemed" },
+		"up": { base: "block/wood/sincortezalog/debarked/pine" },
+		"down": { base: "block/wood/sincortezalog/debarked/pine" },
+		"inside-north": { base: "block/wood/sincortezalog/debarked/pillar/simple/pinemed" },
+		"inside-east": { base: "block/wood/sincortezalog/debarked/pillar/simple/pinemed" },
+		"inside-south": { base: "block/wood/sincortezalog/debarked/pillar/simple/pinemed" },
+		"inside-west": { base: "block/wood/sincortezalog/debarked/pillar/simple/pinemed" },
+		"inside-up": { base: "block/wood/sincortezalog/debarked/pine" },
+		"inside-down": { base: "block/wood/sincortezalog/debarked/pine" }
+
+	},
+	replaceable: 90,
+	fertility: 0,
+	resistance: 2,
+	blockmaterial: "Wood",
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

@@ -1,0 +1,46 @@
+[
+	{
+	"ingredientPattern": "P,B",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"B": { "type": "block", "code": "game:claybricks-*", "name": "brick", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:burnedbrick-{brick}", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "H,B",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"B": { "type": "block", "code": "game:brickstairs-*-up-north-free", "name": "brick", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:burnedbrick-{brick}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "H,B",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"B": { "type": "block", "code": "game:brickslabs-*-down-free", "name": "brick", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:burnedbrick-{brick}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "H,B",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"B": { "type": "block", "code": "game:claybrickchimney-*-unlit-ns", "name": "brick", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "game:burnedbrick-{brick}", "quantity": 5 }
+	}
+]

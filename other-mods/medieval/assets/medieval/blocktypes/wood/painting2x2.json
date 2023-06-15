@@ -1,0 +1,81 @@
+{
+	code: "painting2x2",
+	creativeinventory: { "general": ["painting2x2-*-north"], "decorative": ["painting2x2-*-north"], "medieval": ["painting2x2-*-north"] },
+	behaviorsByType: {
+		"@painting2x2-(plain|vs|lamia2x2|demon-1|demon-2|demon-3|demon-4|demon-5|demon-6|demon-7|demon-8|demon-9|demon-10|demon-11|demon-12|demon-13|demon-14|demon-15|demon-16|demon-17|demon-18|demon-19|demon-20|demon-21|demon-22|demon-23|demon-24|demon-25|demon-26|demon-27|demon-28|demon-29|demon-30|demon-31|demon-32|demon-33|demon-34|demon-35|demon-36|demon-37|demon-38|demon-39|demon-40|demon-41|demon-42|demon-43|demon-44|demon-45|demon-46|demon-47|demon-48|demon-49|demon-50|demon-51|demon-52|demon-53|demon-54|demon-55|demon-56|demon-57|demon-58|demon-59|demon-60|demon-61|demon-62|demon-63|demon-64|demon-65|demon-66|demon-67|demon-68|demon-69|demon-70|demon-71|demon-72|demon-73|demon-74|demon-75|demon-76|demon-77|demon-78|demon-79|demon-80|demon-81|demon-82|demon-83|demon-84|demon-85|demon-86|demon-87|demon-88|demon-89|demon-90|demon-91|demon-92|demon-93|knight1|knight2|knight3|knight4|knight5|knight6|knight7|knight8|knight9|knight10|knight11|knight12|knight13|knight14|knight15|knight16|knight17|knight18|knight19|knight20|knight21|knight22|knight23|knight24|knight25|knight26|knight27|knight28|knight29|knight30|knight31|knight32|knight33|knight34|knight35|knight36|knight37|knight38)-.*": [
+			{ name: "HorizontalAttachable" }, 
+			{ name: "Multiblock", propertiesByType: {
+					"*-north": { sizex: 2, sizey: 2, sizez: 1, cposition: { x: 0, y: 0, z: 0 } },
+					"*-east": { sizex: 1, sizey: 2, sizez: 2, cposition: { x: 0, y: 0, z: 0 } },
+					"*-south": { sizex: 2, sizey: 2, sizez: 1, cposition: { x: 1, y: 0, z: 0 } },
+					"*-west": { sizex: 1, sizey: 2, sizez: 2, cposition: { x: 0, y: 0, z: 1 } } 
+				}
+			} 
+		],
+		"*": [{ name: "HorizontalAttachable" }]
+	},
+	attributes: {
+	},
+	variantgroups: [
+		{ code:"painting", states: [ "plain", "lamia2x2", "vs", "demon-1", "demon-2", "demon-3", "demon-4", "demon-5", "demon-6", "demon-7", "demon-8", "demon-9", "demon-10", "demon-11", "demon-12", "demon-13", "demon-14", "demon-15", "demon-16", "demon-17", "demon-18", "demon-19", "demon-20", "demon-21", "demon-22", "demon-23", "demon-24", "demon-25", "demon-26", "demon-27", "demon-28", "demon-29", "demon-30", "demon-31", "demon-32", "demon-33", "demon-34", "demon-35", "demon-36", "demon-37", "demon-38", "demon-39", "demon-40", "demon-41", "demon-42", "demon-43", "demon-44", "demon-45", "demon-46", "demon-47", "demon-48", "demon-49", "demon-50", "demon-51", "demon-52", "demon-53", "demon-54", "demon-55", "demon-56", "demon-57", "demon-58", "demon-59", "demon-60", "demon-61", "demon-62", "demon-63", "demon-64", "demon-65", "demon-66", "demon-67", "demon-68", "demon-69", "demon-70", "demon-71", "demon-72", "demon-73", "demon-74", "demon-75", "demon-76", "demon-77", "demon-78", "demon-79", "demon-80", "demon-81", "demon-82", "demon-83", "demon-84", "demon-85", "demon-86", "demon-87", "demon-88", "demon-89", "demon-90", "demon-91", "demon-92", "demon-93", "knight1", "knight2", "knight3", "knight4", "knight5", "knight6", "knight7", "knight8", "knight9", "knight10", "knight11", "knight12", "knight13", "knight14", "knight15", "knight16", "knight17", "knight18", "knight19", "knight20", "knight21", "knight22", "knight23", "knight24", "knight25", "knight26", "knight27", "knight28", "knight29", "knight30", "knight31", "knight32", "knight33", "knight34", "knight35", "knight36", "knight37", "knight38" ] },
+		{ code:"side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapebytype: {
+		"@painting2x2-(plain|vs|lamia2x2|demon-1|demon-2|demon-3|demon-4|demon-5|demon-6|demon-7|demon-8|demon-9|demon-10|demon-11|demon-12|demon-13|demon-14|demon-15|demon-16|demon-17|demon-18|demon-19|demon-20|demon-21|demon-22|demon-23|demon-24|demon-25|demon-26|demon-27|demon-28|demon-29|demon-30|demon-31|demon-32|demon-33|demon-34|demon-35|demon-36|demon-37|demon-38|demon-39|demon-40|demon-41|demon-42|demon-43|demon-44|demon-45|demon-46|demon-47|demon-48|demon-49|demon-50|demon-51|demon-52|demon-53|demon-54|demon-55|demon-56|demon-57|demon-58|demon-59|demon-60|demon-61|demon-62|demon-63|demon-64|demon-65|demon-66|demon-67|demon-68|demon-69|demon-70|demon-71|demon-72|demon-73|demon-74|demon-75|demon-76|demon-77|demon-78|demon-79|demon-80|demon-81|demon-82|demon-83|demon-84|demon-85|demon-86|demon-87|demon-88|demon-89|demon-90|demon-91|demon-92|demon-93|knight1|knight2|knight3|knight4|knight5|knight6|knight7|knight8|knight9|knight10|knight11|knight12|knight13|knight14|knight15|knight16|knight17|knight18|knight19|knight20|knight21|knight22|knight23|knight24|knight25|knight26|knight27|knight28|knight29|knight30|knight31|knight32|knight33|knight34|knight35|knight36|knight37|knight38)-.*": { base: "block/wood/painting2x2/lamia2x2", rotateYByType: { "*-north": 180, "*-east": 90, "*-south": 0, "*-west": 270 } }
+	},
+	blockmaterial: "Wood",
+	lightAbsorption: 0,
+	faceCullMode: "NeverCull",
+	textures: {
+		"painting": { base: "block/painting2x2/{painting}" }
+	},
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	sideao: { all: false },
+	replaceable: 5001,
+	resistance: 0.1,
+	collisionbox: null,
+	selectionbox: {
+		x1: 0, y1: 0, z1: 0, 
+		x2: 1, y2: 1, z2: 0.0625,
+		rotateYByType: {
+			"*-east": 270,
+			"*-south": 180,
+			"*-west": 90,
+			"*-north": 0
+		}
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"break": "game_block/planks",
+		"hit": "game:block/planks"
+	},
+	rainPermeable: true,
+	materialDensity: 600,
+	guiTransform: {
+		rotation: { x: -22.6, y: 25, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0 },
+		scale: 1.39
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0 },
+		scale: 2.5
+	},
+	tpHandTransform: {
+		translation: { x: -1, y: -0.29, z: 0.05 },
+		rotation: { x: 3, y: 12, z: -25 },
+		origin: { x: 0.5, y: 0.5, z: 0 },
+		scale: 0.6
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: -0.05, z: 1.1 },
+		rotation: { x: 0, y: -130, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0 }
+	}
+}

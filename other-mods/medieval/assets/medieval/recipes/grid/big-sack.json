@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "TT,LL,BP",
+	ingredients: {
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1 },
+		"L": { type: "block", code: "game:linen-*", quantity: 2 },
+		"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: [ "silver" ], quantity: 1 },
+		"B": { type: "item", code: "medieval:metalbar-*", name: "metal", allowedVariants: [ "silver" ], quantity: 2  }
+	},
+	width: 2,
+	height: 3,
+	output: { type: "item", code: "big-sack"  }
+}

@@ -1,0 +1,56 @@
+{
+	code: "medievaltuningcylinder",
+	guiTransform: {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: 51, y: -14, z: 36 },
+		origin: { x: 0.5, y: 0.5, z: 0.5 },
+		scale: 1.45
+	},
+	attributes: {
+		moldrackable: true,
+		onmoldrackTransform: {
+			translation: { x: 1.29, y: -0.6, z: -0.8 },
+			rotation: { x: 0, y: 110, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.1
+		},
+		isPlayableDisc: true,
+		musicTrackByType: {
+			"*-666": "sounds/music/killers.ogg"
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "medieval": ["*"] },
+	variantgroups: [
+		{ code: "type", states: ["666"] },
+	],
+	shape: { base: "game:block/machine/resonator-cylinder" },
+	textures: {
+		colorByType: {
+			"*-666": { base: "block/red" }
+		}
+	},
+	maxstacksize: 1,
+	guiTransform: {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: 147, y: -14, z: -31 },
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 2.39
+	},
+	fpHandTransform: {
+		translation: { x: -0.05, y: 0, z: 0 },
+		rotation: { x: 15, y: 99, z: -30 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1.75
+	},
+	tpHandTransform: {
+		translation: { x: -1.1, y: -0.7, z: -0.7 },
+		rotation: { x: 95, y: -1, z: -76 },
+		scale: 0.65
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.58 },
+		scale: 4.1
+	}
+}

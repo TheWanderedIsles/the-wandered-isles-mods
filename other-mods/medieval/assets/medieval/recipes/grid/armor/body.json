@@ -1,0 +1,27 @@
+[
+	{
+		ingredientPattern: "PTR,RRR,RRR",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:armor-body-chain-iron", quantity: 1 },
+			"R": { type: "item", code: "medieval:redondo-iron", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medievalarmor-body-ironbody" }
+	},
+	{
+		ingredientPattern: "AP_,_R_,_T_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:hammer-*", isTool: true  },
+			"P": { type: "item", code: "game:ingot-iron", quantity: 1 },
+			"R": { type: "item", code: "medieval:redondo-iron", quantity: 1 },
+			"T": { type: "item", code: "game:leather-plain", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "medievalarmor-body-iron" }
+	}
+]

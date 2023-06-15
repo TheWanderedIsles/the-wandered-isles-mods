@@ -1,0 +1,22 @@
+[
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:shears-*", isTool: true  },
+			"F": { type: "block", code: "game:leavesbranchy-placed-birch" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:mossy-green", quantity: 16 }
+	},
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "medieval:shears-*", isTool: true  },
+			"F": { type: "block", code: "game:leavesbranchy-placed-birch" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:mossy-green", quantity: 16 }
+	}
+]

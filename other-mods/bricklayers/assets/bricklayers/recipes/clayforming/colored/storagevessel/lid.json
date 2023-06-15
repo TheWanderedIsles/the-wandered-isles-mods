@@ -1,0 +1,33 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "black", "blue", "blurple", "brown", "darkgrey", "fire", "green", "light", "malachite", "orange", "pink", "purple", "red", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+	"pattern": [[
+		"____________",
+		"_##########_",
+		"_##########_",
+		"_##########_",
+		"_##########_",
+		"_##########_",
+		"_##########_",
+		"_##########_",
+		"_##########_",
+		"_##########_",
+		"_##########_",
+		"____________"
+	],
+	[
+		"____________",
+		"_##########_",
+		"_#________#_",
+		"_#________#_",
+		"_#________#_",
+		"_#________#_",
+		"_#________#_",
+		"_#________#_",
+		"_#________#_",
+		"_#________#_",
+		"_##########_",
+		"____________"
+	]],
+	"name": "recipe-clayforming-colored-storagevessellid",
+	"output": { "type": "block", "code": "bricklayers:vesselcoloredlid-raw-{color}" }
+}

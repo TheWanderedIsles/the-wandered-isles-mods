@@ -1,0 +1,52 @@
+{
+	code: "onions",
+	variantgroups: [
+		{ code:"type", states: ["onions" ] },
+	],
+	attributes: {
+		"pieFormingSurface": true
+	},
+	shape: { base: "block/medieval/onions" },
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "decorative": ["*"], "medieval": ["*"] }
+	},
+	blockmaterial: "leaves",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 0.1,
+	collisionbox: null,
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/plant",
+		"hit": "game:block/plant",
+		"break": "game:block/plant",
+		"walk": "game:walk/grass"
+	},
+	texturesByType: {
+		"*": {
+			"s5": { base: "block/plant/crop/onion/s2" },
+			"bulb": { base: "block/plant/crop/onion/bulb" },
+			"e5": { base: "block/plant/crop/onion/e2" }
+		}
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+		fpHandTransform: {
+		translation: { x: 0.08, y: 0.2, z: 0.6 },
+		rotation: { x: 100, y: 48, z: -102 }
+	},
+		guiTransform: {
+		translation: { x: 0, y: 4.2, z: 0 },
+		scale: 1.55
+	}
+}

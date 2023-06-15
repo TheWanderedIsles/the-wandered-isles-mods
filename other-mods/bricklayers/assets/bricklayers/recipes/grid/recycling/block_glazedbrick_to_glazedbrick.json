@@ -1,0 +1,24 @@
+[
+	{
+	"ingredientPattern": "S,B",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"B": { "type": "block", "code": "bricklayers:glazedbricks-clear-*", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glazedbrick-burnt-clear-{color}", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "S,B",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"B": { "type": "block", "code": "bricklayers:glazedbricks-milky-*", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glazedbrick-burnt-milky-{color}", "quantity": 4 }
+	}
+]

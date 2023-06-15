@@ -1,0 +1,21 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "type", "allowedVariants": [ "red", "brown", "black", "blurple", "darkgrey", "green", "light", "malachite", "orange", "pink", "purple", "yellow" ] },
+	"pattern": [[
+		"###_###_###_###",
+		"###_###_###_###",
+		"###_###_###_###",
+		"###_###_###_###",
+		"_______________",
+		"###_###_###_###",
+		"###_###_###_###",
+		"###_###_###_###",
+		"###_###_###_###",
+		"_______________",
+		"###_###_###_###",
+		"###_###_###_###",
+		"###_###_###_###",
+		"###_###_###_###"
+	]],
+        "name": "Colored shingles",
+        "output": { "type": "item", "code": "game:shingle-raw-{type}", "stacksize": 12 }
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"ingredientPattern": "L_L	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "wildcraft:plantfibers-*", "quantity": 2 }
+		},
+		"name": "basket",
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "wildcraft:basket"  }
+	},
+    {
+		"ingredientPattern": "LLL	L_L	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "wildcraft:plantfibers-*", "quantity": 3 }
+		},
+		"name": "stationarybasket",
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "wildcraft:stationarybasket-east", "attributes": { "type": "sedge" }  }
+	}
+]

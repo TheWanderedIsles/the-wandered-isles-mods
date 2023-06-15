@@ -1,0 +1,112 @@
+[
+
+
+{
+	ingredientPattern: "SSS,SIS,SSS",
+	ingredients: {
+		"S": { type: "item", code: "game:stonebrick-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+		"I": { type: "item", code: "game:clay-blue", quantity: 1}
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:stonebricks-{rock}", quantity: 2 }
+	},
+
+
+	{
+	ingredientPattern: "SSS,SIS,SSS",
+	ingredients: {
+		"S": { type: "item", code: "game:stonebrick-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+		"I": { type: "item", code: "game:clay-fire", quantity: 1}
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:stonebricks-{rock}", quantity: 2 }
+	},
+
+	
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:bonemeal" },
+			"F": { type: "block", code: "game:soil-*", allowedVariants: ["verylow-none", "low-none", "medium-none"], quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:soil-high-none", quantity: 4 }
+	},
+
+	
+    {
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:compost" },
+			"F": { type: "block", code: "game:soil-*", allowedVariants: ["verylow-none", "low-none", "medium-none"], quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:soil-compost-none", quantity: 1 }
+	},
+
+	{
+	ingredientPattern: "BBB,BCB,BBB",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-blue" },
+		"B": { type: "item", code: "game:burnedbrick-*", name: "type" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:claybricks-{type}", quantity: 4  }
+	},
+
+	{
+	ingredientPattern: "BBB,BCB,BBB",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-fire" },
+		"B": { type: "item", code: "game:burnedbrick-*", name: "type" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:claybricks-{type}", quantity: 4  }
+	},
+
+
+	{
+	ingredientPattern: "BBB,BCB,BBB",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", name: "type" },
+		"B": { type: "item", code: "game:refractorybrick-fired-tier1", name: "type" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:refractorybricks-good-tier1", quantity: 2  }
+},
+
+
+	{
+	ingredientPattern: "BBB,BCB,BBB",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", name: "type" },
+		"B": { type: "item", code: "game:refractorybrick-fired-tier2", name: "type" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:refractorybricks-good-tier2", quantity: 2  }
+},
+
+
+	{
+	ingredientPattern: "BBB,BCB,BBB",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", name: "type" },
+		"B": { type: "item", code: "game:refractorybrick-fired-tier3", name: "type" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:refractorybricks-good-tier3", quantity: 2  }
+}
+
+
+
+
+]

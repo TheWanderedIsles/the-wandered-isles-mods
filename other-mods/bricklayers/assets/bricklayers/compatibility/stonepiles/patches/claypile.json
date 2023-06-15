@@ -1,0 +1,47 @@
+[
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": [ "black", "blurple", "brown", "darkgrey", "red", "green", "light", "malachite", "orange", "pink", "purple", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ],
+    "file": "stonepiles:blocktypes/claypile.json"
+  },
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "stonepiles:blocktypes/claypile.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "*-blue": {
+		"all": { "base": "game:block/soil/{type}clay" }
+      },
+      "*-fire": {
+		"all": { "base": "game:block/soil/{type}clay" }
+      },
+      "*-lavender": {
+		"all": { "base": "bricklayers:block/clay/raw/lavender" }
+      },
+      "*-paleblue": {
+		"all": { "base": "bricklayers:block/clay/raw/paleblue" }
+      },
+      "*-palegreen": {
+		"all": { "base": "bricklayers:block/clay/raw/palegreen" }
+      },
+      "*-palered": {
+		"all": { "base": "bricklayers:block/clay/raw/palered" }
+      },
+      "*-sunflower": {
+		"all": { "base": "bricklayers:block/clay/raw/sunflower" }
+      },
+      "*-white": {
+		"all": { "base": "bricklayers:block/clay/raw/white" }
+      },
+      "*": {
+		"all": { "base": "bricklayers:item/resource/clay/raw-{type}clay" }
+      }
+    },
+    "file": "stonepiles:blocktypes/claypile.json"
+  }
+]

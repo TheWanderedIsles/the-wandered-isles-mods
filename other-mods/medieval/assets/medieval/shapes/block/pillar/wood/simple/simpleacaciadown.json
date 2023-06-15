@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"acaciadown": "block/wood/sincortezalog/debarked/pillar/simple/acaciadown",
+		"acacia": "block/wood/sincortezalog/debarked/acacia"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#acaciadown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#acaciadown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#acaciadown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#acaciadown", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#acacia", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#acacia", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

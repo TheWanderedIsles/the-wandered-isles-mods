@@ -1,0 +1,30 @@
+{
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": [ "blue", "fire" ] },
+	"pattern": [[
+		"###",
+		"###",
+		"###"
+	],
+	[
+		"###",
+		"#_#",
+		"###"
+	],
+	[
+		"###",
+		"#_#",
+		"###"
+	],
+	[
+		"###",
+		"#_#",
+		"###"
+	],
+	[
+		"###",
+		"#_#",
+		"###"
+	]],
+	"name": "recipe-clayforming-colored-mug",
+	"output": { "type": "block", "code": "bricklayers:coloredmug-raw-{color}" }
+}

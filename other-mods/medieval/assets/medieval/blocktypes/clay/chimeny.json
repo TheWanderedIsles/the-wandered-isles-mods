@@ -1,0 +1,40 @@
+{
+	code: "chimeny",
+	entityclass: "ParticleEmitter",
+	behaviors: [{name: "NoParticles"}],
+	shape: { base: "block/clay/chimeny" },
+	particleProperties: [
+		{
+			hsvaColor: [{ avg: 0, var: 0 }, { avg: 0, var: 0 }, { avg: 140, var: 30 },  { avg: 220, var: 50 }],
+			opacityEvolve: { transform: "quadratic", factor: -16 },
+			gravityEffect: { avg: 0, var: 0 },
+			posOffset: [ { avg: 0, var: 0.3 }, { avg: 0, var: 0 }, { avg: 0, var: 0.3 }],
+			velocity: [ { avg: 0, var: 0.025 }, { avg: 0.2, var: 0.1 }, { avg: 0, var: 0.025 }],
+			quantity: { avg: 0.05 },
+			size: { avg: 1, var: 0.05 },
+			sizeEvolve: { transform: "linear", factor: 2 },
+			particleModel: "Quad",
+			lifeLength: { avg: 5 },
+			windAffectednes: 0.7
+		}
+	],
+	blockmaterial: "Ceramic",
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+	replaceable: 700,
+	resistance: 2,
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	lightAbsorption: 0.1,
+	sounds: {
+		walk: "game:walk/stone",
+		place: "game:/ceramicplace"
+	},
+	collisionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.75, z2: 1 },
+	selectionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.75, z2: 1 },
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

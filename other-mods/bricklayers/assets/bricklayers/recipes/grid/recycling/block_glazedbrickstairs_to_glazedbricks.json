@@ -1,0 +1,46 @@
+[
+	{
+	"ingredientPattern": "P,B",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"B": { "type": "block", "code": "bricklayers:glazedbrickstairs-milky-*-up-north-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glazedbrick-burnt-milky-{color}", "quantity": 3 }
+	},
+	{
+	"ingredientPattern": "H,B",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"B": { "type": "block", "code": "bricklayers:glazedbrickstairs-milky-*-up-north-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glazedbrick-burnt-milky-{color}", "quantity": 3 }
+	},
+	{
+	"ingredientPattern": "P,B",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:pickaxe-*", "isTool": true },
+		"B": { "type": "block", "code": "bricklayers:glazedbrickstairs-clear-*-up-north-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glazedbrick-burnt-clear-{color}", "quantity": 3 }
+	},
+	{
+	"ingredientPattern": "H,B",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"B": { "type": "block", "code": "bricklayers:glazedbrickstairs-clear-*-up-north-free", "name": "color", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"recipeGroup": 3,
+	"output": { "type": "item", "code": "bricklayers:glazedbrick-burnt-clear-{color}", "quantity": 3 }
+	}
+]

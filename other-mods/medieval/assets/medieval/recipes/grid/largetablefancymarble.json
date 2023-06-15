@@ -1,0 +1,137 @@
+[
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"T": { type: "block", code: "largetablefancy-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+			"M": { type: "block", code: "game:polishedrockslab-whitemarble-down-free" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarble-{wood}-whitemarble-north" }
+	},
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"T": { type: "block", code: "largetablefancy-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+			"M": { type: "block", code: "game:polishedrockslab-greenmarble-down-free" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarble-{wood}-greenmarble-north" }
+	},
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"T": { type: "block", code: "largetablefancy-*-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+			"M": { type: "block", code: "game:polishedrockslab-redmarble-down-free" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarble-{wood}-redmarble-north" }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarble-*-whitemarble-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarblel-{wood}-whitemarblel-north" }
+	},
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarble-*-greenmarble-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarblel-{wood}-greenmarblel-north" }
+	},
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarble-*-redmarble-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarblel-{wood}-redmarblel-north" }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarblel-*-whitemarblel-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarbler-{wood}-whitemarbler-north" }
+	},
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarblel-*-greenmarblel-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarbler-{wood}-greenmarbler-north" }
+	},
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarblel-*-redmarblel-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarbler-{wood}-redmarbler-north" }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarbler-*-whitemarbler-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarble-{wood}-whitemarble-north" }
+	},
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarbler-*-greenmarbler-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarble-{wood}-greenmarble-north" }
+	},
+	{
+		ingredientPattern: "M,T",
+		ingredients: {
+			"M": { type: "item", code: "game:hammer-*", isTool: true },
+			"T": { type: "block", code: "largetablefancymarbler-*-redmarbler-north", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "largetablefancymarble-{wood}-redmarble-north" }
+	}
+]

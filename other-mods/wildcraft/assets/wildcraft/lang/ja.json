@@ -1,0 +1,1690 @@
+{
+	// Japanese localization file for 'Wildcraft'.
+	// Mod Version: v1.6.2
+	// Translated By: Macoto Hino
+	// Machine translation using PCOT and DeepL.
+
+  "game:tabname-wildcraft": "Wildcraft",
+
+  "game:wildcraft-guide-title": "Wildcraftのガイド",
+  "game:wildcraft-guide-text":
+  "<strong>Wildcraftのサバイバルガイド</strong>
+  <i>Vintage Storyの薬草・植物MODです。</i>
+  <br>
+  <strong>イントロダクション</strong>
+  <br>
+  このMODは、いくつかの植物の仕組みを拡張し、また様々な新しい植物を追加することを目的としています。
+  <br>
+  <strong>ベリーと切り落としのガイド</strong>
+  <br>
+  Wildcraftのベリーの茂みの繁殖は、バニラVSから大きく変更されています。ベリー・ブッシュの束をポケットに入れて走り回ることは出来なくなり、ベリーの茂みを繁殖させる為には、ベリーの茂みから切り落としを行わなければならなくなりました。このバージョンでは、ナイフや鋏でベリーの木を剪定して、切り落としを入手することが出来ます。ただし、注意しなければならないことがあります。しかし、注意して下さい！切り落とした部分は、乾燥して枯れるまで長くはもたないので、早く植えて下さい。また、すべてのベリーが切り落としで育つわけではありません。ベリーの(野イチゴのような)苗は、種で育てる必要があります。
+  <br>
+  気を付けて下さい！食用に適さないベリーもあるし、とてもトゲトゲしいベリーもあります！ (でも、幸いなことに、こっそり食べれば、そうでもないかも）。
+  <br>
+  <strong>ハーブと植物のガイド</strong>
+  <br>
+  Wildcraftでは、様々な新しい植物が追加されています。植物はナイフで収穫することが出来ます。この状態では、植物はやがて成長し、プレイヤーは再び収穫することが出来るようになります。また、植物には根があるものもあり、これを入手するには「収穫」した状態の植物を更に収穫する必要があります。根は食べたり、食事の副食材にしたりすることが出来ます。ハーブの束も副食材として食事に使用出来るほか、クラフトグリッドでナイフを使って種を作ることが出来ます。
+  <br>
+  すべてのWildcraftの植物は、種を地上に植えることが出来ます。これは、苗の状態で土盛りを作成します。やがて苗は芽を出し、植物に成長し、通常の植物と同じように収穫出来るようになります。オプションとして、多くの植物を作物として育てることも出来ます。農地で作物として育てると収穫量が増えますが、収穫出来るのは完全に成長してからです（根も含めて！）。
+  <br>
+  <strong>湿布と発疹(気触れ)のガイド</strong>
+  <br>
+  Wildcraftの特徴の一つは、新しい湿布薬がたくさん追加されていることです！これは「主成分」の数を増やすことで実現しています（バニラの主成分はスギナ、蜂蜜＆硫黄と考えるとよいでしょう）。Wildcraftでは、オトギリソウ、ウルシ、オグルマ、コリアンダーを新しい湿布の主成分として追加しています。 
+  <br>
+  そして、Wildcraftは湿布薬に副原料という新しい要素を追加しました。ヒイラギ、マリーゴールド、ノコギリソウ、セイジ、ラベンダー、タイム、ウスベニタチアオイなどが副原料です。これらは、単純な湿布（主成分が1つだけの湿布）であれば、「上に」重ねることが出来ます。副原料が主成分の湿布に与える健康効果は独特です。つまり、成分によって反応が異なり、相互的な健康効果が低くなったり高くなったりするのです。例えば、タイムとスギナの組み合わせは、オトギリソウと組み合わせた場合よりも治癒力が高まるかもしれません。
+  <br>
+  Wildcraftの植物の中には、踏むと気触れるものもあります(気触れは現在、短時間の間、頻繁に少量のダメージを受けるだけのデバフです)。気触れは、ウルシかノコギリソウを成分とする湿布薬を使うことで治すことが出来ます。
+  <br>
+  また、湿布は即時回復ではなく、時間経過で回復します（オフにすることも可能）。"
+  ,
+  "item-basket": "手提げカゴ",
+  "block-sedge-stationarybasket-*": "スゲのカゴ",
+
+  "item-poultice-linen-honey-sulfur-lavender": "蜂蜜、硫黄とラベンダーの湿布(亜麻布)",
+  "item-poultice-linen-honey-sulfur-thyme": "蜂蜜、硫黄とタイムの湿布(亜麻布)",
+  "item-poultice-linen-honey-sulfur-marshmallow": "蜂蜜、硫黄とウスベニタチアオイの湿布(亜麻布)",
+  "item-poultice-linen-honey-sulfur-holly": "蜂蜜、硫黄とヒイラギの湿布(亜麻布)",
+  "item-poultice-linen-honey-sulfur-marigold": "蜂蜜、硫黄とマリーゴールドの湿布(亜麻布)",
+  "item-poultice-linen-honey-sulfur-yarrow": "蜂蜜、硫黄とノコギリソウの湿布(亜麻布)",
+  "item-poultice-linen-honey-sulfur-sage": "蜂蜜、硫黄とセイジの湿布(亜麻布)",
+
+  "item-poultice-reed-honey-sulfur-lavender": "蜂蜜、硫黄とラベンダーの湿布(ガマ)",
+  "item-poultice-reed-honey-sulfur-thyme": "蜂蜜、硫黄とタイムの湿布(ガマ)",
+  "item-poultice-reed-honey-sulfur-marshmallow": "蜂蜜、硫黄とウスベニタチアオイの湿布(ガマ)",
+  "item-poultice-reed-honey-sulfur-holly": "蜂蜜、硫黄とヒイラギの湿布(ガマ)",
+  "item-poultice-reed-honey-sulfur-marigold": "蜂蜜、硫黄とマリーゴールドの湿布(ガマ)",
+  "item-poultice-reed-honey-sulfur-yarrow": "蜂蜜、硫黄とノコギリソウの湿布(ガマ)",
+  "item-poultice-reed-honey-sulfur-sage": "蜂蜜、硫黄とセイジの湿布(ガマ)",
+
+  "item-poultice-linen-horsetail-lavender": "ガマとラベンダーの湿布(亜麻布)",
+  "item-poultice-linen-horsetail-thyme": "ガマとタイムの湿布(亜麻布)",
+  "item-poultice-linen-horsetail-marshmallow": "ガマとウスベニタチアオイの湿布(亜麻布)",
+  "item-poultice-linen-horsetail-holly": "ガマとヒイラギの湿布(亜麻布)",
+  "item-poultice-linen-horsetail-marigold": "ガマとマリーゴールドの湿布(亜麻布)",
+  "item-poultice-linen-horsetail-yarrow": "ガマとノコギリソウの湿布(亜麻布)",
+  "item-poultice-linen-horsetail-sage": "ガマとセイジの湿布(亜麻布)",
+
+  "item-poultice-reed-horsetail-lavender": "ガマとラベンダーの湿布(ガマ)",
+  "item-poultice-reed-horsetail-thyme": "ガマとタイムの湿布(ガマ)",
+  "item-poultice-reed-horsetail-marshmallow": "ガマとウスベニタチアオイの湿布(ガマ)",
+  "item-poultice-reed-horsetail-holly": "ガマとヒイラギの湿布(ガマ)",
+  "item-poultice-reed-horsetail-marigold": "ガマとマリーゴールドの湿布(ガマ)",
+  "item-poultice-reed-horsetail-yarrow": "ガマとノコギリソウの湿布(ガマ)",
+  "item-poultice-reed-horsetail-sage": "ガマとセイジの湿布(ガマ)",
+
+  "item-poultice-linen-jewelweed-lavender": "ホウセンカとラベンダーの湿布(亜麻布)",
+  "item-poultice-linen-jewelweed-thyme": "ホウセンカとタイムの湿布(亜麻布)",
+  "item-poultice-linen-jewelweed-marshmallow": "ホウセンカとウスベニタチアオイの湿布(亜麻布)",
+  "item-poultice-linen-jewelweed-holly": "ホウセンカとヒイラギの湿布(亜麻布)",
+  "item-poultice-linen-jewelweed-marigold": "ホウセンカとマリーゴールドの湿布(亜麻布)",
+  "item-poultice-linen-jewelweed-yarrow": "ホウセンカとノコギリソウの湿布(亜麻布)",
+  "item-poultice-linen-jewelweed-sage": "ホウセンカとセイジの湿布(亜麻布)",
+
+  "item-poultice-reed-jewelweed-lavender": "ホウセンカとラベンダーの湿布(ガマ)",
+  "item-poultice-reed-jewelweed-thyme": "ホウセンカとタイムの湿布(ガマ)",
+  "item-poultice-reed-jewelweed-marshmallow": "ホウセンカとウスベニタチアオイの湿布(ガマ)",
+  "item-poultice-reed-jewelweed-holly": "ホウセンカとヒイラギの湿布(ガマ)",
+  "item-poultice-reed-jewelweed-marigold": "ホウセンカとマリーゴールドの湿布(ガマ)",
+  "item-poultice-reed-jewelweed-yarrow": "ホウセンカとノコギリソウの湿布(ガマ)",
+  "item-poultice-reed-jewelweed-sage": "ホウセンカとセイジの湿布(ガマ)",
+
+  "item-poultice-linen-stjohnswort-lavender": "オトギリソウとラベンダーの湿布(亜麻布)",
+  "item-poultice-linen-stjohnswort-thyme": "オトギリソウとタイムの湿布(亜麻布)",
+  "item-poultice-linen-stjohnswort-marshmallow": "オトギリソウとウスベニタチアオイの湿布(亜麻布)",
+  "item-poultice-linen-stjohnswort-holly": "オトギリソウとヒイラギの湿布(亜麻布)",
+  "item-poultice-linen-stjohnswort-marigold": "オトギリソウとマリーゴールドの湿布(亜麻布)",
+  "item-poultice-linen-stjohnswort-yarrow": "オトギリソウとノコギリソウの湿布(亜麻布)",
+  "item-poultice-linen-stjohnswort-sage": "オトギリソウとセイジの湿布(亜麻布)",
+
+  "item-poultice-reed-stjohnswort-lavender": "オトギリソウとラベンダーの湿布(ガマ)",
+  "item-poultice-reed-stjohnswort-thyme": "オトギリソウとタイムの湿布(ガマ)",
+  "item-poultice-reed-stjohnswort-marshmallow": "オトギリソウとウスベニタチアオイの湿布(ガマ)",
+  "item-poultice-reed-stjohnswort-holly": "オトギリソウとヒイラギの湿布(ガマ)",
+  "item-poultice-reed-stjohnswort-marigold": "オトギリソウとマリーゴールドの湿布(ガマ)",
+  "item-poultice-reed-stjohnswort-yarrow": "オトギリソウとノコギリソウの湿布(ガマ)",
+  "item-poultice-reed-stjohnswort-sage": "オトギリソウとセイジの湿布(ガマ)",
+
+  "item-poultice-linen-poisonoak-lavender": "ウルシとラベンダーの湿布(亜麻布)",
+  "item-poultice-linen-poisonoak-thyme": "ウルシとタイムの湿布(亜麻布)",
+  "item-poultice-linen-poisonoak-marshmallow": "ウルシとウスベニタチアオイの湿布(亜麻布)",
+  "item-poultice-linen-poisonoak-holly": "ウルシとヒイラギの湿布(亜麻布)",
+  "item-poultice-linen-poisonoak-marigold": "ウルシとマリーゴールドの湿布(亜麻布)",
+  "item-poultice-linen-poisonoak-yarrow": "ウルシとノコギリソウの湿布(亜麻布)",
+  "item-poultice-linen-poisonoak-sage": "ウルシとセイジの湿布(亜麻布)",
+
+  "item-poultice-reed-poisonoak-lavender": "ウルシとラベンダーの湿布(ガマ)",
+  "item-poultice-reed-poisonoak-thyme": "ウルシとタイムの湿布(ガマ)",
+  "item-poultice-reed-poisonoak-marshmallow": "ウルシとウスベニタチアオイの湿布(ガマ)",
+  "item-poultice-reed-poisonoak-holly": "ウルシとヒイラギの湿布(ガマ)",
+  "item-poultice-reed-poisonoak-marigold": "ウルシとマリーゴールドの湿布(ガマ)",
+  "item-poultice-reed-poisonoak-yarrow": "ウルシとノコギリソウの湿布(ガマ)",
+  "item-poultice-reed-poisonoak-sage": "ウルシとセイジの湿布(ガマ)",
+
+  "item-poultice-linen-inula-lavender": "オグルマとラベンダーの湿布(亜麻布)",
+  "item-poultice-linen-inula-thyme": "オグルマとタイムの湿布(亜麻布)",
+  "item-poultice-linen-inula-marshmallow": "オグルマとウスベニタチアオイの湿布(亜麻布)",
+  "item-poultice-linen-inula-holly": "オグルマとヒイラギの湿布(亜麻布)",
+  "item-poultice-linen-inula-marigold": "オグルマとマリーゴールドの湿布(亜麻布)",
+  "item-poultice-linen-inula-yarrow": "オグルマとノコギリソウの湿布(亜麻布)",
+  "item-poultice-linen-inula-sage": "オグルマとセイジの湿布(亜麻布)",
+
+  "item-poultice-reed-inula-lavender": "オグルマとラベンダーの湿布(ガマ)",
+  "item-poultice-reed-inula-thyme": "オグルマとタイムの湿布(ガマ)",
+  "item-poultice-reed-inula-marshmallow": "オグルマとウスベニタチアオイの湿布(ガマ)",
+  "item-poultice-reed-inula-holly": "オグルマとヒイラギの湿布(ガマ)",
+  "item-poultice-reed-inula-marigold": "オグルマとマリーゴールドの湿布(ガマ)",
+  "item-poultice-reed-inula-yarrow": "オグルマとノコギリソウの湿布(ガマ)",
+  "item-poultice-reed-inula-sage": "オグルマとセイジの湿布(ガマ)",
+
+  "item-poultice-linen-celandine-lavender": "クサノオウとラベンダーの湿布(亜麻布)",
+  "item-poultice-linen-celandine-thyme": "クサノオウとタイムの湿布(亜麻布)",
+  "item-poultice-linen-celandine-marshmallow": "クサノオウとウスベニタチアオイの湿布(亜麻布)",
+  "item-poultice-linen-celandine-holly": "クサノオウとヒイラギの湿布(亜麻布)",
+  "item-poultice-linen-celandine-marigold": "クサノオウとマリーゴールドの湿布(亜麻布)",
+  "item-poultice-linen-celandine-yarrow": "クサノオウとノコギリソウの湿布(亜麻布)",
+  "item-poultice-linen-celandine-sage": "クサノオウとセイジの湿布(亜麻布)",
+
+  "item-poultice-reed-celandine-lavender": "クサノオウとラベンダーの湿布(ガマ)",
+  "item-poultice-reed-celandine-thyme": "クサノオウとタイムの湿布(ガマ)",
+  "item-poultice-reed-celandine-marshmallow": "クサノオウとウスベニタチアオイの湿布(ガマ)",
+  "item-poultice-reed-celandine-holly": "クサノオウとヒイラギの湿布(ガマ)",
+  "item-poultice-reed-celandine-marigold": "クサノオウとマリーゴールドの湿布(ガマ)",
+  "item-poultice-reed-celandine-yarrow": "クサノオウとノコギリソウの湿布(ガマ)",
+  "item-poultice-reed-celandine-sage": "クサノオウとセイジの湿布(ガマ)",
+
+  "item-simplepoultice-reed-stjohnswort": "オトギリソウの湿布(ガマ)",
+  "item-simplepoultice-linen-stjohnswort": "オトギリソウの湿布(亜麻布)",
+
+  "item-simplepoultice-reed-poisonoak": "ウルシの湿布(ガマ)",
+  "item-simplepoultice-linen-poisonoak": "ウルシの湿布(亜麻布)",
+
+  "item-simplepoultice-reed-celandine": "クサノオウの湿布(ガマ)",
+  "item-simplepoultice-linen-celandine": "クサノオウの湿布(亜麻布)",
+
+  "item-simplepoultice-reed-inula": "オグルマの湿布(ガマ)",
+  "item-simplepoultice-linen-inula": "オグルマの湿布(亜麻布)",
+
+  "item-simplepoultice-reed-jewelweed": "ホウセンカの湿布(ガマ)",
+  "item-simplepoultice-linen-jewelweed": "ホウセンカの湿布(亜麻布)",
+
+  "itemdesc-poultice-*": "小さな傷を治す絆創膏",
+  "item-handbooktitle-poultice-*": "About:",
+  "item-handbooktext-poultice-*": "湿布は、包帯と他の治癒成分を組み合わせたもので、傷を治すのに使用されます。",	
+
+  "item-fruit-huckleberry": "ハックルベリー",
+  "item-fruit-snowberry": "セッコウボク",
+  "item-fruit-brambleberry": "ブラックベリー",
+  "item-fruit-cloudberry": "ホロムイイチゴ",
+  "item-fruit-dogrose": "野バラ",
+  "item-fruit-elderberry": "ニワトコ",
+  "item-fruit-gooseberry": "スグリ",
+  "item-fruit-honeysuckle": "スイカズラ",
+  "item-fruit-raspberry": "木イチゴ",
+  "item-fruit-blueraspberry": "ブルーラズベリー",
+  "item-fruit-strawberry": "野イチゴ",
+  "item-fruit-wolfberry": "クコ",
+  "item-fruit-husktomato": "ホオズキ",
+  "item-fruit-crowberry": "ガンコウラン",
+  "item-fruit-bunchberry": "ゴゼンタチバナ",
+  
+  "recipeingredient-item-fruit-huckleberry": "ハックルベリー",
+  "recipeingredient-item-fruit-snowberry": "セッコウボク",
+  "recipeingredient-item-fruit-brambleberry": "ブラックベリー",
+  "recipeingredient-item-fruit-cloudberry": "ホロムイイチゴ",
+  "recipeingredient-item-fruit-dogrose": "野バラ",
+  "recipeingredient-item-fruit-elderberry": "ニワトコ",
+  "recipeingredient-item-fruit-gooseberry": "スグリ",
+  "recipeingredient-item-fruit-honeysuckle": "スイカズラ",
+  "recipeingredient-item-fruit-raspberry": "木イチゴ",
+  "recipeingredient-item-fruit-blueraspberry": "ブルーラズベリー",
+  "recipeingredient-item-fruit-strawberry": "野イチゴ",
+  "recipeingredient-item-fruit-wolfberry": "クコ",
+  "recipeingredient-item-fruit-husktomato": "ホオズキ",
+  "recipeingredient-item-fruit-crowberry": "ガンコウラン",
+  "recipeingredient-item-fruit-bunchberry": "ゴゼンタチバナ",
+
+  "pie-single-wildcraft:fruit-huckleberry-raw": "ハックルベリーのパイ(生)",
+  "pie-single-wildcraft:fruit-dogrose-raw": "野バラのパイ(生)",
+  "pie-single-wildcraft:fruit-snowberry-raw": "セッコウボクのパイ(生)",
+  "pie-single-wildcraft:fruit-brambleberry-raw": "ブラックベリーのパイ(生)",
+  "pie-single-wildcraft:fruit-cloudberry-raw": "ホロムイイチゴのパイ(生)",
+  "pie-single-wildcraft:fruit-elderberry-raw": "ニワトコのパイ(生)",
+  "pie-single-wildcraft:fruit-gooseberry-raw": "スグリのパイ(生)",
+  "pie-single-wildcraft:fruit-honeysuckle-raw": "スイカズラのパイ(生)",
+  "pie-single-wildcraft:fruit-raspberry-raw": "木イチゴのパイ(生)",
+  "pie-single-wildcraft:fruit-blueraspberry-raw": "ブルーラズベリーのパイ(生)",
+  "pie-single-wildcraft:fruit-strawberry-raw": "野イチゴのパイ(生)",
+  "pie-single-wildcraft:fruit-wolfberry-raw": "クコのパイ(生)",
+  "pie-single-wildcraft:fruit-husktomato-raw": "ホオズキのパイ(生)",
+  "pie-single-wildcraft:fruit-bunchberry-raw": "ゴゼンタチバナのパイ(生)",
+  "pie-single-wildcraft:fruit-crowberry-raw": "ガンコウランのパイ(生)",
+
+  "pie-single-wildcraft:roots-bearleek-raw": "クマニラのパイ(生)",
+  "pie-single-wildcraft:roots-marshmallow-raw": "ウスベニタチアオイのパイ(生)",
+  "pie-single-wildcraft:roots-burdock-raw": "ゴボウのパイ(生)",
+  "pie-single-wildcraft:roots-chicory-raw": "チコリーのパイ(生)",
+  "pie-single-wildcraft:roots-liquorice-raw": "リコリスのパイ(生)",
+  "pie-single-wildcraft:roots-waterchestnut-raw": "ヒシのパイ(生)",
+  "pie-single-wildcraft:roots-celery-raw": "セロリのパイ(生)",
+
+  "pie-single-wildcraft:fruit-huckleberry-partbaked": "ハックルベリーのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-dogrose-partbaked": "野バラのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-snowberry-partbaked": "セッコウボクのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-brambleberry-partbaked": "ブラックベリーのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-cloudberry-partbaked": "ホロムイイチゴのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-elderberry-partbaked": "ニワトコのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-gooseberry-partbaked": "スグリのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-honeysuckle-partbaked": "スイカズラのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-raspberry-partbaked": "木イチゴのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-blueraspberry-partbaked": "ブルーラズベリーのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-strawberry-partbaked": "野イチゴのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-wolfberry-partbaked": "クコのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-husktomato-partbaked": "ホオズキのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-bunchberry-partbaked": "ゴゼンタチバナのパイ(生焼け)",
+  "pie-single-wildcraft:fruit-crowberry-partbaked": "ガンコウランのパイ(生焼け)",
+
+  "pie-single-wildcraft:roots-bearleek-partbaked": "クマニラのパイ(生焼け)",
+  "pie-single-wildcraft:roots-marshmallow-partbaked": "ウスベニタチアオイのパイ(生焼け)",
+  "pie-single-wildcraft:roots-burdock-partbaked": "ゴボウのパイ(生焼け)",
+  "pie-single-wildcraft:roots-chicory-partbaked": "チコリーのパイ(生焼け)",
+  "pie-single-wildcraft:roots-liquorice-partbaked": "リコリスのパイ(生焼け)",
+  "pie-single-wildcraft:roots-waterchestnut-partbaked": "ヒシのパイ(生焼け)",
+  "pie-single-wildcraft:roots-celery-partbaked": "セロリのパイ(生焼け)",
+
+  "pie-single-wildcraft:fruit-huckleberry-perfect": "ハックルベリーのパイ",
+  "pie-single-wildcraft:fruit-dogrose-perfect": "野バラのパイ",
+  "pie-single-wildcraft:fruit-snowberry-perfect": "セッコウボクのパイ",
+  "pie-single-wildcraft:fruit-brambleberry-perfect": "ブラックベリーのパイ",
+  "pie-single-wildcraft:fruit-cloudberry-perfect": "ホロムイイチゴのパイ",
+  "pie-single-wildcraft:fruit-elderberry-perfect": "ニワトコのパイ",
+  "pie-single-wildcraft:fruit-gooseberry-perfect": "スグリのパイ",
+  "pie-single-wildcraft:fruit-honeysuckle-perfect": "スイカズラのパイ",
+  "pie-single-wildcraft:fruit-raspberry-perfect": "木イチゴのパイ",
+  "pie-single-wildcraft:fruit-blueraspberry-perfect": "ブルーラズベリーのパイ",
+  "pie-single-wildcraft:fruit-strawberry-perfect": "野イチゴのパイ",
+  "pie-single-wildcraft:fruit-wolfberry-perfect": "クコのパイ",
+  "pie-single-wildcraft:fruit-husktomato-perfect": "ホオズキのパイ",
+  "pie-single-wildcraft:fruit-bunchberry-perfect": "ゴゼンタチバナのパイ",
+  "pie-single-wildcraft:fruit-crowberry-perfect": "ガンコウランのパイ",
+
+  "pie-single-wildcraft:roots-bearleek-perfect": "クマニラのパイ",
+  "pie-single-wildcraft:roots-marshmallow-perfect": "ウスベニタチアオイのパイ",
+  "pie-single-wildcraft:roots-burdock-perfect": "ゴボウのパイ",
+  "pie-single-wildcraft:roots-chicory-perfect": "チコリーのパイ",
+  "pie-single-wildcraft:roots-liquorice-perfect": "リコリスのパイ",
+  "pie-single-wildcraft:roots-waterchestnut-perfect": "ヒシのパイ",
+  "pie-single-wildcraft:roots-celery-perfect": "セロリのパイ",
+
+  "pie-single-wildcraft:fruit-huckleberry-charred": "ハックルベリーのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-dogrose-charred": "野バラのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-snowberry-charred": "セッコウボクのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-brambleberry-charred": "ブラックベリーのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-cloudberry-charred": "ホロムイイチゴのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-elderberry-charred": "ニワトコのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-gooseberry-charred": "スグリのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-honeysuckle-charred": "スイカズラのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-raspberry-charred": "木イチゴのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-blueraspberry-charred": "ブルーラズベリーのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-strawberry-charred": "野イチゴのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-wolfberry-charred": "クコのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-husktomato-charred": "ホオズキのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-bunchberry-charred": "ゴゼンタチバナのパイ(黒焦げ)",
+  "pie-single-wildcraft:fruit-crowberry-charred": "ガンコウランのパイ(黒焦げ)",
+
+  "pie-single-wildcraft:roots-bearleek-charred": "クマニラのパイ(黒焦げ)",
+  "pie-single-wildcraft:roots-marshmallow-charred": "ウスベニタチアオイのパイ(黒焦げ)",
+  "pie-single-wildcraft:roots-burdock-charred": "ゴボウのパイ(黒焦げ)",
+  "pie-single-wildcraft:roots-chicory-charred": "チコリーのパイ(黒焦げ)",
+  "pie-single-wildcraft:roots-liquorice-charred": "リコリスのパイ(黒焦げ)",
+  "pie-single-wildcraft:roots-waterchestnut-charred": "ヒシのパイ(黒焦げ)",
+  "pie-single-wildcraft:roots-celery-charred": "セロリのパイ(黒焦げ)",
+
+  "recipeingredient-item-fruit-huckleberry-insturmentalcase": "ハックルベリー",
+  "recipeingredient-item-fruit-snowberry-insturmentalcase": "セッコウボク",
+  "recipeingredient-item-fruit-brambleberry-insturmentalcase": "ブラックベリー",
+  "recipeingredient-item-fruit-cloudberry-insturmentalcase": "ホロムイイチゴ",
+  "recipeingredient-item-fruit-dogrose-insturmentalcase": "野バラ",
+  "recipeingredient-item-fruit-elderberry-insturmentalcase": "ニワトコ",
+  "recipeingredient-item-fruit-gooseberry-insturmentalcase": "スグリ",
+  "recipeingredient-item-fruit-honeysuckle-insturmentalcase": "スイカズラ",
+  "recipeingredient-item-fruit-raspberry-insturmentalcase": "木イチゴ",
+  "recipeingredient-item-fruit-blueraspberry-insturmentalcase": "ブルーラズベリー",
+  "recipeingredient-item-fruit-strawberry-insturmentalcase": "野イチゴ",
+  "recipeingredient-item-fruit-wolfberry-insturmentalcase": "クコ",
+  "recipeingredient-item-fruit-husktomato-insturmentalcase": "ホオズキ",
+  "recipeingredient-item-fruit-crowberry-insturmentalcase": "ガンコウラン",
+  "recipeingredient-item-fruit-bunchberry-insturmentalcase": "ゴゼンタチバナ",
+
+  "item-clipping-huckleberry-green": "ハックルベリーの切り落とし(瑞々しい)",
+  "item-clipping-blueraspberry-green": "ブルーラズベリーの切り落とし(瑞々しい)",
+  "item-clipping-snowberry-green": "セッコウボクの切り落とし(瑞々しい)",
+  "item-clipping-brambleberry-green": "ブラックベリーの切り落とし(瑞々しい)",
+  "item-clipping-dogrose-green": "野バラの切り落とし(瑞々しい)",
+  "item-clipping-elderberry-green": "ニワトコの切り落とし(瑞々しい)",
+  "item-clipping-gooseberry-green": "スグリの切り落とし(瑞々しい)",
+  "item-clipping-honeysuckle-green": "スイカズラの切り落とし(瑞々しい)",
+  "item-clipping-raspberry-green": "木イチゴの切り落とし(瑞々しい)",
+  "item-clipping-wolfberry-green": "クコの切り落とし(瑞々しい)",
+  "item-clipping-husktomato-green": "ホオズキの切り落とし(瑞々しい)",
+
+  "item-clipping-blackcurrant-green": "黒フサスグリの切り落とし(瑞々しい)",
+  "item-clipping-redcurrant-green": "赤フサスグリの切り落とし(瑞々しい)",
+  "item-clipping-whitecurrant-green": "白フサスグリの切り落とし(瑞々しい)",
+  "item-clipping-blueberry-green": "ブルーベリーの切り落とし(瑞々しい)",
+  "item-clipping-cranberry-green": "ツルコケモモの切り落とし(瑞々しい)",
+
+  "item-clipping-huckleberry-dry": "ハックルベリーの切り落とし(ドライ)",
+  "item-clipping-blueraspberry-dry": "ブルーラズベリーの切り落とし(ドライ)",
+  "item-clipping-snowberry-dry": "セッコウボクの切り落とし(ドライ)",
+  "item-clipping-brambleberry-dry": "ブラックベリーの切り落とし(ドライ)",
+  "item-clipping-cloudberry-dry": "ホロムイイチゴの種",
+  "item-clipping-dogrose-dry": "野バラの切り落とし(ドライ)",
+  "item-clipping-elderberry-dry": "ニワトコの切り落とし(ドライ)",
+  "item-clipping-gooseberry-dry": "スグリの切り落とし(ドライ)",
+  "item-clipping-honeysuckle-dry": "スイカズラの切り落とし(ドライ)",
+  "item-clipping-raspberry-dry": "木イチゴの切り落とし(ドライ)",
+  "item-clipping-wolfberry-dry": "クコの切り落とし(ドライ)",
+  "item-clipping-husktomato-dry": "ホオズキの切り落とし(ドライ)",
+
+  "item-clipping-blackcurrant-dry": "黒フサスグリの切り落とし(ドライ)",
+  "item-clipping-redcurrant-dry": "赤フサスグリの切り落とし(ドライ)",
+  "item-clipping-whitecurrant-dry": "白フサスグリの切り落とし(ドライ)",
+  "item-clipping-blueberry-dry": "ブルーベリーの切り落とし(ドライ)",
+  "item-clipping-cranberry-dry": "ツルコケモモの切り落とし(ドライ)",
+
+  "item-seeds-strawberry": "野イチゴの種",
+  "item-seeds-cloudberry": "ホロムイイチゴの種",
+  "item-seeds-crowberry": "ガンコウランの種",
+  "item-seeds-bunchberry": "ゴゼンタチバナの種",
+
+  "block-clipping-huckleberry-alive": "ハックルベリーの切り落とし",
+  "block-clipping-huckleberry-dead": "枯れたハックルベリーの切り落とし",
+  "block-growth-huckleberry-alive": "成長中のハックルベリー",
+  "block-growth-huckleberry-dead": "枯れた成長中のハックルベリー",
+
+  "block-clipping-snowberry-alive": "セッコウボクの切り落とし",
+  "block-clipping-snowberry-dead": "枯れた野イチゴの切り落とし",
+
+  "block-clipping-brambleberry-alive": "ブラックベリーの切り落とし",
+  "block-clipping-brambleberry-dead": "枯れたブラックベリーの切り落とし",
+  "block-growth-brambleberry-alive": "成長中のブラックベリー",
+  "block-growth-brambleberry-dead": "枯れた成長中のブラックベリー",
+
+  "block-clipping-dogrose-alive": "野バラの切り落とし",
+  "block-clipping-dogrose-dead": "枯れた野バラの切り落とし",
+  "block-growth-dogrose-alive": "成長中の野バラ",
+  "block-growth-dogrose-dead": "枯れた成長中の野バラ",
+
+  "block-clipping-elderberry-alive": "ニワトコの切り落とし",
+  "block-clipping-elderberry-dead": "枯れたニワトコの切り落とし",
+
+  "block-clipping-gooseberry-alive": "スグリの切り落とし",
+  "block-clipping-gooseberry-dead": "枯れたスグリの切り落とし",
+  "block-growth-gooseberry-alive": "成長中のスグリ",
+  "block-growth-gooseberry-dead": "枯れた成長中のスグリ",
+
+  "block-clipping-honeysuckle-alive": "スイカズラの切り落とし",
+  "block-clipping-honeysuckle-dead": "枯れたスイカズラの切り落とし",
+  "block-growth-honeysuckle-alive": "成長中のスイカズラ",
+  "block-growth-honeysuckle-dead": "枯れた成長中のスイカズラ",
+
+  "block-clipping-raspberry-alive": "木イチゴの切り落とし",
+  "block-clipping-raspberry-dead": "枯れた木イチゴの切り落とし",
+  "block-growth-raspberry-alive": "成長中の木イチゴ",
+  "block-growth-raspberry-dead": "枯れた成長中の木イチゴ",
+
+  "block-clipping-blueraspberry-alive": "ブルーラズベリーの切り落とし",
+  "block-clipping-blueraspberry-dead": "枯れたブルーラズベリーの切り落とし",
+  "block-growth-blueraspberry-alive": "成長中のブルーラズベリー",
+  "block-growth-blueraspberry-dead": "枯れた成長中のブルーラズベリー",
+
+  "block-clipping-wolfberry-alive": "クコの切り落とし",
+  "block-clipping-wolfberry-dead": "枯れたクコの切り落とし",
+
+  "block-clipping-husktomato-alive": "ホオズキの切り落とし",
+  "block-clipping-husktomato-dead": "枯れたホオズキの切り落とし",
+
+  "block-clipping-blackcurrant-alive": "黒フサスグリの切り落とし",
+  "block-clipping-blackcurrant-dead": "枯れた黒フサスグリの切り落とし",
+  "block-growth-blackcurrant-alive": "成長中の黒フサスグリ",
+  "block-growth-blackcurrant-dead": "枯れた成長中の黒フサスグリ",
+
+  "block-clipping-redcurrant-alive": "赤フサスグリの切り落とし",
+  "block-clipping-redcurrant-dead": "枯れた赤フサスグリの切り落とし",
+  "block-growth-redcurrant-alive": "成長中の赤フサスグリ",
+  "block-growth-redcurrant-dead": "枯れた成長中の赤フサスグリ",
+
+  "block-clipping-whitecurrant-alive": "白フサスグリの切り落とし",
+  "block-clipping-whitecurrant-dead": "枯れた白フサスグリの切り落とし",
+  "block-growth-whitecurrant-alive": "成長中の白フサスグリ",
+  "block-growth-whitecurrant-dead": "枯れた成長中の白フサスグリ",
+
+  "block-clipping-blueberry-alive": "ブルーベリーの切り落とし",
+  "block-clipping-blueberry-dead": "枯れたブルーベリーの切り落とし",
+  
+  "block-clipping-cranberry-alive": "ツルコケモモの切り落とし",
+  "block-clipping-cranberry-dead": "枯れたツルコケモモの切り落とし",
+
+  "meal-ingredient-soup-secondary-herbs": "ハーブ",
+  "meal-ingredient-stew-secondary-herbs": "ハーブ",
+
+  "recipeingredient-item-herbs-mustard-insturmentalcase": "マスタード",
+  "recipeingredient-item-herbs-mustard": "マスタード",
+  "meal-ingredient-soup-secondary-herbs-mustard": "マスタード",
+  "meal-ingredient-stew-secondary-herbs-mustard": "マスタード",
+
+  "item-herbs-mustard":"マスタード",
+  "item-herbseeds-mustard":"マスタードの種",
+
+  "recipeingredient-item-herbs-basil-insturmentalcase": "バジル",
+  "recipeingredient-item-herbs-basil": "バジル",
+  "meal-ingredient-soup-secondary-herbs-basil": "バジル",
+  "meal-ingredient-stew-secondary-herbs-basil": "バジル",
+
+  "item-herbs-basil":"バジル",
+  "item-herbseeds-basil":"バジルの種",
+
+  "recipeingredient-item-herbs-bearleek-insturmentalcase": "クマニラ",
+  "recipeingredient-item-herbs-bearleek": "クマニラ",
+  "meal-ingredient-soup-secondary-herbs-bearleek": "クマニラ",
+  "meal-ingredient-stew-secondary-herbs-bearleek": "クマニラ",
+
+  "item-herbs-bearleek":"クマニラ",
+  "item-herbseeds-bearleek":"クマニラの種",
+
+
+  "recipeingredient-item-herbs-blackpepper-insturmentalcase": "ブラックペッパー",
+  "recipeingredient-item-herbs-blackpepper": "ブラックペッパー",
+  "meal-ingredient-soup-secondary-herbs-blackpepper": "ブラックペッパー",
+  "meal-ingredient-stew-secondary-herbs-blackpepper": "ブラックペッパー",
+
+  "item-herbs-blackpepper":"ブラックペッパー",
+  "item-herbseeds-blackpepper":"ブラックペッパーの種",
+
+
+  "recipeingredient-item-herbs-celery-insturmentalcase": "セロリ",
+  "recipeingredient-item-herbs-celery": "セロリ",
+  "meal-ingredient-soup-secondary-herbs-celery": "セロリ",
+  "meal-ingredient-stew-secondary-herbs-celery": "セロリ",
+
+  "item-herbs-celery":"セロリ",
+  "item-herbseeds-celery":"セロリの種",
+
+
+  "recipeingredient-item-herbs-chamomile-insturmentalcase": "カモミール",
+  "recipeingredient-item-herbs-chamomile": "カモミール",
+  "meal-ingredient-soup-secondary-herbs-chamomile": "カモミール",
+  "meal-ingredient-stew-secondary-herbs-chamomile": "カモミール",
+
+  "item-herbs-chamomile":"カモミール",
+  "item-herbseeds-chamomile":"カモミールの種",
+
+
+  "recipeingredient-item-herbs-cilantro-insturmentalcase": "コリアンダー",
+  "recipeingredient-item-herbs-cilantro": "コリアンダー",
+  "meal-ingredient-soup-secondary-herbs-cilantro": "コリアンダー",
+  "meal-ingredient-stew-secondary-herbs-cilantro": "コリアンダー",
+  
+  "item-herbs-cilantro":"コリアンダー",
+  "item-herbseeds-cilantro":"コリアンダーの種",
+
+
+  "recipeingredient-item-herbs-dill-insturmentalcase": "ディル",
+  "recipeingredient-item-herbs-dill": "ディル",
+  "meal-ingredient-soup-secondary-herbs-dill": "ディル",
+  "meal-ingredient-stew-secondary-herbs-dill": "ディル",
+
+  "item-herbs-dill":"ディル",
+  "item-herbseeds-dill":"ディルの種",
+
+
+  "recipeingredient-item-herbs-dock-insturmentalcase": "ギシギシ",
+  "recipeingredient-item-herbs-dock": "ギシギシ",
+  "meal-ingredient-soup-secondary-herbs-dock": "ギシギシ",
+  "meal-ingredient-stew-secondary-herbs-dock": "ギシギシ",
+
+  "item-herbs-dock":"ギシギシ",
+  "item-herbseeds-dock":"ギシギシの種",
+
+
+  "recipeingredient-item-herbs-marjoram-insturmentalcase": "マジョラム",
+  "recipeingredient-item-herbs-marjoram": "マジョラム",
+  "meal-ingredient-soup-secondary-herbs-marjoram": "マジョラム",
+  "meal-ingredient-stew-secondary-herbs-marjoram": "マジョラム",
+
+  "item-herbs-marjoram":"マジョラム",
+  "item-herbseeds-marjoram":"マジョラムの種",
+
+
+  "recipeingredient-item-herbs-lavender-insturmentalcase": "ラベンダー",
+  "recipeingredient-item-herbs-lavender": "ラベンダー",
+  "meal-ingredient-soup-secondary-herbs-lavender": "ラベンダー",
+  "meal-ingredient-stew-secondary-herbs-lavender": "ラベンダー",
+
+  "item-herbs-lavender":"ラベンダー",
+  "item-herbseeds-lavender":"ラベンダーの種",
+
+
+  "recipeingredient-item-herbs-marshmallow-insturmentalcase": "ウスベニタチアオイ",
+  "recipeingredient-item-herbs-marshmallow": "ウスベニタチアオイ",
+  "meal-ingredient-soup-secondary-herbs-marshmallow": "ウスベニタチアオイ",
+  "meal-ingredient-stew-secondary-herbs-marshmallow": "ウスベニタチアオイ",
+
+  "item-herbs-marshmallow":"ウスベニタチアオイ",
+  "item-herbseeds-marshmallow":"ウスベニタチアオイの種",
+
+
+  "recipeingredient-item-herbs-mint-insturmentalcase": "ミント",
+  "recipeingredient-item-herbs-mint": "ミント",
+  "meal-ingredient-soup-secondary-herbs-mint": "ミント",
+  "meal-ingredient-stew-secondary-herbs-mint": "ミント",
+
+  "item-herbs-mint":"ミント",
+  "item-herbseeds-mint":"ミントの種",
+
+
+  "recipeingredient-item-herbs-rosemary-insturmentalcase": "ローズマリー",
+  "recipeingredient-item-herbs-rosemary": "ローズマリー",
+  "meal-ingredient-soup-secondary-herbs-rosemary": "ローズマリー",
+  "meal-ingredient-stew-secondary-herbs-rosemary": "ローズマリー",
+
+  "item-herbs-rosemary":"ローズマリー",
+  "item-herbseeds-rosemary":"ローズマリーの種",
+
+
+  "recipeingredient-item-herbs-saffron-insturmentalcase": "サフラン",
+  "recipeingredient-item-herbs-saffron": "サフラン",
+  "meal-ingredient-soup-secondary-herbs-saffron": "サフラン",
+  "meal-ingredient-stew-secondary-herbs-saffron": "サフラン",
+
+  "item-herbs-saffron":"サフラン",
+  "item-herbseeds-saffron":"サフランの種",
+
+
+  "recipeingredient-item-herbs-softsedge-insturmentalcase": "スゲ",
+  "recipeingredient-item-herbs-softsedge": "スゲ",
+  "meal-ingredient-soup-secondary-herbs-softsedge": "スゲ",
+  "meal-ingredient-stew-secondary-herbs-softsedge": "スゲ",
+
+  "item-herbs-softsedge":"ソフトスゲ",
+  "item-herbseeds-softsedge":"ソフトスゲの種",
+
+
+  "recipeingredient-item-herbs-sage-insturmentalcase": "セイジ",
+  "recipeingredient-item-herbs-sage": "セイジ",
+  "meal-ingredient-soup-secondary-herbs-sage": "セイジ",
+  "meal-ingredient-stew-secondary-herbs-sage": "セイジ",
+
+  "item-herbs-sage":"セイジ",
+  "item-herbseeds-sage":"セイジの種",
+
+
+  "recipeingredient-item-herbs-stingingnettle-insturmentalcase": "イラクサ",
+  "recipeingredient-item-herbs-stingingnettle": "イラクサ",
+  "meal-ingredient-soup-secondary-herbs-stingingnettle": "イラクサ",
+  "meal-ingredient-stew-secondary-herbs-stingingnettle": "イラクサ",
+
+  "item-herbs-stingingnettle":"イラクサ",
+  "item-herbseeds-stingingnettle":"イラクサの種",
+
+
+  "recipeingredient-item-herbs-stjohnswort-insturmentalcase": "オトギリソウ",
+  "recipeingredient-item-herbs-stjohnswort": "オトギリソウ",
+  "meal-ingredient-soup-secondary-herbs-stjohnswort": "オトギリソウ",
+  "meal-ingredient-stew-secondary-herbs-stjohnswort": "オトギリソウ",
+
+  "item-herbs-stjohnswort":"オトギリソウ",
+  "item-herbseeds-stjohnswort":"オトギリソウの種",
+
+
+  "recipeingredient-item-herbs-thyme-insturmentalcase": "タイム",
+  "recipeingredient-item-herbs-thyme": "タイム",
+  "meal-ingredient-soup-secondary-herbs-thyme": "タイム",
+  "meal-ingredient-stew-secondary-herbs-thyme": "タイム",
+
+  "item-herbs-thyme":"タイム",
+  "item-herbseeds-thyme":"タイムの種",
+
+
+  "recipeingredient-item-herbs-minerslettuce-insturmentalcase": "冬スベリヒユ",
+  "recipeingredient-item-herbs-minerslettuce": "冬スベリヒユ",
+  "meal-ingredient-soup-secondary-herbs-minerslettuce": "冬スベリヒユ",
+  "meal-ingredient-stew-secondary-herbs-minerslettuce": "冬スベリヒユ",
+
+  "item-herbs-minerslettuce":"冬スベリヒユ",
+  "item-herbseeds-minerslettuce":"冬スベリヒユの種",
+
+  "item-herbs-woodspurge":"ウッドスパージ",
+  "item-herbseeds-woodspurge":"ウッドスパージの種",
+
+  "item-herbs-brownsedge":"チャスゲ",
+  "item-herbseeds-brownsedge":"チャスゲの種",
+
+
+  "recipeingredient-item-herbs-mugwort-insturmentalcase": "ヨモギ",
+  "recipeingredient-item-herbs-mugwort": "ヨモギ",
+  "meal-ingredient-soup-secondary-herbs-mugwort": "ヨモギ",
+  "meal-ingredient-stew-secondary-herbs-mugwort": "ヨモギ",
+
+  "item-herbs-mugwort":"ヨモギ",
+  "item-herbseeds-mugwort":"ヨモギの種",
+
+
+  "recipeingredient-item-herbs-burdock-insturmentalcase": "ゴボウ",
+  "recipeingredient-item-herbs-burdock": "ゴボウ",
+  "meal-ingredient-soup-secondary-herbs-burdock": "ゴボウ",
+  "meal-ingredient-stew-secondary-herbs-burdock": "ゴボウ",
+
+  "item-herbs-burdock":"ゴボウ",
+  "item-herbseeds-burdock":"ゴボウの種",
+
+  "item-roots-burdock":"ゴボウの根茎",
+  "recipeingredient-item-roots-burdock-insturmentalcase": "ゴボウの根茎",
+  "recipeingredient-item-roots-burdock": "ゴボウの根茎",
+  "meal-ingredient-soup-secondary-roots-burdock": "ゴボウの根茎",
+  "meal-ingredient-stew-secondary-roots-burdock": "ゴボウの根茎",
+
+  "item-roots-bearleek":"クマニラの球根",
+  "recipeingredient-item-roots-bearleek-insturmentalcase": "クマニラの球根",
+  "recipeingredient-item-roots-bearleek": "クマニラの球根",
+  "meal-ingredient-soup-secondary-roots-bearleek": "クマニラの球根",
+  "meal-ingredient-stew-secondary-roots-bearleek": "クマニラの球根",
+
+  "item-roots-marshmallow":"ウスベニタチアオイの根茎",
+  "recipeingredient-item-roots-marshmallow-insturmentalcase": "ウスベニタチアオイの根茎",
+  "recipeingredient-item-roots-marshmallow": "ウスベニタチアオイの根茎",
+  "meal-ingredient-soup-secondary-roots-marshmallow": "ウスベニタチアオイの根茎",
+  "meal-ingredient-stew-secondary-roots-marshmallow": "ウスベニタチアオイの根茎",
+
+
+  "recipeingredient-item-herbs-jewelweed-insturmentalcase": "ホウセンカ",
+  "recipeingredient-item-herbs-jewelweed": "ホウセンカ",
+  "meal-ingredient-soup-secondary-herbs-jewelweed": "ホウセンカ",
+  "meal-ingredient-stew-secondary-herbs-jewelweed": "ホウセンカ",
+
+  "item-herbs-jewelweed":"ホウセンカ",
+  "item-herbseeds-jewelweed":"ホウセンカの種",
+
+  "recipeingredient-item-herbs-rhubarb-insturmentalcase": "ルバーブ",
+  "recipeingredient-item-herbs-rhubarb": "ルバーブ",
+  "meal-ingredient-soup-secondary-herbs-rhubarb": "ルバーブ",
+  "meal-ingredient-stew-secondary-herbs-rhubarb": "ルバーブ",
+
+  "item-herbs-rhubarb":"ルバーブ",
+  "item-herbseeds-rhubarb":"ルバーブの種",
+
+  "recipeingredient-item-herbs-butterbur-insturmentalcase": "フキ",
+  "recipeingredient-item-herbs-butterbur": "フキ",
+  "meal-ingredient-soup-secondary-herbs-butterbur": "フキ",
+  "meal-ingredient-stew-secondary-herbs-butterbur": "フキ",
+
+  "item-herbs-butterbur":"フキ",
+  "item-herbseeds-butterbur":"フキの種",
+
+
+  "recipeingredient-item-herbs-arrowhead-insturmentalcase": "オモダカ",
+  "recipeingredient-item-herbs-arrowhead": "オモダカ",
+  "meal-ingredient-soup-secondary-herbs-arrowhead": "オモダカ",
+  "meal-ingredient-stew-secondary-herbs-arrowhead": "オモダカ",
+
+  "item-herbs-arrowhead":"オモダカ",
+  "item-herbseeds-arrowhead":"オモダカの種",
+
+
+  "recipeingredient-item-herbs-bugleweed-insturmentalcase": "シロネ",
+  "recipeingredient-item-herbs-bugleweed": "シロネ",
+  "meal-ingredient-soup-secondary-herbs-bugleweed": "シロネ",
+  "meal-ingredient-stew-secondary-herbs-bugleweed": "シロネ",
+
+  "item-herbs-bugleweed":"シロネ",
+  "item-herbseeds-bugleweed":"シロネの種",
+
+  "recipeingredient-item-herbs-angelica-insturmentalcase": "シシウド",
+  "recipeingredient-item-herbs-angelica": "シシウド",
+  "meal-ingredient-soup-secondary-herbs-angelica": "シシウド",
+  "meal-ingredient-stew-secondary-herbs-angelica": "シシウド",
+
+  "item-herbs-angelica":"シシウド",
+  "item-herbseeds-angelica":"シシウドの種",
+
+  "recipeingredient-item-herbs-foxglove-insturmentalcase": "キツネノテブクロ",
+  "recipeingredient-item-herbs-foxglove": "キツネノテブクロ",
+  "meal-ingredient-soup-secondary-herbs-foxglove": "キツネノテブクロ",
+  "meal-ingredient-stew-secondary-herbs-foxglove": "キツネノテブクロ",
+
+  "item-herbs-foxglove":"キツネノテブクロ",
+  "item-herbseeds-foxglove":"キツネノテブクロの種",
+
+  "recipeingredient-item-herbs-rockrose-insturmentalcase": "ロックローズ",
+  "recipeingredient-item-herbs-rockrose": "ロックローズ",
+  "meal-ingredient-soup-secondary-herbs-rockrose": "ロックローズ",
+  "meal-ingredient-stew-secondary-herbs-rockrose": "ロックローズ",
+
+  "item-herbs-rockrose":"ロックローズ",
+  "item-herbseeds-rockrose":"ロックローズの種",
+
+  "recipeingredient-item-herbs-horehound-insturmentalcase": "マルバハッカ",
+  "recipeingredient-item-herbs-horehound": "マルバハッカ",
+  "meal-ingredient-soup-secondary-herbs-horehound": "マルバハッカ",
+  "meal-ingredient-stew-secondary-herbs-horehound": "マルバハッカ",
+
+  "item-herbs-horehound":"マルバハッカ",
+  "item-herbseeds-horehound":"マルバハッカの種",
+
+  "recipeingredient-item-herbs-ginger-insturmentalcase": "ショウガ",
+  "recipeingredient-item-herbs-ginger": "ショウガ",
+  "meal-ingredient-soup-secondary-herbs-ginger": "ショウガ",
+  "meal-ingredient-stew-secondary-herbs-ginger": "ショウガ",
+
+  "item-herbs-ginger":"ショウガ",
+  "item-herbseeds-ginger":"ショウガの種",
+
+  "recipeingredient-item-herbs-burnet-insturmentalcase": "ワレモコウ",
+  "recipeingredient-item-herbs-burnet": "ワレモコウ",
+  "meal-ingredient-soup-secondary-herbs-burnet": "ワレモコウ",
+  "meal-ingredient-stew-secondary-herbs-burnet": "ワレモコウ",
+
+  "item-herbs-burnet":"ワレモコウ",
+  "item-herbseeds-burnet":"ワレモコウの種",
+
+  "recipeingredient-item-herbs-arnica-insturmentalcase": "アルニカ",
+  "recipeingredient-item-herbs-arnica": "アルニカ",
+  "meal-ingredient-soup-secondary-herbs-arnica": "アルニカ",
+  "meal-ingredient-stew-secondary-herbs-arnica": "アルニカ",
+
+  "item-herbs-arnica":"アルニカ",
+  "item-herbseeds-arnica":"アルニカの種",
+
+  
+  "recipeingredient-item-herbs-cicuta-insturmentalcase": "ドクゼリ",
+  "recipeingredient-item-herbs-cicuta": "ドクゼリ",
+  "meal-ingredient-soup-secondary-herbs-cicuta": "ドクゼリ",
+  "meal-ingredient-stew-secondary-herbs-cicuta": "ドクゼリ",
+
+  "item-herbs-cicuta":"ドクゼリ",
+  "item-herbseeds-cicuta":"ドクゼリの種",
+
+  "recipeingredient-item-herbs-tansy-insturmentalcase": "エゾヨモギギク",
+  "recipeingredient-item-herbs-tansy": "エゾヨモギギク",
+  "meal-ingredient-soup-secondary-herbs-tansy": "エゾヨモギギク",
+  "meal-ingredient-stew-secondary-herbs-tansy": "エゾヨモギギク",
+
+  "item-herbs-tansy":"エゾヨモギギク",
+  "item-herbseeds-tansy":"エゾヨモギギクの種",
+
+  "recipeingredient-item-herbs-ginseng-insturmentalcase": "チョウセンニンジン",
+  "recipeingredient-item-herbs-ginseng": "チョウセンニンジン",
+  "meal-ingredient-soup-secondary-herbs-ginseng": "チョウセンニンジン",
+  "meal-ingredient-stew-secondary-herbs-ginseng": "チョウセンニンジン",
+
+  "item-herbs-ginseng":"チョウセンニンジン",
+  "item-herbseeds-ginseng":"チョウセンニンジンの種",
+
+  "recipeingredient-item-herbs-katuk-insturmentalcase": "アマメシバ",
+  "recipeingredient-item-herbs-katuk": "アマメシバ",
+  "meal-ingredient-soup-secondary-herbs-katuk": "アマメシバ",
+  "meal-ingredient-stew-secondary-herbs-katuk": "アマメシバ",
+
+  "item-herbs-katuk":"アマメシバ",
+  "item-herbseeds-katuk":"アマメシバの種",
+
+  "block-smallannualplant-minerslettuce-normal": "冬スベリヒユ",
+  "block-smallannualplant-minerslettuce-flowering": "冬スベリヒユ(成長中)",
+
+  "block-smallannualplant-woodspurge-normal": "ウッドスパージ",
+  "block-smallannualplant-woodspurge-flowering": "ウッドスパージ(成長中)",
+
+  "block-smallannualplant-clover-normal": "クローバー",
+  "block-smallannualplant-clover-flowering": "クローバー(成長中)",
+
+  "block-smallannualplant-caltha-normal": "リュウキンカ",
+  "block-smallannualplant-caltha-flowering": "リュウキンカ(成長中)",
+
+
+  "block-perennialplant-katuk-normal": "アマメシバ",
+  "block-perennialplant-katuk-harvested": "アマメシバ(成長中)",
+
+  "block-perennialplant-ginseng-normal": "チョウセンニンジン",
+  "block-perennialplant-ginseng-harvested": "チョウセンニンジン(成長中)",
+
+  "block-perennialplant-tansy-normal": "エゾヨモギギク",
+  "block-perennialplant-tansy-harvested": "エゾヨモギギク(成長中)",
+
+  "block-perennialplant-cicuta-normal": "ドクゼリ",
+  "block-perennialplant-cicuta-harvested": "ドクゼリ(成長中)",
+
+  "block-perennialplant-arnica-normal": "アルニカ",
+  "block-perennialplant-arnica-harvested": "アルニカ(成長中)",
+
+  "block-perennialplant-burnet-normal": "ワレモコウ",
+  "block-perennialplant-burnet-harvested": "ワレモコウ(成長中)",
+
+  "block-perennialplant-ginger-normal": "ショウガ",
+  "block-perennialplant-ginger-harvested": "ショウガ(成長中)",
+
+  "block-perennialplant-horehound-normal": "マルバハッカ",
+  "block-perennialplant-horehound-harvested": "マルバハッカ(成長中)",
+
+    "block-perennialplant-rockrose-normal": "ロックローズ",
+  "block-perennialplant-rockrose-harvested": "ロックローズ(成長中)",
+
+  "block-perennialplant-angelica-normal": "シシウド",
+  "block-perennialplant-angelica-harvested": "シシウド(成長中)",
+
+  "block-perennialplant-foxglove-normal": "キツネノテブクロ",
+  "block-perennialplant-foxglove-harvested": "キツネノテブクロ(成長中)",
+
+  "block-leafyperennialplant-rhubarb-normal": "ルバーブ",
+  "block-leafyperennialplant-rhubarb-harvested": "ルバーブ(成長中)",
+
+  "block-duckweed-*": "アオウキクサ",
+
+  "block-leafyperennialplant-butterbur-normal": "フキ",
+  "block-leafyperennialplant-butterbur-harvested": "フキ(成長中)",
+
+  "block-arrowhead-arrowhead-normal": "オモダカ",
+  "block-arrowhead-arrowhead-harvested": "オモダカ(成長中)",
+
+  "block-bugleweed-european-tall": "アマメシバ(高い)",
+  "block-bugleweed-european-short": "アマメシバ(短い)",
+
+  "block-annualplant-jewelweed-normal": "ホウセンカ",
+  "block-annualplant-jewelweed-harvested": "ホウセンカ(成長中)",
+
+  "block-annualplant-stingingnettle-normal": "イラクサ",
+  "block-annualplant-stingingnettle-harvested": "イラクサ(成長中)",
+
+  "block-annualplant-basil-normal": "バジル",
+  "block-annualplant-basil-harvested": "バジル(成長中)",
+
+  "block-perennialplant-bearleek-normal": "クマニラ",
+  "block-perennialplant-bearleek-harvested": "クマニラ(成長中)",
+
+  "block-annualplant-blackpepper-normal": "ブラックペッパー",
+  "block-annualplant-blackpepper-harvested": "ブラックペッパー(成長中)",
+
+  "block-annualplant-celery-normal": "セロリ",
+  "block-annualplant-celery-harvested": "セロリ(成長中)",
+
+  "block-annualplant-dill-normal": "ディル",
+  "block-annualplant-dill-harvested": "ディル(成長中)",
+
+  "block-annualplant-chamomile-normal": "カモミール",
+  "block-annualplant-chamomile-harvested": "カモミール(成長中)",
+
+  "block-annualplant-cilantro-normal": "コリアンダー",
+  "block-annualplant-cilantro-harvested": "コリアンダー(成長中)",
+
+  "block-annualplant-dock-normal": "ギシギシ",
+  "block-annualplant-dock-harvested": "ギシギシ(成長中)",
+
+  "block-evergreenplant-lavender-normal": "ラベンダー",
+  "block-evergreenplant-lavender-harvested": "ラベンダー(成長中)",
+
+  "block-perennialplant-marjoram-normal": "マジョラム",
+  "block-perennialplant-marjoram-harvested": "マジョラム(成長中)",
+
+  "block-perennialplant-marshmallow-normal": "ウスベニタチアオイ",
+  "block-perennialplant-marshmallow-harvested": "ウスベニタチアオイ(成長中)",
+
+  "block-perennialplant-mint-normal": "ミント",
+  "block-perennialplant-mint-harvested": "ミント(成長中)",
+
+  "block-annualplant-mustard-normal": "マスタード",
+  "block-annualplant-mustard-harvested": "マスタード(成長中)",
+
+  "block-evergreenplant-rosemary-normal": "ローズマリー",
+  "block-evergreenplant-rosemary-harvested": "ローズマリー(成長中)",
+
+  "block-perennialplant-saffron-normal": "サフラン",
+  "block-perennialplant-saffron-harvested": "サフラン(成長中)",
+
+  "block-perennialplant-sage-normal": "セイジ",
+  "block-perennialplant-sage-harvested": "セイジ(成長中)",
+
+  "block-sedge-softsedge-normal": "ソフトスゲ",
+  "block-sedge-softsedge-harvested": "ソフトスゲ(成長中)",
+
+  "block-sedge-brownsedge-normal": "チャスゲ",
+  "block-sedge-brownsedge-harvested": "チャスゲ(成長中)",
+
+  "block-sedge-hardsedge-normal": "ハードスゲ",
+  "block-sedge-hardsedge-harvested": "ハードスゲ(成長中)",
+
+  "block-sedge-waterchestnut-normal": "ヒシ",
+  "block-sedge-waterchestnut-harvested": "ヒシ(成長中)",
+
+  "block-perennialplant-stjohnswort-normal": "オトギリソウ",
+  "block-perennialplant-stjohnswort-harvested": "オトギリソウ(成長中)",
+
+  "block-evergreenplant-thyme-normal": "タイム",
+  "block-evergreenplant-thyme-harvested": "タイム(成長中)",
+
+  "block-perennialplant-mugwort-normal": "ヨモギ",
+  "block-perennialplant-mugwort-harvested": "ヨモギ(成長中)",
+
+  "block-annualplant-burdock-normal": "ゴボウ",
+  "block-annualplant-burdock-harvested": "ゴボウ(成長中)",
+
+  "block-evergreenplant-poisonoak-normal": "ウルシ",
+  "block-evergreenplant-poisonoak-harvested": "ウルシ(成長中)",
+
+  "block-evergreenplant-holly-normal": "ヒイラギ",
+  "block-evergreenplant-holly-harvested": "ヒイラギ(成長中)",
+
+  "block-annualplant-chicory-normal": "チコリー",
+  "block-annualplant-chicory-harvested": "チコリー(成長中)",
+
+  "block-annualplant-marigold-normal": "マリーゴールド",
+  "block-annualplant-marigold-harvested": "マリーゴールド(成長中)",
+
+  "block-perennialplant-inula-normal": "オグルマ",
+  "block-perennialplant-inula-harvested": "オグルマ(成長中)",
+
+  "block-perennialplant-celandine-normal": "クサノオウ",
+  "block-perennialplant-celandine-harvested": "クサノオウ(成長中)",
+
+  "block-perennialplant-leek-normal": "クマニラ",
+  "block-perennialplant-leek-harvested": "クマニラ(成長中)",
+
+  "block-perennialplant-plantain-normal": "オオバコ",
+  "block-perennialplant-plantain-harvested": "オオバコ(成長中)",
+
+  "block-annualplant-saltwort-normal": "オカヒジキ",
+  "block-annualplant-saltwort-harvested": "オカヒジキ(成長中)",
+
+  "block-perennialplant-yarrow-normal": "ノコギリソウ",
+  "block-perennialplant-yarrow-harvested": "ノコギリソウ(成長中)",
+
+  "block-annualplant-liquorice-normal": "リコリス",
+  "block-annualplant-liquorice-harvested": "リコリス(成長中)",
+
+
+  "block-amphibiousplant-skunkcabbage-*": "ミズバショウ",
+  "item-skunkcabbage-leafs": "ミズバショウの葉", 
+  "item-skunkcabbage-stem": "ミズバショウの茎", 
+  "item-waterherbseeds-skunkcabbage": "ミズバショウの種",
+  "block-seedling-skunkcabbage-planted": "ミズバショウの種(成長中)",
+  "block-seedling-skunkcabbage-sprouting": "ミズバショウの種(発芽中)",
+
+  "item-herbs-poisonoak":"ウルシ",
+  "item-herbseeds-poisonoak":"ウルシの種",
+
+  "item-herbs-holly":"ヒイラギ",
+  "item-herbseeds-holly":"ヒイラギの種",
+
+  "recipeingredient-item-herbs-chicory-insturmentalcase": "チコリー",
+  "recipeingredient-item-herbs-chicory": "チコリー",
+  "meal-ingredient-soup-secondary-herbs-chicory": "チコリー",
+  "meal-ingredient-stew-secondary-herbs-chicory": "チコリー",
+
+  "item-herbs-chicory":"チコリー",
+  "item-herbseeds-chicory":"チコリーの種",
+
+  "recipeingredient-item-herbs-marigold-insturmentalcase": "マリーゴールド",
+  "recipeingredient-item-herbs-marigold": "マリーゴールド",
+  "meal-ingredient-soup-secondary-herbs-marigold": "マリーゴールド",
+  "meal-ingredient-stew-secondary-herbs-marigold": "マリーゴールド",
+
+  "item-herbs-marigold":"マリーゴールド",
+  "item-herbseeds-marigold":"マリーゴールドの種",
+
+  "recipeingredient-item-herbs-inula-insturmentalcase": "オグルマ",
+  "recipeingredient-item-herbs-inula": "オグルマ",
+  "meal-ingredient-soup-secondary-herbs-inula": "オグルマ",
+  "meal-ingredient-stew-secondary-herbs-inula": "オグルマ",
+
+  "item-herbs-inula":"オグルマ",
+  "item-herbseeds-inula":"オグルマの種",
+
+  "recipeingredient-item-herbs-celandine-insturmentalcase": "クサノオウ",
+  "recipeingredient-item-herbs-celandine": "クサノオウ",
+  "meal-ingredient-soup-secondary-herbs-celandine": "クサノオウ",
+  "meal-ingredient-stew-secondary-herbs-celandine": "クサノオウ",
+
+  "item-herbs-celandine":"クサノオウ",
+  "item-herbseeds-celandine":"クサノオウの種",
+
+  "recipeingredient-item-herbs-leek-insturmentalcase": "クマニラ",
+  "recipeingredient-item-herbs-leek": "クマニラ",
+  "meal-ingredient-soup-secondary-herbs-leek": "クマニラ",
+  "meal-ingredient-stew-secondary-herbs-leek": "クマニラ",
+
+  "item-herbs-leek":"クマニラ",
+  "item-herbseeds-leek":"クマニラの種",
+
+  "recipeingredient-item-herbs-plantain-insturmentalcase": "オオバコ",
+  "recipeingredient-item-herbs-plantain": "オオバコ",
+  "meal-ingredient-soup-secondary-herbs-plantain": "オオバコ",
+  "meal-ingredient-stew-secondary-herbs-plantain": "オオバコ",
+
+  "item-herbs-plantain":"オオバコ",
+  "item-herbseeds-plantain":"オオバコの種",
+
+  "recipeingredient-item-herbs-saltwort-insturmentalcase": "オカヒジキ",
+  "recipeingredient-item-herbs-saltwort": "オカヒジキ",
+  "meal-ingredient-soup-secondary-herbs-saltwort": "オカヒジキ",
+  "meal-ingredient-stew-secondary-herbs-saltwort": "オカヒジキ",
+
+  "item-herbs-saltwort":"オカヒジキ",
+  "item-herbseeds-saltwort":"オカヒジキの種",
+
+  "recipeingredient-item-herbs-yarrow-insturmentalcase": "ノコギリソウ",
+  "recipeingredient-item-herbs-yarrow": "ノコギリソウ",
+  "meal-ingredient-soup-secondary-herbs-yarrow": "ノコギリソウ",
+  "meal-ingredient-stew-secondary-herbs-yarrow": "ノコギリソウ",
+
+  "item-herbs-yarrow":"ノコギリソウ",
+  "item-herbseeds-yarrow":"ノコギリソウの種",
+
+  "recipeingredient-item-herbs-liquorice-insturmentalcase": "リコリス",
+  "recipeingredient-item-herbs-liquorice": "リコリス",
+  "meal-ingredient-soup-secondary-herbs-liquorice": "リコリス",
+  "meal-ingredient-stew-secondary-herbs-liquorice": "リコリス",
+
+  "item-herbs-liquorice":"リコリス",
+  "item-herbseeds-liquorice":"リコリスの種",
+
+  "recipeingredient-item-herbs-waterchestnut-insturmentalcase": "ヒシの尾",
+  "recipeingredient-item-herbs-waterchestnut": "ヒシの尾",
+  "meal-ingredient-soup-secondary-herbs-waterchestnut": "ヒシの尾",
+  "meal-ingredient-stew-secondary-herbs-waterchestnut": "ヒシの尾",
+
+  "item-waterherbs-waterchestnut":"ヒシの先端",
+  "item-waterherbseeds-waterchestnut":"ヒシの種",
+
+  "item-wherbs-waterchestnut":"ヒシの尾",
+  "item-herbseeds-waterchestnut":"ヒシの種",
+
+  "item-waterherbseeds-hardsedge": "ハードスゲの種",
+  "item-waterherbseeds-brownsedge": "チャスゲの種",
+  "item-waterherbseeds-tule": "ホタルイの種",
+
+
+
+  "item-roots-waterchestnut":"ヒシの実",
+  "item-roots-peeledwaterchestnut":"皮を剥いたヒシの実",
+  "recipeingredient-item-roots-peeledwaterchestnut-insturmentalcase": "皮を剥いたヒシの実",
+  "recipeingredient-item-roots-peeledwaterchestnut": "皮を剥いたヒシの実",
+  "meal-ingredient-soup-secondary-roots-peeledwaterchestnut": "皮を剥いたヒシの実",
+  "meal-ingredient-stew-secondary-roots-peeledwaterchestnut": "皮を剥いたヒシの実",
+
+  "item-roots-chicory":"チコリーの根茎",
+  "recipeingredient-item-roots-chicory-insturmentalcase": "チコリーの根茎",
+  "recipeingredient-item-roots-chicory": "チコリーの根茎",
+  "meal-ingredient-soup-secondary-roots-chicory": "チコリーの根茎",
+  "meal-ingredient-stew-secondary-roots-chicory": "チコリーの根茎",
+
+  "item-roots-celery":"セロリの根茎",
+  "recipeingredient-item-roots-celery-insturmentalcase": "セロリの根茎",
+  "recipeingredient-item-roots-celery": "セロリの根茎",
+  "meal-ingredient-soup-secondary-roots-celery": "セロリの根茎",
+  "meal-ingredient-stew-secondary-roots-celery": "セロリの根茎",
+
+  "item-roots-liquorice":"リコリスの根茎",
+  "recipeingredient-item-roots-liquorice-insturmentalcase": "リコリスの根茎",
+  "recipeingredient-item-roots-liquorice": "リコリスの根茎",
+  "meal-ingredient-soup-secondary-roots-liquorice": "リコリスの根茎",
+  "meal-ingredient-stew-secondary-roots-liquorice": "リコリスの根茎",
+
+  "block-seedling-bearleek-planted": "クマニラの種(成長中)",
+  "block-seedling-bearleek-sprouting": "クマニラの種(発芽中)",
+
+  "block-seedling-angelica-planted": "シシウドの種(成長中)",
+  "block-seedling-angelica-sprouting": "シシウドの種(発芽中)",
+
+  "block-crop-angelica-1": "シシウドの種(成長中)",
+  "block-crop-angelica-2": "シシウド(成長中)",
+  "block-crop-angelica-3": "シシウド",
+
+  "block-seedling-foxglove-planted": "キツネノテブクロの種(成長中)",
+  "block-seedling-foxglove-sprouting": "キツネノテブクロの種(発芽中)",
+
+  "block-crop-foxglove-1": "キツネノテブクロの種(成長中)",
+  "block-crop-foxglove-2": "キツネノテブクロ(成長中)",
+  "block-crop-foxglove-3": "キツネノテブクロ",
+
+  "block-seedling-burnet-planted": "ワレモコウの種(成長中)",
+  "block-seedling-burnet-sprouting": "ワレモコウの種(発芽中)",
+
+  "block-crop-burnet-1": "ワレモコウの種(成長中)",
+  "block-crop-burnet-2": "ワレモコウ(成長中)",
+  "block-crop-burnet-3": "ワレモコウ",
+
+  "block-seedling-arnica-planted": "アルニカの種(成長中)",
+  "block-seedling-arnica-sprouting": "アルニカの種(発芽中)",
+
+  "block-crop-arnica-1": "アルニカの種(成長中)",
+  "block-crop-arnica-2": "アルニカ(成長中)",
+  "block-crop-arnica-3": "アルニカ",
+
+  "block-seedling-ginger-planted": "ショウガの種(成長中)",
+  "block-seedling-ginger-sprouting": "ショウガの種(発芽中)",
+
+  "block-crop-ginger-1": "ショウガの種(成長中)",
+  "block-crop-ginger-2": "ショウガ(成長中)",
+  "block-crop-ginger-3": "ショウガ",
+
+  "block-seedling-horehound-planted": "マルバハッカの種(成長中)",
+  "block-seedling-horehound-sprouting": "マルバハッカの種(発芽中)",
+
+  "block-crop-horehound-1": "マルバハッカの種(成長中)",
+  "block-crop-horehound-2": "マルバハッカ(成長中)",
+  "block-crop-horehound-3": "マルバハッカ",
+
+  "block-seedling-rockrose-planted": "ロックローズの種(成長中)",
+  "block-seedling-rockrose-sprouting": "ロックローズの種(発芽中)",
+
+  "block-crop-rockrose-1": "ロックローズの種(成長中)",
+  "block-crop-rockrose-2": "ロックローズ(成長中)",
+  "block-crop-rockrose-3": "ロックローズ",
+
+  "block-seedling-tansy-planted": "エゾヨモギギクの種(成長中)",
+  "block-seedling-tansy-sprouting": "エゾヨモギギクの種(発芽中)",
+
+  "block-crop-tansy-1": "エゾヨモギギクの種(成長中)",
+  "block-crop-tansy-2": "エゾヨモギギク(成長中)",
+  "block-crop-tansy-3": "エゾヨモギギク",
+
+  "block-seedling-cicuta-planted": "ドクゼリの種(成長中)",
+  "block-seedling-cicuta-sprouting": "ドクゼリの種(発芽中)",
+
+  "block-crop-cicuta-1": "ドクゼリの種(成長中)",
+  "block-crop-cicuta-2": "ドクゼリ(成長中)",
+  "block-crop-cicuta-3": "ドクゼリ",
+
+  "block-seedling-ginseng-planted": "チョウセンニンジンの種(成長中)",
+  "block-seedling-ginseng-sprouting": "チョウセンニンジンの種(発芽中)",
+
+  "block-crop-ginseng-1": "チョウセンニンジンの種(成長中)",
+  "block-crop-ginseng-2": "チョウセンニンジン(成長中)",
+  "block-crop-ginseng-3": "チョウセンニンジン",
+
+  "block-seedling-katuk-planted": "アマメシバの種(成長中)",
+  "block-seedling-katuk-sprouting": "アマメシバの種(発芽中)",
+
+  "block-crop-katuk-1": "アマメシバの種(成長中)",
+  "block-crop-katuk-2": "アマメシバ(成長中)",
+  "block-crop-katuk-3": "アマメシバ",
+
+  
+  "block-seedling-softsedge-planted": "ソフトスゲの種(成長中)",
+  "block-seedling-softsedge-sprouting": "ソフトスゲの種(発芽中)",
+
+  "block-crop-softsedge-1": "ソフトスゲの種(成長中)",
+  "block-crop-softsedge-2": "ソフトスゲ(成長中)",
+  "block-crop-softsedge-3": "ソフトスゲ",
+
+  "block-seedling-jewelweed-planted": "ホウセンカの種(成長中)",
+  "block-seedling-jewelweed-sprouting": "ホウセンカの種(発芽中)",
+
+  "block-crop-jewelweed-1": "ホウセンカの種(成長中)",
+  "block-crop-jewelweed-2": "ホウセンカ(成長中)",
+  "block-crop-jewelweed-3": "ホウセンカ",
+
+  "block-seedling-rhubarb-planted": "ルバーブの種(成長中)",
+  "block-seedling-rhubarb-sprouting": "ルバーブの種(発芽中)",
+
+  "block-crop-rhubarb-1": "ルバーブの種(成長中)",
+  "block-crop-rhubarb-2": "ルバーブ(成長中)",
+  "block-crop-rhubarb-3": "ルバーブ",
+
+  "block-seedling-butterbur-planted": "フキの種(成長中)",
+  "block-seedling-butterbur-sprouting": "フキの種(発芽中)",
+
+  "block-crop-butterbur-1": "フキの種(成長中)",
+  "block-crop-butterbur-2": "フキ(成長中)",
+  "block-crop-butterbur-3": "フキ",
+
+  "block-seedling-woodspurge-planted": "ウッドスパージの種(成長中)",
+  "block-seedling-woodspurge-sprouting": "ウッドスパージの種(発芽中)",
+
+  "block-crop-woodspurge-1": "ウッドスパージの種(成長中)",
+  "block-crop-woodspurge-2": "ウッドスパージ(成長中)",
+  "block-crop-woodspurge-3": "ウッドスパージ",
+  
+  "block-seedling-hardsedge-planted": "ハードスゲの種(成長中)",
+  "block-seedling-hardsedge-sprouting": "ハードスゲの種(発芽中)",
+
+  "block-seedling-brownsedge-planted": "チャスゲの種(成長中)",
+  "block-seedling-brownsedge-sprouting": "チャスゲの種(発芽中)",
+
+  "block-seedling-tule-planted": "ホタルイの種(成長中)",
+  "block-seedling-tule-sprouting": "ホタルイの種(発芽中)",
+
+  "block-seedling-swamptule-planted": "ホタルイの種(成長中)",
+  "block-seedling-swamptule-sprouting": "ホタルイの種(発芽中)",
+
+  "block-seedling-arrowhead-planted": "オモダカの種(成長中)",
+  "block-seedling-arrowhead-sprouting": "オモダカの種(発芽中)",
+
+
+  "block-crop-bearleek-1": "クマニラの種(成長中)",
+  "block-crop-bearleek-2": "クマニラ(成長中)",
+  "block-crop-bearleek-3": "クマニラ",
+
+  "block-seedling-basil-planted": "バジルの種(成長中)",
+  "block-seedling-basil-sprouting": "バジルの種(発芽中)",
+
+  "block-crop-basil-1": "バジルの種(成長中)",
+  "block-crop-basil-2": "バジル(成長中)",
+  "block-crop-basil-3": "バジル",
+
+  "block-seedling-blackpepper-planted": "ブラックペッパーの種(成長中)",
+  "block-seedling-blackpepper-sprouting": "ブラックペッパーの種(発芽中)",
+
+  "block-crop-blackpepper-1": "ブラックペッパーの種(成長中)",
+  "block-crop-blackpepper-2": "ブラックペッパー(成長中)",
+  "block-crop-blackpepper-3": "ブラックペッパー",
+
+  "block-seedling-celery-planted": "セロリの種(成長中)",
+  "block-seedling-celery-sprouting": "セロリの種(発芽中)",
+
+  "block-crop-celery-1": "セロリの種(成長中)",
+  "block-crop-celery-2": "セロリ(成長中)",
+  "block-crop-celery-3": "セロリ",
+
+  "block-seedling-chamomile-planted": "カモミールの種(成長中)",
+  "block-seedling-chamomile-sprouting": "カモミールの種(発芽中)",
+
+  "block-crop-chamomile-1": "カモミールの種(成長中)",
+  "block-crop-chamomile-2": "カモミール(成長中)",
+  "block-crop-chamomile-3": "カモミール",
+
+  "block-seedling-cilantro-planted": "コリアンダーの種(成長中)",
+  "block-seedling-cilantro-sprouting": "コリアンダーの種(発芽中)",
+
+  "block-crop-cilantro-1": "コリアンダーの種(成長中)",
+  "block-crop-cilantro-2": "コリアンダー(成長中)",
+  "block-crop-cilantro-3": "コリアンダー",
+
+  "block-seedling-dill-planted": "ディルの種(成長中)",
+  "block-seedling-dill-sprouting": "ディルの種(発芽中)",
+
+  "block-crop-dill-1": "ディルの種(成長中)",
+  "block-crop-dill-2": "ディル(成長中)",
+  "block-crop-dill-3": "ディル",
+
+  "block-seedling-lavender-planted": "ラベンダーの種(成長中)",
+  "block-seedling-lavender-sprouting": "ラベンダーの種(発芽中)",
+
+  "block-seedling-dock-planted": "ギシギシの種(成長中)",
+  "block-seedling-dock-sprouting": "ギシギシの種(発芽中)",
+
+  "block-crop-dock-1": "ギシギシの種(成長中)",
+  "block-crop-dock-2": "ギシギシ(成長中)",
+  "block-crop-dock-3": "ギシギシ",
+
+  "block-seedling-marjoram-planted": "マジョラムの種(成長中)",
+  "block-seedling-marjoram-sprouting": "マジョラムの種(発芽中)",
+
+  "block-crop-marjoram-1": "マジョラムの種(成長中)",
+  "block-crop-marjoram-2": "マジョラム(成長中)",
+  "block-crop-marjoram-3": "マジョラム",
+
+  "block-seedling-marshmallow-planted": "ウスベニタチアオイの種(成長中)",
+  "block-seedling-marshmallow-sprouting": "ウスベニタチアオイの種(発芽中)",
+
+  "block-crop-marshmallow-1": "ウスベニタチアオイの種(成長中)",
+  "block-crop-marshmallow-2": "ウスベニタチアオイ(成長中)",
+  "block-crop-marshmallow-3": "ウスベニタチアオイ",
+
+  "block-seedling-mint-planted": "ミントの種(成長中)",
+  "block-seedling-mint-sprouting": "ミントの種(発芽中)",
+
+  "block-crop-mint-1": "ミントの種(成長中)",
+  "block-crop-mint-2": "ミント(成長中)",
+  "block-crop-mint-3": "ミント",
+
+  "block-seedling-mustard-planted": "マスタードの種(成長中)",
+  "block-seedling-mustard-sprouting": "マスタードの種(発芽中)",
+
+  "block-crop-mustard-1": "マスタードの種(成長中)",
+  "block-crop-mustard-2": "マスタード(成長中)",
+  "block-crop-mustard-3": "マスタード",
+
+  "block-seedling-rosemary-planted": "ローズマリーの種(成長中)",
+  "block-seedling-rosemary-sprouting": "ローズマリーの種(発芽中)",
+
+  "block-seedling-saffron-planted": "サフランの種(成長中)",
+  "block-seedling-saffron-sprouting": "サフランの種(発芽中)",
+
+  "block-crop-saffron-1": "サフランの種(成長中)",
+  "block-crop-saffron-2": "サフラン(成長中)",
+  "block-crop-saffron-3": "サフラン",
+
+  "block-seedling-sage-planted": "セイジの種(成長中)",
+  "block-seedling-sage-sprouting": "セイジの種(発芽中)",
+
+  "block-seedling-sedge-planted": "スゲの種(成長中)",
+  "block-seedling-sedge-sprouting": "スゲの種(発芽中)",
+
+  "block-seedling-stingingnettle-planted": "イラクサの種(成長中)",
+  "block-seedling-stingingnettle-sprouting": "イラクサの種(発芽中)",
+
+  "block-crop-stingingnettle-1": "イラクサの種(成長中)",
+  "block-crop-stingingnettle-2": "イラクサ(成長中)",
+  "block-crop-stingingnettle-3": "イラクサ",
+
+  "block-seedling-stjohnswort-planted": "オトギリソウの種(成長中)",
+  "block-seedling-stjohnswort-sprouting": "オトギリソウの種(発芽中)",
+
+  "block-crop-stjohnswort-1": "オトギリソウの種(成長中)",
+  "block-crop-stjohnswort-2": "オトギリソウ(成長中)",
+  "block-crop-stjohnswort-3": "オトギリソウ",
+
+  "block-seedling-thyme-planted": "タイムの種(成長中)",
+  "block-seedling-thyme-sprouting": "タイムの種(発芽中)",
+
+  "block-seedling-minerslettuce-planted": "冬スベリヒユの種(成長中)",
+  "block-seedling-minerslettuce-sprouting": "冬スベリヒユの種(発芽中)",
+
+  "block-crop-minerslettuce-1": "冬スベリヒユの種(成長中)",
+  "block-crop-minerslettuce-2": "冬スベリヒユ(成長中)",
+  "block-crop-minerslettuce-3": "冬スベリヒユ",
+
+  "block-seedling-mugwort-planted": "ヨモギの種(成長中)",
+  "block-seedling-mugwort-sprouting": "ヨモギの種(発芽中)",
+
+  "block-seedling-burdock-planted": "ゴボウの種(成長中)",
+  "block-seedling-burdock-sprouting": "ゴボウの種(発芽中)",
+
+  "block-seedling-poisonoak-planted": "ウルシの種(成長中)",
+  "block-seedling-poisonoak-sprouting": "ウルシとの種(発芽中)",
+
+  "block-seedling-holly-planted": "ヒイラギの種(成長中)",
+  "block-seedling-holly-sprouting": "ヒイラギの種(発芽中)",
+
+  "block-seedling-chicory-planted": "チコリーの種(成長中)",
+  "block-seedling-chicory-sprouting": "チコリーの種(発芽中)",
+
+  "block-crop-chicory-1": "チコリーの種(成長中)",
+  "block-crop-chicory-2": "チコリー(成長中)",
+  "block-crop-chicory-3": "チコリー",
+
+  "block-seedling-marigold-planted": "マリーゴールドの種(成長中)",
+  "block-seedling-marigold-sprouting": "マリーゴールドの種(発芽中)",
+
+  "block-crop-marigold-1": "マリーゴールドの種(成長中)",
+  "block-crop-marigold-2": "マリーゴールド(成長中)",
+  "block-crop-marigold-3": "マリーゴールド",
+
+  "block-seedling-inula-planted": "オグルマの種(成長中)",
+  "block-seedling-inula-sprouting": "オグルマの種(発芽中)",
+
+  "block-seedling-celandine-planted": "クサノオウの種(成長中)",
+  "block-seedling-celandine-sprouting": "クサノオウの種(発芽中)",
+
+  "block-crop-celandine-1": "クサノオウの種(成長中)",
+  "block-crop-celandine-2": "クサノオウ(成長中)",
+  "block-crop-celandine-3": "クサノオウ",
+
+  "block-seedling-leek-planted": "クマニラの種(成長中)",
+  "block-seedling-leek-sprouting": "クマニラの種(発芽中)",
+
+  "block-crop-leek-1": "クマニラの種(成長中)",
+  "block-crop-leek-2": "クマニラ(成長中)",
+  "block-crop-leek-3": "クマニラ",
+
+  "block-seedling-plantain-planted": "オオバコの種(成長中)",
+  "block-seedling-plantain-sprouting": "オオバコの種(発芽中)",
+
+  "block-seedling-saltwort-planted": "オカヒジキの種(成長中)",
+  "block-seedling-saltwort-sprouting": "オカヒジキの種(発芽中)",
+  
+  "block-seedling-yarrow-planted": "ノコギリソウの種(成長中)",
+  "block-seedling-yarrow-sprouting": "ノコギリソウの種(発芽中)",
+
+  "block-crop-yarrow-1": "ノコギリソウの種(成長中)",
+  "block-crop-yarrow-2": "ノコギリソウ(成長中)",
+  "block-crop-yarrow-3": "ノコギリソウ",
+
+  "block-seedling-liquorice-planted": "リコリスの種(成長中)",
+  "block-seedling-liquorice-sprouting": "リコリスの種(発芽中)",
+
+  "block-crop-liquorice-1": "リコリスの種(成長中)",
+  "block-crop-liquorice-2": "リコリス(成長中)",
+  "block-crop-liquorice-3": "リコリス",
+
+  "block-seedling-waterchestnut-planted": "ヒシの種(成長中)",
+  "block-seedling-waterchestnut-sprouting": "ヒシの種(発芽中)",
+  
+  "block-berrybush-huckleberry-empty": "ハックルベリーの茂み（空）",
+  "block-berrybush-huckleberry-flowering": "ハックルベリーの茂み（開花）",
+  "block-berrybush-huckleberry-ripe": "ハックルベリーの茂み（成熟）",
+
+  "block-berrybush-snowberry-empty": "セッコウボクの茂み（空）",
+  "block-berrybush-snowberry-flowering": "セッコウボクの茂み（開花）",
+  "block-berrybush-snowberry-ripe": "セッコウボクの茂み（成熟）",
+
+  "block-pricklyberrybush-raspberry-empty": "木イチゴの茂み（空）",
+  "block-pricklyberrybush-raspberry-flowering": "木イチゴの茂み（開花）",
+  "block-pricklyberrybush-raspberry-ripe": "木イチゴの茂み（成熟）",
+
+  "block-berrybush-wolfberry-empty": "クコの茂み（空）",
+  "block-berrybush-wolfberry-flowering": "クコの茂み（開花）",
+  "block-berrybush-wolfberry-ripe": "クコの茂み（成熟）",
+
+  "block-pricklyberrybush-blueraspberry-empty": "ブルーラズベリーの茂み（空）",
+  "block-pricklyberrybush-blueraspberry-flowering": "ブルーラズベリーの茂み（開花）",
+  "block-pricklyberrybush-blueraspberry-ripe": "ブルーラズベリーの茂み（成熟）",
+
+  "block-pricklyberrybush-brambleberry-empty": "ブラックベリーの茂み（空）",
+  "block-pricklyberrybush-brambleberry-flowering": "ブラックベリーの茂み（開花）",
+  "block-pricklyberrybush-brambleberry-ripe": "ブラックベリーの茂み（成熟）",
+
+  "block-pricklyberrybush-dogrose-empty": "野バラの茂み（空）",
+  "block-pricklyberrybush-dogrose-flowering": "野バラの茂み（開花）",
+  "block-pricklyberrybush-dogrose-ripe": "野バラの茂み（成熟）",
+
+  "block-berrybush-gooseberry-empty": "スグリの茂み（空）",
+  "block-berrybush-gooseberry-flowering": "スグリの茂み（開花）",
+  "block-berrybush-gooseberry-ripe": "スグリの茂み（成熟）",
+
+  "block-berrybush-honeysuckle-empty": "スイカズラの茂み（空）",
+  "block-berrybush-honeysuckle-flowering": "スイカズラの茂み（開花）",
+  "block-berrybush-honeysuckle-ripe": "スイカズラの茂み（成熟）",
+
+  "block-shrubberrybush-elderberry-empty": "ニワトコの苗木（空）",
+  "block-shrubberrybush-elderberry-flowering": "ニワトコの苗木（開花）",
+  "block-shrubberrybush-elderberry-ripe": "ニワトコの苗木（成熟）",
+
+  "block-shrubberrybush-husktomato-empty": "ホオズキの苗木（空）",
+  "block-shrubberrybush-husktomato-flowering": "ホオズキの苗木（開花）",
+  "block-shrubberrybush-husktomato-ripe": "ホオズキの苗木（成熟）",
+
+  "block-groundberryplant-strawberry-empty": "野イチゴの苗木（空）",
+  "block-groundberryplant-strawberry-flowering": "野イチゴの苗木（開花）",
+  "block-groundberryplant-strawberry-ripe": "野イチゴの苗木（成熟）",
+
+  "block-groundberryseedling-strawberry-planted": "野イチゴの種(成長中)",
+  "block-groundberryseedling-strawberry-sprouting": "野イチゴの種(発芽中)",
+
+  "block-groundberryplant-crowberry-empty": "ガンコウランの苗木（空）",
+  "block-groundberryplant-crowberry-flowering": "ガンコウランの苗木（開花）",
+  "block-groundberryplant-crowberry-ripe": "ガンコウランの苗木（成熟）",
+
+  "block-groundberryseedling-crowberry-planted": "ガンコウランの種(成長中)",
+  "block-groundberryseedling-crowberry-sprouting": "ガンコウランの種(発芽中)",
+
+  "block-groundberryplant-bunchberry-empty": "ゴゼンタチバナの苗木（空）",
+  "block-groundberryplant-bunchberry-flowering": "ゴゼンタチバナの苗木（開花）",
+  "block-groundberryplant-bunchberry-ripe": "ゴゼンタチバナの苗木（成熟）",
+
+  "block-groundberryseedling-bunchberry-planted": "ゴゼンタチバナの種(成長中)",
+  "block-groundberryseedling-bunchberry-sprouting": "ゴゼンタチバナの種(発芽中)",
+
+  "block-groundberryplant-cloudberry-empty": "ホロムイイチゴの苗木（空）",
+  "block-groundberryplant-cloudberry-flowering": "ホロムイイチゴの苗木（開花）",
+  "block-groundberryplant-cloudberry-ripe": "ホロムイイチゴの苗木（成熟）",
+
+  "block-groundberryseedling-cloudberry-planted": "ホロムイイチゴの種(成長中)",
+  "block-groundberryseedling-cloudberry-sprouting": "ホロムイイチゴの種(発芽中)",
+
+  "block-sedge-tule-normal": "ホタルイ",
+  "block-sedge-tule-harvested": "ホタルイ(成長中)",
+
+  "block-sedge-swamptule-normal": "ホタルイ",
+  "block-sedge-swamptule-harvested": "ホタルイ(成長中)",
+
+  "item-plantfibers-hardsedge": "ハードスゲの束",
+  "item-plantfibers-brownsedge": "チャスゲの束",
+  "item-plantfibers-tule": "ホタルイの束",
+
+  "item-roots-tule": "ホタルイの根",
+  "recipeingredient-item-roots-tule-insturmentalcase": "ホタルイの根",
+  "recipeingredient-item-roots-tule": "ホタルイの根",
+  "meal-ingredient-soup-secondary-roots-tule": "ホタルイの根",
+  "meal-ingredient-stew-secondary-roots-tule": "ホタルイの根",
+
+  "item-roots-brownsedge": "チャスゲの根",
+  "recipeingredient-item-roots-brownsedge-insturmentalcase": "チャスゲの根",
+  "recipeingredient-item-roots-brownsedge": "チャスゲの根",
+  "meal-ingredient-soup-secondary-roots-brownsedge": "チャスゲの根",
+  "meal-ingredient-stew-secondary-roots-brownsedge": "チャスゲの根",
+
+  "item-roots-hardsedge": "ハードスゲの根",
+  "recipeingredient-item-roots-hardsedge-insturmentalcase": "ハードスゲの根",
+  "recipeingredient-item-roots-hardsedge": "ハードスゲの根",
+  "meal-ingredient-soup-secondary-roots-hardsedge": "ハードスゲの根",
+  "meal-ingredient-stew-secondary-roots-hardsedge": "ハードスゲの根",
+
+  "item-roots-arrowhead": "オモダカの根",
+  "recipeingredient-item-roots-arrowhead-insturmentalcase": "オモダカの根",
+  "recipeingredient-item-roots-arrowhead": "オモダカの根",
+  "meal-ingredient-soup-secondary-roots-arrowhead": "オモダカの根",
+  "meal-ingredient-stew-secondary-roots-arrowhead": "オモダカの根",
+
+  "item-roots-ginger": "ショウガの根",
+  "recipeingredient-item-roots-ginger-insturmentalcase": "ショウガの根",
+  "recipeingredient-item-roots-ginger": "ショウガの根",
+  "meal-ingredient-soup-secondary-roots-ginger": "ショウガの根",
+  "meal-ingredient-stew-secondary-roots-ginger": "ショウガの根",
+
+  "item-roots-ginseng": "チョウセンニンジンの根",
+  "recipeingredient-item-roots-ginseng-insturmentalcase": "チョウセンニンジンの根",
+  "recipeingredient-item-roots-ginseng": "チョウセンニンジンの根",
+  "meal-ingredient-soup-secondary-roots-ginseng": "チョウセンニンジンの根",
+  "meal-ingredient-stew-secondary-roots-ginseng": "チョウセンニンジンの根",
+
+  "item-roots-burnet": "ワレモコウの根",
+  "recipeingredient-item-roots-burnet-insturmentalcase": "ワレモコウの根",
+  "recipeingredient-item-roots-burnet": "ワレモコウの根",
+  "meal-ingredient-soup-secondary-roots-burnet": "ワレモコウの根",
+  "meal-ingredient-stew-secondary-roots-ginseburnetng": "ワレモコウの根",
+
+
+
+  "item-pressedmash-huckleberry-dry": "圧搾したハックルベリーのマッシュ",
+  "item-pressedmash-huckleberry-wet": "ハックルベリーのマッシュ",
+	"item-juiceportion-huckleberry": "ハックルベリーのジュース",
+  "incontainer-item-juiceportion-huckleberry": "ハックルベリーのジュース",
+	"item-ciderportion-huckleberry": "ハックルベリーのシードル",
+  "incontainer-item-ciderportion-huckleberry": "ハックルベリーのシードル",
+	"item-spiritportion-huckleberry": "ハックルベリーのブランデー",
+  "incontainer-item-spiritportion-huckleberry": "ハックルベリーのブランデー",
+
+  "item-pressedmash-wolfberry-dry": "圧搾したクコのマッシュ",
+  "item-pressedmash-wolfberry-wet": "クコのマッシュ ",
+	"item-juiceportion-wolfberry": "クコのジュ－ス",
+  "incontainer-item-juiceportion-wolfberry": "クコのジュ－ス",
+	"item-ciderportion-wolfberry": "クコのシードル",
+  "incontainer-item-ciderportion-wolfberry": "クコのシードル",
+	"item-spiritportion-wolfberry": "クコのブランデー",
+  "incontainer-item-spiritportion-wolfberry": "クコのブランデー",
+
+  "item-pressedmash-husktomato-dry": "圧搾したホオズキのマッシュ",
+  "item-pressedmash-husktomato-wet": "ホオズキのマッシュ ",
+	"item-juiceportion-husktomato": "ホオズキのジュ－ス",
+  "incontainer-item-juiceportion-husktomato": "ホオズキのジュ－ス",
+	"item-ciderportion-husktomato": "ホオズキのシードル",
+  "incontainer-item-ciderportion-husktomato": "ホオズキのシードル",
+	"item-spiritportion-husktomato": "ホオズキのブランデー",
+  "incontainer-item-spiritportion-husktomato": "ホオズキのブランデー",
+
+  "item-pressedmash-snowberry-dry": "圧搾した野イチゴのマッシュ",
+  "item-pressedmash-snowberry-wet": "セッコウボクのマッシュ",
+	"item-juiceportion-snowberry": "セッコウボクのジュース",
+  "incontainer-item-juiceportion-snowberry": "セッコウボクのジュース",
+	"item-ciderportion-snowberry": "セッコウボクのシードル",
+  "incontainer-item-ciderportion-snowberry": "セッコウボクのシードル",
+	"item-spiritportion-snowberry": "セッコウボクのブランデー",
+  "incontainer-item-spiritportion-snowberry": "セッコウボクのブランデー",
+
+  "item-pressedmash-brambleberry-dry": "圧搾したブラックベリーのマッシュ",
+  "item-pressedmash-brambleberry-wet": "ブラックベリーのマッシュ",
+	"item-juiceportion-brambleberry": "ブラックベリーのジュース",
+  "incontainer-item-juiceportion-brambleberry": "ブラックベリーのジュース",
+	"item-ciderportion-brambleberry": "ブラックベリーのシードル",
+  "incontainer-item-ciderportion-brambleberry": "ブラックベリーのワイン",
+	"item-spiritportion-brambleberry": "ブラックベリーのブランデー",
+  "incontainer-item-spiritportion-brambleberry": "ブラックベリーのブランデー",
+
+  "item-pressedmash-cloudberry-dry": "圧搾したクラウドベリーのマッシュ",
+  "item-pressedmash-cloudberry-wet": "ホロムイイチゴのマッシュ",
+	"item-juiceportion-cloudberry": "ホロムイイチゴのジュース",
+  "incontainer-item-juiceportion-cloudberry": "ホロムイイチゴのジュース",
+	"item-ciderportion-cloudberry": "ホロムイイチゴのシードル",
+  "incontainer-item-ciderportion-cloudberry": "ホロムイイチゴのシードル",
+	"item-spiritportion-cloudberry": "ホロムイイチゴのブランデー",
+  "incontainer-item-spiritportion-cloudberry": "ホロムイイチゴのブランデー",
+
+  "item-pressedmash-bunchberry-dry": "圧搾したゴゼンタチバナのマッシュ",
+  "item-pressedmash-bunchberry-wet": "ゴゼンタチバナのマッシュ ",
+	"item-juiceportion-bunchberry": "ゴゼンタチバナのジュース",
+  "incontainer-item-juiceportion-bunchberry": "ゴゼンタチバナのジュース",
+	"item-ciderportion-bunchberry": "ゴゼンタチバナのシードル",
+  "incontainer-item-ciderportion-bunchberry": "ゴゼンタチバナのシードル",
+	"item-spiritportion-bunchberry": "ゴゼンタチバナのブランデー",
+  "incontainer-item-spiritportion-bunchberry": "ゴゼンタチバナのブランデー",
+
+  "item-pressedmash-crowberry-dry": "圧搾したガンコウランのマッシュ",
+  "item-pressedmash-crowberry-wet": "ガンコウランのマッシュ ",
+	"item-juiceportion-crowberry": "ガンコウランのジュース",
+  "incontainer-item-juiceportion-crowberry": "ガンコウランのジュース",
+	"item-ciderportion-crowberry": "ガンコウランのシードル",
+  "incontainer-item-ciderportion-crowberry": "ガンコウランのシードル",
+	"item-spiritportion-crowberry": "ガンコウランのブランデー",
+  "incontainer-item-spiritportion-crowberry": "ガンコウランのブランデー",
+
+  "item-pressedmash-dogrose-dry": "圧搾した野バラのマッシュ",
+  "item-pressedmash-dogrose-wet": "野バラのマッシュ",
+	"item-juiceportion-dogrose": "野バラのジュース",
+  "incontainer-item-juiceportion-dogrose": "野バラのジュース",
+	"item-ciderportion-dogrose": "野バラのシードル",
+  "incontainer-item-ciderportion-dogrose": "野バラのシードル",
+	"item-spiritportion-dogrose": "野バラのブランデー",
+  "incontainer-item-spiritportion-dogrose": "野バラのブランデー",
+
+  "item-pressedmash-elderberry-dry": "圧搾したニワトコのマッシュ",
+  "item-pressedmash-elderberry-wet": "ニワトコのマッシュ",
+	"item-juiceportion-elderberry": "ニワトコのジュース",
+  "incontainer-item-juiceportion-elderberry": "ニワトコのジュース",
+	"item-ciderportion-elderberry": "ニワトコのシードル",
+  "incontainer-item-ciderportion-elderberry": "ニワトコのシードル",
+	"item-spiritportion-elderberry": "ニワトコのブランデー",
+  "incontainer-item-spiritportion-elderberry": "ニワトコのブランデー",
+
+  "item-pressedmash-gooseberry-dry": "圧搾したスグリのマッシュ",
+  "item-pressedmash-gooseberry-wet": "スグリのマッシュ",
+	"item-juiceportion-gooseberry": "スグリのジュース",
+  "incontainer-item-juiceportion-gooseberry": "スグリのジュース",
+	"item-ciderportion-gooseberry": "スグリのシードル",
+  "incontainer-item-ciderportion-gooseberry": "スグリのシードル",
+	"item-spiritportion-gooseberry": "スグリのブランデー",
+  "incontainer-item-spiritportion-gooseberry": "スグリのブランデー",
+
+  "item-pressedmash-honeysuckle-dry": "圧搾したスイカズラのマッシュ",
+  "item-pressedmash-honeysuckle-wet": "スイカズラのマッシュ",
+	"item-juiceportion-honeysuckle": "スイカズラのジュース",
+  "incontainer-item-juiceportion-honeysuckle": "スイカズラのジュース",
+	"item-ciderportion-honeysuckle": "スイカズラのシードル",
+  "incontainer-item-ciderportion-honeysuckle": "スイカズラのシードル",
+	"item-spiritportion-honeysuckle": "スイカズラのブランデー",
+  "incontainer-item-spiritportion-honeysuckle": "スイカズラのブランデー",
+
+  "item-pressedmash-raspberry-dry": "圧搾した木イチゴのマッシュ",
+  "item-pressedmash-raspberry-wet": "木イチゴのマッシュ",
+	"item-juiceportion-raspberry": "木イチゴのジュース",
+  "incontainer-item-juiceportion-raspberry": "木イチゴのジュース",
+	"item-ciderportion-raspberry": "木イチゴのシードル",
+  "incontainer-item-ciderportion-raspberry": "木イチゴのシードル",
+	"item-spiritportion-raspberry": "木イチゴのブランデー",
+  "incontainer-item-spiritportion-raspberry": "木イチゴのブランデー",
+
+  "item-pressedmash-blueraspberry-dry": "圧搾したブルーラズベリーのマッシュ",
+  "item-pressedmash-blueraspberry-wet": "ブルーラズベリーのマッシュ ",
+	"item-juiceportion-blueraspberry": "ブルーラズベリーのジュース",
+  "incontainer-item-juiceportion-blueraspberry": "ブルーラズベリーのジュース",
+	"item-ciderportion-blueraspberry": "ブルーラズベリーのシードル",
+  "incontainer-item-ciderportion-blueraspberry": "ブルーラズベリーのシードル",
+	"item-spiritportion-blueraspberry": "ブルーラズベリーのブランデー",
+  "incontainer-item-spiritportion-blueraspberry": "ブルーラズベリーのブランデー",
+
+  "item-pressedmash-strawberry-dry": "圧搾した野イチゴのマッシュ",
+  "item-pressedmash-strawberry-wet": "野イチゴのマッシュ",
+	"item-juiceportion-strawberry": "野イチゴのジュース",
+  "incontainer-item-juiceportion-strawberry": "野イチゴのジュース",
+	"item-ciderportion-strawberry": "野イチゴのシードル",
+  "incontainer-item-ciderportion-strawberry": "野イチゴのシードル",
+	"item-spiritportion-strawberry": "野イチゴのブランデー",
+  "incontainer-item-spiritportion-strawberry": "野イチゴのブランデー",
+
+  "heldhelp-plant": "苗木",
+  "heldhelp-seedextraction": "種の取り出し",
+  "Will grow in less than a day": "1日以内に成長します。",
+  "Will grow in about {0} days": "約{0}日で成長します。",
+
+  "blockhelp-clippable-clip": "枝の切り取り",
+
+  "herb-harvested-xdays": "天候が良ければ{0}日で成長します。",
+  "herb-harvested-1day": "天候に左右されず、1日以内に成長します",
+
+  "Will grow in less than a day, weather permitting": "天候に左右されず、1日以内に成長します。",
+  "Will grow in {0} days, weather permitting": "天候が良ければ{0}日で成長します。",
+
+  "with plant roots": "根を張っている",
+  "game:Contains rhizomes": "内容物ランダム化",
+  "wildcraft:heldhelp-plantroot": "植物の根"
+
+}

@@ -1,0 +1,45 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"rabbit": "item/medieval/rabbit"
+	},
+	"elements": [
+		{
+			"name": "cube0",
+			"from": [ 7.0, 1.0, 7.5 ],
+			"to": [ 8.0, 2.0, 8.5 ],
+			"rotationOrigin": [ 7.0, 1.0, 6.5 ],
+			"rotationZ": -90.0,
+			"faces": {
+				"north": { "texture": "#rabbit", "uv": [ 2.5, 12.5, 4.5, 14.5 ], "autoUv": false },
+				"east": { "texture": "#rabbit", "uv": [ 13.0, 0.5, 15.0, 2.5 ], "autoUv": false },
+				"south": { "texture": "#rabbit", "uv": [ 6.5, 12.5, 8.5, 14.5 ], "autoUv": false },
+				"west": { "texture": "#rabbit", "uv": [ 4.5, 12.5, 6.5, 14.5 ], "autoUv": false },
+				"up": { "texture": "#rabbit", "uv": [ 4.5, 10.5, 6.5, 12.5 ], "autoUv": false },
+				"down": { "texture": "#rabbit", "uv": [ 13.0, 2.0, 15.0, 4.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "cube1",
+					"from": [ 0.1, 1.0, 0.05 ],
+					"to": [ 1.0, 2.0, 0.95 ],
+					"rotationOrigin": [ 0.1, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#rabbit", "uv": [ 2.5, 10.5, 4.5, 12.5 ], "autoUv": false },
+						"east": { "texture": "#rabbit", "uv": [ 13.0, 0.5, 15.0, 2.5 ], "autoUv": false },
+						"south": { "texture": "#rabbit", "uv": [ 6.5, 10.5, 8.5, 12.5 ], "autoUv": false },
+						"west": { "texture": "#rabbit", "uv": [ 4.5, 10.5, 6.5, 12.5 ], "autoUv": false },
+						"up": { "texture": "#rabbit", "uv": [ 6.5, 8.0, 8.5, 10.0 ], "autoUv": false },
+						"down": { "texture": "#rabbit", "uv": [ 13.0, 2.0, 15.0, 4.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

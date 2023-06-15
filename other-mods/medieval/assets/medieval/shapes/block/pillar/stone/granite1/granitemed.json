@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"granite": "block/stone/polishedrock/granite",
+		"granitemed": "block/stone/pillar/granite1/granitemed"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#granitemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#granitemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#granitemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#granitemed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#granite", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#granite", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

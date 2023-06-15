@@ -1,0 +1,12 @@
+[
+    {
+		ingredientPattern: "SR",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"R": { type: "item", code: "game:compost", quantity: 1}
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "moho-moho", quantity: 64 }
+	}
+]

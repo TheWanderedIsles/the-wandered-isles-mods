@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/drops/0",
+    "value": {
+      "type": "block",
+      "code": "wallpaper-{type}",
+      "quantity": {
+        "avg": 1
+      }
+    },
+    "file": "game:blocktypes/cloth/wallpaper.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/9",
+    "value": "leon",
+    "file": "game:blocktypes/cloth/wallpaper.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/10",
+    "value": "medieval1",
+    "file": "game:blocktypes/cloth/wallpaper.json"
+  }
+]

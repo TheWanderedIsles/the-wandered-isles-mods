@@ -1,0 +1,129 @@
+{
+	"code": "claytile",
+	"class": "BlockSimpleCoating",
+	"behaviors": [
+		{
+		"name": "Decor",
+		"properties": {
+			"sides": [ "north", "east", "south", "west", "up", "down" ],
+			"sidedVariants": true,
+			"thickness": 0.0312,
+			"removable": true }
+		}
+	],
+	"attributes": {
+		"handbook": { "groupBy": ["claytile-*"] }
+	},
+	"variantgroups": [
+		{ "code": "size", "states": [ "normal" ] },
+		{ "code": "color", "states": [ "black", "blurple", "blue", "brown", "darkgrey", "fire", "red", "green", "light", "pink", "purple", "malachite", "orange", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+		{ "code": "side", "states": [ "north", "east", "south", "west", "up", "down" ] }
+	],
+	"shapeByType": {
+		"*-down": { "base": "bricklayers:block/basic/layers/05voxel" },
+		"*-up": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 180 },
+		"*-north": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90 },
+		"*-east": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
+		"*-west": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*-south": { "base": "bricklayers:block/basic/layers/05voxel", "rotateX": 270 }
+	},
+	"sidesolidByType": {
+		"*-down": { "all": false, "down": true },
+		"*-up": { "all": false, "up": true },
+		"*-north": { "all": false, "north": true },
+		"*-east": { "all": false, "east": true },
+		"*-west": { "all": false, "west": true },
+		"*-south": { "all": false, "south": true }
+	},
+	"sideopaqueByType": {
+		"*-down": { "all": false, "down": true },
+		"*-up": { "all": false, "up": true },
+		"*-north": { "all": false, "north": true },
+		"*-east": { "all": false, "east": true },
+		"*-west": { "all": false, "west": true },
+		"*-south": { "all": false, "south": true }
+	},
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*-down"], "decorative": ["*-down"], "ceramics": ["*-down"] },
+	"replaceable": 900,
+	"resistance": 1,
+	"lightAbsorption": 1,
+	"emitSideAo": { "all": false },
+	"texturesByType": {
+		"@.*-(brown|blue|fire|red)-.*": {
+			"all": {
+				"base": "game:block/clay/hardened/{color}1",
+				"alternates": [
+					{ "base": "game:block/clay/hardened/{color}2", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] },
+					{ "base": "game:block/clay/hardened/{color}3", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } ],
+				"overlays": [ "bricklayers:block/ceramic/overlay_tile" ]
+			}
+		},
+		"@.*-(lavender|paleblue|palegreen|palered|peach|sunflower|white)-.*": {
+			"all": {
+				"base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/ceramic/overlay_tile" ],
+				"alternates": [ { "base": "bricklayers:block/clay/burnt/{color}1", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } ]
+			}
+		},
+		"*": {
+			"all": {
+				"base": "bricklayers:block/clay/hardened/{color}1",
+				"overlays": [ "bricklayers:block/ceramic/overlay_tile" ],
+				"alternates": [ { "base": "bricklayers:block/clay/hardened/{color}2", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } ]
+			}
+		}
+	},
+	"vertexFlags": { "zOffset": 1 },
+	"selectionbox": {
+		"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0312, "z2": 1,
+		"rotateXByType": {
+			"*-up": 180,
+			"*-north": 90,
+			"*-east": 90,
+			"*-west": 90,
+			"*-south": 270
+		},
+		"rotateYByType": {
+			"*-east": 180,
+			"*-west": 0
+		},
+		"rotateZByType": {
+			"*-east": 270,
+			"*-west": 270
+		}
+	},
+	"collisionbox": {
+		"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0312, "z2": 1,
+		"rotateXByType": {
+			"*-up": 180,
+			"*-north": 90,
+			"*-east": 90,
+			"*-west": 90,
+			"*-south": 270
+		},
+		"rotateYByType": {
+			"*-east": 180,
+			"*-west": 0
+		},
+		"rotateZByType": {
+			"*-east": 270,
+			"*-west": 270
+		}
+	},
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"break": "game:block/rock-break-pickaxe",
+		"hit": "game:block/rock-hit-pickaxe",
+		"walk": "game:walk/stone"
+	},
+	"materialDensity": 5000,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0312, "z": 0.5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -2, "y": -1, "z": -1.4 },
+		"scale": 0.37
+	}
+}

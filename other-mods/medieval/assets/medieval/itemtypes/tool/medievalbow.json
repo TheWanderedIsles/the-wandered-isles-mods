@@ -1,0 +1,83 @@
+{
+	code: "medievalbow",
+	variantgroups: [
+		{ code: "type", states: ["bowleon" ] },
+	],
+	class: "ItemBow",
+	maxstacksize: 1,
+	durabilityByType: {
+		"*-bowleon": 1000
+	},
+	shape: {
+		base: "item/medieval/{type}",
+		alternates: [
+			{ base: "item/medieval/{type}-charge1" },
+			{ base: "item/medieval/{type}-charge2" },
+			{ base: "item/medieval/{type}-charge3" }
+		]
+	},
+	tool: "bow",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "medieval": ["*"] },
+	attributes: {
+		damageByType: {
+			"*-bowleon": 8
+		},
+		toolrackTransformByType: {
+			"medievalbow-bowleon": {
+				rotation: { x: 2, y: 5, z: 0 },
+				translation: { y: 0.63 },
+				scale: 1.25
+			}
+		},
+			groundStorageTransformByType: {
+			"medievalbow-bowleon":{
+			translation: { x: -0.4, y: 0.2, z: 0.31 },
+			rotation: { x: 20, y: -180, z: -90 },
+			scale: 0.83
+			},
+		}
+	
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"medievalbow-bowleon": 2,
+			},
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	fpHandTransformByType: {
+		"medievalbow-bowleon": {
+			translation: { x: 0, y: 0.5, z: 0 },
+			rotation: { x: 4, y: 1, z: 84 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.91
+		}
+	},
+	guiTransformByType: {
+		"medievalbow-bowleon": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -129, y: 25, z: 41 },
+		origin: { x: 0.47, y: 0, z: 0.55 },
+		scale: 1.4
+		}
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.8
+	},
+	tpHandTransformByType: {
+		"medievalbow-bowleon": {
+		translation: { x: -0.46, y: 0.02, z: -0.44 },
+		rotation: { x: 107, y: 8, z: 10 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.15
+		}
+	}
+}

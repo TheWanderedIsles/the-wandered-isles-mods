@@ -1,0 +1,12 @@
+[
+    {
+        ingredientPattern: "G	S",
+        ingredients: {
+            "G": { type: "item", code: "wildcraft:plantfibers-*", quantity: 1 },
+            "S": { type: "item", code: "game:stick" }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "block", code: "game:torch-basic-extinct-up", quantity: 1  }
+    }
+]

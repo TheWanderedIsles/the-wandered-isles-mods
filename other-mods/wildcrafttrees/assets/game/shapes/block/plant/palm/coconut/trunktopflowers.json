@@ -1,0 +1,281 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"barktuft": [16,8],
+		"bark": [16,16],
+		"treetrunk": [16,16]
+	},
+	"textures": {
+		"flowers": "block/plant/palm/coconut/flowers",
+		"barktuft": "block/plant/palm/coconut/barktuft",
+		"bark": "block/plant/palm/coconut/bark",
+		"treetrunk": "block/plant/palm/coconut/treetrunk"
+	},
+	"elements": [
+		{
+			"name": "Trunk",
+			"from": [ 5.0, 0.0, 5.0 ], 
+			"to": [ 11.0, 16.0, 11.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#bark", "uv": [ 2.0, 0.0, 8.0, 16.0 ] },
+				"east": { "texture": "#bark", "uv": [ 2.0, 0.0, 8.0, 16.0 ] },
+				"south": { "texture": "#bark", "uv": [ 2.0, 0.0, 8.0, 16.0 ] },
+				"west": { "texture": "#bark", "uv": [ 2.0, 0.0, 8.0, 16.0 ] },
+				"up": { "texture": "#treetrunk", "uv": [ 2.0, 2.0, 8.0, 8.0 ] },
+				"down": { "texture": "#treetrunk", "uv": [ 2.0, 2.0, 8.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Upperbarktufts",
+					"from": [ 3.0, 13.0, 3.0 ], 
+					"to": [ 3.0, 13.0, 3.0 ], 
+					"rotationOrigin": [ 3.0, 13.0, 3.0 ],
+					"faces": {
+						"north": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "Barktuft1",
+							"from": [ -5.0, 0.0, -3.0 ], 
+							"to": [ 5.5, 7.0, -3.0 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ 0.5, 0.0, -3.0 ],
+							"rotationX": -12.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+								"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 7.0 ], "enabled": false },
+								"south": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 7.0 ], "enabled": false },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "Barktuft2",
+							"from": [ -5.0, -7.0, 3.0 ], 
+							"to": [ 5.5, 0.0, 3.0 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ 0.5, 0.0, 3.0 ],
+							"rotationX": -168.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+								"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 7.0 ], "enabled": false },
+								"south": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "enabled": false },
+								"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 7.0 ], "enabled": false },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "Barktuft3",
+							"from": [ 3.0, 0.0, -5.0 ], 
+							"to": [ 3.0, 7.0, 5.5 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ 3.0, 0.0, 0.0 ],
+							"rotationZ": -12.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 4.0, 8.0 ], "enabled": false },
+								"east": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+								"south": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 4.0, 8.0 ], "enabled": false },
+								"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 7.0 ], "enabled": false },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 1.0, 10.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 1.0, 10.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "Barktuft4",
+							"from": [ -3.0, 0.0, -5.0 ], 
+							"to": [ -3.0, 7.0, 5.5 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ -3.0, 0.0, 0.0 ],
+							"rotationZ": 12.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 3.5, 8.0 ], "enabled": false },
+								"east": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "enabled": false },
+								"south": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 3.5, 8.0 ], "enabled": false },
+								"west": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 10.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 10.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Lowerbarktufts",
+					"from": [ 3.0, 9.0, 3.0 ], 
+					"to": [ 3.0, 9.0, 3.0 ], 
+					"rotationOrigin": [ 3.0, 9.0, 3.0 ],
+					"faces": {
+						"north": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "Barktuft5",
+							"from": [ -5.0, 0.0, -3.0 ], 
+							"to": [ 5.5, 7.0, -3.0 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ 0.5, 0.0, -3.0 ],
+							"rotationX": -168.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "enabled": false },
+								"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 7.0 ], "enabled": false },
+								"south": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ] },
+								"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 7.0 ], "enabled": false },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "Barktuft6",
+							"from": [ -5.0, -7.0, 3.0 ], 
+							"to": [ 5.5, 0.0, 3.0 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ 0.5, 0.0, 3.0 ],
+							"rotationX": -12.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "rotation": 180, "enabled": false },
+								"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 7.0 ], "enabled": false },
+								"south": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 7.0 ], "enabled": false },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "Barktuft7",
+							"from": [ 3.0, 0.0, -5.0 ], 
+							"to": [ 3.0, 7.0, 5.5 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ 3.0, 0.0, 0.0 ],
+							"rotationZ": -168.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 3.5, 8.0 ], "enabled": false },
+								"east": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "enabled": false },
+								"south": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 3.5, 8.0 ], "enabled": false },
+								"west": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 10.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 10.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "Barktuft8",
+							"from": [ -3.0, 0.0, -5.0 ], 
+							"to": [ -3.0, 7.0, 5.5 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ -3.0, 0.0, 0.0 ],
+							"rotationZ": -192.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 3.5, 8.0 ], "enabled": false },
+								"east": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 13.5, 8.0 ] },
+								"south": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 3.5, 8.0 ], "enabled": false },
+								"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 10.5, 7.0 ], "enabled": false },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 10.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 10.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowers",
+					"from": [ 3.0, 11.0, 3.0 ], 
+					"to": [ 3.0, 11.0, 3.0 ], 
+					"rotationOrigin": [ 3.0, 11.0, 3.0 ],
+					"faces": {
+						"north": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#barktuft", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "Barktuft13",
+							"from": [ -8.0, 2.0, -3.0 ], 
+							"to": [ 8.0, 18.0, -3.0 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ -2.5, 2.0, -3.0 ],
+							"rotationX": -16.0,
+							"faces": {
+								"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 19.0, 17.0 ], "enabled": false },
+								"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"south": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+								"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+								"down": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "Barktuft17",
+									"from": [ 0.0, 0.0, 0.0 ], 
+									"to": [ 16.0, 16.0, 0.0 ], 
+									"renderPass": 2,
+									"rotationOrigin": [ 8.0, 0.0, 0.0 ],
+									"rotationY": 90.0,
+									"faces": {
+										"north": { "texture": "#barktuft", "uv": [ 3.0, 1.0, 19.0, 17.0 ], "enabled": false },
+										"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+										"south": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+										"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+										"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+										"down": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "Barktuft14",
+							"from": [ -8.0, -12.0, 3.0 ], 
+							"to": [ 8.0, 4.0, 3.0 ], 
+							"renderPass": 2,
+							"rotationOrigin": [ 0.5, 4.0, 3.0 ],
+							"rotationX": -150.0,
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "enabled": false },
+								"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"south": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+								"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "Barktuft16",
+									"from": [ 0.0, 0.0, 0.0 ], 
+									"to": [ 16.0, 16.0, 0.0 ], 
+									"renderPass": 2,
+									"rotationOrigin": [ 8.5, 12.0, 0.0 ],
+									"rotationY": 90.0,
+									"faces": {
+										"north": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "enabled": false },
+										"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+										"south": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180 },
+										"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+										"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+										"down": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

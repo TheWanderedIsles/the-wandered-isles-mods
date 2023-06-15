@@ -1,0 +1,10 @@
+{
+	"ingredientPattern": "SL",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true },
+		"L": { "type": "block", "code": "medieval:sincortezalog-*-ud",  "name": "wood" }
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "item", "code": "game:plank-{wood}", "quantity": 12 }
+}

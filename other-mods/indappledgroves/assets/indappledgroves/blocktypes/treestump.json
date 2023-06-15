@@ -1,0 +1,145 @@
+{
+	code: "treestump",
+	"class": "idgblockstump",
+	"__comment": "BlockLog contains only contains code for OnPickBlock",
+	behaviorsByType: {
+		"*-grown-*": [{name: "PushEventOnBlockBroken",	properties: {eventName: "testForDecay"}}, { name: "MyceliumHost" }],
+		"*": [{ name: "MyceliumHost" }, { name: "WrenchOrientable", properties: { baseCode: "treestump-placed-{wood}"  } }]
+	},
+	variantgroups: [
+		{ code: "type", states: ["grown", "placed"] },
+		{ code: "wood", loadFromProperties: "block/wood" },
+    {
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+	],
+	"attributes": {
+		handbook: {
+			excludeByType: {
+				"*-placed-*": true
+			}
+		},
+	},
+	creativeinventory: { "general": ["treestump-grown-*-east"], "flora": ["treestump-grown-*-east"], "construction": ["treestump-grown-*-east"] },
+	shape: { base: "indappledgroves:block/wood/treestump2", "alternates": [{"base": "indappledgroves:block/wood/treestump" }] },
+	"sidesolid": {
+		"all": "false"
+	},
+	"sideopaque": {
+		"all": "false"
+	},
+	drawtype: "json",
+	blockmaterial: "Wood",
+	requiredMiningTier: 1,
+	attributes: {
+		handbook: {
+			groupBy: ["treestump-*-{wood}-*"]
+		},
+		treeFellingGroupCodeByType: {
+			"treestump-grown-*": "{wood}"
+		},
+		treeFellingGroupSpreadIndexByType: {
+		"*-birch-*": 4,
+		"*-oak-*": 4,
+		"*-maple-*": 4,
+		"*-pine-*": 3,
+		"*-acacia-*": 4,
+		"*-kapok-*": 3,
+		"*-baldcypress-*": 3,
+		"*-larch-*": 3,
+		"*-redwood-*": 3,
+		"*-ebony-*": 6,
+		"*-walnut-*": 4,
+		"*-purpleheart-*": 5,
+		"*-aged-*": 3,
+		"*": 4
+		},
+		preventsDecayByType: {
+			"treestump-grown-*": true
+		}
+	},
+	textures: {
+		"oak": { base: "game:block/wood/bark/{wood}" },
+		"oak3": {"base": "game:block/wood/treetrunk/{wood}"}
+	},
+	replaceable: 500,
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		byTool: {
+			"Axe": { hit: "game:block/chop", break: "game:block/planks" }
+		}
+	},
+	drops: [
+		{ type: "block", code: "game:log-placed-{wood}-ud", quantity: { avg: 1 }  }
+	],
+	combustiblePropsByType: {
+		"treestump-*-birch-*": {
+			burnTemperature: 800,
+			burnDuration: 78,
+		},
+		"treestump-*-oak-*": {
+			burnTemperature: 800,
+			burnDuration: 98,
+		},
+		"treestump-*-ebony-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"treestump-*-pine-*": {
+			burnTemperature: 800,
+			burnDuration: 60,
+		},
+		"treestump-*-acacia-*": {
+			burnTemperature: 800,
+			burnDuration: 89,
+		},
+		"treestump-*-kapok-*": {
+			burnTemperature: 800,
+			burnDuration: 47,
+		},
+		"treestump-*-maple-*": {
+			burnTemperature: 800,
+			burnDuration: 79,
+		},
+		"treestump-*-redwood-*": {
+			burnTemperature: 800,
+			burnDuration: 72,
+		},
+		"treestump-*-aged-*": {
+			burnTemperature: 700,
+			burnDuration: 40,
+		},
+		"*": {
+			burnTemperature: 800,
+			burnDuration: 72,
+		}
+	},
+	"resistanceByType": {
+    "*-birch-*": 57.0,
+		"*-oak-*": 57.0,
+		"*-maple-*": 65,
+		"*-pine-*": 39,
+		"*-acacia-*": 103,
+		"*-kapok-*": 40,
+		"*-baldcypress-*": 23,
+		"*-larch-*": 37,
+		"*-redwood-*": 19,
+		"*-ebony-*": 145,
+		"*-walnut-*": 45,
+		"*-purpleheart-*": 122,
+		"*-aged-*": 45,
+		"*": 45
+    },
+	maxStackSize: 16,
+	materialDensity: 700,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

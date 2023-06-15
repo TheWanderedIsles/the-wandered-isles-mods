@@ -1,0 +1,27 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/exclude",
+    "file": "game:itemtypes/liquid/vinegarportion.json",
+    "dependsOn": [ { "modid": "expandedfoods", "invert": true } ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/ignoreCreativeInvStacks",
+    "value": true,
+    "file": "game:itemtypes/liquid/vinegarportion.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventoryStacks",
+    "value": [ {
+		"tabs": ["general", "liquids"],
+		"stacks": [ { "type": "block", "code": "woodbucket", "attributes": { "ucontents": [ { "type": "item", "code": "vinegarportion", "makefull": true } ] } } ]
+    } ],
+    "file": "game:itemtypes/liquid/vinegarportion.json",
+    "side": "Server"
+  }
+
+]

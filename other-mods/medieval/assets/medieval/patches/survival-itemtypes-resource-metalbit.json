@@ -1,0 +1,40 @@
+[
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-steel/meltingPoint",
+    "value": 1499,
+    "file": "game:itemtypes/resource/metalbit.json"
+  },
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-chromium/meltingPoint",
+    "value": 1698,
+    "file": "game:itemtypes/resource/metalbit.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/excludeByType/*-chromium",
+    "value": false,
+    "file": "game:itemtypes/resource/metalbit.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-nickel",
+    "value": {
+      "meltingPoint": 1455,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": { "type": "item", "code": "ingot-nickel"} },
+    "file": "game:itemtypes/resource/metalbit.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-stainlesssteel",
+    "value": {
+      "meltingPoint": 1510,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": { "type": "item", "code": "ingot-stainlesssteel"} },
+    "file": "game:itemtypes/resource/metalbit.json"
+  }
+]

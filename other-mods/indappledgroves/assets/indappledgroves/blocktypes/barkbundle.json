@@ -1,0 +1,88 @@
+{
+	"class": "idgbarkbundle",
+	code: "barkbundle",
+	"entityclassByType": {
+		"*-soaking": "Transient",
+		"*-soaked": "Transient"
+	},
+	attributes: {
+		"handbook": {
+				"groupBy": ["barkbundle-*"],
+				"extraSections": [
+					{
+						"title": "indappledgroves:block-handbooktitle-barkbundledry",
+						"text": "indappledgroves:block-handbooktext-barkbundledry"
+					},
+					{
+						"title": "indappledgroves:block-handbooktitle-barkbundlesoaked",
+						"text": "indappledgroves:block-handbooktext-barkbundlesoaked"
+					}
+				]
+			},
+		"transientPropsByType":{
+			"*-soaking": {
+				"convertFrom": "barkbundle-*-soaking",
+				"convertTo": "barkbundle-*-soaked",
+				"inGameHours": "24"
+			}
+    }
+	},
+	"creativeinventory": { "general": ["*-dry"]},
+	"behaviorsByType": {
+	"*-dry": [{"name": "Unstable"}, {"name": "RightClickPickup"}, {"name": "Submergible", "properties": {"liquidcode": "water","outputcode": "indappledgroves:barkbundle-{bark}-soaking"}}],
+	"*-soaking": [{"name": "Unstable"}, {"name": "RightClickPickup", "properties": {"dropsPickupMode": true}}],
+	"*": [{"name": "Unstable"}, {"name": "RightClickPickup", "properties": {"dropsPickupMode": true}}]
+	},
+	variantgroups: [
+		{ code: "bark", "loadFromProperties": "game:block/wood", states:["aged"] },
+		{ code: "stage", "states": ["dry","soaking","soaked"]}
+	],
+	shape: { base: "indappledgroves:block/barkbundle"},
+	texturesByType: {
+		"*": {
+			"bark": { base: "game:block/wood/bark/{bark}"}
+		}
+	},
+	dropsByType: {
+		"*-soaked": [{ type: "item", code: "indappledgroves:bark-{bark}-soaked", quantity: { avg: 5 }  }],
+		"*": [{ type: "item", code: "indappledgroves:bark-{bark}-dry", quantity: { avg: 5 }  }]
+	},
+	combustiblePropsByType: {
+		"*-dry": {
+		burnTemperature: 600,
+		burnDuration: 60
+		}
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 2,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks"
+	},
+		guiTransform: {
+		translation: { x: 6, y: -20, z: 0 },
+		rotation: { x: -37, y: -14, z: -10 },
+		scale: 2.78
+	},
+		fpHandTransform: {
+		translation: { x: -0.3, y: 0.75, z: 1 }
+	},
+		tpHandTransform: {
+		translation: { x: -1.2, y: -0.5, z: -1 },
+		rotation: { x: 7, y: -72, z: -25 },
+		scale: 0.57
+	},
+	"selectionBox": { "x1": 0.2621, "y1": 0, "z1": 0.25, "x2": 0.6875, "y2": 0.2621, "z2": 0.8125 },
+	"collisionBox": { "x1": 0.2621, "y1": 0, "z1": 0.25, "x2": 0.6875, "y2": 0.2621, "z2": 0.8125 }
+}

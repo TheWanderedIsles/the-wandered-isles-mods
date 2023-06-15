@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "W_W,HWS,W_W",
+    "ingredients": {
+      "S": { type: "item", code: "game:saw-*", isTool: true  },
+      "H": { type: "item", code: "game:hammer-*", isTool: true  },
+      "W": { "type": "item", "code": "game:plank-*", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "medievalfencefancy-{material}-ew-free", quantity: 4 }
+  },
+  {
+    "ingredientPattern": "W",
+    "ingredients": {
+      "W": { "type": "block", "code": "medievalfencefancy-*-ew-free", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony","kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "medievalfencegatefancy-{material}-n-closed-left-free", quantity: 1 }
+  }
+]

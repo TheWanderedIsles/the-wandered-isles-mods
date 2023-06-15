@@ -1,0 +1,12 @@
+[
+	{
+	"ingredientPattern": "_T_,TCT,TTT",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:clay-*", "name": "clay", "allowedVariants": [ "blue", "fire" ], "quantity": 4 },
+		"T": { "type": "block", "code": "bricklayers:claytile-normal-*-down", "name": "color" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:claytiles-normal-{color}", "quantity": 1 }
+	}
+]

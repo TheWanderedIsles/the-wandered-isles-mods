@@ -1,0 +1,85 @@
+{
+	code: "shrubberrybush",
+	class: "ShrubBerryBush",
+	attributes: {
+		stackable: false,
+		forageStatAffected: true,
+		reinforcable: true,
+		butterflyFeedByType: {
+			"*-flowering": true
+		},
+		beeFeedByType: {
+			"*-flowering": true
+		},
+		resetBelowTemperature: -2,
+		stopBelowTemperature: 4,
+		revertBlockBelowTemperature: -4,
+		
+		resetAboveTemperature: 35,
+		stopAboveTemperature: 30,
+		revertBlockAboveTemperature: 38,
+	},
+	entityclass: "BEShrubBerryBush",
+	behaviorsByType: {
+		"*-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraft:fruit-{type}", quantity: { avg: 2.2 }  },
+			harvestedBlockCode: "wildcraft:shrubberrybush-{type}-empty"
+		}} ]
+	},
+	variantgroups: [
+		{ code: "type", states: ["elderberry", "husktomato"] },
+		{ code: "state", states: ["empty", "flowering", "ripe"] }
+	],
+	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
+	renderpass: "BlendNoCull",
+	shapeByType: {
+		"*-empty": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem2/Leaves3", "Stem2/Leaves4", "Stem3/Leaves5","Stem3/Leaves6"] },
+		"*": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*" },
+	},
+	blockmaterial: "Plant",
+	texturesByType: {
+		"*-empty": {
+			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+			"berries": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}*" }
+		},
+		"*-flowering": {
+			"berries": { base: "wildcraft:block/plant/berrybush/small/flower/{type}*", alternates: [{base: "wildcraft:block/plant/berrybush/small/flower/{type}*"}] },
+			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+		},
+		"*-ripe": {
+			"berries": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}*", alternates: [{base: "wildcraft:block/plant/berrybush/small/fruit/{type}*"}] },
+			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+		}
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 0.5,
+	collisionbox: null,
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant",
+	},
+	rainPermeable: false,
+	dropsByType: {
+		"*-ripe": [
+			{ type: "item", code: "wildcraft:fruit-{type}", quantity: { avg: 2.2 }  },
+		]
+	},
+	materialDensity: 400,
+	vertexFlags: {
+		zOffset: 2
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	frostable: true,
+}

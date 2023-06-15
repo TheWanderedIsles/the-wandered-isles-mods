@@ -1,0 +1,45 @@
+[
+	{
+	"code": "glassbatchluminous-smoky",
+	"ingredientPattern": "MI,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:powdered-ore-coal", "quantity": 2 },
+		"I": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatchluminous-plain-*-normal", "quantity": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "white", "yellow" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 4,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-smoky-{color}-normal", "quantity": 4 }
+	},
+
+	{
+	"code": "glassbatchluminous-smoky",
+	"ingredientPattern": "MI,BB",
+	"ingredients": {
+		"M": { "type": "item", "code": "em:crushed-ore-coal", "quantity": 1 },
+		"I": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 2 },
+		"B": { "type": "item", "code": "bricklayers:glassbatchluminous-plain-*-normal", "quantity": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "green", "orange", "pink", "red", "violet", "white", "yellow" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 4,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-smoky-{color}-normal", "quantity": 4 }
+	},
+
+	{
+	"code": "glassbatchluminous-smoky-rhodochrosite",
+	"ingredientPattern": "RR,BB",
+	"ingredients": {
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 },
+		"R": { "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 },
+		"B": { "type": "item", "code": "bricklayers:glassbatchluminous-smoky-pink-normal", "quantity": 1 }
+	},
+	"width": 2,
+	"height": 2,
+	"recipeGroup": 5,
+	"output": { "type": "item", "code": "bricklayers:glassbatchluminous-smoky-violet-normal", "quantity": 4 }
+	}
+]

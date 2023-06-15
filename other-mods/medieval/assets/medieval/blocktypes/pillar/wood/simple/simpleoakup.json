@@ -1,0 +1,42 @@
+{
+	code: "simpleoakup",
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "block/pillar/wood/simple/simpleoakup" },
+	creativeinventory: { "general": ["*"], "construction": ["*"], "medieval": ["*"] },
+
+
+
+	textures: {
+		"north": { base: "block/wood/sincortezalog/debarked/pillar/simple/oakup" },
+		"east": { base: "block/wood/sincortezalog/debarked/pillar/simple/oakup" },
+		"south": { base: "block/wood/sincortezalog/debarked/pillar/simple/oakup" },
+		"west": { base: "block/wood/sincortezalog/debarked/pillar/simple/oakup" },
+		"up": { base: "block/wood/sincortezalog/debarked/oak" },
+		"down": { base: "block/wood/sincortezalog/debarked/oak" },
+		"inside-north": { base: "block/wood/sincortezalog/debarked/pillar/simple/oakup" },
+		"inside-east": { base: "block/wood/sincortezalog/debarked/pillar/simple/oakup" },
+		"inside-south": { base: "block/wood/sincortezalog/debarked/pillar/simple/oakup" },
+		"inside-west": { base: "block/wood/sincortezalog/debarked/pillar/simple/oakup" },
+		"inside-up": { base: "block/wood/sincortezalog/debarked/oak" },
+		"inside-down": { base: "block/wood/sincortezalog/debarked/oak" }
+
+	},
+	replaceable: 90,
+	fertility: 0,
+	resistance: 2,
+	blockmaterial: "Wood",
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

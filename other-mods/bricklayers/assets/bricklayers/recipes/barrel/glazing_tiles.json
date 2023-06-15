@@ -1,0 +1,12 @@
+[
+	{
+	"code": "glazedtiles",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 2, "consumeLitres": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "green", "greenblue", "lapislazuli", "malachite", "orange", "purple", "red", "redbrown", "yellow", "white" ] },
+		{ "type": "block", "code": "bricklayers:claytile-normal-*-down", "quantity": 1, "name": "clay", "allowedVariants": [ "white" ] }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazedrawtile-wet-clear-dull-{color}", "stackSize": 1 }
+	}
+]
