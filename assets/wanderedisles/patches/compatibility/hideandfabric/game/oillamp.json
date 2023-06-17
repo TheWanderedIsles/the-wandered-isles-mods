@@ -1,0 +1,33 @@
+[
+  {
+    "op": "replace",
+    "path": "/height",
+    "value": 3,
+    "file": "game:recipes/grid/oillamp.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "T,F,B",
+    "file": "game:recipes/grid/oillamp.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/T",
+    "value": {
+      "type": "Item",
+      "code": "hideandfabric:fibers-*"
+    },
+    "file": "game:recipes/grid/oillamp.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 1,
+    "file": "game:recipes/grid/oillamp.json",
+    "side": "Server"
+  }
+]
