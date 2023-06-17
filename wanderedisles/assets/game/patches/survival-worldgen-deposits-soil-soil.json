@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/radius/var",
+    "value": 12,
+    "file": "game:worldgen/deposits/soil/soil.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/thickness/var",
+    "value": 1,
+    "file": "game:worldgen/deposits/soil/soil.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/climate/maxY",
+    "value": 0.53,
+    "file": "game:worldgen/deposits/soil/soil.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/triesPerChunk",
+    "value": 0.0025,
+    "file": "game:worldgen/deposits/soil/soil.json"
+  }
+]

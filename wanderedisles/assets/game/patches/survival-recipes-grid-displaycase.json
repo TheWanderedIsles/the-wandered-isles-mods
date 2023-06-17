@@ -1,0 +1,41 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "GH,PH",
+    "file": "game:recipes/grid/displaycase.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/H",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:hinge-*"
+    },
+    "file": "game:recipes/grid/displaycase.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/G/code",
+    "value": "game:glass-plain",
+    "file": "game:recipes/grid/displaycase.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/P/code",
+    "value": "game:plank-*",
+    "file": "game:recipes/grid/displaycase.json"
+  },
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "game:displaycase-generic",
+    "file": "game:recipes/grid/displaycase.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 2,
+    "file": "game:recipes/grid/displaycase.json"
+  }
+]

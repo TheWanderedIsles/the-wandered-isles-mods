@@ -1,0 +1,42 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "RWW,WNW,RWW",
+    "file": "game:recipes/grid/chest.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:hinge-*",
+      "quantity": 1
+    },
+    "file": "game:recipes/grid/chest.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N/quantity",
+    "value": 8,
+    "file": "game:recipes/grid/chest.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/N/code",
+    "value": "hammersringingfall:nail-*",
+    "file": "game:recipes/grid/chest.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/N/type",
+    "value": "Item",
+    "file": "game:recipes/grid/chest.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/W/quantity",
+    "value": 3,
+    "file": "game:recipes/grid/chest.json"
+  }
+]
