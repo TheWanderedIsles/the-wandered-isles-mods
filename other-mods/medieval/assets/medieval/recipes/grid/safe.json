@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "PPH,PPI,PPY",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+	  "Y": {type: "item", code: "hammersringingfall:hinge-*", quantity:3 },
+      "P": { "type": "item", "code": "game:metalplate-iron", "quantity": 1 },
+      "I": { "type": "item", "code": "game:ingot-meteoriciron", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "safe-east", "attributes": { "type": "safe" }, "quantity": 1 }
+  }
+]

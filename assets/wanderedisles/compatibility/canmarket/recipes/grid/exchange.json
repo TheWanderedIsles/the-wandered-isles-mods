@@ -1,0 +1,135 @@
+[
+    {
+        "ingredientPattern": "C",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:gear-rusty",
+                "quantity": 1
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper"
+        }
+    },
+    {
+        "ingredientPattern": "C__,___,___",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "canmarket:cangearpayment-copper",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "Item",
+            "code": "game:gear-rusty"
+        }
+    },
+    {
+        "ingredientPattern": "_C_,___,___",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "canmarket:cangearpayment-copper",
+                "quantity": 10
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_C_,___,___",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "canmarket:cangearpayment-silver",
+                "quantity": 10
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-gold",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_C_,___,___",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "canmarket:cangearpayment-gold",
+                "quantity": 10
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-platinum",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "___,_C_,___",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "canmarket:cangearpayment-platinum",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-gold",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "___,_C_,___",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "canmarket:cangearpayment-gold"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "___,_C_,___",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "canmarket:cangearpayment-silver",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 10
+        }
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "ingredientPattern": "GRG,PTP,RGR",
+    "ingredients": {
+        "T": {
+            "type": "block",
+            "code": "game:storagevessel-burned"
+        },
+        "G": {
+            "type": "item",
+            "code": "medieval:colorpowder-gray",
+            "quantity": 2
+        },
+        "P": {
+            "type": "item",
+            "code": "medieval:colorpowder-pink",
+            "quantity": 2
+        },
+        "R": {
+            "type": "item",
+            "code": "medieval:colorpowder-red",
+            "quantity": 2
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "block",
+        "code": "game:storagevessel-volcanic"
+    }
+}

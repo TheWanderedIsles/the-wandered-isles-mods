@@ -1,0 +1,47 @@
+[
+    {
+        "op": "replace",
+        "path": "/7/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/trader.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "townexp"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/8/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/trader.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "townexp"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/9/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/trader.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "townexp"
+            }
+        ],
+        "side": "Server"
+    }
+]

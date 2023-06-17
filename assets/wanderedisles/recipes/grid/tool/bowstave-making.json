@@ -1,0 +1,86 @@
+[
+    {
+        "ingredientPattern": "S_,LC,LC",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "L": {
+                "type": "block",
+                "code": "game:log-placed-*-ud",
+                "name": "wood",
+                "allowedVariants": [
+                    "oak",
+                    "maple",
+                    "walnut"
+                ]
+            },
+            "C": {
+                "type": "Item",
+                "code": "game:beeswax",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bowstave-long-raw",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "S_,LC,LC",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "L": {
+                "type": "item",
+                "code": "game:bamboostakes"
+            },
+            "C": {
+                "type": "Item",
+                "code": "game:beeswax",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bowstave-recurve-raw",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "SBC",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bowstave-long-raw"
+            },
+            "C": {
+                "type": "Item",
+                "code": "game:resin",
+                "quantity": 2
+            }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bowstave-recurve-raw",
+            "quantity": 1
+        }
+    }
+]

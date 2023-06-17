@@ -1,0 +1,13 @@
+[
+    {
+		ingredientPattern: "LC,SS,SS",
+		ingredients: {
+			"S": { type: "item", code: "game:stone-chalk", quantity: 2 },
+			"L": { type: "block", code: "medieval:locustsack", quantity: 1 },
+			"C": { type: "item", code: "medieval:colorpowder-*", name: "color", allowedVariants: [ "red", "orange", "yellow", "green", "blue" ], quantity: 16 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "medieval:plasterglow-{color}", quantity: 8 }
+	}
+]

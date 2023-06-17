@@ -1,0 +1,32 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/exchange.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "medieval"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/exchange.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "medieval"
+            }
+        ],
+        "side": "Server"
+    }
+]

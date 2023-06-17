@@ -1,0 +1,72 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "TB,SR",
+    "file": "game:recipes/grid/tool/knife.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/B",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:metalband-*"
+    },
+    "file": "game:recipes/grid/tool/knife.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/R",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:rivet-*",
+      "quantity": 2
+    },
+    "file": "game:recipes/grid/tool/knife.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/S/code",
+    "value": "hammersringingfall:toolhaft-short-finished",
+    "file": "game:recipes/grid/tool/knife.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/T/allowedVariants",
+    "value": [
+      "copper",
+      "tinbronze",
+      "bismuthbronze",
+      "blackbronze",
+      "silver",
+      "gold",
+      "iron",
+      "meteoriciron",
+      "steel"
+    ],
+    "file": "game:recipes/grid/tool/knife.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/T/name",
+    "value": "metal",
+    "file": "game:recipes/grid/tool/knife.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/output/quantity",
+    "file": "game:recipes/grid/tool/knife.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/output/code",
+    "value": "knife-generic-{metal}",
+    "file": "game:recipes/grid/tool/knife.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": 2,
+    "file": "game:recipes/grid/tool/knife.json"
+  }
+]

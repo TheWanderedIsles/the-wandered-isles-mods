@@ -1,0 +1,108 @@
+[
+    {
+        "ingredientPattern": "WB",
+        "ingredients": {
+            "W": {
+                "type": "block",
+                "code": "game:woodbucket"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bandage-clean",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "attributes": {
+            "liquidContainerProps": {
+                "requiresContent": {
+                    "type": "item",
+                    "code": "game:alcoholportion"
+                },
+                "requiresLitres": 1
+            }
+        },
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:bandage-alcoholed",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "WB",
+        "ingredients": {
+            "W": {
+                "type": "block",
+                "code": "game:bowl-fired"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bandage-clean",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "attributes": {
+            "liquidContainerProps": {
+                "requiresContent": {
+                    "type": "item",
+                    "code": "game:alcoholportion"
+                },
+                "requiresLitres": 1
+            }
+        },
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:bandage-alcoholed",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "K,H",
+        "enabled": true,
+        "shapeless": true,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            },
+            "H": {
+                "type": "block",
+                "code": "game:linen-*",
+                "quantity": 5
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:bandage-clean",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "X,X",
+        "enabled": true,
+        "shapeless": false,
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 10
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "recipeGroup": 2,
+        "output": {
+            "type": "item",
+            "code": "game:bandage-clean",
+            "quantity": 5
+        }
+    }
+]

@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "WFB",
+	"ingredients": {
+                "B": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-*-white", "name": "color" },
+                "F": { "type": "item", "code": "game:fat", "quantity": 2 },
+				"W": { "type": "item", "code": "game:flaxfibers" }
+        },
+        "width": 1,
+        "height": 3,
+	"shapeless": true,
+        "output": { "type": "block", "code": "bricklayers:porcelainoillamp-{color}-white-up"  }
+	}
+]

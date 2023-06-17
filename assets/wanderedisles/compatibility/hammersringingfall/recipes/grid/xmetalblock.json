@@ -1,0 +1,43 @@
+[
+    {
+        "ingredientPattern": "TS_,GGG,GGG",
+        "ingredients": {
+            "G": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "name": "metal",
+                "allowedVariants": [
+                    "bismuth",
+                    "brass",
+                    "chromium",
+                    "meteoriciron",
+                    "molybdochalkos",
+                    "platinum",
+                    "nickel",
+                    "stainlesssteel",
+                    "tin",
+                    "titanium",
+                    "uranium",
+                    "zinc"
+                ]
+            },
+            "S": {
+                "type": "Item",
+                "code": "hammersringingfall:rivet-copper",
+                "quantity": 12
+            },
+            "T": {
+                "type": "Item",
+                "code": "game:hammer-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-new-riveted-{metal}",
+            "quantity": 1
+        }
+    }
+]

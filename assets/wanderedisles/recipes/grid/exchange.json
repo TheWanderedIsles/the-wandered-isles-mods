@@ -1,0 +1,36 @@
+[
+    {
+        "enabled": false,
+        "ingredientPattern": "C",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "medieval:coin-gold",
+                "quantity": 10
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-gold"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "C",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "medieval:coin-silver",
+                "quantity": 10
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver"
+        }
+    }
+]

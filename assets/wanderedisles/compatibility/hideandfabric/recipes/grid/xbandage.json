@@ -1,0 +1,43 @@
+[
+    {
+        "ingredientPattern": "K,H",
+        "shapeless": true,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            },
+            "H": {
+                "type": "block",
+                "code": "hideandfabric:fabric-*-normal-down",
+                "quantity": 5
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:bandage-clean",
+            "quantity": 10
+        }
+    },
+    {
+        "ingredientPattern": "X,X",
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "hideandfabric:twine-*",
+                "quantity": 10
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "recipeGroup": 2,
+        "output": {
+            "type": "item",
+            "code": "game:bandage-clean",
+            "quantity": 5
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "ingredientPattern": "HW_,WWN",
+    "ingredients": {
+		"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+		"W": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ],"quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "medieval:railings-{wood}-south", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": { "type": "block", "code": "medieval:railings-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "medieval:railingsl-{material}-south" }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": { "type": "block", "code": "medieval:railingsl-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]}
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "medieval:railingsr-{material}-south" }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": { "type": "block", "code": "medieval:railingsr-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "medieval:railings-{material}-south" }
+  },
+  {
+    "ingredientPattern": "RR",
+    "ingredients": {
+      "R": { "type": "block", "code": "medieval:railings-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "medieval:railingsd-{material}-south" }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": { "type": "block", "code": "medieval:railingsd-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "medieval:railings-{material}-south", "quantity": 2 }
+  }
+]

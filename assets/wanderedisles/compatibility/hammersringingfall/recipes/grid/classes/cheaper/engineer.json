@@ -1,0 +1,245 @@
+[
+    {
+        "ingredientPattern": "HCX,PRS,AAA",
+        "requiresTrait": "Engineer",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 5
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 8
+            },
+            "X": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 20
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "quantity": 4
+            },
+            "A": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "quantity": 2
+            },
+            "S": {
+                "type": "item",
+                "code": "hammersringingfall:toolhaft-short-finished",
+                "quantity": 8
+            },
+            "R": {
+                "type": "item",
+                "code": "game:resin",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:largegearsection-wood",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "HCX,PAS,RF_",
+        "requiresTrait": "Engineer",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 15
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 8
+            },
+            "X": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 12
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 4
+            },
+            "A": {
+                "type": "block",
+                "code": "game:log-placed-*-ud"
+            },
+            "S": {
+                "type": "item",
+                "code": "hammersringingfall:toolhaft-short-finished",
+                "quantity": 6
+            },
+            "R": {
+                "type": "item",
+                "code": "game:resin",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:fat",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:clutch-north",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "HX_,PCP,RSF",
+        "requiresTrait": "Engineer",
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 10
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 10
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 10
+            },
+            "S": {
+                "type": "block",
+                "code": "game:log-placed-*-ud",
+                "name": "wood"
+            },
+            "R": {
+                "type": "item",
+                "code": "game:resin"
+            },
+            "P": {
+                "type": "item",
+                "code": "hammersringingfall:toolhaft-short-finished",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:fat"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:angledgears-s",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "BPB,PSP,BRB",
+        "requiresTrait": "Engineer",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 50
+            },
+            "P": {
+                "type": "item",
+                "code": "plank-*",
+                "quantity": 12
+            },
+            "B": {
+                "type": "item",
+                "code": "hammersringingfall:metalband-*",
+                "quantity": 2
+            },
+            "R": {
+                "type": "block",
+                "code": "rock-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "granite",
+                    "basalt",
+                    "peridotite"
+                ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "pulverizerframe-north",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "HPR,CA_",
+        "requiresTrait": "Engineer",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 5
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "allowedVariants": [
+                    "tinbronze",
+                    "bismuthbronze",
+                    "iron",
+                    "meteoriciron",
+                    "steel"
+                ],
+                "quantity": 1
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 10
+            },
+            "R": {
+                "type": "item",
+                "code": "hammersringingfall:rivet-*",
+                "quantity": 2
+            },
+            "A": {
+                "type": "block",
+                "code": "game:woodenaxle-ud"
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "pulverizertoggle-oak",
+            "quantity": 1
+        }
+    }
+]

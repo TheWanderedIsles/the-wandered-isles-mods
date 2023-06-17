@@ -1,0 +1,297 @@
+{
+        "ingredientPattern": "_H_,THT",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", quantity:2 },
+            "T": { "type": "item", "code": "hideandfabric:twine-*", "allowedVariants": [ "cotton", "wool", "jute" ] }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "wolf hide helmet",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-headbasic-wolfhide" }
+    },
+    {
+        "ingredientPattern": "_H_,THT",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", quantity:2 },
+            "T": { "type": "item", "code": "game:flaxtwine" }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "wolf hide helmet",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-headbasic-wolfhide" }
+    },
+    {
+      "ingredientPattern": "THT",
+      "ingredients": {
+          "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", quantity:2 },
+          "T": { "type": "item", "code": "hideandfabric:twine-*", "allowedVariants": [ "cotton", "wool", "jute" ] }
+        },
+      "width": 3,
+      "height": 1,
+      "name": "bear hide helmet",
+      "output": { "type": "item", "code": "hideandfabric:hidearmor-headbasic-bearhide" }
+    },
+    {
+        "ingredientPattern": "THT",
+        "ingredients": {
+          "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", quantity:2 },
+          "T": { "type": "item", "code": "game:flaxtwine" }
+        },
+        "width": 3,
+        "height": 1,
+        "name": "bear hide helmet",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-headbasic-bearhide" }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "BHB,THT",
+        "ingredients": {
+            "B": { "type": "item", "code": "game:bone" },
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", quantity:2 },
+            "T": { "type": "item", "code": "hideandfabric:twine-*", "allowedVariants": [ "cotton", "wool", "jute" ] }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "wolf hide helmet",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-head-wolfhide" }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "BHB,THT",
+        "ingredients": {
+            "B": { "type": "item", "code": "game:bone" },
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", quantity:2 },
+            "T": { "type": "item", "code": "game:flaxtwine" }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "wolf hide helmet",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-head-wolfhide" }
+    },
+    {
+      "enabled": false,
+      "ingredientPattern": "B_B,THT",
+      "ingredients": {
+          "B": { "type": "item", "code": "game:bone" },
+          "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", quantity:2 },
+          "T": { "type": "item", "code": "hideandfabric:twine-*", "allowedVariants": [ "cotton", "wool", "jute" ] }
+        },
+      "width": 3,
+      "height": 2,
+      "name": "bear hide helmet",
+      "output": { "type": "item", "code": "hideandfabric:hidearmor-head-bearhide" }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "B_B,THT",
+        "ingredients": {
+          "B": { "type": "item", "code": "game:bone" },
+          "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", quantity:2 },
+          "T": { "type": "item", "code": "game:flaxtwine" }
+          },
+        "width": 3,
+        "height": 2,
+        "name": "bear hide helmet",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-head-bearhide" }
+    },
+
+
+    {
+        "ingredientPattern": "TPT,THT,SHS",
+        "ingredients": {
+          "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 4 },
+		      "S": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 2 },
+          "P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": [ "small", "medium"], "quantity": 4 },
+          "T": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 4, "allowedVariants": [ "cotton", "wool", "jute" ] }
+          },
+        "width": 3,
+        "height": 3,
+        "name": "wolf hide body armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-body-wolfhide" }
+      },
+      {
+          "ingredientPattern": "TPT,THT,SHS",
+          "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 4 },
+			      "S": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 2 },
+            "P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 2},
+            "T": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 4, "allowedVariants": [ "cotton", "wool", "jute" ] }
+          },
+          "width": 3,
+          "height": 3,
+          "name": "wolf hide body armor",
+          "output": { "type": "item", "code": "hideandfabric:hidearmor-body-wolfhide" }
+      },
+      {
+         "ingredientPattern": "TPT,THT,SHS",
+         "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 4 },
+		        "S": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 2 },
+            "P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": [ "small", "medium"], "quantity": 4 },
+            "T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 }
+          },
+          "width": 3,
+          "height": 3,
+          "name": "wolf hide body armor",
+          "output": { "type": "item", "code": "hideandfabric:hidearmor-body-wolfhide" }
+      },
+      {
+          "ingredientPattern": "TPT,THT,SHS",
+          "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 4 },
+		        "S": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 2 },
+            "P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 2 },
+            "T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 }
+          },
+          "width": 3,
+          "height": 3,
+          "name": "wolf hide body armor",
+          "output": { "type": "item", "code": "hideandfabric:hidearmor-body-wolfhide" }
+    },
+
+    {
+      "ingredientPattern": "TPT,THT,_H_",
+      "ingredients": {
+          "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "quantity": 2 },
+          "P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": [ "small", "medium"], "quantity": 4 },
+          "T": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 4, "allowedVariants": [ "cotton", "wool", "jute" ] }
+        },
+      "width": 3,
+      "height": 3,
+      "name": "bear hide body armor",
+      "output": { "type": "item", "code": "hideandfabric:hidearmor-body-bearhide" }
+    },
+    {
+        "ingredientPattern": "TPT,THT,_H_",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "quantity": 2 },
+            "P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 2},
+            "T": { "type": "item", "code": "hideandfabric:twine-*", "quantity": 4, "allowedVariants": [ "cotton", "wool", "jute" ] }
+          },
+        "width": 3,
+        "height": 3,
+        "name": "bear hide body armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-body-bearhide" }
+    },
+    {
+        "ingredientPattern": "TPT,THT,_H_",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "quantity": 2 },
+            "P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": [ "small", "medium"], "quantity": 4 },
+            "T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 }
+          },
+        "width": 3,
+        "height": 3,
+        "name": "bear hide body armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-body-bearhide" }
+    },
+    {
+        "ingredientPattern": "TPT,THT,_H_",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "quantity": 2 },
+            "P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 2 },
+            "T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 }
+          },
+        "width": 3,
+        "height": 3,
+        "name": "bear hide body armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-body-bearhide" }
+    },
+
+    {
+        "ingredientPattern": "THT,TPT",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "quantity": 2 },
+            "P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": [ "small", "medium"], "quantity": 4 },
+            "T": { "type": "item", "code": "hideandfabric:twine-*", "allowedVariants": [ "cotton", "wool", "jute" ] , "quantity": 4 }
+          },
+        "width": 3,
+        "height": 2,
+        "name": "bear hide leg armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-legs-bearhide" }
+    },
+    {
+        "ingredientPattern": "THT,TPT",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "quantity": 2 },
+            "P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 2 },
+            "T": { "type": "item", "code": "hideandfabric:twine-*", "allowedVariants": [ "cotton", "wool", "jute" ] , "quantity": 4 }
+          },
+        "width": 3,
+        "height": 2,
+        "name": "bear hide leg armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-legs-bearhide" }
+    },
+    {
+        "ingredientPattern": "THT,TPT",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "quantity": 4 },
+            "P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": [ "small", "medium"], "quantity": 4 },
+            "T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 }
+          },
+        "width": 3,
+        "height": 2,
+        "name": "bear hide leg armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-legs-bearhide" }
+      },
+    {
+      "ingredientPattern": "THT,TPT",
+      "ingredients": {
+          "H": { "type": "item", "code": "hideandfabric:hide-huge-bear-*", "quantity": 2},
+          "P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 2 },
+          "T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 }
+        },
+      "width": 3,
+      "height": 2,
+      "name": "bear hide leg armor",
+      "output": { "type": "item", "code": "hideandfabric:hidearmor-legs-bearhide" }
+    },
+
+    {
+        "ingredientPattern": "THT,TPT",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 6 },
+            "P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": [ "small", "medium"], "quantity": 4 },
+            "T": { "type": "item", "code": "hideandfabric:twine-*", "allowedVariants": [ "cotton", "wool", "jute" ] , "quantity": 4 }
+          },
+        "width": 3,
+        "height": 2,
+        "name": "wolf hide leg armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-legs-wolfhide" }
+    },
+    {
+        "ingredientPattern": "THT,TPT",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 6 },
+            "P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 2 },
+            "T": { "type": "item", "code": "hideandfabric:twine-*", "allowedVariants": [ "cotton", "wool", "jute" ] , "quantity": 4 }
+          },
+        "width": 3,
+        "height": 2,
+        "name": "wolf hide leg armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-legs-wolfhide" }
+    },
+    {
+        "ingredientPattern": "THT,TPT",
+        "ingredients": {
+            "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 6 },
+            "P": { "type": "item", "code": "game:hide-pelt-*", "allowedVariants": [ "small", "medium"], "quantity": 4 },
+            "T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 }
+          },
+        "width": 3,
+        "height": 2,
+        "name": "wolf hide leg armor",
+        "output": { "type": "item", "code": "hideandfabric:hidearmor-legs-wolfhide" }
+      },
+    {
+      "ingredientPattern": "THT,TPT",
+      "ingredients": {
+          "H": { "type": "item", "code": "hideandfabric:hide-medium-wolf-normal", "quantity": 6 },
+          "P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 2 },
+          "T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 }
+        },
+      "width": 3,
+      "height": 2,
+      "name": "wolf hide leg armor",
+      "output": { "type": "item", "code": "hideandfabric:hidearmor-legs-wolfhide" }
+    },

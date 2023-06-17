@@ -1,0 +1,50 @@
+[
+  {
+    "ingredientPattern": "M,F,T",
+    "ingredients": {
+      "M": { "type": "item", "code": "wildcraft:herbs-saffron","quantity": 16 },
+      "F": { "type": "block", "code": "game:flower-horsetail-free","quantity": 16 },
+      "T": { "type": "item", "code": "alchemy:mortarpestle-*", "isTool": true }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "alchemy:potionbase-scentmask-weak","quantity": 8 }
+  },
+  {
+    "ingredientPattern": "M,F,T",
+    "ingredients": {
+      "M": { "type": "block", "code": "game:flower-forgetmenot-*","quantity": 16 },
+      "F": { "type": "item", "code": "wildcraft:herbs-saffron","quantity": 16 },
+      "T": { "type": "item", "code": "alchemy:mortarpestle-*", "isTool": true }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "alchemy:potionbase-scentmask-weak","quantity": 8 }
+  },
+  {
+    "ingredientPattern": "M,F,T",
+    "ingredients": {
+      "M": { "type": "item", "code": "alchemy:cuttings-saffron-cooked","quantity": 16 },
+      "F": { "type": "item", "code": "alchemy:cuttings-horsetail-cooked","quantity": 16 },
+      "T": { "type": "item", "code": "alchemy:mortarpestle-*", "isTool": true }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "alchemy:potionbase-scentmask-strong","quantity": 8 }
+  },
+  {
+    "ingredientPattern": "M,F,T",
+    "ingredients": {
+      "M": { "type": "item", "code": "alchemy:cuttings-forgetmenot-cooked","quantity": 16 },
+      "F": { "type": "item", "code": "alchemy:cuttings-saffron-cooked","quantity": 16 },
+      "T": { "type": "item", "code": "alchemy:mortarpestle-*", "isTool": true }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "alchemy:potionbase-scentmask-strong","quantity": 8 }
+  }
+]

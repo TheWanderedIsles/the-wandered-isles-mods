@@ -1,0 +1,48 @@
+[
+  {
+    "op": "replace",
+    "path": "/",
+    "value": [
+      {
+        "ingredientPattern": "TB,SR",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "game:shovelhead-*",
+            "name": "material",
+            "allowedVariants": [
+              "copper",
+              "tinbronze",
+              "bismuthbronze",
+              "blackbronze",
+              "iron",
+              "steel",
+              "meteoriciron"
+            ]
+          },
+          "S": {
+            "type": "Item",
+            "code": "hammersringingfall:toolhaft-long-finished"
+          },
+          "B": {
+            "type": "item",
+            "code": "hammersringingfall:metalband-*"
+          },
+          "R": {
+            "type": "item",
+            "code": "hammersringingfall:rivet-*",
+            "quantity": 2
+          }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "game:shovel-{material}",
+          "quantity": 1
+        }
+      }
+    ],
+    "file": "game:recipes/grid/tool/shovel.json"
+  }
+]

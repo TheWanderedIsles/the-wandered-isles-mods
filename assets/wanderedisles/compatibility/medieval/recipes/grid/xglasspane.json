@@ -1,0 +1,77 @@
+[
+    {
+        "ingredientPattern": "WWW,WGW,WLW",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glass-plain",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:ingot-lead",
+                "quantity": 4
+            },
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 8
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:glasspanesimple-ew",
+            "quantity": 16
+        }
+    },
+    {
+        "ingredientPattern": "G",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "medieval:glasspanesimple-ew"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "medieval:glasspanenormal-ew",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "G",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "medieval:glasspanenormal-ew"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "medieval:glasspanefancy-ew",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "G",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "medieval:glasspanefancy-ew"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "medieval:glasspanesimple-ew",
+            "quantity": 1
+        }
+    }
+]

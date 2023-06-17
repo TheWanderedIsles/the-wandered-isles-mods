@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/trader.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "alchemy"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ],
+        "side": "Server"
+    }
+]

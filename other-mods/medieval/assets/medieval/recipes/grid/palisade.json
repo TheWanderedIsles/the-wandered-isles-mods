@@ -1,0 +1,74 @@
+[
+	{
+		ingredientPattern: "_RH,FFF,FFF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+			"R": {type: "Item", code: "game:rope", quantity:2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-four-lower-west", quantity: 3 }
+	},
+	{
+		ingredientPattern: "RFH,FFF,FFF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+			"R": {type: "Item", code: "game:rope", quantity:2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-four-top-west", quantity: 4 }
+	},
+	{
+		ingredientPattern: "__H,_RF,FFF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "block", code: "game:palisadewall-four-top-west", quantity: 1 },
+			"R": {type: "Item", code: "game:rope", quantity:2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-four-halftop-west", quantity: 2 }
+	},
+	
+
+
+
+
+	{
+		ingredientPattern: "__H,FRF,FFF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+			"R": {type: "Item", code: "game:rope", quantity:2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-three-lower-west", quantity: 2 }
+	},
+	{
+		ingredientPattern: "__H,_FR,FFF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "item", code: "game:firewood", quantity: 1 },
+			"R": {type: "Item", code: "game:rope", quantity:2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-three-top-west", quantity: 3 }
+	},
+	{
+		ingredientPattern: "__H,__F,FRF",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"F": { type: "block", code: "game:palisadewall-three-top-west", quantity: 1 },
+			"R": {type: "Item", code: "game:rope", quantity:2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:palisadewall-three-halftop-west", quantity: 2 }
+	},
+	
+]

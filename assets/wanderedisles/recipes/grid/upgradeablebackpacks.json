@@ -1,0 +1,199 @@
+[
+    {
+        "enabled": false,
+        "ingredientPattern": "LLL,TMT,LLL",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain",
+                "quantity": 4
+            },
+            "T": {
+                "type": "item",
+                "code": "game:sewingkit",
+                "quantity": 2
+            },
+            "M": {
+                "type": "Item",
+                "code": "game:metalbit-copper",
+                "quantity": 10
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "backpack",
+        "output": {
+            "type": "item",
+            "code": "medieval:medieval-belt-bag"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "TST,LLL",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 2
+            },
+            "L": {
+                "type": "block",
+                "code": "game:linen-*",
+                "quantity": 2
+            },
+            "S": {
+                "type": "item",
+                "code": "game:linensack"
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "medieval:big-sack"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "TST,LLL,_G_",
+        "ingredients": {
+            "G": {
+                "type": "Item",
+                "code": "game:metalplate-gold"
+            },
+            "T": {
+                "type": "Item",
+                "code": "game:sewingkit",
+                "quantity": 3
+            },
+            "L": {
+                "type": "block",
+                "code": "game:linen-*",
+                "quantity": 3
+            },
+            "S": {
+                "type": "item",
+                "code": "medieval:big-sack"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "medieval:huge-sack"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LLL,TST,CFC",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:linen-*",
+                "quantity": 4
+            },
+            "L": {
+                "type": "item",
+                "code": "game:cloth-brown",
+                "quantity": 2
+            },
+            "T": {
+                "type": "Item",
+                "code": "game:sewingkit",
+                "quantity": 4
+            },
+            "S": {
+                "type": "item",
+                "code": "medieval:huge-sack"
+            },
+            "F": {
+                "type": "item",
+                "code": "morebags:packframe",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "morebags:framepack"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LBL,TPT,LML",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain",
+                "quantity": 12
+            },
+            "T": {
+                "type": "Item",
+                "code": "game:sewingkit",
+                "quantity": 2
+            },
+            "M": {
+                "type": "item",
+                "code": "morebags:packframe",
+                "quantity": 1
+            },
+            "B": {
+                "type": "item",
+                "code": "game:backpack"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "quantity": 1,
+                "allowedVariants": [
+                    "meteoriciron",
+                    "iron"
+                ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "backpack",
+        "output": {
+            "type": "item",
+            "code": "medieval:medievalbackpack"
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "LBL,TPT,LML",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain",
+                "quantity": 16
+            },
+            "T": {
+                "type": "Item",
+                "code": "game:sewingkit",
+                "quantity": 2
+            },
+            "M": {
+                "type": "item",
+                "code": "morebags:packframe",
+                "quantity": 1
+            },
+            "B": {
+                "type": "item",
+                "code": "medieval:medievalbackpack"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-steel"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "backpack",
+        "output": {
+            "type": "item",
+            "code": "medieval:big-backpack"
+        }
+    }
+]

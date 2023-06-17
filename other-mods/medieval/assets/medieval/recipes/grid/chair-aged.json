@@ -1,0 +1,13 @@
+[
+    {
+		ingredientPattern: "WTW,WNW",
+		ingredients: {
+			"W": { type: "item", code: "game:plank-aged" },
+			"T": { type: "block", code: "game:linen-*", quantity: 1 },
+			"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4}
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "chair-normal-aged" }
+	}
+]

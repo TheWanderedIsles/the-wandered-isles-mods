@@ -1,0 +1,20 @@
+[
+    {
+        "ingredientPattern": "FF,F_",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "game:flaxfibers",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:flaxtwine",
+            "quantity": 2
+        }
+    }
+]

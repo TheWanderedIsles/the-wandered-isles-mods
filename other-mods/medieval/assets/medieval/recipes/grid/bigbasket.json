@@ -1,0 +1,13 @@
+
+
+	{
+		ingredientPattern: "LLL,LXL,LLL",
+		ingredients: {
+			"X": { type: "block", code: "game:stationarybasket-east", attributes: { type: "reed" } },
+			"L":{ type: "item", code: "cattailtops", quantity: 5 }
+			
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:bigbasket-east", attributes: { type: "bigbasket" }  }
+	}

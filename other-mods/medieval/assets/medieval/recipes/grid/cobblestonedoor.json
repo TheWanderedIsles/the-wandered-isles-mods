@@ -1,0 +1,14 @@
+[
+	{
+		ingredientPattern: "WWX,DWH,WWX",
+		ingredients: {
+			"H": {type: "Item", code: "game:mortar", quantity:8 },
+			"W": { type: "item", code: "game:stone-granite" },
+			"D": { type: "block", code: "game:door-solid-*"  },
+			"X": {type: "Item", code: "hammersringingfall:hinge-*"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "medieval:cobblestonedoor-granite"  }
+	}
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "TB,SR",
+    "file": "game:recipes/grid/tool/axe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/B",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:metalband-*"
+    },
+    "file": "game:recipes/grid/tool/axe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/R",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:rivet-*",
+      "quantity": 2
+    },
+    "file": "game:recipes/grid/tool/axe.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/S/code",
+    "value": "hammersringingfall:toolhaft-medium-finished",
+    "file": "game:recipes/grid/tool/axe.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/S/type",
+    "value": "Item",
+    "file": "game:recipes/grid/tool/axe.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": 2,
+    "file": "game:recipes/grid/tool/axe.json",
+    "side": "Server"
+  }
+]

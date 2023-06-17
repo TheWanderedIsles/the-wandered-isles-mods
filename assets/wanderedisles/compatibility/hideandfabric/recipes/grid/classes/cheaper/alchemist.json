@@ -1,0 +1,26 @@
+[
+    {
+        "ingredientPattern": "F,B,B",
+        "requiresTrait": "Alchemist",
+        "enabled": false,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:beeswax",
+                "quantity": 4
+            },
+            "F": {
+                "type": "Item",
+                "code": "hideandfabric:fibers-*",
+                "quantity": 6
+            }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:candle",
+            "quantity": 6
+        }
+    }
+]

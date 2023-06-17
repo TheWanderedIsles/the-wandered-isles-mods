@@ -1,0 +1,11 @@
+[
+	{
+	"code": "dilutedcassiterite_powdered",
+	requiresTrait: "Artisan",
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion",  "litres": 50 },
+		{ "type": "item", "code": "em:powdered-ore-cassiterite", "quantity": 20 }
+	],
+	"output": { "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 50 }
+	}
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "ingredientPattern": "HWW,NSS",
+    "ingredients": {
+		"N": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 8},
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+      "W": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ],"quantity": 4 },
+      "S": { "type": "item", "code": "game:stick","quantity": 4 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "medieval:sup-{wood}-south", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": { "type": "block", "code": "medieval:sup-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "medieval:supc-{material}-south" }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": { "type": "block", "code": "medieval:supc-*-south", "name": "material", "allowedVariants": [ "acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ]}
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "medieval:sup-{material}-south" }
+  }
+]

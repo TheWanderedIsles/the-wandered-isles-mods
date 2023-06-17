@@ -1,0 +1,111 @@
+[
+    {
+        "ingredientPattern": "_L_,LSL,_L_",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "quantity": 16
+            },
+            "S": {
+                "type": "block",
+                "code": "game:soil-*",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "medieval:stoneway",
+            "quantity": 16
+        }
+    },
+    {
+        "ingredientPattern": "A,F",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true
+            },
+            "F": {
+                "type": "block",
+                "code": "game:stonebricks-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "basalt",
+                    "bauxite",
+                    "chalk",
+                    "chert",
+                    "claystone",
+                    "conglomerate",
+                    "granite",
+                    "limestone",
+                    "peridotite",
+                    "phyllite",
+                    "sandstone",
+                    "shale",
+                    "slate"
+                ],
+                "quantity": 8
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:cobblestonebricks-{rock}",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "P,L",
+        "requiresTrait": "Stoneworker",
+        "ingredients": {
+            "L": {
+                "type": "block",
+                "code": "game:cobblestone-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "chert",
+                    "conglomerate",
+                    "limestone",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt",
+                    "peridotite",
+                    "phyllite",
+                    "slate",
+                    "bauxite",
+                    "kimberlite",
+                    "suevite",
+                    "whitemarble",
+                    "redmarble",
+                    "greenmarble"
+                ],
+                "quantity": 16
+            },
+            "P": {
+                "type": "Block",
+                "code": "game:wildvine-section-north",
+                "quantity": 8
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "medieval:mossycobblestone-{rock}",
+            "quantity": 16
+        }
+    }
+]

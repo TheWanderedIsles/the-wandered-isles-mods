@@ -1,0 +1,13 @@
+[
+    {
+		ingredientPattern: "C,I",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true  },
+			"I": { type: "item", code: "game:drygrass", name: "tallgrass", allowedVariants: [ "eaten", "veryshort", "short", "mediumshort", "medium", "tall", "verytall"], quantity:4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "medieval:mossy-green", quantity: 1 }
+	},
+    
+]
