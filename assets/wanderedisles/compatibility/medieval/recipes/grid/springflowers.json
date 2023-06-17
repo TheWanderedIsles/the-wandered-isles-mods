@@ -1,0 +1,25 @@
+{
+    "ingredientPattern": "GPG,PTP,GGG",
+    "ingredients": {
+        "T": {
+            "type": "block",
+            "code": "game:storagevessel-burned"
+        },
+        "G": {
+            "type": "item",
+            "code": "medieval:colorpowder-green",
+            "quantity": 2
+        },
+        "P": {
+            "type": "item",
+            "code": "medieval:colorpowder-pink",
+            "quantity": 2
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "block",
+        "code": "game:storagevessel-springflowers"
+    }
+}

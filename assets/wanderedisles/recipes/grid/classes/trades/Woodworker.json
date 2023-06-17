@@ -1,0 +1,151 @@
+[
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "medieval:smallplanksroofingblock-*",
+                "quantity": 32
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 64
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "medieval:plankscolor-*",
+                "quantity": 16
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "medieval:largebench-*"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 24
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "medieval:chairw-*"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 16
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "medieval:tablew-*"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 20
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "hammersringingfall:toolhaft-short-finished",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 8
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "hammersringingfall:toolhaft-medium-finished",
+                "quantity": 2
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 8
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "hammersringingfall:toolhaft-long-finished",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 8
+        }
+    }
+]

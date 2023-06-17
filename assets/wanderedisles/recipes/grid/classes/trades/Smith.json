@@ -1,0 +1,183 @@
+[
+    {
+		"enabled": false,
+        "ingredientPattern": "CAB",
+        "requiresTrait": "Smith",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "tonwexp:armor-head-samura-*",
+                "attributes": {
+                    "durability": 300
+                }
+            },
+            "A": {
+                "type": "Item",
+                "code": "tonwexp:armor-body-samura-*",
+                "attributes": {
+                    "durability": 300
+                }
+            },
+            "B": {
+                "type": "Item",
+                "code": "tonwexp:armor-legs-samura-*",
+                "attributes": {
+                    "durability": 300
+                }
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 750
+        }
+    },
+    {
+		"enabled": false,
+        "ingredientPattern": "CAB",
+        "requiresTrait": "Smith",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "tonwexp:armor-head-segment-iron",
+                "attributes": {
+                    "durability": 675
+                }
+            },
+            "A": {
+                "type": "Item",
+                "code": "tonwexp:armor-body-segment-iron",
+                "attributes": {
+                    "durability": 675
+                }
+            },
+            "B": {
+                "type": "Item",
+                "code": "tonwexp:armor-legs-segment-iron",
+                "attributes": {
+                    "durability": 675
+                }
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 350
+        }
+    },
+    {
+		"enabled": false,
+        "ingredientPattern": "CAB",
+        "requiresTrait": "Smith",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "tonwexp:armor-head-lamelar-iron",
+                "attributes": {
+                    "durability": 825
+                }
+            },
+            "A": {
+                "type": "Item",
+                "code": "tonwexp:armor-body-lamelar-iron",
+                "attributes": {
+                    "durability": 825
+                }
+            },
+            "B": {
+                "type": "Item",
+                "code": "tonwexp:armor-legs-lamelar-iron",
+                "attributes": {
+                    "durability": 825
+                }
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 310
+        }
+    },
+	{
+		"enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Smith",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hammersringingfall:metalband-copper",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 20
+        }
+    },
+    {
+		"enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Smith",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hammersringingfall:nail-copper",
+                "quantity": 18
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 10
+        }
+    },
+    {
+		"enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Smith",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hammersringingfall:rivet-copper",
+                "quantity": 10
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 10
+        }
+    },
+    {
+		"enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Smith",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hammersringingfall:hinge-copper",
+                "quantity": 10
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 70
+        }
+    }
+]

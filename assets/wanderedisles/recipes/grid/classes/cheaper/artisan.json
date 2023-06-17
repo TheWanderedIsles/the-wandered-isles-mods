@@ -1,0 +1,148 @@
+[
+
+    {
+        "ingredientPattern": "BBB,BCB,,BBB",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:mortar",
+                "quantity": 4
+            },
+            "B": {
+                "type": "item",
+                "code": "game:burnedbrick-*",
+                "name": "type",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:claybricks-{type}",
+            "quantity": 16
+        }
+    },
+    {
+        "ingredientPattern": "SS,SS",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "name": "type",
+                "code": "game:shingle-burned-*",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:clayshingleblock-{type}",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "FF,QB",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "game:clay-fire",
+                "quantity": 4
+            },
+            "Q": {
+                "type": "item",
+                "code": "game:crushed-quartz",
+                "quantity": 4
+            },
+            "B": {
+                "type": "item",
+                "code": "game:crushed-bauxite",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:refractorybrick-raw-tier1",
+            "quantity": 3
+        }
+    },
+    {
+        "ingredientPattern": "FF,QB,P_",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "game:clay-fire",
+                "quantity": 4
+            },
+            "Q": {
+                "type": "item",
+                "code": "game:crushed-quartz",
+                "quantity": 4
+            },
+            "B": {
+                "type": "item",
+                "code": "game:crushed-bauxite",
+                "quantity": 4
+            },
+            "P": {
+                "type": "item",
+                "code": "game:crushed-olivine",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:refractorybrick-raw-tier2",
+            "quantity": 3
+        }
+    },
+    {
+        "ingredientPattern": "FF,QB,PI",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "game:clay-fire",
+                "quantity": 4
+            },
+            "Q": {
+                "type": "item",
+                "code": "game:crushed-quartz",
+                "quantity": 4
+            },
+            "B": {
+                "type": "item",
+                "code": "game:crushed-bauxite",
+                "quantity": 4
+            },
+            "P": {
+                "type": "item",
+                "code": "game:crushed-olivine",
+                "quantity": 4
+            },
+            "I": {
+                "type": "item",
+                "code": "game:crushed-ilmenite",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:refractorybrick-raw-tier3",
+            "quantity": 3
+        }
+    }
+]

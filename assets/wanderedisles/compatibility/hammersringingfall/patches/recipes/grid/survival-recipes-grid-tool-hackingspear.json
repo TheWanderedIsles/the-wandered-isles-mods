@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "game:spear-generic-*",
+    "file": "game:recipes/grid/tool/hackingspear.json"
+  },
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "game:spear-generic-hacking",
+    "file": "game:recipes/grid/tool/hackingspear.json"
+  }
+]

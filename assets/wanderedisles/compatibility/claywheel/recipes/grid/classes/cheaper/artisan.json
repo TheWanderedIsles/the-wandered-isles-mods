@@ -1,0 +1,58 @@
+[
+    {
+        "ingredientPattern": "CCA,CCB",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "game:clay-blue",
+                "quantity": 16
+            },
+            "A": {
+                "type": "Block",
+                "code": "claywheel:claywheel",
+                "isTool": true
+            },
+            "B": {
+                "type": "Item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "Block",
+            "code": "game:hardenedclay-blue",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CCA,CCB",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "game:clay-fire",
+                "quantity": 16
+            },
+            "A": {
+                "type": "Block",
+                "code": "claywheel:claywheel",
+                "isTool": true
+            },
+            "B": {
+                "type": "Item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "Block",
+            "code": "game:hardenedclay-fire",
+            "quantity": 8
+        }
+    }
+]

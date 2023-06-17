@@ -1,0 +1,69 @@
+[
+  {
+    "op": "replace",
+    "path": "/",
+    "value": [
+      {
+        "ingredientPattern": "TB,SR",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "game:hammerhead-*",
+            "name": "metal",
+            "allowedVariants": [
+              "tinbronze",
+              "bismuthbronze",
+              "blackbronze",
+              "silver",
+              "gold",
+              "iron",
+              "meteoriciron",
+              "steel"
+            ]
+          },
+          "S": {
+            "type": "Item",
+            "code": "hammersringingfall:toolhaft-short-finished"
+          },
+          "B": {
+            "type": "item",
+            "code": "hammersringingfall:metalband-*"
+          },
+          "R": {
+            "type": "item",
+            "code": "hammersringingfall:rivet-*",
+            "quantity": 2
+          }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "game:hammer-{metal}",
+          "quantity": 1
+        }
+      },
+      {
+        "ingredientPattern": "\"T\tS\"",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "hammerhead-copper"
+          },
+          "S": {
+            "type": "Item",
+            "code": "hammersringingfall:toolhaft-short-finished"
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "game:hammer-copper",
+          "quantity": 1
+        }
+      }
+    ],
+    "file": "game:recipes/grid/tool/hammer.json"
+  }
+]

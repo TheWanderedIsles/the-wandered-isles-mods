@@ -1,0 +1,65 @@
+[
+	{
+		"code": "dilutedchromite",
+		"requiresTrait": "Clothier",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion",
+				"litres": 10
+			},
+			{
+				"type": "item",
+				"code": "game:crushed-chromite",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "game:dilutedchromiteportion",
+			"litres": 10
+		}
+	},
+	{
+		"code": "dilutedalum",
+		"requiresTrait": "Clothier",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion",
+				"litres": 10
+			},
+			{
+				"type": "item",
+				"code": "game:crushed-alum",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "game:dilutedalumportion",
+			"litres": 10
+		}
+	},
+	{
+		"code": "dilutedcassiterite",
+		"requiresTrait": "Clothier",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion",
+				"litres": 10
+			},
+			{
+				"type": "item",
+				"code": "game:crushed-cassiterite",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "game:dilutedcassiteriteportion",
+			"litres": 10
+		}
+	}
+]

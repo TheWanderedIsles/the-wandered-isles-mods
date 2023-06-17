@@ -1,0 +1,38 @@
+{
+    "ingredientPattern": "G,N",
+    "ingredients": {
+        "G": {
+            "type": "item",
+            "code": "game:metalplate-*",
+            "name": "metal",
+            "allowedVariants": [
+                "bismuth",
+                "bismuthbronze",
+                "blackbronze",
+                "brass",
+                "copper",
+                "gold",
+                "iron",
+                "meteoriciron",
+                "lead",
+                "molybdochalkos",
+                "silver",
+                "steel",
+                "tinbronze"
+            ]
+        },
+        "N": {
+            "type": "Item",
+            "code": "hammersringingfall:rivet-*",
+            "quantity": 4
+        }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+        "type": "block",
+        "code": "game:plaque-fancy-{metal}-wall-north",
+        "quantity": 1
+    }
+}

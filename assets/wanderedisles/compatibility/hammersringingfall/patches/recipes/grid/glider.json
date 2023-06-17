@@ -1,0 +1,64 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "SDS,CPC,GLG",
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/D",
+    "value": {
+      "type": "Block",
+      "code": "linen-*"
+    },
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/C/code",
+    "value": "sail",
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/C/quantity",
+    "value": 2,
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/C/type",
+    "value": "Item",
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/G/quantity",
+    "value": 6,
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/L/quantity",
+    "value": 4,
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "remove",
+    "path": "/ingredients/S/quantity",
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "hammersringingfall:toolhaft-long-finished",
+    "file": "game:recipes/grid/glider.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/type",
+    "value": "Item",
+    "file": "game:recipes/grid/glider.json"
+  }
+]

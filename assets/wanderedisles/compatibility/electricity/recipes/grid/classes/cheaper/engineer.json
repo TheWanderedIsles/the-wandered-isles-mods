@@ -1,0 +1,224 @@
+[
+    {
+        "ingredientPattern": "OSH,ZP_,IC_",
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 4
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 32
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 8
+            },
+            "I": {
+                "type": "item",
+                "code": "game:metalplate-steel",
+                "quantity": 1
+            },
+            "O": {
+                "type": "item",
+                "code": "game:metalplate-copper",
+                "quantity": 1
+            },
+            "Z": {
+                "type": "item",
+                "code": "game:metalplate-zinc",
+                "quantity": 1
+            },
+            "C": {
+                "type": "block",
+                "code": "electricity:cable-*",
+                "quantity": 8
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "electricity:accumulator",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "PS",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-copper"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 16
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "electricity:cable-dot",
+            "quantity": 16
+        }
+    },
+    {
+        "ingredientPattern": "GS,MC",
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:forge"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 16
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalplate-iron"
+            },
+            "C": {
+                "type": "block",
+                "code": "electricity:cable-*",
+                "quantity": 16
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "electricity:forge",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "M",
+        "width": 1,
+        "height": 1,
+        "ingredients": {
+            "M": {
+                "type": "block",
+                "code": "electricity:motor-stator"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "electricity:generator-stator"
+        }
+    },
+    {
+        "ingredientPattern": "MC",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "M": {
+                "type": "item",
+                "code": "game:metalplate-iron"
+            },
+            "C": {
+                "type": "block",
+                "code": "electricity:cable-*",
+                "quantity": 16
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "electricity:heater-disabled",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "GS,MC",
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glass-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 16
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalplate-iron"
+            },
+            "C": {
+                "type": "block",
+                "code": "electricity:cable-*",
+                "quantity": 16
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "electricity:lamp-disabled",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "MS",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "M": {
+                "type": "block",
+                "code": "electricity:lamp-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 16
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "electricity:lamp_small-disabled",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "GS,MC",
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 16
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalplate-iron"
+            },
+            "C": {
+                "type": "block",
+                "code": "electricity:cable-*",
+                "quantity": 8
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "electricity:switch-enabled",
+            "quantity": 4
+        }
+    }
+]

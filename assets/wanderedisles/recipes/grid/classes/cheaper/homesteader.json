@@ -1,0 +1,519 @@
+[
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:vegetable-carrot",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-carrot",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:vegetable-onion",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-onion",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:vegetable-turnip",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-turnip",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:vegetable-parsnip",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-parsnip",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:vegetable-bellpepper",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-bellpepper",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:vegetable-cabbage",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-cabbage",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:legume-soybean",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-soybean",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:grain-rye",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-rye",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:grain-rice",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-rice",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:grain-spelt",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-spelt",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:grain-flax",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-flax",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:grain-amaranth",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-amaranth",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:grain-sunflower",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-sunflower",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:fruit-pineapple",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-pineapple",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:legume-peanut",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-peanut",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "CK_,___,___",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:rawcassava-raw",
+                "quantity": 16
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:seeds-cassava",
+            "quantity": 32
+        }
+    },
+    {
+        "ingredientPattern": "WF",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "W": {
+                "type": "block",
+                "code": "game:woodbucket"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flour-*",
+                "allowedVariants": [
+                    "flax",
+                    "millet",
+                    "rice",
+                    "rye",
+                    "spelt",
+                    "cassava",
+                    "amaranth",
+                    "sunflower"
+                ],
+                "name": "type",
+                "quantity": 2
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "attributes": {
+            "liquidContainerProps": {
+                "requiresContent": {
+                    "type": "item",
+                    "code": "game:waterportion"
+                },
+                "requiresLitres": 1
+            }
+        },
+        "name": "dough",
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:dough-{type}"
+        }
+    },
+    {
+        "ingredientPattern": "WF",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "W": {
+                "type": "block",
+                "code": "game:bowl-fired"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flour-*",
+                "allowedVariants": [
+                    "flax",
+                    "millet",
+                    "rice",
+                    "rye",
+                    "spelt",
+                    "cassava",
+                    "amaranth",
+                    "sunflower"
+                ],
+                "name": "type",
+                "quantity": 2
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "attributes": {
+            "liquidContainerProps": {
+                "requiresContent": {
+                    "type": "item",
+                    "code": "game:waterportion"
+                },
+                "requiresLitres": 1
+            }
+        },
+        "name": "dough",
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:dough-{type}"
+        },
+        "quantity": 1
+    },
+    {
+        "ingredientPattern": "ABC,AS_,_V_",
+        "requiresTrait": "Homesteader",
+        "ingredients": {
+            "A": {
+                "type": "Item",
+                "code": "game:bonemeal",
+                "quantity": 16
+            },
+            "B": {
+                "type": "Item",
+                "code": "game:saltpeter",
+                "quantity": 16
+            },
+            "C": {
+                "type": "Item",
+                "code": "game:potash",
+                "quantity": 16
+            },
+            "D": {
+                "type": "Item",
+                "code": "game:eggs",
+                "quantity": 16
+            },
+            "V": {
+                "type": "Block",
+                "code": "game:storagevessel-burned",
+                "attributes": {
+                    "type": "normal"
+                }
+            },
+            "S": {
+                "type": "Block",
+                "code": "game:soil-compost-none",
+                "quantity": 32
+            }
+        },
+        "shapeless": true,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "Block",
+            "code": "game:soil-high-none",
+            "quantity": 32
+        }
+    }
+]

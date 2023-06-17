@@ -1,0 +1,153 @@
+[
+    {
+        "ingredientPattern": "LLL,TST,LLL",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "*",
+                "allowedVariants": [
+                    "papyrustops",
+                    "cattailtops"
+                ],
+                "quantity": 8
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 1
+            },
+            "S": {
+                "type": "item",
+                "code": "game:basket"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "morebags:wickerpack"
+        }
+    },
+    {
+        "ingredientPattern": "LML,TST,LLL",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "*",
+                "allowedVariants": [
+                    "papyrustops",
+                    "cattailtops"
+                ],
+                "quantity": 12
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 1
+            },
+            "S": {
+                "type": "item",
+                "code": "morebags:wickerpack"
+            },
+            "M": {
+                "type": "Item",
+                "code": "game:metalbit-copper",
+                "quantity": 10
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "morebags:wickerminingpack"
+        }
+    },
+    {
+        "ingredientPattern": "\"T\tL\"",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:linen-*"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:linensack"
+        }
+    },
+    {
+        "ingredientPattern": "TLT,PBP",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:linen-*"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:linensack"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalbit-*",
+                "allowedVariants": [
+                    "tinbronze",
+                    "bismuthbronze",
+                    "blackbronze"
+                ],
+                "quantity": 10
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "miningbag",
+        "output": {
+            "type": "item",
+            "code": "game:miningbag"
+        }
+    },
+    {
+        "ingredientPattern": "CCC,LPL,TFT",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:cloth-*",
+                "quantity": 3
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-*",
+                "quantity": 4
+            },
+            "P": {
+                "type": "item",
+                "code": "morebags:packframe"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 3
+            },
+            "F": {
+                "type": "item",
+                "code": "game:miningbag",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "morebags:miningpack"
+        }
+    }
+]

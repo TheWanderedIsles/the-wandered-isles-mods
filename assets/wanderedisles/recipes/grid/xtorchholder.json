@@ -1,0 +1,34 @@
+[
+    {
+        "ingredientPattern": "I,I",
+        "ingredients": {
+            "I": {
+                "type": "item",
+                "code": "game:metalplate-brass"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:torchholder-brass-empty-north",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "I,I",
+        "ingredients": {
+            "I": {
+                "type": "Block",
+                "code": "game:metalsheet-molybdochalkos-down"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Block",
+            "code": "game:torchholder-aged-empty-north",
+            "quantity": 2
+        }
+    }
+]

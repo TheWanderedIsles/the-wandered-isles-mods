@@ -1,0 +1,94 @@
+[
+    {
+        "code": "game:leather-plain",
+        "requiresTrait": "Hunter",
+        "sealHours": 108,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:strongtanninportion",
+                "litres": 50,
+                "consumeLitres": 50
+            },
+            {
+                "type": "item",
+                "code": "game:hide-prepared-small",
+                "quantity": 20
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:leather-plain",
+            "stackSize": 25
+        }
+    },
+    {
+        "code": "game:leather-plain",
+        "requiresTrait": "Hunter",
+        "sealHours": 108,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:strongtanninportion",
+                "litres": 50,
+                "consumeLitres": 50
+            },
+            {
+                "type": "item",
+                "code": "game:hide-prepared-medium",
+                "quantity": 10
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:leather-plain",
+            "stackSize": 25
+        }
+    },
+    {
+        "code": "game:leather-plain",
+        "requiresTrait": "Hunter",
+        "sealHours": 108,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:strongtanninportion",
+                "litres": 50,
+                "consumeLitres": 50
+            },
+            {
+                "type": "item",
+                "code": "game:hide-prepared-large",
+                "quantity": 7
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:leather-plain",
+            "stackSize": 26
+        }
+    },
+    {
+        "code": "game:leather-plain",
+        "requiresTrait": "Hunter",
+        "sealHours": 108,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:strongtanninportion",
+                "litres": 50,
+                "consumeLitres": 50
+            },
+            {
+                "type": "item",
+                "code": "game:hide-prepared-huge",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:leather-plain",
+            "stackSize": 25
+        }
+    }
+]

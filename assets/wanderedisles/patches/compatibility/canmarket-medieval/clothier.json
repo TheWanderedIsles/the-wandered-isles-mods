@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/clothier.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "medieval"
+            }
+        ],
+        "side": "Server"
+    }
+]

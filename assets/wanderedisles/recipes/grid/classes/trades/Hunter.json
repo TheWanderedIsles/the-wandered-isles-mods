@@ -1,0 +1,91 @@
+[
+    {
+        "enabled": false,
+		"ingredientPattern": "_C_",
+        "requiresTrait": "Hunter",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "lichen:hidepillow-light"
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 10
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Hunter",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "lichen:hidewall-light-ew-free",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 8
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CAB",
+        "requiresTrait": "Hunter",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:hidearmor-headbasic-wolfhide"
+            },
+            "A": {
+                "type": "Item",
+                "code": "hideandfabric:hidearmor-body-wolfhide"
+            },
+            "B": {
+                "type": "Item",
+                "code": "hideandfabric:hidearmor-legs-wolfhide"
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 80
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CAB",
+        "requiresTrait": "Hunter",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:hidearmor-headbasic-bearhide"
+            },
+            "A": {
+                "type": "Item",
+                "code": "hideandfabric:hidearmor-body-bearhide"
+            },
+            "B": {
+                "type": "Item",
+                "code": "hideandfabric:hidearmor-legs-bearhide"
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 100
+        }
+    }
+]

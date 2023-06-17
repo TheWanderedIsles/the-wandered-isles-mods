@@ -1,0 +1,261 @@
+[
+    {
+        "ingredientPattern": "_ST,S_T,_ST",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-simple",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_SR,S_R,_SR",
+        "requiresTrait": "Hunter",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-crude",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_FT,BLT,_FT",
+        "recipeGroup": 1,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bowstave-long-dry"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:fat"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-long",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_FT,BLT,_FT",
+        "recipeGroup": 1,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bowstave-long-dry"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:resin"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-long",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_FT,BLT,_FT",
+        "recipeGroup": 1,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bowstave-long-dry"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:beeswax"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-long",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_FT,BLT,_FT",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bowstave-long-dry"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:hide-pelt-*",
+                "allowedVariants": [
+                    "small",
+                    "medium"
+                ]
+            },
+            "F": {
+                "type": "item",
+                "code": "game:fat"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-long",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_FT,BLT,_FT",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bowstave-long-dry"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:hide-pelt-*",
+                "allowedVariants": [
+                    "small",
+                    "medium"
+                ]
+            },
+            "F": {
+                "type": "item",
+                "code": "game:resin"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-long",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "_FT,BLT,_FT",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bowstave-long-dry"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:hide-pelt-*",
+                "allowedVariants": [
+                    "small",
+                    "medium"
+                ]
+            },
+            "F": {
+                "type": "item",
+                "code": "game:beeswax"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-long",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "MFT,BLT,MFT",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bowstave-recurve-dry"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:bone"
+            },
+            "M": {
+                "type": "item",
+                "code": "game:bushmeat-raw"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bow-recurve",
+            "quantity": 1
+        }
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "op": "replace",
+        "path": "/2/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/hunter.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "hidesandfabric"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/3/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/hunter.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "hidesandfabric"
+            }
+        ],
+        "side": "Server"
+    }
+]

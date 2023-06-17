@@ -1,0 +1,44 @@
+[
+    {
+        "ingredientPattern": "TS_,GGG,GGG",
+        "enabled": false,
+        "ingredients": {
+            "G": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "name": "metal",
+                "allowedVariants": [
+                    "bismuth",
+                    "brass",
+                    "chromium",
+                    "meteoriciron",
+                    "molybdochalkos",
+                    "platinum",
+                    "nickel",
+                    "stainlesssteel",
+                    "tin",
+                    "titanium",
+                    "uranium",
+                    "zinc"
+                ]
+            },
+            "S": {
+                "type": "item",
+                "code": "game:solderbar-*",
+                "quantity": 6
+            },
+            "T": {
+                "type": "Item",
+                "code": "game:solderingiron",
+                "isTool": true
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-new-plain-{metal}",
+            "quantity": 1
+        }
+    }
+]

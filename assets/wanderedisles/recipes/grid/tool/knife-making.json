@@ -1,0 +1,172 @@
+[
+	{
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:knifeblade-*",
+                "name": "material",
+                "allowedVariants": [
+                    "chert",
+                    "granite",
+                    "andesite",
+                    "basalt",
+                    "obsidian",
+                    "flint",
+                    "peridotite"
+                ]
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:knife-generic-{material}",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "T,B",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:knifeblade-granite"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bone"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:knife-generic-bonegranite",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "T,B",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:knifeblade-andesite"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bone"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:knife-generic-boneandesite",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "T,B",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:knifeblade-obsidian"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bone"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:knife-generic-boneobsidian",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "T,B",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:knifeblade-peridotite"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bone"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:knife-generic-boneperidotite",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "T,B",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:knifeblade-chert"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bone"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:knife-generic-bonechert",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "T,B",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:knifeblade-flint"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bone"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:knife-generic-boneflint",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "T,B",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:knifeblade-basalt"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bone"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:knife-generic-bonebasalt",
+            "quantity": 1
+        }
+    }
+]

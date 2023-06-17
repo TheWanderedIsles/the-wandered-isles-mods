@@ -1,0 +1,356 @@
+[
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "medieval:colorpowder-blue",
+                "quantity": 10
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 2
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "hideandfabric:fabric-cotton-*",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 20
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "hideandfabric:fabric-jute-normal-down",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 20
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "hideandfabric:fabric-wool-*",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 20
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:twine-*",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 4
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:cloth-wool-mordant",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 84
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:cloth-cotton-mordant",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 84
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:sack-*",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 32
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:cloth-cotton-*",
+                "name": "color",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "purple",
+                    "yellow",
+                    "brown",
+                    "pink",
+                    "orange",
+                    "gray",
+                    "black",
+                    "white"
+                ],
+                "quantity": 2
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:cloth-wool-*",
+                "name": "color",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "purple",
+                    "yellow",
+                    "brown",
+                    "pink",
+                    "orange",
+                    "gray",
+                    "black",
+                    "white"
+                ],
+                "quantity": 2
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 6
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "ABC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "A": {
+                "type": "Item",
+                "code": "hideandfabric:cottonarmor-head-tailored-*",
+                "name": "color",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "purple",
+                    "yellow",
+                    "brown",
+                    "pink",
+                    "orange",
+                    "gray",
+                    "black",
+                    "white"
+                ]
+            },
+            "B": {
+                "type": "Item",
+                "code": "hideandfabric:cottonarmor-body-tailored-*",
+                "name": "color",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "purple",
+                    "yellow",
+                    "brown",
+                    "pink",
+                    "orange",
+                    "gray",
+                    "black",
+                    "white"
+                ]
+            },
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:cottonarmor-legs-tailored-*",
+                "name": "color",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "purple",
+                    "yellow",
+                    "brown",
+                    "pink",
+                    "orange",
+                    "gray",
+                    "black",
+                    "white"
+                ]
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 15
+        }
+    },
+    {
+        "enabled": false,
+        "ingredientPattern": "ABC",
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "A": {
+                "type": "Item",
+                "code": "hideandfabric:woolarmor-head-tailored-*",
+                "name": "color",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "purple",
+                    "yellow",
+                    "brown",
+                    "pink",
+                    "orange",
+                    "gray",
+                    "black",
+                    "white"
+                ]
+            },
+            "B": {
+                "type": "Item",
+                "code": "hideandfabric:woolarmor-body-tailored-*",
+                "name": "color",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "purple",
+                    "yellow",
+                    "brown",
+                    "pink",
+                    "orange",
+                    "gray",
+                    "black",
+                    "white"
+                ]
+            },
+            "C": {
+                "type": "Item",
+                "code": "hideandfabric:woolarmor-legs-tailored-*",
+                "name": "color",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "purple",
+                    "yellow",
+                    "brown",
+                    "pink",
+                    "orange",
+                    "gray",
+                    "black",
+                    "white"
+                ]
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 15
+        }
+    }
+]

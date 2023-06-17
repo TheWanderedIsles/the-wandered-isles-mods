@@ -1,0 +1,161 @@
+[
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:log-placed-*",
+                "quantity": 16
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:firewood",
+                "quantity": 32
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:bowstave-long-dry"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:bowstave-recurve-dry"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:charcoal",
+                "quantity": 32
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 28
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 64
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 64
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 6
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:planks-*",
+                "quantity": 32
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 64
+        }
+    },
+    {
+        "ingredientPattern": "_C_",
+        "requiresTrait": "Woodworker",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:door-2x4gate-*"
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 16
+        }
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "ingredientPattern": "\"FF\tF_\"",
+        "requiresTrait": "Clothier",
+        "enabled": false,
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "hideandfabric:fibers-wool",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "hideandfabric:twine-wool",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "\"FF\tF_\"",
+        "enabled": false,
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "hideandfabric:fibers-jute",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "hideandfabric:twine-jute",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "\"FF\tF_\"",
+        "enabled": false,
+        "requiresTrait": "Clothier",
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "hideandfabric:fibers-cotton",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "hideandfabric:twine-cotton",
+            "quantity": 2
+        }
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/smith.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "tonwexp"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/smith.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "tonwexp"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/2/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/smith.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "tonwexp"
+            }
+        ],
+        "side": "Server"
+    }
+]

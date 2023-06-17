@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Solid door",
+        "ingredientPattern": "WWB,WW_,WWB",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "quantity": 2
+            },
+            "B": {
+                "type": "Item",
+                "code": "hammersringingfall:hinge-*",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:door-solid-{wood}"
+        }
+    },
+    {
+        "name": "1x3 gate",
+        "ingredientPattern": "BWW,_WW,BWW",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "quantity": 4
+            },
+            "B": {
+                "type": "Item",
+                "code": "hammersringingfall:hinge-*",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "Block",
+            "code": "game:door-1x3gate-{wood}"
+        }
+    },
+    {
+        "name": "2x2 gate",
+        "ingredientPattern": "B__,WWW,WWW",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "quantity": 6
+            },
+            "B": {
+                "type": "Item",
+                "code": "hammersringingfall:hinge-*",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "door-2x2gate-{wood}"
+        }
+    },
+    {
+        "name": "2x4 gate",
+        "ingredientPattern": "WW_,WWB,WW_",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "quantity": 8
+            },
+            "B": {
+                "type": "Item",
+                "code": "hammersringingfall:hinge-*",
+                "quantity": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:door-2x4gate-{wood}"
+        }
+    },
+    {
+        "name": "Solid door",
+        "ingredientPattern": "WWB,WWS,WWB",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "quantity": 2
+            },
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "B": {
+                "type": "Item",
+                "code": "hammersringingfall:hinge-*",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "Block",
+            "code": "game:door-sleek-windowed-{wood}"
+        }
+    }
+]
