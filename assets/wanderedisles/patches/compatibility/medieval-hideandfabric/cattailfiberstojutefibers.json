@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/clothes/cattailfiberstojutefibers.json",
+        "dependsOn": [
+            {
+                "modid": "medieval"
+            },
+            {
+                "modid": "hideandfabric"
+            }
+        ],
+        "side": "Server"
+    }
+]
