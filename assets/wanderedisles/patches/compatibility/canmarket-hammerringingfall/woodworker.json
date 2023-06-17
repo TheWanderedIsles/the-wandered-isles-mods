@@ -1,0 +1,47 @@
+[
+    {
+        "op": "replace",
+        "path": "/5/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/woodworker.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "hammerringingfall"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/6/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/woodworker.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "hammerringingfall"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/7/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/woodworker.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "hammerringingfall"
+            }
+        ],
+        "side": "Server"
+    }
+]

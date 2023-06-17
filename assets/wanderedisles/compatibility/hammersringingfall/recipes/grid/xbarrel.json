@@ -1,0 +1,28 @@
+[
+    {
+        "ingredientPattern": "SPS,NPN,SPS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick",
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "quantity": 2
+            },
+            "N": {
+                "type": "Item",
+                "code": "hammersringingfall:metalband-*",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:barrel"
+        }
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "op": "replace",
+        "path": "/3/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/smith.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "hammersringingfall"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/4/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/smith.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "hammersringingfall"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/5/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/smith.json",
+        "dependsOn": [
+            {
+                "modid": "hammersringingfall"
+            },
+            {
+                "modid": "tonwexp"
+            }
+        ],
+        "side": "Server"
+    }
+    ,
+    {
+        "op": "replace",
+        "path": "/6/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/smith.json",
+        "dependsOn": [
+            {
+                "modid": "hammersringingfall"
+            },
+            {
+                "modid": "tonwexp"
+            }
+        ],
+        "side": "Server"
+    }
+]

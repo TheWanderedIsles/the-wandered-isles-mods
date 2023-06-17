@@ -1,0 +1,102 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "RT,BS",
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:metalband-*"
+    },
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:rivet-*",
+      "quantity": 2
+    },
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "hammersringingfall:toolhaft-medium-finished",
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/type",
+    "value": "Item",
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/T/allowedVariants",
+    "value": [
+      "copper",
+      "tinbronze",
+      "bismuthbronze",
+      "blackbronze",
+      "silver",
+      "gold",
+      "iron",
+      "meteoriciron",
+      "steel"
+    ],
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/T/code",
+    "value": "game:prospectingpickhead-*",
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/output/quantity",
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/output/name",
+    "value": "metal",
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "game:prospectingpick-*",
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/output/type",
+    "value": "Item",
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 2,
+    "file": "game:recipes/grid/prospectingpick.json",
+    "side": "Server"
+  }
+]

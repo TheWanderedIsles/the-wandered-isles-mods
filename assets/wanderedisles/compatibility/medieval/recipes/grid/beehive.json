@@ -1,0 +1,20 @@
+{
+    "ingredientPattern": "_Y_,YTY,_Y_",
+    "ingredients": {
+        "T": {
+            "type": "block",
+            "code": "game:storagevessel-burned"
+        },
+        "Y": {
+            "type": "item",
+            "code": "medieval:colorpowder-yellow",
+            "quantity": 4
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "block",
+        "code": "game:storagevessel-beehive"
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "ingredientPattern": "_NC,_S_,S__",
+        "ingredients": {
+            "S": {
+                "type": "Item",
+                "code": "hammersringingfall:toolhaft-medium-finished"
+            },
+            "N": {
+                "type": "item",
+                "code": "hammersringingfall:metalband-copper",
+                "quantity": 4
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "name": "net",
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:bugnet-copper"
+        }
+    }
+]

@@ -1,0 +1,603 @@
+[
+    {
+        "ingredientPattern": "CC,__,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "game:clay-*",
+                "quantity": 32
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:peatbrick",
+                "quantity": 32
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-burned",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 16
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:hardenedclay-*",
+                "quantity": 8
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "game:burnedbrick-*",
+                "quantity": 8
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:clayoven-north"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 3
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:bowl-fired",
+                "quantity": 4
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "AA,AA",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "A": {
+                "type": "Block",
+                "code": "game:toolmold-burned-*",
+                "quantity": 2
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:ingotmold-burned",
+                "quantity": 6
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:crystal-*-large1-up"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:crystal-*-large2-up"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-ashforest",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-beehive",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-chthonic",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-copper",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-cowrie",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-earthen",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-harvest",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-honeydew",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-loam",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-oxblood",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-rain",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-rime",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-rutile",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-seasalt",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-springflowers",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-undergrowth",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:storagevessel-volcanic",
+                "attributes": {
+                    "type": "normal"
+                }
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "C,C",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Item",
+                "code": "game:shingle-burned-*",
+                "quantity": 8
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-copper",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:glass-plain",
+                "quantity": 30
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 12
+        }
+    },
+    {
+        "ingredientPattern": "CC,CC",
+        "requiresTrait": "Artisan",
+        "ingredients": {
+            "C": {
+                "type": "Block",
+                "code": "game:glass-*",
+                "name": "glasscolor",
+                "allowedVariants": [
+                    "red",
+                    "green",
+                    "blue",
+                    "violet",
+                    "yellow",
+                    "brown",
+                    "pink"
+                ],
+                "quantity": 30
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "Item",
+            "code": "canmarket:cangearpayment-silver",
+            "quantity": 24
+        }
+    }
+]

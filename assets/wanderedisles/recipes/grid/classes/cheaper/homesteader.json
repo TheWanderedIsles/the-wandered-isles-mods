@@ -471,7 +471,7 @@
         "quantity": 1
     },
     {
-        "ingredientPattern": "ABC,ASE,_V_",
+        "ingredientPattern": "ABC,AS_,_V_",
         "requiresTrait": "Homesteader",
         "ingredients": {
             "A": {
@@ -492,11 +492,6 @@
             "D": {
                 "type": "Item",
                 "code": "game:eggs",
-                "quantity": 16
-            },
-            "E": {
-                "type": "Item",
-                "code": "game:peanuts",
                 "quantity": 16
             },
             "V": {

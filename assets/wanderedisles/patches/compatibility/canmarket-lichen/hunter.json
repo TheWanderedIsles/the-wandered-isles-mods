@@ -1,0 +1,32 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/hunter.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "lichen"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/hunter.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "lichen"
+            }
+        ],
+        "side": "Server"
+    }
+]

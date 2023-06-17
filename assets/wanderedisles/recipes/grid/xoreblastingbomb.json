@@ -1,0 +1,31 @@
+[
+    {
+        "ingredientPattern": "BCF",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:blastingpowder",
+                "quantity": 16
+            },
+            "C": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 4
+            },
+            "F": {
+                "type": "block",
+                "code": "game:linen-*",
+                "quantity": 4
+            }
+        },
+        "name": "oreblastingbomb",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:oreblastingbomb",
+            "quantity": 16
+        }
+    }
+]

@@ -5,13 +5,13 @@
         "ingredients": [
             {
                 "type": "item",
-                "code": "slakedlimeportion",
+                "code": "game:slakedlimeportion",
                 "litres": 25
             },
             {
                 "type": "block",
-                "code": "sand-*",
-                "quantity": 32,
+                "code": "game:sand-*",
+                "quantity": 1,
                 "name": "sand",
                 "allowedVariants": [
                     "andesite",
@@ -32,8 +32,8 @@
         ],
         "output": {
             "type": "item",
-            "code": "mortar",
-            "stackSize": 256
+            "code": "game:mortar",
+            "stackSize": 350
         }
     }
 ]

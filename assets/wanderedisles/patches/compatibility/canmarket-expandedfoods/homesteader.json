@@ -1,0 +1,32 @@
+[
+    {
+        "op": "replace",
+        "path": "/26/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/homesteader.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/27/enabled",
+        "value": true,
+        "file": "wanderedisles:recipes/grid/classes/trades/homesteader.json",
+        "dependsOn": [
+            {
+                "modid": "canmarket"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ],
+        "side": "Server"
+    }
+]

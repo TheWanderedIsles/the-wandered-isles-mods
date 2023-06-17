@@ -1,0 +1,32 @@
+[
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:hoehead-*",
+                "name": "material",
+                "allowedVariants": [
+                    "granite",
+                    "andesite",
+                    "basalt",
+                    "obsidian",
+                    "peridotite",
+                    "chert",
+                    "flint"
+                ]
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:stick"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:hoe-{material}",
+            "quantity": 1
+        }
+    }
+]

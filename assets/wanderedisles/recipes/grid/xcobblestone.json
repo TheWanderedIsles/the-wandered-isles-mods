@@ -1,0 +1,77 @@
+[
+    {
+        "ingredientPattern": "LLL,LCL,LLL",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:clay-*",
+                "quantity": 8
+            },
+            "L": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "chert",
+                    "conglomerate",
+                    "limestone",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt",
+                    "peridotite",
+                    "phyllite",
+                    "slate",
+                    "bauxite",
+                    "kimberlite",
+                    "suevite",
+                    "whitemarble",
+                    "redmarble",
+                    "greenmarble"
+                ],
+                "quantity": 8
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:cobblestone-{rock}",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "LLL,LCL,LLL",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true
+            },
+            "L": {
+                "type": "block",
+                "code": "game:cobblestone-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt"
+                ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:cobbleskull-{rock}",
+            "quantity": 8
+        }
+    }
+]

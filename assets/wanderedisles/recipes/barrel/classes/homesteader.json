@@ -1,17 +1,17 @@
 [
 	{
-		"code": "curdledmilkportion",
+		"code": "game:curdledmilkportion",
 		"requiresTrait": "Homesteader",
 		"sealHours": 48,
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "milkportion",
+				"code": "game:milkportion",
 				"litres": 25
 			},
 			{
 				"type": "item",
-				"code": "pickledvegetable-*",
+				"code": "game:pickledvegetable-*",
 				"name": "pickledvegetable",
 				"quantity": 1,
 				"allowedVariants": [
@@ -27,7 +27,7 @@
 		],
 		"output": {
 			"type": "item",
-			"code": "curdledmilkportion",
+			"code": "game:curdledmilkportion",
 			"litres": 25
 		}
 	},
@@ -38,17 +38,17 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "curdledmilkportion",
+				"code": "game:curdledmilkportion",
 				"litres": 25
 			},
 			{
 				"type": "item",
-				"code": "salt"
+				"code": "game:salt"
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "cottagecheeseportion",
+			"code": "game:cottagecheeseportion",
 			"litres": 25
 		}
 	},
@@ -59,18 +59,18 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "waterportion",
+				"code": "game:waterportion",
 				"litres": 10
 			},
 			{
 				"type": "item",
-				"code": "flour-spelt",
+				"code": "game:flour-spelt",
 				"quantity": 8
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "ciderportion-spelt",
+			"code": "game:ciderportion-spelt",
 			"litres": 1
 		}
 	},
@@ -81,18 +81,18 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "waterportion",
+				"code": "game:waterportion",
 				"litres": 10
 			},
 			{
 				"type": "item",
-				"code": "flour-rice",
+				"code": "game:flour-rice",
 				"quantity": 8
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "ciderportion-rice",
+			"code": "game:ciderportion-rice",
 			"litres": 1
 		}
 	},
@@ -103,18 +103,18 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "waterportion",
+				"code": "game:waterportion",
 				"litres": 10
 			},
 			{
 				"type": "item",
-				"code": "flour-rye",
+				"code": "game:flour-rye",
 				"quantity": 8
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "ciderportion-rye",
+			"code": "game:ciderportion-rye",
 			"litres": 1
 		}
 	},
@@ -125,18 +125,18 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "waterportion",
+				"code": "game:waterportion",
 				"litres": 10
 			},
 			{
 				"type": "item",
-				"code": "flour-amaranth",
+				"code": "game:flour-amaranth",
 				"quantity": 8
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "ciderportion-amaranth",
+			"code": "game:ciderportion-amaranth",
 			"litres": 1
 		}
 	},
@@ -147,18 +147,18 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "waterportion",
+				"code": "game:waterportion",
 				"litres": 10
 			},
 			{
 				"type": "item",
-				"code": "flour-cassava",
+				"code": "game:flour-cassava",
 				"quantity": 8
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "ciderportion-cassava",
+			"code": "game:ciderportion-cassava",
 			"litres": 1
 		}
 	},
@@ -169,14 +169,14 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "juiceportion-*",
+				"code": "game:juiceportion-*",
 				"name": "fruit",
 				"litres": 10
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "ciderportion-{fruit}",
+			"code": "game:ciderportion-{fruit}",
 			"litres": 10
 		}
 	},
@@ -187,13 +187,13 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "honeyportion",
+				"code": "game:honeyportion",
 				"litres": 10
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "ciderportion-mead",
+			"code": "game:ciderportion-mead",
 			"litres": 1
 		}
 	},
@@ -204,13 +204,13 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "brineportion",
+				"code": "game:brineportion",
 				"litres": 50,
 				"consumeLitres": 50
 			},
 			{
 				"type": "item",
-				"code": "vegetable-*",
+				"code": "game:vegetable-*",
 				"name": "vegetable",
 				"quantity": 50,
 				"allowedVariants": [
@@ -226,7 +226,7 @@
 		],
 		"output": {
 			"type": "item",
-			"code": "pickledvegetable-{vegetable}",
+			"code": "game:pickledvegetable-{vegetable}",
 			"stackSize": 50
 		}
 	},
@@ -237,13 +237,13 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "brineportion",
+				"code": "game:brineportion",
 				"litres": 50,
 				"consumeLitres": 50
 			},
 			{
 				"type": "item",
-				"code": "legume-*",
+				"code": "game:legume-*",
 				"name": "legume",
 				"quantity": 50,
 				"allowedVariants": [
@@ -253,24 +253,24 @@
 		],
 		"output": {
 			"type": "item",
-			"code": "pickledlegume-{legume}",
+			"code": "game:pickledlegume-{legume}",
 			"stackSize": 50
 		}
 	},
 	{
-		"code": "compost",
+		"code": "game:compost",
 		"requiresTrait": "Homesteader",
 		"sealHours": 504,
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "rot",
+				"code": "game:rot",
 				"litres": 64
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "compost",
+			"code": "game:compost",
 			"stackSize": 64
 		}
 	},
@@ -281,13 +281,13 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "waterportion",
+				"code": "game:waterportion",
 				"litres": 50
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "salt",
+			"code": "game:salt",
 			"stackSize": 10
 		}
 	},
@@ -298,13 +298,13 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "brineportion",
+				"code": "game:brineportion",
 				"litres": 10
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "salt",
+			"code": "game:salt",
 			"stackSize": 1
 		}
 	},
@@ -356,19 +356,19 @@
 		"ingredients": [
 			{
 				"type": "item",
-				"code": "waterportion",
+				"code": "game:waterportion",
 				"litres": 50,
 				"consumeLitres": 50
 			},
 			{
 				"type": "item",
-				"code": "cattailroot",
+				"code": "game:cattailroot",
 				"quantity": 10
 			}
 		],
 		"output": {
 			"type": "item",
-			"code": "cattailroot",
+			"code": "game:cattailroot",
 			"stackSize": 15
 		}
 	}
