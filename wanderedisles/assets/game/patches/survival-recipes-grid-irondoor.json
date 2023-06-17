@@ -1,0 +1,33 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "WWH,WWR,WWH",
+    "file": "game:recipes/grid/irondoor.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/H",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:hinge-*"
+    },
+    "file": "game:recipes/grid/irondoor.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:rivet-*",
+      "quantity": 6
+    },
+    "file": "game:recipes/grid/irondoor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "game:recipes/grid/irondoor.json"
+  }
+]

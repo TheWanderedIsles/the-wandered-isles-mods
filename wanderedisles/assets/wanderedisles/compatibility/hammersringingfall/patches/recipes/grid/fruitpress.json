@@ -1,0 +1,42 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "HIF,CBR,PPP",
+    "file": "game:recipes/grid/fruitpress.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": {
+      "type": "Item",
+      "code": "hammersringingfall:metalband-*",
+      "quantity": 2
+    },
+    "file": "game:recipes/grid/fruitpress.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/F/quantity",
+    "value": 2,
+    "file": "game:recipes/grid/fruitpress.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/I/code",
+    "value": "plate-*",
+    "file": "game:recipes/grid/fruitpress.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/P/quantity",
+    "value": 6,
+    "file": "game:recipes/grid/fruitpress.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/R/quantity",
+    "value": 4,
+    "file": "game:recipes/grid/fruitpress.json"
+  }
+]
